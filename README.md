@@ -14,8 +14,8 @@ This is the repository for Dreams01's Roguelike Adventures and Dungeons (RAD). Y
 Get a refreshing feeling as you re-discover new items, or remember those you always forgot existed!
 Be relieved from the stress of gaming with a bit of humor as you read the titles and subtitles of quests, as well as their snazzy new descriptions, which will boast an extra smile or give some helpful insight!
 
-This revamp project was created by our community member @I Mayk Kwuests#6697 so all credits and energy goes to him.
-Special thanks to @Samara#0323 for active template creation!
+This revamp project was created by our community member I Mayk Kwuests#6697 so all credits and energy goes to him.
+Special thanks to Samara#0323 for active template creation!
 
 ## Features of the new update include:
 
