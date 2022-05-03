@@ -1,0 +1,24 @@
+{
+	title: "Magical Mystical Mythical Magician V",
+	x: -4.0d,
+	y: -3.0d,
+	description: "You've done it! You've done it!",
+	text: [
+		"What did you do?",
+		"",
+		"Enchant 25,000 items."
+	],
+	tasks: [{
+		uid: "38d59065",
+		type: "stat",
+		title: "Enchant 25,000 items",
+		icon: "minecraft:enchanting_table",
+		stat: "stat.itemEnchanted",
+		value: 25000
+	}],
+	rewards: [{
+		uid: "130bc732",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	}]
+}

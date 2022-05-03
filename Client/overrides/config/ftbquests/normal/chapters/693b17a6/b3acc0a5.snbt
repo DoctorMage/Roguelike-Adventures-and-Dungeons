@@ -1,0 +1,27 @@
+{
+	title: "Fisherman's Man's Man IV",
+	x: -7.0d,
+	y: -2.0d,
+	description: "Are there any left to catch?",
+	text: [
+		"Catch 50,000 fish."
+	],
+	tasks: [{
+		uid: "ce4eb73e",
+		type: "stat",
+		title: "Catch 50,000 fish",
+		icon: "minecraft:fishing_rod",
+		stat: "stat.fishCaught",
+		value: 50000
+	}],
+	rewards: [{
+		uid: "849252c8",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "dff366ae",
+		type: "xp_levels",
+		xp_levels: 150
+	}]
+}

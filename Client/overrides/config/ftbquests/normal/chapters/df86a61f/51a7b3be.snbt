@@ -1,0 +1,31 @@
+{
+	title: "Don't Get Thanos'd",
+	x: 1.5d,
+	y: -10.5d,
+	description: "I'll snatch yo forehead off",
+	text: [
+		"I ain't afraid of you.",
+		"",
+		"I can see in the dark."
+	],
+	dependencies: [
+		"efbea43d"
+	],
+	tasks: [{
+		uid: "dc49a896",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:glowing_helmet",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f7420d12",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

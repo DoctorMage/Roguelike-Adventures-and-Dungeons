@@ -1,0 +1,27 @@
+{
+	title: "Intermediary Mediator",
+	x: 0.0d,
+	y: -3.0d,
+	description: "This isn't fixing anything",
+	text: [
+		"Craft some Interemedium Essence."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "edf2acec",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "003b5b3c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "38835eef",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

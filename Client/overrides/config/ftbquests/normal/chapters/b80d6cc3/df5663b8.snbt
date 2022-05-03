@@ -1,0 +1,29 @@
+{
+	title: "Drop It Low",
+	x: 7.5d,
+	y: -1.0d,
+	description: "Don't hurt your back, now",
+	text: [
+		"Just... drops it..."
+	],
+	dependencies: [
+		"3756e9bc"
+	],
+	tasks: [{
+		uid: "1e3dc26c",
+		type: "item",
+		items: [{
+			item: "embers:item_dropper"
+		}]
+	}],
+	rewards: [{
+		uid: "0dc0d645",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "d5199c66",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

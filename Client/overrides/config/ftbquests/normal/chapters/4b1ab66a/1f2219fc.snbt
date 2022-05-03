@@ -1,0 +1,21 @@
+{
+	x: -0.5d,
+	y: -13.0d,
+	tasks: [{
+		uid: "0bb449c8",
+		type: "item",
+		items: [{
+			item: "harvestcraft:walnut_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "1cc6ab10",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "9b01bf8e",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

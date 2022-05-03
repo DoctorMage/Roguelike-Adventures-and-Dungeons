@@ -1,0 +1,26 @@
+{
+	title: "Rekting Ball III",
+	x: -8.5d,
+	y: -1.0d,
+	description: "You're a powerhouse!",
+	text: [
+		"Deal 500,000 damage."
+	],
+	tasks: [{
+		uid: "992382a5",
+		type: "stat",
+		title: "Deal 500,000 damage",
+		stat: "stat.damageDealt",
+		value: 500000
+	}],
+	rewards: [{
+		uid: "a2bd1bb6",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "d0cec03a",
+		type: "xp_levels",
+		xp_levels: 15
+	}]
+}

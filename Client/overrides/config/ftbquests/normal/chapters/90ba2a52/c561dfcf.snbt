@@ -1,0 +1,16 @@
+{
+	title: "Worse Than Tremors",
+	x: 1.0d,
+	y: 9.5d,
+	description: "To the windows, to the walls!",
+	text: [
+		"Stomp 100 Sludge Worms."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "f4c27455",
+		type: "kill",
+		entity: "thebetweenlands:large_sludge_worm",
+		value: 100L
+	}]
+}

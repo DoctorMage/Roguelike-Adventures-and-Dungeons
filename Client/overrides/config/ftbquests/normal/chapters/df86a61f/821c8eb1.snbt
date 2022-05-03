@@ -1,0 +1,23 @@
+{
+	title: "Dim The Dimmer, Baby",
+	x: -27.5d,
+	y: 17.0d,
+	description: "I wish I had a baby... wait",
+	text: [
+		"The Variable Redstone Lamp will dim and brighten within decreasing and increasing Redstone signals.",
+		"",
+		"You can create a breathing lightsource with this, if you know how!"
+	],
+	tasks: [{
+		uid: "03012d47",
+		type: "item",
+		items: [{
+			item: "charm:variable_redstone_lamp"
+		}]
+	}],
+	rewards: [{
+		uid: "e22dfac1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

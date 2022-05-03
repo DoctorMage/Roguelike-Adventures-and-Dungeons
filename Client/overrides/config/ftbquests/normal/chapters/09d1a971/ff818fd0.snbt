@@ -1,0 +1,25 @@
+{
+	x: 1.0d,
+	y: 2.0d,
+	dependencies: [
+		"59a6bde2"
+	],
+	tasks: [{
+		uid: "a117f6a5",
+		type: "item",
+		items: [{
+			item: "vc:upgrades/item_upgrade_airship_engine 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a714def3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "0721ca69",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

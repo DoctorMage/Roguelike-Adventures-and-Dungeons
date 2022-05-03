@@ -1,0 +1,18 @@
+{
+	title: "Impeccable Aim",
+	x: -5.5d,
+	y: 10.5d,
+	description: "How does it stick every time?",
+	text: [
+		"You have to practice this when you're at home or something?",
+		"",
+		"No one is just that good at this..."
+	],
+	tasks: [{
+		uid: "701837e8",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:ender_torch"
+		}]
+	}]
+}

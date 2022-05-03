@@ -1,0 +1,16 @@
+{
+	title: "Buy A Silver Coin",
+	x: 0.5d,
+	y: -1.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "a06a484b",
+		type: "ftbmoney:money",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "9684362f",
+		type: "item",
+		item: "ordinarycoins:coinsilver"
+	}]
+}

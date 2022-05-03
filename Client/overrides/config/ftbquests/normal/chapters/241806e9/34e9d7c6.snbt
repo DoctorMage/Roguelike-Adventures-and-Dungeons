@@ -1,0 +1,255 @@
+{
+	title: "BONK",
+	x: -1.5d,
+	y: -1.0d,
+	description: "BONK AGAIN",
+	text: [
+		"The club can be used to disarm opponents."
+	],
+	dependencies: [
+		"a4636105"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "ccbbe911",
+		type: "item",
+		items: [{
+			id: "dungeontactics:wooden_club",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "906d47ec",
+		type: "item",
+		items: [{
+			id: "dungeontactics:bone_club",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 4339058921794716348L,
+						UUIDLeast: -6399443566287220421L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 8016947148570445214L,
+						UUIDLeast: -6154562362058916438L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 6994540011629200921L,
+						UUIDLeast: -8849752071197012261L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broad.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4409944f",
+		type: "item",
+		items: [{
+			id: "dungeontactics:stone_club",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bd9dceb5",
+		type: "item",
+		items: [{
+			id: "dungeontactics:iron_club",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 7398654263154853259L,
+						UUIDLeast: -5006034967631207320L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -6091803014027656129L,
+						UUIDLeast: -5752594516957645930L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.keen.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "00b02be3",
+		type: "item",
+		items: [{
+			id: "dungeontactics:silver_club",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -6188840376544771601L,
+						UUIDLeast: -7219187446134585622L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -8673566893724318184L,
+						UUIDLeast: -7258363122151150460L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.keen.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "975ac9f4",
+		type: "item",
+		items: [{
+			id: "dungeontactics:golden_club",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 7151457559576595991L,
+						UUIDLeast: -8391697483482654784L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.sharp.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d07931b6",
+		type: "item",
+		items: [{
+			id: "dungeontactics:steel_club",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 4706080223905071402L,
+						UUIDLeast: -5401151587155190049L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 3981869880066854384L,
+						UUIDLeast: -5456800013493182081L,
+						Amount: -0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.vicious.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8116eb1c",
+		type: "item",
+		items: [{
+			id: "dungeontactics:diamond_club",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f406366c",
+		type: "item",
+		items: [{
+			id: "dungeontactics:mithril_club",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 8165249365745091785L,
+						UUIDLeast: -8480607242861434236L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broken.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1e0d48a7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "cb540031",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

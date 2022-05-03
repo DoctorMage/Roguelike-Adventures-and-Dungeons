@@ -1,0 +1,46 @@
+{
+	title: "For Peat Sake!",
+	x: -0.5d,
+	y: -16.0d,
+	description: "We need more Peat, Pete!",
+	text: [
+		"Peter Piper Picked A Pickled Peat Pepper.",
+		"",
+		"The Peat Farmer will automatically place and harvest a Peat Bog, when supplied with Dry Peat and Water.",
+		"",
+		"Saturated Peat will automatically be broken, but not collected. You must also collect the dropped Peat, somehow.",
+		"",
+		"The Peat Burner will turn Peat into Forge Energy, or FE.",
+		"",
+		"The Peat Burner must be placed next to an object that requires FE for it to be activated.",
+		"",
+		"You can also charge batteries, and You can also charge a Battery, and place it next to objects which require Forge Energy."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ac89155a",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:peat_farm"
+		}]
+	},
+	{
+		uid: "ec17de43",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:peat_generator"
+		}]
+	},
+	{
+		uid: "c46df731",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:peat_fuel"
+		}]
+	}],
+	rewards: [{
+		uid: "732887a2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

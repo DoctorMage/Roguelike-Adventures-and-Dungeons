@@ -1,0 +1,39 @@
+{
+	title: "The Imbowment Station",
+	x: 8.0d,
+	y: -10.0d,
+	description: "I'm not full of myself, I swear",
+	text: [
+		"This device will allow you to \"enchant\" your bow with some crazy powers.",
+		"",
+		"Putting your bow into the Imbuement Station with these items will yield the following effects:",
+		"",
+		"Blaze Powder - Fire",
+		"",
+		"Spider Eye - Poison",
+		"",
+		"Feather - Levitating",
+		"",
+		"TNT - Explosive",
+		"",
+		"Glass - Invisibility",
+		"",
+		"Soul Sand - Slowness",
+		"",
+		"Torch - Glowing",
+		"",
+		"Each effect is mutually exclusive. You can only have one."
+	],
+	tasks: [{
+		uid: "5413d16b",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:imbuer"
+		}]
+	}],
+	rewards: [{
+		uid: "cacef402",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

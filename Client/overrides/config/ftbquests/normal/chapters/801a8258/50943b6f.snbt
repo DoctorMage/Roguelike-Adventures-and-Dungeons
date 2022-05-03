@@ -1,0 +1,19 @@
+{
+	title: "Worst Jerky Ever",
+	x: -3.5d,
+	y: 6.5d,
+	description: "This is way too tough",
+	text: [
+		"Will turn certain commodities into other certain commodities. Very useful."
+	],
+	dependencies: [
+		"0a7ca16a"
+	],
+	tasks: [{
+		uid: "c2602c7c",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:dehydrator"
+		}]
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 27.0d,
+	y: -5.0d,
+	tasks: [{
+		uid: "221e127a",
+		type: "item",
+		items: [{
+			item: "iceandfire:cockatrice_eye"
+		}]
+	}]
+}

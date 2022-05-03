@@ -1,0 +1,27 @@
+{
+	title: "Just Like The Warlocks Make!",
+	x: -10.5d,
+	y: -15.0d,
+	description: "Be sure to give it to the Healer!",
+	text: [
+		"Wow, you put it on the Tank.... okay... so no rez?",
+		"",
+		"Everyone walk back, I guess.",
+		"",
+		"Some of you know my pain..."
+	],
+	tasks: [{
+		uid: "298f7bc1",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:soulstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9391acd7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

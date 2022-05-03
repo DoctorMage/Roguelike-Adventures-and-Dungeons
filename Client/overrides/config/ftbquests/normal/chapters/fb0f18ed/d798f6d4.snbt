@@ -1,0 +1,40 @@
+{
+	title: "3021",
+	x: -2.5d,
+	y: -5.5d,
+	description: "This is the height of technology",
+	text: [
+		"You're going to need a Cartographer, and the special maps from Openblocks to get this working.",
+		"",
+		"Use the Cartographer and Shift Right-Click it with a map, giving it the map to hold. Shift Right-Click to remove the map. Left-Click your Cartographer to place it back into your inventory.",
+		"",
+		"With this Cartographer, take him around to explore the map he has. Once the map is finished, it will blink green instead of remain dormant.",
+		"",
+		"Place the map into the Height Map Projector and bam, future tech. Awesome map rooms galore."
+	],
+	tasks: [{
+		uid: "11c0752c",
+		type: "item",
+		items: [{
+			item: "openblocks:projector"
+		}]
+	},
+	{
+		uid: "1e3a054e",
+		type: "item",
+		items: [{
+			item: "openblocks:cartographer"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d956958e",
+		type: "item",
+		items: [{
+			id: "openblocks:empty_map",
+			tag: {
+				Scale: 0b
+			}
+		}]
+	}]
+}

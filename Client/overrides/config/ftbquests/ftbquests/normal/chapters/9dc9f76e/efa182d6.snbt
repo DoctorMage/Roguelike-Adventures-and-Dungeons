@@ -1,0 +1,47 @@
+{
+	title: "NOT ROCKS",
+	x: -9.0d,
+	y: -10.0d,
+	description: "Or something, whatever.",
+	text: [
+		"Titanium is all you need. But I'm gonna make you get all of these. Yup. "
+	],
+	dependencies: [
+		"90e8e624"
+	],
+	tasks: [{
+		uid: "d28a4010",
+		type: "item",
+		items: [{
+			item: "better_diving:titanium"
+		}]
+	},
+	{
+		uid: "91f7edd0",
+		type: "item",
+		items: [{
+			item: "better_diving:copper_ore"
+		}]
+	},
+	{
+		uid: "f8418f6d",
+		type: "item",
+		items: [{
+			item: "better_diving:silver_ore"
+		}]
+	},
+	{
+		uid: "48ac3d0d",
+		type: "item",
+		items: [{
+			item: "better_diving:lead"
+		}]
+	},
+	{
+		uid: "49bff623",
+		type: "item",
+		items: [{
+			item: "better_diving:gold"
+		}]
+	}]
+}

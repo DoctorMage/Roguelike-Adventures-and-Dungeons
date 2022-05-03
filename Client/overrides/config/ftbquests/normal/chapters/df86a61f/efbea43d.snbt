@@ -1,0 +1,45 @@
+{
+	title: "Grapes To Oranges",
+	x: 2.0d,
+	y: -9.0d,
+	description: "You still can't compare them?!",
+	text: [
+		"I hate that phrase.",
+		"",
+		"Now make some Crystallized Obsidian, and Amber."
+	],
+	dependencies: [
+		"be7868d4"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "c08cc5e7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gemObsidian",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gemObsidian"
+				}
+			}
+		}]
+	},
+	{
+		uid: "a4de606c",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:crystallized_amber"
+		}]
+	}],
+	rewards: [{
+		uid: "bd636f45",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,63 @@
+{
+	title: "Phantom Armaments",
+	x: 0.5d,
+	y: -9.0d,
+	description: "Vicious weapons for a vicious fight",
+	text: [
+		"Obtain or craft the armaments of the Knight Phantom."
+	],
+	dependencies: [
+		"752838d8"
+	],
+	tasks: [{
+		uid: "8d36c6b1",
+		type: "item",
+		items: [{
+			item: "twilightforest:knightmetal_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c2e8a2d2",
+		type: "item",
+		items: [{
+			item: "twilightforest:knightmetal_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b104acd8",
+		type: "item",
+		items: [{
+			item: "twilightforest:knightmetal_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c63b667d",
+		type: "item",
+		items: [{
+			item: "twilightforest:block_and_chain"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8755e50b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "9c06fa30",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "57893dce",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

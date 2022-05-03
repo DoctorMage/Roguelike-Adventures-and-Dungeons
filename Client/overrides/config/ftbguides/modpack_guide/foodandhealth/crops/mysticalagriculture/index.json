@@ -1,0 +1,27 @@
+[
+ {
+  "id": "inferiumseeds",
+  "title": "Inferium Seeds",
+  "icon": "item:mysticalagriculture:crafting"
+ },
+ {
+  "id": "resourceseeds",
+  "title": "Resource Seeds",
+  "icon": "item:mysticalagriculture:octine_seeds"
+ },
+ {
+  "id": "mobchunks",
+  "title": "Mob Chunks & Mob Seeds",
+  "icon": "item:mysticalagriculture:chunk"
+ },
+ {
+  "id": "miscitems",
+  "title": "Misc. Items",
+  "icon": "item:mysticalagriculture:watering_can"
+ },
+{
+  "id": "whatshouldyougrow",
+  "title": "The Best Crops And Why To Grow Them",
+  "icon": "item:mysticalagriculture:nature_crop"
+ }
+]

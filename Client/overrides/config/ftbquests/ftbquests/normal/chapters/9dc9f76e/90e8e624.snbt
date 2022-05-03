@@ -1,0 +1,25 @@
+{
+	title: "THEY'RE MINERALS",
+	x: -9.0d,
+	y: -9.0d,
+	description: "Or something, whatever.",
+	text: [
+		"You'll find Titanium in the Limestone outcrops. Other ores you need can be substituted with what versions you find underground.",
+		"",
+		"Can be found in Oceans."
+	],
+	tasks: [{
+		uid: "091bd9ee",
+		type: "item",
+		items: [{
+			item: "better_diving:sandstone_outcrop"
+		}]
+	},
+	{
+		uid: "139ab9b2",
+		type: "item",
+		items: [{
+			item: "better_diving:limestone_outcrop"
+		}]
+	}]
+}

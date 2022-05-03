@@ -1,0 +1,21 @@
+{
+	title: "Pete's Peat",
+	x: -1.5d,
+	y: 4.0d,
+	description: "He had a secret recipe",
+	text: [
+		"Burns better than normal Peat.",
+		"",
+		"Investment into a higher efficiency fuel is recommended when you can provide the resources."
+	],
+	dependencies: [
+		"0a7ca16a"
+	],
+	tasks: [{
+		uid: "3f27b365",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:peat_fuel_enriched"
+		}]
+	}]
+}

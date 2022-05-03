@@ -1,0 +1,92 @@
+{
+	title: "Blue Dragon Scale Helmet +3",
+	icon: "iceandfire:armor_blue_helmet",
+	x: -7.5d,
+	y: 14.0d,
+	text: [
+		"This item has:",
+		"",
+		"+3 Armor Toughness"
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "01e06ed2",
+		type: "item",
+		items: [{
+			id: "iceandfire:armor_blue_helmet",
+			tag: {
+				Quality: {},
+				display: {
+					Lore: [
+						"Enhanced +2"
+					],
+					Name: "Dragon Scale Helmet"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 351745700,
+					Amount: 5,
+					Slot: "head",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 351745800,
+					Amount: 4,
+					Slot: "head",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				}]
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true
+	},
+	{
+		uid: "81a7bb9d",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonscales_blue"
+		}],
+		count: 80L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "36fae017",
+		type: "item",
+		auto: "no_toast",
+		item: {
+			id: "iceandfire:armor_blue_helmet",
+			tag: {
+				Quality: {},
+				display: {
+					Lore: [
+						"Enhanced +3"
+					],
+					Name: "Dragon Scale Helmet"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 351570700,
+					Amount: 5,
+					Slot: "head",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 351570800,
+					Amount: 5,
+					Slot: "head",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				}]
+			}
+		}
+	}]
+}

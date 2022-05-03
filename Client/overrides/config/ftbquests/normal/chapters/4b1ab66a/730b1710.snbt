@@ -1,0 +1,21 @@
+{
+	x: 9.5d,
+	y: -10.0d,
+	tasks: [{
+		uid: "d625309c",
+		type: "item",
+		items: [{
+			item: "harvestcraft:dragonfruit_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "e043cb39",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "09becf93",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

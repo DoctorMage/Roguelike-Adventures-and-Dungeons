@@ -1,0 +1,41 @@
+{
+	title: "Ghast's Hot Sauce",
+	x: 8.5d,
+	y: -8.5d,
+	description: "Taste's like blood",
+	text: [
+		"High in Fe!"
+	],
+	dependencies: [
+		"5bad089c"
+	],
+	tasks: [{
+		uid: "a73317c4",
+		type: "item",
+		items: [{
+			item: "twilightforest:carminite"
+		}]
+	},
+	{
+		uid: "9156dab6",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_tears"
+		}]
+	}],
+	rewards: [{
+		uid: "0b7324e0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "35ca8299",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "f12dc939",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

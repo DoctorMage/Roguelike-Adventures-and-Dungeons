@@ -1,0 +1,67 @@
+{
+	title: "Blue Dragon Scale Helmet +1",
+	icon: "iceandfire:armor_blue_helmet",
+	x: -9.5d,
+	y: 14.0d,
+	text: [
+		"This item has:",
+		"",
+		"+1 Armor Toughness"
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "6ca99670",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_blue_helmet"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b3bfef8e",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonscales_blue"
+		}],
+		count: 15L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a6900a0f",
+		type: "item",
+		team_reward: false,
+		auto: "disabled",
+		item: {
+			id: "iceandfire:armor_blue_helmet",
+			tag: {
+				Quality: {},
+				display: {
+					Lore: [
+						"Enhanced +1"
+					],
+					Name: "Dragon Scale Helmet"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 351444500,
+					Amount: 5,
+					Slot: "head",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 351444600,
+					Amount: 3,
+					Slot: "head",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				}]
+			}
+		}
+	}]
+}

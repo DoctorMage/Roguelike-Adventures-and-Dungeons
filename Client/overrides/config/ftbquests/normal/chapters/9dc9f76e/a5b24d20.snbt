@@ -1,0 +1,144 @@
+{
+	title: "Colossal Chests!",
+	x: -4.0d,
+	y: 0.0d,
+	description: "For when you need MORE",
+	text: [
+		"These Colossal Chests will aid you in storing the massive amounts of materials and items you're going to collect on your adventures.",
+		"",
+		"The Interface can be connected to pipes to enable simple or advanced sorting systems.",
+		"",
+		"You are only required to build the pieces for one type of Colossal Chest to complete this quest."
+	],
+	dependencies: [
+		"5e5e8910"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "e93014d1",
+		type: "item",
+		title: "Wooden Colossal Chest",
+		icon: "colossalchests:chest_wall",
+		items: [{
+			item: "colossalchests:chest_wall"
+		},
+		{
+			item: "colossalchests:colossal_chest"
+		},
+		{
+			item: "colossalchests:interface"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "d0f56067",
+		type: "item",
+		title: "Copper Colossal Chest",
+		icon: "colossalchests:chest_wall 1 1",
+		items: [{
+			item: "colossalchests:chest_wall 1 1"
+		},
+		{
+			item: "colossalchests:colossal_chest 1 1"
+		},
+		{
+			item: "colossalchests:interface 1 1"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "7549b3b7",
+		type: "item",
+		title: "Iron Colossal Chest",
+		icon: "colossalchests:chest_wall 1 2",
+		items: [{
+			item: "colossalchests:chest_wall 1 2"
+		},
+		{
+			item: "colossalchests:colossal_chest 1 2"
+		},
+		{
+			item: "colossalchests:interface 1 2"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "8577c590",
+		type: "item",
+		title: "Silver Colossal Chest",
+		icon: "colossalchests:chest_wall 1 3",
+		items: [{
+			item: "colossalchests:chest_wall 1 3"
+		},
+		{
+			item: "colossalchests:colossal_chest 1 3"
+		},
+		{
+			item: "colossalchests:interface 1 3"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "7d38aa80",
+		type: "item",
+		title: "Golden Colossal Chest",
+		icon: "colossalchests:chest_wall 1 4",
+		items: [{
+			item: "colossalchests:chest_wall 1 4"
+		},
+		{
+			item: "colossalchests:colossal_chest 1 4"
+		},
+		{
+			item: "colossalchests:interface 1 4"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "ddb31046",
+		type: "item",
+		title: "Diamond Colossal Chest",
+		icon: "colossalchests:chest_wall 1 5",
+		items: [{
+			item: "colossalchests:chest_wall 1 5"
+		},
+		{
+			item: "colossalchests:colossal_chest 1 5"
+		},
+		{
+			item: "colossalchests:interface 1 5"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "4d9d069b",
+		type: "item",
+		title: "Obsidian Colossal Chest",
+		icon: "colossalchests:chest_wall 1 6",
+		items: [{
+			item: "colossalchests:chest_wall 1 6"
+		},
+		{
+			item: "colossalchests:colossal_chest 1 6"
+		},
+		{
+			item: "colossalchests:interface 1 6"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "f9d43192",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "9654d018",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "47391868",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

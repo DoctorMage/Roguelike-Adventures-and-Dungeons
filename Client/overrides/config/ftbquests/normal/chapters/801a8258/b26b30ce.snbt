@@ -1,0 +1,21 @@
+{
+	title: "Dewetter",
+	x: -14.5d,
+	y: 10.5d,
+	description: "All dry",
+	text: [
+		"Right-Click to remove liquids around the player. Liquid blocks are not updated, and will float, or flow against nothing.",
+		"",
+		"Left-Click at the ground to switch fluid modes between water, lava and other generic fluids."
+	],
+	tasks: [{
+		uid: "6960191b",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:ender_water",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

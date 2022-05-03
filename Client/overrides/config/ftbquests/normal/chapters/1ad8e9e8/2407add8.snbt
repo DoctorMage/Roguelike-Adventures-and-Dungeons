@@ -1,0 +1,32 @@
+{
+	title: "A Skeleton Key?",
+	x: -12.0d,
+	y: 3.5d,
+	description: "Some demon wants her artifact back...",
+	text: [
+		"Tell her no! Then proceed to do the impossible and break it on your first use!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"26c0736a"
+	],
+	tasks: [{
+		uid: "4a3cc0ba",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:rune_door_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3ba78549",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "278ea9eb",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

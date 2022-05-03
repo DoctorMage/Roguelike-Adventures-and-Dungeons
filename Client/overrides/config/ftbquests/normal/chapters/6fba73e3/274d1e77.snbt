@@ -1,0 +1,23 @@
+{
+	title: "Wait, There's Two?",
+	x: -4.0d,
+	y: -12.0d,
+	description: "I swear I'm not crazy",
+	text: [
+		"Obtain a Tome of Alkahestry from the Shop."
+	],
+	tasks: [{
+		uid: "0259f8c8",
+		type: "item",
+		items: [{
+			item: "xreliquary:alkahestry_tome 1 1001"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3d5f4df6",
+		type: "xp_levels",
+		xp_levels: 100
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Bootleg Spellcasting",
+	x: -6.0d,
+	y: 6.0d,
+	description: "For those who fizzle out",
+	text: [
+		"Refer to The Wizard's Handbook for more information on this item.",
+		"",
+		"Hopefully you're not dead before you read the darn thing."
+	],
+	dependencies: [
+		"44326244"
+	],
+	tasks: [{
+		uid: "6c541e7e",
+		type: "item",
+		items: [{
+			item: "ebwizardry:blank_scroll"
+		}]
+	}],
+	rewards: [{
+		uid: "385f218e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "5d9f2e2e",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "a3dc8ac7",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

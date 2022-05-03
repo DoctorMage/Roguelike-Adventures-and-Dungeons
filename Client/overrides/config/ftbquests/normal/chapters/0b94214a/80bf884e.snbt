@@ -1,0 +1,29 @@
+{
+	x: -3.5d,
+	y: 3.0d,
+	description: "This is how the Canadians do it",
+	text: [
+		"Obtain a Pig Chunk."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"65aaafb5"
+	],
+	tasks: [{
+		uid: "aee06a16",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chunk 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "74891899",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "ff5fdc70",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

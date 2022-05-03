@@ -1,0 +1,13 @@
+{
+	x: 30.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "b37b9da4",
+		type: "item",
+		items: [{
+			item: "iceandfire:hydra_heart"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

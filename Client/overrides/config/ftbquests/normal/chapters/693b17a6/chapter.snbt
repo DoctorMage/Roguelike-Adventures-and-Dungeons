@@ -1,0 +1,7 @@
+{
+	title: "Feats of Strength",
+	icon: "atum:scroll",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

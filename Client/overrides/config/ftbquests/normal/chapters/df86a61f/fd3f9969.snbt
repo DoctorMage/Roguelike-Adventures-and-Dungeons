@@ -1,0 +1,31 @@
+{
+	title: "Bootleg Alchemy",
+	x: -4.5d,
+	y: 5.5d,
+	description: "That skull doesn't look FDA approved",
+	text: [
+		"The Imbuing Station can be used to craft elixirs which imbue the player with on hit effects.",
+		"",
+		"See the JEI menu for recipes.",
+		"",
+		"Fire - Set enemies on fire for 10 seconds.",
+		"",
+		"Poison - Applies Poison II to enemies for 10 seconds.",
+		"",
+		"Experience - Enemies killed drop 50% more experience.",
+		"",
+		"Wither - Applies Wither II to enemies for 5 seconds."
+	],
+	tasks: [{
+		uid: "15c7b24d",
+		type: "item",
+		items: [{
+			item: "randomthings:imbuingstation"
+		}]
+	}],
+	rewards: [{
+		uid: "0e9b149a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Translocation Transportation",
+	x: 0.0d,
+	y: 1.0d,
+	description: "Are we there yet?",
+	text: [
+		"Using these is like using an abusive airline. And those exist. Use with caution, and high armor rating."
+	],
+	dependencies: [
+		"cfd867c1"
+	],
+	tasks: [{
+		uid: "84f880d4",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:ender_pearl_reuse"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5bcd55c8",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:ender_pearl_mounted"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "153f87de",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

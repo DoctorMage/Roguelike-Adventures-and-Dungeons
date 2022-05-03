@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	description: "Luck of the draw or something like that",
+	text: [
+		"Obtain a Rabbit Chunk."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ea6ffcbb"
+	],
+	tasks: [{
+		uid: "7f7d6701",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chunk 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "cfe0f28b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "2726a2ee",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

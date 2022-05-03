@@ -1,0 +1,32 @@
+{
+	title: "Death Worm Egg",
+	x: 16.5d,
+	y: -1.5d,
+	description: "This thing is gonna grow up to be a Devil",
+	text: [
+		"Is it hatching ALREADY?"
+	],
+	tasks: [{
+		uid: "96dcef10",
+		type: "item",
+		items: [{
+			item: "iceandfire:iceandfire.deathworm_egg"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "85bfa730",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "e1ffaaa5",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "51ab6fa3",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

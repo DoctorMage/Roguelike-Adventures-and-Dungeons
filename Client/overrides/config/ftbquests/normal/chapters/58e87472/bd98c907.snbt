@@ -1,0 +1,40 @@
+{
+	title: "Golden Danger Door!",
+	x: -8.0d,
+	y: -7.5d,
+	description: "What is this used for?",
+	text: [
+		"I literally have no idea what the uses for this Door could be.",
+		"",
+		"BUT, the Door does what it says it will. It will keep whichever Pocket it is inside of, loaded.",
+		"",
+		"Upon entering the Golden Door, players are transported to a Dimension Doors Dungeon.",
+		"",
+		"The Golden Dimension Door does NOT produce blank Pockets for players to build inside of."
+	],
+	dependencies: [
+		"32b4735a"
+	],
+	tasks: [{
+		uid: "e6043040",
+		type: "item",
+		items: [{
+			item: "dimdoors:gold_dimensional_door"
+		}]
+	}],
+	rewards: [{
+		uid: "049e8403",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "93c114dd",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "393cdf04",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

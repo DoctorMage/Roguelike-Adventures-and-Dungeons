@@ -1,0 +1,18 @@
+{
+	title: "What's your name?",
+	x: 8.0d,
+	y: 4.0d,
+	description: "Can I take you out? Can I buy you a drink?",
+	text: [
+		"Pushes AND pulls. Highly configurable. ",
+		"",
+		"Does NOT require energy to run!"
+	],
+	tasks: [{
+		uid: "1a7a6daf",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:fan"
+		}]
+	}]
+}

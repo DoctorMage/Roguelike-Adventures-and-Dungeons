@@ -1,0 +1,21 @@
+{
+	title: "The Sheep Shearing Shearer",
+	x: 12.0d,
+	y: -11.5d,
+	description: "AHHHHHHHH AHHHHHHH",
+	text: [
+		"Autoshears the sheep. No Redstone needed."
+	],
+	tasks: [{
+		uid: "f2870e3c",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_shears"
+		}]
+	}],
+	rewards: [{
+		uid: "38dc78e1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

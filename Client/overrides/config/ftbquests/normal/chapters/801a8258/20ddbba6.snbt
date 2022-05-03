@@ -1,0 +1,18 @@
+{
+	title: "DQ In Minecraft",
+	x: -15.0d,
+	y: 11.5d,
+	description: "You can flip it upside down too!",
+	text: [
+		"This item will turn water into ice!"
+	],
+	tasks: [{
+		uid: "b9c8ea64",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:water_freezer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

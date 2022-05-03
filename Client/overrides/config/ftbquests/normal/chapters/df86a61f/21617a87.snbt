@@ -1,0 +1,31 @@
+{
+	title: "I'm watching you!",
+	x: 11.0d,
+	y: -13.0d,
+	description: "Always watching...",
+	text: [
+		"This screen will display stats about whatever block is placed at a GPS Marker's stored location.",
+		"",
+		"Keep in mind, the GPS Marker can only store one block sized locations.",
+		"",
+		"This means, the sensor will only keep track of stats within range of one block, in most cases.",
+		"",
+		"Fluid tanks will only have a single block monitored, meaning you'd need a GPS Marker and a Screen for each Tank block you place.",
+		"",
+		"Double chests can be monitored with a single GPS Marker, and a single screen.",
+		"",
+		"Other applications of this device have not been extensively tested."
+	],
+	tasks: [{
+		uid: "ed8bddbd",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:screen_target"
+		}]
+	}],
+	rewards: [{
+		uid: "02359da0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

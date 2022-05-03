@@ -1,0 +1,67 @@
+{
+	title: "Depth Upgrades",
+	x: -10.5d,
+	y: 3.5d,
+	description: "It doesn't get better than this.",
+	text: [
+		"Add up to five blocks of depth to your tent! Check the JEI menu for the full crafting recipe."
+	],
+	dependencies: [
+		"dd9ababa"
+	],
+	tasks: [{
+		uid: "bfc33615",
+		type: "item",
+		items: [{
+			item: "yurtmod:depth_upgrade_stone"
+		}]
+	},
+	{
+		uid: "dbaa3517",
+		type: "item",
+		items: [{
+			item: "yurtmod:depth_upgrade_iron"
+		}]
+	},
+	{
+		uid: "27cabbe2",
+		type: "item",
+		items: [{
+			item: "yurtmod:depth_upgrade_gold"
+		}]
+	},
+	{
+		uid: "67b19a42",
+		type: "item",
+		items: [{
+			item: "yurtmod:depth_upgrade_obsidian"
+		}]
+	},
+	{
+		uid: "91b4c360",
+		type: "item",
+		items: [{
+			item: "yurtmod:depth_upgrade_diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "e2345ca1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "67ae6274",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "275e48b6",
+		type: "item",
+		item: "minecraft:mycelium"
+	},
+	{
+		uid: "6538668f",
+		type: "item",
+		item: "minecraft:dirt 1 2"
+	}]
+}

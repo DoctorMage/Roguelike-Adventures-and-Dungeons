@@ -1,0 +1,115 @@
+{
+	x: 33.0d,
+	y: -1.5d,
+	dependencies: [
+		"a88c37a1"
+	],
+	tasks: [{
+		uid: "0604f6ae",
+		type: "item",
+		items: [{
+			id: "spartanweaponry:dagger_electrum",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6e424308",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:throwing_axe_electrum"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0f18692f",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:throwing_knife_electrum"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "75ff1894",
+		type: "item",
+		items: [{
+			id: "spartanweaponry:longbow_electrum",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b368f552",
+		type: "item",
+		items: [{
+			id: "spartanweaponry:crossbow_electrum",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dcc6b9ba",
+		type: "item",
+		items: [{
+			id: "spartanweaponry:staff_electrum",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 7184081041037938191L,
+						UUIDLeast: -8248805856550797037L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -4801120067222746673L,
+						UUIDLeast: -8201608087040909775L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.keen.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b03533d3",
+		type: "item",
+		items: [{
+			id: "spartanweaponry:glaive_electrum",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "05b553c0",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "c4410032",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

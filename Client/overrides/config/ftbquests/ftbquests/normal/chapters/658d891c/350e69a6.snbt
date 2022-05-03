@@ -1,0 +1,42 @@
+{
+	title: "White Caterpillars Are The Most Deadly Of Them All",
+	x: 19.0d,
+	y: 2.0d,
+	description: "No touchy touchy!",
+	tasks: [{
+		uid: "bac9f477",
+		type: "item",
+		items: [{
+			item: "iceandfire:deathworm_white_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5193259a",
+		type: "item",
+		items: [{
+			item: "iceandfire:deathworm_white_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0a170291",
+		type: "item",
+		items: [{
+			item: "iceandfire:deathworm_white_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ccc5316d",
+		type: "item",
+		items: [{
+			item: "iceandfire:deathworm_white_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

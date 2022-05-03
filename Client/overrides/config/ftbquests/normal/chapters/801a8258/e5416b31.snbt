@@ -1,0 +1,44 @@
+{
+	title: "Healthy As A Horse",
+	x: -2.5d,
+	y: 15.5d,
+	description: "He ney'ver felt better",
+	text: [
+		"Someone has to take care of them!"
+	],
+	tasks: [{
+		uid: "1dc55f51",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:horse_upgrade_health"
+		}]
+	},
+	{
+		uid: "d22a76e5",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:horse_upgrade_variant"
+		}]
+	},
+	{
+		uid: "44204005",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:horse_upgrade_speed"
+		}]
+	},
+	{
+		uid: "bff7b80d",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:horse_upgrade_jump"
+		}]
+	},
+	{
+		uid: "b66b21e9",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:horse_upgrade_type"
+		}]
+	}]
+}

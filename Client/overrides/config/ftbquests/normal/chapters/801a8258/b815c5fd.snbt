@@ -1,0 +1,21 @@
+{
+	title: "Spidercraft",
+	x: -14.5d,
+	y: 2.5d,
+	description: "Now you just need to shoot webs",
+	text: [
+		"Allows you to climb up any vertical surface.",
+		"",
+		"Cannot be repaired at a normal anvil."
+	],
+	tasks: [{
+		uid: "0296311f",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:glove_climb",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

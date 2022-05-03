@@ -1,0 +1,36 @@
+{
+	title: "The Sponge-ovel",
+	icon: "openblocks:sponge_on_a_stick",
+	x: -27.0d,
+	y: 4.5d,
+	description: "Now we're in business!",
+	text: [
+		"What business is that again?",
+		"",
+		"These are alternatives to vanilla Sponges.",
+		"",
+		"They can be crafted with much more ease."
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "cfe6e944",
+		type: "item",
+		items: [{
+			item: "openblocks:sponge"
+		}]
+	},
+	{
+		uid: "cf6f6ca0",
+		type: "item",
+		items: [{
+			item: "openblocks:sponge_on_a_stick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "98c56f7a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Smelting The Fun Way!",
+	x: 0.5d,
+	y: 3.0d,
+	description: "Ain't much, but it's honest work",
+	text: [
+		"Placing combinations of items into the Melter will give you certain alloys. See the JEI Recipe Menu for more info on materials produced from the Melter.",
+		"",
+		"The Solidifier is used to solidify melted items from the Melter. This is the only way for certain alloys to be turned into materials used for crafting."
+	],
+	tasks: [{
+		uid: "b2f7cdc4",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:melter"
+		}]
+	},
+	{
+		uid: "92a5ab28",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:solidifier"
+		}]
+	}]
+}

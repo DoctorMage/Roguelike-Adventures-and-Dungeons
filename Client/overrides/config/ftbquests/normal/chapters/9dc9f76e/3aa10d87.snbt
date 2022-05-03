@@ -1,0 +1,24 @@
+{
+	title: "How Teams And Team Rewards Work",
+	x: -10.0d,
+	y: -4.0d,
+	text: [
+		"Team Rewards are not particularily awarded to the entire team, when the quest is repeatable. ",
+		"",
+		"Quest rewards are only awarded to a single person when a quest is repeatable. Quest progress is contributed and tracked across an entire team. ",
+		"",
+		"For example, if you need 2500 gold to complete a quest, all members can contribute to the 2,500 gold, but only the individual who contributes the last needed amounts will receive the reward from a completeable quest.",
+		"",
+		"In these circumstances, it is recommended you have ALL materials for a quest before turning it in for completion, this way your progress is never \"stolen\", purposefully or by mistake."
+	],
+	tasks: [{
+		uid: "375fb43f",
+		type: "checkmark",
+		title: "Your dreams don't work till your team does."
+	}],
+	rewards: [{
+		uid: "0a6d80c9",
+		type: "item",
+		item: "minecraft:apple"
+	}]
+}

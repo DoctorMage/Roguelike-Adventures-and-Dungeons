@@ -1,0 +1,36 @@
+{
+	title: "Ninja Style",
+	x: 18.5d,
+	y: -5.0d,
+	description: "Spikes on the floor, a classic blunder",
+	text: [
+		"Craft some Caltrops."
+	],
+	dependencies: [
+		"ffdb1cd1"
+	],
+	tasks: [{
+		uid: "936ab580",
+		type: "item",
+		items: [{
+			item: "dungeontactics:caltrops"
+		}]
+	},
+	{
+		uid: "b2301251",
+		type: "item",
+		items: [{
+			item: "dungeontactics:caltrops_poison"
+		}]
+	}],
+	rewards: [{
+		uid: "60efb72c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "5f8f1651",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

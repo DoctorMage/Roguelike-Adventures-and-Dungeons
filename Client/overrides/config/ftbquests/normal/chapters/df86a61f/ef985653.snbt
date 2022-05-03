@@ -1,0 +1,28 @@
+{
+	title: "Drop N' Unroll",
+	x: -26.0d,
+	y: 9.0d,
+	description: "$19.99/ft",
+	text: [
+		"Placing the Rope Ladder anywhere farther than 1 block above the ground will drop all needed ladders to reach the ground, if they are in your inventory.",
+		"",
+		"Unlike regular ladders, Rope Ladder will traverse across empty block spaces until hitting the floor.",
+		"",
+		"This makes it extra handy in Ravines.",
+		"",
+		"When a Rope Ladder piece is broken, any pieces further below will also break.",
+		""
+	],
+	tasks: [{
+		uid: "9d10d4a6",
+		type: "item",
+		items: [{
+			item: "openblocks:rope_ladder"
+		}]
+	}],
+	rewards: [{
+		uid: "3722147c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

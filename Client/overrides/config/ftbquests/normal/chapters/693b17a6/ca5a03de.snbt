@@ -1,0 +1,21 @@
+{
+	title: "Village Idiot II",
+	x: -11.5d,
+	y: 0.0d,
+	description: "They're lovin' you now!",
+	text: [
+		"Trade with villagers 1,000 times."
+	],
+	tasks: [{
+		uid: "68390fb7",
+		type: "stat",
+		icon: "minecraft:book",
+		stat: "stat.tradedWithVillager",
+		value: 1000
+	}],
+	rewards: [{
+		uid: "0cf88570",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

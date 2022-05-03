@@ -1,0 +1,127 @@
+{
+	title: "Valonite Armaments",
+	x: 15.0d,
+	y: -1.0d,
+	description: "Valorous Valonite knight!",
+	text: [
+		"Craft all of the Valonite armor and tools."
+	],
+	dependencies: [
+		"f013ff53"
+	],
+	tasks: [{
+		uid: "55107af9",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:valonite_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1e77b35f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:valonite_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f4457e2b",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:valonite_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3f4838ff",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:valonite_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "027b7fd4",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:valonite_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "99085a38",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:valonite_greataxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "44ceb5c2",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:valonite_shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d6ac8c7f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:valonite_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5e5cdbef",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:valonite_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "094ae1f3",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:valonite_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dd3f1b34",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sickle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b0c8bbe0",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "0f3f11b8",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "d2bf62a0",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 40",
+		count: 3
+	}]
+}

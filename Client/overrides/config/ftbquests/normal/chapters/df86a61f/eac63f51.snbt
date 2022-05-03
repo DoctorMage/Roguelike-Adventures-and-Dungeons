@@ -1,0 +1,27 @@
+{
+	title: "Bad Balance",
+	x: 22.5d,
+	y: 3.0d,
+	description: "Nope, that's just sand",
+	text: [
+		"So this device destabilizes blocks like Sand...",
+		"",
+		"It will destabilize up to 50 of the SAME block and they must be CONNECTED, and of the same type.",
+		"",
+		"Lazy Mode, or the L, will make the device remember the shape of what it destabilized previously. This makes consecutive runs faster, since it has to scan before it does it's job. Reset the shape with the arrow button.",
+		"",
+		"Fuzzy Mode, or the F, will cause the device to only care about block type and not exact metadata."
+	],
+	tasks: [{
+		uid: "28b4ce17",
+		type: "item",
+		items: [{
+			item: "randomthings:blockdestabilizer"
+		}]
+	}],
+	rewards: [{
+		uid: "d04e1f10",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

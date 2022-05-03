@@ -1,0 +1,36 @@
+{
+	title: "Making Moonshine!",
+	x: 20.5d,
+	y: 7.0d,
+	description: "Dwarven Moonshine",
+	text: [
+		"210 Proof. ",
+		"",
+		"That's right. 105% alcohol. That 5% is from Dwarven engineering."
+	],
+	dependencies: [
+		"091cf380"
+	],
+	tasks: [{
+		uid: "214b1c64",
+		type: "item",
+		items: [{
+			item: "soot:distillation_pipe"
+		}]
+	}],
+	rewards: [{
+		uid: "85d38f75",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "772c9a49",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "6491a680",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "Economics And You!",
+	icon: "ordinarycoins:coingold",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

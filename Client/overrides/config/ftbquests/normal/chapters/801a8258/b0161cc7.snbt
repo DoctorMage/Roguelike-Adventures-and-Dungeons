@@ -1,0 +1,25 @@
+{
+	x: -3.5d,
+	y: 1.5d,
+	text: [
+		"This item may be confusing to use to some individuals.",
+		"",
+		"It's real simple, trust me; Place your Forester in a relatively open area. You can cover your Forester up if you really want to, but this will inhibit its range of functionality.",
+		"",
+		"Power your Forester, put some saplings into your Forester, and it will randomly plant a sapling from within its inventory. Saplings are not consumed when planted by the Forester. The Forester will then destroy leaves, and break logs.",
+		"",
+		"Dropped items from the Forester will need to be collected somehow.",
+		"",
+		"Some saplings cannot be put into the Forester."
+	],
+	dependencies: [
+		"0a7ca16a"
+	],
+	tasks: [{
+		uid: "65d6fed7",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_forester"
+		}]
+	}]
+}

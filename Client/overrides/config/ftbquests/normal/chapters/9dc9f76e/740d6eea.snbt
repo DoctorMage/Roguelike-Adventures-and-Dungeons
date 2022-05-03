@@ -1,0 +1,33 @@
+{
+	title: "At Your Knuckle Tips",
+	x: 3.5d,
+	y: -18.0d,
+	description: "This one sounded better in my head",
+	text: [
+		"Will permanently add a potion effect to your character, when combined with an appropriate potion. ",
+		"",
+		"Must be equipped to be active.",
+		"",
+		"Can be reforged."
+	],
+	dependencies: [
+		"020e073e"
+	],
+	tasks: [{
+		uid: "3aae79ba",
+		type: "item",
+		items: [{
+			item: "extraalchemy:empty_ring"
+		}]
+	}],
+	rewards: [{
+		uid: "a349f678",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1154ed64",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

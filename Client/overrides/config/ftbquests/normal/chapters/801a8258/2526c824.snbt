@@ -1,0 +1,18 @@
+{
+	title: "Super-A's",
+	x: 3.5d,
+	y: 4.0d,
+	description: "You thought Double-A's were expensive?",
+	text: [
+		"It stores energy. Go hook it up to something?",
+		"",
+		"A side of the battery must be configured to output energy. Right-Click to open the menu."
+	],
+	tasks: [{
+		uid: "2933059d",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:battery"
+		}]
+	}]
+}

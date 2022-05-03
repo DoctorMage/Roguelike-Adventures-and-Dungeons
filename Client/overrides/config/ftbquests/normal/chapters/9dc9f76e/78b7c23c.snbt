@@ -1,0 +1,28 @@
+{
+	title: "Acid Mushroom",
+	x: -0.5d,
+	y: -8.5d,
+	description: "Seriously?",
+	text: [
+		"I guess these things make batteries... RPGs sometimes dude...",
+		"",
+		"Can be found in Oceans"
+	],
+	tasks: [{
+		uid: "3cafb023",
+		type: "item",
+		items: [{
+			item: "better_diving:acid_mushroom"
+		}]
+	}],
+	rewards: [{
+		uid: "11650f01",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "0d239b64",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

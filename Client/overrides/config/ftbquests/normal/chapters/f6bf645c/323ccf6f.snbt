@@ -1,0 +1,32 @@
+{
+	title: "The Lion, The Snow Queen, And The Wardrobe",
+	x: 2.0d,
+	y: -14.0d,
+	description: "Narnyuh awaits you",
+	dependencies: [
+		"efccc984"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "6080a1f8",
+		type: "kill",
+		title: "Slay the vicious Snow Queen",
+		entity: "twilightforest:snow_queen",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "afc26d95",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ba60340b",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "fcd47f41",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

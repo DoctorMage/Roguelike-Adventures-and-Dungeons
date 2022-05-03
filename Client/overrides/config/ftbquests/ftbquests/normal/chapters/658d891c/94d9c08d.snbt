@@ -1,0 +1,21 @@
+{
+	title: "Blue Saber",
+	x: 6.5d,
+	y: 5.0d,
+	description: "The other side likes to hate on our cookies!",
+	text: [
+		"You may have better luck cutting through Fire Dragons than Ice Dragons with this thing."
+	],
+	dependencies: [
+		"759597cf"
+	],
+	tasks: [{
+		uid: "46790123",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonbone_sword_ice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

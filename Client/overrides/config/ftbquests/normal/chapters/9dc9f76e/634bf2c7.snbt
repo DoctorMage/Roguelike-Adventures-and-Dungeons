@@ -1,0 +1,26 @@
+{
+	title: "25 Platinum Coin Turn-In",
+	x: -20.0d,
+	y: -1.0d,
+	description: "Richer than all your enemies!",
+	text: [
+		"Treat yo self!",
+		"",
+		"Enables trading between players.",
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "a2d145e4",
+		type: "item",
+		items: [{
+			item: "ordinarycoins:coinplatinum"
+		}],
+		count: 25L
+	}],
+	rewards: [{
+		uid: "bb5ac30c",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	}]
+}

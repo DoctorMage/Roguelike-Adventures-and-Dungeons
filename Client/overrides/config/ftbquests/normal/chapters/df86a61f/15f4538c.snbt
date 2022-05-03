@@ -1,0 +1,111 @@
+{
+	title: "Obsidian Armaments, But Even Better",
+	x: 1.5d,
+	y: -7.5d,
+	description: "These ones take a punch",
+	text: [
+		"Craft the Crystallized Obsidian armor.",
+		"",
+		"It's got double the durability of Diamond armor, and more protection to boot."
+	],
+	dependencies: [
+		"efbea43d"
+	],
+	tasks: [{
+		uid: "7e0e5c0b",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:purple_helmet",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d5592daf",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:purple_chestplate",
+			tag: {
+				Quality: {
+					Slots: [
+						"chest"
+					],
+					Color: "dark_red",
+					AttributeModifiers: [{
+						UUIDMost: -5100207081159310664L,
+						UUIDLeast: -7325113612026906726L,
+						Amount: -1.0d,
+						AttributeName: "generic.armorToughness",
+						Operation: 0,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 7199025059557492347L,
+						UUIDLeast: -8519958844111842906L,
+						Amount: -1.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 4181637456607005405L,
+						UUIDLeast: -8073640780935441272L,
+						Amount: -1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.crumbling.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9d334093",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:purple_leggings",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "23cc5843",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:purple_boots",
+			tag: {
+				Quality: {
+					Slots: [
+						"feet"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: -6251473396647309497L,
+						UUIDLeast: -7727800297920653800L,
+						Amount: -1.0d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.dented.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e51a3613",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,27 @@
+[
+ {
+  "id": "findingfood",
+  "title": "Hungry Games",
+  "icon": "item:minecraft:cooked_beef"
+ },
+ {
+  "id": "findingshelter",
+  "title": "A Nice Place To Sleep",
+  "icon": "item:minecraft:bed"
+ },
+ {
+  "id": "gettinggood",
+  "title": "How To Get Good Fast",
+  "icon": "item:iceandfire:dragonsteel_ice_helmet"
+ },
+{
+  "id": "levelupsystem",
+  "title": "Level-Up System",
+  "icon": "item:minecraft:experience_bottle"
+ },
+{
+  "id": "scalinghealth",
+  "title": "Scaling Health",
+  "icon": "item:scalinghealth:heartcontainer"
+ },
+]

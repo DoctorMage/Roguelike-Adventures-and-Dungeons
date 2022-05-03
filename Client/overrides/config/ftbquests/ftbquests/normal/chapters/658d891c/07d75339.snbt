@@ -1,0 +1,39 @@
+{
+	title: "Back Foul Beast!",
+	x: -0.5d,
+	y: 1.5d,
+	description: "You won't be having dragon problems anymore!",
+	text: [
+		"These look like they can be dipped in something.",
+		"",
+		"You are required to make all Weapons to complete this quest."
+	],
+	dependencies: [
+		"b37a814e"
+	],
+	tasks: [{
+		uid: "1aae72e9",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonbone_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "42e6f708",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonbone_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "135a31f4",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonbone_arrow"
+		}]
+	}]
+}

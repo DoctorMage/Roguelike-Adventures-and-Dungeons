@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: -17.0d,
+	dependencies: [
+		"ecd41947"
+	],
+	tasks: [{
+		uid: "1951808f",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_miner_smart"
+		}]
+	}],
+	rewards: [{
+		uid: "06418e11",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

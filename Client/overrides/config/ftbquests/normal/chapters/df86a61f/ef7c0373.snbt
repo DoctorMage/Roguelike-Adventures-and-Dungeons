@@ -1,0 +1,31 @@
+{
+	title: "With Great Power, Comes Even Greater Power",
+	x: -0.5d,
+	y: -19.0d,
+	description: "Strive to be the best of the best",
+	text: [
+		"This anvil is required to be powered with Forge Energy to work.",
+		"",
+		"Players can power this anvil and use it to repair most items; even items that cannot normally be repaired.",
+		"",
+		"Random Loot and Mega Loot items cannot be repaired inside this anvil.",
+		"",
+		"This power is in your hands. Use it wisely."
+	],
+	dependencies: [
+		"ecd41947"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "ed2fa697",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_anvil"
+		}]
+	}],
+	rewards: [{
+		uid: "4dbd52be",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	x: 10.5d,
+	y: 12.5d,
+	tasks: [{
+		uid: "72fe4dea",
+		type: "item",
+		items: [{
+			item: "harvestcraft:mustardseedsitem"
+		}],
+		count: 64L
+	}]
+}

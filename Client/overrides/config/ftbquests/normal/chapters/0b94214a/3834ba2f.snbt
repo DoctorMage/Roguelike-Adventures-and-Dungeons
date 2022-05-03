@@ -1,0 +1,29 @@
+{
+	x: 0.5d,
+	y: -13.0d,
+	description: "Bunny town",
+	text: [
+		"Craft some Rabbit Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aea8320e"
+	],
+	tasks: [{
+		uid: "39fd4d03",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:rabbit_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "97bc7a20",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "4acd9f83",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

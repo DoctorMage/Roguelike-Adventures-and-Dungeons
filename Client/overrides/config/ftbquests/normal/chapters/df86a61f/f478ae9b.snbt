@@ -1,0 +1,23 @@
+{
+	title: "Just A Bit More Fancy",
+	x: 21.0d,
+	y: 6.0d,
+	description: "Built to last!",
+	text: [
+		"This Iron Dropper will drop items with a bit more pizzazz. ",
+		"",
+		"That's really about it... Right-Click to toggle your Iron Dropper and go ham!"
+	],
+	tasks: [{
+		uid: "eea36987",
+		type: "item",
+		items: [{
+			item: "randomthings:irondropper"
+		}]
+	}],
+	rewards: [{
+		uid: "953ef2dd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

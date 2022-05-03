@@ -1,0 +1,16 @@
+{
+	title: "Shambler Shuffle",
+	x: 11.0d,
+	y: 9.5d,
+	description: "Unce unce unce unce...",
+	text: [
+		"Kill 50 Shamblers."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "753bccc6",
+		type: "kill",
+		entity: "thebetweenlands:shambler",
+		value: 50L
+	}]
+}

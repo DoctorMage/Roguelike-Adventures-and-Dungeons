@@ -1,0 +1,19 @@
+{
+	x: 0.5d,
+	y: -18.0d,
+	dependencies: [
+		"ecd41947"
+	],
+	tasks: [{
+		uid: "00083386",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_forester"
+		}]
+	}],
+	rewards: [{
+		uid: "86361d9a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

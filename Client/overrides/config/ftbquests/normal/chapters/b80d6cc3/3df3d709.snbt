@@ -1,0 +1,34 @@
+{
+	title: "Caster Blaster",
+	x: 8.5d,
+	y: 9.0d,
+	description: "Bam pow ping",
+	text: [
+		"Now anyone can be a Mage for the small price of $19.99!"
+	],
+	dependencies: [
+		"020a4b1e"
+	],
+	tasks: [{
+		uid: "d0de98cc",
+		type: "item",
+		items: [{
+			item: "embers:caster_orb"
+		}]
+	}],
+	rewards: [{
+		uid: "65c86cd2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "678093fa",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "6eb91aa0",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

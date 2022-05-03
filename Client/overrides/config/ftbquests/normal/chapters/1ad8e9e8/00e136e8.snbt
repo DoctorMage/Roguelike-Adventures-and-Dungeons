@@ -1,0 +1,44 @@
+{
+	title: "The Basics",
+	x: 1.5d,
+	y: -3.0d,
+	description: "All you need",
+	text: [
+		"Craft your basic crafting table and wooden chest from the Weedwood found in the Betweenlands.",
+		"",
+		"Why? Because this is the only real wood you have here, in this dank dimension."
+	],
+	dependencies: [
+		"3c192351"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "a2e24948",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_workbench"
+		}]
+	},
+	{
+		uid: "0dee6ba1",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "d6d127b4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "a2472db7",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "a09063c9",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

@@ -1,0 +1,49 @@
+{
+	x: 22.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "9ca76d05",
+		type: "item",
+		items: [{
+			item: "atum:loot_ruby_idol"
+		}],
+		count: 8L
+	},
+	{
+		uid: "e60809b1",
+		type: "item",
+		items: [{
+			item: "atum:loot_ruby_necklace"
+		}],
+		count: 8L
+	},
+	{
+		uid: "778f420a",
+		type: "item",
+		items: [{
+			item: "atum:loot_ruby_ring"
+		}],
+		count: 8L
+	},
+	{
+		uid: "78ca5840",
+		type: "item",
+		items: [{
+			item: "atum:loot_ruby_scepter"
+		}],
+		count: 8L
+	},
+	{
+		uid: "aaa07dea",
+		type: "item",
+		items: [{
+			item: "atum:loot_ruby_broach"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "4a4fa353",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

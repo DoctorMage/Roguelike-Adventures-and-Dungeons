@@ -1,0 +1,23 @@
+{
+	title: "Messy Messy",
+	x: -11.0d,
+	y: 11.5d,
+	description: "It's kind of relaxing",
+	text: [
+		"Will randomize blocks within the range set on the wand. ",
+		"",
+		"If there are not tons of distinctly different blocks, you will not notice the randomization.",
+		"",
+		"Works amazingly for large walls, texturing, and layering for builds."
+	],
+	tasks: [{
+		uid: "54888877",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:tool_randomize",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

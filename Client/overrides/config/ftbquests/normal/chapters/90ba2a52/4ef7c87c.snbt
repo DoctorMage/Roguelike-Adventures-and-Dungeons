@@ -1,0 +1,27 @@
+{
+	title: "Assassin Assassin",
+	x: -2.0d,
+	y: 6.5d,
+	description: "Get them before they get you",
+	text: [
+		"Assassinate 50 Assassins."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "61438acd",
+		type: "kill",
+		icon: "atum:iron_dagger",
+		entity: "atum:assassin",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "5a6fdbc6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ab35e636",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Batter Bandit II",
+	x: -13.0d,
+	y: 0.0d,
+	description: "Where do you find all this cake?",
+	text: [
+		"Eat 500 slices of cake."
+	],
+	tasks: [{
+		uid: "27185c33",
+		type: "stat",
+		icon: "minecraft:cake",
+		stat: "stat.cakeSlicesEaten",
+		value: 500
+	}],
+	rewards: [{
+		uid: "a23c5604",
+		type: "ftbmoney:money",
+		ftb_money: 600L
+	}]
+}

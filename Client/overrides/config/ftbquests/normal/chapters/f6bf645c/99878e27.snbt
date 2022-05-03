@@ -1,0 +1,35 @@
+{
+	title: "Twilight Lich In A Twilight Ditch",
+	x: 1.0d,
+	y: 1.5d,
+	description: "Too morbid?",
+	text: [
+		"Slay The Twilight Lich in his mighty tower."
+	],
+	dependencies: [
+		"9e4d5180"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "e5f9f3ba",
+		type: "kill",
+		title: "Slay The Twilight Lich",
+		entity: "twilightforest:lich",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "27d9bc67",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d6f6dfd3",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "d1ed6697",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -3.0d,
+	y: 1.0d,
+	dependencies: [
+		"4ca3d38d"
+	],
+	tasks: [{
+		uid: "a88e42ee",
+		type: "item",
+		items: [{
+			item: "vc:item_airship_engine"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "cc4be78a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "5e6511b6",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

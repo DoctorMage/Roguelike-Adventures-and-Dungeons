@@ -1,0 +1,22 @@
+{
+	title: "The cake is a lie!",
+	x: 1.0d,
+	y: -4.0d,
+	dependencies: [
+		"92fe3e77"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1c0383f1",
+		type: "item",
+		items: [{
+			item: "minecraft:cake"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c7a59d0f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

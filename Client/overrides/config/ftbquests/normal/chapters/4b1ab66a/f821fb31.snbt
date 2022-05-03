@@ -1,0 +1,21 @@
+{
+	x: 12.0d,
+	y: -14.5d,
+	tasks: [{
+		uid: "5f307315",
+		type: "item",
+		items: [{
+			item: "harvestcraft:persimmon_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "84210127",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "659d7e63",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

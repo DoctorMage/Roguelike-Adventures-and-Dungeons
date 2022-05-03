@@ -1,0 +1,23 @@
+{
+	title: "Grab This, This And That",
+	x: -2.5d,
+	y: 6.0d,
+	description: "Stop touching stuff! Put that back!",
+	text: [
+		"This block will help largely with the collection of loose items on the ground.",
+		"",
+		"Range of functionality can be configured, and several filters can be stored in the appropriate slots.",
+		"",
+		"Does NOT require energy to run."
+	],
+	dependencies: [
+		"0a7ca16a"
+	],
+	tasks: [{
+		uid: "06578b63",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_vacuum"
+		}]
+	}]
+}

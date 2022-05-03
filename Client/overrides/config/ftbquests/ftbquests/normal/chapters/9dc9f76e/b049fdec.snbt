@@ -1,0 +1,29 @@
+{
+	title: "Ritual Offerings",
+	x: 2.5d,
+	y: -7.0d,
+	description: "Minecraft was never this dark before modding...",
+	text: [
+		"The ratios to make this potion were oddly specific.........."
+	],
+	dependencies: [
+		"1c2b5e23"
+	],
+	tasks: [{
+		uid: "62d4fedc",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				Potion: "netherex:sorrow"
+			}
+		}]
+	},
+	{
+		uid: "21700ff7",
+		type: "item",
+		items: [{
+			item: "minecraft:ghast_tear"
+		}]
+	}]
+}

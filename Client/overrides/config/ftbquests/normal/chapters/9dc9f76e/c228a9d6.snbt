@@ -1,0 +1,38 @@
+{
+	title: "Urns of Sorrow",
+	x: 6.0d,
+	y: -11.5d,
+	description: "Big Bad Bossy Lady",
+	text: [
+		"Right click with the materials you've gathered to summon the Ghast Queen",
+		"",
+		"Ghast obelisk spawns can be found randomly in the Nether. Inside is usually loot and an Urn of Sorrow.",
+		"",
+		"Before activating the Urn, break it and collect it to complete this quest. You will not receive credit if you do not break the Urn and collect it."
+	],
+	dependencies: [
+		"b049fdec"
+	],
+	tasks: [{
+		uid: "f001e8f9",
+		type: "item",
+		items: [{
+			item: "netherex:urn_of_sorrow"
+		}]
+	}],
+	rewards: [{
+		uid: "482f423b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "910dac56",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "ea55d373",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Reap The Sheep",
+	x: -3.5d,
+	y: -4.0d,
+	description: "Dying your sheep with an inc sack may render it carnivorous. !CAUTION!",
+	text: [
+		"Everyone needs a pair of these."
+	],
+	dependencies: [
+		"73298fe2"
+	],
+	tasks: [{
+		uid: "f477f979",
+		type: "item",
+		items: [{
+			item: "minecraft:shears"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

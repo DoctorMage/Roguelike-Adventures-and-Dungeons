@@ -1,0 +1,21 @@
+{
+	x: -5.5d,
+	y: -10.0d,
+	tasks: [{
+		uid: "d851b98d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:pomegranate_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "d5e3028d",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "8af8f812",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

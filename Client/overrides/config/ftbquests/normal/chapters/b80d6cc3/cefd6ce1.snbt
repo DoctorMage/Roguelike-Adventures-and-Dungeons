@@ -1,0 +1,34 @@
+{
+	title: "Ruined",
+	x: 28.0d,
+	y: 5.0d,
+	description: "People who smoke cigarettes in their cars",
+	text: [
+		"Gross man. Just. Stop."
+	],
+	dependencies: [
+		"0cb962a9"
+	],
+	tasks: [{
+		uid: "fb58a8fb",
+		type: "item",
+		items: [{
+			item: "embers:ashen_cloth"
+		}]
+	}],
+	rewards: [{
+		uid: "99946b2b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "9a9f8242",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "d72b5303",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

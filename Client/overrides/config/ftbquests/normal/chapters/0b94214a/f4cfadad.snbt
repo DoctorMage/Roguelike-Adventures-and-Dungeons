@@ -1,0 +1,29 @@
+{
+	x: -4.0d,
+	y: -10.0d,
+	description: "Like Nether Warts, but in the Overworld, and useless",
+	text: [
+		"Craft some Nether Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"47c0a076"
+	],
+	tasks: [{
+		uid: "26aba82f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:nether_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "920b21fa",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "00a57e9c",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

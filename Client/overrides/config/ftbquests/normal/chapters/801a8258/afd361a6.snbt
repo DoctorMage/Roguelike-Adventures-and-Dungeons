@@ -1,0 +1,43 @@
+{
+	title: "More Honest Work",
+	x: -14.0d,
+	y: 6.0d,
+	description: "All in a day's livin'",
+	text: [
+		"Garden Scythe - Used to manually harvest crops within a wide range. Items harvested are placed into your inventory. Right-click to use.",
+		"",
+		"Brush Scythe - Used to remove flowers, weeds, grass and other organic debris from the ground and off of trees, such as vines.",
+		"",
+		"Tree Scythe - Used to clear leaves from trees. Will not destroy other blocks.",
+		"",
+		"For the farmer who gets things done."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "61474f7d",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_harvest_crops"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "80f93b4e",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_harvest_weeds"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "36eadf0d",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_harvest_leaves"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

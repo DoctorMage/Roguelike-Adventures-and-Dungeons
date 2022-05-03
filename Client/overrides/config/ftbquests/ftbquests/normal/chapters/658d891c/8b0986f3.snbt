@@ -1,0 +1,39 @@
+{
+	title: "Obey!",
+	x: 2.5d,
+	y: 1.5d,
+	description: "I command thee!",
+	text: [
+		"This is their favorite song!"
+	],
+	dependencies: [
+		"b37a814e"
+	],
+	tasks: [{
+		uid: "682da89a",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_stick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2f0ef15c",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_flute"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a9762ab9",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_horn"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

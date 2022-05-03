@@ -1,0 +1,36 @@
+{
+	title: "The Best Guide Book",
+	x: 3.0d,
+	y: -19.5d,
+	description: "I love how this thing is made",
+	text: [
+		"This book will tell you what you need to know about an item by putting it into the book. Very helpful. Consult the book for all your Aether questions. Even those you can't find online. If you can't find it in the book, report it to me."
+	],
+	dependencies: [
+		"de9220a6"
+	],
+	tasks: [{
+		uid: "c6dc27b2",
+		type: "item",
+		items: [{
+			item: "aether_legacy:lore_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f0564fa4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "fa1ee9e0",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "70f2fd2a",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

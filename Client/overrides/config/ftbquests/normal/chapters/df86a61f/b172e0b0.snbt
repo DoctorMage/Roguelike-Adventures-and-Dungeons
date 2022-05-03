@@ -1,0 +1,25 @@
+{
+	title: "AHH GET IT OFF ME!",
+	x: -11.5d,
+	y: -12.5d,
+	description: "EW EW EW EW EW ",
+	text: [
+		"I hate spiders.",
+		"",
+		"Use this to mount any entity onto YOUR head."
+	],
+	tasks: [{
+		uid: "fa1195b2",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_mount_inverse"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "125a6553",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

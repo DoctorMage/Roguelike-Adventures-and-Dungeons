@@ -1,0 +1,26 @@
+{
+	title: "Like The Player Launcher, But Firey",
+	x: -10.5d,
+	y: -3.75d,
+	description: "And not as dangerous, per say",
+	text: [
+		"The Torch Launcher is going to be your new friend when you're cave diving. This tool will literally HOCK a torch into the darkness, and it will spawn wherever it lands, taking down durability from your item.",
+		"",
+		"The Torch Launcher should also automatically consume torches from your inventory, so you can simply make more in order to repair the durability, while keeping inventory space down a notch."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "48c260b1",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_torch_launcher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "54be0c9b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "Classic Armaments",
+	x: 10.5d,
+	y: -2.5d,
+	description: "Can never go wrong with some raw metal!",
+	text: [
+		"Your dragon doesn't appreciate how heavy this stuff is!"
+	],
+	dependencies: [
+		"768743f4"
+	],
+	tasks: [{
+		uid: "e2d24cbb",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_iron"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "98df4618",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_iron 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9f001b58",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_iron 1 2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bf7a5776",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_iron 1 3"
+		}],
+		ignore_nbt: 1b
+	}]
+}

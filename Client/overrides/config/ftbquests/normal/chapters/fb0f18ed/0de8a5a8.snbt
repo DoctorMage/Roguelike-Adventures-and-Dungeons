@@ -1,0 +1,18 @@
+{
+	title: "Dreams Down The Drain",
+	x: -1.0d,
+	y: -5.5d,
+	description: "You'll come up with new ones",
+	text: [
+		"This item can be used as an XP hopper.",
+		"",
+		"The XP it collects is liquidized and must be transferred somehow."
+	],
+	tasks: [{
+		uid: "faed0f63",
+		type: "item",
+		items: [{
+			item: "openblocks:xp_drain"
+		}]
+	}]
+}

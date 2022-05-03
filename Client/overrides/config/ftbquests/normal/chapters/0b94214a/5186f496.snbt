@@ -1,0 +1,29 @@
+{
+	x: 0.5d,
+	y: -12.0d,
+	description: "Oh no... oh no no NO!",
+	text: [
+		"Craft some Spider Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aea8320e"
+	],
+	tasks: [{
+		uid: "1fe17651",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:spider_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "419d8d4b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "0ae365c5",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

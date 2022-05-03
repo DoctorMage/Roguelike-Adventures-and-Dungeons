@@ -1,0 +1,14 @@
+{
+	title: "Jungle Myrmex Soldier",
+	x: 15.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "3e8e86c4",
+		type: "item",
+		items: [{
+			item: "iceandfire:myrmex_jungle_egg 1 1"
+		}],
+		consume_items: true,
+		ignore_nbt: 1b
+	}]
+}

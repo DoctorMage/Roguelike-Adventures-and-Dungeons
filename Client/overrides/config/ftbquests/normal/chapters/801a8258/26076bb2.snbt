@@ -1,0 +1,25 @@
+{
+	title: "Far Sight",
+	x: -11.5d,
+	y: 12.5d,
+	description: "20/20 baby!",
+	text: [
+		"You can place blocks from a distance. The scepter offers three different modes of placement.",
+		"",
+		"Normal - Will place blocks using the entire stack in the slot, going from left to right. You can reset the position of the stack being used by hitting the Reset button. The purple square indicates what stack is being used.",
+		"",
+		"Pattern - Will place one block from each stack from left to right. This can create randomness or a pattern if you follow linear placement.",
+		"",
+		"Random - Places a block from a random stack inside the scepter's inventory."
+	],
+	tasks: [{
+		uid: "a23fa689",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:cyclic_wand_build",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

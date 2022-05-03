@@ -1,0 +1,24 @@
+{
+	x: 10.0d,
+	y: -2.0d,
+	dependencies: [
+		"e07e8bcc"
+	],
+	tasks: [{
+		uid: "92a33d04",
+		type: "item",
+		items: [{
+			item: "embers:heat_coil"
+		}]
+	}],
+	rewards: [{
+		uid: "d3b986c3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "f3cedaea",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

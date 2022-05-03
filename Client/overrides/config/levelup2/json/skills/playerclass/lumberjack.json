@@ -1,0 +1,24 @@
+{
+  "name": "levelup:lumberjack",
+  "bonus": "levelup:craft_bonus",
+  "localized_name": "Lumberjack",
+  "description": "Hardy woodfeller, you're okay",
+  "skills": [
+    {
+      "name": "levelup:woodcutting",
+      "level": 2
+    },
+    {
+      "name": "levelup:lumbering",
+      "level": 1
+    },
+    {
+      "name": "levelup:naturalarmor",
+      "level": 2
+    },
+    {
+      "name": "levelup:fallprotect",
+      "level": 1
+    }
+  ]
+}

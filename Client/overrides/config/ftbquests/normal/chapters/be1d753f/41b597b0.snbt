@@ -1,0 +1,141 @@
+{
+	title: "Savage Orcish Tower #3",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			copycounter: 1,
+			TemplateName: "Bridge Ribcage #1",
+			UUID: "e5f9e007-f201-4e36-8344-a25324162e32",
+			startPos: {
+				X: 4923,
+				Y: 76,
+				Z: -4982
+			},
+			itemcountmap: [{
+				item: 44,
+				meta: 7,
+				count: 10
+			},
+			{
+				item: 156,
+				meta: 0,
+				count: 56
+			},
+			{
+				item: 7983,
+				meta: 0,
+				count: 22
+			},
+			{
+				item: 4769,
+				meta: 0,
+				count: 1
+			},
+			{
+				item: 216,
+				meta: 0,
+				count: 29
+			},
+			{
+				item: 155,
+				meta: 0,
+				count: 25
+			}],
+			endPos: {
+				X: 4913,
+				Y: 69,
+				Z: -4978
+			}
+		}
+	},
+	x: -9.0d,
+	y: 1.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "26285ab4",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "45cfff99",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 3,
+				TemplateName: "Savage Orcish Tower #3",
+				UUID: "db1ff87c-859c-48e3-898d-5acbea86cf79",
+				startPos: {
+					X: 4897,
+					Y: 64,
+					Z: -4981
+				},
+				itemcountmap: [{
+					item: 7982,
+					meta: 0,
+					count: 63
+				},
+				{
+					item: 5876,
+					meta: 0,
+					count: 24
+				},
+				{
+					item: 5874,
+					meta: 0,
+					count: 84
+				},
+				{
+					item: 7983,
+					meta: 0,
+					count: 63
+				},
+				{
+					item: 155,
+					meta: 1,
+					count: 16
+				},
+				{
+					item: 5,
+					meta: 3,
+					count: 184
+				},
+				{
+					item: 155,
+					meta: 0,
+					count: 76
+				},
+				{
+					item: 44,
+					meta: 7,
+					count: 24
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 21
+				},
+				{
+					item: 156,
+					meta: 0,
+					count: 84
+				},
+				{
+					item: 5864,
+					meta: 3,
+					count: 21
+				},
+				{
+					item: 17,
+					meta: 3,
+					count: 99
+				}],
+				endPos: {
+					X: 4918,
+					Y: 73,
+					Z: -5002
+				}
+			}
+		}
+	}]
+}

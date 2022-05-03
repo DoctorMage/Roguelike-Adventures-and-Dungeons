@@ -1,0 +1,16 @@
+{
+	title: "Pyradical",
+	x: 5.0d,
+	y: 9.5d,
+	description: "Flame on!",
+	text: [
+		"Banish 15 Pyrads."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "08971a00",
+		type: "kill",
+		entity: "thebetweenlands:pyrad",
+		value: 25L
+	}]
+}

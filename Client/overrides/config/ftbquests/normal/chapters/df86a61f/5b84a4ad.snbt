@@ -1,0 +1,27 @@
+{
+	title: "How Can You See Into My Eyes",
+	x: 13.5d,
+	y: -10.5d,
+	description: "Like open dOooOoOoOrrs?",
+	text: [
+		"This glass will not let light through.",
+		"",
+		"The Wither can't destroy it.",
+		"",
+		"But you can see through it.",
+		"",
+		"LEADDDDINGGGGG YOU DOWNNNN INTO MY COoOoOoOREEEE"
+	],
+	tasks: [{
+		uid: "2bf54000",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:glass_strong"
+		}]
+	}],
+	rewards: [{
+		uid: "197a1731",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	title: "Loot Crates",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "melee_crate"
+			}
+		}
+	}]
+}

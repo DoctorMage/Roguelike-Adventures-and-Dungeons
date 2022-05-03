@@ -1,0 +1,28 @@
+{
+	title: "Mob Mobster II",
+	icon: "minecraft:bone",
+	x: -10.0d,
+	y: 0.0d,
+	description: "Keep on slaying!",
+	text: [
+		"Slay 5,000 mobs."
+	],
+	tasks: [{
+		uid: "e54042d4",
+		type: "stat",
+		title: "Slay 5000 mobs",
+		icon: "minecraft:bone",
+		stat: "stat.mobKills",
+		value: 5000
+	}],
+	rewards: [{
+		uid: "1d5d735f",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "d463c2d9",
+		type: "xp_levels",
+		xp_levels: 50
+	}]
+}

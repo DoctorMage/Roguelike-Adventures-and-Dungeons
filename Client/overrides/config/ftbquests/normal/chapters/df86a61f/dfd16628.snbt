@@ -1,0 +1,39 @@
+{
+	title: "Nature Is Wonderful",
+	x: -2.5d,
+	y: 4.5d,
+	description: "Pretty plants",
+	text: [
+		"Sakanade Spores are found under Giant Brown Mushrooms in any biome. It is an alchemy ingredient.",
+		"",
+		"Glowing Mushrooms are found in caves. They can be used to replace Glowstone as an alchemy ingredient.",
+		"",
+		"Lotus Seeds are obtained from the Lotus Plant found scarcely in Snow Biomes. They will yield a Lotus Blossom, which gives experience when eaten, as well as a Lotus Seed."
+	],
+	tasks: [{
+		uid: "9a00148b",
+		type: "item",
+		items: [{
+			item: "randomthings:ingredient"
+		}]
+	},
+	{
+		uid: "3d5b55e8",
+		type: "item",
+		items: [{
+			item: "randomthings:glowingmushroom"
+		}]
+	},
+	{
+		uid: "11e54d65",
+		type: "item",
+		items: [{
+			item: "randomthings:lotusseeds"
+		}]
+	}],
+	rewards: [{
+		uid: "2385e9bd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

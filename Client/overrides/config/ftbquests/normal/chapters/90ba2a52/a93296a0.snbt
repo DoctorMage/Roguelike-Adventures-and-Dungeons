@@ -1,0 +1,27 @@
+{
+	title: "Nomad? No, I'm mad",
+	x: 0.0d,
+	y: 6.5d,
+	description: "Get away from me!",
+	text: [
+		"Kill 50 Nomads."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "713da0ec",
+		type: "kill",
+		icon: "atum:desert_helmet_iron",
+		entity: "atum:nomad",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "16b18b0a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "cc77299c",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

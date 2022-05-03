@@ -1,0 +1,35 @@
+{
+	x: 0.0d,
+	y: -8.0d,
+	dependencies: [
+		"752838d8"
+	],
+	tasks: [{
+		uid: "e9a9cd6c",
+		type: "item",
+		items: [{
+			item: "twilightforest:phantom_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "73eb5d4f",
+		type: "item",
+		items: [{
+			item: "twilightforest:phantom_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "28c05103",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d3dfbbc9",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Coldy Locks",
+	x: -14.0d,
+	y: 14.0d,
+	description: "Powdered Snoke Maker",
+	text: [
+		"Right-Click to place snow on the ground.",
+		"",
+		"Ineffective as a weapon."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "91fb1a55",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:ender_snow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Burning Knowledge",
+	x: -4.0d,
+	y: -9.0d,
+	description: "Really burn it into your brain",
+	text: [
+		"Obtain the Infernal Tear from the Shop.",
+		"",
+		"Cry about how much it costs."
+	],
+	tasks: [{
+		uid: "16857b48",
+		type: "item",
+		items: [{
+			id: "xreliquary:infernal_tear",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9c41a6a3",
+		type: "item",
+		item: "minecraft:dirt",
+		count: 64
+	}]
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "content": "minecraft:gold_block",
+    "unitWorth": 500
+  },
+  {
+    "content": "minecraft:lapis_block",
+    "unitWorth": 600
+  },
+  {
+    "content": "embers:block_lead",
+    "unitWorth": 250
+  },
+  {
+    "content": "embers:block_silver",
+    "unitWorth": 550
+  },
+  {
+    "content": "minecraft:redstone",
+    "unitWorth": 500
+  },
+  {
+    "content": "minecraft:emerald_block",
+    "unitWorth": 800
+  },
+  {
+    "content": "minecraft:diamond_block",
+    "unitWorth": 2500
+  },
+  {
+    "content": "minecraft:blaze_rod",
+    "unitWorth": 75
+  },
+  {
+    "content": "minecraft:nether_star",
+    "unitWorth": 2000
+  },
+  {
+    "content": "ebwizardry:magic_crystal",
+    "unitWorth": 50
+  },
+  {
+    "content": "ebwizardry:grand_crystal",
+    "unitWorth": 1500
+  },
+  {
+    "content": "ebwizardry:spectral_dust:1",
+    "unitWorth": 350
+  },
+  {
+    "content": "ebwizardry:spectral_dust:2",
+    "unitWorth": 350
+  },
+  {
+    "content": "ebwizardry:spectral_dust:3",
+    "unitWorth": 350
+  },
+  {
+    "content": "ebwizardry:spectral_dust:4",
+    "unitWorth": 350
+  },
+  {
+    "content": "ebwizardry:spectral_dust:5",
+    "unitWorth": 350
+  },
+  {
+    "content": "ebwizardry:spectral_dust:6",
+    "unitWorth": 350
+  },
+  {
+    "content": "ebwizardry:spectral_dust:7",
+    "unitWorth": 350
+  },
+  {
+    "content": "ebwizardry:spectral_dust:1",
+    "unitWorth": 350
+  }
+]

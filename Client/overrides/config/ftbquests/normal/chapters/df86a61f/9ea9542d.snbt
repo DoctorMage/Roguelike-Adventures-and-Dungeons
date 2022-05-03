@@ -1,0 +1,27 @@
+{
+	title: "Insulated Walls",
+	x: 11.0d,
+	y: -11.5d,
+	description: "This should have been in vanilla",
+	text: [
+		"This block will reduce noise in a 6x6x6 area by a substantial amount.",
+		"",
+		"The effect can be stacked with multiple blocks.",
+		"",
+		"Reduces ALL noise including footstep sounds.",
+		"",
+		"Useful around your farms, if you hate animal noises."
+	],
+	tasks: [{
+		uid: "9d915580",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_soundproofing"
+		}]
+	}],
+	rewards: [{
+		uid: "d0c92cfa",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

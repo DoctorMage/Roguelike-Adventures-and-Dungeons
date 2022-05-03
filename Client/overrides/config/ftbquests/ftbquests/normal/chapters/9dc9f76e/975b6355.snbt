@@ -1,0 +1,19 @@
+{
+	title: "You Don't Know How To Use This Do You?",
+	x: 2.5d,
+	y: -0.5d,
+	description: "Which way is North?!",
+	text: [
+		"Never Eat Shreded Wheat"
+	],
+	dependencies: [
+		"d314447e"
+	],
+	tasks: [{
+		uid: "7cfde576",
+		type: "item",
+		items: [{
+			item: "minecraft:compass"
+		}]
+	}]
+}

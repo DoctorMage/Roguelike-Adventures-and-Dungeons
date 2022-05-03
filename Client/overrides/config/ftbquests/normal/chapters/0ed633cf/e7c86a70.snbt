@@ -1,0 +1,12 @@
+{
+	title: "Nobody Special",
+	x: -10.0d,
+	y: -7.0d,
+	tasks: [{
+		uid: "6d9b0d14",
+		type: "kill",
+		title: "Slay 150 Cyclops",
+		entity: "iceandfire:cyclops",
+		value: 150L
+	}]
+}

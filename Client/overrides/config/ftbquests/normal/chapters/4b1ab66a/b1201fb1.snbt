@@ -1,0 +1,21 @@
+{
+	x: 4.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "10af5263",
+		type: "item",
+		items: [{
+			item: "harvestcraft:seaweedseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "936400c3",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "414a6c46",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

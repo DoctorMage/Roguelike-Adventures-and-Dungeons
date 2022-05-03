@@ -1,0 +1,18 @@
+{
+	x: 28.0d,
+	y: -7.0d,
+	text: [
+		"Hold Right-Click while aiming at a creature to use this item.",
+		"",
+		"You can only use this item one time. Using this item will turn most creatures into stone."
+	],
+	tasks: [{
+		uid: "dd59f268",
+		type: "item",
+		items: [{
+			item: "iceandfire:gorgon_head"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

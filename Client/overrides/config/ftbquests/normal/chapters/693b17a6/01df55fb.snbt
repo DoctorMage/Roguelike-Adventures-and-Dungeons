@@ -1,0 +1,28 @@
+{
+	title: "Nagamancer",
+	x: 9.0d,
+	y: -1.0d,
+	description: "Can you summon them? No.",
+	text: [
+		"But you know how to kill em'!",
+		"",
+		"Slay 15 Naga in the Twilight Forest."
+	],
+	tasks: [{
+		uid: "953ec94b",
+		type: "kill",
+		icon: "twilightforest:trophy",
+		entity: "twilightforest:naga",
+		value: 15L
+	}],
+	rewards: [{
+		uid: "71f752fa",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "fada1903",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

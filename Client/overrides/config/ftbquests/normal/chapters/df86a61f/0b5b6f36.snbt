@@ -1,0 +1,44 @@
+{
+	title: "If Scotty Was An Enderman",
+	icon: "randomthings:enderbridge",
+	x: 21.5d,
+	y: 5.0d,
+	description: "Beaming people up since 96'",
+	text: [
+		"Ender Bridges will let players teleport infinite distances between it and Ender Anchors; there must be NO blocks between the Bridge and the Anchor.",
+		"",
+		"Ender Bridges will ignore the block in front of them when activated, allowing players to point a Bridge upwards and activate it with a Pressure Plate on top of the Bridge.",
+		"",
+		"Teleportation is not instant. Distance will increase the time needed to teleport upon activation. The Prismarine variant is much faster than the simple Ender Bridge.",
+		"",
+		"Ender Anchors will load the chunk they are in, so that an Ender Bridge can scan for them appropriately. Keep this in mind when using these items to create teleportation networks.",
+		"",
+		"If activated with a permanent signal like a Lever, the Ender Bridge will enter a cooldown mode, and will not be able to activate again until the signal is turned off, and back on for reactivation."
+	],
+	tasks: [{
+		uid: "e01db4fd",
+		type: "item",
+		items: [{
+			item: "randomthings:enderbridge"
+		}]
+	},
+	{
+		uid: "643db281",
+		type: "item",
+		items: [{
+			item: "randomthings:prismarineenderbridge"
+		}]
+	},
+	{
+		uid: "e98fd8c0",
+		type: "item",
+		items: [{
+			item: "randomthings:enderanchor"
+		}]
+	}],
+	rewards: [{
+		uid: "47c8a9cf",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

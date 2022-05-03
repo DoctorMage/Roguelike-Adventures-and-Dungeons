@@ -1,0 +1,35 @@
+{
+	title: "Naga No More!",
+	x: 5.25d,
+	y: 1.5d,
+	description: "Because you know, he's dead",
+	text: [
+		"Slay a Naga in its maze-like courtyard."
+	],
+	dependencies: [
+		"12ae72c5"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "1543d1d8",
+		type: "kill",
+		title: "Slay 1 Naga",
+		entity: "twilightforest:naga",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "51ba5031",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8cbe3fbd",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "c1903b97",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

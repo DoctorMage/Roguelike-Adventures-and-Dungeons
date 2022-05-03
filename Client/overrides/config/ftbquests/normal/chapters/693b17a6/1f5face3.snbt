@@ -1,0 +1,26 @@
+{
+	title: "Ghastastic",
+	x: 8.0d,
+	y: -1.0d,
+	description: "Hip hip HORAH",
+	text: [
+		"Slay 10 Ur-Ghasts."
+	],
+	tasks: [{
+		uid: "f41f5740",
+		type: "kill",
+		icon: "twilightforest:trophy 1 3",
+		entity: "twilightforest:ur_ghast",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "f63842d9",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "d5d68062",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

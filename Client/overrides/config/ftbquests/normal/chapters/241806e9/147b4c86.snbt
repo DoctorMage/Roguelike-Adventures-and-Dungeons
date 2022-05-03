@@ -1,0 +1,197 @@
+{
+	title: "Hammer Away",
+	x: -2.0d,
+	y: -2.0d,
+	description: "Be careful not to hit your fingers",
+	text: [
+		"The hammer is intended to be a weapon, but can be used to break down Cobblestone into Gravel, and Gravel into certain common materials."
+	],
+	dependencies: [
+		"a4636105"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "7020c532",
+		type: "item",
+		items: [{
+			id: "dungeontactics:wooden_hammer",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "247b31f9",
+		type: "item",
+		items: [{
+			id: "dungeontactics:bone_hammer",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: 6421626926622657770L,
+						UUIDLeast: -7099592728946325711L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -1316176727958139065L,
+						UUIDLeast: -7319853701445197885L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.rusted.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dcc5805f",
+		type: "item",
+		items: [{
+			id: "dungeontactics:stone_hammer",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "af241ad5",
+		type: "item",
+		items: [{
+			id: "dungeontactics:iron_hammer",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a0347a9b",
+		type: "item",
+		items: [{
+			id: "dungeontactics:silver_hammer",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "559048f7",
+		type: "item",
+		items: [{
+			id: "dungeontactics:golden_hammer",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3548c772",
+		type: "item",
+		items: [{
+			id: "dungeontactics:steel_hammer",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: -9004125718617633398L,
+						UUIDLeast: -6086110267503028784L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -5644878500436817085L,
+						UUIDLeast: -5527349701544626312L,
+						Amount: 0.05000000074505806d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.pokey.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f58093ac",
+		type: "item",
+		items: [{
+			id: "dungeontactics:diamond_hammer",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 5574227784946500916L,
+						UUIDLeast: -5180839404187278739L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -4264482313869636084L,
+						UUIDLeast: -8030047829211392620L,
+						Amount: -0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.vicious.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "838a6044",
+		type: "item",
+		items: [{
+			id: "dungeontactics:mithril_hammer",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d241c6f3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "e2682c4c",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

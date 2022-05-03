@@ -1,0 +1,13 @@
+{
+	title: "Desert Myrmex Worker",
+	x: 16.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "b5f3a01f",
+		type: "item",
+		items: [{
+			item: "iceandfire:myrmex_desert_egg"
+		}],
+		ignore_nbt: 1b
+	}]
+}

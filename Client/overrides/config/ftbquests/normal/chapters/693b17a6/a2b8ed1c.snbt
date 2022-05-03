@@ -1,0 +1,26 @@
+{
+	title: "Rekting Ball II",
+	x: -8.5d,
+	y: 0.0d,
+	description: "Deal that damage!",
+	text: [
+		"Deal 100,000 damage."
+	],
+	tasks: [{
+		uid: "6c2fed1b",
+		type: "stat",
+		title: "Deal 100,000 damage",
+		stat: "stat.damageDealt",
+		value: 100000
+	}],
+	rewards: [{
+		uid: "9eef4d8c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "60c89aa9",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

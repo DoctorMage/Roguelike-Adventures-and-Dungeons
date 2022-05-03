@@ -1,0 +1,16 @@
+{
+	title: "Bark Wood!",
+	icon: "thebetweenlands:spirit_tree_face_large_mask",
+	x: 3.0d,
+	y: 8.5d,
+	description: "Aren't those the same thing?",
+	text: [
+		"Slay 10 Spirit Trees."
+	],
+	tasks: [{
+		uid: "a45df6c8",
+		type: "kill",
+		entity: "thebetweenlands:spirit_tree_face_large",
+		value: 10L
+	}]
+}

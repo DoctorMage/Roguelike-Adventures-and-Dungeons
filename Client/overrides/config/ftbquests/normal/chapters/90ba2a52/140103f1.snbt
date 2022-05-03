@@ -1,0 +1,23 @@
+{
+	x: 11.5d,
+	y: -3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "1bbe5a82",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ingot_storage"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "6f0dc664",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c2c63702",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

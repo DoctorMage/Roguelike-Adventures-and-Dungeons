@@ -1,0 +1,21 @@
+{
+	x: 4.5d,
+	y: 9.5d,
+	tasks: [{
+		uid: "7c6fa7f2",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cactusfruitseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "2cd02db0",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "76e989b1",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

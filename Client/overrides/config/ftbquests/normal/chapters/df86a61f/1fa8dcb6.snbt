@@ -1,0 +1,33 @@
+{
+	title: "Trap Teleport",
+	x: 7.0d,
+	y: 8.5d,
+	description: "It's been a trap all along",
+	text: [
+		"The Portkey allows you to Right-Click an item, setting a destination.",
+		"",
+		"When you drop the Portkey, it will lay for a few seconds before losing it's enchantment glint.",
+		"",
+		"When picked up again, it will teleport you to the specified destination you chose before dropping the Portkey.",
+		"",
+		"Kinda like a free \"Get Home\" card."
+	],
+	dependencies: [
+		"3a19c43c"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "3bba5b2c",
+		type: "item",
+		items: [{
+			item: "randomthings:portkey"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4fc5a105",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

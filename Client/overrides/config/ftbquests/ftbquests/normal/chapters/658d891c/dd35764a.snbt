@@ -1,0 +1,21 @@
+{
+	title: "Blown To Withereens",
+	x: 1.0d,
+	y: -3.0d,
+	description: "You've never heard that one before",
+	text: [
+		"Uncommon drop from Wither Skeletons, and other creatures.",
+		"",
+		"Used to craft weapons, handles, and pole handles."
+	],
+	dependencies: [
+		"0786946b"
+	],
+	tasks: [{
+		uid: "c5ad6b49",
+		type: "item",
+		items: [{
+			item: "iceandfire:witherbone"
+		}]
+	}]
+}

@@ -1,0 +1,78 @@
+{
+	title: "Only Missed When You Die",
+	x: -0.5d,
+	y: 2.5d,
+	description: "See you in the Nether!",
+	text: [
+		"You're gonna die like a Souls game.",
+		"",
+		"Grave's stand as the anchor for a soul into the Overworld.",
+		"",
+		"Grave's will not contain a Grave's Soul upon placement, but over time, a Soul may choose to inhabit the grave you've placed.",
+		"",
+		"If their home is disturbed, the soul will flee from its place of rest. But worry not, for lightning will strike again and another Soul will take their place.",
+		"",
+		""
+	],
+	dependencies: [
+		"5e92b920"
+	],
+	tasks: [{
+		uid: "27b9d544",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_grave_simple"
+		}]
+	},
+	{
+		uid: "9ba65df2",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_grave_simple 1 1"
+		}]
+	},
+	{
+		uid: "6a19e780",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_grave_normal"
+		}]
+	},
+	{
+		uid: "79f72b93",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_grave_normal 1 1"
+		}]
+	},
+	{
+		uid: "0dc076c1",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_grave_cross"
+		}]
+	},
+	{
+		uid: "f3bd447e",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_grave_cross 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "56cb64ad",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "fa8179a4",
+		type: "item",
+		item: "charm:rotten_flesh_block",
+		count: 5
+	},
+	{
+		uid: "07b96e1c",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Hot Hot Hot!",
+	x: 11.0d,
+	y: 1.5d,
+	description: "Why is it always hot?!",
+	text: [
+		"Smelt some Octine into an ingot."
+	],
+	dependencies: [
+		"5805bceb"
+	],
+	tasks: [{
+		uid: "2b46b45b",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:octine_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "5e7aa959",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "ba36733e",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "389896c9",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

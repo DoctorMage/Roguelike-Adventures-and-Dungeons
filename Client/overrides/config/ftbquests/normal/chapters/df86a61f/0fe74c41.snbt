@@ -1,0 +1,26 @@
+{
+	title: "It's Corrupt Because It's Cheating",
+	x: -17.0d,
+	y: -14.0d,
+	description: "Literally, it's flying and xray all-in-one",
+	text: [
+		"When consumed, this item will put you into Spectator mode for several seconds. ",
+		"",
+		"While in Spectator mode, you can scroll your mouse wheel up or down to increase or decrease the speed you travel.",
+		"",
+		"When you are in an empty block space that is sufficient for you player to spawn in, you will spawn there instead of otherwise being reverted back to where you consumed the Fruit."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "64ab49b9",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:corrupted_chorus"
+		}]
+	}],
+	rewards: [{
+		uid: "38597e7f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

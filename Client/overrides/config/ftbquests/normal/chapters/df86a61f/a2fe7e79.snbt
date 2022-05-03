@@ -1,0 +1,61 @@
+{
+	title: "Just Need More Bosses...",
+	x: 3.5d,
+	y: 4.5d,
+	description: "Like 14 or something small",
+	text: [
+		"Platforms are special floors which can be clipped through.",
+		"",
+		"Pressing Shift while on top of a Platform will cause you to clip through it.",
+		"",
+		"Holding Shift will cause you to clip through multiple Platforms. You can take fall damage this way."
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "278f596d",
+		type: "item",
+		items: [{
+			item: "randomthings:platform"
+		}]
+	},
+	{
+		uid: "4ab49c18",
+		type: "item",
+		items: [{
+			item: "randomthings:platform 1 1"
+		}]
+	},
+	{
+		uid: "3e554d0a",
+		type: "item",
+		items: [{
+			item: "randomthings:platform 1 2"
+		}]
+	},
+	{
+		uid: "aa1930b3",
+		type: "item",
+		items: [{
+			item: "randomthings:platform 1 3"
+		}]
+	},
+	{
+		uid: "4fc72bd0",
+		type: "item",
+		items: [{
+			item: "randomthings:platform 1 4"
+		}]
+	},
+	{
+		uid: "76b3405b",
+		type: "item",
+		items: [{
+			item: "randomthings:platform 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "43431031",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

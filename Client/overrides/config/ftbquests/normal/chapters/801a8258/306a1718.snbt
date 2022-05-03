@@ -1,0 +1,12 @@
+{
+	title: "You Must Construct Additional Pylons",
+	x: -3.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "1bfe4aba",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:exp_pylon"
+		}]
+	}]
+}

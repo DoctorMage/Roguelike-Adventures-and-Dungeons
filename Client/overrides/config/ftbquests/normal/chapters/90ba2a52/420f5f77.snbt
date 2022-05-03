@@ -1,0 +1,23 @@
+{
+	x: 15.0d,
+	y: -1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "f1a1016c",
+		type: "item",
+		items: [{
+			item: "twilightforest:knightmetal_block"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "671c86e5",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "f749fb5a",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Your Second Wind!",
+	x: 12.0d,
+	y: 6.0d,
+	description: "It's like a Bag of Breath!",
+	text: [
+		"The air in here stinks like old man beard cheese.",
+		"",
+		"At least it'll keep you from drowning..."
+	],
+	tasks: [{
+		uid: "64bf2669",
+		type: "item",
+		items: [{
+			item: "randomthings:bottleofair"
+		}]
+	}],
+	rewards: [{
+		uid: "547875f1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: -5.5d,
+	tasks: [{
+		uid: "f9b0010a",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cashew_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "18af82a9",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "714fd151",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

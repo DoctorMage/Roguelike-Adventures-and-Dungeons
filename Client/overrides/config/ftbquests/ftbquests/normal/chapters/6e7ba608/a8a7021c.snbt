@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	description: "How to get there",
+	text: [
+		"1. Craft a white beach chair (but it's available in all 16 wool colors)",
+		"2. Craft a Pina Colada(you can buy ingridients in the shop)",
+		"3. Sip your drink in your beach chair at sunset (IMPORTANT!!!)"
+	],
+	tasks: [{
+		uid: "3d620937",
+		type: "dimension",
+		dim: -127
+	}],
+	rewards: [{
+		uid: "1af56a2d",
+		type: "item",
+		item: "tropicraft:encyclopedia_tropica"
+	},
+	{
+		uid: "321f234e",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

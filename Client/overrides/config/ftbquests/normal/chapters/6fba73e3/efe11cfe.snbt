@@ -1,0 +1,26 @@
+{
+	title: "Do Not Enter!",
+	x: 1.0d,
+	y: -3.5d,
+	description: "Trespassers will be prosecuted!",
+	text: [
+		"Craft some Interdiction Torches."
+	],
+	tasks: [{
+		uid: "87b1d96e",
+		type: "item",
+		items: [{
+			item: "xreliquary:interdiction_torch"
+		}]
+	}],
+	rewards: [{
+		uid: "28dc715e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f9b92d9f",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

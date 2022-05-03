@@ -1,0 +1,16 @@
+{
+	title: "Tree Hugger",
+	x: 2.0d,
+	y: 9.5d,
+	description: "They love you too",
+	text: [
+		"Cut down 50 Living Roots."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "058dd6e0",
+		type: "kill",
+		entity: "thebetweenlands:wall_living_root",
+		value: 50L
+	}]
+}

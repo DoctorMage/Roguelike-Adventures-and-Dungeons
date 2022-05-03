@@ -1,0 +1,84 @@
+{
+	title: "Head Hunter",
+	x: 0.0d,
+	y: 0.0d,
+	description: "The dome destroyer. Cranium crusher. Noggin no-more man. You go by many names. These are only a few.",
+	text: [
+		"You've somehow managed to gather the skull of every extremely deadly living creature in the Overworld How scary are you?"
+	],
+	dependencies: [
+		"0786946b"
+	],
+	tasks: [{
+		uid: "123832a1",
+		type: "item",
+		items: [{
+			item: "iceandfire:hippogryph_skull"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "03c9f67a",
+		type: "item",
+		items: [{
+			item: "iceandfire:cockatrice_skull"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1c895ccc",
+		type: "item",
+		items: [{
+			item: "iceandfire:stymphalian_skull"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0880c8a3",
+		type: "item",
+		items: [{
+			item: "iceandfire:cyclops_skull"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "77c33e5f",
+		type: "item",
+		items: [{
+			item: "iceandfire:troll_skull"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "974727c1",
+		type: "item",
+		items: [{
+			item: "iceandfire:amphithere_skull"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "82b87726",
+		type: "item",
+		items: [{
+			item: "iceandfire:seaserpent_skull"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0c4feaef",
+		type: "item",
+		items: [{
+			item: "iceandfire:hydra_skull"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

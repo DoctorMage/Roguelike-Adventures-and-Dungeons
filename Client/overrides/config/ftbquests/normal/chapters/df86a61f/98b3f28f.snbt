@@ -1,0 +1,21 @@
+{
+	title: "Beat Boxing",
+	x: 25.0d,
+	y: -3.0d,
+	description: "Hit him with an that hard metal jab!",
+	text: [
+		"The Sound Box will play the sound on a Sound Pattern inside of it when powered by Redstone. Right-Click the Sound Box with a Sound Pattern to insert it, and Right-Click it again to take it out."
+	],
+	tasks: [{
+		uid: "5ce280f0",
+		type: "item",
+		items: [{
+			item: "randomthings:soundbox"
+		}]
+	}],
+	rewards: [{
+		uid: "66364e07",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

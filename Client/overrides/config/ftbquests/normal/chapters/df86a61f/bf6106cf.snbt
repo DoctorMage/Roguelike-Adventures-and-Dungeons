@@ -1,0 +1,23 @@
+{
+	title: "Knock-Knock!",
+	x: 20.0d,
+	y: 1.0d,
+	description: "Is anyone in there?",
+	text: [
+		"The Inventory Tester has to be placed against an inventory and will continuously simulate inserting the ItemStack you specifiy in its gui into the inventory it’s attached to. While successful it will emit a redstone signal.",
+		"",
+		"You can invert the redstone output with the button in the GUI. Since it’s only simulated, no items will actually be inserted into the inventory."
+	],
+	tasks: [{
+		uid: "6e870427",
+		type: "item",
+		items: [{
+			item: "randomthings:inventorytester"
+		}]
+	}],
+	rewards: [{
+		uid: "12c6d0db",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

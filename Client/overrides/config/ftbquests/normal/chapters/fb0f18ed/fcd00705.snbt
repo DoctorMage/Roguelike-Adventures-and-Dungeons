@@ -1,0 +1,16 @@
+{
+	title: "Call Amberlamps",
+	x: -4.0d,
+	y: -1.0d,
+	description: "War never changes",
+	text: [
+		"Heals health and hunger overtime."
+	],
+	tasks: [{
+		uid: "5db53dae",
+		type: "item",
+		items: [{
+			item: "openblocks:heal"
+		}]
+	}]
+}

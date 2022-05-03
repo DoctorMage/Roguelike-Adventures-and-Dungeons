@@ -1,0 +1,31 @@
+{
+	title: "Atmometer",
+	x: 7.5d,
+	y: 1.5d,
+	description: "That's what it should've been called, anyways",
+	text: [
+		"Tells you where the fires are."
+	],
+	dependencies: [
+		"322bb351"
+	],
+	tasks: [{
+		uid: "12859610",
+		type: "item",
+		items: [{
+			item: "embers:ember_detector"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4a9fc069",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "aae93b35",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Wanna Know How Everest Was Made?",
+	x: -7.5d,
+	y: -9.0d,
+	description: "They spammed Right-Click ",
+	text: [
+		"Right-Click to chuck several slow balls at your foes.",
+		"",
+		"Creates snow patches upon contact."
+	],
+	tasks: [{
+		uid: "9bd59ae4",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:ender_snow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0da4742f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Tell Me About The Rabbits...",
+	x: -3.0d,
+	y: -0.5d,
+	description: ":(",
+	text: [
+		"Hammocks must be connected to Rope and Nails. Rope and Nails can only be attached to wooden log items. Once you have some Nails down, place your hammock in between them, and voila!",
+		"",
+		"Can be dyed."
+	],
+	dependencies: [
+		"44c9367a"
+	],
+	tasks: [{
+		uid: "2440866a",
+		type: "item",
+		items: [{
+			item: "comforts:hammock"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e7f38dc1",
+		type: "item",
+		items: [{
+			item: "comforts:rope"
+		}]
+	}]
+}

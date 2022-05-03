@@ -1,0 +1,30 @@
+{
+	title: "Self Sustaining Fire",
+	x: 4.0d,
+	y: 0.5d,
+	description: "Sulfur incense; the best kind",
+	text: [
+		"Craft a handful of Sulfur Torches."
+	],
+	dependencies: [
+		"3c192351"
+	],
+	tasks: [{
+		uid: "4f95b4a1",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sulfur_torch"
+		}],
+		count: 30L
+	}],
+	rewards: [{
+		uid: "3ae57167",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "928ca8ae",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

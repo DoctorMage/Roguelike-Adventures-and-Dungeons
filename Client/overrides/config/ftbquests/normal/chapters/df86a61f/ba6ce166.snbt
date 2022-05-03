@@ -1,0 +1,28 @@
+{
+	title: "Shield Brother",
+	x: -23.5d,
+	y: 20.0d,
+	description: "Ice for brains",
+	text: [
+		"This totem will protect you when carried in your Off-Hand.",
+		"",
+		"25% of damage dealt to you is taken by the shield instead.",
+		"",
+		"The shield will protect you from a single fatal blow, but gives no other protections afterwards."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "25026cbb",
+		type: "item",
+		items: [{
+			item: "charm:totem_of_shielding"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7f89c5fc",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "The Shower Monster!",
+	x: -31.5d,
+	y: 6.0d,
+	description: "He's gonna get you!",
+	text: [
+		"The XP Drain will take all of your XP and put it into the connected storage container.",
+		"",
+		"You cannot hook the XP Drain to pipes directly.",
+		"",
+		"You must place the XP Drain on top of a storage container as a simple buffer, if you wish to pump it elsewhere over longer distances.",
+		"",
+		"The XP Shower must be activated with a Lever, or by a Redstone signal to be activated. It will consume liquid XP from an attached source and output XP orbs."
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "757322b6",
+		type: "item",
+		items: [{
+			item: "openblocks:xp_drain"
+		}]
+	},
+	{
+		uid: "31a323df",
+		type: "item",
+		items: [{
+			item: "openblocks:xp_shower"
+		}]
+	}],
+	rewards: [{
+		uid: "76f67af5",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

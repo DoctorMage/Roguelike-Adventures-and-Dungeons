@@ -1,0 +1,31 @@
+{
+	title: "Maze-Runner",
+	x: 1.5d,
+	y: -1.5d,
+	description: "Don't get lost now!",
+	text: [
+		"Obtain a map which will guide you through the Labyrinth.",
+		"",
+		"Warning: If the map is not used inside the Labyrinth, it may malfunction and become unuseable."
+	],
+	dependencies: [
+		"1b028991"
+	],
+	tasks: [{
+		uid: "72186c32",
+		type: "item",
+		items: [{
+			item: "twilightforest:maze_map_empty"
+		}]
+	}],
+	rewards: [{
+		uid: "33d02739",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "481cb488",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

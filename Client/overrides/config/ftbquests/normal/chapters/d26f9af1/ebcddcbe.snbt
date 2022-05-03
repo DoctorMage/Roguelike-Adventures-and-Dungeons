@@ -1,0 +1,35 @@
+{
+	title: "The Pulsar Pulser",
+	x: 6.5d,
+	y: -14.0d,
+	description: "Sike, you thought it was fast?",
+	text: [
+		"No, it's very simplistic and neat though.",
+		"",
+		"Sends out a momentary signal to all sides of the block connected to Redstone, at max strength.",
+		"",
+		"Cannot be configured."
+	],
+	tasks: [{
+		uid: "5e0d4432",
+		type: "item",
+		items: [{
+			item: "extrautils2:redstoneclock"
+		}]
+	}],
+	rewards: [{
+		uid: "bc10c0ad",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "0d9d99b6",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "1610d323",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

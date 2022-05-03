@@ -1,0 +1,29 @@
+{
+	x: 7.0d,
+	y: 3.0d,
+	description: "Once again... all my plants are dead",
+	text: [
+		"Obtain a Wither Skeleton Chunk."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"65d52bfd"
+	],
+	tasks: [{
+		uid: "1d950313",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chunk 1 20"
+		}]
+	}],
+	rewards: [{
+		uid: "fd576018",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "f370e2a8",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

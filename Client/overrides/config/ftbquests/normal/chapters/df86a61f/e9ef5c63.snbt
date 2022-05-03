@@ -1,0 +1,27 @@
+{
+	title: "Is It Here?",
+	x: -10.5d,
+	y: -5.5d,
+	description: "Is it there?",
+	text: [
+		"Is it anywhere?",
+		"",
+		"Right-Clicking in a chunk will tell you all possible spawns for that chunk.",
+		"",
+		"Some data may look rather raw."
+	],
+	tasks: [{
+		uid: "b26304c6",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_spawn_inspect"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "884299e6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

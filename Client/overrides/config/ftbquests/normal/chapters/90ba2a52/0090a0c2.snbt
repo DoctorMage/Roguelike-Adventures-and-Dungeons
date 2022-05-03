@@ -1,0 +1,49 @@
+{
+	x: 24.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "e154423d",
+		type: "item",
+		items: [{
+			item: "atum:loot_diamond_idol"
+		}],
+		count: 8L
+	},
+	{
+		uid: "07dc188d",
+		type: "item",
+		items: [{
+			item: "atum:loot_diamond_necklace"
+		}],
+		count: 8L
+	},
+	{
+		uid: "a45fd559",
+		type: "item",
+		items: [{
+			item: "atum:loot_diamond_ring"
+		}],
+		count: 8L
+	},
+	{
+		uid: "03160d4e",
+		type: "item",
+		items: [{
+			item: "atum:loot_diamond_scepter"
+		}],
+		count: 8L
+	},
+	{
+		uid: "17b3f658",
+		type: "item",
+		items: [{
+			item: "atum:loot_diamond_broach"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "81ac3f32",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

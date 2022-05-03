@@ -1,0 +1,31 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"It is used to harvest Ember Crystals and Ember Shards when it is placed on bedrock.",
+		"The Ember Bore has no interface. It requires solid fuels (e.g., Coal) to be piped or transferred into the center block of the structure. An animated middle block with a sound means that it is running.",
+		"Collected Ember Shards and Crystals must be pumped out of the middle block. This can be done with the Ember Item pipes, or any other transport pipes from other mods."
+	],
+	dependencies: [
+		"1135dbfd"
+	],
+	tasks: [{
+		uid: "496cef6f",
+		type: "item",
+		items: [{
+			item: "embers:ember_bore"
+		}]
+	},
+	{
+		uid: "7c634a44",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}]
+	}],
+	rewards: [{
+		uid: "ab85ef89",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

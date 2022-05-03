@@ -1,0 +1,34 @@
+{
+	title: "I Know You're Out There!",
+	icon: "randomthings:entitydetector",
+	x: 21.0d,
+	y: 4.0d,
+	description: "I have night vision goggles!",
+	text: [
+		"The Entity Detector emits a signal when a configurable type of entity enters a configurable radius around the block. You can set it up to 10x10x10.",
+		"",
+		"Right-Click to configure the settings. Inverting will invert the block to activate if it detects an entity that is NOT the set type. E.G activate if it is NOT a \"player\".",
+		"",
+		"Setting the detection to custom requires an Entity Filter. Entity Filters can only store one type of entity at a time.",
+		""
+	],
+	tasks: [{
+		uid: "2465ac9c",
+		type: "item",
+		items: [{
+			item: "randomthings:entitydetector"
+		}]
+	},
+	{
+		uid: "88d4e257",
+		type: "item",
+		items: [{
+			item: "randomthings:entityfilter"
+		}]
+	}],
+	rewards: [{
+		uid: "c8b9873c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	x: 8.0d,
+	y: 4.0d,
+	dependencies: [
+		"6cb436ac"
+	],
+	tasks: [{
+		uid: "3be91351",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_plant_drop 1 23"
+		}]
+	},
+	{
+		uid: "a991d67e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_plant_drop 1 33"
+		}]
+	},
+	{
+		uid: "afcccb9b",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_plant_drop 1 36"
+		}]
+	},
+	{
+		uid: "c995fdba",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_plant_drop 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "c7fda366",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8e2b087f",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Drowning In Mobs",
+	x: -2.5d,
+	y: 10.5d,
+	description: "How is it wet and on fire at the same time?",
+	text: [
+		"Water Candles will increase spawn rates within an area."
+	],
+	tasks: [{
+		uid: "575dca00",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:water_candle"
+		}]
+	}]
+}

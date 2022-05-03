@@ -1,0 +1,26 @@
+{
+	title: "Sticky Sap",
+	x: 14.5d,
+	y: 3.0d,
+	description: "You can wash your hands all you want",
+	dependencies: [
+		"61972b76"
+	],
+	tasks: [{
+		uid: "c187547c",
+		type: "item",
+		items: [{
+			item: "iceandfire:myrmex_jungle_resin_block"
+		}]
+	}],
+	rewards: [{
+		uid: "335f0b6f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "af61f199",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

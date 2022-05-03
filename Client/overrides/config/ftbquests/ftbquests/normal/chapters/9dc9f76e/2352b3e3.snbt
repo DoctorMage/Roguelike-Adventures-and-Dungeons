@@ -1,0 +1,20 @@
+{
+	title: "Better Than Gold",
+	x: 0.5d,
+	y: -1.5d,
+	description: "Making villagers \"Hmm\" since 99'",
+	text: [
+		"You thought this was the best item in the game when you were 10, don't lie."
+	],
+	dependencies: [
+		"2bcebdfc"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "894dc8b8",
+		type: "item",
+		items: [{
+			item: "minecraft:emerald"
+		}]
+	}]
+}

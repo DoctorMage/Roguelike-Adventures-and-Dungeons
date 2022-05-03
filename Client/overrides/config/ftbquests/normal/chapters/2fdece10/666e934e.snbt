@@ -1,0 +1,16 @@
+{
+	x: -1.5d,
+	y: -9.0d,
+	tasks: [{
+		uid: "e23e1f60",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonsteel_ice_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "7ba3195b",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

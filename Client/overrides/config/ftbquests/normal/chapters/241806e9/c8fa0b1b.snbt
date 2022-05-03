@@ -1,0 +1,31 @@
+{
+	title: "Icarus's Ring",
+	x: 14.5d,
+	y: -2.0d,
+	description: "Was it? No way to prove me wrong",
+	text: [
+		"Maybe this thing weighed him down too much...",
+		"",
+		"It is 24k gold."
+	],
+	dependencies: [
+		"31bf2fad"
+	],
+	tasks: [{
+		uid: "737a22a9",
+		type: "item",
+		items: [{
+			item: "dungeontactics:icarus_ring"
+		}]
+	}],
+	rewards: [{
+		uid: "b38e4eac",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "bd617220",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

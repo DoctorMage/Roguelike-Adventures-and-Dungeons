@@ -1,0 +1,16 @@
+{
+	title: "Detector Detective",
+	x: 3.0d,
+	y: 5.0d,
+	description: "You won't escape the eyes of scrutiny",
+	text: [
+		"Detects mobs, items or xp orbs and emits a redstone signal based on how many of the specified entity there is within the set range."
+	],
+	tasks: [{
+		uid: "04959f45",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:entity_detector"
+		}]
+	}]
+}

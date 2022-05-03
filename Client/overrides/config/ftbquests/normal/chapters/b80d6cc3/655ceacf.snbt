@@ -1,0 +1,42 @@
+{
+	title: "STOP!",
+	x: 16.5d,
+	y: 3.5d,
+	description: "Hammer time!",
+	text: [
+		"Duuun, dun dun dun, duuuun dun..."
+	],
+	dependencies: [
+		"05276366"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "eac23a0c",
+		type: "item",
+		items: [{
+			item: "embers:auto_hammer"
+		}]
+	},
+	{
+		uid: "fbf1f7bf",
+		type: "item",
+		items: [{
+			item: "embers:dawnstone_anvil"
+		}]
+	}],
+	rewards: [{
+		uid: "fc53db45",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "c3223a57",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "9162bdd5",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

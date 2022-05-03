@@ -1,0 +1,26 @@
+{
+	title: "Slime Zone",
+	x: 8.0d,
+	y: 13.0d,
+	description: "I miss the good Nick",
+	text: [
+		"The Slime Cube will make chunks spawn Slimes!",
+		"",
+		"When this Cube is in a chunk, Slimes will spawn at any height and at a much higher rate than vanilla.",
+		"",
+		"When powered by Redstone, the Slime Cube will prevent Slimes from spawning in the chunk instead."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "a76ebd2c",
+		type: "item",
+		items: [{
+			item: "randomthings:slimecube"
+		}]
+	}],
+	rewards: [{
+		uid: "92e24cfa",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

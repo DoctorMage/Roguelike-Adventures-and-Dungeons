@@ -1,0 +1,20 @@
+{
+	title: "Dense",
+	x: -14.5d,
+	y: 4.5d,
+	description: "Don't ask too many questions about this thing's existence",
+	text: [
+		"It's reuseable. I don't know what else you want me to say.",
+		"",
+		""
+	],
+	tasks: [{
+		uid: "e9fb69d3",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:ender_eye_orb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

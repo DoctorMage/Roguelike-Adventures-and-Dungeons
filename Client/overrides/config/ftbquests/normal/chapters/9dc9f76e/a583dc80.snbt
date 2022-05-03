@@ -1,0 +1,31 @@
+{
+	title: "Bounty Hunter",
+	x: -10.0d,
+	y: -2.0d,
+	description: "You're like a Dogg, or something",
+	text: [
+		"Bounty Boards offer small quests. They can only be found in Villages. ",
+		"",
+		"Bounty Boards cannot be moved or broken by players by normal means.",
+		"",
+		"Right-Click a Bounty Board to access the available bounties. Each Bounty will have a list of requirements, a list of rewards and a time limit.",
+		"",
+		"Once you have the required completion items for a Bounty, Right-Click a Bounty Board with your Bounty to complete it.",
+		"",
+		"If you have a BLANK Bounty, Right-Clicking on a Bounty Board with your blank Bounty will reveal it's criteria, and turn it into a randomized quest."
+	],
+	tasks: [{
+		uid: "39bea211",
+		type: "item",
+		items: [{
+			item: "bountiful:bounty"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dfed1e28",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

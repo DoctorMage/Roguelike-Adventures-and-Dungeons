@@ -1,0 +1,18 @@
+{
+	title: "Silver Coin Turn-In",
+	x: -20.0d,
+	y: -5.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "98ce4a2c",
+		type: "item",
+		items: [{
+			item: "ordinarycoins:coinsilver"
+		}]
+	}],
+	rewards: [{
+		uid: "d3562036",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

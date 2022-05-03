@@ -1,0 +1,21 @@
+{
+	x: 9.5d,
+	y: -14.5d,
+	tasks: [{
+		uid: "a4d3274b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cherry_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "48615043",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "596278df",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

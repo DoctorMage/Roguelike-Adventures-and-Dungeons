@@ -1,0 +1,19 @@
+{
+	title: "Like A Weed Wacker, But Powder",
+	x: 0.5d,
+	y: -4.0d,
+	description: "Kills weeds at the source!",
+	text: [
+		"Kills grass and any nearby plantlife, turning Dirt to Coarse Dirt."
+	],
+	dependencies: [
+		"4551fdb8"
+	],
+	tasks: [{
+		uid: "bc4445a5",
+		type: "item",
+		items: [{
+			item: "erebus:planticide"
+		}]
+	}]
+}

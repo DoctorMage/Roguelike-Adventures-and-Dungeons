@@ -1,0 +1,21 @@
+{
+	x: 5.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "3d0eac57",
+		type: "item",
+		items: [{
+			item: "harvestcraft:spinachseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "168be42d",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "a777eb7b",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

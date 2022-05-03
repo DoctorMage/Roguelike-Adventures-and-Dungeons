@@ -1,0 +1,32 @@
+{
+	title: "CAUTION: FRAGILE",
+	x: 3.0d,
+	y: 8.5d,
+	description: "Does this thing even work?",
+	text: [
+		"Not for long it doesn't!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"12ae72c5"
+	],
+	tasks: [{
+		uid: "84b40b82",
+		type: "item",
+		items: [{
+			item: "twilightforest:glass_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1da07e82",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "3908b02b",
+		type: "xp_levels",
+		xp_levels: 15
+	}]
+}

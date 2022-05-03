@@ -1,0 +1,27 @@
+{
+	title: "Wireless Emissions",
+	x: 3.5d,
+	y: 2.0d,
+	description: "5G Radiation is not a joke",
+	text: [
+		"Left-Click a placed Wireless Receiver with a Wireless Transmitter that is in your inventory. Wireless Transmitters placed then-on will transmit a redstone signal to THAT Receiver when it is turned on. ",
+		"",
+		"To change which Receiver is being signalled, Left-Click a different Receiver with another Transmitter. The Transmitter will not signal to THAT clicked Receiver.",
+		"",
+		"Both chunks, if multiple, with both machines, must be loaded for the Receiver to receive signals from a Transmitter."
+	],
+	tasks: [{
+		uid: "5ecb2c33",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:wireless_transmitter"
+		}]
+	},
+	{
+		uid: "ec1e1858",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:wireless_receiver"
+		}]
+	}]
+}

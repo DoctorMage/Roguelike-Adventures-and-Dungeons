@@ -1,0 +1,29 @@
+{
+	x: -6.5d,
+	y: -9.0d,
+	description: "Growing the thing you need most!",
+	text: [
+		"Craft some Dirt Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b391c054"
+	],
+	tasks: [{
+		uid: "11ad8518",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:dirt_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "a94ab6f4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "7d4e683e",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

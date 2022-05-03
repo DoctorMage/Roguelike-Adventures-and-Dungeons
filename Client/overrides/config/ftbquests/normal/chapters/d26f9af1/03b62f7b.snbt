@@ -1,0 +1,35 @@
+{
+	x: -0.5d,
+	y: -18.5d,
+	dependencies: [
+		"c1f990e9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ce69ab39",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "8ac83c77",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "4b6980d0",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "85f09161",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c0b851ec",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

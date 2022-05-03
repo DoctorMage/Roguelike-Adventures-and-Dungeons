@@ -1,0 +1,22 @@
+{
+	title: "Greed Is A Deadly Sin",
+	x: -17.0d,
+	y: -18.0d,
+	description: "That's why all those villagers deserve to die",
+	text: [
+		"C'mon, I'm not the only one who kills the entire village almost every time... and captures the ones with good trades... and enslaves them..."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "6adb2517",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:apple_emerald"
+		}]
+	}],
+	rewards: [{
+		uid: "d53e19bd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

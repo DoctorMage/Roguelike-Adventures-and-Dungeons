@@ -1,0 +1,38 @@
+{
+	title: "Why Do I Keep Catching Dinks?",
+	x: 2.5d,
+	y: 1.5d,
+	description: "Where's all the hogs?",
+	text: [
+		"Well, with this pole, you're sure to never see another hog so long as you live.",
+		"",
+		"You will see tons of junk though!"
+	],
+	dependencies: [
+		"d6d462e3"
+	],
+	tasks: [{
+		uid: "de06ea63",
+		type: "item",
+		items: [{
+			item: "tombstone:fishing_rod_of_misadventure"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "603ae2e1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "2fd64dad",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "22faf156",
+		type: "item",
+		item: "aquaculture:loot 1 4"
+	}]
+}

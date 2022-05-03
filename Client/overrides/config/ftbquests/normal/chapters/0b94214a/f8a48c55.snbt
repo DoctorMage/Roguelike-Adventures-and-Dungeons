@@ -1,0 +1,29 @@
+{
+	x: 6.0d,
+	y: -4.5d,
+	description: "For two payments of $19.99!",
+	text: [
+		"Obtain a Supremium Watering Can."
+	],
+	dependencies: [
+		"f2d105e0"
+	],
+	tasks: [{
+		uid: "cd6d67b5",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:watering_can 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c3fede3f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "1138aaa2",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

@@ -1,0 +1,69 @@
+{
+	title: "I Miss You Already",
+	x: -0.5d,
+	y: 2.5d,
+	text: [
+		"You're probably going to die, a lot. Like a real souls game.",
+		"Grave's naturally fill with souls (empty on placement). Right click a Grave with an item that requires a Grave's Soul to consume the soul and empower the held item. Multiple Grave's are recommended so the player never has a lack of souls."
+	],
+	dependencies: [
+		"5e92b920"
+	],
+	tasks: [{
+		uid: "27b9d544",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_grave_simple"
+		}]
+	},
+	{
+		uid: "9ba65df2",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_grave_simple 1 1"
+		}]
+	},
+	{
+		uid: "6a19e780",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_grave_normal"
+		}]
+	},
+	{
+		uid: "79f72b93",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_grave_normal 1 1"
+		}]
+	},
+	{
+		uid: "0dc076c1",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_grave_cross"
+		}]
+	},
+	{
+		uid: "f3bd447e",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_grave_cross 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "56cb64ad",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "fa8179a4",
+		type: "item",
+		item: "charm:rotten_flesh_block"
+	},
+	{
+		uid: "07b96e1c",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

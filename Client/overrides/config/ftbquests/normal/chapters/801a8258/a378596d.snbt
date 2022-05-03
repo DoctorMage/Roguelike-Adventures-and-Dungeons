@@ -1,0 +1,96 @@
+{
+	title: "Hungry Hungry Conveyer Belts",
+	x: 6.0d,
+	y: 4.0d,
+	description: "Don't let them bite you now",
+	text: [
+		"These conveyor belts will push mobs, item entities and xp orbs in the direction they specify.",
+		"",
+		"You are only required to make one type of a single conveyor belt to complete this quest."
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "e2314399",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_slowest"
+		}]
+	},
+	{
+		uid: "a8a0bf7a",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_slow"
+		}]
+	},
+	{
+		uid: "9076c279",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push"
+		}]
+	},
+	{
+		uid: "c950fc45",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_fast"
+		}]
+	},
+	{
+		uid: "475f535c",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_slowest_corner"
+		}]
+	},
+	{
+		uid: "e39c21b8",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_slow_corner"
+		}]
+	},
+	{
+		uid: "622dd2bd",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_corner"
+		}]
+	},
+	{
+		uid: "442d1b71",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_fast_corner"
+		}]
+	},
+	{
+		uid: "f67c2a4f",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_slowest_angle"
+		}]
+	},
+	{
+		uid: "c80da188",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_slow_angle"
+		}]
+	},
+	{
+		uid: "dfc4702e",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_med_angle"
+		}]
+	},
+	{
+		uid: "9877a31d",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_fast_angle"
+		}]
+	}]
+}

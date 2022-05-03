@@ -1,0 +1,27 @@
+{
+	title: "This Has To Just Be Drugs Right?",
+	x: 3.5d,
+	y: -3.0d,
+	description: "Officer, just because it's blue doesn't make it a drug",
+	text: [
+		"Craft some Superium Essence."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "cd2ac288",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "67ec62fc",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "122090b4",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

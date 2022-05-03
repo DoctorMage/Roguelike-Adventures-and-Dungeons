@@ -1,0 +1,16 @@
+{
+	title: "This Is What The Crystal Skull Was Sitting On!",
+	x: -4.0d,
+	y: 1.0d,
+	description: "I feel like a boulder is gonna roll us over...",
+	text: [
+		"Used to display dragon eggs and other items."
+	],
+	tasks: [{
+		uid: "51bcf9c8",
+		type: "item",
+		items: [{
+			item: "iceandfire:podium"
+		}]
+	}]
+}

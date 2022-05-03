@@ -1,0 +1,35 @@
+{
+	title: "It's Illegal To Yell Fire In A Theatre",
+	x: 11.5d,
+	y: 12.5d,
+	description: "Boy if there is a fire, I'm letting em' KNOW",
+	text: [
+		"This... device... will spawn fire...",
+		"",
+		"Special fire.",
+		"",
+		"Fast fire.",
+		"",
+		"Fire that makes you regret fire.",
+		"",
+		"Fire.",
+		"",
+		"Make sure you know what you're doing.",
+		"",
+		"Only YOU... can prevent forest fires... and burning your own house down."
+	],
+	tasks: [{
+		uid: "ee1c3772",
+		type: "item",
+		items: [{
+			item: "randomthings:blazeandsteel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "26748618",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

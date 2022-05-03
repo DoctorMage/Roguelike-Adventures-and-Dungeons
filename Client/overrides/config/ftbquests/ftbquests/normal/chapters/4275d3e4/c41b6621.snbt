@@ -1,0 +1,21 @@
+{
+	x: 1.0d,
+	y: 2.0d,
+	dependencies: [
+		"3a3323f4"
+	],
+	tasks: [{
+		uid: "6fdd8b46",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:syrmorite_shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "381107eb",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

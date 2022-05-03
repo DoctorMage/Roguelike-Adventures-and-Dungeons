@@ -1,0 +1,39 @@
+{
+	title: "Fire Water",
+	x: 11.5d,
+	y: -1.5d,
+	description: "The stuff they drink in the reserves",
+	text: [
+		"May not actually light you on fire."
+	],
+	dependencies: [
+		"31bf2fad"
+	],
+	tasks: [{
+		uid: "5e0a71ba",
+		type: "item",
+		items: [{
+			item: "dungeontactics:fire_water"
+		}]
+	}],
+	rewards: [{
+		uid: "749d3a8d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "14723558",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "c39230c8",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	},
+	{
+		uid: "d40cf6f0",
+		type: "item",
+		item: "aquaculture:loot 1 4"
+	}]
+}

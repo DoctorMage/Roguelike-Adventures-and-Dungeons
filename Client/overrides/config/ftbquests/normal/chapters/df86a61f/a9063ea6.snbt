@@ -1,0 +1,25 @@
+{
+	title: "OVER 9000 DPS",
+	x: -10.5d,
+	y: -7.0d,
+	description: "Was anyone doing logs?",
+	text: [
+		"This dummy doesn't even know his rotation, lame.",
+		"",
+		""
+	],
+	tasks: [{
+		uid: "3ee7d4da",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:robot_spawner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ff105b13",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

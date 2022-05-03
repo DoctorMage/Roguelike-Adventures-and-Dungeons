@@ -1,0 +1,20 @@
+{
+	title: "All Bogged Down",
+	x: -6.5d,
+	y: 4.0d,
+	description: "It's okay, automation will get you right back up",
+	text: [
+		"Dry Peat Bogs can be placed in water to be turned into Peat Bogs. These can be broken for Peat.",
+		"",
+		"Peat is going to be your main source of fuel for energy in this modpack!",
+		"",
+		"There is only one type of energy, and this is one of the only ways to produce it!"
+	],
+	tasks: [{
+		uid: "83f3e601",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:peat_unbaked"
+		}]
+	}]
+}

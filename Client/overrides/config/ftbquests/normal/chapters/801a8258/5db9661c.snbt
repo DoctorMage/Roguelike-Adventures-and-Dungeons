@@ -1,0 +1,19 @@
+{
+	title: "Mad Duck",
+	x: -15.5d,
+	y: 3.5d,
+	description: "It bites",
+	text: [
+		"Mines within a 3x3 area. Mine the middle most block to mine straight forward or straight down."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "6ad100cb",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:mattock"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

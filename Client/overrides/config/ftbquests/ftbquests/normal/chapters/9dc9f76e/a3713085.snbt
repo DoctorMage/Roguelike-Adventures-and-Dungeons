@@ -1,0 +1,45 @@
+{
+	title: "As Basic As It Gets",
+	x: -6.5d,
+	y: 1.0d,
+	description: "Your imagination is what fuels this thing",
+	text: [
+		"If you're creative enough, you CAN create a filtered storage system between this mod, and Extra Utilies. Otherwise, this mod in itself is great for simple stash storage and requesting. It's got a search bar for ease of access, especially with JEI",
+		"at our fingertips.",
+		"",
+		"Storage Networks can only have one Master block. All inventories connected to this block will be inside of its network.",
+		"",
+		"The Storage Request Table can be used to pull items from any inventory connected to the network. The location of where items go when you put them back is random, unless some type of filter system has been set up.",
+		"",
+		"Not entirely sure how Controllers interact with Processing Cables. They request certain amounts of items from Processing Cables, which in turn request or import items from a crafting space."
+	],
+	dependencies: [
+		"ace30757"
+	],
+	tasks: [{
+		uid: "a50cb1a2",
+		type: "item",
+		items: [{
+			item: "storagenetwork:request"
+		}]
+	},
+	{
+		uid: "6d007646",
+		type: "item",
+		items: [{
+			item: "storagenetwork:master"
+		}]
+	},
+	{
+		uid: "f53db233",
+		type: "item",
+		items: [{
+			item: "storagenetwork:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "bb883204",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

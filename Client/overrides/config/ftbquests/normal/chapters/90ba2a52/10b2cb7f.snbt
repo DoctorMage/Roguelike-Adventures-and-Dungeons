@@ -1,0 +1,16 @@
+{
+	title: "For Peat (Mummy) Sake!",
+	x: 4.0d,
+	y: 9.5d,
+	description: "This isn't your traditional mummy...",
+	text: [
+		"Slay 15 Peat Mummies."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "97978252",
+		type: "kill",
+		entity: "thebetweenlands:peat_mummy",
+		value: 15L
+	}]
+}

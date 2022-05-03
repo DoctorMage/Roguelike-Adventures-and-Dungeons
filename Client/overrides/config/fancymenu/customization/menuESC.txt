@@ -1,0 +1,50 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiIngameMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=376330%
+  action = hidebutton
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = -100
+  width = 98
+  actionid = 9aaf03c0-e839-4da1-8da0-91c0d4a50e551640431230553
+  action = addbutton
+  y = -53
+  label = Get Help
+  value = https://discord.gg/r8CP8wrYsH
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 2
+  width = 98
+  actionid = 2c665289-0745-4ed9-80c9-73940a8f0dab1640431241754
+  action = addbutton
+  y = -53
+  label = Support the Author
+  value = https://www.patreon.com/Dreams01
+  height = 20
+}
+

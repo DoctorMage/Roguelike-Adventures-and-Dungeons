@@ -1,0 +1,31 @@
+{
+	title: "The Disintegrate-inator",
+	x: 2.5d,
+	y: -10.5d,
+	description: "Doofenshmirtz really outdid himself this time",
+	text: [
+		"So... This staff turned things from something into nothing.",
+		"",
+		"Like, literally nothing.",
+		"",
+		"100 damage, no loot, no dust, just thunder, and lightning and death."
+	],
+	dependencies: [
+		"efbea43d"
+	],
+	tasks: [{
+		uid: "739eaac0",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:ender_lightning",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3e60ab6a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}
