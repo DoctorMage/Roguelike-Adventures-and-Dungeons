@@ -58,8 +58,7 @@ Added:
 
 Updated 17 files
 Detailed mod changelog: https://pastebin.com/raw/MjUafVwp
-
-https://i.imgur.com/Og8jfwS.png (https://bisecthosting.com/xdreamz)
+[![bisecthosting] (https://i.imgur.com/Og8jfwS.png)] (https://bisecthosting.com/xdreamz)
 
 Need a server to play with friends? Don't know how to setup one? Just rent already configured server - install and update my modpacks( and dozens of others!) in one click!
 
