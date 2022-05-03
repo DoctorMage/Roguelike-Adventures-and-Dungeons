@@ -1,0 +1,23 @@
+{
+	title: "Free Falling",
+	x: 0.0d,
+	y: -10.0d,
+	description: "Kinda like Lucifer.",
+	text: [
+		"Obtain an Angelic Feather from the Shop."
+	],
+	tasks: [{
+		uid: "56066b0d",
+		type: "item",
+		items: [{
+			item: "xreliquary:angelic_feather"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ee0b8d4b",
+		type: "xp_levels",
+		xp_levels: 20
+	}]
+}

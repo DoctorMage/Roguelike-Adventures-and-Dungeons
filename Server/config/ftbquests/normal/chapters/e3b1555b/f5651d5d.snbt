@@ -1,0 +1,33 @@
+{
+	title: "Hokey Pokey",
+	x: 0.5d,
+	y: -2.0d,
+	description: "His name is Hokey.",
+	text: [
+		"Voodoo dolls can be used to prevent certain types of nuissance damages.",
+		"",
+		"Craft the doll and combine it with different materials for varying effects."
+	],
+	dependencies: [
+		"33dcfd32"
+	],
+	tasks: [{
+		uid: "78391bbd",
+		type: "item",
+		items: [{
+			item: "tombstone:voodoo_poppet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4a360090",
+		type: "item",
+		item: "minecraft:wool"
+	},
+	{
+		uid: "c0c33011",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

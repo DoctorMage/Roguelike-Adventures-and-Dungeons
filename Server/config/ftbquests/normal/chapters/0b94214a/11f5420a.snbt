@@ -1,0 +1,29 @@
+{
+	x: 0.5d,
+	y: -11.0d,
+	description: "Bones in my backyard! Dejavu...",
+	text: [
+		"Craft some Skeleton Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aea8320e"
+	],
+	tasks: [{
+		uid: "3d4b2561",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:skeleton_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "6310c0a9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "e02292bb",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

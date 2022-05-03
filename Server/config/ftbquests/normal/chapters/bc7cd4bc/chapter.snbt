@@ -1,0 +1,12 @@
+{
+	title: "Inventory Pets",
+	icon: {
+		id: "inventorypets:slime_pet",
+		tag: {
+			GiveItems: 1b
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

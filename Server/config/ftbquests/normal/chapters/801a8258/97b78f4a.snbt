@@ -1,0 +1,18 @@
+{
+	title: "Right On Time",
+	x: 3.5d,
+	y: 6.0d,
+	description: "Never late, never early",
+	text: [
+		"You can entirely customize tick delays, pulse durations, and block side outputs with this clock.",
+		"",
+		"It might replace all those repeaters you're using!"
+	],
+	tasks: [{
+		uid: "63e9ca2c",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:clock"
+		}]
+	}]
+}

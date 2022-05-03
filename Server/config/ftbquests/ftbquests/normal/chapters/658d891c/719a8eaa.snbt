@@ -1,0 +1,13 @@
+{
+	title: "Bug Boogers",
+	x: 13.0d,
+	y: -2.0d,
+	description: "You're never gonna get all of this off your armor",
+	tasks: [{
+		uid: "8fb4e0b6",
+		type: "item",
+		items: [{
+			item: "iceandfire:myrmex_desert_resin"
+		}]
+	}]
+}

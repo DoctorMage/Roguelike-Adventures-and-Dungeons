@@ -1,0 +1,34 @@
+{
+	title: "Praying To Bugs?",
+	x: -4.0d,
+	y: -8.0d,
+	description: "I'm interested in your religion",
+	text: [
+		"Craft the Offering Altar and two gems, to get you there and back."
+	],
+	tasks: [{
+		uid: "4805ed4e",
+		type: "item",
+		items: [{
+			item: "erebus:altar_offering"
+		}]
+	},
+	{
+		uid: "4699c0db",
+		type: "item",
+		items: [{
+			item: "erebus:materials 1 38"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "828360d0",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "656ef91d",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Mob Mobster IV",
+	icon: "minecraft:bone",
+	x: -10.0d,
+	y: -2.0d,
+	description: "You are indeed, slaying lots...",
+	text: [
+		"Slay 50,000 mobs."
+	],
+	tasks: [{
+		uid: "cf74782f",
+		type: "stat",
+		title: "Slay 50,000 mobs",
+		icon: "minecraft:bone",
+		stat: "stat.mobKills",
+		value: 50000
+	}],
+	rewards: [{
+		uid: "1f395cfa",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "2825bda4",
+		type: "xp_levels",
+		xp_levels: 100
+	}]
+}

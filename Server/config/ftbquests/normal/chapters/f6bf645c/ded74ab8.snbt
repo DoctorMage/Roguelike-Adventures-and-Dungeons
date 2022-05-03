@@ -1,0 +1,57 @@
+{
+	title: "Scaled Security",
+	x: 7.5d,
+	y: 1.5d,
+	description: "Naga thing can get to me now!",
+	text: [
+		"Craft protection from the scales of the great Naga."
+	],
+	dependencies: [
+		"9e4d5180"
+	],
+	tasks: [{
+		uid: "b35f67ef",
+		type: "item",
+		items: [{
+			id: "twilightforest:naga_chestplate",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 1
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "13e1d814",
+		type: "item",
+		items: [{
+			id: "twilightforest:naga_leggings",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 0
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ba272702",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "fe9d1e50",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "37268b82",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

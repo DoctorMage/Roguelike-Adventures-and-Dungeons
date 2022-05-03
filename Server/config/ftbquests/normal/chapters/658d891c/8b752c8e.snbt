@@ -1,0 +1,36 @@
+{
+	title: "Poking A Soggy Piñata",
+	x: 15.5d,
+	y: 2.5d,
+	description: "Why is the piñata buzzing?",
+	text: [
+		"That hornet on a Mickey's cap? That's what's in this thing."
+	],
+	dependencies: [
+		"ca17647d"
+	],
+	tasks: [{
+		uid: "262db235",
+		type: "item",
+		items: [{
+			item: "iceandfire:myrmex_jungle_swarm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d1eb6208",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "064b93ca",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "3977dc0a",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

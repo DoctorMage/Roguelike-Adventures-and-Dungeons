@@ -1,0 +1,30 @@
+{
+	title: "This Is Kinda Harsh, Don't You Think?",
+	x: 8.0d,
+	y: -21.0d,
+	description: "No, John, these items are useless.",
+	text: [
+		"These two items have better alternatives, unless players are attempting to entirely remove enchantments without damaging an item and ALSO do not care about retreiving an enchant.",
+		"",
+		"The Unchant Pylon has a price, where other disenchantment retreival methods are cheaper."
+	],
+	tasks: [{
+		uid: "91ad9bcd",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:void_anvil"
+		}]
+	},
+	{
+		uid: "ff58ff31",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_disenchanter"
+		}]
+	}],
+	rewards: [{
+		uid: "aa2e7f48",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

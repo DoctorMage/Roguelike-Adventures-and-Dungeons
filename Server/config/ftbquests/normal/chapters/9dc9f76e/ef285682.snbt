@@ -1,0 +1,38 @@
+{
+	title: "Burn It!",
+	x: -5.0d,
+	y: -5.5d,
+	description: "Chin check your fire pit, I dare you",
+	text: [
+		"It might hurt you more, but I promise it will never have attitude again.",
+		"",
+		"You already know what this is used for and why you need it so bad."
+	],
+	dependencies: [
+		"16c3f3d7"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "2102fcc5",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "00b9f4d6",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "0ac55464",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "8d9581ab",
+		type: "item",
+		item: "minecraft:coal 1 1",
+		count: 16
+	}]
+}

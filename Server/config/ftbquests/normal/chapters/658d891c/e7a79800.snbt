@@ -1,0 +1,60 @@
+{
+	x: 24.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "b7479700",
+		type: "item",
+		items: [{
+			item: "iceandfire:forest_troll_leather_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "aedbe93c",
+		type: "item",
+		items: [{
+			item: "iceandfire:forest_troll_leather_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e77dfdb7",
+		type: "item",
+		items: [{
+			item: "iceandfire:forest_troll_leather_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fbb92a29",
+		type: "item",
+		items: [{
+			item: "iceandfire:forest_troll_leather_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7455c670",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "55402f62",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "2c135ac5",
+		type: "item",
+		item: "iceandfire:manuscript"
+	},
+	{
+		uid: "309bcb95",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

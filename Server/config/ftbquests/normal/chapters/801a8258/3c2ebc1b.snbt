@@ -1,0 +1,16 @@
+{
+	title: "You Feel A Bit Taller",
+	x: -3.0d,
+	y: 14.5d,
+	description: "I swear I'm 6'6",
+	text: [
+		"This thing has its uses, and its drawbacks. Use it with wisdom."
+	],
+	tasks: [{
+		uid: "ae64b45f",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:food_step"
+		}]
+	}]
+}

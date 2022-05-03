@@ -1,0 +1,12 @@
+{
+	x: 10.5d,
+	y: 9.5d,
+	tasks: [{
+		uid: "16725230",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cantaloupeitem"
+		}],
+		count: 64L
+	}]
+}

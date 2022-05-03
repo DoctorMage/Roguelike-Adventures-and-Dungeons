@@ -1,0 +1,7 @@
+{
+	title: "Caverns II (Unfinished)",
+	icon: "cavern:cavern_portal",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

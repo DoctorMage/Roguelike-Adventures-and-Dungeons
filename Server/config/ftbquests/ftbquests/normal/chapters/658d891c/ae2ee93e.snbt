@@ -1,0 +1,11 @@
+{
+	x: -6.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "dfa528a6",
+		type: "item",
+		items: [{
+			item: "iceandfire:silver_ingot"
+		}]
+	}]
+}

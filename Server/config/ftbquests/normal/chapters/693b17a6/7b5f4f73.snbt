@@ -1,0 +1,58 @@
+{
+	title: "Myrmex Massacre",
+	icon: "iceandfire:myrmex_stinger",
+	x: 0.5d,
+	y: 3.0d,
+	description: "Down with the queen!",
+	text: [
+		"Squash 50 Myrmex Queens, as well as their hives."
+	],
+	tasks: [{
+		uid: "8668791b",
+		type: "kill",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "iceandfire:myrmex_queen"
+				}
+			}
+		},
+		entity: "iceandfire:myrmex_queen",
+		value: 50L
+	},
+	{
+		uid: "fa7eb73a",
+		type: "kill",
+		entity: "iceandfire:myrmex_worker",
+		value: 100L
+	},
+	{
+		uid: "1847b4a1",
+		type: "kill",
+		entity: "iceandfire:myrmex_soldier",
+		value: 75L
+	},
+	{
+		uid: "d2d1d5bd",
+		type: "kill",
+		entity: "iceandfire:myrmex_sentinel",
+		value: 50L
+	},
+	{
+		uid: "51b4dac2",
+		type: "kill",
+		entity: "iceandfire:myrmex_royal",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "3646edaa",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "302d564e",
+		type: "xp_levels",
+		xp_levels: 75
+	}]
+}

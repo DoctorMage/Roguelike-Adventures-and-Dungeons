@@ -1,0 +1,18 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "bc8dddc5",
+		type: "item",
+		items: [{
+			item: "buildinggadgets:constructionblockpowder"
+		}]
+	},
+	{
+		uid: "a3789d6e",
+		type: "item",
+		items: [{
+			item: "buildinggadgets:constructionpaste"
+		}]
+	}]
+}

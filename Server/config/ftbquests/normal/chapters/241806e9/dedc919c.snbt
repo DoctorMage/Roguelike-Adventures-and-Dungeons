@@ -1,0 +1,50 @@
+{
+	title: "You Don't Really Know How Fast I Am",
+	x: 13.5d,
+	y: -1.5d,
+	description: "I'M FAST AS---",
+	text: [
+		"You are...",
+		"",
+		"Speed."
+	],
+	dependencies: [
+		"31bf2fad"
+	],
+	tasks: [{
+		uid: "400d79a1",
+		type: "item",
+		items: [{
+			id: "dungeontactics:boots_of_blinding_speed",
+			tag: {
+				Quality: {
+					Slots: [
+						"feet"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 2469726680611637229L,
+						UUIDLeast: -8062451534615293082L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.speedy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e92ca85a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "df132a76",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

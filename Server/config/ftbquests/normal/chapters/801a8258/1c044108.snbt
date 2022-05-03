@@ -1,0 +1,22 @@
+{
+	title: "The Last Shadow",
+	x: -12.0d,
+	y: 16.0d,
+	description: "Dangerously dark",
+	text: [
+		"A staff of firey magic. Use it to smite your foes, or place purple fire where you want.",
+		"",
+		"Hexflame placed onto blocks that burn indefinitely will maintain your flame forever."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "6fd912a3",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:ender_blaze",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

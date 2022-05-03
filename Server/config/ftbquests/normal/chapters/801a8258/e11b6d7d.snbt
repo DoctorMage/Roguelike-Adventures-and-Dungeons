@@ -1,0 +1,16 @@
+{
+	title: "Your Safer Lava Pit",
+	x: -9.0d,
+	y: 4.5d,
+	description: "Or cactus that doesn't hurt you",
+	text: [
+		"Now you can throw your items away without the fear of falling into your own trashcan!"
+	],
+	tasks: [{
+		uid: "697fc264",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:trash"
+		}]
+	}]
+}

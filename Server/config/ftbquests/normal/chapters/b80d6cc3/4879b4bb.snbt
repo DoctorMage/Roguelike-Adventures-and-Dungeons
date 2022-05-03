@@ -1,0 +1,29 @@
+{
+	title: "Mineral Separatists",
+	x: 19.0d,
+	y: -1.5d,
+	description: "We hate rocks!",
+	text: [
+		"Slag? You mean extra output?"
+	],
+	dependencies: [
+		"311cdfc1"
+	],
+	tasks: [{
+		uid: "9a608a72",
+		type: "item",
+		items: [{
+			item: "embers:geo_separator"
+		}]
+	}],
+	rewards: [{
+		uid: "b554a1fc",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "aea92306",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

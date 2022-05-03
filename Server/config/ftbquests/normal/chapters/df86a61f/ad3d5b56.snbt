@@ -1,0 +1,34 @@
+{
+	title: "Short, But Also Long",
+	x: -7.0d,
+	y: 15.0d,
+	description: "A long leap for mankind that is",
+	text: [
+		"These buttons are simple and produce simple results.",
+		"",
+		"And sometimes simple is good.",
+		"",
+		"Gold Button will output a 2 tick pulse. This is an instant ON/OFF.",
+		"",
+		"Iron Button will output a 100 tick pulse. This is equal to 5 seconds."
+	],
+	tasks: [{
+		uid: "a211817b",
+		type: "item",
+		items: [{
+			item: "quark:gold_button"
+		}]
+	},
+	{
+		uid: "cfdfe4bc",
+		type: "item",
+		items: [{
+			item: "quark:iron_button"
+		}]
+	}],
+	rewards: [{
+		uid: "43c6f983",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

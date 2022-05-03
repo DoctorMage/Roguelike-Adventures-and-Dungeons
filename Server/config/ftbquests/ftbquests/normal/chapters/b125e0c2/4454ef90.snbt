@@ -1,0 +1,37 @@
+{
+	x: 2.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "6cac027b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"prefab:structuresconfiguration": {
+					configuration: {
+						wareHouseFacing: "north",
+						structureEnumName: "GreenHouse"
+					}
+				}
+			},
+			id: "prefab:item_basic_structure",
+			tag: {
+				ForgeCaps: {
+					"prefab:structuresconfiguration": {
+						configuration: {
+							wareHouseFacing: "north",
+							structureEnumName: "GreenHouse"
+						}
+					}
+				},
+				id: "prefab:item_basic_structure",
+				Count: 1b,
+				Damage: 0s
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "59ec8151",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

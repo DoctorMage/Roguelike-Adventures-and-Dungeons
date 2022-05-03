@@ -1,0 +1,29 @@
+{
+	title: "Fisherman's Man's Man V",
+	x: -7.0d,
+	y: -3.0d,
+	description: "Evidently there is more fish to catch...",
+	text: [
+		"Catch all the fish in the ocean.",
+		"",
+		"Good job. You ruined the ecology of the entire world."
+	],
+	tasks: [{
+		uid: "b074c23d",
+		type: "stat",
+		title: "Catch 100,000 fish",
+		icon: "minecraft:fishing_rod",
+		stat: "stat.fishCaught",
+		value: 100000
+	}],
+	rewards: [{
+		uid: "7d707a3d",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "2de116f9",
+		type: "xp_levels",
+		xp_levels: 200
+	}]
+}

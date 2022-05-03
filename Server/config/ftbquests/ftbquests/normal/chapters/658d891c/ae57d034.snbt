@@ -1,0 +1,18 @@
+{
+	title: "Red Saber",
+	x: 6.5d,
+	y: -7.0d,
+	description: "We've got a better cookie recipe than the other side...",
+	dependencies: [
+		"306c4b80"
+	],
+	tasks: [{
+		uid: "61da2173",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonbone_sword_fire"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "The Loudest Library",
+	x: -2.5d,
+	y: 12.0d,
+	description: "You don't hear all those flipping pages?",
+	text: [
+		"You need both items to create an Ender Library.",
+		"",
+		"Only one control block can be connected to the bookshelves.",
+		"",
+		"Bookshelves, or the control block, will consume enchants on books, and store them in spaces in the bookshelves.",
+		"",
+		"You will be given your blank book back, now with no enchant, and from there you may go enchant the book once more, or select an enchant from your library to enchant your blank pages at no cost to you.",
+		"",
+		"Simply click a bookshelf with your empty book to apply the stored enchant to your blank book."
+	],
+	tasks: [{
+		uid: "76b6de7e",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_library"
+		}]
+	},
+	{
+		uid: "15b1ff62",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_library_ctrl"
+		}]
+	}]
+}

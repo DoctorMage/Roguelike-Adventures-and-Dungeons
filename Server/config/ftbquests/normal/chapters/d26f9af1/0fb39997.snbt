@@ -1,0 +1,45 @@
+{
+	title: "Now Do It Again",
+	x: 3.5d,
+	y: -18.5d,
+	description: "Oh yes... Oh YES...",
+	text: [
+		"I'M TIRED GRANDPA!"
+	],
+	dependencies: [
+		"09bb4f61"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e9a740ca",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "70f5ad95",
+		type: "ftbmoney:money",
+		ftb_money: 100000L
+	},
+	{
+		uid: "4e812503",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "767ab34e",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "fc090c6a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "2f0b8213",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

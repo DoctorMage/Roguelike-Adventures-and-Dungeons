@@ -1,0 +1,18 @@
+{
+	title: "X-Rayd",
+	x: -2.5d,
+	y: 9.0d,
+	description: "Math has too many problems with exes",
+	text: [
+		"Allows you to phase through solid blocks.",
+		"",
+		"This can be used to your advantage."
+	],
+	tasks: [{
+		uid: "c144f5fd",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:corrupted_chorus"
+		}]
+	}]
+}

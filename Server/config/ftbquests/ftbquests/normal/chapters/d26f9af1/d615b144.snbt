@@ -1,0 +1,20 @@
+{
+	title: "Are you sure you want to go this route?",
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"9de97a05"
+	],
+	tasks: [{
+		uid: "61ac963e",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone"
+		}]
+	}],
+	rewards: [{
+		uid: "6e4dcfe3",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

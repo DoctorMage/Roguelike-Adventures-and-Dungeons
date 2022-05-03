@@ -1,0 +1,33 @@
+{
+	title: "Are You Who I'm Looking For?",
+	x: 5.0d,
+	y: -13.0d,
+	description: "Yes?",
+	text: [
+		"Tony Lazudo says hello.",
+		"",
+		"This item will constantly observe the block it is facing for certain properties or specifications, and if they match, or are TRUE, the Scanner will emit a signal at max strength."
+	],
+	tasks: [{
+		uid: "b6ab415f",
+		type: "item",
+		items: [{
+			item: "extrautils2:scanner"
+		}]
+	}],
+	rewards: [{
+		uid: "745a7ba0",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "0804f9fd",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "1a13ed01",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

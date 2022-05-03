@@ -1,0 +1,27 @@
+{
+	title: "Powdered Magnetite",
+	x: -6.5d,
+	y: 16.0d,
+	description: "That's basically what it is",
+	text: [
+		"So Gravisand is pretty neat.",
+		"",
+		"It won't fall unless it receives a Redstone signal.",
+		"",
+		"However, if Gravisand receives a signal, and has nowhere to fall (E.G there is a block below it), it will FLOAT instead!",
+		"",
+		"Lastly, Gravisand sends a signal to all connected Gravisand blocks. One signal is enough for all connected blocks."
+	],
+	tasks: [{
+		uid: "d57a9cbc",
+		type: "item",
+		items: [{
+			item: "quark:gravisand"
+		}]
+	}],
+	rewards: [{
+		uid: "02ffc92a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

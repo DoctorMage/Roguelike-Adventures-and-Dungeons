@@ -1,0 +1,15 @@
+{
+	title: "Mods In This Chapter",
+	x: -3.0d,
+	y: -1.5d,
+	description: "Yes, I know it's messy right now... It'll get better... maybe.",
+	text: [
+		"-Cyclic",
+		"-Open Blocks",
+		"-Random Things",
+		"-Quark",
+		"-Dank/Null",
+		""
+	],
+	size: 3.0d
+}

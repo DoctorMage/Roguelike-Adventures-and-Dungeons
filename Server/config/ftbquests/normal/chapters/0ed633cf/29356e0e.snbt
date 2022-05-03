@@ -1,0 +1,12 @@
+{
+	title: "Creature Killer II",
+	x: -2.5d,
+	y: -4.5d,
+	tasks: [{
+		uid: "69d98eb3",
+		type: "stat",
+		title: "Kill 1,000 Creatures",
+		stat: "stat.mobKills",
+		value: 1000
+	}]
+}

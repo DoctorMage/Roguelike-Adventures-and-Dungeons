@@ -1,0 +1,45 @@
+{
+	title: "Watching You Watch Me",
+	icon: "randomthings:redstoneobserver",
+	x: 21.0d,
+	y: -2.0d,
+	description: "So a staring contest?",
+	text: [
+		"The Redstone Observer will emit a Redstone signal when the block it is linked to emits a Redstone signal.",
+		"",
+		"In order to link your Observer to a block, or a Redstone signal output, like a Lever, you will need a Redstone Tool.",
+		"",
+		"Right-Click your Observer, then Right-Click the block you wish to link it to.",
+		"",
+		"You should see a red line between linked blocks when holding a Redstone Tool.",
+		"",
+		"You cannot unlink blocks. You must destroy the Observer, and relink it."
+	],
+	tasks: [{
+		uid: "18fb17c4",
+		type: "item",
+		items: [{
+			item: "randomthings:redstoneobserver"
+		}]
+	},
+	{
+		uid: "6585e486",
+		type: "item",
+		items: [{
+			id: "randomthings:redstonetool",
+			tag: {
+				linking: 0b,
+				oX: -648,
+				oY: 70,
+				oZ: -1471
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d79d1f67",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

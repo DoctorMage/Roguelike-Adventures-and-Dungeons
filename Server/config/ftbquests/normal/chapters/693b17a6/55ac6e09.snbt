@@ -1,0 +1,22 @@
+{
+	title: "Magical Mystical Mythical Magician II",
+	x: -4.0d,
+	y: 0.0d,
+	description: "You must exist... enchanting all this crap",
+	text: [
+		"Enchant 2,500 items."
+	],
+	tasks: [{
+		uid: "e1ad11ca",
+		type: "stat",
+		title: "Enchant 2,500 items",
+		icon: "minecraft:enchanting_table",
+		stat: "stat.itemEnchanted",
+		value: 2500
+	}],
+	rewards: [{
+		uid: "cee3bd80",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	}]
+}

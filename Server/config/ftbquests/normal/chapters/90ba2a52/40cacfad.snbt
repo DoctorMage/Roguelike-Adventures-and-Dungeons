@@ -1,0 +1,16 @@
+{
+	title: "Wight Light",
+	x: -1.0d,
+	y: 9.5d,
+	description: "They brighten up your day!",
+	text: [
+		"Kill 50 Wights."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "fcc29a71",
+		type: "kill",
+		entity: "thebetweenlands:wight",
+		value: 50L
+	}]
+}

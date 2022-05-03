@@ -1,0 +1,26 @@
+{
+	title: "They Made A Promise",
+	x: 5.0d,
+	y: -5.5d,
+	description: "Oathsworn",
+	text: [
+		"Slay 50 Guardians."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "755fb03f",
+		type: "kill",
+		entity: "minecraft:guardian",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "a6a68389",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "7a303449",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

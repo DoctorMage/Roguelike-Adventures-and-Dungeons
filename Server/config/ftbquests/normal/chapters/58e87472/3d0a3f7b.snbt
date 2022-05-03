@@ -1,0 +1,38 @@
+{
+	title: "Tranquil",
+	x: -10.0d,
+	y: -2.0d,
+	description: "For now",
+	text: [
+		"This item prevents Rifts from getting out of control. Rifts from Doors which are broken, will eventually get out of control.",
+		"",
+		"Rift-Click on the center of a Rift to use."
+	],
+	dependencies: [
+		"e1eb55c6"
+	],
+	tasks: [{
+		uid: "eb9061ae",
+		type: "item",
+		items: [{
+			item: "dimdoors:rift_stabilizer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "379526f1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "91c0a702",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "e237b483",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Growing Gold, Literally",
+	x: 3.5d,
+	y: -8.0d,
+	description: "Right in your own backyard!",
+	text: [
+		"Craft some Tier 4 Crafting Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9a05eb59"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "6fffe396",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 20"
+		}]
+	}],
+	rewards: [{
+		uid: "6652d67a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "0d632281",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

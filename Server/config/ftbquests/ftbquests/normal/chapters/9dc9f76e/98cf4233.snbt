@@ -1,0 +1,21 @@
+{
+	title: "How Does A Stack Of Cash Keep Me Alive?!",
+	x: 5.0d,
+	y: -5.0d,
+	description: "By stopping the bleeding. But your leg will still me missing in 10 years from that Dragon bite.",
+	text: [
+		"Right-Click to use. Pray you're not ambushed!"
+	],
+	dependencies: [
+		"ac2879df"
+	],
+	tasks: [{
+		uid: "204abad5",
+		type: "item",
+		items: [{
+			item: "roughtweaks:medikit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

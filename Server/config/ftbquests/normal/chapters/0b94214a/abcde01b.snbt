@@ -1,0 +1,29 @@
+{
+	x: -3.5d,
+	y: 4.0d,
+	description: "COCK-A-DOODLE-DOO MOTHA#%#%KA",
+	text: [
+		"Obtain a Chicken Chunk."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"65aaafb5"
+	],
+	tasks: [{
+		uid: "e73d0357",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chunk 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "284dc0bc",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "f9c970c1",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

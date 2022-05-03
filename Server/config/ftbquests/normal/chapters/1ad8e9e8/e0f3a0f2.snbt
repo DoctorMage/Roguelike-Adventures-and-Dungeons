@@ -1,0 +1,36 @@
+{
+	title: "Critter Catcher!",
+	x: -2.0d,
+	y: -3.0d,
+	description: "Gotcha!",
+	text: [
+		"Craft a Net so you can catch all the little critters you've seen running around the dimension!"
+	],
+	dependencies: [
+		"00e136e8"
+	],
+	tasks: [{
+		uid: "f9605044",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:net"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "074ab659",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "e8133f47",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "4e3e8860",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

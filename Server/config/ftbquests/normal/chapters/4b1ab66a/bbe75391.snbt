@@ -1,0 +1,12 @@
+{
+	x: 3.0d,
+	y: 11.0d,
+	tasks: [{
+		uid: "78671867",
+		type: "item",
+		items: [{
+			item: "harvestcraft:kiwiitem"
+		}],
+		count: 64L
+	}]
+}

@@ -1,0 +1,17 @@
+[
+ {
+  "id": "howthekitchenworks",
+  "title": "Rules Of The Kitchen!",
+  "icon": "item:cookingforblockheads:oven"
+ },
+ {
+  "id": "importantingredients",
+  "title": "Staying Stocked Up!",
+  "icon": "item:harvestcraft:doughitem"
+ },
+{
+  "id": "guidebooks",
+  "title": "Blockhead Cooking",
+  "icon": "item:cookingforblockheads:recipe_book"
+ }
+]

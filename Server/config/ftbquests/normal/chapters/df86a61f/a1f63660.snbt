@@ -1,0 +1,19 @@
+{
+	x: -3.5d,
+	y: -16.0d,
+	dependencies: [
+		"ecd41947"
+	],
+	tasks: [{
+		uid: "259ceabc",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:dropper_exact"
+		}]
+	}],
+	rewards: [{
+		uid: "7ff9c707",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

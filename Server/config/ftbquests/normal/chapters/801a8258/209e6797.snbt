@@ -1,0 +1,18 @@
+{
+	title: "Split An Arrow With An Arrow",
+	x: 7.0d,
+	y: 6.0d,
+	description: "You'll be like, a hawk's eye or something like that",
+	text: [
+		"The strength of the redstone signal will differ based on the position of the arrow on the target.",
+		"",
+		"Hit a bullseye for the strongest signal!"
+	],
+	tasks: [{
+		uid: "362b40c0",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:target"
+		}]
+	}]
+}

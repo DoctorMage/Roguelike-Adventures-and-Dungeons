@@ -1,0 +1,24 @@
+{
+	title: "25 Gold Coin Turn-In",
+	x: -0.5d,
+	y: 2.0d,
+	description: "Big money moves!",
+	text: [
+		"You've never seen so much cash at one time! You better have more coins...",
+		"",
+		"Enables trading between players."
+	],
+	tasks: [{
+		uid: "3c5d523b",
+		type: "item",
+		items: [{
+			item: "ordinarycoins:coingold"
+		}],
+		count: 25L
+	}],
+	rewards: [{
+		uid: "529de7cf",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	}]
+}

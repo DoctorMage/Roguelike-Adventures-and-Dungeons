@@ -1,0 +1,16 @@
+{
+	title: "The Blues",
+	x: -4.0d,
+	y: 0.0d,
+	description: "Sometimes you need expensive jewels for rainy days.",
+	text: [
+		"Sapphires are found deep underground. They can be used to trade with Snow Villagers and creating Ice Dragon Summoning Crystals"
+	],
+	tasks: [{
+		uid: "60aeb01a",
+		type: "item",
+		items: [{
+			item: "iceandfire:sapphire_gem"
+		}]
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	icon: "minecraft:enchanting_table",
+	x: 5.0d,
+	y: -4.5d,
+	tasks: [{
+		uid: "bcb4b40b",
+		type: "stat",
+		title: "Enchant 100 Items",
+		stat: "stat.itemEnchanted",
+		value: 100
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "I Rode In On Friday, And Rode Out On Friday",
+	x: -13.5d,
+	y: 10.0d,
+	description: "But I left on Wednesday",
+	text: [
+		"Right-Click to use."
+	],
+	tasks: [{
+		uid: "f4fd6a75",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_mount"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

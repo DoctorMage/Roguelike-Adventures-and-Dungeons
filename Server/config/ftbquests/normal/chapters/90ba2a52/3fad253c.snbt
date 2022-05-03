@@ -1,0 +1,16 @@
+{
+	title: "Molerats?!",
+	x: 7.0d,
+	y: 9.5d,
+	description: "Almost...",
+	text: [
+		"Kill 50 Crypt Crawlers."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "ed97ec33",
+		type: "kill",
+		entity: "thebetweenlands:crypt_crawler",
+		value: 50L
+	}]
+}

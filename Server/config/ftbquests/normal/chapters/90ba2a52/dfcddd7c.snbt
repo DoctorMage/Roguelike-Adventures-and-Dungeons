@@ -1,0 +1,23 @@
+{
+	x: 12.0d,
+	y: 2.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "7ce3cf37",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone_block"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "bc657698",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "37d6e48c",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

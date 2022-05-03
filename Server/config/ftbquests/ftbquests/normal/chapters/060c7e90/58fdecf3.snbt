@@ -1,0 +1,19 @@
+{
+	x: -4.0d,
+	y: -1.0d,
+	dependencies: [
+		"aa64e1f7"
+	],
+	tasks: [{
+		uid: "04ea3037",
+		type: "item",
+		items: [{
+			item: "ebwizardry:small_mana_flask"
+		}]
+	}],
+	rewards: [{
+		uid: "a06fd589",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

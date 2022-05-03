@@ -1,0 +1,30 @@
+{
+	title: "Celestial Observation",
+	icon: "thaumcraft:celestial_notes 1 1",
+	x: 3.5d,
+	y: -2.0d,
+	text: [
+		"Before you go any deeper into alchemy you should dive into Celestial Observation. This will come in handy when doing research. While scanning, you should unlock its requirements fairly quickly. If not, keep scanning and do a little research.",
+		"Check after completing a theory: Celestial Observation",
+		"",
+		"Once completed you will be able to start scanning the moon and the sun as well as each quadrant of the night sky (make sure you have paper and scribing tools in your inventory). This can be done once per night. Each time you will get 1 of 14 pages",
+		" (13 for the night and one for the day).",
+		"",
+		"Keep scanning and collecting these pages, as they are a good source of Tenebrae and can help with theorycrafting.",
+		"",
+		"You should also scan mobs, especially the zombie with red eyes. These are angry zombies and are part of Thaumcraft. Scanning them will unlock a stage asking you to get a zombie brain. Scan the brain as soon as you get one."
+	],
+	dependencies: [
+		"435696c9"
+	],
+	tasks: [{
+		uid: "b22b7395",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "b6a1bedd",
+		type: "item",
+		item: "minecraft:paper",
+		count: 16
+	}]
+}

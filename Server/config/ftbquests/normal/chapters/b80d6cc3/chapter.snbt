@@ -1,0 +1,7 @@
+{
+	title: "The Core Of The Center Of The Overworld",
+	icon: "embers:ember_cluster",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

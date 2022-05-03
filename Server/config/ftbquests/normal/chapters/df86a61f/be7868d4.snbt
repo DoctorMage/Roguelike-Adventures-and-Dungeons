@@ -1,0 +1,27 @@
+{
+	title: "This Isn't Even My Final Form!",
+	x: 0.0d,
+	y: -9.0d,
+	description: "I have many forms... actually",
+	text: [
+		"I do yoga.",
+		"",
+		"The Soldifier will do what it says!",
+		"",
+		"It will also infuse certain items with Poison, like Arrows.",
+		"",
+		"See JEI for complete recipes."
+	],
+	tasks: [{
+		uid: "4b5b13f7",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:solidifier"
+		}]
+	}],
+	rewards: [{
+		uid: "1c61393a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

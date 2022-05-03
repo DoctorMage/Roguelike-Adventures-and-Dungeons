@@ -1,0 +1,29 @@
+{
+	title: "Spunky Spores",
+	x: 3.0d,
+	y: -1.5d,
+	description: "They're hyper!",
+	text: [
+		"Obtain Spores for animation."
+	],
+	dependencies: [
+		"f093e2f7"
+	],
+	tasks: [{
+		uid: "6518bad5",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:spores"
+		}]
+	}],
+	rewards: [{
+		uid: "026861b9",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "0bfb0e68",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "NAT 20",
+	x: 7.0d,
+	y: -17.5d,
+	description: "BOO YAH",
+	text: [
+		"But the max on this dice is a 6?",
+		"",
+		"Okay buddy.",
+		"",
+		"Does not output a signal. Likely only used for fun."
+	],
+	tasks: [{
+		uid: "7ce9e5ff",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:dice"
+		}]
+	}],
+	rewards: [{
+		uid: "db2fbaaf",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

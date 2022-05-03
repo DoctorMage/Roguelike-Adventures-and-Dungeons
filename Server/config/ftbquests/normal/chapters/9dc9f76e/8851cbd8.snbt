@@ -1,0 +1,32 @@
+{
+	title: "The Take Me Back Block",
+	x: -13.0d,
+	y: -1.5d,
+	description: "It's kinda bland",
+	text: [
+		"Waystones can be \"discovered\" by Right-Clicking them. They are normally found in villages.",
+		"",
+		"Waystones can be mined and taken from villages to be placed elsewhere.",
+		"",
+		"When placed, a Waystone will ask you to give it a name. This is the name of the location the Waystone will bring you to when activated.",
+		"",
+		"You will be teleported to the location of your player when that Waystone was placed."
+	],
+	tasks: [{
+		uid: "64787515",
+		type: "item",
+		items: [{
+			item: "signpost:blockbase"
+		}]
+	}],
+	rewards: [{
+		uid: "31a90df2",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "d09c91ab",
+		type: "xp_levels",
+		xp_levels: 15
+	}]
+}

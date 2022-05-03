@@ -1,0 +1,16 @@
+{
+	title: "Pest Control",
+	x: 8.0d,
+	y: 9.5d,
+	description: "You're the real deal!",
+	text: [
+		"Smoke out 100 Termites."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "d9cb240d",
+		type: "kill",
+		entity: "thebetweenlands:termite",
+		value: 100L
+	}]
+}

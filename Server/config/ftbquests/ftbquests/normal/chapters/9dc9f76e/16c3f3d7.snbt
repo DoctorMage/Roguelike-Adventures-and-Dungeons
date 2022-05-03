@@ -1,0 +1,23 @@
+{
+	x: -5.5d,
+	y: -3.0d,
+	description: "Please, read the manual!",
+	text: [
+		"The guide is located in the upper left corner of your inventory screen!"
+	],
+	dependencies: [
+		"35def456"
+	],
+	tasks: [{
+		uid: "322efd57",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "08148115",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

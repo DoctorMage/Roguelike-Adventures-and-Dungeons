@@ -1,0 +1,29 @@
+{
+	title: "Magic Clean Machine",
+	x: 10.0d,
+	y: 4.0d,
+	description: "Works with glass!",
+	text: [
+		"Craft a Purifier, used to remove unwanted debris or statuses from certain items."
+	],
+	dependencies: [
+		"cb10740a"
+	],
+	tasks: [{
+		uid: "450d433a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:purifier"
+		}]
+	}],
+	rewards: [{
+		uid: "3cbbd700",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ca5c9019",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

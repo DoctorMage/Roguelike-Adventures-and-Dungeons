@@ -1,0 +1,27 @@
+{
+	title: "CAUTION: WET",
+	x: 6.5d,
+	y: 5.5d,
+	description: "But it's stone?!",
+	text: [
+		"It's SMOOTH stone.",
+		"",
+		"No, it's just stone with lube on it.",
+		"",
+		"GO CRAZY!",
+		"",
+		"(Entities which slide on this stone DO NOT lose velocity)"
+	],
+	tasks: [{
+		uid: "47ca0537",
+		type: "item",
+		items: [{
+			item: "randomthings:superlubricentstone"
+		}]
+	}],
+	rewards: [{
+		uid: "f1ba17ce",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

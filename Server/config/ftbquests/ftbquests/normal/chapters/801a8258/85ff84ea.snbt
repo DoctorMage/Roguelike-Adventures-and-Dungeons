@@ -1,0 +1,23 @@
+{
+	title: "This Thing Goes Crazy",
+	x: 0.5d,
+	y: 4.0d,
+	text: [
+		"No cap. This thing goes. Fast. Get one fully charged and it really is handy. Especially if you use Nomadic Tents."
+	],
+	dependencies: [
+		"48f3abd2"
+	],
+	tasks: [{
+		uid: "56e62ee9",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:battery"
+		}]
+	}],
+	rewards: [{
+		uid: "799f939c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

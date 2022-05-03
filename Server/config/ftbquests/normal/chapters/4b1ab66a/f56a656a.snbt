@@ -1,0 +1,12 @@
+{
+	x: 15.5d,
+	y: 12.5d,
+	tasks: [{
+		uid: "34abaf87",
+		type: "item",
+		items: [{
+			item: "harvestcraft:okraitem"
+		}],
+		count: 64L
+	}]
+}

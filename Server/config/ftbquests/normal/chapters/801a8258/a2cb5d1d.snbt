@@ -1,0 +1,17 @@
+{
+	title: "If Maps Was Even Close To As Good As This",
+	x: 4.5d,
+	y: 4.5d,
+	description: "We wouldn't be in a sinking car",
+	text: [
+		"Right-Click to save the location of a block to the marker. The XYZ cordinates will be saved.",
+		""
+	],
+	tasks: [{
+		uid: "788d5e63",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:card_location"
+		}]
+	}]
+}

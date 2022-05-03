@@ -1,0 +1,44 @@
+{
+	title: "Super Shiner",
+	x: 9.5d,
+	y: 1.0d,
+	description: "Your dragon is pretty clean",
+	text: [
+		"Dragons that wear this own Richard Milles"
+	],
+	dependencies: [
+		"768743f4"
+	],
+	tasks: [{
+		uid: "93119beb",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_dragonsteel_ice"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8fdc9476",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_dragonsteel_ice 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0902769f",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_dragonsteel_ice 1 2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9adc956f",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_dragonsteel_ice 1 3"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Join The Union!",
+	x: -23.0d,
+	y: 1.0d,
+	description: "You can make over $100/hr",
+	text: [
+		"It's not a joke... honestly.",
+		"",
+		"The Building Guide is a rather advanced tool that can be used to create perfectly symmetrical shapes with ease.",
+		"",
+		"Right clicking the up or down arrow on the block's top will change the shape of the guide. This will cycle through all of the available shapes. Clicking on the left or right arrow on the block's top will rotate a shape's direction.",
+		"",
+		"Dimensions will display in chat as (-X, -Y, -Z):(X, Y, Z) and are relative to the direction and location of the block's top, where (0,0,0):(0,0,0) is the block itself. The total blocks required is also displayed in chat. ",
+		"",
+		"The X and Z coordinates change up and down based on the plane the block's side resides on. The Left + and - move along the -X/-Z axis. The Right + and - move along the X/Z axis.",
+		"",
+		"The upper + and - move along the Y axis, and the lower + and - moves along the -Y-axis. The internal arrows copy its position to the opposite side."
+	],
+	tasks: [{
+		uid: "2907a750",
+		type: "item",
+		items: [{
+			id: "openblocks:guide",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "eb881e35",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

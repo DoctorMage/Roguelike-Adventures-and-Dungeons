@@ -1,0 +1,19 @@
+{
+	title: "Like A Hopper, But Up.",
+	x: -1.0d,
+	y: -2.0d,
+	description: "You'll never be down again... or... wait...",
+	text: [
+		"This thing sucks. Literally."
+	],
+	dependencies: [
+		"73298fe2"
+	],
+	tasks: [{
+		uid: "9fcd9a2f",
+		type: "item",
+		items: [{
+			item: "uppers:upper"
+		}]
+	}]
+}

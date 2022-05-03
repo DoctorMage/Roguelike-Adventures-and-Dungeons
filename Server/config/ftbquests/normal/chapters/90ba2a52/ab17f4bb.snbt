@@ -1,0 +1,17 @@
+{
+	x: 15.0d,
+	y: -2.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "9e570a0e",
+		type: "item",
+		items: [{
+			item: "subterraneanswitcheroo:depthsoul"
+		}]
+	}],
+	rewards: [{
+		uid: "44a3dfd4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

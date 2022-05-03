@@ -1,0 +1,22 @@
+{
+	x: 5.5d,
+	y: -11.5d,
+	tasks: [{
+		uid: "37794c36",
+		type: "item",
+		items: [{
+			item: "harvestcraft:pecanitem"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "256c3f93",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "6cfbfcc4",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

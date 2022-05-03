@@ -1,0 +1,17 @@
+{
+	title: "Buy 25 Silver Coins",
+	x: 0.5d,
+	y: -0.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "70201644",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "d6a58bdf",
+		type: "item",
+		item: "ordinarycoins:coinsilver",
+		count: 25
+	}]
+}

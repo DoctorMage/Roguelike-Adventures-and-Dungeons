@@ -1,0 +1,31 @@
+{
+	title: "Ender Chest Did Its Best",
+	x: 10.5d,
+	y: -4.5d,
+	description: "Time to go away forever now, though.",
+	text: [
+		"Functionally an Ender Chest."
+	],
+	dependencies: [
+		"31bf2fad"
+	],
+	tasks: [{
+		uid: "8af825df",
+		type: "item",
+		items: [{
+			item: "dungeontactics:bagofhoarding"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4479eb78",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "1d8666e4",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

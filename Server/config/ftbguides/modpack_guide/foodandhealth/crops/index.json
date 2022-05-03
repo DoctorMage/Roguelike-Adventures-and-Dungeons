@@ -1,0 +1,17 @@
+[
+ {
+  "id": "harvestcraft",
+  "title": "Pam's Harvestcraft",
+  "icon": "item:harvestcraft:cherry_sapling"
+ },
+ {
+  "id": "mysticalagriculture",
+  "title": "Mystical Agriculture",
+  "icon": "item:mysticalagriculture:crafting"
+ },
+ {
+  "id": "uniquecrops",
+  "title": "Unique Crops And How To Farm Them",
+  "icon": "item:pvj:wild_wheat"
+ }
+]

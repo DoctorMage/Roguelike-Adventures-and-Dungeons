@@ -1,0 +1,28 @@
+{
+	title: "Mob Mobster III",
+	icon: "minecraft:bone",
+	x: -10.0d,
+	y: -1.0d,
+	description: "Slaying lots are we?",
+	text: [
+		"Slay 10,000 mobs."
+	],
+	tasks: [{
+		uid: "1e6999f4",
+		type: "stat",
+		title: "Slay 10,000 mobs",
+		icon: "minecraft:bone",
+		stat: "stat.mobKills",
+		value: 10000
+	}],
+	rewards: [{
+		uid: "352f2787",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "bf44da30",
+		type: "xp_levels",
+		xp_levels: 100
+	}]
+}

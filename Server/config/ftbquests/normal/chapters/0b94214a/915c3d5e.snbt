@@ -1,0 +1,29 @@
+{
+	x: -3.5d,
+	y: -16.0d,
+	description: "Master Slater",
+	text: [
+		"Craft some Slate Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"47c0a076"
+	],
+	tasks: [{
+		uid: "62dbaf1e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:slate_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "0da7efea",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "e3e0c288",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

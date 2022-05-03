@@ -1,0 +1,34 @@
+{
+	title: "Old Yeller",
+	x: -4.5d,
+	y: 6.5d,
+	description: "I'll miss you",
+	text: [
+		"Use on a Doggy Talents doggy to turn them into a Minecraft wolf.",
+		"",
+		"Use again to turn a tamed Wolf into a regular Wolf."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0400b11c"
+	],
+	tasks: [{
+		uid: "42ad67f6",
+		type: "item",
+		items: [{
+			item: "doggytalents:collar_shears"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "366103af",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "97479499",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

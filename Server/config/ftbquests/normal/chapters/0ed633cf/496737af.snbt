@@ -1,0 +1,13 @@
+{
+	title: "Fisherman's Man's Man III",
+	icon: "minecraft:fishing_rod",
+	x: -1.0d,
+	y: -5.5d,
+	tasks: [{
+		uid: "e084f666",
+		type: "stat",
+		title: "Catch 10,000 Fish",
+		stat: "stat.fishCaught",
+		value: 10000
+	}]
+}

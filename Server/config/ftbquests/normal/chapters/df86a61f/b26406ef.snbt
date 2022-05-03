@@ -1,0 +1,24 @@
+{
+	title: "More Like The Seizurang...",
+	x: -12.0d,
+	y: -4.0d,
+	description: "Mobs develop Epilepsy when hit by this weapon",
+	text: [
+		"This tool will grab items on the ground and absolutely ZONK mobs to the dome."
+	],
+	tasks: [{
+		uid: "68553626",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:boomerang",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f37f16cb",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

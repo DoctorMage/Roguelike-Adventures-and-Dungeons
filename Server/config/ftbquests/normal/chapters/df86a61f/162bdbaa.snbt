@@ -1,0 +1,25 @@
+{
+	title: "Barbossa?",
+	x: -28.0d,
+	y: 18.0d,
+	description: "No John, a Composter",
+	text: [
+		"The Composter will turn unwanted plant and food items and turn them into Bonemeal.",
+		"",
+		"Items can be input from the top, or sides, and outputs can be extracted from the bottom.",
+		"",
+		"The Composter will output a signal of up to 8 when a Comparator is put facing away from it."
+	],
+	tasks: [{
+		uid: "70365117",
+		type: "item",
+		items: [{
+			item: "charm:composter"
+		}]
+	}],
+	rewards: [{
+		uid: "34856ee3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

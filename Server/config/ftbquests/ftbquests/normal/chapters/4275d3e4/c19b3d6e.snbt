@@ -1,0 +1,24 @@
+{
+	x: 11.0d,
+	y: 0.0d,
+	text: [
+		"Angry Pebbles are unique items that drop from Boulder Sprites. They can also be found as treasure from animating Item Scrolls, and can be found as Loot from pots in Tar Pool Dungeons, Cragrock Towers, and the Wight Fortress.",
+		"",
+		"When let go at full pullback, the Angry Pebble will be thrown, yell, and create a significant explosion upon contacting a block or entity. This explosion destroys many blocks and can damage multiple mobs, but the block damage can be negated by Swamp "
+	],
+	dependencies: [
+		"75298381"
+	],
+	tasks: [{
+		uid: "48008072",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:angry_pebble"
+		}]
+	}],
+	rewards: [{
+		uid: "2f83cc38",
+		type: "item",
+		item: "dungeontactics:solstice_gift"
+	}]
+}

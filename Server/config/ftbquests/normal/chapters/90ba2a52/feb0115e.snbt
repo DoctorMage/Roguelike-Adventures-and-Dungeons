@@ -1,0 +1,17 @@
+{
+	x: 20.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "c1496e14",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:valonite_block"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "92c00c7b",
+		type: "ftbmoney:money",
+		ftb_money: 600L
+	}]
+}

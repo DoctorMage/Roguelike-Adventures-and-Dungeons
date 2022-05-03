@@ -1,0 +1,38 @@
+{
+	title: "Basic Bamboo",
+	x: -1.5d,
+	y: -14.0d,
+	description: "It do what you need it to",
+	text: [
+		"Craft basic bamboo pipes."
+	],
+	dependencies: [
+		"d93ec9a8"
+	],
+	tasks: [{
+		uid: "0341a4f2",
+		type: "item",
+		items: [{
+			item: "erebus:materials 1 73"
+		}]
+	},
+	{
+		uid: "231b96f8",
+		type: "item",
+		items: [{
+			item: "erebus:bamboo_pipe"
+		}]
+	},
+	{
+		uid: "44a34bf4",
+		type: "item",
+		items: [{
+			item: "erebus:bamboo_pipe_extract"
+		}]
+	}],
+	rewards: [{
+		uid: "6d66e951",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

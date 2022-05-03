@@ -1,0 +1,33 @@
+{
+	x: 7.0d,
+	y: 3.5d,
+	or_tasks: true,
+	tasks: [{
+		uid: "5211a6ef",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_launch_small"
+		}]
+	},
+	{
+		uid: "81fabcf5",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_launch_med"
+		}]
+	},
+	{
+		uid: "3c11db4e",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_launch_large"
+		}]
+	},
+	{
+		uid: "6cfa4dd8",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_launch_extra"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Johnny Applesprout!",
+	x: -5.5d,
+	y: 9.0d,
+	description: "Golden granny!",
+	text: [
+		"Place on the bottom side of a \"leaves\" block. Will periodically drop apples from the sprout. Bone Meal can be used on this plant."
+	],
+	tasks: [{
+		uid: "5e96f5d6",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:apple"
+		}]
+	}]
+}

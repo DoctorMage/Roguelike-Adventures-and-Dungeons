@@ -1,0 +1,11 @@
+{
+	x: 27.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "a06965e7",
+		type: "item",
+		items: [{
+			item: "iceandfire:pixie_dust"
+		}]
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "Less Is More II",
+	x: -24.5d,
+	y: 16.5d,
+	description: "You always need less",
+	text: [
+		"These are some more compactible versions of items which can lower the footprint inside your storage spaces. Each has some nifty features.",
+		"",
+		"Ender Pearl Blocks cause Silverfish who burrow into them will turn into Endermites and eating a Chorus Fruit will teleport you to the nearest Ender Pearl Block.",
+		"",
+		"Flesh Blocks will turn to Dirt when next to water. They will also turn Dirt above them into Podzol.",
+		"",
+		"Gunpowder Blocks will turn into air when they touch lava, and they fall like Sand."
+	],
+	tasks: [{
+		uid: "c5160113",
+		type: "item",
+		items: [{
+			item: "charm:ender_pearl_block"
+		}]
+	},
+	{
+		uid: "b4a91970",
+		type: "item",
+		items: [{
+			item: "charm:rotten_flesh_block"
+		}]
+	},
+	{
+		uid: "552be98f",
+		type: "item",
+		items: [{
+			item: "charm:gunpowder_block"
+		}]
+	}],
+	rewards: [{
+		uid: "80cb005d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

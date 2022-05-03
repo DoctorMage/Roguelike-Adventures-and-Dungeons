@@ -1,0 +1,9 @@
+{
+	title: "Cyclic's Redstone Rage",
+	icon: "minecraft:redstone",
+	x: -1.0d,
+	y: 5.0d,
+	text: [
+		"Redstone with Cyclic's more advanced objects can be painful. Physically."
+	]
+}

@@ -1,0 +1,36 @@
+{
+	title: "The Hot Box",
+	x: 14.5d,
+	y: 0.0d,
+	description: "Not that kind",
+	text: [
+		"This baby here is gonna fire up all your machines! Literally!",
+		"",
+		"Aren't Dwarves cool?"
+	],
+	dependencies: [
+		"bc1659db"
+	],
+	tasks: [{
+		uid: "8579f831",
+		type: "item",
+		items: [{
+			item: "embers:ember_activator"
+		}]
+	}],
+	rewards: [{
+		uid: "9e1cfc9e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d578a430",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "35909514",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

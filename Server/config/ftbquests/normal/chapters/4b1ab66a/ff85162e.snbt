@@ -1,0 +1,21 @@
+{
+	x: 7.0d,
+	y: -11.5d,
+	tasks: [{
+		uid: "fd26b224",
+		type: "item",
+		items: [{
+			item: "harvestcraft:avocado_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "c614b0e8",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "9f908beb",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

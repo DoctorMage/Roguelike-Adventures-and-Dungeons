@@ -1,0 +1,16 @@
+{
+	x: 3.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "7036cef5",
+		type: "item",
+		items: [{
+			item: "prefab:item_horse_stable"
+		}]
+	}],
+	rewards: [{
+		uid: "bbde201e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

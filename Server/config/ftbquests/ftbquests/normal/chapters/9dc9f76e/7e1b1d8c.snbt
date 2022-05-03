@@ -1,0 +1,57 @@
+{
+	title: "A Certain Game I Know Has Nothing On Us Now!",
+	x: -3.0d,
+	y: -2.0d,
+	description: "Feather Falling is for chumps!",
+	text: [
+		"There's a handful of different versions. They all function a little differently, if not being direct upgrades",
+		"",
+		"Only one hook required to complete the quest.",
+		"",
+		"Plant Fibre must be created with a vanilla sword. Modded sword additions do not work for the recipe. The sword is not consumed in the recipe."
+	],
+	dependencies: [
+		"73298fe2"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "00a4cd81",
+		type: "item",
+		items: [{
+			item: "hooked:hook 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dc5ba53a",
+		type: "item",
+		items: [{
+			item: "hooked:hook 1 2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "66e9f15c",
+		type: "item",
+		items: [{
+			item: "hooked:hook 1 3"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ba582df9",
+		type: "item",
+		items: [{
+			item: "hooked:hook 1 4"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1beab25f",
+		type: "item",
+		items: [{
+			item: "hooked:hook"
+		}],
+		ignore_nbt: 1b
+	}]
+}

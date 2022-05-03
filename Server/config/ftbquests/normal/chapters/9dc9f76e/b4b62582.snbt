@@ -1,0 +1,17 @@
+{
+	title: "Buy 25 Copper Coins",
+	x: -23.0d,
+	y: -4.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "d694daa1",
+		type: "ftbmoney:money",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "03568d74",
+		type: "item",
+		item: "ordinarycoins:coinbronze",
+		count: 25
+	}]
+}

@@ -1,0 +1,67 @@
+{
+	title: "Fortune Cookie? Coin? Same Thing.",
+	x: 2.0d,
+	y: -4.5d,
+	description: "It brings be the good stuff",
+	text: [
+		"Craft the Coin of Fortune."
+	],
+	tasks: [{
+		uid: "50bfaa46",
+		type: "item",
+		items: [{
+			id: "xreliquary:fortune_coin",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "light_purple",
+					AttributeModifiers: [{
+						UUIDMost: 821097721124179444L,
+						UUIDLeast: -6329076685620342227L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.projectileDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 7851112821071954270L,
+						UUIDLeast: -9196274271716649062L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -2057625551052387332L,
+						UUIDLeast: -7400110313197015975L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.magicDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.punishing.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "edacf08b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f507cf6e",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "8565c41b",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

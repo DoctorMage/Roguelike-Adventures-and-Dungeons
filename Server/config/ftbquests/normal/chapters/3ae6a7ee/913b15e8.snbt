@@ -1,0 +1,41 @@
+{
+	title: "Juice Jammin'",
+	x: -4.5d,
+	y: 2.5d,
+	description: "I still see shadows.",
+	text: [
+		"Allows you to play music on your airship!",
+		"",
+		"All modules can be \"learned\" by your airship, but you can only activate one module at a time.",
+		"",
+		"Requires \"Time For An Upgrade!\" to complete."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8739b8df"
+	],
+	tasks: [{
+		uid: "aff49493",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 13"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0fee1f35",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 14"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e5f1bf38",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 15"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	x: 6.0d,
+	y: -10.5d,
+	text: [
+		"Durable tools, partially melted. They should still work like new!",
+		"",
+		"You are required to make all tools to complete this quest."
+	],
+	tasks: [{
+		uid: "e7e76f12",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonsteel_fire_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "65ed5f35",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonsteel_fire_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4ff57cf7",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonsteel_fire_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

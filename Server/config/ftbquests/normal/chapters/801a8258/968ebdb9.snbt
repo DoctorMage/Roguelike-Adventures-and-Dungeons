@@ -1,0 +1,18 @@
+{
+	title: "Potion Potential",
+	x: 4.0d,
+	y: 9.0d,
+	description: "Glug glug!",
+	text: [
+		"Provides potion effects within a large area.",
+		"",
+		"Has a configuration file somewhere, for server onwers."
+	],
+	tasks: [{
+		uid: "e17cb716",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:beacon_potion"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 7.0d,
+	y: -14.5d,
+	tasks: [{
+		uid: "8933e8e1",
+		type: "item",
+		items: [{
+			item: "harvestcraft:papaya_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "2ab9164d",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "8248cacf",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

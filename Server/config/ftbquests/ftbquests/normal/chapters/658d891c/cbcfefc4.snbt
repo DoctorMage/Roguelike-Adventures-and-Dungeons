@@ -1,0 +1,16 @@
+{
+	title: "Cold As A Coward",
+	x: 6.0d,
+	y: 3.5d,
+	description: "Running away doesn't get you any Dragon Hearts!",
+	dependencies: [
+		"ecbc2d9f"
+	],
+	tasks: [{
+		uid: "0ff88578",
+		type: "item",
+		items: [{
+			item: "iceandfire:ice_dragon_heart"
+		}]
+	}]
+}

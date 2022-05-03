@@ -1,0 +1,29 @@
+{
+	x: -7.5d,
+	y: -11.0d,
+	description: "Self-hydrating plants!",
+	text: [
+		"Craft some Water Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b391c054"
+	],
+	tasks: [{
+		uid: "c20dbcf6",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:water_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "de780102",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "7315f660",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

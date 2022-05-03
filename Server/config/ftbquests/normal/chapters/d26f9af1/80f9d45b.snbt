@@ -1,0 +1,25 @@
+{
+	title: "Taking Over The World With Redstone",
+	x: -0.5d,
+	y: -11.0d,
+	description: "Not really, energy doesn't exist in this pack",
+	text: [
+		"Sike, just double tricked you for the third time.",
+		"",
+		"This book is annoying to navigate, but will provide all knowledge for every item in the mod."
+	],
+	tasks: [{
+		uid: "ad4e5760",
+		type: "item",
+		items: [{
+			item: "extrautils2:book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c1e3f5ea",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

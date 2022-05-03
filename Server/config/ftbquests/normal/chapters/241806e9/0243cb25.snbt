@@ -1,0 +1,181 @@
+{
+	title: "Simple Protection",
+	x: 2.0d,
+	y: -2.0d,
+	description: "At its finest!",
+	text: [
+		"Shields can be used to block incoming damage from enemies, as well as shield bash enemies to shove them away from you."
+	],
+	dependencies: [
+		"a4636105"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "4dcece8f",
+		type: "item",
+		items: [{
+			id: "dungeontactics:wooden_shield",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "323d57cd",
+		type: "item",
+		items: [{
+			id: "dungeontactics:bone_shield",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "75f91bc1",
+		type: "item",
+		items: [{
+			id: "dungeontactics:stone_shield",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ab217336",
+		type: "item",
+		items: [{
+			id: "dungeontactics:iron_shield",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6731a581",
+		type: "item",
+		items: [{
+			id: "dungeontactics:silver_shield",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "aee144b6",
+		type: "item",
+		items: [{
+			id: "dungeontactics:golden_shield",
+			tag: {
+				Quality: {
+					Slots: [
+						"offhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 3496600975311850073L,
+						UUIDLeast: -5560592092887804968L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.heavy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cbb96e0c",
+		type: "item",
+		items: [{
+			id: "dungeontactics:steel_shield",
+			tag: {
+				Quality: {
+					Slots: [
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -5900759022420144969L,
+						UUIDLeast: -7112633972577639458L,
+						Amount: 1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.arcane.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "09e6ee84",
+		type: "item",
+		items: [{
+			id: "dungeontactics:diamond_shield",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a347f4c4",
+		type: "item",
+		items: [{
+			id: "dungeontactics:mithril_shield",
+			tag: {
+				Quality: {
+					Slots: [
+						"offhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 8693782642047533187L,
+						UUIDLeast: -5831070645677689306L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 8024841568951683652L,
+						UUIDLeast: -7217133810417770090L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.thick.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "63bbc3ce",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "83d957b2",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

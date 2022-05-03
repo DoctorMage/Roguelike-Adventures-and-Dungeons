@@ -1,0 +1,11 @@
+{
+	x: 18.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "344514d9",
+		type: "item",
+		items: [{
+			item: "embers:ingot_copper"
+		}]
+	}]
+}

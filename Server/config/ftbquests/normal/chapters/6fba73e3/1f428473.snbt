@@ -1,0 +1,36 @@
+{
+	title: "Magicbane? More Like MagicBANG!",
+	x: 0.5d,
+	y: -2.0d,
+	description: "This thing smacks!",
+	text: [
+		"Craft Magicbane."
+	],
+	tasks: [{
+		uid: "afccb686",
+		type: "item",
+		items: [{
+			id: "xreliquary:magicbane",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d9cc37f5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "2a9d5490",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "29910dc6",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

@@ -1,0 +1,53 @@
+{
+	x: 2.0d,
+	y: -10.5d,
+	dependencies: [
+		"efccc984"
+	],
+	tasks: [{
+		uid: "524f2bca",
+		type: "item",
+		items: [{
+			item: "twilightforest:arctic_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f8ec4cf6",
+		type: "item",
+		items: [{
+			item: "twilightforest:arctic_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3d560bb4",
+		type: "item",
+		items: [{
+			item: "twilightforest:arctic_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cb242fcc",
+		type: "item",
+		items: [{
+			item: "twilightforest:arctic_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f3b92204",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "53456661",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

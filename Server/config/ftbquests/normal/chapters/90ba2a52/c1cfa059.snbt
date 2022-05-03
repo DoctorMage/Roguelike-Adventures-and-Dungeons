@@ -1,0 +1,26 @@
+{
+	title: "Cloud Chaser",
+	x: -1.0d,
+	y: 4.0d,
+	description: "A storm is brewin'!",
+	text: [
+		"Slay 25 Zephyr."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "5e8fa7db",
+		type: "kill",
+		entity: "aether_legacy:zephyr",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "c082e3c1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f68787c9",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

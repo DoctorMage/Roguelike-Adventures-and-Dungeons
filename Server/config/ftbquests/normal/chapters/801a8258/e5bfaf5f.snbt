@@ -1,0 +1,25 @@
+{
+	title: "I Believe I Can Fly!",
+	x: -5.5d,
+	y: 12.0d,
+	description: "And you can!",
+	text: [
+		"For two payments of $29.99, you can fly!",
+		"",
+		"Hold Right-Click to use.",
+		"",
+		"Aim at the ground and Shift Left-Click to change from Forward to Reverse, or back.",
+		"",
+		"WARNING: NOT FOR CHILDREN UNDER THE AGE OF 1"
+	],
+	tasks: [{
+		uid: "cefbcbe2",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:tool_launcher",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 12.0d,
+	y: 2.5d,
+	tasks: [{
+		uid: "f95d76b3",
+		type: "item",
+		items: [{
+			item: "harvestcraft:spiceleafseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "58324aa3",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "43bdce88",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "Cars In Real Life Have This Too",
+	x: -3.5d,
+	y: 2.5d,
+	description: "I just learned some of you a thing right now",
+	text: [
+		"Let's you cruise staright forward at varying speeds. Convenient for long travels.",
+		"",
+		"All modules can be \"learned\" by your airship, but you can only activate one module at a time.",
+		"",
+		"Requires \"Time For An Upgrade!\" to complete."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8739b8df"
+	],
+	tasks: [{
+		uid: "1f4f89e6",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 16"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0894d715",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 17"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a3c948c8",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 18"
+		}],
+		ignore_nbt: 1b
+	}]
+}

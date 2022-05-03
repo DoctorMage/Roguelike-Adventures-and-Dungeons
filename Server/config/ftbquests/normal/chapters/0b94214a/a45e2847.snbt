@@ -1,0 +1,31 @@
+{
+	title: "Hell Spawn",
+	x: 3.5d,
+	y: 1.5d,
+	description: "What are you growing over here?!",
+	text: [
+		"Craft or obtain a Tier 4 Mob Chunk."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9a05eb59"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "c577d891",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chunk 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "f4e21689",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "be647945",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

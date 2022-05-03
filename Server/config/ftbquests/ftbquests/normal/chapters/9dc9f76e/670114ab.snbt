@@ -1,0 +1,59 @@
+{
+	title: "Primitive Ages",
+	x: -4.0d,
+	y: -3.0d,
+	description: "Ooga Booga",
+	text: [
+		"Go make a wheel or something.",
+		"",
+		"You are only required to make one tool to complete this quest."
+	],
+	dependencies: [
+		"16c3f3d7"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "0b032d31",
+		type: "item",
+		items: [{
+			id: "minecraft:stone_pickaxe",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d5db059c",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bcccce94",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c9385e65",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "508d7f6d",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

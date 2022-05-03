@@ -1,0 +1,23 @@
+{
+	title: "Bootleg Item Breaker",
+	x: -8.5d,
+	y: 15.0d,
+	description: "So, you think you're cool huh?",
+	text: [
+		"The can be placed on the front of a Piston.",
+		"",
+		"When a Piston with an Iron Rod attached is activated, any block in front of the Iron Rod which the Piston can push will be broken instead."
+	],
+	tasks: [{
+		uid: "25d1fdb9",
+		type: "item",
+		items: [{
+			item: "quark:iron_rod"
+		}]
+	}],
+	rewards: [{
+		uid: "8624a146",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

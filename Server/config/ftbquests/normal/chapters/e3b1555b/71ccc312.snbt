@@ -1,0 +1,19 @@
+{
+	title: "BYE!",
+	x: 2.0d,
+	y: -1.0d,
+	description: "BYE!",
+	text: [
+		"Does what I say the title says it does."
+	],
+	dependencies: [
+		"33dcfd32"
+	],
+	tasks: [{
+		uid: "982cd2da",
+		type: "item",
+		items: [{
+			item: "tombstone:dust_of_vanishing"
+		}]
+	}]
+}

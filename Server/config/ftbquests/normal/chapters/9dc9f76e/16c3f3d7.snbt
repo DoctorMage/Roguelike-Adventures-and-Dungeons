@@ -1,0 +1,48 @@
+{
+	title: "Your Journey Begins",
+	x: -5.0d,
+	y: -3.0d,
+	description: "Please, read the manual!",
+	text: [
+		"The Guide is located in the upper left corner of your inventory screen! Read it!",
+		"",
+		"It will contain useful information on some content you will make common use of."
+	],
+	dependencies: [
+		"6681baf1"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "322efd57",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "workbench",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any workbench"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "08148115",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "5d426bde",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "0eaabf23",
+		type: "item",
+		item: "minecraft:bed 1 14"
+	}]
+}

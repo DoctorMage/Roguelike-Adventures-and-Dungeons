@@ -1,0 +1,21 @@
+{
+	title: "Waystone Wanderer II",
+	x: -14.5d,
+	y: 0.0d,
+	description: "Is it dark when you teleport?",
+	text: [
+		"Activate 25 different Waystones."
+	],
+	tasks: [{
+		uid: "9a7e68ed",
+		type: "stat",
+		icon: "waystones:waystone",
+		stat: "stat.waystones:waystonesActivated",
+		value: 25
+	}],
+	rewards: [{
+		uid: "1bfa1c08",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	}]
+}

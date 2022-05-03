@@ -1,0 +1,35 @@
+{
+	title: "Ghastly Ghasts",
+	x: 6.0d,
+	y: -8.0d,
+	description: "Gasp!",
+	text: [
+		"Slay the Ur-Ghast in his mighty tower."
+	],
+	dependencies: [
+		"752838d8"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "5e9840a4",
+		type: "kill",
+		title: "Slay the Ur-Ghast",
+		entity: "twilightforest:ur_ghast",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "3fcdc0f9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "739e55f8",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "c2cec244",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

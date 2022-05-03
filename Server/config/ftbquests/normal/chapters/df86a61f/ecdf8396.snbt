@@ -1,0 +1,29 @@
+{
+	title: "The Collector",
+	x: 7.0d,
+	y: 15.5d,
+	description: "Collecting for his collection",
+	text: [
+		"The Item Collector and the Advanced Item Collector must be attached to an inventory and will collect items for you.",
+		"",
+		"The Normal version can only collect within a 3 block radius. The Advanced version can collect within a configurable 10 block radius.",
+		"",
+		"The Advanced Item Collector can also be supplied with Item Filters.",
+		"",
+		"To use an Item Filter, Right-Click and input your items. They have some item limitations, and cannot be nested. Very effective for simple filtering.",
+		"",
+		"You can select to Blacklist or Whitelist your filter as well, when making your Item Filter for your Advanced Item Collector."
+	],
+	tasks: [{
+		uid: "67855cb0",
+		type: "item",
+		items: [{
+			item: "randomthings:itemcollector"
+		}]
+	}],
+	rewards: [{
+		uid: "68f4fe9e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

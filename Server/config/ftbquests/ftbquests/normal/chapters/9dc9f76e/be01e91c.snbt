@@ -1,0 +1,38 @@
+{
+	title: "Batteries And Power Cells",
+	x: -8.0d,
+	y: -10.0d,
+	description: "This thing doesn't run on nothing!",
+	text: [
+		"You cannot repair these batteries, and cells, and must make new ones each time your Seamoth is out of energy.",
+		"",
+		"They do not stack."
+	],
+	dependencies: [
+		"78b7c23c"
+	],
+	tasks: [{
+		uid: "39f976bd",
+		type: "item",
+		items: [{
+			id: "better_diving:battery",
+			tag: {
+				"better_diving:energy_storage": 1000000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "05416a7e",
+		type: "item",
+		items: [{
+			id: "better_diving:power_cell",
+			tag: {
+				"better_diving:energy_storage": 2000000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

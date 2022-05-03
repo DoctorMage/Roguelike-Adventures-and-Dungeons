@@ -1,0 +1,23 @@
+{
+	title: "You, You, You, Not You",
+	x: 0.5d,
+	y: 5.0d,
+	description: "You're not cool enough",
+	text: [
+		"Lapis Glass is only solid for players!",
+		"",
+		"Now how about that, a win for the mobs... maybe."
+	],
+	tasks: [{
+		uid: "7832ccf5",
+		type: "item",
+		items: [{
+			item: "randomthings:lapisglass"
+		}]
+	}],
+	rewards: [{
+		uid: "a5ddab8b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: -7.0d,
+	y: 3.0d,
+	description: "Plant's and Zombies, working together",
+	text: [
+		"Obtain a Zombie Chunk."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a1f92003"
+	],
+	tasks: [{
+		uid: "272e8530",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chunk 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "7bd41065",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "fd628cfd",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

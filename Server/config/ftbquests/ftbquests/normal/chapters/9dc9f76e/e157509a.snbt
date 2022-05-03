@@ -1,0 +1,34 @@
+{
+	title: "Iron Colossal Chest",
+	x: -5.5d,
+	y: 2.0d,
+	dependencies: [
+		"3c0c0c8f"
+	],
+	tasks: [{
+		uid: "c7e73628",
+		type: "item",
+		items: [{
+			item: "colossalchests:chest_wall 1 2"
+		}]
+	},
+	{
+		uid: "8c1c3109",
+		type: "item",
+		items: [{
+			item: "colossalchests:colossal_chest 1 2"
+		}]
+	},
+	{
+		uid: "c7f47c5d",
+		type: "item",
+		items: [{
+			item: "colossalchests:interface 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "e373a86e",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

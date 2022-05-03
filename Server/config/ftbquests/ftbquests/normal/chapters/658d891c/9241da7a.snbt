@@ -1,0 +1,41 @@
+{
+	title: "100 Grit",
+	x: 4.0d,
+	y: -5.5d,
+	description: "These dragons are even softer!",
+	text: [
+		"That's why they're dead!",
+		""
+	],
+	dependencies: [
+		"6dbe8507"
+	],
+	tasks: [{
+		uid: "5af684f5",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonscales_red"
+		}]
+	},
+	{
+		uid: "bafb3727",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonscales_green"
+		}]
+	},
+	{
+		uid: "3d8b9e5f",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonscales_bronze"
+		}]
+	},
+	{
+		uid: "b0bea683",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonscales_gray"
+		}]
+	}]
+}

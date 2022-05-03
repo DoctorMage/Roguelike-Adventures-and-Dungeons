@@ -1,0 +1,26 @@
+{
+	x: 2.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "12ee18bc",
+		type: "item",
+		items: [{
+			item: "prefab:item_warehouse"
+		}]
+	}],
+	rewards: [{
+		uid: "aed7f351",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "2edc74e6",
+		type: "item",
+		item: "prefab:block_compressed_stone 1 1"
+	},
+	{
+		uid: "85d8655f",
+		type: "item",
+		item: "prefab:item_pile_of_bricks"
+	}]
+}

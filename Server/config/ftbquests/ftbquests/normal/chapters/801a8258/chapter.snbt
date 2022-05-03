@@ -1,0 +1,7 @@
+{
+	title: "Cyclic",
+	icon: "cyclicmagic:block_anvil_magma",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "gear"
+}

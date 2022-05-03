@@ -1,0 +1,129 @@
+{
+	title: "Blue Dragon Scale Helmet +3 (Ferocious)",
+	icon: "iceandfire:armor_blue_helmet",
+	x: -6.0d,
+	y: 14.0d,
+	text: [
+		"This item has:",
+		"",
+		"+3 Armor Toughness",
+		"+3 Attack Damage",
+		"",
+		"Completing this quest unlocks this item in the shop."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "d6f8032a",
+		type: "item",
+		items: [{
+			id: "iceandfire:armor_blue_helmet",
+			tag: {
+				Quality: {},
+				display: {
+					Lore: [
+						"Enhanced +3"
+					],
+					Name: "Dragon Scale Helmet"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 351570700,
+					Amount: 5,
+					Slot: "head",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 351570800,
+					Amount: 5,
+					Slot: "head",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				}]
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5e0d0f67",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonscales_blue"
+		}],
+		count: 60L,
+		consume_items: true
+	},
+	{
+		uid: "57f96cba",
+		type: "item",
+		items: [{
+			item: "iceandfire:ice_dragon_blood"
+		}],
+		count: 10L,
+		consume_items: true
+	},
+	{
+		uid: "da19dd1f",
+		type: "item",
+		items: [{
+			item: "iceandfire:ice_dragon_heart"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "cf355636",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_blood"
+		}],
+		count: 15L
+	}],
+	rewards: [{
+		uid: "b16283f2",
+		type: "item",
+		item: {
+			id: "iceandfire:armor_blue_helmet",
+			tag: {
+				Quality: {},
+				display: {
+					Lore: [
+						"Enhanced +3 (Ferocious)"
+					],
+					Name: "Dragon Scale Helmet"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 351712400,
+					Amount: 5,
+					Slot: "head",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 351712500,
+					Amount: 5,
+					Slot: "head",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 351712600,
+					Amount: 3,
+					Slot: "head",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "Ferocity"
+				}]
+			}
+		}
+	}]
+}

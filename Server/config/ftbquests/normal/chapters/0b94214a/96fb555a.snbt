@@ -1,0 +1,29 @@
+{
+	x: -3.0d,
+	y: -11.0d,
+	description: "Cock-a-doodle-don't",
+	text: [
+		"Craft some Chicken Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"47c0a076"
+	],
+	tasks: [{
+		uid: "95104a47",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chicken_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "d9780e7f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "42805c26",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

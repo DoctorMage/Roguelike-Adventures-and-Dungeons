@@ -1,0 +1,31 @@
+{
+	title: "Tear Fang?",
+	x: 28.5d,
+	y: 3.0d,
+	description: "See, I'm good at this.",
+	text: [
+		"You guys need to keep up with me here."
+	],
+	dependencies: [
+		"0cb962a9"
+	],
+	tasks: [{
+		uid: "b83558ae",
+		type: "item",
+		items: [{
+			item: "embers:tyrfing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "58dbbf2a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ca29eec8",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

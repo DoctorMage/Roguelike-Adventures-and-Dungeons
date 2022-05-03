@@ -1,0 +1,23 @@
+{
+	title: "Wet Socks",
+	x: -2.0d,
+	y: 5.0d,
+	description: "You hate it, I love it",
+	text: [
+		"Will place 1000mB or 1 Bucket of fluid in front of the machine, when activated by a redstone signal.",
+		"",
+		"Does NOT require energy to run.",
+		"",
+		"Fluid can be piped into this machine."
+	],
+	dependencies: [
+		"0a7ca16a"
+	],
+	tasks: [{
+		uid: "dab8cd99",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:fluid_placer"
+		}]
+	}]
+}

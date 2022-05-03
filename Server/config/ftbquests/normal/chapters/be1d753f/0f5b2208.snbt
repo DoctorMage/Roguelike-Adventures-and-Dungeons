@@ -1,0 +1,125 @@
+{
+	title: "Orcish Mega Tepe Cover #1",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			copycounter: 13,
+			TemplateName: "Orcish Tepe Cover #1",
+			UUID: "65fb2dba-7e32-4f6c-b6ee-f04c8ff57598",
+			startPos: {
+				X: -593,
+				Y: 74,
+				Z: -1526
+			},
+			itemcountmap: [{
+				item: 8180,
+				meta: 0,
+				count: 1
+			},
+			{
+				item: 44,
+				meta: 7,
+				count: 24
+			},
+			{
+				item: 35,
+				meta: 14,
+				count: 199
+			},
+			{
+				item: 156,
+				meta: 0,
+				count: 59
+			},
+			{
+				item: 8169,
+				meta: 0,
+				count: 16
+			},
+			{
+				item: 8166,
+				meta: 0,
+				count: 13
+			},
+			{
+				item: 155,
+				meta: 0,
+				count: 33
+			}],
+			endPos: {
+				X: -577,
+				Y: 64,
+				Z: -1540
+			}
+		}
+	},
+	x: -4.0d,
+	y: -3.0d,
+	text: [
+		"Place the Red Wool Marker in front of your Mega Tepe door. Alternatively, you can place your Mega Tepe inside of the cover, and it should fit perfectly!"
+	],
+	can_repeat: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "c37d1f8d",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "04135805",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Orcish Tepe Cover #1",
+				UUID: "8712e856-9c40-48fd-9d8c-8d6d42313638",
+				startPos: {
+					X: -561,
+					Y: 64,
+					Z: -1487
+				},
+				itemcountmap: [{
+					item: 44,
+					meta: 7,
+					count: 24
+				},
+				{
+					item: 8169,
+					meta: 0,
+					count: 16
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 200
+				},
+				{
+					item: 156,
+					meta: 0,
+					count: 59
+				},
+				{
+					item: 8166,
+					meta: 0,
+					count: 13
+				},
+				{
+					item: 8180,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 155,
+					meta: 0,
+					count: 33
+				}],
+				endPos: {
+					X: -577,
+					Y: 74,
+					Z: -1501
+				}
+			}
+		}
+	}]
+}

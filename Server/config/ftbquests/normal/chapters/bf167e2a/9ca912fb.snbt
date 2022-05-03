@@ -1,0 +1,15 @@
+{
+	title: "Cloud Chaser",
+	x: 5.0d,
+	y: -17.5d,
+	description: "Yes, the kind of clouds you're thinking",
+	text: [
+		"Enter the Aether."
+	],
+	tasks: [{
+		uid: "062144d0",
+		type: "dimension",
+		title: "Visit The Aether",
+		dim: 4
+	}]
+}

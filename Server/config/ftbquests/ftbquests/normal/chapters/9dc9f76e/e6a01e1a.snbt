@@ -1,0 +1,45 @@
+{
+	title: "Fetch Boy!",
+	x: -1.0d,
+	y: 8.0d,
+	description: "Don't throw it across the street!",
+	text: [
+		"Your dog(s) will retrive this item and bring it back to. Go play with your dog!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0400b11c"
+	],
+	tasks: [{
+		uid: "948e839b",
+		type: "item",
+		items: [{
+			item: "doggytalents:throw_stick"
+		}]
+	},
+	{
+		uid: "dc18d79e",
+		type: "item",
+		items: [{
+			item: "doggytalents:throw_stick_wet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fdc5b165",
+		type: "item",
+		items: [{
+			item: "doggytalents:throw_bone"
+		}]
+	},
+	{
+		uid: "0abe6067",
+		type: "item",
+		items: [{
+			item: "doggytalents:throw_bone_wet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

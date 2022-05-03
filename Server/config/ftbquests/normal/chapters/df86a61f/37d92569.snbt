@@ -1,0 +1,25 @@
+{
+	title: "Wouldn't You Like To Know?",
+	x: -5.0d,
+	y: 13.5d,
+	description: "Where are your parents?",
+	text: [
+		"The Weather Sensor will detect weather and emit a max signal when it is snowing or raining.",
+		"",
+		"If it is raining, but the biome you are in has no rain, it will emit a signal strength of 7.",
+		"",
+		"Right-Click to invert the signal. This means it will turn OFF when it rains, and ON when it is not raining, instead."
+	],
+	tasks: [{
+		uid: "9fbad802",
+		type: "item",
+		items: [{
+			item: "quark:rain_detector"
+		}]
+	}],
+	rewards: [{
+		uid: "03ad66a1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Frenzied Feeders",
+	x: 13.0d,
+	y: 9.5d,
+	description: "Whole new meaning to attacked by a fish",
+	text: [
+		"Kill 50 Anglers."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "25982226",
+		type: "kill",
+		entity: "thebetweenlands:angler",
+		value: 50L
+	}]
+}

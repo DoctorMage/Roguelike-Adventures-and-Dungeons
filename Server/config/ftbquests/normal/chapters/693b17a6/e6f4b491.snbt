@@ -1,0 +1,28 @@
+{
+	title: "King Of The North",
+	icon: "mowziesmobs:ice_crystal",
+	x: 0.5d,
+	y: 6.5d,
+	description: "That's you, now",
+	text: [
+		"You've slain 25 Frostmaw. What a monster you are."
+	],
+	tasks: [{
+		uid: "5f460d8b",
+		type: "kill",
+		title: "Slay 100 Frostmaw",
+		icon: "cavern:ice_sword",
+		entity: "mowziesmobs:frostmaw",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "af9fc36b",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "3998311a",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

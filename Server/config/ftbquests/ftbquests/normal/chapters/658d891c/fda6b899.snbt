@@ -1,0 +1,18 @@
+{
+	title: "I Speak For The Desert Bugs",
+	x: 14.0d,
+	y: -5.0d,
+	description: "Do these things even have ears?",
+	text: [
+		"You better hope they like you..."
+	],
+	tasks: [{
+		uid: "0713e63a",
+		type: "item",
+		items: [{
+			item: "iceandfire:myrmex_desert_staff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

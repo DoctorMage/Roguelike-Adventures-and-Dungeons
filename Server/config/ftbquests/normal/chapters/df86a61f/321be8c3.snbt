@@ -1,0 +1,35 @@
+{
+	title: "It's All In The Wrist, John",
+	x: -9.0d,
+	y: -15.5d,
+	description: "Watch",
+	text: [
+		"I don't understand how people can throw a ball at 90mph.",
+		"",
+		"Anyways, these things go crazy."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "b5b17e44",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:ender_pearl_reuse"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3b7029ce",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:ender_pearl_mounted"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4f584e16",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

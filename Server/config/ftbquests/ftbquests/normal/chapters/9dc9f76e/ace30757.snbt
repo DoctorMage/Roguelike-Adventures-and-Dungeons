@@ -1,0 +1,62 @@
+{
+	title: "Classic Box",
+	x: -5.5d,
+	y: 0.0d,
+	description: "You're definitely gonna need more.",
+	text: [
+		"Here's some of the different basic chests you can make.",
+		"",
+		"Only one needed to complete the quest."
+	],
+	dependencies: [
+		"16c3f3d7"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "c412b8c4",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}]
+	},
+	{
+		uid: "ff28d2f3",
+		type: "item",
+		items: [{
+			item: "quark:custom_chest"
+		}]
+	},
+	{
+		uid: "deeb03b2",
+		type: "item",
+		items: [{
+			item: "quark:custom_chest 1 1"
+		}]
+	},
+	{
+		uid: "487b1846",
+		type: "item",
+		items: [{
+			item: "quark:custom_chest 1 2"
+		}]
+	},
+	{
+		uid: "586e3625",
+		type: "item",
+		items: [{
+			item: "quark:custom_chest 1 3"
+		}]
+	},
+	{
+		uid: "80dd0a54",
+		type: "item",
+		items: [{
+			item: "quark:custom_chest 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "046dc755",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

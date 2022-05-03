@@ -1,0 +1,25 @@
+{
+	title: "Flint & Steel, But Electronic!",
+	x: 20.5d,
+	y: -5.0d,
+	description: "Battery powered baby!",
+	text: [
+		"The Redstone Activator will apply a Redstone signal to any block you Right-Click. If it accepts a signal, it will accept for the specified amount of ticks. ",
+		"",
+		"Shift-Right-Click in the air, or somewhere you cannot use the Activator, to switch between 2 ticks, 20 ticks (1s), or 100 ticks (5s)."
+	],
+	tasks: [{
+		uid: "c776ce8c",
+		type: "item",
+		items: [{
+			item: "randomthings:redstoneactivator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "add0b02f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

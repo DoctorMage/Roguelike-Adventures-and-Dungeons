@@ -1,0 +1,27 @@
+{
+	title: "The Director",
+	x: 5.5d,
+	y: 3.5d,
+	description: "Do it all over again!",
+	text: [
+		"The Re-Director!",
+		"",
+		"This item will misconstrue reality.",
+		"",
+		"Well, the Light Redirector will switch the models of blocks on opposite sides. You can Right-Click a side to disable it.",
+		"",
+		"Can be used to disguise light sources as normal blocks.."
+	],
+	tasks: [{
+		uid: "ea71d5d1",
+		type: "item",
+		items: [{
+			item: "randomthings:lightredirector"
+		}]
+	}],
+	rewards: [{
+		uid: "4f501d28",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

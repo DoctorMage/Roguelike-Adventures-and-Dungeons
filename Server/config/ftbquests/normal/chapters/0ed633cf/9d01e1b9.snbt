@@ -1,0 +1,12 @@
+{
+	title: "Shoulda Went With The Sister",
+	x: -8.0d,
+	y: -7.0d,
+	tasks: [{
+		uid: "8659483b",
+		type: "kill",
+		title: "Slay 150 Gorgons",
+		entity: "iceandfire:gorgon",
+		value: 150L
+	}]
+}

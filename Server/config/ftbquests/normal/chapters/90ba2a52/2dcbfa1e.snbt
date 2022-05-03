@@ -1,0 +1,16 @@
+{
+	title: "Leech Therapy",
+	x: 6.0d,
+	y: 9.5d,
+	description: "Ever tried it?",
+	text: [
+		"Squish 30 Leeches."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "955670fd",
+		type: "kill",
+		entity: "thebetweenlands:leech",
+		value: 30L
+	}]
+}

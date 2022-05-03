@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	description: "I hate spiders in real life. Really. I hate them",
+	text: [
+		"Obtain a Spider Chunk."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ea6ffcbb"
+	],
+	tasks: [{
+		uid: "35d7d5e9",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chunk 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "f5da91fc",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "ab75b861",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

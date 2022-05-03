@@ -1,0 +1,48 @@
+{
+	title: "Who Knew An All Stone Base Could Be So Pretty?",
+	x: -4.0d,
+	y: -2.0d,
+	description: "You didn't.",
+	text: [
+		"Used to change textures of blocks. Works on most common blocks. Right-click while holding the tool and select a block to chisel.",
+		"",
+		"Only one Chisel required to complete this quest."
+	],
+	dependencies: [
+		"73298fe2"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "9db1e679",
+		type: "item",
+		items: [{
+			item: "chisel:chisel_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a9910e81",
+		type: "item",
+		items: [{
+			id: "chisel:chisel_diamond",
+			tag: {
+				chiseldata: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ed4ceb84",
+		type: "item",
+		items: [{
+			id: "chisel:chisel_hitech",
+			tag: {
+				chiseldata: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

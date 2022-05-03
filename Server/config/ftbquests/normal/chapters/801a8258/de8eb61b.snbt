@@ -1,0 +1,18 @@
+{
+	title: "Home Displacer",
+	x: 4.5d,
+	y: 3.5d,
+	description: "If moving was more complicated than it already is",
+	text: [
+		"Requires GPS Markers and energy to power.",
+		"",
+		"GPS Markers act as the corners for a specified area, similar to copy/pasting commands."
+	],
+	tasks: [{
+		uid: "23bc72b6",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:builder_pattern"
+		}]
+	}]
+}

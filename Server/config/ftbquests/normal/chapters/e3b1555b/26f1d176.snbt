@@ -1,0 +1,38 @@
+{
+	title: "RIP",
+	x: 1.5d,
+	y: 2.5d,
+	description: "Rest in pepperoni",
+	text: [
+		"Something with some more... pazazz.",
+		"",
+		"This item functions the same way as Graves do."
+	],
+	dependencies: [
+		"bf74a29b"
+	],
+	tasks: [{
+		uid: "c45ab16e",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_tombstone"
+		}]
+	},
+	{
+		uid: "5b47ce77",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_tombstone 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "3919113a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "d9e67c19",
+		type: "item",
+		item: "harvestcraft:pepperoniitem"
+	}]
+}

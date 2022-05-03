@@ -1,0 +1,32 @@
+{
+	x: 13.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "f7966265",
+		type: "item",
+		items: [{
+			item: "iceandfire:silver_ingot"
+		}]
+	},
+	{
+		uid: "a80577bf",
+		type: "item",
+		items: [{
+			item: "dungeontactics:silver_ingot"
+		}]
+	},
+	{
+		uid: "811899c1",
+		type: "item",
+		items: [{
+			item: "embers:ingot_silver"
+		}]
+	},
+	{
+		uid: "1acbf369",
+		type: "item",
+		items: [{
+			item: "mysticalworld:silver_ingot"
+		}]
+	}]
+}

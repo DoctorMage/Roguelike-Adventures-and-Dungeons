@@ -1,0 +1,94 @@
+{
+	x: -5.0d,
+	y: 0.5d,
+	text: [
+		"There are several different models of Drawers.",
+		"",
+		"They may hold more items, but less of that specific item within a single drawer.",
+		"",
+		"You are only required to make any type of Basic Drawer to complete this quest.",
+		"",
+		"The Compacting Drawer is a special one, which will compact any materials which have a compression recipe, like Cobblestone, or Netherrack."
+	],
+	dependencies: [
+		"5e5e8910"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "fc43887e",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		}]
+	},
+	{
+		uid: "894f95f9",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "spruce"
+			}
+		}]
+	},
+	{
+		uid: "8d50e2d9",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "birch"
+			}
+		}]
+	},
+	{
+		uid: "453c6829",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "jungle"
+			}
+		}]
+	},
+	{
+		uid: "f91e4f45",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "acacia"
+			}
+		}]
+	},
+	{
+		uid: "a845da21",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "dark_oak"
+			}
+		}]
+	},
+	{
+		uid: "22e0ddad",
+		type: "item",
+		items: [{
+			item: "storagedrawers:compdrawers"
+		}]
+	}],
+	rewards: [{
+		uid: "07951fbb",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "606a5c0e",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

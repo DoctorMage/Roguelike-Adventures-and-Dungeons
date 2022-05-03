@@ -1,0 +1,29 @@
+{
+	x: -0.5d,
+	y: -13.0d,
+	description: "Do you grow them... on land?",
+	text: [
+		"Craft some Guardian Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aea8320e"
+	],
+	tasks: [{
+		uid: "85eaf70a",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:guardian_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "b5e7b862",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "d37e536d",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

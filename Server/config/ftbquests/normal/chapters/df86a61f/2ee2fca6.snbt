@@ -1,0 +1,105 @@
+{
+	title: "The Unholy Trinity",
+	x: 3.5d,
+	y: -8.5d,
+	description: "What I used to call my boss, my co-worker, and I",
+	text: [
+		"When we got together, at LEAST 45 minutes of company time was wasted. Every time. Without fail.",
+		"",
+		"I miss that job.",
+		"",
+		"Too bad they paid minimum wage.",
+		"",
+		"I was definitely the Sword of Evasion at that company... never seen... never heard from... but work got done.",
+		"",
+		"Just like how these swords are gonna work mobs into the dirt, at lower difficulties."
+	],
+	dependencies: [
+		"efbea43d"
+	],
+	tasks: [{
+		uid: "dc99e3b7",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:sword_ender",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -8085110173746773162L,
+						UUIDLeast: -5636699722092849696L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -8864249518343698622L,
+						UUIDLeast: -5736982447653973407L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.chipped.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "aa419c43",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:sword_slowness",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: -2013346565652330116L,
+						UUIDLeast: -9206199555115188320L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 3561116275619415758L,
+						UUIDLeast: -7874734999585889904L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.bulky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c68d09ed",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:sword_weakness",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "46fb7f64",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

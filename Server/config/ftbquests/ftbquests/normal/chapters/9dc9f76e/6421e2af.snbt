@@ -1,0 +1,21 @@
+{
+	title: "Lapis Lazuli Backwards Is Still Lapis Lazuli",
+	x: 2.5d,
+	y: -2.0d,
+	description: "Dont' think too hard about that.",
+	text: [
+		"Put this is an Enchanting Table to enchant your gear! Everyone knows that! If you don't, go play Vanilla for a little before you ruin Minecraft for yourself!",
+		"",
+		"Requires Iron Tools to complete."
+	],
+	dependencies: [
+		"2bcebdfc"
+	],
+	tasks: [{
+		uid: "5f460da1",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 4"
+		}]
+	}]
+}

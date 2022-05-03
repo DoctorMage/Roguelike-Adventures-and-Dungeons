@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: -0.5d,
+	dependencies: [
+		"de46b58b"
+	],
+	tasks: [{
+		uid: "4442dca4",
+		type: "item",
+		items: [{
+			item: "prefab:item_chicken_coop"
+		}]
+	}],
+	rewards: [{
+		uid: "83271228",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

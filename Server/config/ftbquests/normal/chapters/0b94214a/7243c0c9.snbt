@@ -1,0 +1,29 @@
+{
+	x: -7.5d,
+	y: -9.0d,
+	description: "The stoniest grow ever",
+	text: [
+		"Craft some Stone Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b391c054"
+	],
+	tasks: [{
+		uid: "19494e51",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:stone_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "08d3c4e7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "76e30f0c",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 9.0d,
+	y: 1.0d,
+	text: [
+		"When placed, it forms a 3x3x1 multiblock structure, centered on where the Hearth Coil is placed. It functions as a furnace that accepts Ember power.",
+		"",
+		"When supplied with power through a Mechanical Core attached to the bottom of the machine, it will heat up and process any items that are dropped on its top face.",
+		"",
+		"Finished products may be piped out using an Item Extractor and Item Pipes. The longer the Hearth Coil spends heating up the faster it will process items."
+	],
+	dependencies: [
+		"c899175d"
+	],
+	tasks: [{
+		uid: "32fd1b34",
+		type: "item",
+		items: [{
+			item: "embers:heat_coil"
+		}]
+	}],
+	rewards: [{
+		uid: "654f8c77",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	},
+	{
+		uid: "fa952433",
+		type: "item",
+		item: "embers:item_dropper"
+	}]
+}

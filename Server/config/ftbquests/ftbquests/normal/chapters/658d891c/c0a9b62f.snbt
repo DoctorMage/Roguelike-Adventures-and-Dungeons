@@ -1,0 +1,94 @@
+{
+	title: "Blue Dragon Scale Helmet +5 (Cunning)",
+	x: -3.5d,
+	y: 18.5d,
+	tasks: [{
+		uid: "b6389f89",
+		type: "item",
+		items: [{
+			id: "iceandfire:armor_blue_helmet",
+			tag: {
+				Quality: {},
+				display: {
+					Lore: [
+						"Enhanced +4 (Cunning)"
+					],
+					Name: "Dragon Scale Helmet"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 352564000,
+					Amount: 7,
+					Slot: "head",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 352564100,
+					Amount: 7,
+					Slot: "head",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 352564200,
+					Amount: 0.4d,
+					Slot: "head",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				}]
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d43c1fed",
+		type: "item",
+		item: {
+			id: "iceandfire:armor_blue_helmet",
+			tag: {
+				Quality: {},
+				display: {
+					Lore: [
+						"Enhanced +5 (Cunning)"
+					],
+					Name: "Dragon Scale Helmet"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 352304000,
+					Amount: 7,
+					Slot: "head",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 352304100,
+					Amount: 7,
+					Slot: "head",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 352304200,
+					Amount: 0.5d,
+					Slot: "head",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				}]
+			}
+		}
+	}]
+}

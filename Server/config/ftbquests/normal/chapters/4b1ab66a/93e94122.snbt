@@ -1,0 +1,12 @@
+{
+	x: -4.5d,
+	y: 11.0d,
+	tasks: [{
+		uid: "fd5f4ad8",
+		type: "item",
+		items: [{
+			item: "harvestcraft:tomatoitem"
+		}],
+		count: 64L
+	}]
+}

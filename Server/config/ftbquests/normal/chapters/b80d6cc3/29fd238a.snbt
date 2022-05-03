@@ -1,0 +1,34 @@
+{
+	title: "The Fire Gun",
+	x: 25.0d,
+	y: 4.5d,
+	description: "Okay I shouldn't be responsible for naming items, after all",
+	text: [
+		"Don't make fun of me, it shoots fire!"
+	],
+	dependencies: [
+		"05276366"
+	],
+	tasks: [{
+		uid: "37bfd16f",
+		type: "item",
+		items: [{
+			id: "embers:ignition_cannon",
+			tag: {
+				cooldown: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "05c7993e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "1d4a6f0d",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

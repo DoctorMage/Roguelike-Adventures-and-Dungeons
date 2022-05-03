@@ -1,0 +1,24 @@
+{
+	title: "The Rough Rod",
+	x: 0.5d,
+	y: 3.5d,
+	description: "Makes life hard",
+	text: [
+		"This thing is definitely cursed, but I could never figure out what the curse did.",
+		"",
+		"Maybe you'll have more luck?"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"33dcfd32"
+	],
+	tasks: [{
+		uid: "fdbcc63f",
+		type: "item",
+		items: [{
+			item: "tombstone:fishing_rod_of_misadventure"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

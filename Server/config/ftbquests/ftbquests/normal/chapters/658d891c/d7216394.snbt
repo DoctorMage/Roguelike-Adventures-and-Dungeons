@@ -1,0 +1,20 @@
+{
+	title: "The Spicy Never-Lose-Me Gem",
+	x: 8.5d,
+	y: -5.5d,
+	text: [
+		"Keep your dragon close to your heart with this item!"
+	],
+	dependencies: [
+		"306c4b80"
+	],
+	tasks: [{
+		uid: "a8fb55cd",
+		type: "item",
+		items: [{
+			item: "iceandfire:summoning_crystal_fire"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

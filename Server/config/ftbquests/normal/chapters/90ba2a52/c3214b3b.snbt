@@ -1,0 +1,16 @@
+{
+	title: "Take A Shower For Once!",
+	x: 3.0d,
+	y: 9.5d,
+	description: "Gross",
+	text: [
+		"Kill 50 Swamp Hags."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "b52c0689",
+		type: "kill",
+		entity: "thebetweenlands:swamp_hag",
+		value: 50L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Fun And Games",
+	x: 9.0d,
+	y: -17.5d,
+	description: "Literally, what else is this used for?",
+	text: [
+		"Really thinking out of the box, you can make an archers based guild hub, requiring you to hit the bullseye to open the door.",
+		"",
+		"Otherwise, go crazy and make a game."
+	],
+	tasks: [{
+		uid: "1c10c120",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:target"
+		}]
+	}],
+	rewards: [{
+		uid: "d6071816",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

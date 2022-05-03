@@ -1,0 +1,76 @@
+{
+	title: "Orcish Mega Tepe Cover #2",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			copycounter: 2,
+			TemplateName: "Medium Dirt Sphere #2",
+			UUID: "703b3865-c7a3-402d-84d1-cac001c87c08",
+			startPos: {
+				X: -584,
+				Y: 95,
+				Z: -1492
+			},
+			itemcountmap: [{
+				item: 3,
+				meta: 0,
+				count: 164
+			}],
+			endPos: {
+				X: -576,
+				Y: 86,
+				Z: -1484
+			}
+		}
+	},
+	x: -4.0d,
+	y: -1.0d,
+	text: [
+		"Should fit perfectly over your Mega Tepe!",
+		"",
+		"Adds a feeling of savagery!"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "677c20ad",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "4cba150a",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Orcish Tepe Cover #2",
+				UUID: "569187da-16fb-4297-8855-d9aa9146534b",
+				startPos: {
+					X: 4892,
+					Y: 64,
+					Z: -4996
+				},
+				itemcountmap: [{
+					item: 44,
+					meta: 7,
+					count: 16
+				},
+				{
+					item: 156,
+					meta: 0,
+					count: 16
+				},
+				{
+					item: 155,
+					meta: 0,
+					count: 16
+				}],
+				endPos: {
+					X: 4902,
+					Y: 67,
+					Z: -4986
+				}
+			}
+		}
+	}]
+}

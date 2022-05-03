@@ -1,0 +1,16 @@
+{
+	title: "100% Transparent Transactions",
+	x: -4.0d,
+	y: 7.5d,
+	description: "We love honesty",
+	text: [
+		"These fluid tanks will hold 64mB of fluid per block. They can be combined to create a single larger tank by stacking them."
+	],
+	tasks: [{
+		uid: "74b25743",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_storeempty"
+		}]
+	}]
+}

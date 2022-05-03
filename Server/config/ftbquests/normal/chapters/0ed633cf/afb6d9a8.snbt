@@ -1,0 +1,17 @@
+{
+	title: "Hercules Who?",
+	x: -9.0d,
+	y: -6.5d,
+	text: [
+		"Never heard of him.",
+		"",
+		"Slay 50 Hydras."
+	],
+	tasks: [{
+		uid: "a9fbee17",
+		type: "kill",
+		title: "Slay 50 Hydras",
+		entity: "iceandfire:if_hydra",
+		value: 50L
+	}]
+}

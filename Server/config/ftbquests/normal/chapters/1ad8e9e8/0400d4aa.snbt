@@ -1,0 +1,39 @@
+{
+	title: "C'mout Wher'ever Y'ar!",
+	x: 1.5d,
+	y: -5.5d,
+	description: "Show y'self now!",
+	text: [
+		"Craft some Mummy Bait, and draw out the Dreadful Peat Mummy."
+	],
+	dependencies: [
+		"00e136e8"
+	],
+	tasks: [{
+		uid: "96229add",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mummy_bait"
+		}]
+	}],
+	rewards: [{
+		uid: "2213633f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "c0f88613",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "5ef4c944",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 40"
+	},
+	{
+		uid: "6384456e",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

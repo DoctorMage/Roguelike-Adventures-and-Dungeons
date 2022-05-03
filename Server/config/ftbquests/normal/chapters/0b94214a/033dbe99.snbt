@@ -1,0 +1,29 @@
+{
+	x: 4.0d,
+	y: -14.0d,
+	description: "It's gonna burn places you don't want to burn",
+	text: [
+		"Craft some Fiery Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8d4841a2"
+	],
+	tasks: [{
+		uid: "d41574a0",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:fiery_ingot_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "9766fe3c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "d7a03f41",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

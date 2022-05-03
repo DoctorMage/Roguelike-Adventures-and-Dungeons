@@ -1,0 +1,32 @@
+[
+ {
+  "id": "gettingstarted",
+  "title": "Getting Started!",
+  "icon": "item:minecraft:grass"
+ },
+ {
+  "id": "gearingup",
+  "title": "Gearing Up!",
+  "icon": "item:minecraft:iron_sword"
+ },
+ {
+  "id": "foodandhealth",
+  "title": "All You Can Eat",
+  "icon": "item:harvestcraft:southernstylebreakfastitem"
+ },
+ {
+  "id": "mods",
+  "title": "Additional Mods In The Pack",
+  "icon": "item:qualitytools:reforging_station"
+ },
+ {
+  "id": "tipsandtricks",
+  "title": "Modpack Tips & Tricks",
+  "icon": "item:minecraft:redstone_torch"
+ },
+  {
+  "id": "notesandcredits",
+  "title": "Notes & Credits",
+  "icon": "item:minecraft:experience_bottle"
+ }
+]

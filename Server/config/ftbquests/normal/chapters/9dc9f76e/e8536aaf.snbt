@@ -1,0 +1,36 @@
+{
+	title: "The Movers",
+	x: 3.5d,
+	y: -1.5d,
+	description: "They work for minimum wage too",
+	text: [
+		"This item will transport a chest, maintaining the items inside.",
+		"",
+		"The Chest Transporter can only hold one chest at a time.",
+		"",
+		"Right-click or Shift Right-click a chest with the item to transport it."
+	],
+	dependencies: [
+		"b325bb25"
+	],
+	tasks: [{
+		uid: "2233cd78",
+		type: "item",
+		items: [{
+			id: "chesttransporter:chesttransporter_iron",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "614876ec",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "9d56a779",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

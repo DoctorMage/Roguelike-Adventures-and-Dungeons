@@ -1,0 +1,27 @@
+{
+	title: "Sings Like A Snake",
+	x: 17.5d,
+	y: 1.5d,
+	description: "Hissing through the air",
+	text: [
+		"Deadly arrows adorned with the fang of a Hydra."
+	],
+	tasks: [{
+		uid: "cbd22193",
+		type: "item",
+		items: [{
+			item: "iceandfire:hydra_arrow"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "2f53781a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "5b0878fe",
+		type: "xp_levels",
+		xp_levels: 20
+	}]
+}

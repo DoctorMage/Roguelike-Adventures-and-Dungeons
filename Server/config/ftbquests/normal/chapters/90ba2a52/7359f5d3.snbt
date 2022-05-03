@@ -1,0 +1,18 @@
+{
+	x: 16.0d,
+	y: -5.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "504298a8",
+		type: "item",
+		items: [{
+			item: "iceandfire:shiny_scales"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "c6ce0aa0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

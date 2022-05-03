@@ -1,0 +1,71 @@
+{
+	title: "I Always Feel Like",
+	x: -3.5d,
+	y: -12.5d,
+	description: "Somebody's watching me!",
+	text: [
+		"You'll never have privacy with all these different snazzy types of glass which do crazy things. ",
+		"",
+		"Most are one way glass, some block light, and more."
+	],
+	dependencies: [
+		"80f9d45b"
+	],
+	tasks: [{
+		uid: "2ccbc54b",
+		type: "item",
+		items: [{
+			item: "extrautils2:ineffableglass"
+		}]
+	},
+	{
+		uid: "e2ce536b",
+		type: "item",
+		items: [{
+			item: "extrautils2:ineffableglass 1 1"
+		}]
+	},
+	{
+		uid: "bbf82b3c",
+		type: "item",
+		items: [{
+			item: "extrautils2:ineffableglass 1 2"
+		}]
+	},
+	{
+		uid: "55122f1f",
+		type: "item",
+		items: [{
+			item: "extrautils2:ineffableglass 1 3"
+		}]
+	},
+	{
+		uid: "75e39ca0",
+		type: "item",
+		items: [{
+			item: "extrautils2:decorativeglass 1 5"
+		}]
+	},
+	{
+		uid: "03764e69",
+		type: "item",
+		items: [{
+			item: "extrautils2:decorativeglass 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "58da8c2f",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "d952a9aa",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "d064eb62",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Rekting Ball I",
+	x: -8.5d,
+	y: 1.0d,
+	description: "Plowing through em!",
+	text: [
+		"Deal 25,000 damage."
+	],
+	tasks: [{
+		uid: "4fe1f0c5",
+		type: "stat",
+		title: "Deal 25,000 damage",
+		stat: "stat.damageDealt",
+		value: 25000
+	}],
+	rewards: [{
+		uid: "09963bd3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "91272266",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

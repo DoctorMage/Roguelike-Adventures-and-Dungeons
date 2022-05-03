@@ -1,0 +1,45 @@
+{
+	x: 7.0d,
+	y: 5.5d,
+	dependencies: [
+		"6cb436ac"
+	],
+	tasks: [{
+		uid: "9502cf38",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:bulb_capped_mushroom_item"
+		}]
+	},
+	{
+		uid: "86d9f390",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_plant_drop 1 12"
+		}]
+	},
+	{
+		uid: "8fc7d23b",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:swamp_kelp_item"
+		}]
+	},
+	{
+		uid: "e45445be",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_plant_drop 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "454032b7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c58c886f",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

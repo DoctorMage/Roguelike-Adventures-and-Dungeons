@@ -1,0 +1,35 @@
+{
+	title: "Minishroom",
+	x: 3.25d,
+	y: -0.75d,
+	description: "He's not actually little....",
+	text: [
+		"Slay the Minoshroom in his Labyrinth."
+	],
+	dependencies: [
+		"99878e27"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "2af89c3f",
+		type: "kill",
+		title: "Slay a Minoshroom",
+		entity: "twilightforest:minoshroom",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "81e85a4c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "2dfd0f6a",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "8cefa9ef",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

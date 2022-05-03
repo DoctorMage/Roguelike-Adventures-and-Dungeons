@@ -1,0 +1,30 @@
+{
+	title: "Woopty Wopty Stone",
+	x: -15.0d,
+	y: -3.0d,
+	description: "Something like that",
+	text: [
+		"Will teleport you to any discovered Waystone. ",
+		"",
+		"Will incur a long cooldown, but the stone will never break."
+	],
+	tasks: [{
+		uid: "874cdd03",
+		type: "item",
+		items: [{
+			item: "waystones:warp_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c8983b9f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "f9e9844a",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

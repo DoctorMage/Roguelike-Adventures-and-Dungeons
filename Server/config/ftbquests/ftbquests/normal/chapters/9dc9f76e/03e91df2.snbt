@@ -1,0 +1,21 @@
+{
+	title: "If You Stare Into The Abyss",
+	x: 3.5d,
+	y: -9.0d,
+	description: "It Might Tickle Your Feet",
+	text: [
+		"Bringing stink-eye to a whole new level."
+	],
+	tasks: [{
+		uid: "d7015ea4",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_eye"
+		}]
+	}],
+	rewards: [{
+		uid: "c4c8260c",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

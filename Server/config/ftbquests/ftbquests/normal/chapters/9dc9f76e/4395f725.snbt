@@ -1,0 +1,14 @@
+{
+	title: "Basic Info",
+	x: -8.0d,
+	y: -3.5d,
+	text: [
+		"Most items are pretty simple to use, and pressing shift while hovering over them will reveal more info about them. If it's an item that is an upgrade for something else, try putting the two items together in the crafting grid. ",
+		"You can also try right clicking what you want to upgrade with the upgrade item in your hand. Most items in the mod are simple, but its your imagination that makes the modpack everything that it can be."
+	],
+	tasks: [{
+		uid: "697f4f5c",
+		type: "checkmark",
+		title: "I really did read this... No I'm not lying"
+	}]
+}

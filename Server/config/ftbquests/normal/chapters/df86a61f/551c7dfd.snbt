@@ -1,0 +1,33 @@
+{
+	title: "Run As Administrator",
+	x: -30.0d,
+	y: 9.5d,
+	description: "Remote access",
+	text: [
+		"This item will allow you to remotely use interactable items from a short distance away.",
+		"",
+		"This can be anything, from Furnaces to Chests, and even mod added items.",
+		"",
+		"To link an item to the Cursor, Shift-Right-Click.",
+		"",
+		"Unlinking is as easy as Right-Clicking in the wrong location, by accident. Be careful.",
+		"",
+		"This can be used to access hidden chests in a base, when playing with friends, without having to remove blocks to access your secret storage.",
+		"",
+		"Otherwise, with how finicky this item can be, it's kind of useless."
+	],
+	tasks: [{
+		uid: "ff78d33e",
+		type: "item",
+		items: [{
+			item: "openblocks:cursor"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8108267e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Night Terrors",
+	x: 0.0d,
+	y: 8.0d,
+	description: "That thing under your bed!",
+	text: [
+		"Slay 10 Dreadful Peat Mummies."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "1ee07621",
+		type: "kill",
+		entity: "thebetweenlands:dreadful_mummy",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "e4c99e73",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

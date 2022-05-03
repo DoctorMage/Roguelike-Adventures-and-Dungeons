@@ -1,0 +1,21 @@
+{
+	x: 19.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "8c438c0c",
+		type: "item",
+		items: [{
+			item: "harvestcraft:barleyseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "ac467398",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "34eb26b0",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

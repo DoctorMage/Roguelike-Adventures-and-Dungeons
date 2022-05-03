@@ -1,0 +1,19 @@
+{
+	title: "Dentabites!",
+	x: -2.0d,
+	y: 7.5d,
+	description: "Dogs eat em and go crazy!",
+	text: [
+		"Use 20 of these on your doggy to level them up to level 40. Then you'll need something more satisfying."
+	],
+	dependencies: [
+		"0400b11c"
+	],
+	tasks: [{
+		uid: "7dd2a5ce",
+		type: "item",
+		items: [{
+			item: "doggytalents:super_treat"
+		}]
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Push-In ",
+	x: -22.0d,
+	y: 2.0d,
+	description: "Kinda like a toggle, but not as good",
+	text: [
+		"These Big Buttons will can have their time extended by Shift-Right-Clicking with an empty hand, and placing items inside.",
+		"",
+		"Multiple items from a single stack will contribute to the time increase. Dirt is very handy for this."
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "fae78215",
+		type: "item",
+		items: [{
+			item: "openblocks:big_button"
+		}]
+	},
+	{
+		uid: "3c24da1c",
+		type: "item",
+		items: [{
+			item: "openblocks:big_button_wood"
+		}]
+	}],
+	rewards: [{
+		uid: "1c223255",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,56 @@
+{
+	title: "Do A Barrel Roll!",
+	x: -4.5d,
+	y: 4.0d,
+	description: "You'll never stay organized with these!",
+	text: [
+		"Only one Barrel required to complete this quest."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ace30757"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "f061e149",
+		type: "item",
+		items: [{
+			item: "charm:barrel"
+		}]
+	},
+	{
+		uid: "2005fc9e",
+		type: "item",
+		items: [{
+			item: "charm:barrel 1 1"
+		}]
+	},
+	{
+		uid: "d0c2cf5b",
+		type: "item",
+		items: [{
+			item: "charm:barrel 1 2"
+		}]
+	},
+	{
+		uid: "6964654e",
+		type: "item",
+		items: [{
+			item: "charm:barrel 1 3"
+		}]
+	},
+	{
+		uid: "0ecf8a10",
+		type: "item",
+		items: [{
+			item: "charm:barrel 1 4"
+		}]
+	},
+	{
+		uid: "a8c99702",
+		type: "item",
+		items: [{
+			item: "charm:barrel 1 5"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Vip Access",
+	x: 0.5d,
+	y: 6.0d,
+	description: "You're a little special around here",
+	text: [
+		"This glass will prevent other entities from passing through, but players can walk right on by."
+	],
+	tasks: [{
+		uid: "952a8387",
+		type: "item",
+		items: [{
+			item: "randomthings:quartzglass"
+		}]
+	}],
+	rewards: [{
+		uid: "2f491139",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

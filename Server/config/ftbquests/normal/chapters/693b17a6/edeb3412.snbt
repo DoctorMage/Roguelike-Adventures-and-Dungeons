@@ -1,0 +1,23 @@
+{
+	title: "Batter Bandit V",
+	x: -13.0d,
+	y: -3.0d,
+	description: "There's no more cake... or is there?",
+	text: [
+		"Steve has a tapeworm, evidently.",
+		"",
+		"Eat 5,000 slices of cake."
+	],
+	tasks: [{
+		uid: "5ec00a7b",
+		type: "stat",
+		icon: "minecraft:cake",
+		stat: "stat.cakeSlicesEaten",
+		value: 5000
+	}],
+	rewards: [{
+		uid: "97087c58",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	}]
+}

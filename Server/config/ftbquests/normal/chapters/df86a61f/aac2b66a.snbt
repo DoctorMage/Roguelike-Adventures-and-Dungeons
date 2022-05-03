@@ -1,0 +1,21 @@
+{
+	title: "Four Score And Six Buckets Ago",
+	x: 13.5d,
+	y: -11.5d,
+	description: "Back in the old days...",
+	text: [
+		"Craft some fluid storage tanks for all that fluid you're gonna be making this playthrough."
+	],
+	tasks: [{
+		uid: "67db5cb9",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_storeempty"
+		}]
+	}],
+	rewards: [{
+		uid: "e719f555",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

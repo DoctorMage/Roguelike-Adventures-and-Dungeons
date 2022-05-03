@@ -1,0 +1,28 @@
+{
+	title: "Pharoah, With A \"PH\"",
+	icon: "atum:dagger_poison",
+	x: 8.5d,
+	y: -2.5d,
+	description: "I like em' thicc... and mummified",
+	text: [
+		"Slay 25 Pharoahs.",
+		"",
+		"I didn't say do anything else to them. Understand?"
+	],
+	tasks: [{
+		uid: "69b3bcff",
+		type: "kill",
+		entity: "atum:pharaoh",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "94538660",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "772e7e07",
+		type: "xp_levels",
+		xp_levels: 200
+	}]
+}

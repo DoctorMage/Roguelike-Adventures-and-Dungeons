@@ -1,0 +1,34 @@
+{
+	title: "Transmutation",
+	icon: "chisel:gold 1 13",
+	x: 27.0d,
+	y: 8.0d,
+	description: "Nicholas Flamingo Or Something",
+	text: [
+		"You can transmute Lead to Gold. Please refer to the Codex on the correct transmutation procedure to follow."
+	],
+	dependencies: [
+		"2eebb48a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "42650830",
+		type: "checkmark",
+		title: "Got It!"
+	}],
+	rewards: [{
+		uid: "c4b21edd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "fd60cbd5",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "5767de1d",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

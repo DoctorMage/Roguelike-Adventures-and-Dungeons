@@ -1,0 +1,32 @@
+{
+	title: "Of Fire And Ice",
+	icon: "iceandfire:dragon_skull 1 1",
+	x: 0.0d,
+	y: 0.0d,
+	description: "The most skilled slayer in many generations",
+	text: [
+		"You've managed to slay every dragon you've come across so far."
+	],
+	tasks: [{
+		uid: "c142f5b5",
+		type: "kill",
+		entity: "iceandfire:firedragon",
+		value: 250L
+	},
+	{
+		uid: "5601e003",
+		type: "kill",
+		entity: "iceandfire:icedragon",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "d227da6c",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "0b228fa7",
+		type: "xp_levels",
+		xp_levels: 100
+	}]
+}

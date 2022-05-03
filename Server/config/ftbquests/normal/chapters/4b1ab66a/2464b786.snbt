@@ -1,0 +1,22 @@
+{
+	x: 13.0d,
+	y: -14.5d,
+	tasks: [{
+		uid: "837615d0",
+		type: "item",
+		items: [{
+			item: "harvestcraft:persimmonitem"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "86f7e31c",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "ce9a072d",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

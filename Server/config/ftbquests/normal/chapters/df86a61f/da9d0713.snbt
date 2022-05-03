@@ -1,0 +1,29 @@
+{
+	title: "Let There Be... FIRE!",
+	x: 21.5d,
+	y: 2.5d,
+	description: "Burn baby burn!",
+	text: [
+		"The Igniter will set blocks ablaze when powered with Redstone, or when set on a certain mode.",
+		"",
+		"The Igniter has 3 modes:",
+		"",
+		"Toggle Fire - Ignites the block in front of the Igniter when powered, and extinguishes the flame when unpowered.",
+		"",
+		"Ignite - Ignites the block in front when powered, does not extinguish when unpowered.",
+		"",
+		"Keep Ignited - Ignites the block in front of the Igniter on block updates."
+	],
+	tasks: [{
+		uid: "1973f57a",
+		type: "item",
+		items: [{
+			item: "randomthings:igniter"
+		}]
+	}],
+	rewards: [{
+		uid: "ea38a27e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

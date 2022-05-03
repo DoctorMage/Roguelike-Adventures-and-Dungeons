@@ -1,0 +1,33 @@
+{
+	title: "Boom Bang Pow!",
+	x: 33.0d,
+	y: 1.0d,
+	description: "And a crashing and burning!",
+	text: [
+		"And from the ashes, your player characer is born!",
+		"",
+		"I'm too good at telling stories."
+	],
+	dependencies: [
+		"fe8f99b6"
+	],
+	tasks: [{
+		uid: "d9c92fa6",
+		type: "item",
+		items: [{
+			item: "embers:explosion_charm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "99c64475",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5c602929",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

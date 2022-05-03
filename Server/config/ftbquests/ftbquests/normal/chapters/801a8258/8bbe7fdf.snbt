@@ -1,0 +1,30 @@
+{
+	title: "Smelting The FUN Way!",
+	x: 1.5d,
+	y: 3.5d,
+	text: [
+		"These two crafters will essentially smelt items into a variety of different metals, including the very good Crystallized Obsidian. You'll need some transfer pipes and nodes from Extra Utilites 2 to get it going smoothly."
+	],
+	dependencies: [
+		"cfd867c1"
+	],
+	tasks: [{
+		uid: "56a1c888",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:melter"
+		}]
+	},
+	{
+		uid: "9f131c4a",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:solidifier"
+		}]
+	}],
+	rewards: [{
+		uid: "3f973cba",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

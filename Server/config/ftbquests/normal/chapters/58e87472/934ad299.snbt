@@ -1,0 +1,35 @@
+{
+	title: "Your Pocket Portal",
+	x: -6.0d,
+	y: -4.5d,
+	description: "A dimension in your denim!",
+	text: [
+		"The Quartz Dimensional Door will create a portal to your personal dimension, no matter where it is, or how many are placed down.",
+		"",
+		"The Quartz Dimension Door will only ever take you to your personal dimension.",
+		"",
+		"You can enter this dimension from multiple Quartz doors, and when you leave, player's should exit from the door they've entered.",
+		"",
+		"If you accidentally destroy your Quartz Door on the inside of your Personal Dimension, you can simply place any Quartz, Iron or Wooden Dimension Door under that same Rift to exit your Personal Dimension."
+	],
+	dependencies: [
+		"f5ba5fd8"
+	],
+	tasks: [{
+		uid: "65dd4734",
+		type: "item",
+		items: [{
+			item: "dimdoors:quartz_dimensional_door"
+		}]
+	}],
+	rewards: [{
+		uid: "02a4b803",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "9c71d747",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

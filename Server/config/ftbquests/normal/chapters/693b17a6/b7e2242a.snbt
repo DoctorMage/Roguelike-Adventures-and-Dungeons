@@ -1,0 +1,21 @@
+{
+	title: "Waystone Wanderer V",
+	x: -14.5d,
+	y: -3.0d,
+	description: "You've been around... a lot...",
+	text: [
+		"Activate 100 different Waystones."
+	],
+	tasks: [{
+		uid: "c963a246",
+		type: "stat",
+		icon: "waystones:waystone",
+		stat: "stat.waystones:waystonesActivated",
+		value: 100
+	}],
+	rewards: [{
+		uid: "6c9629e1",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	}]
+}

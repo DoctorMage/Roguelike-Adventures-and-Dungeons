@@ -1,0 +1,23 @@
+{
+	title: "Calculated Parkour",
+	x: 7.5d,
+	y: 5.0d,
+	description: "The perfect bounce",
+	text: [
+		"This Compacted Slime Block will bounce the player 4 blocks high, and break any falls.",
+		"",
+		"Doesn't matter how high you jump from, it's only gonna bounce you 4 blocks high."
+	],
+	tasks: [{
+		uid: "e760c7b5",
+		type: "item",
+		items: [{
+			item: "randomthings:compressedslimeblock"
+		}]
+	}],
+	rewards: [{
+		uid: "5c4457e0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

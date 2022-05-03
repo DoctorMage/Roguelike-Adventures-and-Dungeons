@@ -1,0 +1,38 @@
+{
+	title: "Chesty Hands",
+	x: -4.0d,
+	y: -10.5d,
+	description: "That isn't what it sounds like",
+	text: [
+		"Holds as much as a chest does.",
+		"",
+		"Right-Click to use the Bag of Holding."
+	],
+	dependencies: [
+		"80f9d45b"
+	],
+	tasks: [{
+		uid: "35b76696",
+		type: "item",
+		items: [{
+			item: "extrautils2:bagofholding"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3c8f4acf",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "3d8c4304",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "5c82fd37",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

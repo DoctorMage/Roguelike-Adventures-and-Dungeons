@@ -1,0 +1,26 @@
+{
+	x: 3.5d,
+	y: 2.5d,
+	tasks: [{
+		uid: "5be581d8",
+		type: "item",
+		items: [{
+			item: "prefab:item_fish_pond"
+		}]
+	}],
+	rewards: [{
+		uid: "8b4eaacf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d5185a8a",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "potioncore:bless"
+			}
+		}
+	}]
+}

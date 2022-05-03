@@ -1,0 +1,42 @@
+{
+	title: "Different Kinds Of Anvils",
+	x: 3.0d,
+	y: 2.0d,
+	text: [
+		"Repairs items that cannot be repaired otherwise. Does not require mending on the item."
+	],
+	dependencies: [
+		"cfd867c1"
+	],
+	tasks: [{
+		uid: "b3951c98",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_anvil_magma"
+		}]
+	},
+	{
+		uid: "2847a3f4",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_anvil"
+		}]
+	},
+	{
+		uid: "4b8ab507",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:void_anvil"
+		}]
+	}],
+	rewards: [{
+		uid: "3ce8e7c0",
+		type: "item",
+		item: "subterraneanswitcheroo:goldendiamond"
+	},
+	{
+		uid: "aeac1caf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

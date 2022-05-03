@@ -1,0 +1,11 @@
+{
+	x: 8.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "ea88c5a9",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}]
+}

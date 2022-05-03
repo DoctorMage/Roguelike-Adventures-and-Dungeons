@@ -1,0 +1,59 @@
+{
+	title: "Lucky Luck",
+	x: -14.0d,
+	y: 3.5d,
+	description: "You'll never die to a nuissance with these!",
+	text: [
+		"These handy charms can stave away damage from nuissances like posion, falling and other things."
+	],
+	tasks: [{
+		uid: "f8c8a3c6",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:charm_wing",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e4826e1d",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:charm_fire",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "66a3cc9f",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:charm_void",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3f23cae8",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:charm_water",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a5ba3850",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:charm_antidote",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

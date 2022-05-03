@@ -1,0 +1,21 @@
+{
+	title: "Batter Bandit IV",
+	x: -13.0d,
+	y: -2.0d,
+	description: "It's all gone?",
+	text: [
+		"Eat 2,500 slice of cake."
+	],
+	tasks: [{
+		uid: "4e4ee9cd",
+		type: "stat",
+		icon: "minecraft:cake",
+		stat: "stat.cakeSlicesEaten",
+		value: 2500
+	}],
+	rewards: [{
+		uid: "0dde8912",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	}]
+}

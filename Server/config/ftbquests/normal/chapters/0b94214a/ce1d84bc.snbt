@@ -1,0 +1,29 @@
+{
+	x: 3.5d,
+	y: 3.0d,
+	description: "Must be some rare chili pepper",
+	text: [
+		"Obtain a Blaze Chunk."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a45e2847"
+	],
+	tasks: [{
+		uid: "beace264",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chunk 1 17"
+		}]
+	}],
+	rewards: [{
+		uid: "7375462f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "76aa300b",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

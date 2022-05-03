@@ -1,0 +1,18 @@
+{
+	title: "Get It Off, Get It Off!",
+	x: -12.5d,
+	y: 10.0d,
+	description: "You ARE the creepy crawly now",
+	text: [
+		"This thing is hilarious."
+	],
+	tasks: [{
+		uid: "9f2377b5",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_mount_inverse"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

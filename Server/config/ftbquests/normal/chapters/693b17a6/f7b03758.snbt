@@ -1,0 +1,23 @@
+{
+	title: "Village Idiot IV",
+	x: -11.5d,
+	y: -2.0d,
+	description: "You have a double digit IQ",
+	text: [
+		"Unheard of in the Minecraft world.",
+		"",
+		"Trade with villagers 5,000 times."
+	],
+	tasks: [{
+		uid: "f8d28e74",
+		type: "stat",
+		icon: "minecraft:book",
+		stat: "stat.tradedWithVillager",
+		value: 5000
+	}],
+	rewards: [{
+		uid: "0ed91926",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

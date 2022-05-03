@@ -1,0 +1,31 @@
+{
+	title: "Gecko No Like-O",
+	x: 6.0d,
+	y: 4.0d,
+	description: "He just wanted to save you 15%",
+	text: [
+		"Craft a Gecko Cage.",
+		"",
+		"What are you gonna name him?"
+	],
+	dependencies: [
+		"b8216d73"
+	],
+	tasks: [{
+		uid: "531e99cf",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:gecko_cage"
+		}]
+	}],
+	rewards: [{
+		uid: "2a57c637",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "44c9b547",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

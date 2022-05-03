@@ -1,0 +1,29 @@
+{
+	title: "So It's Always On?",
+	x: 20.0d,
+	y: -3.0d,
+	description: "No, no, it's inverted...",
+	text: [
+		"Upside-down?",
+		"",
+		"Okay, so the Advanced Redstone Torch has the regular ON and OFF state. Red for ON, green for OFF.",
+		"",
+		"You still need to get the torch into the OFF state through normal means; the difference is this one doesn't have to be \"off\" when it's OFF.",
+		"",
+		"You're able to configure the signal strength of both the ON and OFF states of the torch. This means when you manage to get the torch into it's OFF state by normal Redstone means, the power output MIGHT not be 0, if you don't want it to be.",
+		"",
+		"Pretty neat, huh?"
+	],
+	tasks: [{
+		uid: "ae40a8ad",
+		type: "item",
+		items: [{
+			item: "randomthings:advancedredstonetorch_on"
+		}]
+	}],
+	rewards: [{
+		uid: "315e1953",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

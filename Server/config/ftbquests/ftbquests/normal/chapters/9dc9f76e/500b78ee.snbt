@@ -1,0 +1,26 @@
+{
+	title: "The Hardest Thing Known To Survival",
+	x: 0.5d,
+	y: -6.5d,
+	description: "Not really, this is modded Minecraft.",
+	text: [
+		"Maddock will help you, go grab a Maddock. Or as I like to call it, a Mad Duck.",
+		"",
+		"Also requires quest \"Diamond Tools\" to be completed, in order to unlock this quest."
+	],
+	dependencies: [
+		"ab06e1aa"
+	],
+	tasks: [{
+		uid: "549eb4cf",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}]
+	}],
+	rewards: [{
+		uid: "b1dc55c3",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

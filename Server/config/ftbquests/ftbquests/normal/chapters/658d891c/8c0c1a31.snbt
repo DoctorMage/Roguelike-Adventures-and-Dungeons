@@ -1,0 +1,16 @@
+{
+	title: "Fire In Our Hearts",
+	x: 6.0d,
+	y: -5.5d,
+	description: "It burns brighter than that Redstone Lamp in your room!",
+	dependencies: [
+		"6dbe8507"
+	],
+	tasks: [{
+		uid: "87d767d9",
+		type: "item",
+		items: [{
+			item: "iceandfire:fire_dragon_heart"
+		}]
+	}]
+}

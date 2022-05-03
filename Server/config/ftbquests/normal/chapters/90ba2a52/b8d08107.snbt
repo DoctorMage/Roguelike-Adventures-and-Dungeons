@@ -1,0 +1,49 @@
+{
+	x: 21.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "cc4e95c1",
+		type: "item",
+		items: [{
+			item: "atum:loot_sapphire_idol"
+		}],
+		count: 8L
+	},
+	{
+		uid: "dc17e042",
+		type: "item",
+		items: [{
+			item: "atum:loot_sapphire_necklace"
+		}],
+		count: 8L
+	},
+	{
+		uid: "e5c8d526",
+		type: "item",
+		items: [{
+			item: "atum:loot_sapphire_ring"
+		}],
+		count: 8L
+	},
+	{
+		uid: "02ca75cc",
+		type: "item",
+		items: [{
+			item: "atum:loot_sapphire_scepter"
+		}],
+		count: 8L
+	},
+	{
+		uid: "b572d2de",
+		type: "item",
+		items: [{
+			item: "atum:loot_sapphire_broach"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "50b7de45",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

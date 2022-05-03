@@ -1,0 +1,31 @@
+{
+	title: "Woah Bessy",
+	x: 17.0d,
+	y: -1.5d,
+	description: "Woah...",
+	text: [
+		"Slow down now.",
+		"",
+		"Now speed it up a little---!!!!"
+	],
+	dependencies: [
+		"311cdfc1"
+	],
+	tasks: [{
+		uid: "f368dc4c",
+		type: "item",
+		items: [{
+			item: "embers:clockwork_attenuator"
+		}]
+	}],
+	rewards: [{
+		uid: "8eb49323",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "dc86d14a",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

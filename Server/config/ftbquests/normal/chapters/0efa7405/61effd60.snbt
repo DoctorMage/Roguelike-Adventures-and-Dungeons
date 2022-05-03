@@ -1,0 +1,57 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	text: [
+		"Place down your table and then right-click it with one of the scribing tools in hand (this will use up the scribing tools but will put them in the top left of the table). Your scribing tools will not last forever and will run out of ink. Although",
+		" they can be repaired/refilled by combining them with an ink sac. Right-click the table again to open it. This table has a slot on the top right corner for paper that you should keep full when possible",
+		"",
+		"You will also notice a bookshelf in the middle. This is because the research table is next to a bookcase. The table will detect helpful blocks that are up to 4 blocks away. There are also 5 light bulbs - these are called “inspiration”.",
+		"As you progress through the mod you will gain more and more ideas. There are also other items that will give you extra research options such as:",
+		"- Bookshelf - Gives more “Fundamentals” options",
+		"- Crucible - Gives more “Alchemy” options",
+		"- Runic Matrix - Gives more “Infusion” options",
+		"- Golem Press - Gives more “Golemancy” options",
+		"- Brain in a Jar - gives more “Eldritch” options",
+		"- Beacon - Gives more “Auromancy” options",
+		"- Focal Manipulator - Gives more “Auromancy” options",
+		"- Enchanting Table - Gives options which use levels for research",
+		"",
+		"Each time you use one of these bonus items (click it and then press “create theory”) it will use up one of your Inspiration but will help to focus your research on a given field."
+	],
+	dependencies: [
+		"b3e26faf"
+	],
+	tasks: [{
+		uid: "b7e821ac",
+		type: "item",
+		items: [{
+			item: "thaumcraft:scribing_tools"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5fabb60f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:table_wood"
+		}]
+	}],
+	rewards: [{
+		uid: "4cc3d281",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	},
+	{
+		uid: "e710d441",
+		type: "item",
+		item: "minecraft:paper",
+		count: 16
+	},
+	{
+		uid: "d1c8c6af",
+		type: "item",
+		item: "minecraft:dye",
+		count: 16
+	}]
+}

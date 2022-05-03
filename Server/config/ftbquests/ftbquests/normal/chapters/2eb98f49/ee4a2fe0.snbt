@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		"1. Place it in the middle of the bore.",
+		"2. Attach Extractor to a chest with Fuel. And then pipe it into this block from one side with regular pipe.",
+		"3. Attach Extractor to this block and pipe Embers from it to the another chest from the other side.",
+		"Don't forget that you need to attach levers to Extractors to work."
+	],
+	dependencies: [
+		"76e26276"
+	],
+	tasks: [{
+		uid: "9f1c1aeb",
+		type: "item",
+		items: [{
+			item: "embers:mech_core"
+		}]
+	}],
+	rewards: [{
+		uid: "edd16823",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

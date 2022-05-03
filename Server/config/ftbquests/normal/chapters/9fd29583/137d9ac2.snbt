@@ -1,0 +1,38 @@
+{
+	title: "The Ants And The Bees",
+	x: -1.0d,
+	y: -10.5d,
+	description: "Didn't your parents talk to you about this?",
+	text: [
+		"Craft the materials for an Ant Silo, and obtain some Honeycomb."
+	],
+	dependencies: [
+		"d01b8d01"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "1be99f5d",
+		type: "item",
+		items: [{
+			item: "erebus:silo_tank"
+		},
+		{
+			item: "erebus:silo_roof"
+		},
+		{
+			item: "erebus:silo_supports"
+		}]
+	},
+	{
+		uid: "db5bf0c8",
+		type: "item",
+		items: [{
+			item: "erebus:honey_comb"
+		}]
+	}],
+	rewards: [{
+		uid: "062677a2",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Older Than Old",
+	x: -1.5d,
+	y: 1.0d,
+	description: "That's why we don't use that word anymore",
+	text: [
+		"More ancient than your aunty."
+	],
+	dependencies: [
+		"297308aa"
+	],
+	tasks: [{
+		uid: "fb7b8bc0",
+		type: "item",
+		items: [{
+			item: "embers:archaic_brick"
+		}]
+	}],
+	rewards: [{
+		uid: "d75530e0",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "aa4543ca",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

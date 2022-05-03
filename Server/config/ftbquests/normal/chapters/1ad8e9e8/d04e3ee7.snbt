@@ -1,0 +1,36 @@
+{
+	title: "Crunchy Compost",
+	x: 8.0d,
+	y: 4.0d,
+	description: "Isn't it supposed to be wet?",
+	text: [
+		"Something is wrong here.",
+		"",
+		"Craft a Compost Bin."
+	],
+	dependencies: [
+		"b8216d73"
+	],
+	tasks: [{
+		uid: "0f1675e4",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:compost_bin"
+		}]
+	}],
+	rewards: [{
+		uid: "9f50ad59",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "947c7af6",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "3b83846e",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

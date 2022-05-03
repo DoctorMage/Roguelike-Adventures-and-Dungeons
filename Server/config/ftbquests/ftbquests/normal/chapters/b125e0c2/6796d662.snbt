@@ -1,0 +1,42 @@
+{
+	x: 4.5d,
+	y: 2.5d,
+	tasks: [{
+		uid: "8b6ee411",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"prefab:structuresconfiguration": {
+					configuration: {
+						wareHouseFacing: "north",
+						structureEnumName: "MachineryTower"
+					}
+				}
+			},
+			id: "prefab:item_basic_structure",
+			tag: {
+				ForgeCaps: {
+					"prefab:structuresconfiguration": {
+						configuration: {
+							wareHouseFacing: "north",
+							structureEnumName: "MachineryTower"
+						}
+					}
+				},
+				id: "prefab:item_basic_structure",
+				Count: 1b,
+				Damage: 0s
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "99286aef",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0f77ab7d",
+		type: "item",
+		item: "prefab:block_compressed_stone 1 1"
+	}]
+}

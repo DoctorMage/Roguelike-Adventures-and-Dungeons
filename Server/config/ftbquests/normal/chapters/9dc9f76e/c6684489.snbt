@@ -1,0 +1,30 @@
+{
+	title: "Cujo No!",
+	x: -1.5d,
+	y: 7.5d,
+	description: "Bad dog!",
+	text: [
+		"New levels! Dire levels! Like Paragon levels... or prestiging... but for your dog. Levels up to 30."
+	],
+	dependencies: [
+		"df8f3703"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "57a2a159",
+		type: "item",
+		items: [{
+			item: "doggytalents:dire_treat"
+		}]
+	}],
+	rewards: [{
+		uid: "3ccbb7c7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "0a70075f",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}
