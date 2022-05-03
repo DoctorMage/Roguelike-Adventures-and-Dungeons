@@ -19,13 +19,13 @@ Special thanks to @Samara#0323 for active template creation!
 
 ## Features of the new update include:
 
-• A brand new FTB Questbook remade from scratch with massive attention to detail ranging from humorous quest names and titles to new informative descriptions. Progression should now be streamlined in a fashion where you should progress through the Questbook just by playing the game. (NOTE: rewards are still work in progress!)
-• TONS more repeatable quests in “The Grind Don’t Stop” Chapter, and longer quest trees should give most mods higher play time, and replayability
-• The Building Gadgets mod has allowed to organize a new feature which will help players share their builds through the use of the Building Gadgets mod
-• Items which eventually become useless, like Manuscripts, unlock items for the Titles mod, and more, will now have a use in the Questbook
-• A new Chapter with “achievement” like quests will also be added. This new Chapter will have ridiculously challenging quests which are not intended to be completed in one sitting
-• The Shop is receiving a huge revamp. All tabs will be remade for more appropriate organization of items. Tons of items have been added
-• New changes to the configs
+* A brand new FTB Questbook remade from scratch with massive attention to detail ranging from humorous quest names and titles to new informative descriptions. Progression should now be streamlined in a fashion where you should progress through the Questbook just by playing the game. (NOTE: rewards are still work in progress!)
+* TONS more repeatable quests in “The Grind Don’t Stop” Chapter, and longer quest trees should give most mods higher play time, and replayability
+* The Building Gadgets mod has allowed to organize a new feature which will help players share their builds through the use of the Building Gadgets mod
+* Items which eventually become useless, like Manuscripts, unlock items for the Titles mod, and more, will now have a use in the Questbook
+* A new Chapter with “achievement” like quests will also be added. This new Chapter will have ridiculously challenging quests which are not intended to be completed in one sitting
+* The Shop is receiving a huge revamp. All tabs will be remade for more appropriate organization of items. Tons of items have been added
+* New changes to the configs
 
 AND MUCH MORE TO COME! Current changes: https://pastebin.com/raw/e4EbKVtJ
 
