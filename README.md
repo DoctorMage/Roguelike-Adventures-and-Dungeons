@@ -64,4 +64,4 @@ Need a server to play with friends? Don't know how to setup one? Just rent alrea
 
   Click on the picture above, select plan(at least 5GB), use my code xdreamz to get 25% off your first month and enjoy playing with your friends!
 
- Support me on Patreon! | Modpack's discord channel. | All my packs | R.A.D. Lite | Life in the village 2 | Life in the Village LITE | Life in the village | Engineer's Life | Engineer's Life 2 | R.A.D.- TiC Edition
+ [Support me on Patreon!](https://www.patreon.com/Dreams01) | [Modpack's discord channel.](https://discord.com/invite/r8CP8wrYsH) 
