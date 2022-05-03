@@ -1,0 +1,30 @@
+{
+	title: "GMD",
+	x: -2.0d,
+	y: 8.0d,
+	description: "Genetically Modified Dirt",
+	text: [
+		"Now, originally, dirt has no DNA, but we gave it some to help your plants grow faster!",
+		"",
+		"Long-term affects of GMD inside of agricultural harvest has not been extensively observed.",
+		"",
+		"This dirt and GMD (Gentically Modified Dirt) contains chemicals known to cause cancer within the state of California.",
+		"",
+		"Use with caution.",
+		"",
+		"But hey! Your plants grow fast!"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "c3bb35a4",
+		type: "item",
+		items: [{
+			item: "randomthings:fertilizeddirt"
+		}]
+	}],
+	rewards: [{
+		uid: "243cd596",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 4.0d,
+	y: -13.0d,
+	description: "You're telling me THE DAWN made THIS STONE?",
+	text: [
+		"Craft some Dawnstone Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8d4841a2"
+	],
+	tasks: [{
+		uid: "d2a917ad",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:dawnstone_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "7265c96c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "ac72fa81",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

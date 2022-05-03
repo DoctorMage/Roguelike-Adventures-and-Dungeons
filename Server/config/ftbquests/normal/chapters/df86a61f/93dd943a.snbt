@@ -1,0 +1,30 @@
+{
+	title: "Handful Of Lightning",
+	x: -26.0d,
+	y: 20.0d,
+	description: "Oh yea... you're Zeus",
+	text: [
+		"The Greek God of Kick Your @#%.",
+		"",
+		"Charged Emeralds will spawn lightning when thrown.",
+		"",
+		"When you're struck by lightning with Emeralds in your inventory, they are charged. Up to 3 can be charged at a time. Meaning you only need 1 charged Emerald to make more.",
+		"",
+		"I wonder how you can control lightning in other ways... there must be another way...",
+		"",
+		""
+	],
+	tasks: [{
+		uid: "fef50434",
+		type: "item",
+		items: [{
+			item: "charm:charged_emerald"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "494351d1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	title: "Turn It Down I Can't See!",
+	x: -23.5d,
+	y: 8.5d,
+	description: "This helmet makes it legal to say that",
+	text: [
+		"This helmet is going to make you feel like you're missing chromosomes. You'll also crave cheese.",
+		"",
+		"Let's you see sound waves through walls.",
+		"",
+		"You're basically a land dolphin."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "d9496ff3",
+		type: "item",
+		items: [{
+			id: "openblocks:sonic_glasses",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -2449911257040075954L,
+						UUIDLeast: -5630309475025218728L,
+						Amount: 0.5d,
+						AttributeName: "generic.luck",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.lucky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6f4f1dd2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "ddb4f28a",
+		type: "item",
+		items: [{
+			item: "harvestcraft:turnipseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "50dde4e3",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "61daca4f",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

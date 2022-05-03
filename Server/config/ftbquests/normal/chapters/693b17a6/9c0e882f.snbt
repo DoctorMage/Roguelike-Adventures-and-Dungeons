@@ -1,0 +1,22 @@
+{
+	title: "Magical Mystical Mythical Magician I",
+	x: -4.0d,
+	y: 1.0d,
+	description: "Do you even exist?",
+	text: [
+		"Enchant 1,000 items."
+	],
+	tasks: [{
+		uid: "db486581",
+		type: "stat",
+		title: "Enchant 1,000 items",
+		icon: "minecraft:enchanting_table",
+		stat: "stat.itemEnchanted",
+		value: 1000
+	}],
+	rewards: [{
+		uid: "c1be820f",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

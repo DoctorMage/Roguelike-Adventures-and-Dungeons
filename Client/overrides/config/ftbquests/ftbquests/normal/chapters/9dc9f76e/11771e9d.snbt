@@ -1,0 +1,24 @@
+{
+	title: "This Isn't Gonna Happen All Over Again, Will It?",
+	x: 4.5d,
+	y: -9.0d,
+	description: "GET. OVER. HERE!",
+	text: [
+		"Good job! You've defeated the Ender Dragon and obtained a Dragon Egg! Now pray it doesn't hatch or anything stupid!"
+	],
+	dependencies: [
+		"03e91df2"
+	],
+	tasks: [{
+		uid: "4fd6763a",
+		type: "item",
+		items: [{
+			item: "minecraft:dragon_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "3095d321",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

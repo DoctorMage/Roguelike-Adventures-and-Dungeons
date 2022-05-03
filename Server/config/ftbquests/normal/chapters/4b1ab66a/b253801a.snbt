@@ -1,0 +1,22 @@
+{
+	x: -4.5d,
+	y: -13.0d,
+	tasks: [{
+		uid: "a2658f47",
+		type: "item",
+		items: [{
+			item: "harvestcraft:durianitem"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "3c83998c",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "2f7ba42f",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

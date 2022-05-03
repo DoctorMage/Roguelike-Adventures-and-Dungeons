@@ -1,0 +1,27 @@
+{
+	title: "B Rated Restaurant But They Stay Open?!",
+	x: 2.5d,
+	y: -4.0d,
+	description: "It's because no one reports the rats. They only report how good the food is.",
+	text: [
+		"This burrito you're eating has never been surpassed by anything you've tasted within your lifetime, but you know it's bacteria infested and disease riddled because you saw the rat jump across the grill. Yet, you take another bite.",
+		"",
+		"Step 1 | Place on top of a boiling cauldron.",
+		"Step 2 | Right-click your grill with 5 Nether Wart and 1 Unstable Essence.",
+		"Step 3 | Place either Raw Beef, Pork, Chicken, Mutton, Rabbit, Cod, Salmon, or a Potato onto the grill.",
+		"Step 4 | Wait 5 minutes. No flipping required.",
+		"Step 5 | Take that juicy mama off the grill and eat em up.",
+		"",
+		"Effects on the food are random and cannot be controlled."
+	],
+	dependencies: [
+		"8f0655a8"
+	],
+	tasks: [{
+		uid: "6182f597",
+		type: "item",
+		items: [{
+			item: "pvj:mystical_grill"
+		}]
+	}]
+}

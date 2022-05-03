@@ -1,0 +1,31 @@
+{
+	title: "Definitely Reminds Me Of Something...",
+	x: 20.5d,
+	y: 5.0d,
+	description: "This joke was in bad taste to begin with",
+	text: [
+		"This device needs a sealed room that does not exceed 100 blocks in volume to function. The Vaporizer must be facing towards the inside of the room. It will also need a potion, and some fuel. Empty Glass Bottles are produced as potions are used.",
+		"",
+		"The Potion Vaporizer will fill a room with potion effort vapor bubbles and apply potion effects to entities that walk inside. ",
+		"",
+		"Potion Vaporizers will \"vaporize\" for the same duration a potion would last if you consumed it normally.",
+		"",
+		"It consumes fuel at the same rate a furnace does. However if it runs out of fuel midway, the rest of the potion will not be lost, it will simply wait until it has fuel again.",
+		"",
+		"Potion effects granted by the Vaporizer only last about 3 - 5 seconds. You'll lose the effect if you leave the area.",
+		"",
+		"Good for boss-fight arenas? De-buffs? Buffs?"
+	],
+	tasks: [{
+		uid: "29dac09f",
+		type: "item",
+		items: [{
+			item: "randomthings:potionvaporizer"
+		}]
+	}],
+	rewards: [{
+		uid: "c5e774ee",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

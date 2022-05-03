@@ -1,0 +1,41 @@
+{
+	title: "I hate snakes!",
+	x: -2.5d,
+	y: 2.5d,
+	description: "I hate em' !",
+	text: [
+		"Allows your airship to rest and move on the water. ",
+		"",
+		"All modules can be \"learned\" by your airship, but you can only activate one module at a time.",
+		"",
+		"Requires \"Time For An Upgrade!\" to complete."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8739b8df"
+	],
+	tasks: [{
+		uid: "9ba61cad",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 19"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9c5defc5",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 20"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d61c05a2",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 21"
+		}],
+		ignore_nbt: 1b
+	}]
+}

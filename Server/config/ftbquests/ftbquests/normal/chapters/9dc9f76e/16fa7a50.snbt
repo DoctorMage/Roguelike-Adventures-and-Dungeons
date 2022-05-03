@@ -1,0 +1,21 @@
+{
+	title: "By Fire Be Purged!",
+	x: -1.5d,
+	y: -4.0d,
+	description: "Awakened too soon!",
+	text: [
+		"This will surely get you where you're going! "
+	],
+	dependencies: [
+		"73298fe2"
+	],
+	tasks: [{
+		uid: "49e47d3f",
+		type: "item",
+		items: [{
+			item: "minecraft:flint_and_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

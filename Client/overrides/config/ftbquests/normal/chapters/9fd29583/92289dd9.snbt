@@ -1,0 +1,26 @@
+{
+	title: "Jurrasic Park ALL OVER",
+	x: 4.0d,
+	y: -11.0d,
+	description: "Who said this was a good idea?!",
+	text: [
+		"Obtain the Wand of Preservation."
+	],
+	dependencies: [
+		"d01b8d01"
+	],
+	tasks: [{
+		uid: "a7c3ff9f",
+		type: "item",
+		items: [{
+			item: "erebus:wand_of_preservation"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1193d264",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

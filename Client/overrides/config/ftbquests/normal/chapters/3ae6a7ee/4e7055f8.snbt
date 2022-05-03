@@ -1,0 +1,112 @@
+{
+	title: "Your Firstborn Child",
+	x: 4.5d,
+	y: -2.0d,
+	description: "Cost you an arm, a leg, and a week of social life.",
+	text: [
+		"You brought this thing into the world. Never take it out. It was expensive and you sacrificed a lot to make it. But it was worth it. Now name it Babydoll, pick it up, and complete this quest! Yes, you can rename it after."
+	],
+	dependencies: [
+		"ce2536a5",
+		"7be79886",
+		"ff6186ca",
+		"f5db4627"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "448b3949",
+		type: "item",
+		items: [{
+			id: "vc:airships/item_airship",
+			tag: {
+				BalloonPatternTexture: 3,
+				LearnedModuleFuelInfinite: 0b,
+				EngineDisplayHeadVisual: 9,
+				BalloonPatternColor: 0b,
+				BalloonPatternColorRed: 200,
+				FuelItemStack: 864000,
+				LearnedModuleWater: 0b,
+				EngineParticleVisual: 0,
+				StoredFuelTotal: 18000,
+				SelectedModuleStorage: 0,
+				CoreModelVisualBalloon: 3,
+				FrameSkinColorGreen: 255,
+				StoredRedstone: 21,
+				FuelItemStackSize: 48,
+				BalloonPatternColorBlue: 140,
+				SelectedModuleBomb: 0,
+				LearnedModuleMusic: 0b,
+				CoreModelVisualFrame: 1,
+				FrameSkinTexture: 10,
+				SelectedModuleFuel: 0,
+				CustomName: "Babydoll",
+				TierFrame: 5,
+				TierBalloon: 5,
+				ModuleActiveSlot1: 6,
+				EngineDisplaySupporterHeadVisual: 0,
+				EngineDisplayItemstackVisual: 0,
+				FrameSkinTransparent: 0b,
+				LearnedModuleSpeed: 1b,
+				SelectedModuleCruise: 0,
+				SelectedModuleFuelInfinite: 0,
+				SelectedModuleAltitude: 3,
+				CoreModelVisualEngine: 2,
+				Slots: {
+					Size: 64,
+					Items: [{
+						Slot: 0,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "vc:item_viesoline_pellets",
+						Count: 48b,
+						Damage: 0s
+					},
+					{
+						Slot: 18,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "charm:barrel",
+						Count: 1b,
+						tag: {
+							display: {
+								Name: "Jungle Barrel"
+							}
+						},
+						Damage: 3s
+					}]
+				},
+				BalloonPatternTransparent: 0b,
+				BalloonPatternColorGreen: 180,
+				LearnedModuleBomb: 0b,
+				FrameSkinColorBlue: 255,
+				TierEngine: 5,
+				LearnedModuleAltitude: 1b,
+				FrameSkinColor: 0b,
+				LearnedModuleCruise: 0b,
+				LearnedModuleStorage: 0b,
+				LearnedModuleFuel: 0b,
+				StoredFuel: 12250,
+				EngineDisplayTypeVisual: 2,
+				StoredRestoneTotal: 500,
+				EngineDisplayItemstackMetaVisual: 0,
+				BombType1: 0,
+				EngineDisplayHolidayVisual: 0,
+				BombType3: 0,
+				BombType2: 0,
+				FrameSkinColorRed: 255,
+				SelectedModuleSpeed: 3,
+				SelectedModuleMusic: 0,
+				SelectedModuleWater: 0
+			},
+			Damage: 5s
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "2ebd8643",
+		type: "xp_levels",
+		xp_levels: 50
+	}]
+}

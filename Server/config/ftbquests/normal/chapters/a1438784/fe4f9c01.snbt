@@ -1,0 +1,33 @@
+{
+	title: "My Man-Crush?",
+	x: 12.0d,
+	y: 6.0d,
+	description: "I don't have one",
+	text: [
+		"JK It's Terry Crews."
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "5dab81f7",
+		type: "item",
+		items: [{
+			item: "atum:loot_dirty_idol"
+		}]
+	}],
+	rewards: [{
+		uid: "26d66e6a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "250a20d0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b2f172d4",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

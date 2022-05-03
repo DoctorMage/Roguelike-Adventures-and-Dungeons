@@ -1,0 +1,28 @@
+{
+	title: "Infinite Water Source Ain't Nothing Now",
+	x: 7.5d,
+	y: -7.0d,
+	description: "%&@# your 4x4",
+	text: [
+		"Craft the Emperor's Chalice."
+	],
+	tasks: [{
+		uid: "171498a0",
+		type: "item",
+		items: [{
+			item: "xreliquary:emperor_chalice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7ae09a7b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5b1949a3",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

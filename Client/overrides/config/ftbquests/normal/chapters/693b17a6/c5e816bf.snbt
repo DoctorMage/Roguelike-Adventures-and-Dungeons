@@ -1,0 +1,28 @@
+{
+	title: "Mob Mobster I",
+	icon: "minecraft:bone",
+	x: -10.0d,
+	y: 1.0d,
+	description: "Get those monsters good!",
+	text: [
+		"Slay 1000 mobs."
+	],
+	tasks: [{
+		uid: "4d6fd0fe",
+		type: "stat",
+		title: "Slay 1000 mobs",
+		icon: "minecraft:bone",
+		stat: "stat.mobKills",
+		value: 1000
+	}],
+	rewards: [{
+		uid: "28ae062d",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "e40dc644",
+		type: "xp_levels",
+		xp_levels: 25
+	}]
+}

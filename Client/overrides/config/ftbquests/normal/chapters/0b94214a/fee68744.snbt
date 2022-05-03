@@ -1,0 +1,29 @@
+{
+	x: 3.0d,
+	y: -14.0d,
+	description: "You're telling me the knight made this metal?",
+	text: [
+		"Craft some Knight Metal Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8d4841a2"
+	],
+	tasks: [{
+		uid: "7544930c",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:knightmetal_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "7475b594",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "0972ba6d",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Heel!",
+	x: -7.5d,
+	y: 7.5d,
+	description: "Good boy!",
+	text: [
+		"Right-click a trained, Doggy Talents doggy with a stick to access the training menu. Here you can spend training points on attitributes for your doggy! Good boy!"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "91e50ff4",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}]
+	}],
+	rewards: [{
+		uid: "91bf983d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "8a8ac824",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

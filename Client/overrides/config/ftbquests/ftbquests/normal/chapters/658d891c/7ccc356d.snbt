@@ -1,0 +1,11 @@
+{
+	x: 27.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "6b7437ce",
+		type: "item",
+		items: [{
+			item: "iceandfire:jar_empty"
+		}]
+	}]
+}

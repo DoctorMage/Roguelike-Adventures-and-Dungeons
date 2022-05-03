@@ -1,0 +1,23 @@
+{
+	x: 18.0d,
+	y: 1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "310a5e9d",
+		type: "item",
+		items: [{
+			item: "aether_legacy:enchanted_gravitite"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "a554b5c0",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "24f68b25",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

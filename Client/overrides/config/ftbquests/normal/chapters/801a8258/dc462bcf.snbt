@@ -1,0 +1,21 @@
+{
+	title: "Loot-Er-Ang",
+	x: -5.5d,
+	y: 14.5d,
+	description: "Reliable",
+	text: [
+		"Will collect item entities and stun mobs when thrown!",
+		"",
+		"Mobs FREAK when this thing touches them. Go have some fun!"
+	],
+	tasks: [{
+		uid: "8c9c3b4a",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:boomerang",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

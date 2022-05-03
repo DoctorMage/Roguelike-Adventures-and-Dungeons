@@ -1,0 +1,37 @@
+{
+	title: "Bunches O' Barrels",
+	x: 7.0d,
+	y: 4.5d,
+	description: "Swamp water... that's what's in them",
+	text: [
+		"Every single one."
+	],
+	dependencies: [
+		"b8216d73"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "8e9ad9d7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_barrel"
+		}]
+	},
+	{
+		uid: "6a1ba333",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:syrmorite_barrel"
+		}]
+	}],
+	rewards: [{
+		uid: "4ab35350",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "db59d79d",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

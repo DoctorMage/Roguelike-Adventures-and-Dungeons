@@ -1,0 +1,41 @@
+{
+	title: "Frozen Set Of Tools",
+	x: 6.0d,
+	y: 8.5d,
+	description: "These should last you a lifetime",
+	text: [
+		"Very durable tools of legend. ",
+		"",
+		"You are required to make all tools to complete this quest."
+	],
+	dependencies: [
+		"e8ce86ee"
+	],
+	tasks: [{
+		uid: "e5dfc7ca",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonsteel_ice_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5f928073",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonsteel_ice_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "35051397",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonsteel_ice_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

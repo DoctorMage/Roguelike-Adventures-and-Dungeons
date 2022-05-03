@@ -1,0 +1,21 @@
+{
+	x: 1.0d,
+	y: -6.5d,
+	tasks: [{
+		uid: "c01a25ca",
+		type: "item",
+		items: [{
+			item: "harvestcraft:pistachio_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "e8bcbf57",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "3dd4f4e8",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

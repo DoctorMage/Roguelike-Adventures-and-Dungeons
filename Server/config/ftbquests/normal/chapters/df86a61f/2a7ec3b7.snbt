@@ -1,0 +1,24 @@
+{
+	title: "Seems Like It's For Destroying?",
+	x: -2.5d,
+	y: -9.0d,
+	description: "Nah, nah, nah...",
+	text: [
+		"Dis here anvil is for repairing items with LAVA!",
+		"",
+		"Pairs nicely with the Infernal Chalice."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "5c435603",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_anvil_magma"
+		}]
+	}],
+	rewards: [{
+		uid: "877799cf",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

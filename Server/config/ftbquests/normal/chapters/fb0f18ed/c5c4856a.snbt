@@ -1,0 +1,24 @@
+{
+	title: "Bob The Constructor",
+	x: -5.0d,
+	y: 2.0d,
+	description: "Bob's dad",
+	text: [
+		"Building Guides from Openblocks can be used in advanced functions and placements.",
+		"",
+		"Building Guides can be smacked with a Big Metal Bar to be turned. This way you can customize the preview of your pattern even more.",
+		"",
+		"Use the arrows, pointers, and +/- signs to customize your pattern preview.",
+		"",
+		"Requires a redstone signal to stay active.",
+		"",
+		"Can be dyed. Patterns can also be overlapped between two different Building Guides, to create advanced interconnecting shapes."
+	],
+	tasks: [{
+		uid: "c7ce1d04",
+		type: "item",
+		items: [{
+			item: "openblocks:builder_guide"
+		}]
+	}]
+}

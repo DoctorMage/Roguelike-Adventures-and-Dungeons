@@ -1,0 +1,26 @@
+{
+	title: "Crys Cross",
+	x: 1.0d,
+	y: 4.0d,
+	description: "I have bad balance",
+	text: [
+		"Valuable material. I wonder what can be done with this?"
+	],
+	dependencies: [
+		"c30c10b0"
+	],
+	tasks: [{
+		uid: "c78bf32d",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:crystallized_obsidian"
+		}]
+	},
+	{
+		uid: "55674233",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:crystallized_amber"
+		}]
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "My Family Was Rich",
+	x: 1.5d,
+	y: -2.5d,
+	description: "They bought the whole masoleum.",
+	text: [
+		"For when you want to rest in more style!"
+	],
+	dependencies: [
+		"d6d462e3"
+	],
+	tasks: [{
+		uid: "70445271",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_tombstone"
+		}]
+	},
+	{
+		uid: "726ca6bc",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_tombstone 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "4652f07c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "59989cb7",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "b112f26f",
+		type: "item",
+		item: "aquaculture:loot 1 4"
+	}]
+}

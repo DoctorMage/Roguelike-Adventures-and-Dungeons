@@ -1,0 +1,37 @@
+{
+	title: "You Don't Understand How Fast I Really Am",
+	x: 2.0d,
+	y: -14.5d,
+	description: "I'm fast as %&#@",
+	text: [
+		"Obtain the Agility Boots.",
+		"",
+		"They allow to runner to step up one-block heights, and run faster."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9ca912fb"
+	],
+	tasks: [{
+		uid: "a1b42186",
+		type: "item",
+		items: [{
+			id: "lost_aether:agility_boots",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2ded851e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f7c276fd",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,100 @@
+{
+	title: "Smooth Smoothie",
+	x: 2.0d,
+	y: -13.5d,
+	description: "Mine has a crunch in it?",
+	text: [
+		"Craft all of the smoothies available in the Erebus mod."
+	],
+	dependencies: [
+		"5d09109d"
+	],
+	tasks: [{
+		uid: "a93af69d",
+		type: "item",
+		items: [{
+			item: "erebus:smoothie"
+		}]
+	},
+	{
+		uid: "d3c20a54",
+		type: "item",
+		items: [{
+			item: "erebus:smoothie 1 1"
+		}]
+	},
+	{
+		uid: "eef3c9e2",
+		type: "item",
+		items: [{
+			item: "erebus:smoothie 1 2"
+		}]
+	},
+	{
+		uid: "e1f8f0c0",
+		type: "item",
+		items: [{
+			item: "erebus:smoothie 1 3"
+		}]
+	},
+	{
+		uid: "f3a9e6a7",
+		type: "item",
+		items: [{
+			item: "erebus:smoothie 1 4"
+		}]
+	},
+	{
+		uid: "7c2a5b41",
+		type: "item",
+		items: [{
+			item: "erebus:smoothie 1 5"
+		}]
+	},
+	{
+		uid: "da9c0966",
+		type: "item",
+		items: [{
+			item: "erebus:smoothie 1 6"
+		}]
+	},
+	{
+		uid: "5668e2ca",
+		type: "item",
+		items: [{
+			item: "erebus:smoothie 1 7"
+		}]
+	},
+	{
+		uid: "97bd220b",
+		type: "item",
+		items: [{
+			item: "erebus:smoothie 1 8"
+		}]
+	},
+	{
+		uid: "0626f44d",
+		type: "item",
+		items: [{
+			item: "erebus:smoothie 1 9"
+		}]
+	},
+	{
+		uid: "9afecfdb",
+		type: "item",
+		items: [{
+			item: "erebus:erebus_food 1 8"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0b619e4a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "8cb54856",
+		type: "xp_levels",
+		xp_levels: 15
+	}]
+}

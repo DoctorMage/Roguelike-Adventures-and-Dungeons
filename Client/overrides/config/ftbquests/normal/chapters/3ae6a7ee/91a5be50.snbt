@@ -1,0 +1,24 @@
+{
+	title: "Ol'Bessy",
+	x: -3.5d,
+	y: -2.0d,
+	description: "She'll take ya where ya need to go!",
+	text: [
+		"Here's your flying machine! She might run like a Model T, but she flies like a Pidgeon! Watch her go! "
+	],
+	dependencies: [
+		"674a7609",
+		"b61bfece",
+		"77b95ee7",
+		"7810076f"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "3023a243",
+		type: "item",
+		items: [{
+			item: "vc:airships/item_airship"
+		}],
+		ignore_nbt: 1b
+	}]
+}

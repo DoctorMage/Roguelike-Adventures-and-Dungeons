@@ -1,0 +1,26 @@
+{
+	title: "Father Forgive Me",
+	x: 0.5d,
+	y: 1.5d,
+	description: "For you know that I am always sinning",
+	text: [
+		"This item will remove any alignments the player has inside the skill tree for Corail Tombstone. Very useful if you think you've picked something you don't want."
+	],
+	dependencies: [
+		"3b71d318"
+	],
+	tasks: [{
+		uid: "f98256a8",
+		type: "item",
+		items: [{
+			item: "tombstone:ankh_of_pray"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b89dbf68",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

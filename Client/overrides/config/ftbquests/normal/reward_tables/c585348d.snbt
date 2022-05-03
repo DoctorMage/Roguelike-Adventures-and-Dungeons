@@ -1,0 +1,96 @@
+{
+	title: "Ranger",
+	loot_size: 50,
+	rewards: [{
+		item: {
+			id: "minecraft:leather_helmet",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 7209305631400282311L,
+						UUIDLeast: -8525633745224585088L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.protective.name"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:leather_chestplate",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:leather_leggings",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:leather_boots",
+			tag: {
+				Quality: {
+					Slots: [
+						"feet"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 3740725250760000343L,
+						UUIDLeast: -6138568618659483669L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.speedy.name"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:bow",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 51
+				}],
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: "minecraft:torch",
+		count: 64,
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "ranger",
+		item_name: "Crate of Ranger Equipment",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

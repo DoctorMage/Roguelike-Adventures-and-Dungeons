@@ -1,0 +1,26 @@
+{
+	title: "They Say They Like Shiny Stuff",
+	x: -1.0d,
+	y: 8.0d,
+	description: "And they seem to be right",
+	text: [
+		"Obtain Atum's Bounty in order to fish things up in Atum's barren desert."
+	],
+	dependencies: [
+		"b27aa160"
+	],
+	tasks: [{
+		uid: "482bd567",
+		type: "item",
+		items: [{
+			item: "atum:atums_bounty"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "582b1f06",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 6.5d,
+	y: -9.0d,
+	description: "The inside of the bud is pressurized, like in real life",
+	text: [
+		"Craft some Diamond Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e515d867"
+	],
+	tasks: [{
+		uid: "593d526e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:diamond_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "e213fe3a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "1f766b4b",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

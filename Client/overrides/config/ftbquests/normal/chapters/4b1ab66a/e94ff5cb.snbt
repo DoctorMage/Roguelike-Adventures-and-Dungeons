@@ -1,0 +1,12 @@
+{
+	x: -4.5d,
+	y: 9.5d,
+	tasks: [{
+		uid: "d8d9e8d8",
+		type: "item",
+		items: [{
+			item: "harvestcraft:blueberryitem"
+		}],
+		count: 64L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "High Flyin'",
+	x: -5.5d,
+	y: -3.5d,
+	description: "I don't think the fan is turning anymore...",
+	text: [
+		"One of the pieces needed to build an airship!"
+	],
+	dependencies: [
+		"4ca3d38d"
+	],
+	tasks: [{
+		uid: "18c4f8cc",
+		type: "item",
+		items: [{
+			item: "vc:item_airship_ignition"
+		}]
+	}],
+	rewards: [{
+		uid: "a368bda5",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

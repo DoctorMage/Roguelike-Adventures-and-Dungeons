@@ -1,0 +1,29 @@
+{
+	title: "Tier 2 Inferium Seeds",
+	x: -3.0d,
+	y: -1.5d,
+	description: "Grows a bit more",
+	text: [
+		"Craft Tier 2 Inferium Seeds."
+	],
+	dependencies: [
+		"aaa2120a"
+	],
+	tasks: [{
+		uid: "7a1b8437",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:tier2_inferium_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "ab0542ff",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "1ccc7b8d",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

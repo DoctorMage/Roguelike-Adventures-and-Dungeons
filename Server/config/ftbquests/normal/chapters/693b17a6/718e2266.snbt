@@ -1,0 +1,26 @@
+{
+	title: "Rekting Ball IV",
+	x: -8.5d,
+	y: -2.0d,
+	description: "These pixels can't stop you",
+	text: [
+		"Deal 1,000,000 damage."
+	],
+	tasks: [{
+		uid: "96bf8d49",
+		type: "stat",
+		title: "Deal 1,000,000 damage",
+		stat: "stat.damageDealt",
+		value: 1000000
+	}],
+	rewards: [{
+		uid: "2b074e02",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "e6e90d79",
+		type: "xp_levels",
+		xp_levels: 20
+	}]
+}

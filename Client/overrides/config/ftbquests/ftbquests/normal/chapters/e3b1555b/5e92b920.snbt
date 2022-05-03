@@ -1,0 +1,30 @@
+{
+	title: "Digging Your Own Grave",
+	x: -1.0d,
+	y: 1.0d,
+	text: [
+		"You'll need this stuff. A lot of it. Overtime anyways. But you have lots of time when you're dead."
+	],
+	dependencies: [
+		"33dcfd32"
+	],
+	tasks: [{
+		uid: "99b3f43c",
+		type: "item",
+		items: [{
+			item: "tombstone:dark_marble"
+		}]
+	},
+	{
+		uid: "f16921c6",
+		type: "item",
+		items: [{
+			item: "tombstone:dark_marble 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "feea73a8",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

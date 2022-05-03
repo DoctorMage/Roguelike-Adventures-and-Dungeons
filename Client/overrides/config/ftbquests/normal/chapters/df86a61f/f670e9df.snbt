@@ -1,0 +1,27 @@
+{
+	title: "Say Something Nice!",
+	x: 12.0d,
+	y: -13.0d,
+	description: "Well John, the weather today is going to be hot",
+	text: [
+		"And sweaty... and... sexy?",
+		"",
+		"Hey I think there's a typo on the scroller, John!",
+		"",
+		"This machine will display configurable text in front of itself. You can place it in front of blocks and all that kind of funky stuff. ",
+		"",
+		"Get creative!"
+	],
+	tasks: [{
+		uid: "fc47350a",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_screen"
+		}]
+	}],
+	rewards: [{
+		uid: "7871a646",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

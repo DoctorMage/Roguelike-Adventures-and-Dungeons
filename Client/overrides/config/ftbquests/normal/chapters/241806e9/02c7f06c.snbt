@@ -1,0 +1,235 @@
+{
+	title: "You're The Best Pirate I've Ever Met",
+	x: 0.5d,
+	y: -0.5d,
+	description: "But you have met me right?",
+	text: [
+		"Obviously...",
+		"",
+		"Is a sword. Doesn't do anything special."
+	],
+	dependencies: [
+		"a4636105"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "cf5d95d8",
+		type: "item",
+		items: [{
+			id: "dungeontactics:wooden_cutlass",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: -3356753091436723646L,
+						UUIDLeast: -6014166057687531804L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 2305371475498388047L,
+						UUIDLeast: -5625768404280342057L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.bulky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cf91373c",
+		type: "item",
+		items: [{
+			id: "dungeontactics:bone_cutlass",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: 2931069346625439725L,
+						UUIDLeast: -7950857081239417865L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 1762331431979994557L,
+						UUIDLeast: -6667238650774863524L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.clumsy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "aaec7ff2",
+		type: "item",
+		items: [{
+			id: "dungeontactics:stone_cutlass",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "22ecfa27",
+		type: "item",
+		items: [{
+			id: "dungeontactics:iron_cutlass",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 337438022643502546L,
+						UUIDLeast: -4728942975252869117L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.sharp.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b981efbc",
+		type: "item",
+		items: [{
+			id: "dungeontactics:silver_cutlass",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: -2249170457172096432L,
+						UUIDLeast: -8933136614188768837L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 7557923151816181476L,
+						UUIDLeast: -8388083639833015620L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -5148828658291159438L,
+						UUIDLeast: -5459823067767789942L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broad.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ece031e2",
+		type: "item",
+		items: [{
+			id: "dungeontactics:golden_cutlass",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: 7004506938094470052L,
+						UUIDLeast: -6159874559626034397L,
+						Amount: -1.0d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.short.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "448f20f4",
+		type: "item",
+		items: [{
+			id: "dungeontactics:steel_cutlass",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6d466dfe",
+		type: "item",
+		items: [{
+			id: "dungeontactics:diamond_cutlass",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4fbcb692",
+		type: "item",
+		items: [{
+			id: "dungeontactics:mithril_cutlass",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "683e6008",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "fc6078c2",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

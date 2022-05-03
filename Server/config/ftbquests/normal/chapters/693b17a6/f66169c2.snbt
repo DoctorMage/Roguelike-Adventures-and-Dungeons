@@ -1,0 +1,21 @@
+{
+	title: "Batter Bandit I",
+	x: -13.0d,
+	y: 1.0d,
+	description: "Stealin' cake batter since 82'",
+	text: [
+		"Eat 100 slices of cake."
+	],
+	tasks: [{
+		uid: "09aee959",
+		type: "stat",
+		icon: "minecraft:cake",
+		stat: "stat.cakeSlicesEaten",
+		value: 100
+	}],
+	rewards: [{
+		uid: "687f73e2",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

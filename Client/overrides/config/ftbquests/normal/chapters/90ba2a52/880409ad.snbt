@@ -1,0 +1,49 @@
+{
+	x: 19.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "dd44be02",
+		type: "item",
+		items: [{
+			item: "atum:loot_silver_idol"
+		}],
+		count: 8L
+	},
+	{
+		uid: "9f5e07ab",
+		type: "item",
+		items: [{
+			item: "atum:loot_silver_necklace"
+		}],
+		count: 8L
+	},
+	{
+		uid: "8bd152c1",
+		type: "item",
+		items: [{
+			item: "atum:loot_silver_ring"
+		}],
+		count: 8L
+	},
+	{
+		uid: "c50ffdb3",
+		type: "item",
+		items: [{
+			item: "atum:loot_silver_scepter"
+		}],
+		count: 8L
+	},
+	{
+		uid: "b3dc7588",
+		type: "item",
+		items: [{
+			item: "atum:loot_silver_broach"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "037801b9",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

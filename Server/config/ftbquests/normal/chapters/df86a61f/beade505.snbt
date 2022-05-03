@@ -1,0 +1,126 @@
+{
+	title: "Neon Lights",
+	x: 5.0d,
+	y: 6.5d,
+	description: "Good for your alternate dimensions!",
+	text: [
+		"These blocks get kinda expensive... sheesh... but I think I'm ADDICTED!!!"
+	],
+	tasks: [{
+		uid: "f2b056b7",
+		type: "item",
+		items: [{
+			item: "randomthings:luminousblock"
+		}]
+	},
+	{
+		uid: "8f7f572f",
+		type: "item",
+		items: [{
+			item: "randomthings:luminousblock 1 1"
+		}]
+	},
+	{
+		uid: "c2ae72f2",
+		type: "item",
+		items: [{
+			item: "randomthings:luminousblock 1 2"
+		}]
+	},
+	{
+		uid: "ce00787f",
+		type: "item",
+		items: [{
+			item: "randomthings:luminousblock 1 3"
+		}]
+	},
+	{
+		uid: "1180fb8f",
+		type: "item",
+		items: [{
+			item: "randomthings:luminousblock 1 4"
+		}]
+	},
+	{
+		uid: "d19b2fcb",
+		type: "item",
+		items: [{
+			item: "randomthings:luminousblock 1 5"
+		}]
+	},
+	{
+		uid: "6f689189",
+		type: "item",
+		items: [{
+			item: "randomthings:luminousblock 1 6"
+		}]
+	},
+	{
+		uid: "6553fd9e",
+		type: "item",
+		items: [{
+			item: "randomthings:luminousblock 1 7"
+		}]
+	},
+	{
+		uid: "1850c31d",
+		type: "item",
+		items: [{
+			item: "randomthings:luminousblock 1 8"
+		}]
+	},
+	{
+		uid: "efa6fc04",
+		type: "item",
+		items: [{
+			item: "randomthings:luminousblock 1 9"
+		}]
+	},
+	{
+		uid: "204480d2",
+		type: "item",
+		items: [{
+			item: "randomthings:luminousblock 1 10"
+		}]
+	},
+	{
+		uid: "d2a6b2e2",
+		type: "item",
+		items: [{
+			item: "randomthings:luminousblock 1 11"
+		}]
+	},
+	{
+		uid: "6c905a38",
+		type: "item",
+		items: [{
+			item: "randomthings:luminousblock 1 12"
+		}]
+	},
+	{
+		uid: "1bc8c5cc",
+		type: "item",
+		items: [{
+			item: "randomthings:luminousblock 1 13"
+		}]
+	},
+	{
+		uid: "34d90934",
+		type: "item",
+		items: [{
+			item: "randomthings:luminousblock 1 14"
+		}]
+	},
+	{
+		uid: "4ddf8e7d",
+		type: "item",
+		items: [{
+			item: "randomthings:luminousblock 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "70dc1bfd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

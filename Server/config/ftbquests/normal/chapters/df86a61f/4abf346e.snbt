@@ -1,0 +1,33 @@
+{
+	title: "The Succ 3000",
+	x: -25.5d,
+	y: 6.0d,
+	description: "Does everything you want it to, and more",
+	text: [
+		"Yes, yes, and yes.",
+		"",
+		"No, no, and no.",
+		"",
+		"All questions answered?",
+		"",
+		"Okay, the Vacuum Hopper will succ items from within a small range around it.",
+		"",
+		"Within the inventory of the hopper, you can select faces for the exporting of items and fluid XP.",
+		"",
+		"You can export fluid XP and items from the same port. How you'll ACTUALLY manage to do that? I have no clue. I don't think this thing is friendly with pipes.",
+		"",
+		"Have fun with your new Succ 3000!"
+	],
+	tasks: [{
+		uid: "701b7055",
+		type: "item",
+		items: [{
+			item: "openblocks:vacuum_hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "220c2ec5",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

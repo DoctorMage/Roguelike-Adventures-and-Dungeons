@@ -1,0 +1,27 @@
+{
+	title: "Fisherman's Man's Man III",
+	x: -7.0d,
+	y: -1.0d,
+	description: "You caught driftwood this time, but you've got tons of experience now!",
+	text: [
+		"Catch 25,000 fish."
+	],
+	tasks: [{
+		uid: "8f9702bd",
+		type: "stat",
+		title: "Catch 25,000 fish",
+		icon: "minecraft:fishing_rod",
+		stat: "stat.fishCaught",
+		value: 25000
+	}],
+	rewards: [{
+		uid: "6850035c",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "1c30a878",
+		type: "xp_levels",
+		xp_levels: 100
+	}]
+}

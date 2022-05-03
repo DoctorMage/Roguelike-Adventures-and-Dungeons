@@ -1,0 +1,29 @@
+{
+	title: "Starter Class Selection",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "warrior"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "archer"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "wizard"
+			}
+		}
+	}]
+}

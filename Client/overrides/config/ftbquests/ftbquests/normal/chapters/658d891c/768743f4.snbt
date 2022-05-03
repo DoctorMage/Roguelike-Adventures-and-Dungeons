@@ -1,0 +1,85 @@
+{
+	title: "I'm Not Ready To Be A Parent!",
+	x: 9.5d,
+	y: -1.0d,
+	description: "No one is...",
+	text: [
+		"Refer to the Beastiary on how to hatch Fire and Ice Dragon Eggs. ",
+		"",
+		"Can be placed on a Podium.",
+		""
+	],
+	dependencies: [
+		"0786946b"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "bfcff6d5",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_red"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "99d2cb92",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_green"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4daa0ff6",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_bronze"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6f4d0aea",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_gray"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bce4416c",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_blue"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9c4950aa",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_white"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "30e9c6a6",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_sapphire"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9d378937",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_silver"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0788ee7a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

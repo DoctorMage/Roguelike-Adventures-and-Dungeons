@@ -1,0 +1,29 @@
+{
+	title: "Ladies And Gentleman",
+	x: 4.5d,
+	y: 13.5d,
+	description: "We got him",
+	text: [
+		"How are you gonna get his ID?",
+		"",
+		"The Emerald Compass needs to be combined with an ID Card in a crafting grid to work.",
+		"",
+		"When combined, the Emerald Compass will point towards the player whose ID Card you combined it with, if they are online.",
+		"",
+		"Now really, how are you going to get their ID Card? You know they don't just leave it laying around... or do they?"
+	],
+	tasks: [{
+		uid: "d21a94e1",
+		type: "item",
+		items: [{
+			item: "randomthings:emeraldcompass"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a4de99f8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

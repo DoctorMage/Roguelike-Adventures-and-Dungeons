@@ -1,0 +1,32 @@
+{
+	title: "Some Bugs Run Up To 10 MPH",
+	x: 4.5d,
+	y: -4.0d,
+	description: "That's faster than you if you needed to turn around",
+	text: [
+		"Prepare to get bitten.",
+		"",
+		"Craft the Sprint Leggings."
+	],
+	dependencies: [
+		"acb2f772"
+	],
+	tasks: [{
+		uid: "33509177",
+		type: "item",
+		items: [{
+			id: "erebus:sprint_leggings",
+			tag: {
+				upgradeTier: 9b,
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "42cf9b4f",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

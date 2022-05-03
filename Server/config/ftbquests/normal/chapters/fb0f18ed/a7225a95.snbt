@@ -1,0 +1,16 @@
+{
+	title: "Patriotic",
+	x: -2.0d,
+	y: -1.0d,
+	description: "He's got spirit",
+	text: [
+		"Decorative flag. Change the color by Right-Clicking at an area where the flag cannot be placed. E.g Glass or the sky."
+	],
+	tasks: [{
+		uid: "ed8a711c",
+		type: "item",
+		items: [{
+			item: "openblocks:flag 1 5"
+		}]
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Annual Grape Crushing Contest",
+	x: 8.5d,
+	y: 2.5d,
+	description: "I think you might get first place!",
+	text: [
+		"Will only accept items from the Rustic mod."
+	],
+	dependencies: [
+		"ecd0a29d"
+	],
+	tasks: [{
+		uid: "cd1054eb",
+		type: "item",
+		items: [{
+			item: "rustic:crushing_tub"
+		}]
+	}],
+	rewards: [{
+		uid: "7ebd46e3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "2fc6331d",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

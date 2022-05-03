@@ -1,0 +1,37 @@
+{
+	title: "The Cloud Shooter",
+	x: 0.5d,
+	y: -13.5d,
+	description: "That kinda sounds dirty",
+	text: [
+		"Obtain the Cloud Staff."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9ca912fb"
+	],
+	tasks: [{
+		uid: "72dff394",
+		type: "item",
+		items: [{
+			item: "aether_legacy:cloud_staff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ff22f8cf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "78701939",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "c0d684b1",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Power Goes In, Power Goes Out",
+	x: 21.0d,
+	y: -3.5d,
+	description: "That's the grid for ya'",
+	text: [
+		"The Analog Emitter will take a single Redstone signal of ANY strength, and turn it into multiple Redstone signals of ANY strength.",
+		"",
+		"Right-Click to set the strength of the output signal from the Analog Emitter.",
+		"",
+		"Power the circular side of the Analog Emitter to produce a signal from all square sides."
+	],
+	tasks: [{
+		uid: "0c148a38",
+		type: "item",
+		items: [{
+			item: "randomthings:analogemitter"
+		}]
+	}],
+	rewards: [{
+		uid: "5bb12bc9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

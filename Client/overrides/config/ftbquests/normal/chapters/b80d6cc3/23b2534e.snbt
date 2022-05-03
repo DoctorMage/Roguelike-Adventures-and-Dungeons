@@ -1,0 +1,36 @@
+{
+	title: "I've Bin There",
+	x: 8.0d,
+	y: -3.0d,
+	description: "Heh...",
+	text: [
+		"I'm too good at my job."
+	],
+	dependencies: [
+		"3756e9bc"
+	],
+	tasks: [{
+		uid: "c1eaedc9",
+		type: "item",
+		items: [{
+			item: "embers:bin"
+		}]
+	},
+	{
+		uid: "febe864d",
+		type: "item",
+		items: [{
+			item: "soot:redstone_bin"
+		}]
+	}],
+	rewards: [{
+		uid: "632747f4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "175b9bde",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

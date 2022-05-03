@@ -1,0 +1,41 @@
+{
+	title: "Told You We Should've Gone Electric!",
+	x: -2.0d,
+	y: 1.5d,
+	description: "Someone look up where the nearest charging station is",
+	text: [
+		"Increases how well your airship processes fuel. Great for long travels.",
+		"",
+		"All modules can be \"learned\" by your airship, but you can only activate one module at a time.",
+		"",
+		"Requires \"Time For An Upgrade!\" to complete."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8739b8df"
+	],
+	tasks: [{
+		uid: "03351a1c",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 10"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "982c2dc2",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 11"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e73e5d74",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 12"
+		}],
+		ignore_nbt: 1b
+	}]
+}

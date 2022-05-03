@@ -1,0 +1,16 @@
+{
+	title: "Knock-Knock",
+	x: 4.5d,
+	y: 0.5d,
+	description: "Who's there?",
+	text: [
+		"SSSSSSSSSSSSS"
+	],
+	tasks: [{
+		uid: "2cc56ef2",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:doorbell_simple"
+		}]
+	}]
+}

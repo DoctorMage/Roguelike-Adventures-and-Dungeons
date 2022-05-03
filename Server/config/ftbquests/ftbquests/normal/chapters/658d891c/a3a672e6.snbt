@@ -1,0 +1,44 @@
+{
+	title: "Apache Attack Helicopter",
+	x: 9.5d,
+	y: -3.0d,
+	description: "Lots of confirmed kills",
+	text: [
+		"Your dragon wears black Air Force 1's doesn't he?"
+	],
+	dependencies: [
+		"768743f4"
+	],
+	tasks: [{
+		uid: "82a122d2",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_dragonsteel_fire"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "516e33f9",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_dragonsteel_fire 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ae279576",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_dragonsteel_fire 1 2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "410dcd2d",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_dragonsteel_fire 1 3"
+		}],
+		ignore_nbt: 1b
+	}]
+}

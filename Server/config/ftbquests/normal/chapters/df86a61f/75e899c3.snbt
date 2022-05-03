@@ -1,0 +1,39 @@
+{
+	title: "That Library From Avatar",
+	x: 11.5d,
+	y: -14.5d,
+	description: "Except this one is way less spiritual",
+	text: [
+		"And there isn't a killer owl.",
+		"",
+		"The fully set up Ender Library will store enchants for you.",
+		"",
+		"Right-Clicking an Ender Bookshelf with an Enchanted Book will strip the enchant from the book and place it in the Shelf in the location you Right-Clicked. ",
+		"",
+		"You can store four enchantments per Ender Bookshelf.",
+		"",
+		"The books cannot be stacked when you store them. It will not work.",
+		"",
+		"When Bookshelves with stored enchantments are destroyed, any stored enchantments are lost."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "b0407b78",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_library_ctrl"
+		}]
+	},
+	{
+		uid: "ca5c4073",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_library"
+		}]
+	}],
+	rewards: [{
+		uid: "37f04b1a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

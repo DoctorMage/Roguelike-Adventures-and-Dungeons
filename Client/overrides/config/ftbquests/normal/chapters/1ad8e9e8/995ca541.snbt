@@ -1,0 +1,33 @@
+{
+	title: "Like ET But Way Better",
+	x: -2.0d,
+	y: -6.0d,
+	description: "Fly faster you little devils!",
+	text: [
+		"Craft the Draeton, and figure out how to get it to fly.",
+		"",
+		"Hopefully I made it obvious."
+	],
+	dependencies: [
+		"56b1064b"
+	],
+	tasks: [{
+		uid: "d0c88bdd",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:draeton"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "989836e9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e34e139a",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Slurp!",
+	x: -4.5d,
+	y: 1.5d,
+	description: "Does this place give free refills?",
+	text: [
+		"When active, this machine will extract fluid from a large area around the block.",
+		"",
+		"Extracted fluid source blocks will and must be replaced with a solid block from the machine's inventory.",
+		"",
+		"Will not activate if the machine does not have appropriate blocks to place within its inventory."
+	],
+	dependencies: [
+		"0a7ca16a"
+	],
+	tasks: [{
+		uid: "fd220e52",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:fluid_drain"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -8.0d,
+	y: 5.5d,
+	tasks: [{
+		uid: "e8cf4156",
+		type: "item",
+		items: [{
+			item: "harvestcraft:amaranthseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "b95cf02a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "981c8be6",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

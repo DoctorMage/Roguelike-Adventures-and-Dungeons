@@ -1,0 +1,20 @@
+{
+	title: "The Flood",
+	x: -14.5d,
+	y: 12.5d,
+	description: "Better get the Ark",
+	text: [
+		"This item will turn water in a large square location into water source blocks. ",
+		"",
+		"Must be used on water. Clicking around water will not work."
+	],
+	tasks: [{
+		uid: "d4d4b969",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:water_spreader"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

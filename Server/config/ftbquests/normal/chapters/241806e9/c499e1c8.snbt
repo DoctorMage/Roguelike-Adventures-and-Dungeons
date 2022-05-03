@@ -1,0 +1,34 @@
+{
+	title: "Ducked Tape",
+	x: 6.5d,
+	y: 1.5d,
+	description: "They don't tell you the abuse they put these ducks through",
+	text: [
+		"Stop buying duck tape, end duck cruelty!",
+		"",
+		"Duct Tape will repair most items in your offhand when used in your mainhand.",
+		"",
+		"Items will receive a curse effect called \"Duct Taped\" which stacks up to 5.",
+		"",
+		"After Duct Taped V, you will need to repair the item properly at an anvil, or through other methods in order to remove the Duct Taped curse from your item."
+	],
+	tasks: [{
+		uid: "22f934e6",
+		type: "item",
+		items: [{
+			item: "dungeontactics:ducttape"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "047ff8a6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "809d0bea",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "The Redstone Revolution",
+	x: 2.0d,
+	y: -12.5d,
+	description: "Time to make the air bad!",
+	text: [
+		"This coal will gain efficacy with increased GP in your player grid.",
+		"",
+		"Approx 600 GP in your player grid is required to hit 700%",
+		"",
+		"GP is not consumed."
+	],
+	dependencies: [
+		"d27134fe"
+	],
+	tasks: [{
+		uid: "f5bcef93",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "171822c9",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "eb23d41f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

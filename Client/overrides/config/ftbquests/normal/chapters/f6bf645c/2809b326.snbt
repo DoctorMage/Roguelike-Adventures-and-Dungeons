@@ -1,0 +1,43 @@
+{
+	title: "1-800-Bug-Away",
+	x: 5.5d,
+	y: 4.5d,
+	description: "*Not a real phone number*",
+	text: [
+		"Collect all of the bugs found in The Twilight Forest."
+	],
+	dependencies: [
+		"12ae72c5"
+	],
+	tasks: [{
+		uid: "ef09d642",
+		type: "item",
+		items: [{
+			item: "twilightforest:firefly"
+		}]
+	},
+	{
+		uid: "f2dbdf87",
+		type: "item",
+		items: [{
+			item: "twilightforest:cicada"
+		}]
+	},
+	{
+		uid: "14b553c6",
+		type: "item",
+		items: [{
+			item: "twilightforest:moonworm"
+		}]
+	}],
+	rewards: [{
+		uid: "7bfe99c8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "34e5b4ac",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

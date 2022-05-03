@@ -1,0 +1,44 @@
+{
+	title: "Broken? (TESTING REQUIRED)",
+	x: -4.0d,
+	y: -7.5d,
+	description: "May be actually broken",
+	text: [
+		"I'm not sure how to utilize or even get this item to work as intended.",
+		"",
+		"I'm sure it works, but I don't know how it is used.",
+		"",
+		"The door states it will take you to a random location. ",
+		"",
+		"I am unsure if this means in the Overworld or whatever Dimension, or a random location within a Pocket Dimension.",
+		"",
+		"I have attempted placing this item down over Rifts, by itself in the Overworld and inside Pocket Dimensions, and the door states it does not lead anywhere.",
+		"",
+		"More testing is required by the community to figure out how this item is used!"
+	],
+	dependencies: [
+		"00e63368"
+	],
+	tasks: [{
+		uid: "82f92c64",
+		type: "item",
+		items: [{
+			item: "dimdoors:unstable_dimensional_door"
+		}]
+	}],
+	rewards: [{
+		uid: "3d623f5d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e59a9202",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "abc6cee2",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

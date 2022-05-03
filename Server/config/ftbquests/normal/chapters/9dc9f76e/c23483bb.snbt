@@ -1,0 +1,48 @@
+{
+	title: "Build A Bridge Workshop!",
+	x: 3.5d,
+	y: -4.5d,
+	description: "Ladders too!",
+	text: [
+		"Requires any wooden slab, and rope to use. Will automatically build a bridge or ladder when holding right-click, then releasing. Has certain limitations. ",
+		""
+	],
+	dependencies: [
+		"b325bb25"
+	],
+	tasks: [{
+		uid: "10a3e3e2",
+		type: "item",
+		items: [{
+			item: "ropebridge:ladder_builder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "697288b9",
+		type: "item",
+		items: [{
+			item: "ropebridge:bridge_builder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "29f8d299",
+		type: "item",
+		items: [{
+			item: "ropebridge:rope"
+		}]
+	}],
+	rewards: [{
+		uid: "baa19066",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "e6001ab7",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

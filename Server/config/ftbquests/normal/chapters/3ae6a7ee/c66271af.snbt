@@ -1,0 +1,27 @@
+{
+	title: "Stocking Up On Fuel",
+	x: -3.5d,
+	y: -4.0d,
+	description: "Doomsday Prepping",
+	text: [
+		"You'll thank me later after you complete this quest.",
+		"",
+		"Running out of fuel for your airship is the worst thing that can happen in the sky."
+	],
+	dependencies: [
+		"91a5be50"
+	],
+	tasks: [{
+		uid: "40985af1",
+		type: "item",
+		items: [{
+			item: "vc:item_viesoline_pellets"
+		}],
+		count: 500L
+	}],
+	rewards: [{
+		uid: "da95e2f2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,73 @@
+{
+	title: "The Collector",
+	x: -1.0d,
+	y: -2.0d,
+	description: "You collect many things. Deadly included.",
+	text: [
+		"You've managed to collect the eggs from all of the different Dragons across the world. You're dedicated. Better hope none of them hatch feral."
+	],
+	tasks: [{
+		uid: "b7a4e6ce",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_red"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f9f4965f",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_green"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2a490a14",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_bronze"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7c7ecd44",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_gray"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "86c6ed8e",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_blue"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4b879c38",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_white"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bc4b9793",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_sapphire"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7a97434f",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_silver"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Slinky And Slimy Stuff",
+	x: -10.0d,
+	y: -9.0d,
+	description: "This is what you thought was a shark, when it brushed your leg.",
+	text: [
+		"Can be found everywhere in oceans."
+	],
+	tasks: [{
+		uid: "0786ab01",
+		type: "item",
+		items: [{
+			item: "better_diving:creepvine"
+		}]
+	},
+	{
+		uid: "794a8ee4",
+		type: "item",
+		items: [{
+			item: "better_diving:creepvine_seed_cluster"
+		}]
+	}]
+}

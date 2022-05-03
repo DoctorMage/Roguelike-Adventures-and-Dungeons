@@ -1,0 +1,26 @@
+{
+	title: "The Weakest Link",
+	x: -1.5d,
+	y: 0.0d,
+	description: "Only as strong as you are!",
+	text: [
+		"These are kinda costly, but well worth it as an upgraded Lead."
+	],
+	tasks: [{
+		uid: "b7fb5258",
+		type: "item",
+		items: [{
+			item: "iceandfire:chain_link"
+		}]
+	}],
+	rewards: [{
+		uid: "f9c830fb",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "e03bdb54",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

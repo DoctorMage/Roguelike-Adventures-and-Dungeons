@@ -1,0 +1,31 @@
+{
+	x: 0.5d,
+	y: -15.0d,
+	description: "Bio-hazardous Biotite",
+	text: [
+		"Not really.",
+		"",
+		"Craft some Ender Biotite Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aea8320e"
+	],
+	tasks: [{
+		uid: "47cee19f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ender_biotite_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "2ab84dff",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "4323d748",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

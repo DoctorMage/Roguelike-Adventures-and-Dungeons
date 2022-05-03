@@ -1,0 +1,27 @@
+{
+	title: "Fisherman's Man's Man II",
+	x: -7.0d,
+	y: 0.0d,
+	description: "50lb Trout! Wat?",
+	text: [
+		"Catch 10,000 fish."
+	],
+	tasks: [{
+		uid: "87641d5e",
+		type: "stat",
+		title: "Catch 10,000 fish",
+		icon: "minecraft:fishing_rod",
+		stat: "stat.fishCaught",
+		value: 10000
+	}],
+	rewards: [{
+		uid: "1b992fda",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	},
+	{
+		uid: "e3d9d63d",
+		type: "xp_levels",
+		xp_levels: 50
+	}]
+}

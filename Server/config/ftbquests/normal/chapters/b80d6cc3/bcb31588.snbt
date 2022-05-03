@@ -1,0 +1,34 @@
+{
+	title: "Quick Mix 3000",
+	x: 22.5d,
+	y: 0.0d,
+	description: "You've never made scrambled eggs so fast",
+	text: [
+		"Now I want an egg liquid. Pure egg."
+	],
+	dependencies: [
+		"1587c33e"
+	],
+	tasks: [{
+		uid: "50cf6739",
+		type: "item",
+		items: [{
+			item: "embers:mixer"
+		}]
+	}],
+	rewards: [{
+		uid: "522f04ad",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0c4b31eb",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "0d5c5a84",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

@@ -1,0 +1,126 @@
+{
+	title: "Zanice",
+	x: 7.0d,
+	y: -16.0d,
+	description: "Sweg",
+	text: [
+		"Craft Zanite Armaments."
+	],
+	dependencies: [
+		"c74902d8"
+	],
+	tasks: [{
+		uid: "83d3b6b2",
+		type: "item",
+		items: [{
+			item: "aether_legacy:zanite_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "24db2160",
+		type: "item",
+		items: [{
+			item: "aether_legacy:zanite_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "16cde48b",
+		type: "item",
+		items: [{
+			item: "aether_legacy:zanite_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7f7712e4",
+		type: "item",
+		items: [{
+			item: "aether_legacy:zanite_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5240b983",
+		type: "item",
+		items: [{
+			item: "aether_legacy:zanite_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7d2223c6",
+		type: "item",
+		items: [{
+			item: "lost_aether:zanite_shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "45f26abc",
+		type: "item",
+		items: [{
+			item: "aether_legacy:zanite_ring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "32271aec",
+		type: "item",
+		items: [{
+			item: "aether_legacy:zanite_pendant"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d3dc2f1e",
+		type: "item",
+		items: [{
+			item: "aether_legacy:zanite_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8a9aacb4",
+		type: "item",
+		items: [{
+			item: "aether_legacy:zanite_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "437406af",
+		type: "item",
+		items: [{
+			item: "aether_legacy:zanite_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "66b64b03",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "4515092a",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "c55e84be",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

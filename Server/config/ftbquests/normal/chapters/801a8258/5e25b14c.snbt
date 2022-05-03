@@ -1,0 +1,19 @@
+{
+	title: "Fire Fighting Fighter",
+	x: -5.0d,
+	y: 13.5d,
+	description: "Too hot to handle!",
+	text: [
+		"Extinguishes fires within a large area around the player.",
+		""
+	],
+	tasks: [{
+		uid: "8ec7f5ed",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:fire_killer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

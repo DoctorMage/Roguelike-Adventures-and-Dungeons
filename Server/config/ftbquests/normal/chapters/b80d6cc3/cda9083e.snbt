@@ -1,0 +1,34 @@
+{
+	title: "How To Break Your Toilet 101",
+	x: 33.5d,
+	y: 2.0d,
+	description: "Must've had Mexican food",
+	text: [
+		"Hopefully your porcelain holds up."
+	],
+	dependencies: [
+		"fe8f99b6"
+	],
+	tasks: [{
+		uid: "2d0a6570",
+		type: "item",
+		items: [{
+			item: "soot:ember_burst"
+		}]
+	}],
+	rewards: [{
+		uid: "13530475",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "3779be44",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "8f4739ec",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

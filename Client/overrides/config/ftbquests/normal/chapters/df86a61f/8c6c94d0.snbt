@@ -1,0 +1,27 @@
+{
+	title: "Treasure In The Slime!",
+	x: -28.5d,
+	y: 5.25d,
+	description: "It's a goop detector",
+	text: [
+		"All you need to do is have it in your inventory!",
+		"",
+		"When you enter a chunk that spawns Slimes, the device will beep, and turn green."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "4072f173",
+		type: "item",
+		items: [{
+			id: "openblocks:slimalyzer",
+			tag: {
+				Active: 0b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "699adb36",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

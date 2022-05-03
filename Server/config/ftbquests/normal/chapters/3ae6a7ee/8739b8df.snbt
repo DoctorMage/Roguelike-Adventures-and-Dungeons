@@ -1,0 +1,21 @@
+{
+	title: "Time For An Upgrade!",
+	x: -3.5d,
+	y: 0.0d,
+	description: "Gotta go fast!",
+	text: [
+		"Several different modules can be attached to your ship, but only one can be active at a time. Refer to the ViesCraft guide book."
+	],
+	dependencies: [
+		"91a5be50"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "4c4bd9ea",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type"
+		}],
+		ignore_nbt: 1b
+	}]
+}

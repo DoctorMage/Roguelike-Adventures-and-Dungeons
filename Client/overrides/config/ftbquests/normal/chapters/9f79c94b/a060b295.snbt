@@ -1,0 +1,31 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "a116e914",
+		type: "item",
+		items: [{
+			item: "buildinggadgets:constructionpastecontainer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1520783e",
+		type: "item",
+		items: [{
+			item: "buildinggadgets:constructionpastecontainert2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "31339196",
+		type: "item",
+		items: [{
+			item: "buildinggadgets:constructionpastecontainert3"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

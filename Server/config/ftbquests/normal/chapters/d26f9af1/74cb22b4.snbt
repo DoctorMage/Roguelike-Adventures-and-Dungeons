@@ -1,0 +1,207 @@
+{
+	title: "The Plains Punisher",
+	x: -1.5d,
+	y: -8.0d,
+	description: "Tall grass never stood a chance",
+	text: [
+		"Breaks foliage in a 3x3x3 area and drops the normal drops.",
+		"",
+		"Can only be enchanted with Efficiency, Silk Touch, Unbreaking, Fortune, and Mending."
+	],
+	dependencies: [
+		"80f9d45b"
+	],
+	tasks: [{
+		uid: "6fc2aa16",
+		type: "item",
+		items: [{
+			id: "extrautils2:sickle_wood",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: 3578328395645206579L,
+						UUIDLeast: -6192405389603027918L,
+						Amount: 0.20000000298023224d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -3506377118147001219L,
+						UUIDLeast: -6450926909804465814L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.sweeping.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cfd0c0ef",
+		type: "item",
+		items: [{
+			id: "extrautils2:sickle_stone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_red",
+					AttributeModifiers: [{
+						UUIDMost: -8950194245696339208L,
+						UUIDLeast: -6735911907092021823L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -2494126439675575949L,
+						UUIDLeast: -5693783942701111380L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 4473847492857253175L,
+						UUIDLeast: -6852868082938948337L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -3352994793886301158L,
+						UUIDLeast: -5608546769529646141L,
+						Amount: -1.0d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.worthless.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f161ce20",
+		type: "item",
+		items: [{
+			id: "extrautils2:sickle_iron",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 7120294157852167969L,
+						UUIDLeast: -6208891779837182369L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 8322555862150956966L,
+						UUIDLeast: -7873499566012941165L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.bulky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "096225fa",
+		type: "item",
+		items: [{
+			id: "extrautils2:sickle_gold",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 1379270911840831687L,
+						UUIDLeast: -8650763953568295821L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 7820270014297165380L,
+						UUIDLeast: -7357361942380067408L,
+						Amount: 0.05000000074505806d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.pokey.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a048c87d",
+		type: "item",
+		items: [{
+			id: "extrautils2:sickle_diamond",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 7923583313469262886L,
+						UUIDLeast: -7640792452344572387L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broken.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "92281c71",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	},
+	{
+		uid: "70606332",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "cf3cae59",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

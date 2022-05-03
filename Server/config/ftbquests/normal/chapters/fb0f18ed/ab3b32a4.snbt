@@ -1,0 +1,21 @@
+{
+	x: -7.5d,
+	y: -6.0d,
+	tasks: [{
+		uid: "6229ac67",
+		type: "item",
+		items: [{
+			item: "openblocks:cursor"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "61724d19",
+		type: "item",
+		items: [{
+			item: "openblocks:generic_unstackable"
+		}],
+		ignore_nbt: 1b
+	}]
+}

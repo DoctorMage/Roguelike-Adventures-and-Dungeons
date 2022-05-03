@@ -1,0 +1,24 @@
+{
+	title: "Friendly-Fire-Gun",
+	x: -5.5d,
+	y: 16.0d,
+	description: "Light the way!",
+	text: [
+		"Will shoot torches from your inventory.",
+		"",
+		"If there are no torches in your inventory, will shoot a torch and consume durability.",
+		"",
+		"Durability can be added by simply placing torches into your inventory. The item will consume your torches automatically to repair the durability needed.",
+		"",
+		"Holds 257 torches."
+	],
+	tasks: [{
+		uid: "13c273b5",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_torch_launcher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

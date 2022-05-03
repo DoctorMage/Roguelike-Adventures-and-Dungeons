@@ -1,0 +1,26 @@
+{
+	x: 4.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "243283e5",
+		type: "item",
+		items: [{
+			item: "prefab:item_monster_masher"
+		}]
+	}],
+	rewards: [{
+		uid: "f789bd18",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f0e3c307",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "potioncore:bless"
+			}
+		}
+	}]
+}

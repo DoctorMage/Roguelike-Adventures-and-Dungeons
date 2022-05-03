@@ -1,0 +1,21 @@
+{
+	title: "Gentle Now",
+	x: -4.5d,
+	y: 6.5d,
+	description: "You're a hero",
+	text: [
+		"This is gonna help you tons. Basic supplies can become basic buh-byes in an instant. ",
+		"",
+		"Has toggleable configuration for the area of harvesting."
+	],
+	dependencies: [
+		"0a7ca16a"
+	],
+	tasks: [{
+		uid: "720f1233",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:harvester_block"
+		}]
+	}]
+}

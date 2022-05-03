@@ -1,0 +1,36 @@
+{
+	title: "Hoodoo Boodoo Voodoo!",
+	x: 2.5d,
+	y: -0.5d,
+	description: "The doll every little girl wants",
+	text: [
+		"You feel a pain in your chest when you squeeze the doll."
+	],
+	dependencies: [
+		"d6d462e3"
+	],
+	tasks: [{
+		uid: "6291ce7f",
+		type: "item",
+		items: [{
+			item: "tombstone:voodoo_poppet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4be9f779",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "20fa2fdd",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "b818518e",
+		type: "item",
+		item: "aquaculture:loot 1 4"
+	}]
+}

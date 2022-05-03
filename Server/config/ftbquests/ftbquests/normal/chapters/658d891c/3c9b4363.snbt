@@ -1,0 +1,45 @@
+{
+	title: "Knight In Shining Armor",
+	x: -7.0d,
+	y: -2.0d,
+	description: "There's no princess anywhere, only more dragons",
+	text: [
+		"Alternative To Iron Armor. Is only 2 Armor lower."
+	],
+	tasks: [{
+		uid: "90894aef",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_silver_metal_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "95cd0f9a",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_silver_metal_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c3ac6d63",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_silver_metal_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5218e78b",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_silver_metal_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -4.0d,
+	y: -2.0d,
+	text: [
+		"Blows you away!",
+		"",
+		"Additional fans increase fan strength."
+	],
+	tasks: [{
+		uid: "948d87b3",
+		type: "item",
+		items: [{
+			item: "openblocks:fan"
+		}]
+	}]
+}

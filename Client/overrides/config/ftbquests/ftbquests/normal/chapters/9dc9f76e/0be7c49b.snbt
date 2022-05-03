@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: 1.5d,
+	description: "The tent is not going to construct itself!",
+	text: [
+		"Use the tent item to place frame blocks in the shape of your tent. Then hit each piece with the Tent Mallet to build. This will take a couple minutes in real-time, so don't wait until night falls to start!",
+		"Check Guide for detailed info about this mod."
+	],
+	dependencies: [
+		"90186a89"
+	],
+	tasks: [{
+		uid: "197ce062",
+		type: "item",
+		items: [{
+			item: "yurtmod:mallet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "52095b69",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

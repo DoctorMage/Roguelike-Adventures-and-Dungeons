@@ -1,0 +1,178 @@
+{
+	title: "Blue Dragon Scale Helmet +5 (Ferocious)",
+	icon: {
+		id: "iceandfire:armor_blue_helmet",
+		tag: {
+			Quality: {},
+			display: {
+				Lore: [
+					"Enhanced +3 (Steadfast)"
+				],
+				Name: "Dragon Scale Helmet"
+			},
+			AttributeModifiers: [{
+				UUIDMost: 99,
+				UUIDLeast: 351743400,
+				Amount: 5,
+				Slot: "head",
+				AttributeName: "generic.armor",
+				Operation: 0,
+				Name: "generic.armor"
+			},
+			{
+				UUIDMost: 99,
+				UUIDLeast: 351743500,
+				Amount: 5,
+				Slot: "head",
+				AttributeName: "generic.armorToughness",
+				Operation: 0,
+				Name: "generic.armorToughness"
+			},
+			{
+				UUIDMost: 99,
+				UUIDLeast: 351743600,
+				Amount: 2,
+				Slot: "head",
+				AttributeName: "generic.maxHealth",
+				Operation: 0,
+				Name: "Steadfast"
+			}]
+		}
+	},
+	x: -3.0d,
+	y: 14.0d,
+	tasks: [{
+		uid: "d620d182",
+		type: "item",
+		items: [{
+			id: "iceandfire:armor_blue_helmet",
+			tag: {
+				Quality: {},
+				display: {
+					Lore: [
+						"Enhanced +4 (Ferocious)"
+					],
+					Name: "Dragon Scale Helmet"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 352811200,
+					Amount: 6,
+					Slot: "head",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 352811300,
+					Amount: 6,
+					Slot: "head",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 352811400,
+					Amount: 5,
+					Slot: "head",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				}]
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "72d25568",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonscales_blue"
+		}],
+		count: 80L,
+		consume_items: true
+	},
+	{
+		uid: "9ce32159",
+		type: "item",
+		items: [{
+			item: "iceandfire:ice_dragon_blood"
+		}],
+		count: 20L,
+		consume_items: true
+	},
+	{
+		uid: "b6fccbb5",
+		type: "item",
+		items: [{
+			item: "iceandfire:ice_dragon_heart"
+		}],
+		count: 2L,
+		consume_items: true
+	},
+	{
+		uid: "0f6f6d95",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_tears"
+		}],
+		count: 20L,
+		consume_items: true
+	},
+	{
+		uid: "4e497f46",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_blood"
+		}],
+		count: 20L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "3de73ad7",
+		type: "item",
+		item: {
+			id: "iceandfire:armor_blue_helmet",
+			tag: {
+				Quality: {},
+				display: {
+					Lore: [
+						"Enhanced +5 (Ferocious)"
+					],
+					Name: "Dragon Scale Helmet"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 352401400,
+					Amount: 7,
+					Slot: "head",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 352401500,
+					Amount: 7,
+					Slot: "head",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 352401600,
+					Amount: 7,
+					Slot: "head",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				}]
+			}
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "This Place Is Huge!",
+	x: -29.0d,
+	y: 2.0d,
+	description: "They actually are, kind of",
+	text: [
+		"The Village Highlighter will tell you the bounds of villages.",
+		"",
+		"Great for Iron Farms.",
+		"",
+		"Also great for making sure two villages do not intersect."
+	],
+	tasks: [{
+		uid: "b6bf3c31",
+		type: "item",
+		items: [{
+			item: "openblocks:village_highlighter"
+		}]
+	}],
+	rewards: [{
+		uid: "4cc87067",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

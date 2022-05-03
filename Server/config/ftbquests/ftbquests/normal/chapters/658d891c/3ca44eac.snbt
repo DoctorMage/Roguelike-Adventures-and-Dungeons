@@ -1,0 +1,11 @@
+{
+	x: 30.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "705ba0e4",
+		type: "item",
+		items: [{
+			item: "iceandfire:amphithere_feather"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -4.5d,
+	y: -18.5d,
+	tasks: [{
+		uid: "9b5d3f2a",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone"
+		}]
+	}],
+	rewards: [{
+		uid: "5cd47276",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "8e56cc0d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

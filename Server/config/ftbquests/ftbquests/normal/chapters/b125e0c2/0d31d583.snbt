@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: -1.5d,
+	dependencies: [
+		"de46b58b"
+	],
+	tasks: [{
+		uid: "20d412f5",
+		type: "item",
+		items: [{
+			item: "prefab:item_produce_farm"
+		}]
+	}],
+	rewards: [{
+		uid: "e5b58ee1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

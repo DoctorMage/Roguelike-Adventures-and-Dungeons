@@ -1,0 +1,21 @@
+{
+	title: "Menace No More!",
+	x: -2.0d,
+	y: 8.5d,
+	description: "Down beast!",
+	text: [
+		"Slay 10 Sludge Menaces."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "b9b2246a",
+		type: "kill",
+		entity: "thebetweenlands:sludge_menace",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "049d6ae3",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

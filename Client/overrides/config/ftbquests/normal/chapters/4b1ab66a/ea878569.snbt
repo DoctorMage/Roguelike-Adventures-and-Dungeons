@@ -1,0 +1,12 @@
+{
+	x: 15.5d,
+	y: 11.0d,
+	tasks: [{
+		uid: "abd1eddc",
+		type: "item",
+		items: [{
+			item: "harvestcraft:waterchestnutitem"
+		}],
+		count: 64L
+	}]
+}

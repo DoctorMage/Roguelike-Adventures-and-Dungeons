@@ -1,0 +1,55 @@
+{
+	title: "Assorted Dragon Scales",
+	icon: "iceandfire:dragonscales_red",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [{
+		item: "iceandfire:dragonscales_red",
+		count: 20,
+		random_bonus: 10
+	},
+	{
+		item: "iceandfire:dragonscales_green",
+		count: 20,
+		random_bonus: 10
+	},
+	{
+		item: "iceandfire:dragonscales_bronze",
+		count: 20,
+		random_bonus: 10
+	},
+	{
+		item: "iceandfire:dragonscales_gray",
+		count: 20,
+		random_bonus: 10
+	},
+	{
+		item: "iceandfire:dragonscales_blue",
+		count: 20,
+		random_bonus: 10
+	},
+	{
+		item: "iceandfire:dragonscales_white",
+		count: 20,
+		random_bonus: 10
+	},
+	{
+		item: "iceandfire:dragonscales_sapphire",
+		count: 20,
+		random_bonus: 10
+	},
+	{
+		item: "iceandfire:dragonscales_silver",
+		count: 20,
+		random_bonus: 10
+	}],
+	loot_crate: {
+		string_id: "dragon_scales",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

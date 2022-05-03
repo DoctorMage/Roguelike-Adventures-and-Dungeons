@@ -1,0 +1,31 @@
+{
+	title: "Sid The Obsidian",
+	x: 2.0d,
+	y: -9.5d,
+	description: "He's my friend",
+	text: [
+		"Obtain some Obsidian.",
+		"",
+		"Why is this stuff so sought after?"
+	],
+	dependencies: [
+		"f1196cf2"
+	],
+	tasks: [{
+		uid: "e94447bb",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}]
+	}],
+	rewards: [{
+		uid: "f7a276b6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c9673064",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

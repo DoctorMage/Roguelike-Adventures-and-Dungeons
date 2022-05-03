@@ -1,0 +1,90 @@
+{
+	title: "SUPER BONK",
+	x: -1.0d,
+	y: -6.5d,
+	description: "BONK",
+	text: [
+		"Master of Bonking, wield these glorious weapons and smite your foes!"
+	],
+	dependencies: [
+		"bbb78a8b"
+	],
+	tasks: [{
+		uid: "9a815ff9",
+		type: "item",
+		items: [{
+			id: "dungeontactics:master_hammer_smash",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: -3504443881681500292L,
+						UUIDLeast: -7020885806745761953L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -7517098564941296625L,
+						UUIDLeast: -4953962408955038757L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.thin.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "20bdae11",
+		type: "item",
+		items: [{
+			id: "dungeontactics:master_hammer_leap",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: 4770350714859047622L,
+						UUIDLeast: -8536442075487159217L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 6076068965330404527L,
+						UUIDLeast: -6134279437059503818L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.graceful.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1f89f7af",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "779d73ef",
+		type: "xp_levels",
+		xp_levels: 15
+	}]
+}

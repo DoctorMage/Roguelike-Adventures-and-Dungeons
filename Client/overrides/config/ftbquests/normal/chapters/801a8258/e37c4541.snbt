@@ -1,0 +1,28 @@
+{
+	title: "Sheep Shearing Shearer",
+	x: -14.0d,
+	y: 1.0d,
+	description: "But it's cold outside!",
+	text: [
+		"These special pairs of shears work great for things other than shearing sheep."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "12334ece",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:shears_obsidian"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a5cb4c48",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:ender_wool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "It's A Murse!",
+	x: -6.0d,
+	y: -6.5d,
+	description: "Your parents can't get mad when you get a hole in this one!",
+	text: [
+		"Recommend to dye them for easier organization. You can keep a handful (3 or 4) in your inventory at max upgrade for lots of extra storage on the go. One can be a tool bag. Another for food, ETC. Backpacks cannot go into other backpacks"
+	],
+	dependencies: [
+		"a257b34b"
+	],
+	tasks: [{
+		uid: "d89c49b4",
+		type: "item",
+		items: [{
+			item: "improvedbackpacks:backpack"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "05861cdd",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

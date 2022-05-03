@@ -1,0 +1,22 @@
+{
+	title: "Disintegrate-inator",
+	x: -12.0d,
+	y: 14.0d,
+	description: "Disintegrates them to the bone!",
+	text: [
+		"Items are not dropped by monsters killed with this item. Entities are literally disintegrated.",
+		"",
+		"This item poses a hazard to you and everything within a 64 block radius."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "88f2f44d",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:ender_lightning",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

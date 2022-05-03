@@ -1,0 +1,36 @@
+{
+	title: "It's All In The Technique",
+	x: 0.5d,
+	y: -7.0d,
+	description: "Hands and feet inside the vehicle!",
+	text: [
+		"You might be able to use these for something special.",
+		"",
+		"Note: It is NOT that hard to figure out how to use this item."
+	],
+	dependencies: [
+		"b5a9699b"
+	],
+	tasks: [{
+		uid: "998ff54d",
+		type: "item",
+		items: [{
+			item: "ebwizardry:transportation_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "ad6a0020",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7de6bcd2",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "659f0dfc",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

@@ -1,0 +1,139 @@
+{
+	title: "Blue Dragon Scale Helmet +4 (Ferocious)",
+	icon: "iceandfire:armor_blue_helmet",
+	x: -4.5d,
+	y: 14.0d,
+	tasks: [{
+		uid: "4d61ee9d",
+		type: "item",
+		items: [{
+			id: "iceandfire:armor_blue_helmet",
+			tag: {
+				Quality: {},
+				display: {
+					Lore: [
+						"Enhanced +3 (Ferocious)"
+					],
+					Name: "Dragon Scale Helmet"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 351712400,
+					Amount: 5,
+					Slot: "head",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 351712500,
+					Amount: 5,
+					Slot: "head",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 351712600,
+					Amount: 3,
+					Slot: "head",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "Ferocity"
+				}]
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "268e88cf",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonscales_blue"
+		}],
+		count: 80L,
+		consume_items: true
+	},
+	{
+		uid: "91854db1",
+		type: "item",
+		items: [{
+			item: "iceandfire:ice_dragon_blood"
+		}],
+		count: 15L,
+		consume_items: true
+	},
+	{
+		uid: "2619b748",
+		type: "item",
+		items: [{
+			item: "iceandfire:ice_dragon_heart"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "27964a19",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_tears"
+		}],
+		count: 15L,
+		consume_items: true
+	},
+	{
+		uid: "487ccd98",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_blood"
+		}],
+		count: 15L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "cc0f7d5d",
+		type: "item",
+		item: {
+			id: "iceandfire:armor_blue_helmet",
+			tag: {
+				Quality: {},
+				display: {
+					Lore: [
+						"Enhanced +4 (Ferocious)"
+					],
+					Name: "Dragon Scale Helmet"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 352811200,
+					Amount: 6,
+					Slot: "head",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 352811300,
+					Amount: 6,
+					Slot: "head",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 352811400,
+					Amount: 5,
+					Slot: "head",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				}]
+			}
+		}
+	}]
+}

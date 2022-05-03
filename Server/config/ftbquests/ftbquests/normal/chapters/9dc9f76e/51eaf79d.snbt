@@ -1,0 +1,24 @@
+{
+	title: "EUREKA",
+	x: 0.5d,
+	y: -4.0d,
+	description: "Now you can go take a shower!",
+	text: [
+		"You were definitely in those caves for a long time, you need to wash up. Maybe go get something to eat. Stay hydrated. Yes I know you just licked your lips."
+	],
+	dependencies: [
+		"2bcebdfc"
+	],
+	tasks: [{
+		uid: "b1ab15bd",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "38bc1eab",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

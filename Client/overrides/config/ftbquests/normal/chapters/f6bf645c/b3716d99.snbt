@@ -1,0 +1,28 @@
+{
+	title: "Twilight Forest End-Note",
+	x: 3.5d,
+	y: -17.5d,
+	description: "READ ME, ADVENTURER",
+	text: [
+		"The final dungeon in the Twilight Forest mod was not completed for 1.12, or is not completed at all as of this current rendition of my FTB Questbook.",
+		"",
+		"It will be normal to see a large square force field with a sign in the middle, stating some words.",
+		"",
+		"If you've completed all the quests in this chapter, you've likely done everything this mod has to offer.",
+		"",
+		"Well done! Here's 100 gold for completing the chapter!"
+	],
+	dependencies: [
+		"323ccf6f"
+	],
+	tasks: [{
+		uid: "9532efe5",
+		type: "checkmark",
+		title: "Twilight Forest End-Note"
+	}],
+	rewards: [{
+		uid: "49a54f4b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

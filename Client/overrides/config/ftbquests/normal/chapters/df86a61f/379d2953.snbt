@@ -1,0 +1,29 @@
+{
+	title: "Purple Pain!",
+	x: 3.5d,
+	y: -9.5d,
+	description: "Some stay dry and some will feel the Flame",
+	text: [
+		"The Duskflame Hex weapon will shoot and create purple fire upon impact.",
+		"",
+		"The fire is still permanent if placed on blocks which stay lit."
+	],
+	dependencies: [
+		"efbea43d"
+	],
+	tasks: [{
+		uid: "3a024524",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:ender_blaze",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "47c1106f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

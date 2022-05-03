@@ -1,0 +1,23 @@
+{
+	title: "Mini-You",
+	x: -6.0d,
+	y: 3.0d,
+	description: "Why hasn't anyone invented 10-hour energy?",
+	text: [
+		"Mines blocks in a set location within the front of the machine.",
+		"",
+		"Different tools can be placed inside the machine for higher efficiency.",
+		"",
+		"There is a slot where you can place blocks to ignore when mining. These blocks will not be mined by this machine."
+	],
+	dependencies: [
+		"0a7ca16a"
+	],
+	tasks: [{
+		uid: "7bb35398",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_miner_smart"
+		}]
+	}]
+}

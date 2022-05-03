@@ -1,0 +1,51 @@
+{
+	title: "Where'd He Go?",
+	x: -9.5d,
+	y: -1.0d,
+	description: "Oh, this way!",
+	text: [
+		"Signatures will hold an XYZ location on first Right-Click and create a Rift linked to that location when Right-Clicking afterwards.",
+		"",
+		"Only one XYZ location can be marked per Rift Signature. If you mess up, you'll need to make a fresh one.",
+		"",
+		"The Rift created by the Signature is linked to the XYZ location. Iron Doors which use said Rift will take you to that marked location, and also create a Rift there.",
+		"",
+		"The Rift created where you exit from, will need to be stabilized with a Rift Stabilizer or through other methods."
+	],
+	dependencies: [
+		"e1eb55c6"
+	],
+	tasks: [{
+		uid: "374b4712",
+		type: "item",
+		items: [{
+			item: "dimdoors:rift_signature"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "08bd5d2e",
+		type: "item",
+		items: [{
+			item: "dimdoors:stabilized_rift_signature"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cee4bdee",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "2a698bf0",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "6ce069c2",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

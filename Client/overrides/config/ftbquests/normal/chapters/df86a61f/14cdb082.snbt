@@ -1,0 +1,22 @@
+{
+	title: "Like A Dustmite, But Evil",
+	x: -26.0d,
+	y: 21.5d,
+	description: "Why is it so dry?",
+	text: [
+		"Right-Clicking with Endermite Powder in the End will help you locate an End City."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "830a3b45",
+		type: "item",
+		items: [{
+			item: "charm:endermite_powder"
+		}]
+	}],
+	rewards: [{
+		uid: "e0055d13",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "My Little Monster",
+	x: -7.0d,
+	y: 1.5d,
+	description: "They grow up so fast",
+	text: [
+		"Craft or obtain a Tier 1 Mob Chunk."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"93284d0e"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "e009572c",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chunk"
+		}]
+	}],
+	rewards: [{
+		uid: "4a4f9cbd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "21cbab44",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

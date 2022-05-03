@@ -1,0 +1,23 @@
+{
+	title: "Amazing Architects",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "7cf3d0f3-f5d2-4f22-a327-dde3fc26fa4c"
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -5.5d,
+		y: -20.0d,
+		width: 5.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "assets:amazingarchitects\\firedragonarch.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

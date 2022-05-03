@@ -1,0 +1,11 @@
+{
+	x: 27.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "dd1e3524",
+		type: "item",
+		items: [{
+			item: "iceandfire:hippogryph_talon"
+		}]
+	}]
+}

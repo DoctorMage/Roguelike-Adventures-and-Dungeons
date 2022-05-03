@@ -1,0 +1,37 @@
+{
+	x: -1.0d,
+	y: 6.5d,
+	dependencies: [
+		"48f3abd2"
+	],
+	tasks: [{
+		uid: "54bf46bb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:exp_pylon",
+			Count: 1b
+		}]
+	},
+	{
+		uid: "582d91e6",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_disenchanter"
+		}]
+	},
+	{
+		uid: "e80fc945",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:magnet_block"
+		}]
+	}],
+	rewards: [{
+		uid: "894c2f64",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

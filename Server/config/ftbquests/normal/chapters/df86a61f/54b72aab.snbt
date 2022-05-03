@@ -1,0 +1,26 @@
+{
+	title: "Look What I Can Buy With My Union Money",
+	x: -21.0d,
+	y: 1.0d,
+	description: "All this crazy crap I really don't need...",
+	text: [
+		"In Survival mode, the Enhanced Building Guide not only displays ghost blocks to make building easier, but also allows the placing of actual blocks by right clicking with any block.",
+		"",
+		"This block works the same as the other one. Follow those instructions. This one simply has a neat block placement feature so you don't have to place blocks yourself.",
+		"",
+		"Invest btw... invest early."
+	],
+	tasks: [{
+		uid: "c04023a2",
+		type: "item",
+		items: [{
+			id: "openblocks:builder_guide",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "0898c710",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

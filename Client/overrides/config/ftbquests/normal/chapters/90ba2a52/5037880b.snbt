@@ -1,0 +1,23 @@
+{
+	x: 13.0d,
+	y: 1.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "ec78a663",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_block"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "a22c758c",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "fc506cc7",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Stealth Mission",
+	x: 16.5d,
+	y: 6.0d,
+	description: "Stay low, and stay quiet",
+	text: [
+		"With this little handy dandy hood, your nameplate will never display to other players in Multiplayer.",
+		"",
+		"This hood will hide your name, even when not Sneaking, and also removes Potion Effects, enabling you to be truly invisible."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "0ec0d671",
+		type: "item",
+		items: [{
+			id: "randomthings:magichood",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "94346d65",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

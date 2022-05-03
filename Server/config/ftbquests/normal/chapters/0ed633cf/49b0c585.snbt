@@ -1,0 +1,13 @@
+{
+	title: "Player Slayer II",
+	icon: "minecraft:skull 1 3",
+	x: 0.5d,
+	y: -4.5d,
+	tasks: [{
+		uid: "bc772003",
+		type: "stat",
+		title: "Slay 100 Players",
+		stat: "stat.playerKills",
+		value: 100
+	}]
+}

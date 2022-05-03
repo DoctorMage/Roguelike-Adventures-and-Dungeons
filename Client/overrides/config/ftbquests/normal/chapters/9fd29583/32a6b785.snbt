@@ -1,0 +1,29 @@
+{
+	title: "Did You Ever Even Have An Ant Farm?",
+	x: -2.5d,
+	y: -11.5d,
+	description: "Did it ever fall over in your room?",
+	text: [
+		"What'd you do?",
+		"",
+		"Craft the Ant Taming Amulet."
+	],
+	dependencies: [
+		"137d9ac2"
+	],
+	tasks: [{
+		uid: "cdcc6391",
+		type: "item",
+		items: [{
+			id: "erebus:ant_taming_amulet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7b1adbd7",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

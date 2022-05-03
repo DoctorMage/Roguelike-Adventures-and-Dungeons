@@ -1,0 +1,56 @@
+# Configuration file
+
+compat {
+    B:"JEI - Show Non BL Gem Recipes"=true
+}
+
+
+debug {
+    B:"Debug mode"=false
+    B:"Model loader debug"=false
+}
+
+
+general {
+    B:"Betweenlands Main Menu"=true
+    B:"Caving Rope Indicator"=true
+    B:"Food Sickness"=true
+    B:"Override Conflicting Recipes"=true
+    S:"Rotten Food Whitelist" <
+     >
+    B:"Rowboat view"=true
+    B:"Show Non BL Buckets"=true
+}
+
+
+"mob spawning" {
+    I:"Max. entities per loaded area"=250
+    I:"Max. entities per world"=600
+}
+
+
+"online environment event overrides" {
+    I:"Check Interval"=600
+    I:"Default Remote Reset Time"=180
+    B:Enabled=true
+    I:"Failed Recheck Count"=3
+    I:"Failed Recheck Interval"=60
+}
+
+
+rendering {
+    B:"Full brightness blocks"=true
+    I:"Sky texture resolution"=1024
+    B:"Use shaders for rendering"=true
+    I:"Wisp Rendering Quality (0-100)"=50
+}
+
+
+"world and dimension" {
+    I:"Dimension brightness (0-100)"=75
+    B:"Enable Seasonal Events"=true
+    I:"Frequency of Druid Circles"=80
+    I:"The Betweenlands Dimension ID"=20
+}
+
+

@@ -1,0 +1,29 @@
+{
+	title: "Now This Is Real Alchemy!",
+	x: 27.0d,
+	y: 5.5d,
+	description: "The true test of transmutation!",
+	text: [
+		"Finally, something that won't burn me, hopefully."
+	],
+	dependencies: [
+		"0cb962a9"
+	],
+	tasks: [{
+		uid: "5bdb0b93",
+		type: "item",
+		items: [{
+			item: "soot:alchemy_globe"
+		}]
+	}],
+	rewards: [{
+		uid: "2fd74bf1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8d90d84a",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "Crafting Inside Your Inventory",
+	x: -4.5d,
+	y: -1.0d,
+	description: "You'll never only need 4 blocks of any wood for any reason ever again. Maybe.",
+	text: [
+		"These add the ability to craft within your inventory."
+	],
+	dependencies: [
+		"16c3f3d7"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "0603b0b0",
+		type: "item",
+		items: [{
+			item: "vt:pad"
+		}]
+	},
+	{
+		uid: "68412096",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:crafting_food"
+		}]
+	},
+	{
+		uid: "3ea1d9de",
+		type: "item",
+		items: [{
+			item: "portablecrafting:portable_crafter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "457f1a27",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "433cff51",
+		type: "item",
+		item: "roughtweaks:bandage"
+	}]
+}

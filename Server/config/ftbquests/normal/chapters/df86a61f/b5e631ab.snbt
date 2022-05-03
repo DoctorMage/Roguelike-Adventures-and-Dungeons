@@ -1,0 +1,21 @@
+{
+	title: "Die Brick!",
+	x: 5.0d,
+	y: 5.0d,
+	description: "No, John! Dye bricks!",
+	text: [
+		"RandomThings lets you dye bricks! See the JEI menu for recipes!"
+	],
+	tasks: [{
+		uid: "c46f54f3",
+		type: "item",
+		items: [{
+			item: "minecraft:brick_block"
+		}]
+	}],
+	rewards: [{
+		uid: "3ee53ab1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

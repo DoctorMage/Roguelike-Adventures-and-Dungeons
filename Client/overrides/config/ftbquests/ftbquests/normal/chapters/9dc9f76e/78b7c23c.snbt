@@ -1,0 +1,18 @@
+{
+	title: "Acid Mushroom",
+	x: -8.0d,
+	y: -9.0d,
+	description: "Seriously?",
+	text: [
+		"I guess these things make batteries... RPGs sometimes dude...",
+		"",
+		"Can be found in Oceans"
+	],
+	tasks: [{
+		uid: "3cafb023",
+		type: "item",
+		items: [{
+			item: "better_diving:acid_mushroom"
+		}]
+	}]
+}

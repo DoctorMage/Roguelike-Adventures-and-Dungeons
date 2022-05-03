@@ -1,0 +1,36 @@
+{
+	title: "You Have WHAT?",
+	x: 17.5d,
+	y: 8.0d,
+	description: "Is it contagious?",
+	text: [
+		"Floo Powder is used as a fuel source for teleporting with the Floo Network.",
+		"",
+		"The Floo Network is a network of Brick lines, usually shaped into cozy fireplaces.",
+		"",
+		"The Floo Pouch can be used up to 2 stacks of Floo Powder, reducing the footprint in your inventory."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "92a6801b",
+		type: "item",
+		items: [{
+			item: "randomthings:ingredient 1 7"
+		}],
+		count: 64L
+	},
+	{
+		uid: "ea51a93d",
+		type: "item",
+		items: [{
+			item: "randomthings:floopouch"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dcf7d6d4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

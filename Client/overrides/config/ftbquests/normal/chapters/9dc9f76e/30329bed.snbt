@@ -1,0 +1,69 @@
+{
+	title: "Emerald Tools",
+	x: 5.5d,
+	y: -7.0d,
+	description: "These are rather shiny don't you think?",
+	text: [
+		"They're better than Diamond, so I don't know what to tell you. Emerald tools might be OP since they're better and can be produced by villagers. Only your imagination will tell.",
+		"",
+		"Craft all the Emerald gear."
+	],
+	dependencies: [
+		"2352b3e3"
+	],
+	tasks: [{
+		uid: "28928b71",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:emerald_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f0f4e827",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:emerald_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ee1f33b1",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:emerald_spade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9e5a33d5",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:emerald_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "93fecc12",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:emerald_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f6ee05c6",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "f4687042",
+		type: "xp_levels",
+		xp_levels: 15
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Starting Equipment Selection!",
+	x: -6.5d,
+	y: -3.0d,
+	description: "Start your adventure TODAY!",
+	text: [
+		"Click the checkmark to complete this quest.",
+		"",
+		"Collect your reward by selecting a crate of starting equipment.",
+		"",
+		"You can select from Ranger, Wizard, and Warrior.",
+		"",
+		"You will also be permitted to select one early gadget to aid you on your adventures! Choose wisely!"
+	],
+	dependencies: [
+		"35def456"
+	],
+	tasks: [{
+		uid: "0616f076",
+		type: "checkmark",
+		title: "Ready to roll!"
+	}],
+	rewards: [{
+		uid: "ca32940d",
+		type: "choice",
+		title: "Item Crate Selection",
+		table: 0
+	},
+	{
+		uid: "8b27efb4",
+		type: "choice",
+		title: "Gadget Selection",
+		table: 3
+	}]
+}

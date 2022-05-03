@@ -1,0 +1,40 @@
+{
+	title: "Obey!",
+	x: 5.5d,
+	y: -2.5d,
+	description: "I command thee!",
+	text: [
+		"Refer to your Bestiary on different uses for these items."
+	],
+	dependencies: [
+		"b37a814e"
+	],
+	tasks: [{
+		uid: "682da89a",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_stick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2f0ef15c",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_flute"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f70b6f5a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "6a124d64",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

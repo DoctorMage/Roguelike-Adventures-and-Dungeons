@@ -1,0 +1,21 @@
+{
+	title: "Village Idiot V",
+	x: -11.5d,
+	y: -3.0d,
+	description: "Smartest man alive, you know how to barter",
+	text: [
+		"Trade with villagers 15,000 times."
+	],
+	tasks: [{
+		uid: "9d4e5633",
+		type: "stat",
+		icon: "minecraft:book",
+		stat: "stat.tradedWithVillager",
+		value: 15000
+	}],
+	rewards: [{
+		uid: "109bd1f8",
+		type: "ftbmoney:money",
+		ftb_money: 15000L
+	}]
+}

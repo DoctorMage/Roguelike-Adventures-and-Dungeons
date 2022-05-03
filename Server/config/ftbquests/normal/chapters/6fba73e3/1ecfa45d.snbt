@@ -1,0 +1,30 @@
+{
+	title: "Where Did He Come From?",
+	x: 2.5d,
+	y: -7.0d,
+	description: "Where did he go?",
+	text: [
+		"Craf the Sojourner's Staff.",
+		"",
+		"And get out of my house please."
+	],
+	tasks: [{
+		uid: "2f2a6c69",
+		type: "item",
+		items: [{
+			item: "xreliquary:sojourner_staff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c0146797",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1f5940e4",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

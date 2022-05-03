@@ -1,0 +1,36 @@
+{
+	title: "It's Alive!!",
+	x: 3.5d,
+	y: -3.0d,
+	description: "No electricity needed",
+	text: [
+		"Craft an Animator, and get to animating stuff!",
+		"",
+		"You'll need something to use as a source of life for your objects..."
+	],
+	dependencies: [
+		"00e136e8"
+	],
+	tasks: [{
+		uid: "4f5ed962",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:animator"
+		}]
+	}],
+	rewards: [{
+		uid: "31f298bf",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "cf173783",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "ca464d7a",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

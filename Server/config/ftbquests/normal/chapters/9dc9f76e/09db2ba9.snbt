@@ -1,0 +1,32 @@
+{
+	title: "Better Take Me Back Block",
+	x: -15.5d,
+	y: -4.0d,
+	description: "Stand tall and proud!",
+	text: [
+		"Right-Click to \"discover\" a Waystone.",
+		"",
+		"You can place, and name Waystones once they are picked up.",
+		"",
+		"Right-Click a placed Waystone to see and travel to other discovered Waystones.",
+		"",
+		"You will always be teleported within one block of these Waystones."
+	],
+	tasks: [{
+		uid: "c5be8996",
+		type: "item",
+		items: [{
+			item: "waystones:waystone"
+		}]
+	}],
+	rewards: [{
+		uid: "5a022489",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1cdfdef5",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

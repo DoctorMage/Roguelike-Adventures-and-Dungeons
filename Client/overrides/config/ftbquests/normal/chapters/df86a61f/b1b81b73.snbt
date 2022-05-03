@@ -1,0 +1,24 @@
+{
+	title: "The Great Beast Is Dead!",
+	x: -4.5d,
+	y: 17.25d,
+	description: "But for how long?",
+	text: [
+		"Dragon Scales are obtained after killing the Ender Dragon for... not the first time.",
+		"",
+		"They can be combined with an Elytra to create a brand new one!"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "93dd60a0",
+		type: "item",
+		items: [{
+			item: "quark:enderdragon_scale"
+		}]
+	}],
+	rewards: [{
+		uid: "c147fb40",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

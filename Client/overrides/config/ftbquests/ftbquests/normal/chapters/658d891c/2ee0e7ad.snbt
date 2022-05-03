@@ -1,0 +1,36 @@
+{
+	title: "Silver-Spoon Fed",
+	x: -7.0d,
+	y: 0.0d,
+	description: "Silver shovels? Show-off",
+	text: [
+		"You are only required to make one Tool to complete this quest."
+	],
+	tasks: [{
+		uid: "9516e9db",
+		type: "item",
+		items: [{
+			item: "iceandfire:silver_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4b8eb72e",
+		type: "item",
+		items: [{
+			item: "iceandfire:silver_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "28135c89",
+		type: "item",
+		items: [{
+			item: "iceandfire:silver_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

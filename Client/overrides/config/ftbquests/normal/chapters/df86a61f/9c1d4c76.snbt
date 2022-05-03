@@ -1,0 +1,25 @@
+{
+	title: "Invisilight",
+	x: 1.5d,
+	y: 6.0d,
+	description: "Not for your teeth!",
+	text: [
+		"This lamp will emit a light level of 15, but the light will be invisible.",
+		"",
+		"The \"light\" emitted from the lamp will still prevent anything that requires light from spawning, though.",
+		"",
+		"Crops will also grow like normal."
+	],
+	tasks: [{
+		uid: "2b64bcfb",
+		type: "item",
+		items: [{
+			item: "randomthings:quartzlamp"
+		}]
+	}],
+	rewards: [{
+		uid: "f027071a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

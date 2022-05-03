@@ -1,0 +1,30 @@
+{
+	title: "Translocation Transportation",
+	x: -13.5d,
+	y: 4.5d,
+	description: "Best way to get from A to B",
+	text: [
+		"Ender Pearls just got that much faster.",
+		"",
+		"You are only required to make one Orb to complete this quest."
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "6710d0a9",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:ender_pearl_reuse"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cd300396",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:ender_pearl_mounted"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

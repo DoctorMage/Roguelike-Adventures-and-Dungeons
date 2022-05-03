@@ -1,0 +1,75 @@
+{
+	title: "Kitchen-Aid+",
+	x: -5.5d,
+	y: -3.0d,
+	description: "This is the expensive #%@&",
+	text: [
+		"Grandma paid good money for this stuff, so don't break it!",
+		"",
+		"These items will aid you in creating certain Pam's Harvest recipes.",
+		"",
+		"Have fun exploring Flavortown now!",
+		"",
+		"Craftin all stations is required."
+	],
+	dependencies: [
+		"9b9366c6"
+	],
+	tasks: [{
+		uid: "b993cc3c",
+		type: "item",
+		items: [{
+			item: "harvestcraft:waterfilter"
+		}]
+	},
+	{
+		uid: "5309ecdf",
+		type: "item",
+		items: [{
+			item: "harvestcraft:grinder"
+		}]
+	},
+	{
+		uid: "98de292a",
+		type: "item",
+		items: [{
+			item: "harvestcraft:apiary"
+		}]
+	},
+	{
+		uid: "33b24e55",
+		type: "item",
+		items: [{
+			item: "harvestcraft:presser"
+		}]
+	},
+	{
+		uid: "5931a230",
+		type: "item",
+		items: [{
+			item: "harvestcraft:well"
+		}]
+	}],
+	rewards: [{
+		uid: "46fe99c1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "89592c97",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "22b53203",
+		type: "item",
+		item: "harvestcraft:queenbeeitem",
+		count: 3
+	},
+	{
+		uid: "a24d77c1",
+		type: "item",
+		item: "harvestcraft:honeyitem",
+		count: 32
+	}]
+}

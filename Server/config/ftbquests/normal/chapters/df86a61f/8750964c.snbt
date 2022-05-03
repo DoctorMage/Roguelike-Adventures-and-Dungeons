@@ -1,0 +1,23 @@
+{
+	title: "The Laddoor",
+	x: -25.5d,
+	y: 8.0d,
+	description: "BOOM",
+	text: [
+		"It does both. It's a boffum.",
+		"",
+		"Ladder and Trap Door did a fusion."
+	],
+	tasks: [{
+		uid: "711842ee",
+		type: "item",
+		items: [{
+			item: "openblocks:ladder"
+		}]
+	}],
+	rewards: [{
+		uid: "944362f4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

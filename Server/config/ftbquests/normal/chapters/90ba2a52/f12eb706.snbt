@@ -1,0 +1,25 @@
+{
+	title: "Chiromawnsters",
+	x: 0.0d,
+	y: 9.5d,
+	description: "Evil little things",
+	text: [
+		"Swat 100 Chiromaw",
+		"OR",
+		"Swat 15 Chiromaw Matriarchs"
+	],
+	can_repeat: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "eaa6ff12",
+		type: "kill",
+		entity: "thebetweenlands:chiromaw",
+		value: 100L
+	},
+	{
+		uid: "59b7cc5e",
+		type: "kill",
+		entity: "thebetweenlands:chiromaw_matriarch",
+		value: 15L
+	}]
+}

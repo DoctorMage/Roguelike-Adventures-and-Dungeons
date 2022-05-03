@@ -1,0 +1,16 @@
+{
+	title: "Appley",
+	x: -2.0d,
+	y: 14.5d,
+	description: "Tastes valuable",
+	text: [
+		"I guess it doesn't matter if his legs break now?"
+	],
+	tasks: [{
+		uid: "4d830679",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:apple_lapis"
+		}]
+	}]
+}

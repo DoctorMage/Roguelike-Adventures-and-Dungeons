@@ -1,0 +1,49 @@
+{
+	title: "Remembender",
+	x: 6.0d,
+	y: -4.5d,
+	description: "Shoot for the stars! Or your house",
+	text: [
+		"Craft the Ender Staff."
+	],
+	tasks: [{
+		uid: "f84493c5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 2,
+					TotalAmounts: [
+						0
+					],
+					Items: []
+				}
+			},
+			id: "xreliquary:ender_staff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b17a2e1b",
+		type: "item",
+		items: [{
+			item: "xreliquary:wraith_node"
+		}]
+	}],
+	rewards: [{
+		uid: "488e6925",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f4f31aef",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "c63c9dcd",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

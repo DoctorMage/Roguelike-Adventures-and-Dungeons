@@ -1,0 +1,21 @@
+{
+	x: 1.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "03a4d2eb",
+		type: "item",
+		items: [{
+			item: "harvestcraft:grapeseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "86df1492",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "57e5cf4c",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

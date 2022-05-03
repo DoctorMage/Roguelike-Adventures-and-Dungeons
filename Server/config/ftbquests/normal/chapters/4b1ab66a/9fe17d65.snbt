@@ -1,0 +1,21 @@
+{
+	x: 4.5d,
+	y: -11.5d,
+	tasks: [{
+		uid: "14b8f141",
+		type: "item",
+		items: [{
+			item: "harvestcraft:pecan_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "345ba064",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "32cf0d4d",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "Who's There?",
+	x: 8.5d,
+	y: -16.5d,
+	description: "Show yourself!",
+	text: [
+		"I know you're out there!",
+		"",
+		"Reveal yourself, coward!",
+		"",
+		"This device will emit a max strength signal when the set specifications are true. You can configure them by Right-Clicking the device.",
+		"",
+		"The \"Living\" setting will detect players as well as any mobs. Undead mobs are included. This specification is not literal.",
+		"",
+		"E.G: If you want to detect whether or not there are mobs within a vicinity, you will want it set to \"Living\" but with the activation number set to something higher than the amount of players that will commonly be in the area.",
+		"",
+		"You can then set the detection range up higher, and the activation condition to be greater, and this would mean that when the Entity Detector was active, more than \"X\" number of mobs are on the premises.",
+		"",
+		"The detector is able to be used for rather broad functions, but will fail to satisfy niched engagements."
+	],
+	tasks: [{
+		uid: "cabf19f9",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:entity_detector"
+		}]
+	}],
+	rewards: [{
+		uid: "38a91582",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

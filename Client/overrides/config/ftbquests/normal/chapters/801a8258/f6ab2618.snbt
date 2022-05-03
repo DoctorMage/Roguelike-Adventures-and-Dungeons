@@ -1,0 +1,23 @@
+{
+	title: "Conehead",
+	x: 0.5d,
+	y: 5.0d,
+	description: "You look goofy in this thing",
+	text: [
+		"Are you from this planet?"
+	],
+	dependencies: [
+		"ea2117bc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "586ba86c",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:glowing_helmet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

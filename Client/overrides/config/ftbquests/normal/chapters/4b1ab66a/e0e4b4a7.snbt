@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: 2.5d,
+	tasks: [{
+		uid: "3d5255c1",
+		type: "item",
+		items: [{
+			item: "harvestcraft:lentilseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "9314f105",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "552fcfff",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

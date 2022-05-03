@@ -1,0 +1,100 @@
+{
+	title: "You're So Pushy!",
+	x: 7.0d,
+	y: -9.0d,
+	description: "Go means go!",
+	text: [
+		"These conveyors will move item entities along the line at varying speeds.",
+		"",
+		"Use them to transport the meat your cows drop after they're killed in your Butchery, or something. Idk."
+	],
+	tasks: [{
+		uid: "96e5ad19",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_slowest"
+		}]
+	},
+	{
+		uid: "627623fa",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_slowest_corner"
+		}]
+	},
+	{
+		uid: "70e6a3e6",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_slowest_angle"
+		}]
+	},
+	{
+		uid: "eccecc31",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_slow"
+		}]
+	},
+	{
+		uid: "af86b2f3",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_slow_corner"
+		}]
+	},
+	{
+		uid: "9b349243",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_slow_angle"
+		}]
+	},
+	{
+		uid: "03e5bb25",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push"
+		}]
+	},
+	{
+		uid: "d8f23b29",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_corner"
+		}]
+	},
+	{
+		uid: "66ca6289",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_med_angle"
+		}]
+	},
+	{
+		uid: "eed5f170",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_fast"
+		}]
+	},
+	{
+		uid: "f7b32937",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_fast_corner"
+		}]
+	},
+	{
+		uid: "b999df2d",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_push_fast_angle"
+		}]
+	}],
+	rewards: [{
+		uid: "9bfc585a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	description: "You're actually just on an ancient Indian burial ground",
+	text: [
+		"Obtain a Skeleton Chunk."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ea6ffcbb"
+	],
+	tasks: [{
+		uid: "238b695e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chunk 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "75a05b26",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "a48ab551",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

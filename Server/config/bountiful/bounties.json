@@ -1,0 +1,281 @@
+[
+  {
+    "content": "minecraft:brick_block",
+    "amount": {
+      "min": 16,
+      "max": 32
+    },
+    "unitWorth": 5,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:pumpkin",
+    "amount": {
+      "min": 32,
+      "max": 64
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:coal_block",
+    "amount": {
+      "min": 16,
+      "max": 32
+    },
+    "unitWorth": 35,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:iron_block",
+    "amount": {
+      "min": 16,
+      "max": 32
+    },
+    "unitWorth": 50,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:stonebrick",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:salmon",
+    "amount": {
+      "min": 32,
+      "max": 64
+    },
+    "unitWorth": 20,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:apple",
+    "amount": {
+      "min": 16,
+      "max": 32
+    },
+    "unitWorth": 5,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:book",
+    "amount": {
+      "min": 16,
+      "max": 32
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:potato",
+    "amount": {
+      "min": 16,
+      "max": 32
+    },
+    "unitWorth": 5,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:diamond",
+    "amount": {
+      "min": 1,
+      "max": 5
+    },
+    "unitWorth": 1600,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:arrow",
+    "amount": {
+      "min": 32,
+      "max": 128
+    },
+    "unitWorth": 5,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:melon_block",
+    "amount": {
+      "min": 8,
+      "max": 32
+    },
+    "unitWorth": 15,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:redstone",
+    "amount": {
+      "min": 32,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:milk_bucket",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 25,
+    "weight": 100
+  },
+  {
+    "content": "xreliquary:glowing_bread",
+    "amount": {
+      "min": 1,
+      "max": 32
+    },
+    "unitWorth": 300,
+    "weight": 20
+  },
+  {
+    "content": "minecraft:lapis_block",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 250,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:rotten_flesh",
+    "amount": {
+      "min": 1,
+      "max": 32
+    },
+    "unitWorth": 15,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:log",
+    "amount": {
+      "min": 32,
+      "max": 128
+    },
+    "unitWorth": 20,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:slime_ball",
+    "amount": {
+      "min": 16,
+      "max": 32
+    },
+    "unitWorth": 50,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:spider_eye",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 30,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:string",
+    "amount": {
+      "min": 32,
+      "max": 128
+    },
+    "unitWorth": 15,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:sugar",
+    "amount": {
+      "min": 1,
+      "max": 64
+    },
+    "unitWorth": 5,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:sapling",
+    "amount": {
+      "min": 1,
+      "max": 32
+    },
+    "unitWorth": 5,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:wheat",
+    "amount": {
+      "min": 32,
+      "max": 128
+    },
+    "unitWorth": 1,
+    "weight": 100
+  },
+  {
+    "content": "entity:zombie",
+    "amount": {
+      "min": 3,
+      "max": 10
+    },
+    "unitWorth": 100,
+    "weight": 300
+  },
+  {
+    "content": "entity:skeleton",
+    "amount": {
+      "min": 3,
+      "max": 10
+    },
+    "unitWorth": 125,
+    "weight": 250
+  },
+  {
+    "content": "entity:creeper",
+    "amount": {
+      "min": 3,
+      "max": 15
+    },
+    "unitWorth": 200,
+    "weight": 200
+  },
+  {
+    "content": "entity:ghast",
+    "amount": {
+      "min": 3,
+      "max": 8
+    },
+    "unitWorth": 200,
+    "weight": 200
+  },
+  {
+    "content": "entity:enderman",
+    "amount": {
+      "min": 10,
+      "max": 15
+    },
+    "unitWorth": 200,
+    "weight": 100
+  },
+  {
+    "content": "entity:iceandfire:firedragon",
+    "amount": {
+      "min": 1,
+      "max": 1
+    },
+    "unitWorth": 5000,
+    "weight": 25
+  },
+  {
+    "content": "entity:iceandfire:icedragon",
+    "amount": {
+      "min": 1,
+      "max": 1
+    },
+    "unitWorth": 5000,
+    "weight": 25
+  }
+]

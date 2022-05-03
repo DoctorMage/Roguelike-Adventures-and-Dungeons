@@ -1,0 +1,36 @@
+{
+	title: "Nobody Has Hurt Me!",
+	x: 21.0d,
+	y: -1.0d,
+	description: "Hopefully it doesn't take you 10 years to get home",
+	text: [
+		"Must be held in your Main-Hand, or Off-Hand to be activated.",
+		"",
+		"Refer to your Bestiary on how to deal with Cyclops in the early game."
+	],
+	tasks: [{
+		uid: "cf71d259",
+		type: "item",
+		items: [{
+			item: "iceandfire:cyclops_eye"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b126ad65",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "29f9155e",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "e6405647",
+		type: "item",
+		item: "iceandfire:manuscript"
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	title: "The Biggest Wardrobe Ever",
+	x: -3.5d,
+	y: 2.0d,
+	description: "All these drawers to store all your clothes!",
+	text: [
+		"Just kidding, it's for massive amounts of DIRT!",
+		"",
+		"The Drawer Controller can be used as a proxy to interact with all connected Storage Drawers.",
+		"",
+		"Place it next to a Drawer; Right-Clicking on the front of the Controller will deposit any items to the appropriate Drawer.",
+		"",
+		"Only items forced into the Controller will be put into an empty Drawer, if one did not exist for that item before. You cannot force items into the Controller by hand if there is not a Drawer that contains those items. You must specify one beforehand.",
+		"",
+		"The Controller Slave is only another access point for your Controller, since there can only be one Controller per Storage Drawers system.",
+		"",
+		"However, you cannot Right-Click the Controller Slave to input items. They must be pumped in.",
+		""
+	],
+	dependencies: [
+		"7d3c81ce"
+	],
+	tasks: [{
+		uid: "be84999f",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	},
+	{
+		uid: "6ddac185",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controllerslave"
+		}]
+	}],
+	rewards: [{
+		uid: "4ff585c4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "744d2ed4",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

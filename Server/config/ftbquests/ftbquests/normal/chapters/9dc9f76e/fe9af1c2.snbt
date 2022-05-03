@@ -1,0 +1,26 @@
+{
+	title: "There HAS To Be An Alternative Way...",
+	x: 2.5d,
+	y: -8.0d,
+	description: "There is, but you're not gonna like it",
+	text: [
+		"Either way, the grind doesn't stop. Go get some more."
+	],
+	dependencies: [
+		"1c2b5e23"
+	],
+	tasks: [{
+		uid: "850fd7a9",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 1"
+		}],
+		count: 3L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "ec5466f1",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

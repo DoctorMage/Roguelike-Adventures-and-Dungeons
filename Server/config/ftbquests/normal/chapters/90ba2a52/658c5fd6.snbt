@@ -1,0 +1,16 @@
+{
+	x: 16.5d,
+	y: -4.5d,
+	tasks: [{
+		uid: "5ebdcfa0",
+		type: "item",
+		items: [{
+			item: "iceandfire:weezer_blue_album"
+		}]
+	}],
+	rewards: [{
+		uid: "8ba8447b",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

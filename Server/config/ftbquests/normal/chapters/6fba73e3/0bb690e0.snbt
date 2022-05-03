@@ -1,0 +1,33 @@
+{
+	title: "The Priests Revenge",
+	x: 1.5d,
+	y: -2.0d,
+	description: "Best B tier movie ever",
+	text: [
+		"Craft the Cross of Mercy."
+	],
+	tasks: [{
+		uid: "f445f52c",
+		type: "item",
+		items: [{
+			item: "xreliquary:mercy_cross"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "71422ed8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "92f559f5",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "a9723a96",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

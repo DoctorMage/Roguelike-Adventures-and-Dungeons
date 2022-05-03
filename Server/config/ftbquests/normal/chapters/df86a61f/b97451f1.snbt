@@ -1,0 +1,26 @@
+{
+	title: "California's Draught!",
+	x: -28.5d,
+	y: 9.0d,
+	description: "Caused by watering your grass too much!",
+	text: [
+		"Sprinklers will randomly fertilize an area within a 4x4x4 radius of the device.",
+		"",
+		"Must be supplied with water to be active. Does not require Redstone.",
+		"",
+		"The Sprinkler will count as a water source block."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "0be5ef13",
+		type: "item",
+		items: [{
+			item: "openblocks:sprinkler"
+		}]
+	}],
+	rewards: [{
+		uid: "201da251",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

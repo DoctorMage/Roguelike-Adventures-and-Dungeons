@@ -1,0 +1,20 @@
+{
+	x: 5.0d,
+	y: -3.0d,
+	description: "It acts as a graphical display that depicts the amount of Ember sent into the machine that it is attached to.",
+	dependencies: [
+		"4c22bf55"
+	],
+	tasks: [{
+		uid: "ce2a6d86",
+		type: "item",
+		items: [{
+			item: "embers:ember_gauge"
+		}]
+	}],
+	rewards: [{
+		uid: "614c68cd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

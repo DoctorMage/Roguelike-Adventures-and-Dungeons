@@ -1,0 +1,41 @@
+{
+	title: "THIS Thing DOES Run On Nothing!",
+	x: -4.0d,
+	y: 3.5d,
+	description: "So.... How do we start it up?",
+	text: [
+		"Adds infinite fuel but reduces the speed of your airship.",
+		"",
+		"All modules can be \"learned\" by your airship, but you can only activate one module at a time.",
+		"",
+		"Requires \"Time For An Upgrade!\" to complete."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8739b8df"
+	],
+	tasks: [{
+		uid: "9c086f5e",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 22"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b4a69381",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 23"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2dda31ba",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 24"
+		}],
+		ignore_nbt: 1b
+	}]
+}

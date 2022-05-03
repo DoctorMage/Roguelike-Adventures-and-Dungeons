@@ -1,0 +1,86 @@
+{
+	title: "Warrior",
+	icon: "minecraft:iron_sword",
+	loot_size: 50,
+	hide_tooltip: true,
+	rewards: [{
+		item: {
+			id: "minecraft:iron_sword",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34
+				}],
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -2204510904163678085L,
+						UUIDLeast: -4875184959327269954L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -8094611969802354649L,
+						UUIDLeast: -7059521416415815378L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.clumsy.name"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:chainmail_helmet",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:chainmail_chestplate",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:chainmail_leggings",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:chainmail_boots",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "warrior",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

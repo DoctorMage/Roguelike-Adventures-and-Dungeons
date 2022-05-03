@@ -1,0 +1,24 @@
+{
+	x: 0.5d,
+	y: -8.0d,
+	shape: "hexagon",
+	description: "We're going Christmas Caroling!",
+	text: [
+		"The dimension ID for this place is \"-1\" for a reason. ",
+		"",
+		"It's bad down here man..."
+	],
+	dependencies: [
+		"500b78ee"
+	],
+	tasks: [{
+		uid: "8e48a749",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "41eeb1e3",
+		type: "item",
+		item: "minecraft:magma"
+	}]
+}

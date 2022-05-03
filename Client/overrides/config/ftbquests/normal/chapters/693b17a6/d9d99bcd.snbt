@@ -1,0 +1,21 @@
+{
+	title: "Waystone Wanderer I",
+	x: -14.5d,
+	y: 1.0d,
+	description: "It's a rock...",
+	text: [
+		"Activate 10 different Waystones."
+	],
+	tasks: [{
+		uid: "a85d024b",
+		type: "stat",
+		icon: "waystones:waystone",
+		stat: "stat.waystones:waystonesActivated",
+		value: 10
+	}],
+	rewards: [{
+		uid: "ba75d6c7",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

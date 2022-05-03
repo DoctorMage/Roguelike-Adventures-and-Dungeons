@@ -1,0 +1,26 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	description: "Used to extract energy from Ember Crystals and Shards.",
+	dependencies: [
+		"ee4a2fe0"
+	],
+	tasks: [{
+		uid: "0df804dd",
+		type: "item",
+		items: [{
+			item: "embers:ember_activator"
+		}]
+	}],
+	rewards: [{
+		uid: "b9fd4566",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0c5ad5e1",
+		type: "item",
+		item: "embers:crystal_ember",
+		count: 2
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: -13.0d,
+	tasks: [{
+		uid: "9ef20059",
+		type: "item",
+		items: [{
+			item: "harvestcraft:walnutitem"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "cbed18c1",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "decd23cc",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

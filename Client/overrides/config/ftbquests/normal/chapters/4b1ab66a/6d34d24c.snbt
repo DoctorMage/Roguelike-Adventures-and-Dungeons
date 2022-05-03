@@ -1,0 +1,22 @@
+{
+	x: -7.0d,
+	y: -10.0d,
+	tasks: [{
+		uid: "ad076d4b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:grapefruititem"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "b154f4f5",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "d0078472",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

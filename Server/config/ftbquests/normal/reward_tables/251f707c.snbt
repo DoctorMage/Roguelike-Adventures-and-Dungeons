@@ -1,0 +1,43 @@
+{
+	title: "Assorted Elemental Crystals",
+	icon: "ebwizardry:grand_crystal",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [{
+		item: "ebwizardry:magic_crystal 1 7",
+		weight: 100
+	},
+	{
+		item: "ebwizardry:magic_crystal 1 1",
+		weight: 100
+	},
+	{
+		item: "ebwizardry:magic_crystal 1 2",
+		weight: 100
+	},
+	{
+		item: "ebwizardry:magic_crystal 1 3",
+		weight: 120
+	},
+	{
+		item: "ebwizardry:magic_crystal 1 4",
+		weight: 100
+	},
+	{
+		item: "ebwizardry:magic_crystal 1 5",
+		weight: 100
+	},
+	{
+		item: "ebwizardry:magic_crystal 1 6",
+		weight: 100
+	}],
+	loot_crate: {
+		string_id: "assorted_elemental_crystals",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

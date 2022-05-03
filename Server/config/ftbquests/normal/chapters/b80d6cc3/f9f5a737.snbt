@@ -1,0 +1,29 @@
+{
+	title: "The Fire Thermometer",
+	x: 4.5d,
+	y: 2.0d,
+	description: "For when you really turn the heat up!",
+	text: [
+		"Why do you wanna know the temperature of a burning building?!"
+	],
+	dependencies: [
+		"322bb351"
+	],
+	tasks: [{
+		uid: "5625775a",
+		type: "item",
+		items: [{
+			item: "embers:ember_gauge"
+		}]
+	}],
+	rewards: [{
+		uid: "215a2995",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "7c05fe63",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	title: "Drawing On The Walls",
+	x: -28.0d,
+	y: 7.0d,
+	description: "I got beat for this",
+	text: [
+		"The Crayons do the same thing as the Pencil.",
+		"",
+		"The difference is, you can walk through the invisible walls made by Crayons, when not wearing Crayon Glasses.",
+		"",
+		"AND, there are multiple colors of Crayons to draw with.",
+		"",
+		"Make sure you have the correct color of glasses on!",
+		"",
+		"Can easily be used to create some wacky games."
+	],
+	tasks: [{
+		uid: "42fc292a",
+		type: "item",
+		items: [{
+			id: "openblocks:imaginary",
+			tag: {
+				Uses: 10.0f,
+				Color: 1973019,
+				Mode: 0
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "974025a8",
+		type: "item",
+		items: [{
+			id: "openblocks:crayon_glasses",
+			tag: {
+				Quality: {},
+				Color: 1973019
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a6d8a158",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

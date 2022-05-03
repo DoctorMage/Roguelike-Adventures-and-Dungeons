@@ -1,0 +1,84 @@
+{
+	title: "Capitol - 7500 Blocks",
+	x: -12.5d,
+	y: -2.5d,
+	description: "Wow that's far...",
+	text: [
+		"Move by daylight, sleep by night.",
+		"",
+		"When placed, Right-Click the sign to name a location the sign will point to. This can be anything from Town or City names, to facility names like \"Inn - 1450 Blocks\".",
+		"",
+		"Naming Signposts with the location of Waystones you have discovered, including those which you have placed and renamed, will allow you to right click on the sign listing that location, and teleport to the specified destination.",
+		"",
+		"Regular Signposts only give you enough space to list a location on the directional arrow.",
+		"",
+		"You are only required to make one Signpost to complete this quest."
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "4377a024",
+		type: "item",
+		items: [{
+			item: "signpost:blockpostoak"
+		}]
+	},
+	{
+		uid: "e69aa2ec",
+		type: "item",
+		items: [{
+			item: "signpost:blockpostspruce"
+		}]
+	},
+	{
+		uid: "09b5e66b",
+		type: "item",
+		items: [{
+			item: "signpost:blockpostbirch"
+		}]
+	},
+	{
+		uid: "dca44c25",
+		type: "item",
+		items: [{
+			item: "signpost:blockpostjungle"
+		}]
+	},
+	{
+		uid: "3efa352e",
+		type: "item",
+		items: [{
+			item: "signpost:blockpostacacia"
+		}]
+	},
+	{
+		uid: "e2f41aa6",
+		type: "item",
+		items: [{
+			item: "signpost:blockpostbigoak"
+		}]
+	},
+	{
+		uid: "a31f64d5",
+		type: "item",
+		items: [{
+			item: "signpost:blockpostiron"
+		}]
+	},
+	{
+		uid: "a3f87192",
+		type: "item",
+		items: [{
+			item: "signpost:blockpoststone"
+		}]
+	}],
+	rewards: [{
+		uid: "a12640b8",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "3c10be6a",
+		type: "xp_levels",
+		xp_levels: 15
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "KISS Would Be Jealous",
+	x: 19.0d,
+	y: -2.0d,
+	description: "Waaaaowwww!!!",
+	text: [
+		"How many times was your hand almost eaten?"
+	],
+	tasks: [{
+		uid: "e303b136",
+		type: "item",
+		items: [{
+			item: "iceandfire:deathworm_tounge"
+		}]
+	}]
+}

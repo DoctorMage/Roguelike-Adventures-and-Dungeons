@@ -1,0 +1,132 @@
+{
+	title: "Flower Power",
+	x: -2.5d,
+	y: -6.0d,
+	description: "I have the power!!!!!!",
+	text: [
+		"Collect all of the flowers available in the Erebus mod."
+	],
+	dependencies: [
+		"d01b8d01"
+	],
+	tasks: [{
+		uid: "4e0a0861",
+		type: "item",
+		items: [{
+			item: "erebus:planted_flower"
+		}]
+	},
+	{
+		uid: "92920dc4",
+		type: "item",
+		items: [{
+			item: "erebus:planted_flower 1 1"
+		}]
+	},
+	{
+		uid: "cd8fc861",
+		type: "item",
+		items: [{
+			item: "erebus:planted_flower 1 2"
+		}]
+	},
+	{
+		uid: "dc9f65ee",
+		type: "item",
+		items: [{
+			item: "erebus:planted_flower 1 3"
+		}]
+	},
+	{
+		uid: "9764c246",
+		type: "item",
+		items: [{
+			item: "erebus:planted_flower 1 4"
+		}]
+	},
+	{
+		uid: "69a3fb5f",
+		type: "item",
+		items: [{
+			item: "erebus:planted_flower 1 5"
+		}]
+	},
+	{
+		uid: "d9a60b0c",
+		type: "item",
+		items: [{
+			item: "erebus:planted_flower 1 6"
+		}]
+	},
+	{
+		uid: "6adb5d9e",
+		type: "item",
+		items: [{
+			item: "erebus:planted_flower 1 7"
+		}]
+	},
+	{
+		uid: "d83bfc67",
+		type: "item",
+		items: [{
+			item: "erebus:planted_flower 1 8"
+		}]
+	},
+	{
+		uid: "e95cd559",
+		type: "item",
+		items: [{
+			item: "erebus:planted_flower 1 9"
+		}]
+	},
+	{
+		uid: "ba1ed4e0",
+		type: "item",
+		items: [{
+			item: "erebus:planted_flower 1 10"
+		}]
+	},
+	{
+		uid: "403daec2",
+		type: "item",
+		items: [{
+			item: "erebus:planted_flower 1 11"
+		}]
+	},
+	{
+		uid: "48598c3d",
+		type: "item",
+		items: [{
+			item: "erebus:planted_flower 1 12"
+		}]
+	},
+	{
+		uid: "e8f55d06",
+		type: "item",
+		items: [{
+			item: "erebus:planted_flower 1 13"
+		}]
+	},
+	{
+		uid: "317af3da",
+		type: "item",
+		items: [{
+			item: "erebus:planted_flower 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "f888cc37",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "78e5166c",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "edac919e",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

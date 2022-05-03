@@ -1,0 +1,18 @@
+{
+	title: "Hunter's Creed",
+	x: -4.0d,
+	y: -1.0d,
+	description: "Give thanks to your prey",
+	text: [
+		"Imbues your bow with unique powers.",
+		"",
+		"They will not be listed in the description. Create a station for yourself, and explore these powerful effects."
+	],
+	tasks: [{
+		uid: "3398804b",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:imbuer"
+		}]
+	}]
+}

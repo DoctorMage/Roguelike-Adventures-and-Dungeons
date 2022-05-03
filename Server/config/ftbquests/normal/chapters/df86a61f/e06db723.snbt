@@ -1,0 +1,23 @@
+{
+	title: "Staying Together",
+	x: -14.0d,
+	y: 15.0d,
+	description: "By force!",
+	text: [
+		"Iron Chains will link boats or minecarts together!",
+		"",
+		"Chuga Chuga Choo Choo!"
+	],
+	tasks: [{
+		uid: "01ae378b",
+		type: "item",
+		items: [{
+			item: "quark:chain"
+		}]
+	}],
+	rewards: [{
+		uid: "c827d2a4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 4.0d,
+	y: -11.0d,
+	description: "Harvesting tears has never felt better",
+	text: [
+		"Craft some Ghast Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8d4841a2"
+	],
+	tasks: [{
+		uid: "2cac5d3e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ghast_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "efe6aedd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "3a1cf274",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

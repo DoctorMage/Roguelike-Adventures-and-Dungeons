@@ -1,0 +1,29 @@
+{
+	title: "Shadow Battle",
+	x: 5.5d,
+	y: -7.5d,
+	description: "Do you even know where you are?",
+	text: [
+		"This room has no way out!"
+	],
+	dependencies: [
+		"0d9f8fc3"
+	],
+	tasks: [{
+		uid: "5845dbb6",
+		type: "item",
+		items: [{
+			item: "dungeontactics:guardian_alter"
+		}]
+	}],
+	rewards: [{
+		uid: "e058eec8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "4a188846",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

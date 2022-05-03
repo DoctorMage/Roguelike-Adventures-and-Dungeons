@@ -1,0 +1,25 @@
+{
+	title: "So Much To Experience!",
+	x: -6.5d,
+	y: -7.0d,
+	description: "So many memories to make!",
+	text: [
+		"All those memories of you dying and forgetting to store you XP.",
+		"",
+		"This item will store 1395. This is enough XP to take you from 0 to level 30.",
+		"",
+		"Shift-Right-Click to store the XP.",
+		"",
+		"Right-Click to release XP."
+	],
+	tasks: [{
+		uid: "6837a800",
+		type: "item",
+		items: [{
+			id: "xpbook:xp_tome",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

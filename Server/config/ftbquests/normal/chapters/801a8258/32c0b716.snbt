@@ -1,0 +1,21 @@
+{
+	title: "Hobo Bag",
+	x: -10.0d,
+	y: 4.0d,
+	description: "At least it's warm?",
+	text: [
+		"Will change your spawnpoint.",
+		"",
+		"Is functionally a bed, but you can enable changes to your spawnpoint at any time by Right-Clicking the mat."
+	],
+	tasks: [{
+		uid: "3366f0c3",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:sleeping_mat",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

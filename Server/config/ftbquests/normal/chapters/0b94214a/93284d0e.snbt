@@ -1,0 +1,27 @@
+{
+	title: "Soul Stoned",
+	x: -9.5d,
+	y: 2.5d,
+	description: "Feels just like dying for reals",
+	text: [
+		"Craft some Soul Stone."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "4f8177ca",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:soulstone"
+		}]
+	}],
+	rewards: [{
+		uid: "4658ab0b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "40ed348d",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "Hunter Gathering",
+	x: -3.0d,
+	y: -4.5d,
+	description: "Back to your roots",
+	text: [
+		"This is how the pioneers did it.",
+		"",
+		"Placing bait into these traps is sure to yield some good meat.",
+		"",
+		"The Ground Trap must be placed in the ground, with grass surrounding the trap. The trap cannot be covered.",
+		"",
+		"The Water Trap must be placed within a 5x5 square at minimum, and must be level with the top of the water. Think shallow fishing traps.",
+		"",
+		"Alternatively, you can still fish up these monstrous creatures from any waters with most fishing poles."
+	],
+	dependencies: [
+		"e37ab5c9"
+	],
+	tasks: [{
+		uid: "3b450c42",
+		type: "item",
+		items: [{
+			item: "harvestcraft:groundtrap"
+		}]
+	},
+	{
+		uid: "19a2d7dc",
+		type: "item",
+		items: [{
+			item: "harvestcraft:watertrap"
+		}]
+	}],
+	rewards: [{
+		uid: "65229f75",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "aa1a3e2b",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

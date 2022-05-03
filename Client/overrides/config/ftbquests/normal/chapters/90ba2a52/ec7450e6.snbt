@@ -1,0 +1,23 @@
+{
+	x: 10.0d,
+	y: 2.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "fc2bbf1e",
+		type: "item",
+		items: [{
+			item: "minecraft:coal_block"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "5c196868",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "3f151bd4",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

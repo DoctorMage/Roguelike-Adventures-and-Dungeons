@@ -1,0 +1,31 @@
+{
+	title: "The Rough Way",
+	x: -11.5d,
+	y: -7.5d,
+	description: "Air pockets never hurt anyone, usually",
+	text: [
+		"Not unless you have 200 of them in a small area.",
+		"",
+		"I hate KNOWING there's air pockets in an area, that's a peeve.",
+		"",
+		"The Exchange Scepter will exchange blocks from your inventory when Right-Clicking. Blocks in your hotbar are not used."
+	],
+	tasks: [{
+		uid: "e5926fe8",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:tool_swap",
+			tag: {
+				ActionType: 5,
+				timeout: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "927b3488",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

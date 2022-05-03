@@ -1,0 +1,42 @@
+{
+	title: "Lily!!---",
+	x: -6.0d,
+	y: 8.5d,
+	description: "What I was yelling when I lost my dog in real life.",
+	text: [
+		"She came back though. All good.",
+		"",
+		"Your dog has several modes. Its mode can be changed with the whistle!",
+		"",
+		"Docile - Your dog will wait for you to throw a bone, or a stick.",
+		"",
+		"Wandering - Your dog will wander around the area, but will stay close to a food bowl until commanded otherwise. To set a dog to a food bowl, make sure it is within 1 block of the food bowl when setting the dog to wander.",
+		"",
+		"Aggressive - Your dog will assist you in combat, and defend you from being attacked.",
+		"",
+		"Berserker - Your dog will follow you, immediately attacking any mob that gets too close to the player."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a455aa9f"
+	],
+	tasks: [{
+		uid: "c35e12f3",
+		type: "item",
+		items: [{
+			item: "doggytalents:whistle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "db65e4fd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "76a3c8ca",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

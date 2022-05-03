@@ -1,0 +1,24 @@
+{
+	title: "The Nitrous",
+	x: -5.5d,
+	y: -1.5d,
+	description: "How much did this cost?",
+	text: [
+		"One of the pieces needed to build an airship!"
+	],
+	dependencies: [
+		"4ca3d38d"
+	],
+	tasks: [{
+		uid: "a88e42ee",
+		type: "item",
+		items: [{
+			item: "vc:item_airship_engine"
+		}]
+	}],
+	rewards: [{
+		uid: "fd2037da",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

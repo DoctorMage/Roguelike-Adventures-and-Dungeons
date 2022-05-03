@@ -1,0 +1,20 @@
+{
+	title: "Shoo!",
+	x: 7.0d,
+	y: 2.0d,
+	description: "Don't bother me!",
+	text: [
+		"Legitamately just pushes mobs away from it. Fast too.",
+		"",
+		"Cannot be turned off.",
+		"",
+		"Great for force-fields."
+	],
+	tasks: [{
+		uid: "8f3858a2",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:magnet_anti_block"
+		}]
+	}]
+}

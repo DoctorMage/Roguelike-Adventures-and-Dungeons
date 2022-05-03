@@ -1,0 +1,29 @@
+{
+	title: "Jet Ci",
+	x: 9.5d,
+	y: 3.5d,
+	description: "No?",
+	text: [
+		"He was one of my favorites."
+	],
+	dependencies: [
+		"020a4b1e"
+	],
+	tasks: [{
+		uid: "f21ff704",
+		type: "item",
+		items: [{
+			item: "embers:jet_augment"
+		}]
+	}],
+	rewards: [{
+		uid: "90a823b8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "346137cc",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

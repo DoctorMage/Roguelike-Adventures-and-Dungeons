@@ -1,0 +1,38 @@
+{
+	title: "This Thing Must Have Been An Absolute Unit!",
+	x: 1.0d,
+	y: 0.5d,
+	description: "It's hands are as big as you are!",
+	text: [
+		"Dragon Bones can be found on dead dragons around the world. Right-Clicking a dragon skeleton with your BARE hands will give you Dragon Bones."
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "f4ccef97",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonbone"
+		}]
+	},
+	{
+		uid: "173dfa44",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_skull 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0b66bd00",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_skull"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8fe6c462",
+		type: "item",
+		item: "iceandfire:manuscript"
+	}]
+}

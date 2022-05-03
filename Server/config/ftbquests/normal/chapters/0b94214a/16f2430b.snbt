@@ -1,0 +1,38 @@
+{
+	title: "Does It Look Like I Care?",
+	x: -10.5d,
+	y: 3.5d,
+	description: "Well it doesn't matter wither you do or not!",
+	text: [
+		"Because this glass isn't going anywhere!",
+		"",
+		"Craft some Witherproof blocks."
+	],
+	dependencies: [
+		"93284d0e"
+	],
+	tasks: [{
+		uid: "5af41bcf",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:witherproof_block"
+		}]
+	},
+	{
+		uid: "52fe4e05",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:witherproof_glass"
+		}]
+	}],
+	rewards: [{
+		uid: "22c68e3d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "d75310af",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

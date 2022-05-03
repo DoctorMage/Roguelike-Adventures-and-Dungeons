@@ -1,0 +1,31 @@
+{
+	title: "BACON?!",
+	x: -3.5d,
+	y: 7.5d,
+	description: "Bacon bacon bacon BACON!!",
+	text: [
+		"Yup. Levels your doggy up to level 60.",
+		"",
+		"This is what your dog wanted the whole time."
+	],
+	dependencies: [
+		"d75162de"
+	],
+	tasks: [{
+		uid: "989e2473",
+		type: "item",
+		items: [{
+			item: "doggytalents:master_treat"
+		}]
+	}],
+	rewards: [{
+		uid: "1cac11d4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "a5811631",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

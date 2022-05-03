@@ -1,0 +1,21 @@
+{
+	title: "Waystone Wanderer IV",
+	x: -14.5d,
+	y: -2.0d,
+	description: "You have to bring your little brother with you",
+	text: [
+		"Activate 75 different Waystones."
+	],
+	tasks: [{
+		uid: "e7f10d1a",
+		type: "stat",
+		icon: "waystones:waystone",
+		stat: "stat.waystones:waystonesActivated",
+		value: 75
+	}],
+	rewards: [{
+		uid: "1d6f6531",
+		type: "ftbmoney:money",
+		ftb_money: 1350L
+	}]
+}

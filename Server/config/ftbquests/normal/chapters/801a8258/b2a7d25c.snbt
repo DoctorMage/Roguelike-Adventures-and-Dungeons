@@ -1,0 +1,20 @@
+{
+	title: "Cyclops Without The Visor",
+	x: 3.5d,
+	y: 8.0d,
+	description: "Perfectly harmless, I swear, it says so",
+	text: [
+		"These lasers can't be FDA approved.",
+		"",
+		"They're not, but they will project from the cell to up to four different GPS Marker locations, even through other blocks.",
+		"",
+		"Makes for awesome laser aesthetics."
+	],
+	tasks: [{
+		uid: "98e86bf8",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:laser"
+		}]
+	}]
+}

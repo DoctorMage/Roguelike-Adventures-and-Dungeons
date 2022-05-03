@@ -1,0 +1,28 @@
+{
+	x: -10.5d,
+	y: -5.0d,
+	description: "Mysterious",
+	text: [
+		"Craft a Mystical Stick."
+	],
+	dependencies: [
+		"883b968f"
+	],
+	tasks: [{
+		uid: "4a1c72fa",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 22"
+		}]
+	}],
+	rewards: [{
+		uid: "c5d5147b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "d59371e5",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

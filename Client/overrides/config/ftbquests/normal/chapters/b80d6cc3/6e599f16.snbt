@@ -1,0 +1,29 @@
+{
+	title: "Crystal Cell?",
+	x: 19.5d,
+	y: 2.5d,
+	description: "Feels like jail for Embers",
+	text: [
+		"This bad boy gets filled, and fast."
+	],
+	dependencies: [
+		"05276366"
+	],
+	tasks: [{
+		uid: "7ffcf2c4",
+		type: "item",
+		items: [{
+			item: "embers:crystal_cell"
+		}]
+	}],
+	rewards: [{
+		uid: "f374f11d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "b7e34d4e",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

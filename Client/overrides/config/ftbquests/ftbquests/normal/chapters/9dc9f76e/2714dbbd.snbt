@@ -1,0 +1,24 @@
+{
+	x: -2.5d,
+	y: -6.5d,
+	text: [
+		"Tools, armour and weapons may have random attributes or \"qualities\" when you create them or pick them up.",
+		"",
+		"Use the Reforging Station to re-roll this quality. Place your item in the top slot, and the material you would use to repair it in the bottom slot. Alternatively, if there is no material used to repair the item, you can use a Nether Star."
+	],
+	dependencies: [
+		"500b78ee"
+	],
+	tasks: [{
+		uid: "6b6f68cf",
+		type: "item",
+		items: [{
+			item: "qualitytools:reforging_station"
+		}]
+	}],
+	rewards: [{
+		uid: "a95b345b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

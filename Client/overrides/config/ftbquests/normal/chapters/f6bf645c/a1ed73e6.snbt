@@ -1,0 +1,29 @@
+{
+	title: "The Color Collector",
+	x: 0.5d,
+	y: 6.5d,
+	description: "I love you, Ram",
+	text: [
+		"Obtain the Questing Ram Trophy."
+	],
+	dependencies: [
+		"12ae72c5"
+	],
+	tasks: [{
+		uid: "897b026a",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "240d2b05",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "1012f7e3",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

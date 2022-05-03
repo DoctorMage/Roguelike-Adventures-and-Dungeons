@@ -1,0 +1,25 @@
+{
+	x: 1.0d,
+	y: 3.0d,
+	dependencies: [
+		"327bc366"
+	],
+	tasks: [{
+		uid: "ee7b877f",
+		type: "item",
+		items: [{
+			item: "vc:upgrades/item_upgrade_airship_balloon 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3258a91e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "9a659455",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

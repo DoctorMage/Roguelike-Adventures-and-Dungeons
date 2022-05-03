@@ -1,0 +1,29 @@
+{
+	title: "JFTSMCOHB 3000 V2.1 Elite Gaming Router",
+	x: 21.5d,
+	y: -0.5d,
+	description: "Get's 892 Bumfarts per second",
+	text: [
+		"Ah yes... Ahh yes... the Jet Force Thermic Spider Monkey Cross-Over Hype Beast 3000 V2.1 (TM)... It's pretty fast I guess.",
+		"",
+		"The Advanced Redstone Interface can send a Redstone signal to up to 9 locations by using a Position Filter.",
+		"",
+		"Shift-Right-Click or Right-Click with your Position Filter to select the block or location you wish to be powered.",
+		"",
+		"Place your Position Filter into the Advanced Player Interface and you're done! Give the Interface some juice with a Lever or Button or a Redstone signal, and watch it power your wildest dreams.",
+		"",
+		"Not really. But uhhh... imagination, yay!"
+	],
+	tasks: [{
+		uid: "6e664248",
+		type: "item",
+		items: [{
+			item: "randomthings:advancedredstoneinterface"
+		}]
+	}],
+	rewards: [{
+		uid: "532c48fc",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

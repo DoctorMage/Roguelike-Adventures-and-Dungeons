@@ -1,0 +1,73 @@
+{
+	title: "Different Types of Weed Wackers",
+	x: 3.0d,
+	y: 3.0d,
+	shape: "gear",
+	description: "These can all be used to clear leaves, grass and flowers, or harvest plants without destroying them.",
+	dependencies: [
+		"cfd867c1"
+	],
+	tasks: [{
+		uid: "9af33113",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_harvest_crops"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "06cffd77",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_harvest_weeds"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d66c6af7",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_harvest_leaves"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "56aaea4f",
+		type: "item",
+		auto: "disabled",
+		item: "minecraft:wheat_seeds"
+	},
+	{
+		uid: "09df6aa5",
+		type: "item",
+		item: "minecraft:pumpkin_seeds"
+	},
+	{
+		uid: "142d8799",
+		type: "item",
+		item: "minecraft:melon_seeds"
+	},
+	{
+		uid: "3688daa1",
+		type: "item",
+		item: "minecraft:beetroot_seeds"
+	},
+	{
+		uid: "be038f0f",
+		type: "item",
+		item: "minecraft:carrot"
+	},
+	{
+		uid: "57b8b959",
+		type: "item",
+		item: "minecraft:potato"
+	},
+	{
+		uid: "c4543b54",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

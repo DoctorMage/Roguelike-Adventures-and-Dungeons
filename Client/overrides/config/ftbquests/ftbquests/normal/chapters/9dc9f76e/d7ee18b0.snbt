@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: 2.5d,
+	description: "I'm in a hurry!",
+	text: [
+		"This is for when you waited until night time to set up your tent. Recommended you put Unbreaking III on this."
+	],
+	dependencies: [
+		"0be7c49b"
+	],
+	tasks: [{
+		uid: "94620fb4",
+		type: "item",
+		items: [{
+			item: "yurtmod:super_mallet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4b7aff30",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

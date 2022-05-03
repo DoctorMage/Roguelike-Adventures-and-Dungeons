@@ -1,0 +1,18 @@
+{
+	title: "Moonlit Night",
+	x: 4.5d,
+	y: 2.0d,
+	description: "Kinda romantic",
+	text: [
+		"Will emit different signals based on the different phases of the moon.",
+		"",
+		"Makes it very easy to track each phase."
+	],
+	tasks: [{
+		uid: "bdc73fa9",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:moon_sensor"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Sticks And Stones Of The Past",
+	x: -2.0d,
+	y: 3.0d,
+	description: "You don't need flint anymore!",
+	text: [
+		"Can place regular fire, shadow fire, or frost fire in a location offset from the front of the block.",
+		"",
+		"Requires energy to stay on. Is recommended to start a fire, and then be toggled off to save energy.",
+		"",
+		"Cannot extinguish fire.",
+		"",
+		""
+	],
+	dependencies: [
+		"0a7ca16a"
+	],
+	tasks: [{
+		uid: "0c8d76ef",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:fire_starter"
+		}]
+	}]
+}

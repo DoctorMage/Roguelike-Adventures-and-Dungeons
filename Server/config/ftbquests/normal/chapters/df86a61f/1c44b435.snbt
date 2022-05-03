@@ -1,0 +1,35 @@
+{
+	title: "Where Am I Going?",
+	x: 18.5d,
+	y: 3.0d,
+	description: "I have no idea where I'm suppose to be",
+	text: [
+		"This feels like an airport.",
+		"",
+		"So, the Green Side. That's the front. Any inventory linked to the Rerouter should be linked at or onto the Green Side.",
+		"",
+		"Once an inventory is linked, like a Player Interface, you can pump items into your Inventory Rerouter.",
+		"",
+		"The easiest way to explain how this device works is through an example.",
+		"",
+		"Right-Click to toggle the letters on each side of the device. They stand for a direction. North, South, West, East, Up, Down, and empty for Disabled.",
+		"",
+		"Say we pump armor INTO a side of the Inventory Rerouter which has U for Up, while a Player Interface is connected to the Inventory Rerouter.",
+		"",
+		"That armor will actually be pumped into the top side of the Player Interface, and will be pumped into your armor inventory slot(s).",
+		"",
+		"Hopefully this makes sense. See some of the Redstone Engineering sections of The Guide for more info."
+	],
+	tasks: [{
+		uid: "29519491",
+		type: "item",
+		items: [{
+			item: "randomthings:inventoryrerouter"
+		}]
+	}],
+	rewards: [{
+		uid: "49fe37b3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

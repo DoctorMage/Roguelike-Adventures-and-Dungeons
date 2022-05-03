@@ -1,0 +1,34 @@
+{
+	title: "Alright Gang, Let's Split Up!",
+	x: 20.5d,
+	y: 2.0d,
+	description: "I don't think that's such a good idea",
+	text: [
+		"What do you know, John?"
+	],
+	dependencies: [
+		"05276366"
+	],
+	tasks: [{
+		uid: "8568495a",
+		type: "item",
+		items: [{
+			item: "embers:beam_splitter"
+		}]
+	}],
+	rewards: [{
+		uid: "4b0c9a71",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "f013dd67",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "4869562e",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

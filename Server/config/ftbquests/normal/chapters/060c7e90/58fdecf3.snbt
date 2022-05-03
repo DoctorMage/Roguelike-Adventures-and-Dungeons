@@ -1,0 +1,31 @@
+{
+	title: "I Need More Mana!",
+	x: -7.5d,
+	y: 7.5d,
+	description: "I can't cast that.",
+	text: [
+		"Going OOM is the worst.",
+		"",
+		"Prevent symptoms of being OOM by using this!"
+	],
+	dependencies: [
+		"aa64e1f7"
+	],
+	tasks: [{
+		uid: "04ea3037",
+		type: "item",
+		items: [{
+			item: "ebwizardry:small_mana_flask"
+		}]
+	}],
+	rewards: [{
+		uid: "3a8f3392",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "74db2ec1",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

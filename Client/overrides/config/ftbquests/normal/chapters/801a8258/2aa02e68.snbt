@@ -1,0 +1,16 @@
+{
+	title: "Don't You Hate Misplacing Things?",
+	x: -9.0d,
+	y: 3.5d,
+	description: "Now you won't!",
+	text: [
+		"This Crafting Table keeps its inventory when you exit the UI."
+	],
+	tasks: [{
+		uid: "e1e7194c",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_workbench"
+		}]
+	}]
+}

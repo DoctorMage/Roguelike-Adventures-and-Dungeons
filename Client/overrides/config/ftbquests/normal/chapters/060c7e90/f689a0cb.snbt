@@ -1,0 +1,65 @@
+{
+	title: "The Good Stuff",
+	x: -14.0d,
+	y: 14.0d,
+	text: [
+		"These items are not covered in The Wizard's Handbook.",
+		"",
+		"These items are used to further upgrade your Wizard Robes, or Elemental Wizard Robes.",
+		"",
+		"They are found in dungeon chests.",
+		"",
+		"Upgrading your Wizard Robes with one of the items will turn it into the respective class of robe.",
+		"",
+		"Each robe type specializes in something slightly different, and has different effects on your casting abilities.",
+		"",
+		"You are only required to obtain the full set of a single type of Wizard armor to unlock this quest."
+	],
+	dependencies: [
+		"6b5d4a07"
+	],
+	dependency_requirement: "one_completed",
+	size: 3.0d,
+	tasks: [{
+		uid: "fbe4625c",
+		type: "item",
+		items: [{
+			item: "ebwizardry:crystal_silver_plating"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "170f584b",
+		type: "item",
+		items: [{
+			item: "ebwizardry:resplendent_thread"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7029eed4",
+		type: "item",
+		items: [{
+			item: "ebwizardry:ethereal_crystalweave"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c81c931e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "dcd135d0",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "b50d8308",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

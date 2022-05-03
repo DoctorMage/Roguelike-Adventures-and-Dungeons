@@ -1,0 +1,16 @@
+{
+	title: "Unlimited Power!",
+	x: -4.5d,
+	y: 0.0d,
+	description: "This has to be your final form, right?",
+	text: [
+		"Will enchant items placed into it, so long as it has power and xp to fuel the machine."
+	],
+	tasks: [{
+		uid: "96716c3a",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_enchanter"
+		}]
+	}]
+}

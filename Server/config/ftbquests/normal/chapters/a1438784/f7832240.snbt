@@ -1,0 +1,61 @@
+{
+	x: 10.5d,
+	y: 6.0d,
+	tasks: [{
+		uid: "3c24d3f8",
+		type: "item",
+		items: [{
+			item: "atum:loot_silver_idol"
+		}]
+	},
+	{
+		uid: "219d8cd9",
+		type: "item",
+		items: [{
+			item: "atum:loot_gold_idol"
+		}]
+	},
+	{
+		uid: "3830272d",
+		type: "item",
+		items: [{
+			item: "atum:loot_sapphire_idol"
+		}]
+	},
+	{
+		uid: "1e233e26",
+		type: "item",
+		items: [{
+			item: "atum:loot_ruby_idol"
+		}]
+	},
+	{
+		uid: "e936b796",
+		type: "item",
+		items: [{
+			item: "atum:loot_emerald_idol"
+		}]
+	},
+	{
+		uid: "ac224282",
+		type: "item",
+		items: [{
+			item: "atum:loot_diamond_idol"
+		}]
+	}],
+	rewards: [{
+		uid: "aee44a96",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "d6c5374c",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "4cf7e859",
+		type: "random",
+		table: 19
+	}]
+}

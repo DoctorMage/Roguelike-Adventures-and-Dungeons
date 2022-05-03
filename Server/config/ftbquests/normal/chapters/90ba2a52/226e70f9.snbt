@@ -1,0 +1,17 @@
+{
+	x: 19.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "5ec1ca91",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:syrmorite_block"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "bf0b16dc",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

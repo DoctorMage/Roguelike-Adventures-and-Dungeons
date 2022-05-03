@@ -1,0 +1,29 @@
+{
+	title: "Teleportation Systems",
+	x: -13.75d,
+	y: -3.0d,
+	description: "Teleporting can be nauseating",
+	text: [
+		"Waystones from both the Waystones mod and the Signposts mod can be found in villages.",
+		"",
+		"Each works differently, though both are ridiculously simple to use.",
+		"",
+		"Waystones from the different mods cannot link to each other. Waystones from Waystones are typically easier to use, though they both spawn in Villages in the same structure, and have the possibility of being one or the other."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "9e0b0e1b",
+		type: "checkmark",
+		title: "Let's do it!"
+	}],
+	rewards: [{
+		uid: "576e6f1e",
+		type: "item",
+		item: "waystones:waystone"
+	},
+	{
+		uid: "262d39cb",
+		type: "item",
+		item: "signpost:blockbase"
+	}]
+}

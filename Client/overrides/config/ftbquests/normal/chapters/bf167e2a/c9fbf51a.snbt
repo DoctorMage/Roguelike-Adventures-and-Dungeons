@@ -1,0 +1,72 @@
+{
+	title: "Who Was Wearing This Before You?",
+	x: 1.5d,
+	y: -15.5d,
+	description: "How are there stains... in a mask?",
+	text: [
+		"Obtain the Swetty Mask.",
+		"",
+		"You have to wear it for the entire shift and you're not allowed to take it off."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9ca912fb"
+	],
+	tasks: [{
+		uid: "d553e7e7",
+		type: "item",
+		items: [{
+			id: "lost_aether:swetty_mask",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "dark_red",
+					AttributeModifiers: [{
+						UUIDMost: -4564235555476781065L,
+						UUIDLeast: -7059342568700877174L,
+						Amount: -1.0d,
+						AttributeName: "generic.armorToughness",
+						Operation: 0,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 8396696667979664945L,
+						UUIDLeast: -5861553791314805196L,
+						Amount: -1.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -4901564107306221445L,
+						UUIDLeast: -6143506322211104955L,
+						Amount: -1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.crumbling.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "08ae690a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a2e84290",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "6e4b1c39",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

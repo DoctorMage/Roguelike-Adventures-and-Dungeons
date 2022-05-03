@@ -1,0 +1,25 @@
+{
+	title: "Heat",
+	icon: "embers:shard_ember",
+	x: 13.0d,
+	y: 5.0d,
+	description: "It's hot!",
+	text: [
+		"And it needs to be hotter!",
+		"",
+		"Refer to your Codex on how Heat works."
+	],
+	dependencies: [
+		"655ceacf"
+	],
+	tasks: [{
+		uid: "31eb73f4",
+		type: "checkmark",
+		title: "Hot hot!"
+	}],
+	rewards: [{
+		uid: "94ebadd8",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

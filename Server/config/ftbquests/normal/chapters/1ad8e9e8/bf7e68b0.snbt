@@ -1,0 +1,39 @@
+{
+	title: "Critter Killer V1.2",
+	x: -11.5d,
+	y: -2.0d,
+	description: "Snails be scared!",
+	text: [
+		"Obtain the Critter Cruncher",
+		"",
+		"This item instantly kills any critter it touches.",
+		"",
+		"This includes Blood Snails, Chiromaws, Dragonflies, Fireflies, Infestations, Leeches, Mire Snails, Sporelings and Termites."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"26c0736a"
+	],
+	tasks: [{
+		uid: "080ef600",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:critter_cruncher",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "261bedde",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "9ec8f612",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Let Er' Blow!",
+	x: -6.0d,
+	y: 13.5d,
+	description: "Did you strike gold yet?",
+	text: [
+		"Ho-ho-ho.",
+		"",
+		"Be careful. ",
+		"",
+		"That is all."
+	],
+	tasks: [{
+		uid: "4d6b8a7c",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:ender_tnt_6"
+		}]
+	}]
+}

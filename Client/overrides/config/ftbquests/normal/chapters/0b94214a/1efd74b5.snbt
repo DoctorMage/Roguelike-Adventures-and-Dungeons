@@ -1,0 +1,29 @@
+{
+	x: 2.5d,
+	y: -4.5d,
+	description: "But wait there's more!",
+	text: [
+		"Obtain a Superium Watering Can."
+	],
+	dependencies: [
+		"9a05eb59"
+	],
+	tasks: [{
+		uid: "0ab6ed50",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:watering_can 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "98f24f1a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "2a5383d7",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

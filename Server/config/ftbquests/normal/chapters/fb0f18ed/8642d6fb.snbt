@@ -1,0 +1,18 @@
+{
+	title: "Nostalgia",
+	x: -3.5d,
+	y: 0.5d,
+	description: "You remember playing with this don't you?",
+	text: [
+		"I wish I was young enough to where I didn't have to worry about my 9 to 5",
+		"",
+		""
+	],
+	tasks: [{
+		uid: "2c6c0deb",
+		type: "item",
+		items: [{
+			item: "openblocks:sprinkler"
+		}]
+	}]
+}

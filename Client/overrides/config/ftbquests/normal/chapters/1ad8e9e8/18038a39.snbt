@@ -1,0 +1,31 @@
+{
+	title: "Box Boogy",
+	x: 14.5d,
+	y: -2.0d,
+	description: "Dancing in this dimension?",
+	text: [
+		"Do these Peat Mummies even know what dancing is?",
+		"",
+		"Craft a Weedwood Jukebox."
+	],
+	dependencies: [
+		"f013ff53"
+	],
+	tasks: [{
+		uid: "4cf8995a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_jukebox"
+		}]
+	}],
+	rewards: [{
+		uid: "f71eab88",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b276bc3f",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

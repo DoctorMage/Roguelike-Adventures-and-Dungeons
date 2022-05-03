@@ -1,0 +1,28 @@
+{
+	title: "BYE!",
+	x: 2.0d,
+	y: -1.0d,
+	text: [
+		"Does what I say the title says it does."
+	],
+	dependencies: [
+		"33dcfd32"
+	],
+	tasks: [{
+		uid: "982cd2da",
+		type: "item",
+		items: [{
+			item: "tombstone:dust_of_vanishing"
+		}]
+	}],
+	rewards: [{
+		uid: "32676f98",
+		type: "item",
+		item: "minecraft:sand"
+	},
+	{
+		uid: "53c9deb6",
+		type: "item",
+		item: "iceandfire:blindfold"
+	}]
+}

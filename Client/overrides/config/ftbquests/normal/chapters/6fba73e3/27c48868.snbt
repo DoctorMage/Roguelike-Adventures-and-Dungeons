@@ -1,0 +1,28 @@
+{
+	title: "Hot Chicken Place",
+	x: -4.0d,
+	y: -7.0d,
+	description: "If you know, you know",
+	text: [
+		"My cousin told me to try his hot chicken and didn't tell me it was the Carolina Reaper one."
+	],
+	tasks: [{
+		uid: "4632c727",
+		type: "item",
+		items: [{
+			item: "xreliquary:pyromancer_staff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3b485edd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "cb38de9f",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

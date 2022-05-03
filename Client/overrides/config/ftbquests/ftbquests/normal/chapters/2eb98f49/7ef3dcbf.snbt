@@ -1,0 +1,31 @@
+{
+	x: 14.0d,
+	y: 5.0d,
+	description: "Look desired recipe with JEI. Then place corresponding blocks from each side on the Tablet and in the middle.",
+	dependencies: [
+		"0eb6e2e8",
+		"3424d46a"
+	],
+	tasks: [{
+		uid: "e4cc531b",
+		type: "item",
+		items: [{
+			item: "embers:alchemy_tablet"
+		}]
+	}],
+	rewards: [{
+		uid: "301d67f0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "32551f28",
+		type: "item",
+		item: "embers:seed_copper"
+	},
+	{
+		uid: "0d8e7756",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

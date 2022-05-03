@@ -1,0 +1,16 @@
+{
+	title: "The Weakest Link",
+	x: -2.0d,
+	y: 0.5d,
+	description: "Only as strong as you are!",
+	text: [
+		"These are kinda costly, but well worth it as an upgraded Lead."
+	],
+	tasks: [{
+		uid: "b7fb5258",
+		type: "item",
+		items: [{
+			item: "iceandfire:chain_link"
+		}]
+	}]
+}

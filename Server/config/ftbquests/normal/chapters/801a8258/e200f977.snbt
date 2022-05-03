@@ -1,0 +1,19 @@
+{
+	title: "Drop Top",
+	x: -2.5d,
+	y: 2.0d,
+	description: "Crock Pot",
+	text: [
+		"Can be toggled to automatically drop precise amounts of items, at precisely offset locations and with delay timers."
+	],
+	dependencies: [
+		"0a7ca16a"
+	],
+	tasks: [{
+		uid: "a0f17402",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:dropper_exact"
+		}]
+	}]
+}

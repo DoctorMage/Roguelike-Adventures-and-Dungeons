@@ -1,0 +1,31 @@
+{
+	title: "Anything Repellant",
+	x: 12.5d,
+	y: 5.5d,
+	description: "Shoo!",
+	text: [
+		"Creates a forcefield around the object and repels mobs and projectiles within a radius.",
+		"",
+		"The Repeller can be fueled by certain Aspect vials from the Alembic/Infuser."
+	],
+	dependencies: [
+		"5d62a11b"
+	],
+	tasks: [{
+		uid: "b3925975",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:repeller"
+		}]
+	}],
+	rewards: [{
+		uid: "68548f66",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "83c3403b",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

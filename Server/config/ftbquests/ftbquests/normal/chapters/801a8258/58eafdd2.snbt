@@ -1,0 +1,23 @@
+{
+	title: "D20",
+	x: 0.5d,
+	y: 5.0d,
+	text: [
+		"Works like a random comparator, to my understanding."
+	],
+	dependencies: [
+		"48f3abd2"
+	],
+	tasks: [{
+		uid: "8ff764e0",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:dice"
+		}]
+	}],
+	rewards: [{
+		uid: "98ac7374",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

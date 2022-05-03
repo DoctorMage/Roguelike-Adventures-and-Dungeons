@@ -1,0 +1,27 @@
+{
+	title: "Careful What You Post",
+	x: 3.0d,
+	y: 3.0d,
+	description: "It can never be deleted off the internet",
+	text: [
+		"Text Projectors can actually project text blocks away from the machine.",
+		"",
+		"Sensor Displays will tell you information about storage containers with Items, Fluids or Energy in them. You must identify the block you wish the Sensor Display to sense with a GPS Marker.",
+		"",
+		"Highly configurable, with color, font size, and projection distance."
+	],
+	tasks: [{
+		uid: "b27f5da6",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_screen"
+		}]
+	},
+	{
+		uid: "48ac9c97",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:screen_target"
+		}]
+	}]
+}

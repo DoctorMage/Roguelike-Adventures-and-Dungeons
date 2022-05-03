@@ -1,0 +1,23 @@
+{
+	title: "You Can't Stop The Rain--",
+	x: 8.0d,
+	y: 10.5d,
+	description: "WHEN IT STARTS TO PoOOUuUUR",
+	text: [
+		"Well, we can now.",
+		"",
+		"This item will stop the rain within a large radius around it."
+	],
+	tasks: [{
+		uid: "7376034b",
+		type: "item",
+		items: [{
+			item: "randomthings:rainshield"
+		}]
+	}],
+	rewards: [{
+		uid: "02eefa48",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

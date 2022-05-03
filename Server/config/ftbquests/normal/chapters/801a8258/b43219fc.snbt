@@ -1,0 +1,18 @@
+{
+	title: "Too Broke For The Real One",
+	x: 4.5d,
+	y: 8.0d,
+	description: "Or you're too noob",
+	text: [
+		"Either way, you don't have one and you had to settle for this bootleg one.",
+		"",
+		"Power it up and be thankful you have something to locate your base with."
+	],
+	tasks: [{
+		uid: "bc35f786",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:beacon_redstone"
+		}]
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	title: "Who Said Chivalry Was Dead?",
+	x: 9.0d,
+	y: -7.0d,
+	description: "Dragons did",
+	tasks: [{
+		uid: "444c1af5",
+		type: "item",
+		items: [{
+			item: "iceandfire:fire_lily"
+		}]
+	}]
+}

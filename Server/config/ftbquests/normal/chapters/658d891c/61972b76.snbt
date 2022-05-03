@@ -1,0 +1,28 @@
+{
+	title: "Snotty Snot",
+	x: 13.5d,
+	y: 2.5d,
+	description: "This stuff looks contagious",
+	tasks: [{
+		uid: "45e20dbe",
+		type: "item",
+		items: [{
+			item: "iceandfire:myrmex_jungle_resin"
+		}]
+	}],
+	rewards: [{
+		uid: "c257f96e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "133e0578",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "62eaf955",
+		type: "item",
+		item: "iceandfire:manuscript"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Night Night Knight!",
+	x: -1.5d,
+	y: -1.5d,
+	description: "Go to bed!",
+	text: [
+		"Put 5 Knight Phantoms to their final rest."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "e6ec6db8",
+		type: "kill",
+		icon: "twilightforest:trophy 1 4",
+		entity: "twilightforest:knight_phantom",
+		value: 5L
+	}],
+	rewards: [{
+		uid: "fec6dbb6",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "4752d915",
+		type: "xp_levels",
+		xp_levels: 40
+	}]
+}

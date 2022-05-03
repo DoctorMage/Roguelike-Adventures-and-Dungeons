@@ -1,0 +1,24 @@
+{
+	title: "Portable Trampolines",
+	x: 9.5d,
+	y: 4.0d,
+	description: "You're gonna get launched with this thing!",
+	text: [
+		"Launches players at specified velocities.",
+		"",
+		"Velocity can be customized."
+	],
+	tasks: [{
+		uid: "583b7269",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:plate_vector",
+			tag: {
+				vectorYaw: 90,
+				vectorAngle: 45,
+				sound: 1,
+				vectorPower: 60
+			}
+		}]
+	}]
+}

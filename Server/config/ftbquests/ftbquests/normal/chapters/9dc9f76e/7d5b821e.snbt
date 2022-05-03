@@ -1,0 +1,34 @@
+{
+	title: "Obsidian Colossal Chest",
+	x: -5.5d,
+	y: 5.0d,
+	dependencies: [
+		"7f7545c7"
+	],
+	tasks: [{
+		uid: "6b7a4d0e",
+		type: "item",
+		items: [{
+			item: "colossalchests:chest_wall 1 6"
+		}]
+	},
+	{
+		uid: "4d9e1eee",
+		type: "item",
+		items: [{
+			item: "colossalchests:colossal_chest 1 6"
+		}]
+	},
+	{
+		uid: "2e0e2aa2",
+		type: "item",
+		items: [{
+			item: "colossalchests:interface 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "377eb0cf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

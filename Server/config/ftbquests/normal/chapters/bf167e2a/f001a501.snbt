@@ -1,0 +1,31 @@
+{
+	title: "Astrology Girls",
+	x: 1.5d,
+	y: -19.0d,
+	description: "One of them gave me a rock",
+	text: [
+		"It made me feel better, I guess?",
+		"",
+		"Craft a Healing Stone."
+	],
+	dependencies: [
+		"de9220a6"
+	],
+	tasks: [{
+		uid: "e2aed1fb",
+		type: "item",
+		items: [{
+			item: "aether_legacy:healing_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "bc432481",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "eefd8489",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

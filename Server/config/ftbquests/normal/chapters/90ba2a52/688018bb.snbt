@@ -1,0 +1,23 @@
+{
+	x: 11.0d,
+	y: -1.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "273a0c88",
+		type: "item",
+		items: [{
+			item: "embers:block_tin"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "813ac95c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "d95b311e",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

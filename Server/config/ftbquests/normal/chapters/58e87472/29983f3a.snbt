@@ -1,0 +1,36 @@
+{
+	title: "Temporal Traveler",
+	x: -3.5d,
+	y: -3.0d,
+	description: "Cutting through the space-time-continuity lines",
+	text: [
+		"Right-Clicking a Rift with this item in your Mainhand will allow you to travel through the Rift, into its dimension."
+	],
+	dependencies: [
+		"f5ba5fd8"
+	],
+	tasks: [{
+		uid: "a45e0378",
+		type: "item",
+		items: [{
+			item: "dimdoors:rift_blade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "86b10069",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "95c231bb",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "07071417",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

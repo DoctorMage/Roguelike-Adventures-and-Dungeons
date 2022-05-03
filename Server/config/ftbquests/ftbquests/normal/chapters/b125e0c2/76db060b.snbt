@@ -1,0 +1,50 @@
+{
+	x: 1.5d,
+	y: 2.5d,
+	tasks: [{
+		uid: "a8f36b0b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"prefab:structuresconfiguration": {
+					configuration: {
+						wareHouseFacing: "north",
+						structureEnumName: "MagicTemple"
+					}
+				}
+			},
+			id: "prefab:item_basic_structure",
+			tag: {
+				ForgeCaps: {
+					"prefab:structuresconfiguration": {
+						configuration: {
+							wareHouseFacing: "north",
+							structureEnumName: "MagicTemple"
+						}
+					}
+				},
+				id: "prefab:item_basic_structure",
+				Count: 1b,
+				Damage: 0s
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4e5766a9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "25465031",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 89
+				}]
+			}
+		}
+	}]
+}

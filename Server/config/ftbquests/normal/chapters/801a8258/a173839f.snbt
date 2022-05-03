@@ -1,0 +1,20 @@
+{
+	title: "I Choose You!",
+	x: -13.5d,
+	y: 2.5d,
+	description: "Go! Stage 5 Dragon!",
+	text: [
+		"You can capture just about anything in these. Have fun.",
+		"",
+		"It is not recommended you use this item on entities that count as multiple creatures, such as the Hydra from The Twilight Forest. Single mob entities like Dragons, Sheep, and Wolves all present no issues with this item.",
+		"",
+		"Proceding to do so may crash your game. "
+	],
+	tasks: [{
+		uid: "ada6c2bc",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:magic_net"
+		}]
+	}]
+}

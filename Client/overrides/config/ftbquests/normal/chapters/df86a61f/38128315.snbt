@@ -1,0 +1,39 @@
+{
+	title: "This Seems Familiar",
+	icon: "randomthings:obsidianskull",
+	x: 14.5d,
+	y: 4.5d,
+	description: "Hmmm must be my imagination",
+	text: [
+		"Yea, imagination alright.",
+		"",
+		"This item has a chance to negate and nullify low level fire damage. The lower the fire damage, the higher the chance this item will nullify it for you."
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "3de4b764",
+		type: "item",
+		items: [{
+			item: "randomthings:obsidianskull"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "62606672",
+		type: "item",
+		items: [{
+			id: "randomthings:obsidianskullring",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e2967715",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

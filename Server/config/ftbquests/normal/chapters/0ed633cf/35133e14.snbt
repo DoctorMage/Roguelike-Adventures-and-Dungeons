@@ -1,0 +1,12 @@
+{
+	icon: "minecraft:paper",
+	x: 2.0d,
+	y: -5.5d,
+	tasks: [{
+		uid: "af2b0422",
+		type: "stat",
+		title: "Trade With Villagers 2,500 Times",
+		stat: "stat.tradedWithVillager",
+		value: 2500
+	}]
+}

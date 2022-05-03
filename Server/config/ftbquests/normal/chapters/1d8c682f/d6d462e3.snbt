@@ -1,0 +1,29 @@
+{
+	title: "Death Is Just The Beginning",
+	x: 0.0d,
+	y: 0.5d,
+	description: "Or is it? (It is, don't worry)",
+	text: [
+		"The dust seems to fall from the sides of your hands, but the pile never gets any smaller."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "257aab8d",
+		type: "item",
+		items: [{
+			item: "tombstone:crafting_ingredient 1 3"
+		}]
+	},
+	{
+		uid: "34af7236",
+		type: "item",
+		items: [{
+			item: "tombstone:crafting_ingredient 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "6503f8b1",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

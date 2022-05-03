@@ -1,0 +1,25 @@
+{
+	title: "Lazy Cheater",
+	x: -9.5d,
+	y: -12.5d,
+	description: "It's not that hard",
+	text: [
+		"This item is used to copy the tuned note of a Noteblock and place it onto another.",
+		"",
+		"It can also be used to copy the contents of a Sign and place it onto another."
+	],
+	tasks: [{
+		uid: "6f20921b",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:carbon_paper"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c2d8c7e2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

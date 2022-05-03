@@ -1,0 +1,16 @@
+{
+	title: "Hunter Hunter",
+	x: -2.0d,
+	y: -3.0d,
+	description: "The predator becomes the prey",
+	text: [
+		"Meant to capture that rabbit you could never outrun."
+	],
+	tasks: [{
+		uid: "ad2900ca",
+		type: "item",
+		items: [{
+			item: "openblocks:beartrap"
+		}]
+	}]
+}

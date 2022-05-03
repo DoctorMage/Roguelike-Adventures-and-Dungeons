@@ -1,0 +1,72 @@
+{
+	title: "You Traded Him What?!",
+	x: -15.5d,
+	y: 13.5d,
+	description: "Your life savings?",
+	text: [
+		"But it's a snazzy backpack...",
+		"",
+		"The Backpack will double your normal inventory space, at the cost of needing to go on your chestpiece.",
+		"",
+		"It can be obtained occasionally from Villagers."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "577a57ff",
+		type: "item",
+		items: [{
+			id: "quark:backpack",
+			tag: {
+				Quality: {
+					Slots: [
+						"chest"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 4918564098847031437L,
+						UUIDLeast: -5654459530294292138L,
+						Amount: 1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.arcane.name"
+				},
+				Inventory: [{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3e7d71a0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -8.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "132bb877",
+		type: "item",
+		items: [{
+			item: "harvestcraft:brusselsproutseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "f5c7e1f0",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "7150d275",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

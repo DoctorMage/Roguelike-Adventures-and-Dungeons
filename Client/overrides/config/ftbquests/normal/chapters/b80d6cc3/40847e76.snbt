@@ -1,0 +1,34 @@
+{
+	title: "John, I Swear This Thing Is Leaking",
+	x: 3.0d,
+	y: -3.5d,
+	description: "And don't lie to me this time!",
+	text: [
+		"It's not leaking... I promise"
+	],
+	dependencies: [
+		"89e07f91"
+	],
+	tasks: [{
+		uid: "b08c80a2",
+		type: "item",
+		items: [{
+			item: "embers:block_tank"
+		}]
+	}],
+	rewards: [{
+		uid: "d74aace6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "1b086811",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "ac94de9e",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

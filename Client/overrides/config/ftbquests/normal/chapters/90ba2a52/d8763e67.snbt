@@ -1,0 +1,49 @@
+{
+	x: 23.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "c9e6a024",
+		type: "item",
+		items: [{
+			item: "atum:loot_emerald_idol"
+		}],
+		count: 8L
+	},
+	{
+		uid: "3c8a5324",
+		type: "item",
+		items: [{
+			item: "atum:loot_emerald_necklace"
+		}],
+		count: 8L
+	},
+	{
+		uid: "779c5727",
+		type: "item",
+		items: [{
+			item: "atum:loot_emerald_ring"
+		}],
+		count: 8L
+	},
+	{
+		uid: "9942f9cb",
+		type: "item",
+		items: [{
+			item: "atum:loot_emerald_scepter"
+		}],
+		count: 8L
+	},
+	{
+		uid: "67737813",
+		type: "item",
+		items: [{
+			item: "atum:loot_emerald_broach"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "37275ea0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

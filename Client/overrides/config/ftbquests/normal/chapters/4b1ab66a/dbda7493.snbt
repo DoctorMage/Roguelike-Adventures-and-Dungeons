@@ -1,0 +1,22 @@
+{
+	x: 5.5d,
+	y: -14.5d,
+	tasks: [{
+		uid: "86b23e20",
+		type: "item",
+		items: [{
+			item: "harvestcraft:figitem"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "fe3d8344",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "8a558127",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

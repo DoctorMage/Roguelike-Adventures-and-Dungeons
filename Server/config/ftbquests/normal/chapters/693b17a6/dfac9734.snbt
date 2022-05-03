@@ -1,0 +1,28 @@
+{
+	title: "Rekting Ball V",
+	x: -8.5d,
+	y: -3.0d,
+	description: "You've dealt all the damage!",
+	text: [
+		"Deal 100,000,000 damage.",
+		"",
+		"You're a nut, you know that? "
+	],
+	tasks: [{
+		uid: "41f8be9c",
+		type: "stat",
+		title: "Deal 100,000,000 damage",
+		stat: "stat.damageDealt",
+		value: 100000000
+	}],
+	rewards: [{
+		uid: "ed5d7fdc",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "b753739d",
+		type: "xp_levels",
+		xp_levels: 25
+	}]
+}

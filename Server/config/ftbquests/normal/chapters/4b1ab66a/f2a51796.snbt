@@ -1,0 +1,21 @@
+{
+	x: -3.0d,
+	y: 5.5d,
+	tasks: [{
+		uid: "7d833435",
+		type: "item",
+		items: [{
+			item: "harvestcraft:bellpepperseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "fecf859b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "d1093b4a",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

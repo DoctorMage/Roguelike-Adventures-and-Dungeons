@@ -1,0 +1,29 @@
+{
+	x: -0.5d,
+	y: -12.0d,
+	description: "Why would you even GROW THIS?",
+	text: [
+		"Craft some Creeper Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aea8320e"
+	],
+	tasks: [{
+		uid: "8f31569d",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:creeper_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "db253929",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "82e3d493",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

@@ -1,0 +1,53 @@
+{
+	x: 8.0d,
+	y: -4.0d,
+	dependencies: [
+		"16f0a09e"
+	],
+	tasks: [{
+		uid: "f242ec42",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3c2cda93",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "70abf549",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e08cf976",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "89b081b5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "445542fe",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

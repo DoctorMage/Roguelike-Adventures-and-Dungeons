@@ -1,0 +1,31 @@
+{
+	title: "Spicy Life",
+	x: 10.0d,
+	y: -3.0d,
+	description: "Still glowing heavily",
+	text: [
+		"Collect a Pyrad Flame.",
+		"",
+		"They can be obtained by killing a Pyrad during its flame attack."
+	],
+	dependencies: [
+		"5805bceb"
+	],
+	tasks: [{
+		uid: "56932223",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:pyrad_flame"
+		}]
+	}],
+	rewards: [{
+		uid: "b39ca122",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5bfd59ef",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

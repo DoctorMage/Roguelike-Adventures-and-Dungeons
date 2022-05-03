@@ -1,0 +1,44 @@
+{
+	title: "Putting The Pow On A Pedestal",
+	x: 34.5d,
+	y: -0.5d,
+	description: "Is this safe?",
+	text: [
+		"Seems safe enough."
+	],
+	dependencies: [
+		"ae7c050f"
+	],
+	tasks: [{
+		uid: "1fd3e606",
+		type: "item",
+		items: [{
+			item: "embers:explosion_pedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "23ad1da1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "aa76853c",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "8268e117",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "be29456b",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "d72fe8bd",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

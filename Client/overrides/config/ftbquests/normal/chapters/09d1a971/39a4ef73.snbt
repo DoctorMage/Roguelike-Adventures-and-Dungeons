@@ -1,0 +1,94 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	dependencies: [
+		"ebb9ea72",
+		"07efbc4b",
+		"0ee439c9",
+		"04f7108a"
+	],
+	tasks: [{
+		uid: "310153bf",
+		type: "item",
+		items: [{
+			id: "vc:airships/item_airship",
+			tag: {
+				BalloonPatternTexture: 0,
+				LearnedModuleFuelInfinite: 0b,
+				EngineDisplayHeadVisual: 0,
+				BalloonPatternColor: 0b,
+				BalloonPatternColorRed: 200,
+				FuelItemStack: 0,
+				LearnedModuleWater: 0b,
+				EngineParticleVisual: 0,
+				StoredFuelTotal: 0,
+				SelectedModuleStorage: 0,
+				CoreModelVisualBalloon: 0,
+				FrameSkinColorGreen: 255,
+				StoredRedstone: 500,
+				FuelItemStackSize: 0,
+				BalloonPatternColorBlue: 140,
+				SelectedModuleBomb: 0,
+				LearnedModuleMusic: 0b,
+				CoreModelVisualFrame: 0,
+				FrameSkinTexture: 0,
+				SelectedModuleFuel: 0,
+				CustomName: "Betsy",
+				TierFrame: 5,
+				TierBalloon: 5,
+				ModuleActiveSlot1: 0,
+				EngineDisplaySupporterHeadVisual: 0,
+				EngineDisplayItemstackVisual: 0,
+				FrameSkinTransparent: 0b,
+				LearnedModuleSpeed: 0b,
+				SelectedModuleCruise: 0,
+				SelectedModuleFuelInfinite: 0,
+				SelectedModuleAltitude: 0,
+				CoreModelVisualEngine: 0,
+				Slots: {
+					Size: 64,
+					Items: [{
+						Slot: 16,
+						id: "minecraft:redstone",
+						Count: 64b,
+						Damage: 0s
+					}]
+				},
+				BalloonPatternTransparent: 0b,
+				BalloonPatternColorGreen: 180,
+				LearnedModuleBomb: 0b,
+				FrameSkinColorBlue: 255,
+				TierEngine: 5,
+				LearnedModuleAltitude: 0b,
+				FrameSkinColor: 0b,
+				LearnedModuleCruise: 0b,
+				LearnedModuleStorage: 0b,
+				LearnedModuleFuel: 0b,
+				StoredFuel: 0,
+				EngineDisplayTypeVisual: 0,
+				StoredRestoneTotal: 500,
+				EngineDisplayItemstackMetaVisual: 0,
+				BombType1: 0,
+				EngineDisplayHolidayVisual: 0,
+				BombType3: 0,
+				BombType2: 0,
+				FrameSkinColorRed: 255,
+				SelectedModuleSpeed: 0,
+				SelectedModuleMusic: 0,
+				SelectedModuleWater: 0
+			},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bcd9afb9",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "d6626741",
+		type: "xp_levels",
+		xp_levels: 25
+	}]
+}

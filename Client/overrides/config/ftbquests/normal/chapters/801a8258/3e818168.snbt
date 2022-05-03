@@ -1,0 +1,23 @@
+{
+	title: "Detect And Protect",
+	x: -12.5d,
+	y: 3.5d,
+	description: "Find them mobs!",
+	text: [
+		"Will give you a list of the possible spawns for that chunk.",
+		"",
+		"Is not always entirely accurate for your location.",
+		"",
+		""
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "bed10614",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_spawn_inspect"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,50 @@
+{
+	x: -0.5d,
+	y: -1.5d,
+	dependencies: [
+		"dcb87f83"
+	],
+	tasks: [{
+		uid: "551eeaf9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"prefab:structuresconfiguration": {
+					configuration: {
+						wareHouseFacing: "north",
+						structureEnumName: "AquaBase"
+					}
+				}
+			},
+			id: "prefab:item_basic_structure",
+			tag: {
+				ForgeCaps: {
+					"prefab:structuresconfiguration": {
+						configuration: {
+							wareHouseFacing: "north",
+							structureEnumName: "AquaBase"
+						}
+					}
+				},
+				id: "prefab:item_basic_structure",
+				Count: 1b,
+				Damage: 0s
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "915437c1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a9fd167a",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "potioncore:strong_bless"
+			}
+		}
+	}]
+}

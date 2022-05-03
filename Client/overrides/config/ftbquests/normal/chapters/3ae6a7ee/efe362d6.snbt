@@ -1,0 +1,20 @@
+{
+	x: -0.5d,
+	y: -3.5d,
+	dependencies: [
+		"d6ef2c67"
+	],
+	tasks: [{
+		uid: "bacd72d5",
+		type: "item",
+		items: [{
+			item: "vc:upgrades/item_upgrade_airship_core 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1de1b7bd",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

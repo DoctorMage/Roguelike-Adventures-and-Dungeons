@@ -1,0 +1,17 @@
+{
+	x: 20.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "97d51df0",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:octine_block"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "685dcdc0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

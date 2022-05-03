@@ -1,0 +1,29 @@
+{
+	title: "Under Pressure Performance",
+	x: 14.5d,
+	y: 1.5d,
+	description: "Meeting all the quotas",
+	text: [
+		"Your co-workers are telling you to work slower."
+	],
+	dependencies: [
+		"899a9a02"
+	],
+	tasks: [{
+		uid: "2ec8882e",
+		type: "item",
+		items: [{
+			item: "embers:boiler"
+		}]
+	}],
+	rewards: [{
+		uid: "eb77481f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "9c6ca318",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

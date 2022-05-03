@@ -1,0 +1,41 @@
+{
+	title: "It's Kinda Roomy",
+	x: -3.0d,
+	y: 1.5d,
+	description: "Don't put any junk in here now!",
+	text: [
+		"Adds storage to the airship and decreases top speed.",
+		"",
+		"All modules can be \"learned\" by your airship, but you can only activate one module at a time.",
+		"",
+		"Requires \"Time For An Upgrade!\" to complete."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8739b8df"
+	],
+	tasks: [{
+		uid: "05b77276",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 7"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "547026a8",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 8"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cf609afb",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 9"
+		}],
+		ignore_nbt: 1b
+	}]
+}

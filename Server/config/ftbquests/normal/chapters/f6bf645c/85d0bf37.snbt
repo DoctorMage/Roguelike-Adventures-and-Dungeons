@@ -1,0 +1,31 @@
+{
+	title: "CHARGE--!!!!!",
+	x: 1.5d,
+	y: -3.5d,
+	description: "AAAAHHH!!",
+	text: [
+		"Obtain the Diamond Minotaur Axe."
+	],
+	dependencies: [
+		"0a042006"
+	],
+	tasks: [{
+		uid: "f36c782c",
+		type: "item",
+		items: [{
+			item: "twilightforest:minotaur_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "71ba6f1e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "57f93709",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

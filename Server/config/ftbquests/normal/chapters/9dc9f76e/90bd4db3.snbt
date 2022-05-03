@@ -1,0 +1,29 @@
+{
+	title: "Golden Granny",
+	x: 12.5d,
+	y: -4.5d,
+	description: "Nice and juicy.",
+	text: [
+		"You're probably gonna eat one of these, and you'll never wanna pay for one ever again."
+	],
+	dependencies: [
+		"52178774"
+	],
+	tasks: [{
+		uid: "713e75ae",
+		type: "item",
+		items: [{
+			item: "minecraft:golden_apple 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "98a00fd4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "33af3c77",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

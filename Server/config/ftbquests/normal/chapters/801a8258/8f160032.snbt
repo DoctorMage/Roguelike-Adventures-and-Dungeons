@@ -1,0 +1,32 @@
+{
+	title: "Exchange Express",
+	x: -11.5d,
+	y: 10.5d,
+	description: "Your money isn't worth anything here, but your dirt is!",
+	text: [
+		"The first-most block in your inventory will replace all blocks of the same type, within the range the scepter is set to replace.",
+		"",
+		"These scepters are great for quick fixing, if you can get the hang of the strange inventory selection.",
+		""
+	],
+	tasks: [{
+		uid: "7a518585",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:tool_swap_match",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9f5998ea",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:tool_swap",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

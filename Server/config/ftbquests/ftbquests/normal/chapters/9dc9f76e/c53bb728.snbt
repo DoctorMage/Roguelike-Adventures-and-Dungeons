@@ -1,0 +1,72 @@
+{
+	title: "Drawers!",
+	x: -4.5d,
+	y: 1.0d,
+	text: [
+		"Can be use to hold many stacks of a single item. They can also be upgraded to hold more stacks of that item than before (up to A LOT). Drawers come in different shapes, sizes, and woods. See them all in the JEI tab.",
+		"",
+		"One of this items' biggest uses is its innate ability. It can hold unstackable items up to large quantities, such as Disenchanting Books from Corail Tombstone, or extra tools (with no item tags).",
+		"",
+		"Only one drawer needed to complete the quest."
+	],
+	dependencies: [
+		"ace30757"
+	],
+	dependency_requirement: "one_completed",
+	or_tasks: true,
+	tasks: [{
+		uid: "fbe0318d",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		}]
+	},
+	{
+		uid: "fd06a3b0",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "spruce"
+			}
+		}]
+	},
+	{
+		uid: "2f8d5b67",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "birch"
+			}
+		}]
+	},
+	{
+		uid: "372ac258",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "jungle"
+			}
+		}]
+	},
+	{
+		uid: "f99ead48",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "dark_oak"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "36fb13be",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

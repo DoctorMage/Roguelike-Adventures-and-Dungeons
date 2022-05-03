@@ -1,0 +1,29 @@
+{
+	x: -3.5d,
+	y: 6.0d,
+	description: "You're baAaAaAad!",
+	text: [
+		"Obtain a Sheep Chunk."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"65aaafb5"
+	],
+	tasks: [{
+		uid: "8836297d",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chunk 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "c760375e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "32675dca",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

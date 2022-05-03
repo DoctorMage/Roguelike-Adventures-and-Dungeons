@@ -1,0 +1,140 @@
+{
+	title: "HEIMDALLR",
+	x: -11.0d,
+	y: 15.5d,
+	description: "Open the Bifrost!",
+	text: [
+		"Colored Runes from Quark can be used in an Anvil to change the color of a weapon or armor pieces' enchantment glint.",
+		"",
+		"But more importantly, they can be placed into End Portal Frames to create a special portal.",
+		"",
+		"You can travel between the two closest End Portals which share the same colors on all sides. Order of colors does not matter, but can help for replicating the colors.",
+		"",
+		"You will not be able to travel to the End using this portal. To travel to the End, you will need to remove the Colored Runes and replace them with Eyes of Ender."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "0159d998",
+		type: "item",
+		items: [{
+			item: "quark:rune"
+		}]
+	},
+	{
+		uid: "757cd837",
+		type: "item",
+		items: [{
+			item: "quark:rune 1 1"
+		}]
+	},
+	{
+		uid: "bab1f661",
+		type: "item",
+		items: [{
+			item: "quark:rune 1 2"
+		}]
+	},
+	{
+		uid: "e11505a1",
+		type: "item",
+		items: [{
+			item: "quark:rune 1 3"
+		}]
+	},
+	{
+		uid: "a6efd375",
+		type: "item",
+		items: [{
+			item: "quark:rune 1 4"
+		}]
+	},
+	{
+		uid: "2f4c5060",
+		type: "item",
+		items: [{
+			item: "quark:rune 1 5"
+		}]
+	},
+	{
+		uid: "8897009d",
+		type: "item",
+		items: [{
+			item: "quark:rune 1 6"
+		}]
+	},
+	{
+		uid: "2beb061c",
+		type: "item",
+		items: [{
+			item: "quark:rune 1 7"
+		}]
+	},
+	{
+		uid: "71bdca04",
+		type: "item",
+		items: [{
+			item: "quark:rune 1 8"
+		}]
+	},
+	{
+		uid: "154b39c3",
+		type: "item",
+		items: [{
+			item: "quark:rune 1 9"
+		}]
+	},
+	{
+		uid: "906300aa",
+		type: "item",
+		items: [{
+			item: "quark:rune 1 10"
+		}]
+	},
+	{
+		uid: "7b1531cd",
+		type: "item",
+		items: [{
+			item: "quark:rune 1 11"
+		}]
+	},
+	{
+		uid: "ec6dd54f",
+		type: "item",
+		items: [{
+			item: "quark:rune 1 12"
+		}]
+	},
+	{
+		uid: "cd23369c",
+		type: "item",
+		items: [{
+			item: "quark:rune 1 13"
+		}]
+	},
+	{
+		uid: "4787adb0",
+		type: "item",
+		items: [{
+			item: "quark:rune 1 14"
+		}]
+	},
+	{
+		uid: "232ceebc",
+		type: "item",
+		items: [{
+			item: "quark:rune 1 15"
+		}]
+	},
+	{
+		uid: "d885224d",
+		type: "item",
+		items: [{
+			item: "quark:rune 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "35995ed7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

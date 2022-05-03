@@ -1,0 +1,33 @@
+{
+	title: "Rite Of Passage",
+	x: -2.0d,
+	y: -1.0d,
+	description: "Quite literally",
+	text: [
+		"This item is used to further research information in your Bestiary.",
+		"",
+		"Try studying the pages at a Lectern."
+	],
+	tasks: [{
+		uid: "b88bdc31",
+		type: "item",
+		items: [{
+			item: "iceandfire:manuscript"
+		}]
+	}],
+	rewards: [{
+		uid: "7ba07ed2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "c334b3d1",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "99ad51bc",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

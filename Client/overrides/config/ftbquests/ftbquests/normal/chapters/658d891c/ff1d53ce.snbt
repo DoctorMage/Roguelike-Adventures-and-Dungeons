@@ -1,0 +1,40 @@
+{
+	x: 31.5d,
+	y: -8.0d,
+	tasks: [{
+		uid: "f5cd4ba5",
+		type: "item",
+		items: [{
+			item: "iceandfire:mountain_troll_leather_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a9ad91ba",
+		type: "item",
+		items: [{
+			item: "iceandfire:mountain_troll_leather_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b43debea",
+		type: "item",
+		items: [{
+			item: "iceandfire:mountain_troll_leather_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0a6750fe",
+		type: "item",
+		items: [{
+			item: "iceandfire:mountain_troll_leather_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Elevators can move upwards through a single block, like a closed Trap Door on the ceiling. However, if there is anything blocking the descent to the next elevator, you will not be able to move down a level, making this a one way upwards trip.",
+		"",
+		"Remember, elevators can only transport between elevators of the same color."
+	],
+	tasks: [{
+		uid: "49b28ca2",
+		type: "item",
+		items: [{
+			item: "openblocks:elevator 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "000a8478",
+		type: "item",
+		items: [{
+			item: "harvestcraft:bambooshootseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "1f1c18ab",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "c6422349",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

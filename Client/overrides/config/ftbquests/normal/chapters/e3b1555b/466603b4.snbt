@@ -1,0 +1,23 @@
+{
+	title: "3 Days Later",
+	x: 0.5d,
+	y: 5.0d,
+	description: "You cheated Death. Hopefully this breakup is the last time.",
+	text: [
+		"Soul Receptacles will hold a Grave's Soul and release it when you die, saving you from death a single time.",
+		"",
+		"Soul Receptacles are rare drops from dungeon chests."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"33dcfd32"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "794afa32",
+		type: "item",
+		items: [{
+			item: "tombstone:soul_receptacle"
+		}]
+	}]
+}

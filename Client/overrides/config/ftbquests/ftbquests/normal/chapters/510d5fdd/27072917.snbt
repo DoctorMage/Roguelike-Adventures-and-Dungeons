@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: -2.5d,
+	description: "Get a load of this!",
+	text: [
+		"Trading money, shop gold, gold, cash, player currency... coins. Whatever you call it, it can be earned by doing quests in the FTB Questbook. Some quests are one time only, and will provide large chunks of money.",
+		"",
+		"Whether you spend these items on yourself, or turn them into a physical item to trade or sell to your friend is up to you.",
+		"",
+		"Besides the Shop, at the very top of all Chapters, money can also be spent in the \"Trading Market\" Chapter in the FTB Questbook."
+	],
+	tasks: [{
+		uid: "144b067c",
+		type: "checkmark",
+		title: "Let's get this bread!"
+	}],
+	rewards: [{
+		uid: "f1ff8d25",
+		type: "item",
+		item: "minecraft:bread"
+	}]
+}

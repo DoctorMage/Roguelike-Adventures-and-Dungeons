@@ -1,0 +1,16 @@
+{
+	title: "A Big Block Of Crusties",
+	x: 14.0d,
+	y: -2.5d,
+	description: "I dare you to lick it",
+	dependencies: [
+		"719a8eaa"
+	],
+	tasks: [{
+		uid: "6d6e8fa2",
+		type: "item",
+		items: [{
+			item: "iceandfire:myrmex_desert_resin_block"
+		}]
+	}]
+}

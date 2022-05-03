@@ -1,0 +1,40 @@
+{
+	x: -2.5d,
+	y: 4.0d,
+	dependencies: [
+		"48f3abd2"
+	],
+	tasks: [{
+		uid: "9986e3fd",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:clock"
+		}]
+	},
+	{
+		uid: "cd4133e2",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:moon_sensor"
+		}]
+	},
+	{
+		uid: "611911df",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:entity_detector"
+		}]
+	},
+	{
+		uid: "022a0832",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:target"
+		}]
+	}],
+	rewards: [{
+		uid: "e9cb8c57",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

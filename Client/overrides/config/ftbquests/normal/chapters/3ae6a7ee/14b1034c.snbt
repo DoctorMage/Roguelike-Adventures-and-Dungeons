@@ -1,0 +1,41 @@
+{
+	title: "Higher Flyin' ",
+	x: -5.0d,
+	y: 1.5d,
+	description: "I hope you're not scared of heights!",
+	text: [
+		"Allows you to elevate higher, and elevate faster.",
+		"",
+		"All modules can be \"learned\" by your airship, but you can only activate one module at a time.",
+		"",
+		"Requires \"Time For An Upgrade!\" to complete."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8739b8df"
+	],
+	tasks: [{
+		uid: "0dbe0fee",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e52fffaf",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5cc70062",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 3"
+		}],
+		ignore_nbt: 1b
+	}]
+}

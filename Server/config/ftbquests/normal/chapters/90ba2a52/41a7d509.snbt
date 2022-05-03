@@ -1,0 +1,27 @@
+{
+	title: "Burn The Witch!",
+	x: 2.0d,
+	y: -5.5d,
+	shape: "octagon",
+	description: "Salem all over again",
+	text: [
+		"Kill 25 Witches"
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "2dd78c8d",
+		type: "kill",
+		entity: "minecraft:witch",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "62bcafbe",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c0c11257",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

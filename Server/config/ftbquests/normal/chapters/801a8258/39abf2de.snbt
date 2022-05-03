@@ -1,0 +1,30 @@
+{
+	title: "Unsafe Scaffolding",
+	x: -12.5d,
+	y: 9.0d,
+	description: "Construction is fun!",
+	text: [
+		"These scaffolinding blocks should aid the player in building and placing blocks that would otherwise be a challenge."
+	],
+	tasks: [{
+		uid: "060b997e",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_fragile_weak"
+		}]
+	},
+	{
+		uid: "1b60ed86",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_fragile"
+		}]
+	},
+	{
+		uid: "9de8fa6a",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_fragile_auto"
+		}]
+	}]
+}

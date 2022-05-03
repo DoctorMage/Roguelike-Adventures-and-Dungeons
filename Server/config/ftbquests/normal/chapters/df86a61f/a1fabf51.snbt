@@ -1,0 +1,27 @@
+{
+	title: "Indoor Lava-Fall!",
+	x: 4.5d,
+	y: 3.5d,
+	description: "Isn't that still dangerous?",
+	text: [
+		"Not with this bad boy. Think of those TV fire displays, but with lava...",
+		"",
+		"Right-Click with a fluid to display. Works with modded fluids.",
+		"",
+		"Right-Click with an empty hand to change the texture between stationary, and moving.",
+		"",
+		"Shift-Right-Click with an empty hand to rotate the texture."
+	],
+	tasks: [{
+		uid: "d5b0de78",
+		type: "item",
+		items: [{
+			item: "randomthings:fluiddisplay"
+		}]
+	}],
+	rewards: [{
+		uid: "fef26e01",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

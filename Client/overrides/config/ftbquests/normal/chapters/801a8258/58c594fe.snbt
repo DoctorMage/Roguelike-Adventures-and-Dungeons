@@ -1,0 +1,16 @@
+{
+	title: "Big Button",
+	x: 2.5d,
+	y: 4.0d,
+	description: "Wow it's big",
+	text: [
+		"Big big."
+	],
+	tasks: [{
+		uid: "ada19b4d",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:button_large"
+		}]
+	}]
+}

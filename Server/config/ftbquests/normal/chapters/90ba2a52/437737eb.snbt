@@ -1,0 +1,16 @@
+{
+	title: "Steve, The Lurker Wrestler",
+	x: 12.0d,
+	y: 9.5d,
+	description: "Lurker's are some of the most dangerous animals in the Betweenlands... watch out!",
+	text: [
+		"Skin 50 Lurkers."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "261a0fbd",
+		type: "kill",
+		entity: "thebetweenlands:lurker",
+		value: 50L
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	description: "Where his story ends, and yours begins",
+	text: [
+		"Slay an Ancient Golem. They are found around the world, and below the ground."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "c6645bdb",
+		type: "kill",
+		title: "Goliath",
+		entity: "embers:ancient_golem",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "2d0f6d29",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "cd1ba68a",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "876ef6b1",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

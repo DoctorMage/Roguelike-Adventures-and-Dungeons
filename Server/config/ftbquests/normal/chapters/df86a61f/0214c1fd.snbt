@@ -1,0 +1,25 @@
+{
+	title: "The Remote Remote",
+	x: 8.5d,
+	y: -11.5d,
+	description: "You see, because it works from afar",
+	text: [
+		"Now you can use your lever from where ever you are.",
+		"",
+		"Use it for an extending bridge, or something. Or a door. I don't know."
+	],
+	tasks: [{
+		uid: "715631a5",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:password_remote"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0c063080",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

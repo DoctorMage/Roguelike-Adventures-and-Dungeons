@@ -1,0 +1,40 @@
+{
+	title: "An OpenWorld",
+	x: -7.0d,
+	y: -0.5d,
+	text: [
+		"OpenBlocks has tons of gadgets and tools. Explore them and find out which ones you love and hate!",
+		"",
+		"Best of all, the mod has a rather detailed guidebook. Information you can't find in the guidebook for the mod can be found in the questbook, but you're going to get reffered to the book a lot.",
+		"",
+		"The video links inside the guidebook are entirely safe, and are direct links to YouTube videos that will help players understand certain mechanics of the mod. WATCH THEM!"
+	],
+	tasks: [{
+		uid: "96b457e8",
+		type: "checkmark",
+		title: "I'm ready!"
+	}],
+	rewards: [{
+		uid: "1a923bc4",
+		type: "item",
+		item: {
+			id: "minecraft:written_book",
+			tag: {
+				pages: [
+					"{\"text\":\" OpenBlocks Trophies\\n   And What They Do\\n\\n\\n\\n\\n\\nNote: The effects of trophies are shortened to their most effective purpose. Useless trophies not included.\"}",
+					"{\"text\":\"Cow - Produces Leather\\n\\nSkeleton - Shoots an Arrow\\n\\nBlaze - Lights users on fire\\n\\nEnderman - Teleports players a random short distance away\\n\"}",
+					"{\"text\":\"Pig - Produces Raw Porkchops\\n\\nChicken - Produces Eggs\\n\\nCreeper - Creates an explosion sound as well as particles\\n\\nZombie Pigman - Produces Gold Nuggets\\n\\n\"}",
+					"{\"text\":\"Mooshroom - Produces Mushrooms\\n\\nSnow Golem - Covers nearby blocks in snow\\n\\nWither Skeleton - Produces Wither Skeleton Skulls\\n\\n\"}"
+				],
+				author: "Mastarin",
+				title: "Your Trophies",
+				resolved: 1b
+			}
+		}
+	},
+	{
+		uid: "b6b2629a",
+		type: "item",
+		item: "openblocks:info_book"
+	}]
+}

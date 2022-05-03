@@ -1,0 +1,33 @@
+{
+	title: "Charged Up!",
+	x: 15.5d,
+	y: 1.0d,
+	description: "Does this count as high voltage?",
+	text: [
+		"I mean... you can get burned?"
+	],
+	dependencies: [
+		"899a9a02"
+	],
+	tasks: [{
+		uid: "88728492",
+		type: "item",
+		items: [{
+			id: "embers:copper_cell",
+			tag: {
+				emberCapacity: 24000.0d,
+				ember: 24000.0d
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4178cb6e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "96f934b3",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

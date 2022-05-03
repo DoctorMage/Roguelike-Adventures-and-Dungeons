@@ -1,0 +1,24 @@
+{
+	title: "Recycle! Reuse!",
+	x: -5.5d,
+	y: -0.5d,
+	description: "Made from all natural animal hide.",
+	text: [
+		"One of the pieces needed to build an airship!"
+	],
+	dependencies: [
+		"4ca3d38d"
+	],
+	tasks: [{
+		uid: "d62a875d",
+		type: "item",
+		items: [{
+			item: "vc:item_airship_balloon"
+		}]
+	}],
+	rewards: [{
+		uid: "46563669",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

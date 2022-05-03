@@ -1,0 +1,67 @@
+{
+	title: "Storm Wizard Artefacts",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "ebwizardry:charm_storm",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_channeling",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 80
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_potential",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_stormcloud",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_lightning_melee",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_storm",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_hammer",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 75
+	}]
+}

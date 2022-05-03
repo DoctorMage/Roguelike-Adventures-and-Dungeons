@@ -1,0 +1,32 @@
+{
+	title: "The Super Remoto 720 Super Flip",
+	x: 21.5d,
+	y: -5.0d,
+	description: "Now with standard toaster installed!",
+	text: [
+		"This is the basic one though, so it doesn't have the toaster. ",
+		"",
+		"But it's got everything else! Like being able to send a 20 tick (1s) pulse to up to 9 locations, remotely!",
+		"",
+		"Use a Position Filter to select the location or block you wish to be powered.",
+		"",
+		"Shift-Right-Click to \"open\" your Redstone Remote. Place an item below the Position Filter. This will be the item icon that appears for that location when activating your Redstone Remote.",
+		"",
+		"Right-Click to activate your Remote and select a location. Rapidly clicking a location seems to give a continuous Redstone signal."
+	],
+	tasks: [{
+		uid: "47cb42a4",
+		type: "item",
+		items: [{
+			id: "randomthings:redstoneremote",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c7ac2bb6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

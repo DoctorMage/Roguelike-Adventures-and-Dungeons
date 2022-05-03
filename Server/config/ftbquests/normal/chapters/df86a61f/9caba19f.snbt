@@ -1,0 +1,40 @@
+{
+	title: "Satellite 3D Imaging Software",
+	x: -22.0d,
+	y: 0.0d,
+	description: "We call it SIS",
+	text: [
+		"The Cartographer, and the Height Map Table, will allow players to create and portray 3D maps of their bases.",
+		"",
+		"Place your Height Map device where you wish for your map to be displayed. It will be displayed one block above the Height Map device, and can be configured to be even higher.",
+		"",
+		"Right-Click to summon your Cartographer. It will be a floating, quirky little helper.",
+		"",
+		"Take one of your EMPTY Maps which you have made for the Cartographer to use. Shift-Right-Click your Cartographer to give the map to it.",
+		"",
+		"When the Cartographer shows coordinates, it means it does not have a map. When the Cartographer has a green blotch, it is scanning a map.",
+		"",
+		"The Cartographer will be finished scanning once the entire square is filled. If it is not a full green square, the map is STILL being scanned. BE PATIENT.",
+		"",
+		"When the map is done, Shift-Right-Click to remove it from your Cartographer.",
+		"",
+		"You can then simply place the map into your Height Map Projector.",
+		"",
+		"Height Maps are not as easily organizable like regular maps. You will need to do some math if you wish for the maps to be perfectly continuous.",
+		"",
+		"Advanced tutorials for the Height Map Projector may be available later, in The Guides."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "d4fe165e",
+		type: "item",
+		items: [{
+			item: "openblocks:projector"
+		}]
+	}],
+	rewards: [{
+		uid: "550a9e46",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

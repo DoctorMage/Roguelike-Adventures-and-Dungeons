@@ -1,0 +1,25 @@
+{
+	title: "Any Sound You Want!",
+	x: 11.5d,
+	y: -10.0d,
+	description: "Kinda crazy... ",
+	text: [
+		"This block will play any audio file from the modpack.",
+		"",
+		"It's a LONG list.",
+		"",
+		"I can't even think of anything creative for this block. But go ham."
+	],
+	tasks: [{
+		uid: "0f2fb670",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:sound_player"
+		}]
+	}],
+	rewards: [{
+		uid: "341bfd27",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

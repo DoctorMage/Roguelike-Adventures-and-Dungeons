@@ -1,0 +1,53 @@
+{
+	x: 10.0d,
+	y: 1.0d,
+	text: [
+		"The Ancient Armor is a endgame armor set found in the Sludgeon, hidden in a secret room within the Crypt, located in the Labyrinthine Vaults.",
+		"",
+		"A full set of Ancient Armor grants 20 armor points, or 10 armor icons. It also grants up to half magic damage reduction and is unbreakable (unusable at 0 durability until repaired.)"
+	],
+	dependencies: [
+		"f1e000fd"
+	],
+	tasks: [{
+		uid: "afb16098",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:ancient_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3c79636d",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:ancient_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "67778a0f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:ancient_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a7708f30",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:ancient_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "789535aa",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

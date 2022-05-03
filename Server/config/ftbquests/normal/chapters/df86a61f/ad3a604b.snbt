@@ -1,0 +1,84 @@
+{
+	title: "Ink Is Expensive",
+	icon: {
+		id: "openblocks:paint_mixer",
+		tag: {}
+	},
+	x: -19.5d,
+	y: 3.5d,
+	description: "The reason is stupid",
+	text: [
+		"Go educate yourself on why it's expensive.",
+		"",
+		"So. Here is where you make your OWN ink!",
+		"",
+		"Power this bad boy up, and get to work!",
+		"",
+		"Ever thought those neon colored blocks were a bit expensive?!",
+		"",
+		"Well, now you can bootleg it... with ANY color... oh yea.",
+		"",
+		"Side note, you can place your Paint Buckets on the ground and dip your Brush with Right-Click."
+	],
+	tasks: [{
+		uid: "fe40ccb7",
+		type: "item",
+		items: [{
+			id: "openblocks:paint_mixer",
+			tag: {}
+		}]
+	},
+	{
+		uid: "c0525e85",
+		type: "item",
+		items: [{
+			item: "minecraft:milk_bucket"
+		}]
+	},
+	{
+		uid: "0d1d1180",
+		type: "item",
+		items: [{
+			item: "openblocks:paintbrush"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1d031e39",
+		type: "item",
+		items: [{
+			item: "quark:root_dye 1 1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "5bfc11ab",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 6"
+		}],
+		count: 64L
+	},
+	{
+		uid: "f0cfce85",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 13"
+		}],
+		count: 64L
+	},
+	{
+		uid: "040507fc",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 11"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "32e7ce67",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

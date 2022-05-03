@@ -1,0 +1,21 @@
+{
+	x: -0.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "35ba2dea",
+		type: "item",
+		items: [{
+			item: "prefab:item_start_house"
+		}]
+	}],
+	rewards: [{
+		uid: "73527060",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "4c53a6ec",
+		type: "item",
+		item: "roughtweaks:bandage"
+	}]
+}

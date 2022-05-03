@@ -1,0 +1,29 @@
+{
+	x: -0.5d,
+	y: -14.0d,
+	description: "You're so a-brass-ive...",
+	text: [
+		"Craft some Brass Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aea8320e"
+	],
+	tasks: [{
+		uid: "07f7ac3e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:brass_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "081d8fbd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "e127af82",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

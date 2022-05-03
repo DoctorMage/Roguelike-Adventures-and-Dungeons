@@ -1,0 +1,42 @@
+{
+	x: 0.5d,
+	y: 5.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"4ca3d38d"
+	],
+	tasks: [{
+		uid: "6bf0e8ce",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 4"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c4804a9e",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 5"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "21059015",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5303c9fd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "3f5b7c22",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Lil Zanite",
+	x: 7.0d,
+	y: -17.5d,
+	description: "The best rapper in the Aether",
+	text: [
+		"Collect some Zanite."
+	],
+	dependencies: [
+		"9ca912fb"
+	],
+	tasks: [{
+		uid: "37976674",
+		type: "item",
+		items: [{
+			item: "aether_legacy:zanite_gemstone"
+		}]
+	}],
+	rewards: [{
+		uid: "311a34d1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "cadb1ec5",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

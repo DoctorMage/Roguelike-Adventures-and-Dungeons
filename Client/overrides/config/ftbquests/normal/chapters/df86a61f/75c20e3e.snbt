@@ -1,0 +1,33 @@
+{
+	title: "It's Called Being Sophisticated",
+	x: 22.0d,
+	y: -3.0d,
+	description: "No, John, this is advanced",
+	text: [
+		"Like advanced tech.",
+		"",
+		"This Repeater is the most advanced version of a Repeater you're going to see for a good while.",
+		"",
+		"Well, not really, but it's as user-friendly and efficient as it gets.",
+		"",
+		"The configuration of this item should be self-explanatory for those who know what they're doing.",
+		"",
+		"20 Ticks = 1 Second",
+		"",
+		"Press Shift to move in tens, Cntrl to move in hundreds, or both to move in Thousands.",
+		"",
+		"The Tick delay caps out at 10,000 or 8m 20s."
+	],
+	tasks: [{
+		uid: "894b4b98",
+		type: "item",
+		items: [{
+			item: "randomthings:advancedredstonerepeater"
+		}]
+	}],
+	rewards: [{
+		uid: "a639965b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

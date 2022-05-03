@@ -1,0 +1,27 @@
+{
+	title: "If A Fan Took Steroids",
+	x: 7.5d,
+	y: -19.5d,
+	description: "And did a 720 no-scope impossible kickflip",
+	text: [
+		"With a hat on.",
+		"",
+		"The Interdiction Pulsar will push mobs away at fast rates.",
+		"",
+		"Can be used to replace fans, if you're smart enough to set your mob farm up in a different way. ",
+		"",
+		"Doesn't require Redstone to be powered."
+	],
+	tasks: [{
+		uid: "831ec93a",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:magnet_anti_block"
+		}]
+	}],
+	rewards: [{
+		uid: "9e4b9194",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

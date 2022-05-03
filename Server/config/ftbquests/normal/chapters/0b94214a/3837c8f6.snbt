@@ -1,0 +1,29 @@
+{
+	x: -3.5d,
+	y: 7.0d,
+	description: "I miss the old Nickelodeon",
+	text: [
+		"Obtain a Slime Chunk."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"65aaafb5"
+	],
+	tasks: [{
+		uid: "7d3930f8",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chunk 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "f3b41672",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "539dc6c9",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

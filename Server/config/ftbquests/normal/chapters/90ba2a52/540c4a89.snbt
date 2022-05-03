@@ -1,0 +1,23 @@
+{
+	title: "Barrisheeeeeeshhhh",
+	x: 1.0d,
+	y: 8.0d,
+	description: "Sheeeeshhhh",
+	text: [
+		"Slay 10 monstrous Barrishee.",
+		"",
+		"Check the Shop for a nice reward."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "c9a4e47d",
+		type: "kill",
+		entity: "thebetweenlands:barrishee",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "486b9324",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

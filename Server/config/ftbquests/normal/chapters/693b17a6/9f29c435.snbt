@@ -1,0 +1,21 @@
+{
+	title: "Batter Bandit III",
+	x: -13.0d,
+	y: -1.0d,
+	description: "Eat it up!",
+	text: [
+		"Eat 1,000 slices of cake."
+	],
+	tasks: [{
+		uid: "e6c0c97a",
+		type: "stat",
+		icon: "minecraft:cake",
+		stat: "stat.cakeSlicesEaten",
+		value: 1000
+	}],
+	rewards: [{
+		uid: "b43f1b05",
+		type: "ftbmoney:money",
+		ftb_money: 1250L
+	}]
+}

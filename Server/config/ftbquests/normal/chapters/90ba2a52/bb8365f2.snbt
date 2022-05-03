@@ -1,0 +1,27 @@
+{
+	title: "Pharaoh Fighter",
+	x: -2.0d,
+	y: 5.5d,
+	description: "Beat that bag of bones up!",
+	text: [
+		"Defeat 10 Pharoahs in their tomb."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "5e3f3844",
+		type: "kill",
+		icon: "atum:sarcophagus",
+		entity: "atum:pharaoh",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "4e249452",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "0a505ac5",
+		type: "xp_levels",
+		xp_levels: 50
+	}]
+}

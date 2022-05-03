@@ -1,0 +1,37 @@
+{
+	title: "Down With You, Hag!",
+	x: -11.5d,
+	y: -1.0d,
+	description: "You were ugly anyways",
+	text: [
+		"Obtain the Hag Hacker.",
+		"",
+		"This item will instantly kill any Swamp Hags it touches."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"26c0736a"
+	],
+	tasks: [{
+		uid: "b2242316",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:hag_hacker",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a9aa92c8",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "3f7395f9",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

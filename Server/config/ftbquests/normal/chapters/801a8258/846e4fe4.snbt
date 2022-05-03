@@ -1,0 +1,21 @@
+{
+	title: "Teach A Man How To Fish",
+	x: -5.5d,
+	y: 6.0d,
+	description: "And he'll automate the process",
+	text: [
+		"Unbreaking may prolong the use of a Fishing Rod inside a net, but other Enchants do not seem to provide benefits.",
+		"",
+		"Will automatically capture fish for you. Certain conditions will increase yield frequency."
+	],
+	dependencies: [
+		"0a7ca16a"
+	],
+	tasks: [{
+		uid: "01191d6b",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_fishing"
+		}]
+	}]
+}

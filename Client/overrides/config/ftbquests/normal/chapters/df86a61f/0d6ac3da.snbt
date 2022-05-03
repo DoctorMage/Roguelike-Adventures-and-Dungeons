@@ -1,0 +1,104 @@
+{
+	title: "Death Is A Nuissance",
+	x: -12.0d,
+	y: -17.0d,
+	description: "I cannot be killed by annoyance!",
+	text: [
+		"These charms will protect you from various small damages that happen when playing, like falling damage, drowning, fire and void damage."
+	],
+	tasks: [{
+		uid: "ee7dfb43",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:charm_antidote",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -752966916911575176L,
+						UUIDLeast: -8779526139948159690L,
+						Amount: 0.20000000298023224d,
+						AttributeName: "generic.luck",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.lucky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0d499e7b",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:charm_water",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -893906750399688738L,
+						UUIDLeast: -6247280024960875236L,
+						Amount: 0.5d,
+						AttributeName: "potioncore.jumpHeight",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.springy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "198e3c84",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:charm_void",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8494aec0",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:charm_fire",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "78f1977b",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:charm_wing",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "00a05ced",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

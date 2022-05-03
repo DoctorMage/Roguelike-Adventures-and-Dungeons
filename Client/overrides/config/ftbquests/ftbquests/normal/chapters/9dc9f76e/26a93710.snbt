@@ -1,0 +1,16 @@
+{
+	title: "License & Registration Please (ViesCraft Info)",
+	x: -0.5d,
+	y: 3.5d,
+	description: "This thing can't be that hard to drive.",
+	text: [
+		"The Airship will come in handy for many different purposes, including flying over hostile monsters and environments, Aether and Nether exploration, as well as other dimensions. The uses are as endless.",
+		"",
+		"The ViesCraft manual does a good job at explaining this mod thoroughly. Refer to it for any questions."
+	],
+	tasks: [{
+		uid: "c6469f47",
+		type: "checkmark",
+		title: "License And Registration Please"
+	}]
+}

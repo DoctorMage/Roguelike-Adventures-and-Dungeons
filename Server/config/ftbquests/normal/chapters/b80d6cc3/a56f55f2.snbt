@@ -1,0 +1,29 @@
+{
+	title: "Are You Allergic To Anything?",
+	x: 18.0d,
+	y: -2.0d,
+	description: "Peanuts, Shellfish, Nuts, and Red Meat.",
+	text: [
+		"You poor soul."
+	],
+	dependencies: [
+		"311cdfc1"
+	],
+	tasks: [{
+		uid: "1089a0ad",
+		type: "item",
+		items: [{
+			item: "embers:reaction_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "f79b259a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "36f83043",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

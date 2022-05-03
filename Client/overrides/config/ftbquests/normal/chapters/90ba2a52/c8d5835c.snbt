@@ -1,0 +1,21 @@
+{
+	title: "Tar-Tar Binks",
+	x: 2.0d,
+	y: 8.0d,
+	description: "Lol",
+	text: [
+		"Kill 10 Tar Beasts."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "bbce5e32",
+		type: "kill",
+		entity: "thebetweenlands:tar_beast",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "5952fc05",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

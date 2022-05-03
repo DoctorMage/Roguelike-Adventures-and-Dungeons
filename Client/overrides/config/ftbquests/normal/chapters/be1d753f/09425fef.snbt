@@ -1,0 +1,261 @@
+{
+	title: "Savage Orcish Tower #1",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			copycounter: 1,
+			TemplateName: "Small Orcish Tower #1",
+			UUID: "fa3f51aa-ee04-4c7b-bd39-088099594997",
+			startPos: {
+				X: 4906,
+				Y: 64,
+				Z: -5003
+			},
+			itemcountmap: [{
+				item: 4357,
+				meta: 0,
+				count: 21
+			},
+			{
+				item: 7982,
+				meta: 0,
+				count: 93
+			},
+			{
+				item: 4685,
+				meta: 0,
+				count: 29
+			},
+			{
+				item: 155,
+				meta: 1,
+				count: 7
+			},
+			{
+				item: 8027,
+				meta: 0,
+				count: 24
+			},
+			{
+				item: 4769,
+				meta: 0,
+				count: 16
+			},
+			{
+				item: 5,
+				meta: 3,
+				count: 132
+			},
+			{
+				item: 155,
+				meta: 0,
+				count: 60
+			},
+			{
+				item: 44,
+				meta: 7,
+				count: 40
+			},
+			{
+				item: 5267,
+				meta: 12,
+				count: 16
+			},
+			{
+				item: 7983,
+				meta: 0,
+				count: 113
+			},
+			{
+				item: 96,
+				meta: 0,
+				count: 164
+			},
+			{
+				item: 156,
+				meta: 0,
+				count: 76
+			},
+			{
+				item: 11808,
+				meta: 0,
+				count: 44
+			},
+			{
+				item: 190,
+				meta: 0,
+				count: 21
+			},
+			{
+				item: 216,
+				meta: 0,
+				count: 44
+			},
+			{
+				item: 8016,
+				meta: 0,
+				count: 6
+			},
+			{
+				item: 17,
+				meta: 3,
+				count: 44
+			},
+			{
+				item: 280,
+				meta: 0,
+				count: 1
+			}],
+			endPos: {
+				X: 4886,
+				Y: 76,
+				Z: -4983
+			}
+		}
+	},
+	x: -9.0d,
+	y: -3.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "e0c7282d",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "c591e091",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Savage Orcish Tower #1",
+				UUID: "c5a1ab27-95ae-4920-a572-32f2a89169b0",
+				startPos: {
+					X: 4886,
+					Y: 64,
+					Z: -4983
+				},
+				itemcountmap: [{
+					item: 7982,
+					meta: 0,
+					count: 89
+				},
+				{
+					item: 65,
+					meta: 0,
+					count: 18
+				},
+				{
+					item: 7983,
+					meta: 0,
+					count: 101
+				},
+				{
+					item: 5267,
+					meta: 12,
+					count: 16
+				},
+				{
+					item: 155,
+					meta: 1,
+					count: 7
+				},
+				{
+					item: 4769,
+					meta: 0,
+					count: 16
+				},
+				{
+					item: 4357,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 8027,
+					meta: 0,
+					count: 23
+				},
+				{
+					item: 5,
+					meta: 3,
+					count: 132
+				},
+				{
+					item: 155,
+					meta: 0,
+					count: 60
+				},
+				{
+					item: 11808,
+					meta: 0,
+					count: 72
+				},
+				{
+					item: 44,
+					meta: 7,
+					count: 41
+				},
+				{
+					item: 8016,
+					meta: 0,
+					count: 6
+				},
+				{
+					item: 96,
+					meta: 0,
+					count: 164
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 20
+				},
+				{
+					item: 156,
+					meta: 0,
+					count: 76
+				},
+				{
+					item: 190,
+					meta: 0,
+					count: 28
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 216,
+					meta: 0,
+					count: 43
+				},
+				{
+					item: 171,
+					meta: 14,
+					count: 6
+				},
+				{
+					item: 4685,
+					meta: 0,
+					count: 29
+				},
+				{
+					item: 17,
+					meta: 3,
+					count: 54
+				},
+				{
+					item: 280,
+					meta: 0,
+					count: 1
+				}],
+				endPos: {
+					X: 4906,
+					Y: 76,
+					Z: -5003
+				}
+			}
+		}
+	}]
+}

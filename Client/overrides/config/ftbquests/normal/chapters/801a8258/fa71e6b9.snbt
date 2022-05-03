@@ -1,0 +1,26 @@
+{
+	title: "Sheep Shear Shearer",
+	x: -5.5d,
+	y: 2.0d,
+	shape: "gear",
+	description: "Totally harmless",
+	text: [
+		"Mobs which can be sheared will be sheared automatically when standing on this block.",
+		"",
+		"Does not require a redstone signal. ",
+		"",
+		"Does NOT require energy to run.",
+		"",
+		"Items dropped from this machine must be collected somehow."
+	],
+	dependencies: [
+		"0a7ca16a"
+	],
+	tasks: [{
+		uid: "28918239",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_shears"
+		}]
+	}]
+}

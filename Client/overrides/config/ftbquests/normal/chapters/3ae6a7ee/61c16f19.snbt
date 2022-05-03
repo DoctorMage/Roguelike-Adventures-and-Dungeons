@@ -1,0 +1,41 @@
+{
+	title: "Might As Well B-52 Different Things At Once",
+	x: -3.0d,
+	y: 3.5d,
+	description: "Hug your doggy.",
+	text: [
+		"Adds bombs to your airship. Can be destructive.",
+		"",
+		"All modules can be \"learned\" by your airship, but you can only activate one module at a time.",
+		"",
+		"Requires \"Time For An Upgrade!\" to complete."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8739b8df"
+	],
+	tasks: [{
+		uid: "9bac2f87",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 25"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3b9aef59",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 26"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bce10879",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 27"
+		}],
+		ignore_nbt: 1b
+	}]
+}

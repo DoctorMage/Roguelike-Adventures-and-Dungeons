@@ -1,0 +1,7 @@
+{
+	title: "Spartan Weapons Collection",
+	icon: "spartanweaponry:battleaxe_steel",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

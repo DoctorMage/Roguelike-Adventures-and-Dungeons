@@ -1,0 +1,26 @@
+{
+	title: "Be Gentle Now!",
+	x: 0.5d,
+	y: -13.5d,
+	description: "Pick the flowers nicely",
+	text: [
+		"The Harvester will harvest crops in the specified area when powered with Forge Energy.",
+		"",
+		"It is best to set the Harvester to Area Mode in order to keep up with larger harvests. Single mode will only harvest one crop every time the \"load bar\" ticks in the Harvest GUI."
+	],
+	dependencies: [
+		"ecd41947"
+	],
+	tasks: [{
+		uid: "cbe431e6",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:harvester_block"
+		}]
+	}],
+	rewards: [{
+		uid: "1a2ac2b4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

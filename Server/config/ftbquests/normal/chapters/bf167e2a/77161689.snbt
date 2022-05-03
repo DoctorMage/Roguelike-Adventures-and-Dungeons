@@ -1,0 +1,29 @@
+{
+	title: "COME BACK!",
+	x: 5.0d,
+	y: -19.5d,
+	description: "I LOVED YOU!",
+	text: [
+		"Collect some Gravitite."
+	],
+	dependencies: [
+		"9ca912fb"
+	],
+	tasks: [{
+		uid: "68ae153c",
+		type: "item",
+		items: [{
+			item: "aether_legacy:gravitite_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "93d6e5b7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "5dee1b16",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

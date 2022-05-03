@@ -1,0 +1,21 @@
+{
+	x: -0.5d,
+	y: 0.5d,
+	dependencies: [
+		"dcb87f83"
+	],
+	tasks: [{
+		uid: "9fe828ec",
+		type: "item",
+		items: [{
+			item: "prefab:item_villager_houses"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cb85c0bb",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

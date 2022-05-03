@@ -1,0 +1,23 @@
+{
+	x: 14.5d,
+	y: 1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "cc58a020",
+		type: "item",
+		items: [{
+			item: "twilightforest:block_storage 1 1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "d8d92d64",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "92b85d75",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

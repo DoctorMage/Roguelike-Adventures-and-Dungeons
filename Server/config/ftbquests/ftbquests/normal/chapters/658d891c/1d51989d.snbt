@@ -1,0 +1,40 @@
+{
+	x: 23.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "e68053ed",
+		type: "item",
+		items: [{
+			item: "iceandfire:tide_purple_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "faa649b8",
+		type: "item",
+		items: [{
+			item: "iceandfire:tide_purple_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "62acffd5",
+		type: "item",
+		items: [{
+			item: "iceandfire:tide_purple_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1662f4b4",
+		type: "item",
+		items: [{
+			item: "iceandfire:tide_purple_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

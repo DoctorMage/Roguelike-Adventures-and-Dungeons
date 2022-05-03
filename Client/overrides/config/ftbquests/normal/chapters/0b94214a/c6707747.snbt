@@ -1,0 +1,43 @@
+{
+	x: -0.5d,
+	y: -1.5d,
+	description: "Doctors are afraid of this fruit",
+	text: [
+		"Craft an Intermedium Apple."
+	],
+	dependencies: [
+		"52393883"
+	],
+	tasks: [{
+		uid: "0f71d115",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:intermedium_apple"
+		}]
+	}],
+	rewards: [{
+		uid: "e08135ac",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	},
+	{
+		uid: "941fdb38",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "3a4e2587",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "65abf627",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "c9742479",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

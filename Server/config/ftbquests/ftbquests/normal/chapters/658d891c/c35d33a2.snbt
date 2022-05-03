@@ -1,0 +1,19 @@
+{
+	title: "These Are The Withereens",
+	x: 1.0d,
+	y: -4.0d,
+	description: "Little bits",
+	text: [
+		"Cut my life into pieces!"
+	],
+	dependencies: [
+		"dd35764a"
+	],
+	tasks: [{
+		uid: "c15e86c6",
+		type: "item",
+		items: [{
+			item: "iceandfire:wither_shard"
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Ice Mage's First Friend",
+	x: 5.0d,
+	y: -9.0d,
+	description: "No wonder you got rid of it so fast",
+	text: [
+		"Craft the Ice Magus Rod."
+	],
+	tasks: [{
+		uid: "72756c63",
+		type: "item",
+		items: [{
+			item: "xreliquary:ice_magus_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "339a49aa",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "4c94b486",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

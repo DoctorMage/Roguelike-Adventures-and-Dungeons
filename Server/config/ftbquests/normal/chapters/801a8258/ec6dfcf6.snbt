@@ -1,0 +1,22 @@
+{
+	title: "Signaling The Mothership",
+	x: 4.5d,
+	y: 6.0d,
+	description: "Sounds complicated, it's not",
+	text: [
+		"This remote can be saved to a lever by Shift Right-Clicking a lever's position.",
+		"",
+		"Right-Click to use. This remote will actually change the state of the lever.",
+		"",
+		"Will not control lever's that are outside of your render distance, or are not loaded."
+	],
+	tasks: [{
+		uid: "d66eb42c",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:password_remote"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

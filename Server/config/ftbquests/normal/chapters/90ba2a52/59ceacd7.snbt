@@ -1,0 +1,17 @@
+{
+	x: 16.5d,
+	y: -8.5d,
+	tasks: [{
+		uid: "62af5ed0",
+		type: "item",
+		items: [{
+			item: "iceandfire:manuscript"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "53cdf011",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

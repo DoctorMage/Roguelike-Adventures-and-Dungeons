@@ -1,0 +1,24 @@
+{
+  "name": "levelup:wizard",
+  "bonus": "levelup:combat_bonus",
+  "localized_name": "Wizard",
+  "description": "Harness the power of magic",
+  "skills": [
+    {
+      "name": "levelup:fallprotect",
+      "level": 2
+    },
+    {
+      "name": "levelup:naturalarmor",
+      "level": 2
+    },
+    {
+      "name": "levelup:brewingspeed",
+      "level": 3	
+    },
+    {
+      "name": "levelup:sprintspeed",
+      "level": 3
+    }
+  ]
+}

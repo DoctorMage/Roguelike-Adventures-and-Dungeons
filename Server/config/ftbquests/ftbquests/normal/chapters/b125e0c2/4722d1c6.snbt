@@ -1,0 +1,45 @@
+{
+	x: 0.5d,
+	y: -1.5d,
+	dependencies: [
+		"dcb87f83"
+	],
+	tasks: [{
+		uid: "2d7d191c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"prefab:structuresconfiguration": {
+					configuration: {
+						wareHouseFacing: "north",
+						structureEnumName: "MineshaftEntrance"
+					}
+				}
+			},
+			id: "prefab:item_basic_structure",
+			tag: {
+				ForgeCaps: {
+					"prefab:structuresconfiguration": {
+						configuration: {
+							wareHouseFacing: "north",
+							structureEnumName: "MineshaftEntrance"
+						}
+					}
+				},
+				id: "prefab:item_basic_structure",
+				Count: 1b,
+				Damage: 0s
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4cc2d4bc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d3a6eeaa",
+		type: "item",
+		item: "prefab:item_pile_of_bricks"
+	}]
+}

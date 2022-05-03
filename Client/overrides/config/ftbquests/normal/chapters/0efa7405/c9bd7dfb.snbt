@@ -1,0 +1,31 @@
+{
+	title: "Strange crystals...",
+	x: -2.5d,
+	y: -1.0d,
+	text: [
+		"More info about this mod and it's functionality is better described in Thaumonomicon.",
+		"",
+		"There are a total of 6 different crystals throughout the world but once you mine your first one (colour does not matter) a message will appear on your screen",
+		"",
+		"Head home and sleep. It is recommended you grab more crystals (in a variety of colours), cinnabar ore and amber bearing stone before heading home.",
+		"",
+		"As soon as you wake up you will see another message as well as receive a book of “Strange Dreams.” Reading the book will give you more details on what you should do next",
+		"",
+		"All credits of this guide goes to https://minecraftguides.net/tc6/credits"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "d28862aa",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "260e070d",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "b3b4a523",
+		type: "item",
+		item: "thaumcraft:amber"
+	}]
+}

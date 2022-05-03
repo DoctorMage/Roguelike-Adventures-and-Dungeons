@@ -1,0 +1,23 @@
+{
+	title: "Bob The Crafter",
+	x: -6.0d,
+	y: 5.0d,
+	description: "The adopted brother",
+	text: [
+		"This machine will offer customizeable shapes to be automatically built with blocks you place into its inventory.",
+		"",
+		"These shapes can get enourmous, so make sure you have all the blocks you need!",
+		"",
+		"Shapes include squares, pyramids, bowls, as well as several others."
+	],
+	dependencies: [
+		"0a7ca16a"
+	],
+	tasks: [{
+		uid: "53b0f534",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:builder_block"
+		}]
+	}]
+}

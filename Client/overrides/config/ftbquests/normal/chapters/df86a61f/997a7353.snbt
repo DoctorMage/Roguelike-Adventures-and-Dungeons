@@ -1,0 +1,62 @@
+{
+	title: "Special Slime",
+	x: -6.0d,
+	y: 19.0d,
+	description: "Brand new selective stick technology!",
+	text: [
+		"These colored Slime blocks will stick to blocks like normal.",
+		"",
+		"But there's a catch; Red, Blue and Green slime will not stick to eachother, and will not stick to another Slime they cannot craft.",
+		"",
+		"E.g Green Slime will stick to Yellow and Cyan Slime, but will NOT stick to Magenta Slime.",
+		"",
+		"This allows some wonky trickery with pulling blocks with Slime."
+	],
+	tasks: [{
+		uid: "9c0bea62",
+		type: "item",
+		items: [{
+			item: "minecraft:slime"
+		}]
+	},
+	{
+		uid: "1207f35c",
+		type: "item",
+		items: [{
+			item: "quark:color_slime"
+		}]
+	},
+	{
+		uid: "7ff162a9",
+		type: "item",
+		items: [{
+			item: "quark:color_slime 1 1"
+		}]
+	},
+	{
+		uid: "78f9b4db",
+		type: "item",
+		items: [{
+			item: "quark:color_slime 1 2"
+		}]
+	},
+	{
+		uid: "9a368e6a",
+		type: "item",
+		items: [{
+			item: "quark:color_slime 1 3"
+		}]
+	},
+	{
+		uid: "4ea889af",
+		type: "item",
+		items: [{
+			item: "quark:color_slime 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "1e5fd75a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

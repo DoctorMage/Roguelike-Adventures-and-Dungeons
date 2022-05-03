@@ -1,0 +1,16 @@
+{
+	title: "The Darkest Magic",
+	x: -2.0d,
+	y: 9.5d,
+	description: "What are they up to?",
+	text: [
+		"Strike down 30 Dark Druids."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "30e66e8c",
+		type: "kill",
+		entity: "thebetweenlands:dark_druid",
+		value: 30L
+	}]
+}

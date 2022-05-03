@@ -1,0 +1,35 @@
+{
+	x: -7.0d,
+	y: -2.0d,
+	text: [
+		"• Hovering over an item and pressing the \"R\" key (for Recipe) will display that item's recipe.",
+		"",
+		"• Pressing the \"U\" key (for Use) shows what that item can be used to create through crafting grids. ",
+		"Both of these keys can be changed in the mod's config file.",
+		"",
+		"• Double-clicking the search box will visually filter any inventories, including all chests for items that match the search field's criteria. Items that do not match the current search will be grayed out. Double-clicking again will turn off the searc",
+		"",
+		"• Multiple terms can be looked for in the search field by separating them with the \"|\" character. For example: pickaxe|axe will show everything with pickaxe and/or axe in its name.",
+		"",
+		"• To select the search box without clicking on it, the player can press Ctrl + F.",
+		"",
+		"• To search by mod name use the \"@\" key before search in search box.",
+		""
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "5343a7f8",
+		type: "checkmark",
+		title: "JEI Info"
+	}],
+	rewards: [{
+		uid: "428dcc1a",
+		type: "item",
+		item: "minecraft:golden_apple"
+	},
+	{
+		uid: "f513b567",
+		type: "command",
+		command: "/say Hi, @team!"
+	}]
+}

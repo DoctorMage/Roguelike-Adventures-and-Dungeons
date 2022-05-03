@@ -1,0 +1,46 @@
+{
+	title: "Idiot Sandwich",
+	x: 5.5d,
+	y: -4.5d,
+	description: "Yes, yes you are",
+	text: [
+		"These books will help you discover and strive towards new flavors!",
+		"",
+		"Flavortown here we come!"
+	],
+	dependencies: [
+		"e32d3b8b"
+	],
+	tasks: [{
+		uid: "e3d9d63b",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:recipe_book"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9f168760",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:recipe_book 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b48925d9",
+		type: "item",
+		item: "harvestcraft:vinegaritem",
+		count: 32
+	},
+	{
+		uid: "e8047097",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "00910e6f",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

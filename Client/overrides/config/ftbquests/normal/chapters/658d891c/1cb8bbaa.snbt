@@ -1,0 +1,34 @@
+{
+	title: "Spicy Dragon Wings",
+	x: 6.0d,
+	y: -6.0d,
+	description: "No sauce required. This is as juicy as it gets!",
+	text: [
+		"It only has pepper on it!"
+	],
+	dependencies: [
+		"6dbe8507"
+	],
+	tasks: [{
+		uid: "ed59ca36",
+		type: "item",
+		items: [{
+			item: "iceandfire:fire_dragon_flesh"
+		}]
+	}],
+	rewards: [{
+		uid: "225b43fa",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "acf12d43",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "90ce0b2f",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

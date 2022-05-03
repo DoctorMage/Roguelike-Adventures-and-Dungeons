@@ -1,0 +1,22 @@
+{
+	title: "Is That A Bounty Box?",
+	x: -5.5d,
+	y: -14.0d,
+	description: "Nope.",
+	text: [
+		"It's your favorite item.",
+		"",
+		"Requires \"A Good Hobby\" to complete."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c42172ba"
+	],
+	tasks: [{
+		uid: "84380c7d",
+		type: "item",
+		items: [{
+			item: "aquaculture:loot"
+		}]
+	}]
+}

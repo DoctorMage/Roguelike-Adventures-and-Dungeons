@@ -1,0 +1,21 @@
+{
+	x: -5.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "9f46af57",
+		type: "item",
+		items: [{
+			item: "harvestcraft:onionseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "563ce30c",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "12ede414",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

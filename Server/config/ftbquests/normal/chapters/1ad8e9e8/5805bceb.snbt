@@ -1,0 +1,43 @@
+{
+	title: "Two Is Better Than One",
+	x: 9.0d,
+	y: -0.5d,
+	description: "Got the dualies!",
+	text: [
+		"And I'm not talkin tires!",
+		"",
+		"Craft a Dual Sulfur Furnace.",
+		"",
+		"Not as fast as the normal Furnace, it just looks pretty.",
+		"",
+		"Powered with Sulfur.",
+		"",
+		"Adding Limestone Flux to the left fuel slot will add a chance to produce 2 Syrmorite or Octine Ingots per smelt."
+	],
+	dependencies: [
+		"3c192351"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "382feeaf",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sulfur_furnace_dual"
+		}]
+	}],
+	rewards: [{
+		uid: "98bf78b4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ee4e800b",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "3567675f",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

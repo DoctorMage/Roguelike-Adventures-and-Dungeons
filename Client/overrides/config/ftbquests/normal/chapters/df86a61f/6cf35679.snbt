@@ -1,0 +1,25 @@
+{
+	title: "The Basic Super Router 3000",
+	x: 20.5d,
+	y: -0.5d,
+	description: "300 Gigs down is whatever, I guess",
+	text: [
+		"The Redstone Interface allows players to wireless and directly power blocks with a max power signal.",
+		"",
+		"The Redstone Interface will need to be connected to a block using the Redstone Tool; Right-Click your Interface, then Right-Click the block you want to power.",
+		"",
+		"The Redstone Interface must then be activated by a Lever, a Button, or some other form of Redstone."
+	],
+	tasks: [{
+		uid: "a123b4ba",
+		type: "item",
+		items: [{
+			item: "randomthings:basicredstoneinterface"
+		}]
+	}],
+	rewards: [{
+		uid: "4dec6c4f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

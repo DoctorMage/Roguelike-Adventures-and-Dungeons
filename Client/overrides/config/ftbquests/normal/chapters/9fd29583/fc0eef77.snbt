@@ -1,0 +1,29 @@
+{
+	title: "Fly Man!",
+	x: 3.0d,
+	y: -2.5d,
+	description: "Your super power is vomiting on things",
+	text: [
+		"Craft the Reinfornced Compound Goggles."
+	],
+	dependencies: [
+		"acb2f772"
+	],
+	tasks: [{
+		uid: "85acebf9",
+		type: "item",
+		items: [{
+			id: "erebus:rein_compound_goggles",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8d3a4d0f",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Enchanting 100",
+	x: -22.5d,
+	y: -1.5d,
+	description: "You know you're good at what you do",
+	text: [
+		"The Auto Enchanter is one of the only items in the game that's going to be as broken as it sounds. And it's great.",
+		"",
+		"You're still going to need XP to combine all these low, level 30 capped enchants, but it gets the job done how it says it will.",
+		"",
+		"Highly configurable, this device can be set to extract the necessary items and export the results from any block face.",
+		"",
+		"Go ham."
+	],
+	tasks: [{
+		uid: "06ee793f",
+		type: "item",
+		items: [{
+			item: "openblocks:auto_enchantment_table"
+		}]
+	}],
+	rewards: [{
+		uid: "cadbf2b0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

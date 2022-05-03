@@ -1,0 +1,21 @@
+{
+	x: -3.0d,
+	y: 11.0d,
+	tasks: [{
+		uid: "1284f0f4",
+		type: "item",
+		items: [{
+			item: "harvestcraft:pineappleseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "6aed1e66",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "2f6b60ba",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

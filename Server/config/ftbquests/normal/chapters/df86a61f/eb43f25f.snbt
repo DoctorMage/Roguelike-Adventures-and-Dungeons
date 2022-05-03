@@ -1,0 +1,32 @@
+{
+	title: "Less Is More!",
+	x: -11.5d,
+	y: 17.5d,
+	description: "Simple is good",
+	text: [
+		"You can now compress your Charcoal and Sugar Cane!",
+		"",
+		"Charcoal blocks will stay lit on fire forever!",
+		"",
+		"Sugar Cane blocks also have Stairs, Slab, and Wall variants."
+	],
+	tasks: [{
+		uid: "31d4c39b",
+		type: "item",
+		items: [{
+			item: "quark:charcoal_block"
+		}]
+	},
+	{
+		uid: "b64e76b2",
+		type: "item",
+		items: [{
+			item: "quark:reed_block"
+		}]
+	}],
+	rewards: [{
+		uid: "05b7a53e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

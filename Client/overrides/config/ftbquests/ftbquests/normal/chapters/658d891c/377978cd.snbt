@@ -1,0 +1,21 @@
+{
+	title: "Right Below The Water",
+	x: -5.0d,
+	y: 0.5d,
+	description: "You missed!",
+	text: [
+		"Hold Right-Click, then release while looking at a pool of water. Will only catch Fish, Salmon, Clown Fish and Puffer Fish."
+	],
+	dependencies: [
+		"b17f9bd9"
+	],
+	tasks: [{
+		uid: "2db63284",
+		type: "item",
+		items: [{
+			item: "iceandfire:fishing_spear"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

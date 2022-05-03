@@ -1,0 +1,37 @@
+{
+	title: "She Flew, She Flew So Far Away",
+	x: -0.5d,
+	y: -7.0d,
+	description: "Is she gonna come back?",
+	text: [
+		"Craft the Rending Gale."
+	],
+	tasks: [{
+		uid: "606f9682",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 2,
+					TotalAmounts: [
+						0
+					],
+					Items: []
+				}
+			},
+			id: "xreliquary:rending_gale"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "564fac8d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "521934df",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

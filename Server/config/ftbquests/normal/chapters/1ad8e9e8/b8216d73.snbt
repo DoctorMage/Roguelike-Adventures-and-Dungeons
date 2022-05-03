@@ -1,0 +1,34 @@
+{
+	title: "Ciminnanon.. Cinnimom... Syrmorite",
+	x: 7.0d,
+	y: 1.5d,
+	description: "Syrmorite challenge",
+	text: [
+		"Smelt some Syrmorite into an ingot."
+	],
+	dependencies: [
+		"5805bceb"
+	],
+	tasks: [{
+		uid: "93b4b1ff",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "766273a4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "0c275f20",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "1a76db55",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

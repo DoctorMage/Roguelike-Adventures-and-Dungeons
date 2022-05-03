@@ -1,0 +1,33 @@
+{
+	title: "Essence Aficionado",
+	x: -5.5d,
+	y: -1.5d,
+	description: "You really like to brew stuff",
+	text: [
+		"Craft some Apothecary tools."
+	],
+	tasks: [{
+		uid: "1359aa3a",
+		type: "item",
+		items: [{
+			item: "xreliquary:apothecary_cauldron"
+		}]
+	},
+	{
+		uid: "0bae0d8c",
+		type: "item",
+		items: [{
+			item: "xreliquary:apothecary_mortar"
+		}]
+	}],
+	rewards: [{
+		uid: "fe234fd2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "40dae977",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -3.0d,
+	y: -10.0d,
+	description: "Coalostomy Bag",
+	text: [
+		"That joke needs to be removed but I won't be the one doing it.",
+		"",
+		"Craft some Coal Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"47c0a076"
+	],
+	tasks: [{
+		uid: "1ce716e9",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:coal_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "ef386c40",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "54ea13aa",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

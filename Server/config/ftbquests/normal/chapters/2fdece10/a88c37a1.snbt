@@ -1,0 +1,11 @@
+{
+	x: 33.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "ea520784",
+		type: "item",
+		items: [{
+			item: "embers:ingot_electrum"
+		}]
+	}]
+}

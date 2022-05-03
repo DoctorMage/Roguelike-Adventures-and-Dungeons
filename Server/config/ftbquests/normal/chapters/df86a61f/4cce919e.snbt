@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: -15.0d,
+	dependencies: [
+		"ecd41947"
+	],
+	tasks: [{
+		uid: "9520496a",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_enchanter"
+		}]
+	}],
+	rewards: [{
+		uid: "c5c5f848",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

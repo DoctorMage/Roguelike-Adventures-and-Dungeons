@@ -1,0 +1,33 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	text: [
+		"The Ember Emitter is used to remove Ember from a block (e.g., Copper Cell and the Ember Activator). It requires a redstone signal to pump Ember and must be connected to either an Ember Receptor or an Ember Relay using the Tinker's Hammer.",
+		"",
+		"The Ember Receptor is used to transfer Ember into blocks. It must be connected to either an Ember Emitter or an Ember Relay using the Tinker's Hammer."
+	],
+	dependencies: [
+		"56f8ecf9",
+		"70aedd69"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "1448a82a",
+		type: "item",
+		items: [{
+			item: "embers:ember_emitter"
+		}]
+	},
+	{
+		uid: "e2229f95",
+		type: "item",
+		items: [{
+			item: "embers:ember_receiver"
+		}]
+	}],
+	rewards: [{
+		uid: "561318a0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "Can You Get A Speeding Ticket In This Thing?",
+	x: -4.0d,
+	y: 1.5d,
+	description: "I mean, who's gonna pull us over?",
+	text: [
+		"Increases airship top speed and turn speed.",
+		"",
+		"All modules can be \"learned\" by your airship, but you can only activate one module at a time.",
+		"",
+		"Requires \"Time For An Upgrade!\" to complete."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8739b8df"
+	],
+	tasks: [{
+		uid: "f5b3419f",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 4"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6570c269",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 5"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e2e1ddf7",
+		type: "item",
+		items: [{
+			item: "vc:modules/item_module_type 1 6"
+		}],
+		ignore_nbt: 1b
+	}]
+}

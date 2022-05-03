@@ -1,0 +1,20 @@
+{
+	title: "Rotating Wrench",
+	x: -13.5d,
+	y: 9.0d,
+	description: "Perfect positioning",
+	text: [
+		"Rotates simple blocks that have similar textures on all sides, or blocks that can be rotated.",
+		"",
+		"Shift-Click to use."
+	],
+	tasks: [{
+		uid: "e3955632",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_rotate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

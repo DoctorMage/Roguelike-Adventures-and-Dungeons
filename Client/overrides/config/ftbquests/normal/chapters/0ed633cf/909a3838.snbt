@@ -1,0 +1,12 @@
+{
+	icon: "bountiful:bounty",
+	x: 3.5d,
+	y: -6.5d,
+	tasks: [{
+		uid: "8e63dbcb",
+		type: "stat",
+		title: "Complete 1,000 Bounties",
+		stat: "stat.bountiesCompleted",
+		value: 1000
+	}]
+}

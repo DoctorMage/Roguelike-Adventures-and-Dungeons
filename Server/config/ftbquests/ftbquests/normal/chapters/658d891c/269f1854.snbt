@@ -1,0 +1,44 @@
+{
+	title: "Sterling",
+	x: 8.5d,
+	y: 0.5d,
+	description: "Almost like chrome",
+	text: [
+		"Your dragon doesn't have to flex this hard."
+	],
+	dependencies: [
+		"768743f4"
+	],
+	tasks: [{
+		uid: "6ebad6a1",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_silver"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "aed1c91b",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_silver 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3b784c3b",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_silver 1 2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9a186e00",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_silver 1 3"
+		}],
+		ignore_nbt: 1b
+	}]
+}

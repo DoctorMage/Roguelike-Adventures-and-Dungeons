@@ -1,0 +1,32 @@
+{
+	x: 3.5d,
+	y: -1.5d,
+	dependencies: [
+		"de46b58b"
+	],
+	tasks: [{
+		uid: "ca3ac707",
+		type: "item",
+		items: [{
+			item: "prefab:item_tree_farm"
+		}]
+	}],
+	rewards: [{
+		uid: "c5ebb4c2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "80b95059",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 146
+				}]
+			}
+		}
+	}]
+}

@@ -1,0 +1,93 @@
+{
+	title: "Papes on Papes on Papes... Papyrus that is.",
+	x: -1.0d,
+	y: -1.0d,
+	description: "You're practically scrolling in it!",
+	text: [
+		"Scrolls fabricated with the essence of the afterlife. They hold much power.",
+		"",
+		"You must collect all scrolls to complete this quest."
+	],
+	dependencies: [
+		"33dcfd32"
+	],
+	tasks: [{
+		uid: "3c8c9036",
+		type: "item",
+		items: [{
+			item: "tombstone:crafting_ingredient"
+		}]
+	},
+	{
+		uid: "35dc1f49",
+		type: "item",
+		items: [{
+			item: "tombstone:scroll_buff 1 6"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "655912c7",
+		type: "item",
+		items: [{
+			item: "tombstone:scroll_buff 1 5"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d7ee793f",
+		type: "item",
+		items: [{
+			item: "tombstone:scroll_buff 1 4"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1766f482",
+		type: "item",
+		items: [{
+			item: "tombstone:scroll_buff 1 2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fda0e7ca",
+		type: "item",
+		items: [{
+			item: "tombstone:scroll_buff 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "751e2541",
+		type: "item",
+		items: [{
+			item: "tombstone:scroll_buff"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1c4144ff",
+		type: "item",
+		items: [{
+			item: "tombstone:scroll_of_knowledge"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "98a5ff3a",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:strong_strength"
+			}
+		}
+	},
+	{
+		uid: "70ad8c7f",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "Not So Slimy Anymore!",
+	x: -10.0d,
+	y: -10.0d,
+	description: "This is what happens when factories get ahold of stuff.",
+	text: [
+		"You'll be using this for all your diving gear porpoises."
+	],
+	dependencies: [
+		"5f406ed4"
+	],
+	tasks: [{
+		uid: "6872e5dc",
+		type: "item",
+		items: [{
+			item: "better_diving:silicone_rubber"
+		}]
+	},
+	{
+		uid: "82638282",
+		type: "item",
+		items: [{
+			item: "better_diving:fiber_mesh"
+		}]
+	},
+	{
+		uid: "6a14eee0",
+		type: "item",
+		items: [{
+			item: "better_diving:lubricant"
+		}]
+	}]
+}

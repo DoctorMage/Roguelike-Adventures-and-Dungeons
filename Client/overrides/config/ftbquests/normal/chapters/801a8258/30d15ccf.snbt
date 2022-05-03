@@ -1,0 +1,18 @@
+{
+	title: "Beatbox God",
+	x: 4.0d,
+	y: -0.5d,
+	description: "This thing outperforms any DJ anyday",
+	text: [
+		"Can play sounds from the sound files in the modpack. You can add files to the folders yourself, but this will be client side. ",
+		"",
+		"Essentially enables longer sound effects through this enhanced Noteblock."
+	],
+	tasks: [{
+		uid: "581da101",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:sound_player"
+		}]
+	}]
+}

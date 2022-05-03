@@ -1,0 +1,23 @@
+{
+	x: 17.5d,
+	y: 0.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "07477619",
+		type: "item",
+		items: [{
+			item: "aether_legacy:ambrosium_block"
+		}],
+		count: 500L
+	}],
+	rewards: [{
+		uid: "48e211ea",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "64236ad8",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

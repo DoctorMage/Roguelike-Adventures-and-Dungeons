@@ -1,0 +1,33 @@
+{
+	title: "Bug Boogers",
+	x: 13.5d,
+	y: -4.5d,
+	description: "You're never gonna get all of this off your armor",
+	tasks: [{
+		uid: "8fb4e0b6",
+		type: "item",
+		items: [{
+			item: "iceandfire:myrmex_desert_resin"
+		}]
+	}],
+	rewards: [{
+		uid: "34127c00",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "c2242655",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "141f4965",
+		type: "item",
+		item: "iceandfire:manuscript"
+	},
+	{
+		uid: "72d64a8d",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

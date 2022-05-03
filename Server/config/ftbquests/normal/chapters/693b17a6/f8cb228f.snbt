@@ -1,0 +1,27 @@
+{
+	title: "Fisherman's Man's Man I",
+	x: -7.0d,
+	y: 1.0d,
+	description: "Reel them babies in!",
+	text: [
+		"Catch 1,000 fish."
+	],
+	tasks: [{
+		uid: "1a334309",
+		type: "stat",
+		title: "Catch 1,000 fish",
+		icon: "minecraft:fishing_rod",
+		stat: "stat.fishCaught",
+		value: 1000
+	}],
+	rewards: [{
+		uid: "a78b8586",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "ac33cd29",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

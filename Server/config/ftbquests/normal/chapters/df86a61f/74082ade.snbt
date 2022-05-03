@@ -1,0 +1,38 @@
+{
+	title: "My Floo Fireplace?",
+	x: 19.0d,
+	y: 8.0d,
+	description: "Sounds like an oldfolks home",
+	text: [
+		"Rename a Floo Sign in an Anvil to name your location. Then Right-Click on a Brick block, or a line of Brick blocks to create Floo Bricks.",
+		"",
+		"To teleport between Floo Bricks, you must have Floo Powder or a Floo Pouch inside your inventory. ",
+		"",
+		"Stand on top of the Floo Bricks, and type the name of the Floo Network location you wish to teleport to in chat. The message will NOT be sent to chat, if it is a location you can teleport to.",
+		"",
+		"There is no way to remember or recall names of locations. Place a regular sign above your Floo Bricks in order to remember what you named them during creation."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "cc8fe78d",
+		type: "item",
+		items: [{
+			item: "randomthings:floosign"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "41af4dd2",
+		type: "item",
+		items: [{
+			item: "minecraft:brick_block"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "80f9dc42",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

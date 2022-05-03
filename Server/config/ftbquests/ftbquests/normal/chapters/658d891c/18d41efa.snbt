@@ -1,0 +1,40 @@
+{
+	x: 30.5d,
+	y: -8.5d,
+	tasks: [{
+		uid: "3041926f",
+		type: "item",
+		items: [{
+			item: "iceandfire:frost_troll_leather_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "baf789c1",
+		type: "item",
+		items: [{
+			item: "iceandfire:frost_troll_leather_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5e6f31e9",
+		type: "item",
+		items: [{
+			item: "iceandfire:frost_troll_leather_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a32c885f",
+		type: "item",
+		items: [{
+			item: "iceandfire:frost_troll_leather_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

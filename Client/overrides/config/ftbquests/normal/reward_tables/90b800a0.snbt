@@ -1,0 +1,138 @@
+{
+	title: "Wizard",
+	loot_size: 50,
+	hide_tooltip: true,
+	rewards: [{
+		item: "ebwizardry:magic_wand",
+		only_one: true
+	},
+	{
+		item: {
+			id: "ebwizardry:wizard_hat",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 3182923139556133428L,
+						UUIDLeast: -4664567961831550431L,
+						Amount: -1.0d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.dented.name"
+				},
+				display: {
+					Name: "Tattered Wizard Hat"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "ebwizardry:wizard_robe",
+			tag: {
+				Quality: {
+					Slots: [
+						"chest"
+					],
+					Color: "dark_red",
+					AttributeModifiers: [{
+						UUIDMost: -2180503707920283912L,
+						UUIDLeast: -5006417678033384408L,
+						Amount: -1.0d,
+						AttributeName: "generic.armorToughness",
+						Operation: 0,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -398471038091836311L,
+						UUIDLeast: -7849651989260271209L,
+						Amount: -1.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -6357430488923683514L,
+						UUIDLeast: -8504031217935322535L,
+						Amount: -1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.crumbling.name"
+				},
+				display: {
+					Name: "Tattered Wizard Robes"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "ebwizardry:wizard_leggings",
+			tag: {
+				Quality: {
+					Slots: [
+						"legs"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: -7457685987209362413L,
+						UUIDLeast: -7925641742475388864L,
+						Amount: -1.0d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.dented.name"
+				},
+				display: {
+					Name: "Tattered Wizard Leggings"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "ebwizardry:wizard_boots",
+			tag: {
+				Quality: {
+					Slots: [
+						"feet"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: -5442543533842414858L,
+						UUIDLeast: -7655104062310542113L,
+						Amount: -1.0d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.dented.name"
+				},
+				display: {
+					Name: "Tattered Wizard Boots"
+				}
+			}
+		},
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "wizard",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

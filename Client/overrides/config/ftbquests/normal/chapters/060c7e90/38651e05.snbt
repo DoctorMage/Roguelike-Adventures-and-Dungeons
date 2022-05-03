@@ -1,0 +1,67 @@
+{
+	title: "Automagical Sorting",
+	x: -4.5d,
+	y: 7.5d,
+	description: "No redstone needed!",
+	text: [
+		"You can slip your books in here like you did at the library when you were in elementary school!",
+		"",
+		"Refer to The Wizard's Handbook for more information on this item."
+	],
+	dependencies: [
+		"44326244"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "38938f83",
+		type: "item",
+		items: [{
+			item: "ebwizardry:oak_bookshelf"
+		}]
+	},
+	{
+		uid: "b5d17d9a",
+		type: "item",
+		items: [{
+			item: "ebwizardry:spruce_bookshelf"
+		}]
+	},
+	{
+		uid: "3e5490d0",
+		type: "item",
+		items: [{
+			item: "ebwizardry:jungle_bookshelf"
+		}]
+	},
+	{
+		uid: "095712e2",
+		type: "item",
+		items: [{
+			item: "ebwizardry:birch_bookshelf"
+		}]
+	},
+	{
+		uid: "0df32421",
+		type: "item",
+		items: [{
+			item: "ebwizardry:acacia_bookshelf"
+		}]
+	},
+	{
+		uid: "85eaedb4",
+		type: "item",
+		items: [{
+			item: "ebwizardry:dark_oak_bookshelf"
+		}]
+	}],
+	rewards: [{
+		uid: "5a3b27b1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "6e1b9c48",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

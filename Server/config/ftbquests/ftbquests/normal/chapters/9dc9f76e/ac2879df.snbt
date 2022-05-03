@@ -1,0 +1,22 @@
+{
+	title: "Money Wins Wars",
+	x: 4.0d,
+	y: -4.0d,
+	description: "That's why these bandaids have gold in them!",
+	text: [
+		"Really... for some reason they do. They're expensive bandaids. They might not work for addressing a Dragon bite, but they'll help if some Zombies nibble your arm a little.",
+		""
+	],
+	dependencies: [
+		"52178774"
+	],
+	tasks: [{
+		uid: "29534f9d",
+		type: "item",
+		items: [{
+			item: "roughtweaks:bandage"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

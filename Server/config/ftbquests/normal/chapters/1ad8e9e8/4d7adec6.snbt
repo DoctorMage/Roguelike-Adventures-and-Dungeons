@@ -1,0 +1,33 @@
+{
+	title: "Drink Mixer 3000",
+	x: 11.0d,
+	y: 4.5d,
+	description: "Not really... you kinda have to stir it yourself",
+	text: [
+		"Your very own margarita machine!",
+		"",
+		"Used to create Infusions and Aspect Vials.",
+		"",
+		"They can then be distilled in an Alembic."
+	],
+	dependencies: [
+		"cb10740a"
+	],
+	tasks: [{
+		uid: "402a4333",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:infuser"
+		}]
+	}],
+	rewards: [{
+		uid: "b894fc18",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "95577912",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

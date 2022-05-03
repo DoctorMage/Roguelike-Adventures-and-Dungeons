@@ -1,0 +1,44 @@
+{
+	title: "Stay Gold Ponyboy!",
+	x: 8.5d,
+	y: -2.5d,
+	description: "Stay gold...",
+	text: [
+		"Ride out in bling! Looks great on green Dragons."
+	],
+	dependencies: [
+		"768743f4"
+	],
+	tasks: [{
+		uid: "99b786c5",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_gold"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a8522444",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_gold 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "204946c7",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_gold 1 2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d0480c04",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_gold 1 3"
+		}],
+		ignore_nbt: 1b
+	}]
+}

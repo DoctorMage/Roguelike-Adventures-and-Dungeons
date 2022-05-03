@@ -1,0 +1,23 @@
+{
+	title: "Why Are You Ingoring Me?",
+	x: 17.0d,
+	y: -3.0d,
+	description: "I know you're on the server bro",
+	text: [
+		"This item will output a Redstone signal if the typed player is online.",
+		"",
+		"This can be used to create some type of cool rollcall system for large clans on servers."
+	],
+	tasks: [{
+		uid: "0115323a",
+		type: "item",
+		items: [{
+			item: "randomthings:onlinedetector"
+		}]
+	}],
+	rewards: [{
+		uid: "db90537f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

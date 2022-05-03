@@ -1,0 +1,35 @@
+{
+	title: "I THOUGHT YOU SAID NO AUTOMATION DREAMS",
+	x: 6.0d,
+	y: -13.0d,
+	description: "WE CAN BOOTLEG IT WITHOUT THIS ANYWAYS",
+	text: [
+		"TAKE SOME THEN TAKE IT ALL",
+		"",
+		"GIVE ME MY MECHANICAL USERS BACK",
+		"",
+		"This is a threat."
+	],
+	tasks: [{
+		uid: "73d0bf6e",
+		type: "item",
+		items: [{
+			item: "extrautils2:crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "7c42c02a",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "b9b92b5a",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "3e04f688",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

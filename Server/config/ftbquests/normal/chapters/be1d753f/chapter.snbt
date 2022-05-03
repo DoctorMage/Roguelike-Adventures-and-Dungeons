@@ -1,0 +1,67 @@
+{
+	title: "Amazing Architects",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "1f221359-9e8b-4d7c-b3fb-0e44f6790e7c"
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -2.0d,
+		y: -3.0d,
+		width: 4.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "assets:orcishthemepics\\orcishmegatepe1.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -2.0d,
+		y: -1.0d,
+		width: 4.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "assets:orcishthemepics/orcishmegatepe2.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -7.0d,
+		y: -3.0d,
+		width: 4.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "assets:orcishthemepics/savageorctower1.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -7.0d,
+		y: -1.0d,
+		width: 4.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "assets:orcishthemepics/savageorctower2.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -7.0d,
+		y: 1.0d,
+		width: 4.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "assets:orcishthemepics/savageorctower3.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

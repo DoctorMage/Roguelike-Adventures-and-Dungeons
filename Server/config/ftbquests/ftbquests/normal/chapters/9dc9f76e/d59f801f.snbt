@@ -1,0 +1,19 @@
+{
+	title: "I Bet This Would Go Good On Bread",
+	x: 3.5d,
+	y: -8.0d,
+	description: "It would... I know it",
+	text: [
+		"You really killed the Wither! RIP to the environment, where ever you killed it."
+	],
+	dependencies: [
+		"fe9af1c2"
+	],
+	tasks: [{
+		uid: "1bf85430",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	}]
+}

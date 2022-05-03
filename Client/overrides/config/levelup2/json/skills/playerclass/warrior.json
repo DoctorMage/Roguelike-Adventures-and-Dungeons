@@ -1,0 +1,24 @@
+{
+  "name": "levelup:warrior",
+  "bonus": "levelup:combat_bonus",
+  "localized_name": "Warrior",
+  "description": "All-around combat class",
+  "skills": [
+    {
+      "name": "levelup:swordcrit",
+      "level": 1
+    },
+    {
+      "name": "levelup:sworddamage",
+      "level": 2
+    },
+    {
+      "name": "levelup:shieldblock",
+      "level": 1
+    },
+    {
+      "name": "levelup:bowdraw",
+      "level": 2
+    }
+  ]
+}

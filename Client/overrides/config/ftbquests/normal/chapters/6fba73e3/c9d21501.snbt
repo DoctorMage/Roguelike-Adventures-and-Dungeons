@@ -1,0 +1,44 @@
+{
+	title: "This One Makes Me Itch",
+	x: 1.5d,
+	y: -12.0d,
+	description: "I might need some ointment",
+	text: [
+		"Craft the Harvest Rod.",
+		"",
+		"The Harvest Rod has a chance not to consume Bonemeal when you use it through the Rod. It will also break vegetation in a 3x3 area."
+	],
+	tasks: [{
+		uid: "adce55f3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 4,
+					TotalAmounts: [
+						0
+					],
+					Items: []
+				}
+			},
+			id: "xreliquary:harvest_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e8cfd3d9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "784da27c",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "8d3b260d",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

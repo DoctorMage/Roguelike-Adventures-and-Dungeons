@@ -1,0 +1,18 @@
+{
+	title: "Lord And Savior",
+	x: -2.5d,
+	y: 13.5d,
+	description: "Your soul shall be saved",
+	text: [
+		"Storing souls has never been easier!"
+	],
+	tasks: [{
+		uid: "edec1fa1",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:soulstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

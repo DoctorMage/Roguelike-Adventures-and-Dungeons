@@ -1,0 +1,32 @@
+{
+	x: 16.0d,
+	y: -7.5d,
+	can_repeat: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "835b4576",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_skull"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2054fba3",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_skull 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "86d4d64b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "4418eb35",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "She Spits, She Scores!",
+	x: 6.5d,
+	y: -6.5d,
+	description: "Freaky",
+	text: [
+		"Craft the Serpent's Staff."
+	],
+	tasks: [{
+		uid: "911bfbc2",
+		type: "item",
+		items: [{
+			item: "xreliquary:serpent_staff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f1749897",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "fac5dfec",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "61685902",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

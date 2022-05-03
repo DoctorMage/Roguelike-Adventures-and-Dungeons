@@ -1,0 +1,21 @@
+{
+	x: 5.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "6719e5d3",
+		type: "item",
+		items: [{
+			item: "harvestcraft:elderberryseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "58c71b51",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "87ac7823",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

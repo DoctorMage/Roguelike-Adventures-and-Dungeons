@@ -1,0 +1,25 @@
+{
+	title: "The Level Factory",
+	x: -21.5d,
+	y: -1.5d,
+	description: "Helps you level!",
+	text: [
+		"This device will aid players by bottling XP at a rate of 30mb per bottle. ",
+		"",
+		"The faces of the device are highly configurable, though you may need to temporarily disable JEI.",
+		"",
+		"The XP Bottler is not amazingly efficient, but is definitely not bad, either."
+	],
+	tasks: [{
+		uid: "fc9df146",
+		type: "item",
+		items: [{
+			item: "openblocks:xp_bottler"
+		}]
+	}],
+	rewards: [{
+		uid: "4e2372dd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

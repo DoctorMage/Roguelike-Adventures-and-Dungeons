@@ -1,0 +1,38 @@
+{
+	title: "The Soul Bowl",
+	x: 6.0d,
+	y: -1.5d,
+	description: "Yummy",
+	text: [
+		"Refer to your Dungeonpedia(s) for more information on this item."
+	],
+	dependencies: [
+		"4119c49b"
+	],
+	tasks: [{
+		uid: "a8aa5343",
+		type: "item",
+		items: [{
+			item: "dungeontactics:brazier"
+		}]
+	},
+	{
+		uid: "0fce5d71",
+		type: "item",
+		items: [{
+			item: "dungeontactics:soulgem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2ab700d0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "cac2ef03",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

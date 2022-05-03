@@ -1,0 +1,42 @@
+{
+	x: 2.5d,
+	y: 2.5d,
+	tasks: [{
+		uid: "e9f75ce9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"prefab:structuresconfiguration": {
+					configuration: {
+						wareHouseFacing: "north",
+						structureEnumName: "WatchTower"
+					}
+				}
+			},
+			id: "prefab:item_basic_structure",
+			tag: {
+				ForgeCaps: {
+					"prefab:structuresconfiguration": {
+						configuration: {
+							wareHouseFacing: "north",
+							structureEnumName: "WatchTower"
+						}
+					}
+				},
+				id: "prefab:item_basic_structure",
+				Count: 1b,
+				Damage: 0s
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f3ed7db6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d53cd302",
+		type: "item",
+		item: "prefab:block_compressed_stone 1 6"
+	}]
+}

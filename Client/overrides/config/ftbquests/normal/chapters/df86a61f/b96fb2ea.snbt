@@ -1,0 +1,29 @@
+{
+	title: "Like Moses But With A Hat On",
+	x: -14.5d,
+	y: -6.5d,
+	description: "Instead of splitting the water, we're gonna make more",
+	text: [
+		"Crafting the Water Spreader is like unleashing the ocean into a biome by placing a water block down.",
+		"",
+		"Use with caution. This thing creates a lot of water.",
+		"",
+		"Pro Tip: It is VERY useful for leveling the surfaces of water like lakes and ponds. This means you can dig your river first, and fill it second.",
+		"",
+		"Fill it by placing a water source block at the top edge of your river, and spread the water with your Water Spreader."
+	],
+	tasks: [{
+		uid: "09719f6b",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:water_spreader"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "163d3040",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

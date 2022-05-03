@@ -1,0 +1,32 @@
+[
+ {
+  "id": "gardens",
+  "title": "Gardens And Where To Find Them",
+  "icon": "item:harvestcraft:windygarden"
+ },
+ {
+  "id": "gmofreefood",
+  "title": "Every Cooking Ingredient Ever",
+  "icon": "item:harvestcraft:tomatoitem"
+ },
+ {
+  "id": "trees",
+  "title": "Trees And How To Grow Fruit, Anywhere",
+  "icon": "item:harvestcraft:dragonfruititem"
+ },
+ {
+  "id": "huntergatherer",
+  "title": "Now For The Main Dish",
+  "icon": "item:harvestcraft:thankfuldinneritem"
+ },
+ {
+  "id": "stringsupply",
+  "title": "Sourcing Natural String",
+  "icon": "item:harvestcraft:flaxitem"
+ },
+ {
+  "id": "marketandshipping",
+  "title": "It Ain't Much, But It's Honest Work",
+  "icon": "item:harvestcraft:market"
+ },
+]

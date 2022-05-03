@@ -1,0 +1,15 @@
+{
+	title: "Praise The Peat Gods",
+	x: 1.5d,
+	y: 2.0d,
+	text: [
+		"Cyclic has huge potential, even with items like Mechanical Users gone. That's a good thing, in my opinion. That being said, automation of necessary farms is still available, while Cyclic adds huge variety and fun to your gameplay. ",
+		"",
+		"I will definitely, but unintentionally, omit items from the Questbook if I forget about them because the mod is simply so large and has lots of room for imagination."
+	],
+	rewards: [{
+		uid: "47b35054",
+		type: "item",
+		item: "minecraft:redstone"
+	}]
+}

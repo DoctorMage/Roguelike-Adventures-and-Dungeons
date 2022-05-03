@@ -1,0 +1,21 @@
+{
+	title: "My First Dog!",
+	x: -2.0d,
+	y: 6.5d,
+	description: "Treat him good now!",
+	text: [
+		"Using a Training Treat on a tamed Wolf will turn it into a Doggy Talents ready doggy!",
+		"",
+		"Feed your doggy Training Treats till level 20, where it will then need something more satisfying!"
+	],
+	dependencies: [
+		"a455aa9f"
+	],
+	tasks: [{
+		uid: "110b305c",
+		type: "item",
+		items: [{
+			item: "doggytalents:training_treat"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: 11.0d,
+	tasks: [{
+		uid: "3eddb40e",
+		type: "item",
+		items: [{
+			item: "harvestcraft:kiwiseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "3c316592",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "177284ca",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

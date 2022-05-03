@@ -1,0 +1,18 @@
+{
+	title: "Some Wizardry Required (Unfinished)",
+	icon: "ebwizardry:wizard_hat",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 4.5d,
+		y: -4.0d,
+		width: 50.0d,
+		height: 50.0d,
+		rotation: 0.0d,
+		image: "assets:questicons\\wizback.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

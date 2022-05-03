@@ -1,0 +1,19 @@
+{
+	title: "Chick Maker",
+	x: 11.0d,
+	y: -17.5d,
+	description: "Your dream girl is on the way!",
+	text: [
+		"Craft an Incubator."
+	],
+	dependencies: [
+		"5fedec08"
+	],
+	tasks: [{
+		uid: "67642aa0",
+		type: "item",
+		items: [{
+			item: "aether_legacy:incubator"
+		}]
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	title: "Let Me In---!!",
+	x: -5.0d,
+	y: -6.0d,
+	description: "Now let me out---!!",
+	text: [
+		"I don't wanna be here anymore!",
+		"",
+		"Well you don't have to be.",
+		"",
+		"The Wooden Door is always the exit.",
+		"",
+		"Place a Wooden Door down inside of any Dimension WITH A DUNGEON INSIDE; Enter the Wooden Door and you will be transported to the very beginning of that chain of dungeons.",
+		"",
+		"Trying to go through a Wooden Door inside of a SAFE Pocket Dimension, will not work.",
+		"",
+		"Wooden Doors are meant to escape or create Dungeon Dimensions.",
+		"",
+		"To CREATE a Dungeon Dimension with a Wood Door, simply place the Wood Door OUTSIDE of any Pocket Dimension.",
+		"",
+		"This will create a chain of dungeons for players to explore through, starting with the Wood Door."
+	],
+	dependencies: [
+		"934ad299"
+	],
+	tasks: [{
+		uid: "10726883",
+		type: "item",
+		items: [{
+			item: "dimdoors:oak_dimensional_door"
+		}]
+	}],
+	rewards: [{
+		uid: "e9fb5592",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "3def15e5",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "9be6237f",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

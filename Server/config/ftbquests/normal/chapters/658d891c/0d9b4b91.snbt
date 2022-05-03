@@ -1,0 +1,35 @@
+{
+	title: "I Feel Like A Fairy",
+	x: 27.0d,
+	y: -0.5d,
+	description: "Was that ''politically incorrect''?",
+	tasks: [{
+		uid: "1e4c4590",
+		type: "item",
+		items: [{
+			item: "iceandfire:pixie_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a5cc665e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "1f68e063",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "d97a3b0a",
+		type: "item",
+		item: "iceandfire:manuscript"
+	},
+	{
+		uid: "163889c3",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

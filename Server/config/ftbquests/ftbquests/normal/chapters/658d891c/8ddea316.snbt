@@ -1,0 +1,22 @@
+{
+	x: 15.0d,
+	y: 5.5d,
+	tasks: [{
+		uid: "93287c79",
+		type: "item",
+		items: [{
+			item: "iceandfire:myrmex_jungle_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e8d0ea9c",
+		type: "item",
+		items: [{
+			item: "iceandfire:myrmex_jungle_sword_venom"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

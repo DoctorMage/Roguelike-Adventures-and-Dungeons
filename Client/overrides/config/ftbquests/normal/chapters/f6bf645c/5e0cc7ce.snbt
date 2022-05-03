@@ -1,0 +1,86 @@
+{
+	x: 7.0d,
+	y: -12.5d,
+	dependencies: [
+		"efccc984"
+	],
+	tasks: [{
+		uid: "ea95b5a0",
+		type: "item",
+		items: [{
+			id: "twilightforest:yeti_helmet",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 0
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3a0ef227",
+		type: "item",
+		items: [{
+			id: "twilightforest:yeti_chestplate",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 0
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6deae8e8",
+		type: "item",
+		items: [{
+			id: "twilightforest:yeti_leggings",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 0
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7fe81599",
+		type: "item",
+		items: [{
+			id: "twilightforest:yeti_boots",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 0
+				},
+				{
+					lvl: 4s,
+					id: 2
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b4f08a0d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "24b11c4e",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "e21125c4",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

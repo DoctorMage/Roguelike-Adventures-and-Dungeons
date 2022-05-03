@@ -1,0 +1,37 @@
+{
+	title: "Amazing Anvils",
+	x: 0.0d,
+	y: 4.0d,
+	description: "Repairing what should never be!",
+	text: [
+		"Diamond Anvil - Must be powered to run. Will consume energy to repair durability on items.",
+		"",
+		"Magma Anvil - Will hold 10 buckets of lava, and consume them to repair durability at a rate of 1 bucket of lava per 10 durability.",
+		"",
+		"Obsidian Anvil - Used to remove enchantments from items. You will not receive the enchantment back as a book. It will be destroyed.",
+		"",
+		"You are only required to make one Anvil to complete this quest."
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "fe4c2dbd",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_anvil"
+		}]
+	},
+	{
+		uid: "8767b584",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_anvil_magma"
+		}]
+	},
+	{
+		uid: "d2168f3f",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:void_anvil"
+		}]
+	}]
+}

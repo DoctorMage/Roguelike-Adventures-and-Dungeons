@@ -1,0 +1,44 @@
+{
+	title: "Point N' Click!",
+	icon: "openblocks:cannon",
+	x: -31.0d,
+	y: 5.0d,
+	description: "Who knew Minecraft was a shooter!",
+	text: [
+		"This item is used to shoot items to a location. Literally.",
+		"",
+		"The items need a clear path. Use the Pointer to Right-Click the Item Cannon, then Right-Click the location you wish the items to land. The Cannon will auto-adjust to aim to the location. ",
+		"",
+		"We don't know the full capabilities of this item. Maybe you can figure them out? :)",
+		"",
+		"This is the only item the Pointer is used together with."
+	],
+	tasks: [{
+		uid: "98da0622",
+		type: "item",
+		items: [{
+			item: "openblocks:cannon"
+		}]
+	},
+	{
+		uid: "7ff60047",
+		type: "item",
+		items: [{
+			id: "openblocks:generic_unstackable",
+			tag: {
+				lastPoint: {
+					X: -648,
+					Y: 70,
+					Z: -1493,
+					Dimension: 0
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "40dd14ca",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 24.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "6a6c9a2b",
+		type: "item",
+		items: [{
+			item: "iceandfire:sea_serpent_arrow"
+		}]
+	}]
+}

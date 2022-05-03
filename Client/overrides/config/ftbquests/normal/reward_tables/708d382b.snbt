@@ -1,0 +1,134 @@
+{
+	title: "Archer",
+	loot_size: 50,
+	hide_tooltip: true,
+	rewards: [{
+		item: {
+			id: "minecraft:bow",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 51
+				}],
+				Quality: {
+					Slots: [
+						"mainhand",
+						"offhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 3756149313714734969L,
+						UUIDLeast: -9118863148588948680L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "potioncore.projectileDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.cracked.name"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:leather_helmet",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 7588288597966275782L,
+						UUIDLeast: -9091810573801896550L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.protective.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:leather_chestplate",
+			tag: {
+				Quality: {
+					Slots: [
+						"chest"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -8815081113090961422L,
+						UUIDLeast: -8462124158901447654L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.protective.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:leather_leggings",
+			tag: {
+				Quality: {
+					Slots: [
+						"legs"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -2913516037840420279L,
+						UUIDLeast: -4812247192441569691L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.protective.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:leather_boots",
+			tag: {
+				Quality: {
+					Slots: [
+						"feet"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -3129125549000406220L,
+						UUIDLeast: -5031701527908193849L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.protective.name"
+				}
+			}
+		}
+	},
+	{
+		item: "minecraft:arrow",
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "archer",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

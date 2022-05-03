@@ -1,0 +1,23 @@
+{
+	x: 12.0d,
+	y: -0.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "e004e7a0",
+		type: "item",
+		items: [{
+			item: "embers:block_dawnstone"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "84483f5c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "107c9918",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

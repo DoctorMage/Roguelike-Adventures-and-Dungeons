@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	description: "Similar to an iron dimensional door, except that all quartz dimensional doors will lead to the player's personal pocket.",
+	dependencies: [
+		"982265ae"
+	],
+	tasks: [{
+		uid: "157949c4",
+		type: "item",
+		items: [{
+			item: "dimdoors:quartz_dimensional_door"
+		}]
+	}],
+	rewards: [{
+		uid: "87308ae7",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

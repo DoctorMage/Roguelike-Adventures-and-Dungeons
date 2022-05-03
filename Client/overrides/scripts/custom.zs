@@ -1,0 +1,2 @@
+mods.jei.JEI.removeAndHide(<harvestcraft:pinacoladaitem>);
+<tropicraft:cocktail>.withTag({Ingredients: [{IngredientID: 9 as byte}, {IngredientID: 11 as byte}], Color: 15724527, DrinkID: 6 as byte}).displayName = "Pinacolada";

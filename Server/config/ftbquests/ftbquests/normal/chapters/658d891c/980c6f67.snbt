@@ -1,0 +1,11 @@
+{
+	x: 24.0d,
+	y: -5.5d,
+	tasks: [{
+		uid: "8fd375e0",
+		type: "item",
+		items: [{
+			item: "iceandfire:shiny_scales"
+		}]
+	}]
+}

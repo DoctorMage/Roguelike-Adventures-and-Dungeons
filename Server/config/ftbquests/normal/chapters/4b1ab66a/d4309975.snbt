@@ -1,0 +1,21 @@
+{
+	x: -8.0d,
+	y: -10.0d,
+	tasks: [{
+		uid: "28c3d933",
+		type: "item",
+		items: [{
+			item: "harvestcraft:grapefruit_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "ce6daad5",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "1356c373",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

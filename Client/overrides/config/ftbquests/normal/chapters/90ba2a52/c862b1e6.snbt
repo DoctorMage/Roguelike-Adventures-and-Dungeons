@@ -1,0 +1,27 @@
+{
+	title: "Slip N' Slider",
+	x: 0.0d,
+	y: 2.5d,
+	description: "This boss is so fun",
+	text: [
+		"Slay 5 Sliders."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "272481a3",
+		type: "kill",
+		icon: "lost_aether:sentry_shield",
+		entity: "aether_legacy:slider",
+		value: 5L
+	}],
+	rewards: [{
+		uid: "e412eb82",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "40c5710f",
+		type: "xp_levels",
+		xp_levels: 40
+	}]
+}

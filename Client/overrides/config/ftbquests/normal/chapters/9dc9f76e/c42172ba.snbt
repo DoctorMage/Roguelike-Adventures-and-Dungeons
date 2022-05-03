@@ -1,0 +1,49 @@
+{
+	title: "A Good Hobby",
+	x: -4.0d,
+	y: -2.0d,
+	description: "Don't get pulled in!",
+	text: [
+		"Dive right in!",
+		"",
+		"One fishing rod will catch Minecraft fish and other modded creatures, and the Aquaculture rod will only capture Aquaculture related items.",
+		"",
+		"Applying anything above Lure V to your Rod will break it. Don't do that."
+	],
+	dependencies: [
+		"16c3f3d7"
+	],
+	tasks: [{
+		uid: "ab06cc0d",
+		type: "item",
+		items: [{
+			item: "aquaculture:fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dbeade4b",
+		type: "item",
+		items: [{
+			item: "minecraft:fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fee0d634",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "a67a9f7a",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "e98b7114",
+		type: "item",
+		item: "minecraft:slime_ball"
+	}]
+}

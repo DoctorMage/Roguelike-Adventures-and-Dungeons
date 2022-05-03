@@ -1,0 +1,53 @@
+{
+	title: "Hot Footed",
+	x: 15.0d,
+	y: 7.5d,
+	description: "Where you headed?",
+	text: [
+		"Allows you to walk on water and lava.",
+		"",
+		"Players often take no fire damage and will not take lava damage for 10 seconds after entering lava.",
+		""
+	],
+	dependencies: [
+		"133da479",
+		"c086f930"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "5479217b",
+		type: "item",
+		items: [{
+			id: "randomthings:lavawader",
+			tag: {
+				Quality: {
+					Slots: [
+						"feet"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -2791020685490893250L,
+						UUIDLeast: -8873911880364702618L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.speedy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "99334956",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "db9af5f7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

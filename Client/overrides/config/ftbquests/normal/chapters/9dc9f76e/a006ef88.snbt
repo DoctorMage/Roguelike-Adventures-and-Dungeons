@@ -1,0 +1,41 @@
+{
+	title: "Jussstttt Right",
+	x: -13.0d,
+	y: -4.5d,
+	description: "Now you know where you're going!",
+	text: [
+		"Can be used to change the direction of arrows on your signpost. Calibrated version can be used to automatically select a block coordinate for the sign to point to, allowing for precision guidance."
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "8b9675e8",
+		type: "item",
+		items: [{
+			item: "signpost:itemwrench"
+		}]
+	},
+	{
+		uid: "d9d18a4d",
+		type: "item",
+		items: [{
+			item: "signpost:itemcalibratedwrench"
+		}]
+	},
+	{
+		uid: "de886fe8",
+		type: "item",
+		items: [{
+			item: "signpost:itembrush"
+		}]
+	}],
+	rewards: [{
+		uid: "02c03828",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "2439d909",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

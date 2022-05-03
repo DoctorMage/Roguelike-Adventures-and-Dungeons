@@ -1,0 +1,18 @@
+{
+	title: "Pixie-Proofed",
+	x: 3.5d,
+	y: 0.5d,
+	description: "No one cares if you say ouch",
+	text: [
+		"Keeps the sound out.",
+		"",
+		"Great for dungeons!"
+	],
+	tasks: [{
+		uid: "3f99f5a3",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_soundproofing"
+		}]
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Praise Peat!",
+	x: -4.0d,
+	y: 4.0d,
+	description: "For peat sake",
+	text: [
+		"That Peat you gathered up? Burn it all in this nice machine here.",
+		"",
+		"This will generate energy for all your machine-based needs."
+	],
+	dependencies: [
+		"8dd323ac"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "3d1c0203",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:peat_farm"
+		}]
+	},
+	{
+		uid: "ac7ce807",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:peat_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "9005b878",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

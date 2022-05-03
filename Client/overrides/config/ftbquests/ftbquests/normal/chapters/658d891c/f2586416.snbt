@@ -1,0 +1,32 @@
+{
+	x: 30.5d,
+	y: -7.0d,
+	tasks: [{
+		uid: "9bd04ca5",
+		type: "item",
+		items: [{
+			item: "iceandfire:troll_leather_forest"
+		}]
+	},
+	{
+		uid: "5fc399ad",
+		type: "item",
+		items: [{
+			item: "iceandfire:troll_leather_mountain"
+		}]
+	},
+	{
+		uid: "4d5bd4c2",
+		type: "item",
+		items: [{
+			item: "iceandfire:troll_leather_frost"
+		}]
+	},
+	{
+		uid: "8ca4eb96",
+		type: "item",
+		items: [{
+			item: "iceandfire:troll_tusk"
+		}]
+	}]
+}

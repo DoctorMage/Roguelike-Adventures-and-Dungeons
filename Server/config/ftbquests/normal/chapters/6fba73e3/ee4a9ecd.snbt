@@ -1,0 +1,45 @@
+{
+	title: "The Unbreaking Cold",
+	x: 6.0d,
+	y: -8.5d,
+	description: "I call it hating your ex, but whatever",
+	text: [
+		"Craft the Shears of Winter."
+	],
+	tasks: [{
+		uid: "05873db4",
+		type: "item",
+		items: [{
+			id: "xreliquary:shears_of_winter",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 5089598353032563751L,
+						UUIDLeast: -8078280347569642426L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broken.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1c2a755c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "37a5b43c",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

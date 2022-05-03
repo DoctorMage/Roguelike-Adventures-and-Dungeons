@@ -1,0 +1,46 @@
+{
+	title: "Powder Keg Go BOOM",
+	x: 6.0d,
+	y: 0.5d,
+	description: "Shakalaka",
+	text: [
+		"Like TnT.... ;)"
+	],
+	tasks: [{
+		uid: "a215a9b6",
+		type: "item",
+		items: [{
+			item: "dungeontactics:powderkeg"
+		}]
+	}],
+	rewards: [{
+		uid: "452197ef",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "fb49a323",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "39a396f4",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	},
+	{
+		uid: "b65bdc78",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	},
+	{
+		uid: "97c8434e",
+		type: "item",
+		item: "aquaculture:loot 1 4"
+	},
+	{
+		uid: "8bdf6bff",
+		type: "item",
+		item: "aquaculture:loot 1 4"
+	}]
+}

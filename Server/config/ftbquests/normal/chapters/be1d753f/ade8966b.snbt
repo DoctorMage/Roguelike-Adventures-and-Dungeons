@@ -1,0 +1,168 @@
+{
+	title: "Dirt Sphere Schematics",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			copycounter: 5,
+			TemplateName: "Small Dirt Sphere #1",
+			UUID: "2b17a7b3-045c-43b4-b84a-9492cbde0ccb",
+			startPos: {
+				X: -586,
+				Y: 78,
+				Z: -1485
+			},
+			itemcountmap: [{
+				item: 3,
+				meta: 0,
+				count: 88
+			}],
+			endPos: {
+				X: -581,
+				Y: 83,
+				Z: -1480
+			}
+		}
+	},
+	x: -12.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "320bd01a",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "588fd083",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Tiny Dirt Sphere #1",
+				UUID: "8dabdf19-97b2-44d3-a95e-79e513a1b5cc",
+				startPos: {
+					X: -581,
+					Y: 90,
+					Z: -1489
+				},
+				itemcountmap: [{
+					item: 3,
+					meta: 0,
+					count: 7
+				}],
+				endPos: {
+					X: -579,
+					Y: 88,
+					Z: -1487
+				}
+			}
+		}
+	},
+	{
+		uid: "cd2e3338",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Tiny Dirt Sphere #2",
+				UUID: "631e4238-d3f7-461f-8da7-db9774d452c6",
+				startPos: {
+					X: -582,
+					Y: 91,
+					Z: -1496
+				},
+				itemcountmap: [{
+					item: 3,
+					meta: 0,
+					count: 33
+				}],
+				endPos: {
+					X: -578,
+					Y: 87,
+					Z: -1492
+				}
+			}
+		}
+	},
+	{
+		uid: "57c91725",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 5,
+				TemplateName: "Small Dirt Sphere #1",
+				UUID: "2b17a7b3-045c-43b4-b84a-9492cbde0ccb",
+				startPos: {
+					X: -586,
+					Y: 78,
+					Z: -1485
+				},
+				itemcountmap: [{
+					item: 3,
+					meta: 0,
+					count: 88
+				}],
+				endPos: {
+					X: -581,
+					Y: 83,
+					Z: -1480
+				}
+			}
+		}
+	},
+	{
+		uid: "785f50fe",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 3,
+				TemplateName: "Small Dirt Sphere #2",
+				UUID: "b1f80911-f6c3-4e32-938e-0212103b91b4",
+				startPos: {
+					X: -580,
+					Y: 77,
+					Z: -1485
+				},
+				itemcountmap: [{
+					item: 3,
+					meta: 0,
+					count: 179
+				}],
+				endPos: {
+					X: -586,
+					Y: 83,
+					Z: -1479
+				}
+			}
+		}
+	},
+	{
+		uid: "9a3c963c",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 4,
+				TemplateName: "Medium Dirt Sphere #1",
+				UUID: "1ef8b92e-39bc-49ef-b14b-01c54bbe70e4",
+				startPos: {
+					X: -579,
+					Y: 76,
+					Z: -1486
+				},
+				itemcountmap: [{
+					item: 3,
+					meta: 0,
+					count: 329
+				}],
+				endPos: {
+					X: -587,
+					Y: 84,
+					Z: -1478
+				}
+			}
+		}
+	}]
+}

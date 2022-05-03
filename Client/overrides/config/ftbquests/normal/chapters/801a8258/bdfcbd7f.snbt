@@ -1,0 +1,19 @@
+{
+	title: "Ill Will Of The Illager",
+	x: -14.0d,
+	y: 16.0d,
+	description: "Fight with malice!",
+	text: [
+		"A potentially very powerful tool."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "05099bf2",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:evoker_fang"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,107 @@
+{
+	title: "Brand New Cookware!",
+	x: -5.5d,
+	y: -6.0d,
+	description: "Everything is non-stick, I think",
+	text: [
+		"If you don't burn anything, you won't find out.",
+		"",
+		"These items are required for certain Pam's Harvest recipes. They can be placed on racks to be accessed with ease for later.",
+		"",
+		"If you've constructed a cozy kitchen, tools and cookware placed on racks do not need to be taken down to be \"used\", so long as the racks are linked to the rest of your \"kitchen system\"."
+	],
+	dependencies: [
+		"9b9366c6"
+	],
+	tasks: [{
+		uid: "2a39a515",
+		type: "item",
+		items: [{
+			item: "harvestcraft:potitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6862bb60",
+		type: "item",
+		items: [{
+			item: "harvestcraft:skilletitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dd0cf856",
+		type: "item",
+		items: [{
+			item: "harvestcraft:saucepanitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3a4263fd",
+		type: "item",
+		items: [{
+			item: "harvestcraft:mixingbowlitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a5624737",
+		type: "item",
+		items: [{
+			item: "harvestcraft:juiceritem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "22326ee4",
+		type: "item",
+		items: [{
+			item: "harvestcraft:bakewareitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3c50644c",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cuttingboarditem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5f20fff7",
+		type: "item",
+		item: "harvestcraft:doughitem",
+		count: 32
+	},
+	{
+		uid: "3d6f1631",
+		type: "item",
+		item: "harvestcraft:butteritem",
+		count: 16
+	},
+	{
+		uid: "cf2b56c6",
+		type: "item",
+		item: "harvestcraft:oliveoilitem",
+		count: 32
+	},
+	{
+		uid: "e188da81",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "67a503e2",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

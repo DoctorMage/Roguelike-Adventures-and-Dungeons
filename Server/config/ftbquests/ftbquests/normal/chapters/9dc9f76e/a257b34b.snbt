@@ -1,0 +1,19 @@
+{
+	title: "I Miss Bessy",
+	x: -5.5d,
+	y: -5.5d,
+	description: "She never knew I loved her",
+	text: [
+		"Tanned hide. You're gonna go through A LOT of Bessy cows if you like this mod."
+	],
+	dependencies: [
+		"ef285682"
+	],
+	tasks: [{
+		uid: "1b644aa9",
+		type: "item",
+		items: [{
+			item: "improvedbackpacks:tanned_leather"
+		}]
+	}]
+}

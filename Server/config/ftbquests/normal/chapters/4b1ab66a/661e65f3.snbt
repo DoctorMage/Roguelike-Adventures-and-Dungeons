@@ -1,0 +1,12 @@
+{
+	x: 13.0d,
+	y: 9.5d,
+	tasks: [{
+		uid: "04995725",
+		type: "item",
+		items: [{
+			item: "harvestcraft:wintersquashitem"
+		}],
+		count: 64L
+	}]
+}

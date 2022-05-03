@@ -1,0 +1,24 @@
+{
+	title: "Santa's Goody Bag",
+	x: -14.0d,
+	y: -0.5d,
+	description: "Why is there so much coal inside?",
+	text: [
+		"Reach in and take whatever you need.",
+		"",
+		"This inventory is still your regular Enderchest inventory. This is not a separated space.",
+		"",
+		"This item can be used unlimitedly."
+	],
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "fdef661e",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:sack_ender"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

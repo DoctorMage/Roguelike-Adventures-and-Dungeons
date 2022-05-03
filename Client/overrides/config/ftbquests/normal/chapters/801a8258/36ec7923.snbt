@@ -1,0 +1,20 @@
+{
+	title: "Mega-Mag",
+	x: 7.0d,
+	y: 4.5d,
+	description: "This thing sucks!",
+	text: [
+		"Sucks in items periodically, to the middle of the platform.",
+		"",
+		"Does not collect item drops. Will only collect item entities at a single point on the plate.",
+		"",
+		"In otherwords, a large pile of items to collect will be siphoned to the plate."
+	],
+	tasks: [{
+		uid: "1d82d043",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:magnet_block"
+		}]
+	}]
+}
