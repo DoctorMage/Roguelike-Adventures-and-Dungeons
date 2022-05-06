@@ -21,11 +21,6 @@
 		ftb_money: 10L
 	},
 	{
-		uid: "a7041a1b",
-		type: "ftbmoney:money",
-		ftb_money: 50L
-	},
-	{
 		uid: "154517c8",
 		type: "xp_levels",
 		xp_levels: 5
