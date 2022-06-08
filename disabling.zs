@@ -33,5 +33,4 @@ mods.jei.JEI.removeAndHide(<openblocks:scaffolding>);
 mods.jei.JEI.removeAndHide(<randomthings:biomeradar>);
 mods.jei.JEI.removeAndHide(<randomthings:rezstone>);
 mods.jei.JEI.removeAndHide(<quark:slime_bucket>);
-mods.jei.JEI.removeAndHide(<quark:pipe>);
 mods.jei.JEI.removeAndHide(<placeableitems:item_horse_armor_stand>);
