@@ -50,6 +50,7 @@ recipes.remove(<randomthings:rezstone>);
 recipes.remove(<randomthings:biomeradar>);
 recipes.remove(<quark:slime_bucket>);
 recipes.remove(<quark:pipe>);
+recipes.remove(<placeableitems:item_horse_armor_stand>);
 //Don't touch me!
 //#Add
 furnace.addRecipe(<dungeontactics:steel_ingot>, <dungeontactics:steel_dust>, 0.0);
