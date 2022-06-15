@@ -1,0 +1,185 @@
+[PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
+Robijnvogel
+Spencer Gilbert
+AdaraChristine
+Belathus
+Genryu
+Pongo Sapiens
+Quaternary
+NickT
+SquidDev
+BrÃƒÂ¸nsted
+DreamThorn
+NerdyWhiteGuy
+Phillip Swearingain
+Zuniroa
+Ivy_
+Barrier
+WaterMoon
+Peregrinus11
+Ncc1702
+If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
+
+[PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
+[PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [preinit]
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: oreDict.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes\custom-recipes\bbop-amber-changes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes\custom-recipes\bigger-crafting-table-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes\custom-recipes\custom-vanilla-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes\custom-recipes\dungeon-tactics-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes\custom-recipes\many-materials-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes\custom-recipes\mystical-world-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes\custom-recipes\roots-pyre-crafting-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes\custom-recipes\spectral-dust-recipes\mortar-spectral-dust-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes\custom-recipes\tropicraft-changed-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes\remove-and-hide-from-jei\remove-and-hide-from-jei.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes\removed-recipes\removed-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 2ms
+[INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
+[INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
+[INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [recipeevent | crafttweaker]]
+[INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: oreDict.zs}
+[INITIALIZATION][CLIENT][INFO] Adding Fiery Crystal to ore dictionary entry crystalElemental
+[INITIALIZATION][CLIENT][INFO] Adding Icy Crystal to ore dictionary entry crystalElemental
+[INITIALIZATION][CLIENT][INFO] Adding Stormy Crystal to ore dictionary entry crystalElemental
+[INITIALIZATION][CLIENT][INFO] Adding Verdant Crystal to ore dictionary entry crystalGreen
+[INITIALIZATION][CLIENT][INFO] Adding Mystical Crystal to ore dictionary entry crystalGreen
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes\custom-recipes\bbop-amber-changes.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes\custom-recipes\bigger-crafting-table-recipes.zs}
+[INITIALIZATION][CLIENT][INFO] Adding BigRecipe for Orb of Potential
+[INITIALIZATION][CLIENT][INFO] Adding BigRecipe for Large Stone Tablet
+[INITIALIZATION][CLIENT][INFO] Adding BigRecipe for Grand Stone Tablet
+[INITIALIZATION][CLIENT][INFO] Adding BigRecipe for Grand Magic Crystal
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes\custom-recipes\custom-vanilla-recipes.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes\custom-recipes\dungeon-tactics-recipes.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes\custom-recipes\many-materials-recipes.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes\custom-recipes\mystical-world-recipes.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes\custom-recipes\roots-pyre-crafting-recipes.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes\custom-recipes\spectral-dust-recipes\mortar-spectral-dust-recipes.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes\custom-recipes\tropicraft-changed-recipes.zs}
+[INITIALIZATION][CLIENT][INFO] Translating tropicraft.drink.pina_colada.name to Pinacolada
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes\remove-and-hide-from-jei\remove-and-hide-from-jei.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes\removed-recipes\removed-recipes.zs}
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 332ms
+[INITIALIZATION][CLIENT][INFO] Translating tropicraft.drink.pina_colada.name to Pinacolada
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Amber with name ct_shaped1334293220
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Amber with name ct_shaped378410184
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Amber with name ct_shaped-1233235660
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Amber with name ct_shaped-1910808116
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Amber Block with name ct_shaped1241789759
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Amber Bricks with name ct_shaped-1756171352
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Amber Block with name ct_shaped-76078759
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Big Crafting Table with name ct_shaped-52635291
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Huge Crafting Table with name ct_shaped-871795379
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Giant Crafting Table with name ct_shaped1224402238
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Chain Boots with name ct_shaped-1491959313
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Chain Leggings with name ct_shaped-595363882
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Chain Chestplate with name ct_shaped1662071015
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Chain Helmet with name ct_shaped2043468165
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Flint and Steel with name ct_shapeless117207445
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flint and Steel with name ct_shaped-499068375
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Corrupted Prism with name ct_shaped1560546614
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Arcane Amalgam with name ct_shaped-522795022
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ancient Fragments with name ct_shaped-241283804
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ancient Fragments with name ct_shaped-324979793
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ancient Fragments with name ct_shaped385542134
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ancient Fragments with name ct_shaped-544707745
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Small Stone Tablet with name ct_shaped2145500339
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stone Tablet with name ct_shaped1784623787
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectral Mass with name ct_shaped-924294845
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Golden Circlet with name ct_shaped-1205912667
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Copper Boots with name ct_shaped1270359478
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Copper Leggings with name ct_shaped-1405235870
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Copper Chestplate with name ct_shaped189076153
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Copper Helmet with name ct_shaped206408362
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectral Dust with name ct_shaped699887302
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectral Dust with name ct_shaped-1464386388
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectral Dust with name ct_shaped1938652089
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectral Dust with name ct_shaped-1690666502
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectral Dust with name ct_shaped-1047631637
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectral Dust with name ct_shaped295208857
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectral Dust with name ct_shaped-1575932265
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectral Dust with name ct_shaped-1698933456
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectral Dust with name ct_shaped1120289730
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectral Dust with name ct_shaped-883285725
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectral Dust with name ct_shaped2066535716
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectral Dust with name ct_shaped2040845377
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectral Dust with name ct_shaped-371408701
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectral Dust with name ct_shaped-1409434899
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pinacolada with name ct_shaped-464906335
+[POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <dungeontactics:steel_dust>
+[POSTINITIALIZATION][CLIENT][INFO] Removing Pyre Altar Crafting recipe 1xitem.cloud_berry@0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Pyre Crafting Ritual for 3xitem.cloud_berry@0
+[POSTINITIALIZATION][CLIENT][INFO] Removing Pyre Altar Crafting recipe 1xitem.dewgonia@0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Pyre Crafting Ritual for 3xitem.dewgonia@0
+[POSTINITIALIZATION][CLIENT][INFO] Removing Pyre Altar Crafting recipe 1xitem.infernal_bulb@0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Pyre Crafting Ritual for 3xitem.infernal_bulb@0
+[POSTINITIALIZATION][CLIENT][INFO] Removing Pyre Altar Crafting recipe 1xitem.stalicripe@0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Pyre Crafting Ritual for 3xitem.stalicripe@0
+[POSTINITIALIZATION][CLIENT][INFO] Removing Pyre Altar Crafting recipe 1xitem.moonglow_leaf@0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Pyre Crafting Ritual for 3xitem.moonglow_leaf@0
+[POSTINITIALIZATION][CLIENT][INFO] Removing Pyre Altar Crafting recipe 1xitem.pereskia@0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Pyre Crafting Ritual for 3xitem.pereskia@0
+[POSTINITIALIZATION][CLIENT][INFO] Removing Pyre Altar Crafting recipe 1xtile.baffle_cap_mushroom@0
+[POSTINITIALIZATION][CLIENT][INFO] Adding Pyre Crafting Ritual for 3xtile.baffle_cap_mushroom@0
+[POSTINITIALIZATION][CLIENT][INFO] Adding MortarRecipe to make 3xitem.ebwizardry:spectral_dust@1
+[POSTINITIALIZATION][CLIENT][INFO] Adding MortarRecipe to make 3xitem.ebwizardry:spectral_dust@2
+[POSTINITIALIZATION][CLIENT][INFO] Adding MortarRecipe to make 3xitem.ebwizardry:spectral_dust@3
+[POSTINITIALIZATION][CLIENT][INFO] Adding MortarRecipe to make 3xitem.ebwizardry:spectral_dust@4
+[POSTINITIALIZATION][CLIENT][INFO] Adding MortarRecipe to make 3xitem.ebwizardry:spectral_dust@5
+[POSTINITIALIZATION][CLIENT][INFO] Adding MortarRecipe to make 3xitem.ebwizardry:spectral_dust@6
+[POSTINITIALIZATION][CLIENT][INFO] Adding MortarRecipe to make 3xitem.ebwizardry:spectral_dust@7
+[AVAILABLE][CLIENT][INFO] Fixed the RecipeBook
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <harvestcraft:pinacoladaitem>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <apotheosis:null_book>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <apotheosis:armor_head_book>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <apotheosis:armor_chest_book>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <apotheosis:armor_legs_book>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <apotheosis:armor_feet_book>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <apotheosis:weapon_book>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <apotheosis:digger_book>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <apotheosis:fishing_rod_book>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <apotheosis:bow_book>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <apotheosis:scrap_tome>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <biggercraftingtables:biggercreatingtable>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <biggercraftingtables:biggercreatingtable:1>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <biggercraftingtables:biggercreatingtable:2>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <biggercraftingtables:autobiggercraftingtable>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <biggercraftingtables:autobiggercraftingtable:1>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <biggercraftingtables:autobiggercraftingtable:2>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:chest_sack_empty>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <iceandfire:dragon_horn>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <iceandfire:dragon_horn_fire>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <iceandfire:dragon_horn_ice>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <inventorypets:grave_pet>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <inventorypets:chest_pet>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <inventorypets:double_chest_pet>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <inventorypets:cloud_pet>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <inventorypets:slime_pet>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <inventorypets:loot_pet>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <inventorypets:anvil_pet>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <inventorypets:enchanting_table_pet>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <inventorypets:flying_saddle_pet>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <openblocks:scaffolding>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <quark:slime_bucket>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <randomthings:biomeradar>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <randomthings:rezstone>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <xreliquary:pedestal>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <xreliquary:pedestal:1>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <xreliquary:pedestal:2>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <xreliquary:pedestal:3>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <xreliquary:pedestal:4>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <xreliquary:pedestal:5>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <xreliquary:pedestal:6>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <xreliquary:pedestal:15>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <xreliquary:pedestal:14>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <xreliquary:pedestal:7>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <xreliquary:pedestal:8>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <xreliquary:pedestal:9>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <xreliquary:pedestal:10>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <xreliquary:pedestal:11>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <xreliquary:pedestal:12>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <xreliquary:pedestal:13>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <twilightforest:uncrafting_table>

@@ -1,0 +1,47 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "roots:roots_guide": {
+      "viewedEntries": [
+        "roots:rituals/ritual_heavy_storms",
+        "roots:concepts/quick_start",
+        "roots:herbs/terra_moss",
+        "roots:herbs/cloud_berry",
+        "roots:herbs/dewgonia",
+        "roots:herbs/infernal_bulb",
+        "roots:rituals/ritual_summon_creatures",
+        "roots:concepts/introduction",
+        "roots:concepts/wild_magic",
+        "roots:concepts/groves",
+        "roots:concepts/pacifism",
+        "roots:concepts/the_fey",
+        "roots:herbs/renewable_resources",
+        "roots:rituals/ritual_animal_harvest",
+        "roots:crafting/fey_crafter",
+        "roots:rituals/introduction",
+        "roots:crafting/pyres",
+        "roots:rituals/fire_starter",
+        "roots:crafting/grove_stone",
+        "roots:crafting/runic_crafter"
+      ],
+      "bookmarks": [],
+      "history": [
+        "roots:crafting/grove_stone",
+        "roots:crafting/fey_crafter",
+        "roots:crafting/runic_crafter",
+        "roots:rituals/introduction",
+        "roots:crafting/pyres",
+        "roots:rituals/fire_starter",
+        "roots:rituals/ritual_animal_harvest",
+        "roots:herbs/renewable_resources",
+        "roots:concepts/the_fey",
+        "roots:concepts/pacifism",
+        "roots:concepts/groves",
+        "roots:concepts/wild_magic",
+        "roots:concepts/introduction"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}
