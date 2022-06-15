@@ -1,7 +1,7 @@
 {
 	title: "World Walker",
-	x: -3.0d,
-	y: -2.0d,
+	x: -3.5d,
+	y: -1.0d,
 	description: "Take a rest, traveler",
 	text: [
 		"This armor hides you in shadows more than anything else will. (Not really)."

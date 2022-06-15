@@ -8,7 +8,7 @@
 		"",
 		"The player can switch out the active potion.",
 		"",
-		"Right-click to consume or use the active potion."
+		"Right-Click to consume or use the active potion."
 	],
 	dependencies: [
 		"020e073e"
@@ -36,5 +36,16 @@
 		uid: "b71223df",
 		type: "xp_levels",
 		xp_levels: 10
+	},
+	{
+		uid: "141599ad",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "potioncore:long_health_boost"
+			}
+		},
+		count: 3
 	}]
 }

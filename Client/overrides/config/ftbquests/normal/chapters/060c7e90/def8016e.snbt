@@ -1,7 +1,7 @@
 {
 	title: "Believing In Battlemages",
-	x: -17.5d,
-	y: 16.5d,
+	x: -17.0d,
+	y: 17.0d,
 	description: "They're viable, you know!",
 	text: [
 		"The Spellsword is an amazing thing. It allows you to hold a shield and cast spells and swing with a sword? Crazy.",
@@ -10,7 +10,7 @@
 		"",
 		"Melt it in a Furnace and take out your ingot. You'll need to break it into smaller nuggets to craft the blade, and the hilt of what will be your Spellsword.",
 		"",
-		"Craft the Arcane Anvil, which can be used to turn your Ingots back into Crystal Silver Plating; it is also used to craft your sword.",
+		"Craft the Arcane Anvil, which can be used to turn your Ingots back into Crystal SilvCraft the Arcane Anvil; it is used to craft your sword.",
 		"",
 		"Place your sword, then the hilt. It should output a Spell Dagger.",
 		""
@@ -52,10 +52,5 @@
 		uid: "e5b75933",
 		type: "xp_levels",
 		xp_levels: 10
-	},
-	{
-		uid: "8a59926e",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

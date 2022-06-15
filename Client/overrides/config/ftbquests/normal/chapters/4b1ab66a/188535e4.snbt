@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:breadfruititem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "d88d3d22",

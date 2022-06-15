@@ -1,0 +1,21 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	dependencies: [
+		"03bff484"
+	],
+	tasks: [{
+		uid: "6d58bb62",
+		type: "item",
+		items: [{
+			item: "midnight:geode"
+		}]
+	},
+	{
+		uid: "68d54d9a",
+		type: "item",
+		items: [{
+			item: "midnight:dark_pearl"
+		}]
+	}]
+}

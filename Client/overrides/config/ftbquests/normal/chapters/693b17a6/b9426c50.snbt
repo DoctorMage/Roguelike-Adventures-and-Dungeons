@@ -1,0 +1,47 @@
+{
+	title: "The Triumphant Triune",
+	x: 4.5d,
+	y: -5.0d,
+	description: "You can take someone's everything",
+	text: [
+		"Collect all three legendary aramaments."
+	],
+	tasks: [{
+		uid: "0233533e",
+		type: "item",
+		items: [{
+			item: "extrautils2:fireaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	},
+	{
+		uid: "0f57d736",
+		type: "item",
+		items: [{
+			item: "extrautils2:compoundbow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8aad0fad",
+		type: "item",
+		items: [{
+			item: "extrautils2:lawsword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "62a9ce62",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "e2c6538b",
+		type: "xp_levels",
+		xp_levels: 250
+	}]
+}

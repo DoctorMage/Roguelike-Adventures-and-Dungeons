@@ -1,6 +1,17 @@
 {
+	title: "Skull Seller (Dragons)",
 	x: 16.0d,
 	y: -7.5d,
+	description: "Skulls here, get your skulls here!",
+	text: [
+		"Sell your unwanted Dragon Skulls.",
+		"",
+		"Submit ONE Dragon Skull at a time to complete this quest.",
+		"",
+		"Collect the reward after each completion.",
+		"",
+		"You will not receive rewards for more than one item submission at a time."
+	],
 	can_repeat: true,
 	or_tasks: true,
 	tasks: [{
@@ -28,5 +39,15 @@
 		uid: "4418eb35",
 		type: "xp_levels",
 		xp_levels: 5
+	},
+	{
+		uid: "668ca5b7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
 	}]
 }

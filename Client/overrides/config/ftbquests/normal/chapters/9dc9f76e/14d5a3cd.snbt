@@ -3,6 +3,10 @@
 	x: 15.5d,
 	y: -3.0d,
 	description: "Now you need more",
+	text: [
+		"You'll always... need more...",
+		""
+	],
 	dependencies: [
 		"52178774"
 	],
@@ -25,13 +29,9 @@
 		xp_levels: 15
 	},
 	{
-		uid: "529e9365",
+		uid: "8df75ae4",
 		type: "item",
-		item: "aquaculture:loot 1 5"
-	},
-	{
-		uid: "c1836772",
-		type: "item",
-		item: "minecraft:emerald"
+		item: "dungeontactics:bag_book",
+		count: 8
 	}]
 }

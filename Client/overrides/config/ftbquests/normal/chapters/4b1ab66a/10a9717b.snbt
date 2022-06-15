@@ -7,6 +7,16 @@
 		items: [{
 			item: "harvestcraft:soybeanitem"
 		}],
-		count: 64L
+		count: 500L
+	}],
+	rewards: [{
+		uid: "5d36004f",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "5a1a0927",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

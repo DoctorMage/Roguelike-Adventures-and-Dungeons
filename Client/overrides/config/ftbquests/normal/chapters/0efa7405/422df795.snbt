@@ -1,0 +1,23 @@
+{
+	x: 1.5d,
+	y: 2.0d,
+	dependencies: [
+		"e976eaad"
+	],
+	tasks: [{
+		uid: "120f9111",
+		type: "item",
+		items: [{
+			item: "thaumcraft:mirror"
+		}]
+	},
+	{
+		uid: "190e4a8b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:hand_mirror"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

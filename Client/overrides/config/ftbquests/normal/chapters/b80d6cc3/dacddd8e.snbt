@@ -1,5 +1,5 @@
 {
-	title: "Cat In My What?",
+	title: "Cat in My What?",
 	x: 33.5d,
 	y: 5.0d,
 	description: "Why is he there?",
@@ -29,10 +29,5 @@
 		uid: "af8b2c21",
 		type: "xp_levels",
 		xp_levels: 10
-	},
-	{
-		uid: "812a092c",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

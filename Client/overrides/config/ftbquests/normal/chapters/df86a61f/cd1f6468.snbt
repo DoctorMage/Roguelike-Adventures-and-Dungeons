@@ -1,6 +1,13 @@
 {
+	title: "Tree Lover",
 	x: 0.5d,
 	y: -18.0d,
+	description: "I love them because they're useful",
+	text: [
+		"The Forester will automatically plant and harvest trees in a localized area when supplied with Saplings.",
+		"",
+		"Be sure to collect the items, as the Forester will not automatically pick up drops from trees."
+	],
 	dependencies: [
 		"ecd41947"
 	],

@@ -195,13 +195,23 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "b569aeb5",
+		uid: "b7775712",
 		type: "ftbmoney:money",
-		ftb_money: 200L
+		ftb_money: 500L
 	},
 	{
-		uid: "8b10c3ec",
+		uid: "899a2f67",
 		type: "xp_levels",
-		xp_levels: 100
+		xp_levels: 50
+	},
+	{
+		uid: "6b2c6d28",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_tier_rewards"
+			}
+		}
 	}]
 }

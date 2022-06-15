@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:gingeritem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "74a060f1",

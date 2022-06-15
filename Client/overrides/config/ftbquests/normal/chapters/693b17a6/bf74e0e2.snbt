@@ -5,9 +5,7 @@
 	y: -3.0d,
 	description: "Mobs despawn when you walk their way now.",
 	text: [
-		"Slay 100,000 mobs.",
-		"",
-		"Check your Shop for a nice reward!"
+		"Slay 100,000 mobs."
 	],
 	tasks: [{
 		uid: "47199300",

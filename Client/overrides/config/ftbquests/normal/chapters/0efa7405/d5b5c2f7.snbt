@@ -1,0 +1,41 @@
+{
+	icon: "minecraft:nether_brick",
+	x: 4.5d,
+	y: 2.5d,
+	dependencies: [
+		"187ba0b2"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "f94bca88",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_brick"
+		}],
+		count: 12L
+	},
+	{
+		uid: "74f0c6f7",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 12L
+	},
+	{
+		uid: "e2894bbf",
+		type: "item",
+		items: [{
+			item: "minecraft:lava_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "28f9f06e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}]
+}

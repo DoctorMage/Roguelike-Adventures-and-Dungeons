@@ -1,0 +1,91 @@
+{
+	x: 0.5d,
+	y: -0.5d,
+	dependencies: [
+		"018f1c8f"
+	],
+	tasks: [{
+		uid: "f1d52426",
+		type: "item",
+		items: [{
+			id: "midnight:tenebrum_helmet",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e1235f24",
+		type: "item",
+		items: [{
+			id: "midnight:tenebrum_chestplate",
+			tag: {
+				Quality: {
+					Slots: [
+						"chest"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 4021206173965698001L,
+						UUIDLeast: -6026169862681909878L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -5495991170349561L,
+						UUIDLeast: -7860471744810117178L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.cumbersome.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c03e27bd",
+		type: "item",
+		items: [{
+			id: "midnight:tenebrum_leggings",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "47adeb46",
+		type: "item",
+		items: [{
+			id: "midnight:tenebrum_boots",
+			tag: {
+				Quality: {
+					Slots: [
+						"feet"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: 6606972908998902072L,
+						UUIDLeast: -8771752202117453552L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.heavy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

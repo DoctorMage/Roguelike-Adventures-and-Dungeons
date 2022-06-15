@@ -1,6 +1,19 @@
 {
-	x: 20.0d,
-	y: -4.0d,
+	title: "Artefact Trader (Gold)",
+	x: 9.0d,
+	y: -3.5d,
+	description: "Gold stuffs for sale!",
+	text: [
+		"Sell your unwanted Golden Artefacts.",
+		"",
+		"Submit ONE stack of Golden Artefacts to complete this quest.",
+		"",
+		"Collect the reward after each completion.",
+		"",
+		"You will not receive rewards for more than one stack submission at a time."
+	],
+	can_repeat: true,
+	or_tasks: true,
 	tasks: [{
 		uid: "e43854c9",
 		type: "item",
@@ -45,5 +58,20 @@
 		uid: "114ef87c",
 		type: "ftbmoney:money",
 		ftb_money: 35L
+	},
+	{
+		uid: "b8b8ac49",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "e1f91e23",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
 	}]
 }

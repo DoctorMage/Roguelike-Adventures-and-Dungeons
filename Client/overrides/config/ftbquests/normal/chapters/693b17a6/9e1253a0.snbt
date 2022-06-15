@@ -1,13 +1,13 @@
 {
 	title: "Pharoah, With A \"PH\"",
 	icon: "atum:dagger_poison",
-	x: 8.5d,
+	x: 17.5d,
 	y: -2.5d,
 	description: "I like em' thicc... and mummified",
 	text: [
 		"Slay 25 Pharoahs.",
 		"",
-		"I didn't say do anything else to them. Understand?"
+		"I didn't say do anything else to them. "
 	],
 	tasks: [{
 		uid: "69b3bcff",

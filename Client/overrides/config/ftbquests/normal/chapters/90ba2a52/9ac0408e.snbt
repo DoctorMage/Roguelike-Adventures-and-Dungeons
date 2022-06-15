@@ -22,14 +22,14 @@
 	{
 		uid: "d69f28de",
 		type: "kill",
-		icon: "heroicarmory:rsironbattleaxe",
+		icon: "spartanweaponry:battleaxe_iron",
 		entity: "atum:barbarian",
 		value: 50L
 	},
 	{
 		uid: "36d955f5",
 		type: "kill",
-		icon: "heroicarmory:terrariaexoticscimitar",
+		icon: "spartanweaponry:greatsword_iron",
 		entity: "atum:warlord",
 		value: 50L
 	}],

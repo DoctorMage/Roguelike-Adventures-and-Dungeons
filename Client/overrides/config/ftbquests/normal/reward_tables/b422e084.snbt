@@ -1,0 +1,148 @@
+{
+	title: "Bishop Class",
+	loot_size: 50,
+	rewards: [{
+		item: "minecraft:cooked_fish 1 1",
+		count: 24,
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				CustomPotionEffects: [{
+					Duration: 300,
+					Id: 2,
+					Amplifier: 0
+				},
+				{
+					Duration: 600,
+					Id: 6,
+					Amplifier: 0
+				}],
+				display: {
+					Lore: [
+						"Used For Purging Unholy beings",
+						"or annoying neighbours"
+					],
+					Name: "Holy Water"
+				}
+			}
+		},
+		count: 5,
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:written_book",
+			tag: {
+				generation: 3,
+				pages: [
+					"{\"text\":\"1 - Thou shalt smite any undead they lay eyes upon\\n2 - Thou shalt not commit any unholy acts\\n3 - Thou shalt not steal\\n4 - Thou shalt praise thy divine one upon each sunrise\\n5 - Thou shalt do the dance\"}"
+				],
+				author: "????",
+				title: "5 Commandments",
+				resolved: 1b
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_boots",
+			tag: {
+				Quality: {},
+				display: {
+					Name: "Priest Boots"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_leggings",
+			tag: {
+				"Quark:ItemNameDye": 15,
+				Quality: {},
+				display: {
+					Name: "Priest Leggings"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_chestplate",
+			tag: {
+				"Quark:ItemNameDye": 15,
+				Quality: {},
+				display: {
+					Name: "Priest Gown"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "mysticalworld:silver_helmet",
+			tag: {
+				Quality: {},
+				display: {
+					Name: "Priest Helmet"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "spartanweaponry:mace_invar",
+			tag: {
+				"Quark:RuneColor": 0,
+				ench: [{
+					lvl: 1s,
+					id: 17
+				}],
+				"Quark:ItemNameDye": 1,
+				Quality: {},
+				display: {
+					Lore: [
+						"Bash and Bludgeon until it is done"
+					],
+					Name: "Undead Basher"
+				},
+				"Quark:RuneAttached": 1b
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "xreliquary:mercy_cross",
+			tag: {
+				"Quark:ItemNameDye": 1,
+				Quality: {},
+				display: {
+					Lore: [
+						"A cross found in the midnight sea"
+					],
+					Name: "Holy Diver"
+				}
+			}
+		},
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "bishop",
+		item_name: "Crate Of Bishop Gear",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

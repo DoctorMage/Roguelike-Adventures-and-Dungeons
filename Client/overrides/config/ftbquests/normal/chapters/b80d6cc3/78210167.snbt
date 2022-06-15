@@ -66,13 +66,6 @@
 		}]
 	},
 	{
-		uid: "c6db948d",
-		type: "item",
-		items: [{
-			item: "embers:seed_dawnstone"
-		}]
-	},
-	{
 		uid: "8dad62bc",
 		type: "item",
 		items: [{

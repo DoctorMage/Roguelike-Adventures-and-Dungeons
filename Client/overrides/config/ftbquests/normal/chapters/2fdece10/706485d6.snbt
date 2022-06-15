@@ -1,6 +1,6 @@
 {
 	x: 5.0d,
-	y: -7.5d,
+	y: -9.0d,
 	dependencies: [
 		"786a97ec"
 	],
@@ -105,13 +105,23 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "8481380f",
+		uid: "d676b567",
 		type: "ftbmoney:money",
-		ftb_money: 200L
+		ftb_money: 100L
 	},
 	{
-		uid: "4b94de4e",
+		uid: "12b39a5b",
 		type: "xp_levels",
-		xp_levels: 30
+		xp_levels: 15
+	},
+	{
+		uid: "babe492a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
 	}]
 }

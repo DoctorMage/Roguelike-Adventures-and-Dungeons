@@ -1,16 +1,21 @@
 {
-	title: "The Lion, The Snow Queen, And The Wardrobe",
+	title: "The Hydra, The Lich, and The Forest",
 	x: 2.0d,
 	y: -14.0d,
 	description: "Narnyuh awaits you",
+	text: [
+		"Childhood classics.",
+		"",
+		"That was a great movie."
+	],
 	dependencies: [
 		"efccc984"
 	],
-	size: 1.5d,
+	size: 2.0d,
 	tasks: [{
 		uid: "6080a1f8",
 		type: "kill",
-		title: "Slay the vicious Snow Queen",
+		title: "Slay the Snow Queen",
 		entity: "twilightforest:snow_queen",
 		value: 1L
 	}],
@@ -25,8 +30,8 @@
 		xp_levels: 10
 	},
 	{
-		uid: "fcd47f41",
+		uid: "f3cc11b6",
 		type: "item",
-		item: "aquaculture:loot 1 5"
+		item: "megaloot:weaponcase_rare"
 	}]
 }

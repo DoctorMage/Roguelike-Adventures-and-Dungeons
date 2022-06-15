@@ -47,16 +47,22 @@
 	rewards: [{
 		uid: "c21d4972",
 		type: "ftbmoney:money",
-		ftb_money: 50L
+		ftb_money: 100L
 	},
 	{
 		uid: "fa1f38ca",
 		type: "xp_levels",
-		xp_levels: 10
+		xp_levels: 25
 	},
 	{
 		uid: "277b1810",
 		type: "item",
 		item: "thebetweenlands:items_misc 1 40"
+	},
+	{
+		uid: "0d7b5b97",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 19",
+		count: 8
 	}]
 }

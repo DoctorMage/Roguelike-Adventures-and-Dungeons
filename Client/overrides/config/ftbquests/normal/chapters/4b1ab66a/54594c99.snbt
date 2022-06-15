@@ -7,5 +7,15 @@
 		items: [{
 			item: "harvestcraft:eggplantseeditem"
 		}]
+	}],
+	rewards: [{
+		uid: "61a63e2f",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "1b3346db",
+		type: "xp_levels",
+		xp_levels: 2
 	}]
 }

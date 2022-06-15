@@ -4,7 +4,7 @@
 	y: -2.5d,
 	description: "It stinks too!",
 	text: [
-		"Giving a whole new meaning to \"I hate spiders\"",
+		"Giving a whole new meaning to \"I hate spiders\".",
 		""
 	],
 	tasks: [{
@@ -30,10 +30,5 @@
 		uid: "e29232c4",
 		type: "xp_levels",
 		xp_levels: 5
-	},
-	{
-		uid: "7bc57285",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

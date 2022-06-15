@@ -1,0 +1,9 @@
+#missing material entry
+item.manymaterials:material.name=Unknown Material
+#material names
+item.manymaterials:corrupted_prism.name=Corrupted Prism
+item.manymaterials:arcane_amalgam.name=Arcane Amalgam
+item.manymaterials:ancient_fragments.name=Ancient Fragments
+item.manymaterials:orb_of_potential.name=Orb of Potential
+item.manymaterials:spectral_mass.name=Spectral Mass
+item.manymaterials:golden_circlet.name=Golden Circlet

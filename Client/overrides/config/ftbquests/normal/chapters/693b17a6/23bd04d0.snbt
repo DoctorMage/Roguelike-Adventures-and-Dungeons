@@ -1,0 +1,37 @@
+{
+	title: "Foliaath Feller",
+	icon: "mowziesmobs:foliaath_seed",
+	x: 0.5d,
+	y: 4.5d,
+	description: "You felled all of them",
+	text: [
+		"Just kidding, they grow back.",
+		"",
+		"Slay 1,000 Foliaaths."
+	],
+	tasks: [{
+		uid: "0f1f2ed5",
+		type: "kill",
+		title: "Cut down 1,000 Foliaath",
+		icon: {
+			id: "mowziesmobs:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "mowziesmobs:foliaath"
+				}
+			}
+		},
+		entity: "mowziesmobs:foliaath",
+		value: 1000L
+	}],
+	rewards: [{
+		uid: "cfcaf974",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "39c60fdf",
+		type: "xp_levels",
+		xp_levels: 100
+	}]
+}

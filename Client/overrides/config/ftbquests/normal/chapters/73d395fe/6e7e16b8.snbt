@@ -1,0 +1,15 @@
+{
+	x: -5.0d,
+	y: -1.0d,
+	dependencies: [
+		"500c1c45"
+	],
+	tasks: [{
+		uid: "7f3d4141",
+		type: "item",
+		items: [{
+			item: "midnight:spore_bomb 1 2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

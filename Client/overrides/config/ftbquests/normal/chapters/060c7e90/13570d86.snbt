@@ -1,7 +1,7 @@
 {
 	title: "10 Years Of Study",
-	x: -2.25d,
-	y: 1.5d,
+	x: -0.75d,
+	y: 0.75d,
 	description: "You feel like you're getting nowhere.",
 	text: [
 		"This item is used to upgrade your wand!",
@@ -29,10 +29,5 @@
 		uid: "9dc929ce",
 		type: "xp_levels",
 		xp_levels: 5
-	},
-	{
-		uid: "2cc4c66d",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

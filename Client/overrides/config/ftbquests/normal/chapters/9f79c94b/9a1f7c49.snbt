@@ -1,0 +1,126 @@
+{
+	title: "Dark Oak Library",
+	x: -1.0d,
+	y: -36.5d,
+	description: "Electroblob's Wizardry",
+	text: [
+		"LxWxH: 15x15x7",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A dark oak library with 32 shelves. There is enough room to house all the books in EBWizardy and Dan's Ancient Wizardry. ",
+		"",
+		"NOTE:",
+		"",
+		"- 32 Dark Oak Bookshelves required to replace Cyan Wool blocks.",
+		"",
+		"- 1 Dark Oak Lectern required to replace Pink Wool Blocks."
+	],
+	tasks: [{
+		uid: "fbf7d0d7",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "796fa8de",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Dark Oak Library",
+				UUID: "f7fe18f7-05c8-4013-bb55-6028998a7c6b",
+				startPos: {
+					X: 281,
+					Y: 4,
+					Z: -107
+				},
+				itemcountmap: [{
+					item: 7724,
+					meta: 5,
+					count: 6
+				},
+				{
+					item: 164,
+					meta: 0,
+					count: 5
+				},
+				{
+					item: 5461,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 6147,
+					meta: 5,
+					count: 10
+				},
+				{
+					item: 35,
+					meta: 6,
+					count: 1
+				},
+				{
+					item: 162,
+					meta: 1,
+					count: 59
+				},
+				{
+					item: 5624,
+					meta: 0,
+					count: 52
+				},
+				{
+					item: 35,
+					meta: 9,
+					count: 32
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5442,
+					meta: 3,
+					count: 11
+				},
+				{
+					item: 5674,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 126,
+					meta: 5,
+					count: 29
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5442,
+					meta: 6,
+					count: 12
+				},
+				{
+					item: 5442,
+					meta: 7,
+					count: 9
+				}],
+				endPos: {
+					X: 267,
+					Y: 10,
+					Z: -121
+				}
+			}
+		}
+	}]
+}

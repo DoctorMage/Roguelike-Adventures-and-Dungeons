@@ -18,28 +18,13 @@
 		}]
 	}],
 	rewards: [{
-		uid: "70f5ad95",
+		uid: "db147ec9",
+		type: "xp_levels",
+		xp_levels: 200
+	},
+	{
+		uid: "f3aac7c4",
 		type: "ftbmoney:money",
 		ftb_money: 100000L
-	},
-	{
-		uid: "4e812503",
-		type: "xp_levels",
-		xp_levels: 5
-	},
-	{
-		uid: "767ab34e",
-		type: "xp_levels",
-		xp_levels: 5
-	},
-	{
-		uid: "fc090c6a",
-		type: "ftbmoney:money",
-		ftb_money: 50L
-	},
-	{
-		uid: "2f0b8213",
-		type: "ftbmoney:money",
-		ftb_money: 50L
 	}]
 }

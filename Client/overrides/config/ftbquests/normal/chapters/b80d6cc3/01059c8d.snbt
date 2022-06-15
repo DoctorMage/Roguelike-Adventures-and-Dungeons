@@ -18,8 +18,8 @@
 		title: "Hot hot!"
 	}],
 	rewards: [{
-		uid: "94ebadd8",
+		uid: "848bba0f",
 		type: "item",
-		item: "aquaculture:loot 1 5"
+		item: "embers:ember_cluster"
 	}]
 }

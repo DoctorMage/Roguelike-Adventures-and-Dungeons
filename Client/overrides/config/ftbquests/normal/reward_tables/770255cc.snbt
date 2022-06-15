@@ -1,0 +1,193 @@
+{
+	title: "Artillery Class",
+	loot_size: 50,
+	rewards: [{
+		item: {
+			id: "spartanweaponry:crossbow_invar",
+			tag: {
+				"Quark:ItemNameDye": 5,
+				display: {
+					Lore: [
+						"You have my crossbow!"
+					],
+					Name: "The Crossbow of the Galadhrim"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				Parent: {
+					Size: 4,
+					Items: []
+				}
+			},
+			id: "spartanweaponry:quiver_bolt",
+			tag: {
+				ClientInventory: [],
+				"Quark:ItemNameDye": 5,
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: 9171023254255061247L,
+						UUIDLeast: -7997876377223861178L,
+						Amount: -0.20000000298023224d,
+						AttributeName: "generic.luck",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.unlucky.name"
+				},
+				display: {
+					Name: "Slightly Unlucky Quiver"
+				},
+				ammoCollect: 1b
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "spartanweaponry:throwing_axe_invar",
+			tag: {
+				AmmoUsed: 4,
+				"Quark:ItemNameDye": 5,
+				UUIDMost: 987710956231672314L,
+				UUIDLeast: -6699777503193815989L,
+				display: {
+					Lore: [
+						"A Tomahawk chop shall be their death blow."
+					],
+					Name: "Tomahawk"
+				},
+				enchChecked: 1b,
+				Original: 1b
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_helmet",
+			tag: {
+				Quality: {},
+				display: {
+					Name: "Artillery's Helmet"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_chestplate",
+			tag: {
+				"Quark:ItemNameDye": 15,
+				Quality: {},
+				display: {
+					Name: "Artillery's Chestplate"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_leggings",
+			tag: {
+				"Quark:ItemNameDye": 15,
+				Quality: {},
+				display: {
+					Name: "Artillery's Leggings"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_boots",
+			tag: {
+				Quality: {},
+				display: {
+					Name: "Artillery's Boots"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "ebwizardry:spark_bomb",
+			tag: {
+				"Quark:ItemNameDye": 4,
+				display: {
+					Lore: [
+						"Throw it at an opponent and look at the shock on their face."
+					],
+					Name: "Spark Bomb"
+				}
+			}
+		},
+		count: 10,
+		only_one: true
+	},
+	{
+		item: {
+			id: "ebwizardry:poison_bomb",
+			tag: {
+				"Quark:ItemNameDye": 10,
+				display: {
+					Lore: [
+						"Do not breathe in the chemicals from this."
+					],
+					Name: "Spark Bomb"
+				}
+			}
+		},
+		count: 5,
+		only_one: true
+	},
+	{
+		item: {
+			id: "ebwizardry:firebomb",
+			tag: {
+				"Quark:ItemNameDye": 1,
+				display: {
+					Lore: [
+						"Hot and Spicy."
+					],
+					Name: "Fire Bomb"
+				}
+			}
+		},
+		count: 5,
+		only_one: true
+	},
+	{
+		item: "spartanweaponry:bolt",
+		count: 48,
+		only_one: true
+	},
+	{
+		item: "harvestcraft:potroastitem",
+		count: 24,
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "artillery",
+		item_name: "Crate Of Artillery Gear",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

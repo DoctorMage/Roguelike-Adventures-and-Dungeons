@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:figitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "fe3d8344",

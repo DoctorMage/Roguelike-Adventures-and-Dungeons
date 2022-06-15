@@ -1,14 +1,15 @@
 {
-	title: "Village Idiot II",
+	title: "Trader Joe II",
 	x: -11.5d,
 	y: 0.0d,
-	description: "They're lovin' you now!",
+	description: "Bartered a Stick for a Can of Beans",
 	text: [
-		"Trade with villagers 1,000 times."
+		"Trade with... anything... 1,000 times."
 	],
 	tasks: [{
 		uid: "68390fb7",
 		type: "stat",
+		title: "Make 1,000 Trades",
 		icon: "minecraft:book",
 		stat: "stat.tradedWithVillager",
 		value: 1000

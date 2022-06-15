@@ -9,7 +9,7 @@
 	dependencies: [
 		"16f0a09e"
 	],
-	size: 1.5d,
+	size: 2.0d,
 	tasks: [{
 		uid: "89c614f7",
 		type: "kill",
@@ -28,8 +28,8 @@
 		xp_levels: 10
 	},
 	{
-		uid: "50eeec70",
+		uid: "a551675f",
 		type: "item",
-		item: "aquaculture:loot 1 5"
+		item: "megaloot:weaponcase_epic"
 	}]
 }

@@ -10,6 +10,7 @@
 	tasks: [{
 		uid: "3e6337fc",
 		type: "kill",
+		icon: "pvj:goon_bile",
 		entity: "pvj:pvj_goon",
 		value: 50L
 	}],

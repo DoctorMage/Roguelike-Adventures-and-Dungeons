@@ -1,5 +1,11 @@
 {
 	title: "Soup Or Soldier?",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "assets:customicons\\sentrymob.png"
+		}
+	},
 	x: 2.0d,
 	y: 4.0d,
 	description: "To go!",
@@ -10,6 +16,12 @@
 	tasks: [{
 		uid: "a5be3737",
 		type: "kill",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "assets:customicons\\sentrymob.png"
+			}
+		},
 		entity: "aether_legacy:sentry",
 		value: 25L
 	}],
@@ -17,5 +29,10 @@
 		uid: "9cdc74ff",
 		type: "ftbmoney:money",
 		ftb_money: 25L
+	},
+	{
+		uid: "4f78f614",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

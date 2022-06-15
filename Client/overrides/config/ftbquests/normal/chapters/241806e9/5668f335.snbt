@@ -41,15 +41,5 @@
 		uid: "a131fb31",
 		type: "xp_levels",
 		xp_levels: 5
-	},
-	{
-		uid: "96774265",
-		type: "item",
-		item: "aquaculture:loot 1 6"
-	},
-	{
-		uid: "a2435896",
-		type: "item",
-		item: "aquaculture:loot 1 4"
 	}]
 }

@@ -1,5 +1,5 @@
 {
-	title: "Something Is Brewing",
+	title: "A Brewing Storm",
 	x: -13.5d,
 	y: 18.5d,
 	description: "It might be Taco-Bell",
@@ -133,12 +133,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "0d8363b5",
-		type: "choice",
-		title: "Choice Storm Wizard Artefact",
-		table: 14
-	},
-	{
 		uid: "d5fd5728",
 		type: "ftbmoney:money",
 		ftb_money: 300L
@@ -147,10 +141,5 @@
 		uid: "3c242409",
 		type: "xp_levels",
 		xp_levels: 30
-	},
-	{
-		uid: "2211c2d4",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

@@ -103,13 +103,23 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "c368368e",
+		uid: "8a0ed735",
 		type: "ftbmoney:money",
-		ftb_money: 300L
+		ftb_money: 150L
 	},
 	{
-		uid: "4c329ce2",
+		uid: "cf0c3039",
 		type: "xp_levels",
-		xp_levels: 30
+		xp_levels: 25
+	},
+	{
+		uid: "f1fb9bd9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
 	}]
 }

@@ -1,0 +1,103 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	dependencies: [
+		"154c18e8"
+	],
+	tasks: [{
+		uid: "43fcb90e",
+		type: "item",
+		items: [{
+			id: "midnight:nagrilite_pickaxe",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "76acb6f2",
+		type: "item",
+		items: [{
+			id: "midnight:nagrilite_axe",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f6d9836b",
+		type: "item",
+		items: [{
+			id: "midnight:nagrilite_shovel",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 4899238784782258092L,
+						UUIDLeast: -4746486621719437320L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -7106602692538380731L,
+						UUIDLeast: -8066385178613266022L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.bulky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "16a9dd8e",
+		type: "item",
+		items: [{
+			id: "midnight:nagrilite_hoe",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "77496d17",
+		type: "item",
+		items: [{
+			id: "midnight:nagrilite_sword",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -8694062020727586122L,
+						UUIDLeast: -5356002887858569837L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.sharp.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 33.5d,
+	y: -6.0d,
+	tasks: [{
+		uid: "1b0f90f2",
+		type: "item",
+		items: [{
+			item: "embers:ingot_dawnstone"
+		}]
+	}],
+	rewards: [{
+		uid: "64a69bde",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1712b851",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

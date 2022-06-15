@@ -1,0 +1,19 @@
+{
+	title: "Elijah's Eyeballs",
+	x: -4.0d,
+	y: -7.5d,
+	description: "He wants them back",
+	text: [
+		"Obtain some Azurite."
+	],
+	dependencies: [
+		"f61dcb12"
+	],
+	tasks: [{
+		uid: "28de9c79",
+		type: "item",
+		items: [{
+			item: "tropicraft:azurite"
+		}]
+	}]
+}

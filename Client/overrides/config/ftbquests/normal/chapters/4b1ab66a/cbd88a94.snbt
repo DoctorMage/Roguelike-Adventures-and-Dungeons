@@ -7,6 +7,16 @@
 		items: [{
 			item: "harvestcraft:chickpeaitem"
 		}],
-		count: 64L
+		count: 500L
+	}],
+	rewards: [{
+		uid: "05e933bb",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "6663b564",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

@@ -1,7 +1,7 @@
 {
-	x: 3.5d,
-	y: -15.0d,
-	description: "Green Gatorade is the best",
+	x: 4.0d,
+	y: -16.0d,
+	description: "Cucumber Gatorade is nasty.",
 	text: [
 		"Craft some Jade Seeds."
 	],

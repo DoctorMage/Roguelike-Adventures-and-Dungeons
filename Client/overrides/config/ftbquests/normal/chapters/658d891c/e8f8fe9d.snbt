@@ -37,6 +37,40 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "7b4985f4",
+		type: "item",
+		items: [{
+			id: "iceandfire:dragonsteel_fire_hoe",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: 934839326232429163L,
+						UUIDLeast: -6140285821818723210L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -1827129218062531621L,
+						UUIDLeast: -7250948628515693388L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.clumsy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "dce75533",
@@ -47,10 +81,5 @@
 		uid: "4d409d2e",
 		type: "xp_levels",
 		xp_levels: 15
-	},
-	{
-		uid: "d24370d7",
-		type: "item",
-		item: "aquaculture:loot 1 6"
 	}]
 }

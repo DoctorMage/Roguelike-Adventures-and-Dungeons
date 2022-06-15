@@ -1,0 +1,16 @@
+{
+	x: 7.5d,
+	y: -5.0d,
+	dependencies: [
+		"9e943e03"
+	],
+	tasks: [{
+		uid: "ef244371",
+		type: "item",
+		items: [{
+			item: "thaumcraft:curiosity_band"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:kenafitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "841f9f19",

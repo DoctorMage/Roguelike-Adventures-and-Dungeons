@@ -1,0 +1,71 @@
+{
+	title: "Troll Weapons",
+	icon: "iceandfire:troll_weapon.column_forest",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "iceandfire:troll_weapon.axe",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "iceandfire:troll_weapon.column",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "iceandfire:troll_weapon.column_forest",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "iceandfire:troll_weapon.column_frost",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "iceandfire:troll_weapon.hammer",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "iceandfire:troll_weapon.trunk",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "iceandfire:troll_weapon.trunk_frost",
+			tag: {
+				Quality: {}
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "troll_weapons",
+		item_name: "Crate of Trollish Weaponry",
+		color: 6842472,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

@@ -10,6 +10,12 @@
 	tasks: [{
 		uid: "f0cb32fe",
 		type: "kill",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "assets:customicons\\koboldmob.png"
+			}
+		},
 		entity: "twilightforest:kobold",
 		value: 25L
 	}],

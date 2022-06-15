@@ -1,6 +1,13 @@
 {
+	title: "Village Scandal",
 	x: 26.0d,
 	y: 7.0d,
+	description: "You're the only one in on it",
+	text: [
+		"Greedy little villagers.",
+		"",
+		"They want Emeralds? They get THIS instead!"
+	],
 	dependencies: [
 		"2eebb48a"
 	],

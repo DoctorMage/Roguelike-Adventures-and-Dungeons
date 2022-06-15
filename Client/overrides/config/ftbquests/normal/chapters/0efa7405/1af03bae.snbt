@@ -1,0 +1,24 @@
+{
+	title: "Wonderous Work",
+	x: 3.0d,
+	y: -6.0d,
+	description: "Doesn't do the work for you, though",
+	text: [
+		"An Arcane Workbench is required for many of Thaumcraft's basic recipes. Think of this as your Crafting Table for the mod. The Arcane Workbench also works as a Crafting Table, and items inside will not return to your inventory.",
+		"",
+		"Once you've created your Arcane Workbench, we can complete the objective in the Thaumonomicon. Make sure to do this as you progress through the mod!",
+		"",
+		"However, before moving on, we must complete other pre-requisite objectives inside your book!"
+	],
+	dependencies: [
+		"28000024"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "0eee66e3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
+	}]
+}

@@ -1,5 +1,6 @@
 {
 	title: "Someone Saw This Thing And Said Florida",
+	icon: "thebetweenlands:mummy_bait",
 	x: 5.0d,
 	y: 0.0d,
 	description: "I agree with them",
@@ -20,6 +21,6 @@
 	{
 		uid: "e890fce5",
 		type: "xp_levels",
-		xp_levels: 50
+		xp_levels: 250
 	}]
 }

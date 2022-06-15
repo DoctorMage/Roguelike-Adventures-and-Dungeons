@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:pomegranateitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "f009d2c2",

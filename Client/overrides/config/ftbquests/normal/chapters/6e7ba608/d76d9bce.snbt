@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: -10.0d,
+	dependencies: [
+		"dbca8bae"
+	],
+	tasks: [{
+		uid: "bb648e11",
+		type: "item",
+		items: [{
+			item: "tropicraft:sifter"
+		}]
+	}]
+}

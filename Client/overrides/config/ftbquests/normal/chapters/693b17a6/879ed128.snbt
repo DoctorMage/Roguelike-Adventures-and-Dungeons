@@ -10,6 +10,7 @@
 	tasks: [{
 		uid: "64df0206",
 		type: "kill",
+		title: "Slay 100 Naga",
 		icon: "mowziesmobs:naga_fang",
 		entity: "mowziesmobs:naga",
 		value: 100L
@@ -17,11 +18,11 @@
 	rewards: [{
 		uid: "a9335aa6",
 		type: "ftbmoney:money",
-		ftb_money: 500L
+		ftb_money: 1250L
 	},
 	{
 		uid: "fafa3029",
 		type: "xp_levels",
-		xp_levels: 50
+		xp_levels: 100
 	}]
 }

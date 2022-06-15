@@ -1,6 +1,11 @@
 {
 	title: "Aechorologist",
-	icon: "aether_legacy:aechor_petal",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "assets:customicons\\aechormob.png"
+		}
+	},
 	x: 0.0d,
 	y: 4.0d,
 	description: "The study of how to kill Aechor Plants!",
@@ -11,6 +16,12 @@
 	tasks: [{
 		uid: "ce057ee5",
 		type: "kill",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "assets:customicons\\aechormob.png"
+			}
+		},
 		entity: "aether_legacy:aechor_plant",
 		value: 25L
 	}],

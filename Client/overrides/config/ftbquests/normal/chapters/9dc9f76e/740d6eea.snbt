@@ -4,7 +4,7 @@
 	y: -18.0d,
 	description: "This one sounded better in my head",
 	text: [
-		"Will permanently add a potion effect to your character, when combined with an appropriate potion. ",
+		"This item will permanently apply a potion effect when combined with an appropriate potion.",
 		"",
 		"Must be equipped to be active.",
 		"",
@@ -29,5 +29,11 @@
 		uid: "1154ed64",
 		type: "xp_levels",
 		xp_levels: 10
+	},
+	{
+		uid: "153fa6e3",
+		type: "item",
+		item: "minecraft:ghast_tear",
+		count: 2
 	}]
 }

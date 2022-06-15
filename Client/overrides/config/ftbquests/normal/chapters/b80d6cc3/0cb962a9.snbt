@@ -1,15 +1,16 @@
 {
-	title: "Nicholas Flamel Was Cheating If He Used This Thing",
+	title: "Nicholas Flamel Was Cheating if He Used This Thing",
 	x: 25.5d,
 	y: 3.5d,
 	description: "This isn't real alchemy!",
 	text: [
-		"Shooting things with high tech fire lasers and turning them into new compounds does not count as being an alchemist!"
+		"Shooting things with high tech fire lasers and turning them into new compounds does not count as being an alchemist!",
+		"",
+		"Craft a set of alchemy equipment!"
 	],
 	dependencies: [
 		"05276366"
 	],
-	or_tasks: true,
 	tasks: [{
 		uid: "b677331c",
 		type: "item",

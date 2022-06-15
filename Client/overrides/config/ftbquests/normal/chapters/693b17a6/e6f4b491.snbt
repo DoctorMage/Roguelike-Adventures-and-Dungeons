@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "5f460d8b",
 		type: "kill",
-		title: "Slay 100 Frostmaw",
+		title: "Slay 25 Frostmaw",
 		icon: "cavern:ice_sword",
 		entity: "mowziesmobs:frostmaw",
 		value: 25L
@@ -18,11 +18,11 @@
 	rewards: [{
 		uid: "af9fc36b",
 		type: "ftbmoney:money",
-		ftb_money: 500L
+		ftb_money: 1250L
 	},
 	{
 		uid: "3998311a",
 		type: "xp_levels",
-		xp_levels: 30
+		xp_levels: 200
 	}]
 }

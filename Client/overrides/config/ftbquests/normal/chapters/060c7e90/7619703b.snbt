@@ -141,12 +141,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "fe871e94",
-		type: "choice",
-		title: "Choice Ice Wizard Artefact",
-		table: 13
-	},
-	{
 		uid: "510db15a",
 		type: "ftbmoney:money",
 		ftb_money: 300L
@@ -155,10 +149,5 @@
 		uid: "fab70df3",
 		type: "xp_levels",
 		xp_levels: 30
-	},
-	{
-		uid: "fcb222c6",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

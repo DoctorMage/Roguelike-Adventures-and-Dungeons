@@ -1,0 +1,36 @@
+{
+	title: "Infused Stone",
+	x: 6.0d,
+	y: -1.5d,
+	dependencies: [
+		"d61d7f87"
+	],
+	tasks: [{
+		uid: "60fe8b6a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:matrix_speed"
+		}]
+	},
+	{
+		uid: "890f4bc6",
+		type: "item",
+		items: [{
+			item: "thaumcraft:matrix_cost"
+		}]
+	},
+	{
+		uid: "46c53066",
+		type: "item",
+		items: [{
+			item: "thaumcraft:paving_stone_travel"
+		}]
+	},
+	{
+		uid: "fc1ec1b4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:paving_stone_barrier"
+		}]
+	}]
+}

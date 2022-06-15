@@ -1,7 +1,7 @@
 {
-	title: "The All Knowing Almanac",
-	x: 7.5d,
-	y: 0.5d,
+	title: "The All-Knowing Almanac",
+	x: -0.5d,
+	y: 1.5d,
 	description: "It'll teach you how to make booze!",
 	text: [
 		"This book will guide you quite thoroughly through Rustic and the expanded alchemy presented to you in the mod.",

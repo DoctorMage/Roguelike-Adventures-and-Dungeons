@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:onionitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "1bf12fce",

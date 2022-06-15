@@ -16,6 +16,9 @@
 		"",
 		"-Placing a Battery from Cyclic next to the Injector, and placing Numbered Spectre Coils onto the Battery. Make sure to set the energy transfer to the correct side of the Battery! Use JourneyMap to help with the cardinal directions."
 	],
+	dependencies: [
+		"403c8235"
+	],
 	size: 2.0d,
 	tasks: [{
 		uid: "42504828",

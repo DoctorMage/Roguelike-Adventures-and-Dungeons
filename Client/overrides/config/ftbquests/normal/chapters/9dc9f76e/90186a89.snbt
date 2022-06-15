@@ -1,10 +1,12 @@
 {
-	title: "New home",
+	title: "New Home",
 	x: -7.5d,
 	y: 3.5d,
-	description: "Craft one of these",
+	description: "Nice and cozy",
 	text: [
-		"Tents come in various sizes: from Small (5x5), Medium (7x7), and Large (9x9) to Huge (11x11), Giant (13x13), and Mega (15x15)."
+		"Tents come in various sizes: from Small (5x5), Medium (7x7), and Large (9x9) to Huge (11x11), Giant (13x13), and Mega (15x15).",
+		"",
+		""
 	],
 	dependencies: [
 		"44c9367a"
@@ -27,7 +29,7 @@
 				}
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "008b7a33",
@@ -44,7 +46,7 @@
 				}
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "b2de320c",
@@ -61,7 +63,7 @@
 				}
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "c949ed22",
@@ -78,7 +80,7 @@
 				}
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "db1d3320",
@@ -95,7 +97,7 @@
 				}
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	}],
 	rewards: [{
 		uid: "70c9559e",

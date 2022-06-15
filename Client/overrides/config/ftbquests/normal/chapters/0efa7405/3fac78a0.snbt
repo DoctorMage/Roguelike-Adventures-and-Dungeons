@@ -1,0 +1,16 @@
+{
+	x: 8.5d,
+	y: 1.0d,
+	dependencies: [
+		"d61d7f87"
+	],
+	tasks: [{
+		uid: "cedebccd",
+		type: "item",
+		items: [{
+			item: "thaumcraft:traveller_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -4,7 +4,9 @@
 	y: 11.0d,
 	description: "Just a construct",
 	text: [
-		"Collect a Tree of Time sapling."
+		"Collect a Tree of Time sapling.",
+		"",
+		"They can be found in tree dungeons in the Twilight Forest."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

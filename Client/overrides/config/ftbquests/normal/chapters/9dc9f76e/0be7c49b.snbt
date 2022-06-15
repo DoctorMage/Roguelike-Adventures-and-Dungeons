@@ -3,8 +3,13 @@
 	y: 5.0d,
 	description: "The tent is not going to construct itself!",
 	text: [
-		"Use the tent item to place frame blocks in the shape of your tent. Then hit each piece with the Tent Mallet to build. This will take a couple minutes in real-time, so don't wait until night falls to start!",
-		""
+		"Place down your tent of choice!",
+		"",
+		"Right-Click each frame block multiple times in order to construct your tent.",
+		"",
+		"This will take a few minutes in real time, since each block must be constructed individually.",
+		"",
+		"Don't wait until night-fall!"
 	],
 	dependencies: [
 		"90186a89"

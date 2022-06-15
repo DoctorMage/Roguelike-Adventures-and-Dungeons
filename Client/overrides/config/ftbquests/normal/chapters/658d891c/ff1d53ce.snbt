@@ -1,6 +1,11 @@
 {
+	title: "Sasquatch",
 	x: 23.5d,
 	y: -1.0d,
+	description: "Their break stinks",
+	text: [
+		"Obtain a set of Mountain Troll Armor."
+	],
 	tasks: [{
 		uid: "f5cd4ba5",
 		type: "item",

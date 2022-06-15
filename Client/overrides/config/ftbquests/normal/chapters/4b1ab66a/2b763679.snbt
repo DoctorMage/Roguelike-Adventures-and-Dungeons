@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:sesameseedsitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "ee6f97b9",

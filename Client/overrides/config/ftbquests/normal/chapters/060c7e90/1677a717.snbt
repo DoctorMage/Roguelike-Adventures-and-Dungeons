@@ -145,12 +145,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "aca53512",
-		type: "choice",
-		title: "Choice Healing Wizard Artefact",
-		table: 18
-	},
-	{
 		uid: "476985cd",
 		type: "ftbmoney:money",
 		ftb_money: 300L
@@ -159,10 +153,5 @@
 		uid: "def51009",
 		type: "xp_levels",
 		xp_levels: 30
-	},
-	{
-		uid: "9b5ab1b5",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

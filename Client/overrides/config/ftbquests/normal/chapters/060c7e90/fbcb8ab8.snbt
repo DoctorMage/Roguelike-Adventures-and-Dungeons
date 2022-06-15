@@ -94,12 +94,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "aa1c7b97",
-		type: "random",
-		title: "Random Sorcerer Wizard Artefact",
-		table: 17
-	},
-	{
 		uid: "b2307a32",
 		type: "ftbmoney:money",
 		ftb_money: 100L

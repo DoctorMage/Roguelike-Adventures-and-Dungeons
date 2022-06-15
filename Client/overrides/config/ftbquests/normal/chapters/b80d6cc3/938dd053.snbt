@@ -32,6 +32,7 @@
 	{
 		uid: "8aa1beaf",
 		type: "item",
-		item: "aquaculture:loot 1 6"
+		item: "aquaculture:loot 1 6",
+		count: 3
 	}]
 }

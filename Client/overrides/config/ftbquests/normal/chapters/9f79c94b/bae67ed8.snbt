@@ -1,0 +1,96 @@
+{
+	title: "Thaumic Farmland",
+	x: -15.0d,
+	y: -12.5d,
+	description: "Thaumcraft 6",
+	text: [
+		"LxWxH: 21x21x8",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A plot of farmland in Thaumic purple. It has an area of 15x15 (total of 225 blocks), thus compatible with Harvesters."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "18fdc842",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "e08154df",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 3,
+				TemplateName: "Thaumic Farmland",
+				UUID: "8e23bd61-9685-4deb-9c5a-373a90d8a26b",
+				startPos: {
+					X: 293,
+					Y: 4,
+					Z: -105
+				},
+				itemcountmap: [{
+					item: 9134,
+					meta: 0,
+					count: 24
+				},
+				{
+					item: 9185,
+					meta: 0,
+					count: 34
+				},
+				{
+					item: 5257,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5543,
+					meta: 11,
+					count: 72
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 5245,
+					meta: 0,
+					count: 60
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5254,
+					meta: 0,
+					count: 16
+				},
+				{
+					item: 4813,
+					meta: 0,
+					count: 225
+				},
+				{
+					item: 5583,
+					meta: 12,
+					count: 13
+				}],
+				endPos: {
+					X: 273,
+					Y: 11,
+					Z: -125
+				}
+			}
+		}
+	}]
+}

@@ -11,12 +11,24 @@
 	tasks: [{
 		uid: "743ad4ec",
 		type: "kill",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "assets:customicons\\mistwolfmob.png"
+			}
+		},
 		entity: "twilightforest:mist_wolf",
 		value: 25L
 	},
 	{
 		uid: "676afeee",
 		type: "kill",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "assets:customicons\\winterwolfmob.png"
+			}
+		},
 		entity: "twilightforest:winter_wolf",
 		value: 25L
 	}],

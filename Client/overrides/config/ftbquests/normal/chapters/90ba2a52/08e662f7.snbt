@@ -9,6 +9,12 @@
 	tasks: [{
 		uid: "cb08ed3e",
 		type: "kill",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "assets:customicons\\firebatmob.png"
+			}
+		},
 		entity: "thaumcraft:firebat",
 		value: 10L
 	}],

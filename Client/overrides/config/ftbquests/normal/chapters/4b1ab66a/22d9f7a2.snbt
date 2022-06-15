@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:cassavaitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "fcfaa86e",

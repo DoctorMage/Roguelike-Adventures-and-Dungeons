@@ -1,0 +1,11 @@
+{
+	x: 38.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "938a9cf3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot"
+		}]
+	}]
+}

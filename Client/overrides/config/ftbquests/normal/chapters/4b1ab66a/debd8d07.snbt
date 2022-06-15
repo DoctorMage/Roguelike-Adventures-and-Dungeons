@@ -5,9 +5,9 @@
 		uid: "eafd00e8",
 		type: "item",
 		items: [{
-			item: "harvestcraft:pearitem"
+			item: "harvestcraft:lemonitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "1e4719f9",

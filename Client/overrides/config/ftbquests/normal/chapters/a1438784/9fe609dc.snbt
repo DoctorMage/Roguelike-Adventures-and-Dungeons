@@ -4,7 +4,12 @@
 	y: 4.0d,
 	description: "You're icey!",
 	text: [
-		"Who knew Rubies shine brighter than Diamonds?"
+		"Who knew Rubies shine brighter than Diamonds?",
+		"",
+		"Collect all Rings."
+	],
+	dependencies: [
+		"cf715fd3"
 	],
 	tasks: [{
 		uid: "7d351a02",
@@ -61,6 +66,7 @@
 	{
 		uid: "3a891fee",
 		type: "random",
-		table: 19
+		title: "Random Atum Artefact",
+		table: 3
 	}]
 }

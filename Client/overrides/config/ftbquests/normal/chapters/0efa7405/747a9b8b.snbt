@@ -1,0 +1,15 @@
+{
+	x: -5.5d,
+	y: -4.75d,
+	dependencies: [
+		"bee95934"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "9bf83daf",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench_charger"
+		}]
+	}]
+}

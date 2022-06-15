@@ -4,9 +4,7 @@
 	y: 7.5d,
 	description: "Bacon bacon bacon BACON!!",
 	text: [
-		"Yup. Levels your doggy up to level 60.",
-		"",
-		"This is what your dog wanted the whole time."
+		"Feed your doggy Master Treats up to level 60!"
 	],
 	dependencies: [
 		"d75162de"

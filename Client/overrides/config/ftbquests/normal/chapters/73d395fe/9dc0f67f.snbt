@@ -1,0 +1,35 @@
+{
+	x: -1.0d,
+	y: -6.5d,
+	dependencies: [
+		"03bff484"
+	],
+	tasks: [{
+		uid: "8bdf6d5e",
+		type: "item",
+		items: [{
+			item: "midnight:bogshroom_sporch"
+		}]
+	},
+	{
+		uid: "5a86d5b9",
+		type: "item",
+		items: [{
+			item: "midnight:viridshroom_sporch"
+		}]
+	},
+	{
+		uid: "10c62dea",
+		type: "item",
+		items: [{
+			item: "midnight:dewshroom_sporch"
+		}]
+	},
+	{
+		uid: "c4d8708a",
+		type: "item",
+		items: [{
+			item: "midnight:nightshroom_sporch"
+		}]
+	}]
+}

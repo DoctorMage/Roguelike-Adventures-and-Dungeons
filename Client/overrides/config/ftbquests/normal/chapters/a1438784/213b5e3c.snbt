@@ -19,5 +19,15 @@
 		uid: "72e7aa34",
 		type: "xp_levels",
 		xp_levels: 20
+	},
+	{
+		uid: "d6e28eeb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_tier_rewards"
+			}
+		}
 	}]
 }

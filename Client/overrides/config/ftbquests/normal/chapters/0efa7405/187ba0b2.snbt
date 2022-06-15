@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: 5.0d,
+	dependencies: [
+		"1af03bae"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "9d91a6cc",
+		type: "item",
+		items: [{
+			item: "thaumcraft:goggles"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

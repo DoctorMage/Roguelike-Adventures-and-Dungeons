@@ -4,11 +4,13 @@
 	y: 0.0d,
 	description: "Just kidding, but not really",
 	text: [
-		"These items will enable you to build as best of a self sorting system as you can.",
+		"These items will enable you to build the best auto-storage ever!",
 		"",
 		"Connecting too many chests to a single storage system may create large amounts of lag within an area.",
 		"",
-		"Though the limit is large, the lag will slowly become noticeable. Take care as you expand your storage system to the ludicrous size you want it to be."
+		"Though the limit is large, the lag will slowly become noticeable. Take care as you expand your storage system to the ludicrous size you want it to be.",
+		"",
+		"Utilize Colossal Chests to cut down on the amount of chests you connect to your system!"
 	],
 	dependencies: [
 		"5e5e8910"

@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:scallionitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "8a71f56a",

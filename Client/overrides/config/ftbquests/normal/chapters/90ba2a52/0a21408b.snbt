@@ -10,7 +10,18 @@
 	tasks: [{
 		uid: "08971a00",
 		type: "kill",
+		icon: "thebetweenlands:pyrad_flame",
 		entity: "thebetweenlands:pyrad",
-		value: 25L
+		value: 15L
+	}],
+	rewards: [{
+		uid: "cd38836c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "27a93544",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

@@ -1,0 +1,29 @@
+{
+	x: 4.0d,
+	y: -15.0d,
+	description: "Bluer than Elijah Wood's eyeballs",
+	text: [
+		"Craft some Sapphire Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8d4841a2"
+	],
+	tasks: [{
+		uid: "6b01f5f2",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:sapphire_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "b681c66e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "152d6f02",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

@@ -7,6 +7,16 @@
 		items: [{
 			item: "harvestcraft:waterchestnutitem"
 		}],
-		count: 64L
+		count: 500L
+	}],
+	rewards: [{
+		uid: "ded9c732",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "15bd99f7",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

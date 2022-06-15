@@ -5,9 +5,9 @@
 		uid: "e13cd974",
 		type: "item",
 		items: [{
-			item: "harvestcraft:pamspiderweb"
+			item: "minecraft:string"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "221d6614",

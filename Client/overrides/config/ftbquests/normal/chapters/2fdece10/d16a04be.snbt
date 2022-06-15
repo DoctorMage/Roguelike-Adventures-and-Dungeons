@@ -7,5 +7,15 @@
 		items: [{
 			item: "embers:ingot_tin"
 		}]
+	}],
+	rewards: [{
+		uid: "6a267017",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "2da0b1c9",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

@@ -1,10 +1,10 @@
 {
-	title: "What You Get For Christmas",
+	title: "What You Get for Christmas",
 	x: -1.0d,
 	y: -2.0d,
 	description: "You've been a NAUGHTY boy",
 	text: [
-		"Naughty boys get the coal.",
+		"And naughty boys get the coal.",
 		"",
 		"Now be naughty and go get some."
 	],

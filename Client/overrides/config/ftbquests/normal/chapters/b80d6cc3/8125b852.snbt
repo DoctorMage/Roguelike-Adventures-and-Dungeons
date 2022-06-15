@@ -4,7 +4,9 @@
 	y: 5.0d,
 	description: "Shinier than your bald head!",
 	text: [
-		"Surprisingly powerful..."
+		"Surprisingly powerful...",
+		"",
+		"Craft the Dawnstone weapons and armor."
 	],
 	dependencies: [
 		"05276366"

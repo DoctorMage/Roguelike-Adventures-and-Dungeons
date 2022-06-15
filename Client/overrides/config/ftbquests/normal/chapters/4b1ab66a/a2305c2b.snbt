@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:curryleafitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "cf9f56c8",

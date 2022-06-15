@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:soursopitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "8fa8399a",

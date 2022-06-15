@@ -4,9 +4,11 @@
 	y: 0.5d,
 	description: "The new Home Alone movie was really good this year!",
 	text: [
-		"Chunk Loaders and Spot Loaders will load a chunk, or a spot, from 0 to 256.",
+		"Chunk Loaders and Spot Loaders will keep a chunk loaded.",
 		"",
-		"Tasks and activities will behave as if the chunk was still being loaded. It will not however, behave as if the player was standing within the chunk. This item will only keep the chunk or spot it is in, loaded."
+		"Do what you want with that information.",
+		"",
+		"Like make farms that still grow while you're away."
 	],
 	dependencies: [
 		"a05c73b5"

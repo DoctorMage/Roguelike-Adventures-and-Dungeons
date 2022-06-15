@@ -35,13 +35,6 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	},
-	{
-		uid: "faf6ffac",
-		type: "item",
-		items: [{
-			item: "thebetweenlands:draeton_burner"
-		}]
 	}],
 	rewards: [{
 		uid: "fe01323b",

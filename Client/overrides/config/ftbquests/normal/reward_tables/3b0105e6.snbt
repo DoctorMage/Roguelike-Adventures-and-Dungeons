@@ -1,0 +1,302 @@
+{
+	title: "Rare Tier Rewards",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "rare_tier_rewards"
+		}
+	},
+	loot_size: 5,
+	use_title: true,
+	rewards: [{
+		item: {
+			id: "dungeontactics:master_hammer_leap",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "dungeontactics:master_hammer_smash",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "dungeontactics:master_cestus_roar",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "dungeontactics:master_cestus_pummel",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "dungeontactics:master_cutlass_riposte",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "dungeontactics:master_cutlass_pierce",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "dungeontactics:master_knife_smokebomb",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "dungeontactics:master_knife_multistrike",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: "megaloot:weaponcase_rare",
+		weight: 10
+	},
+	{
+		item: "randomloot:golden_case",
+		weight: 10
+	},
+	{
+		item: "ebwizardry:grand_crystal",
+		random_bonus: 3,
+		weight: 10
+	},
+	{
+		item: "thebetweenlands:rune_door_key",
+		weight: 10
+	},
+	{
+		item: "randomthings:spectreilluminator",
+		count: 3,
+		weight: 10
+	},
+	{
+		item: "randomthings:spectrecoil_number",
+		weight: 11
+	},
+	{
+		item: "thaumcraft:curio",
+		weight: 10
+	},
+	{
+		item: "thaumcraft:curio 1 1",
+		weight: 10
+	},
+	{
+		item: "thaumcraft:curio 1 2",
+		weight: 10
+	},
+	{
+		item: "thaumcraft:curio 1 3",
+		weight: 10
+	},
+	{
+		item: "thaumcraft:curio 1 4",
+		weight: 10
+	},
+	{
+		item: "thaumcraft:curio 1 5",
+		weight: 10
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ritual_book",
+			tag: {
+				ritual: "ancientspellcraft:condensing"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ritual_book",
+			tag: {
+				ritual: "ancientspellcraft:bonfire"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ritual_book",
+			tag: {
+				ritual: "ancientspellcraft:forest"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ritual_book",
+			tag: {
+				ritual: "ancientspellcraft:rejuvenation"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ritual_book",
+			tag: {
+				ritual: "ancientspellcraft:arcane_barrier"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: "ancientspellcraft:stone_tablet_large",
+		weight: 11
+	},
+	{
+		item: "ebwizardry:ethereal_crystalweave",
+		weight: 10
+	},
+	{
+		item: "ebwizardry:resplendent_thread",
+		weight: 10
+	},
+	{
+		item: "ebwizardry:crystal_silver_plating",
+		weight: 10
+	},
+	{
+		item: "iceandfire:gorgon_head",
+		weight: 10
+	},
+	{
+		item: {
+			id: "iceandfire:cyclops_eye",
+			tag: {
+				HurtingTicks: 97
+			}
+		},
+		weight: 10
+	},
+	{
+		item: "iceandfire:hippocampus_fin",
+		weight: 10
+	},
+	{
+		item: "iceandfire:siren_tear",
+		weight: 10
+	},
+	{
+		item: "dungeontactics:charm_bleak",
+		weight: 11
+	},
+	{
+		item: "waystones:waystone",
+		weight: 10
+	},
+	{
+		item: "signpost:blockbase",
+		weight: 10
+	},
+	{
+		item: "thebetweenlands:waystone",
+		weight: 10
+	},
+	{
+		item: "thebetweenlands:bone_wayfinder",
+		weight: 10
+	},
+	{
+		item: {
+			id: "twilightforest:glass_sword",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 9
+	},
+	{
+		item: "aquaculture:loot 1 1",
+		count: 3,
+		random_bonus: 10,
+		weight: 11
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "elemental_crystal_blocks"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "troll_weapons"
+			}
+		},
+		weight: 11
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hippogryph_eggs"
+			}
+		},
+		weight: 11
+	},
+	{
+		item: "ebwizardry:astral_diamond",
+		weight: 11
+	},
+	{
+		item: "embers:ember_cluster",
+		count: 3,
+		random_bonus: 2,
+		weight: 10
+	},
+	{
+		item: "minecraft:nether_star",
+		count: 3,
+		random_bonus: 10
+	}],
+	loot_crate: {
+		string_id: "rare_tier_rewards",
+		item_name: "Crate of Rare Rewards",
+		color: 18347,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

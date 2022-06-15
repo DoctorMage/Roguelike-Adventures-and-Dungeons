@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:flaxitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "6d93184a",

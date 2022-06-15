@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: -11.5d,
+	dependencies: [
+		"f61dcb12"
+	],
+	tasks: [{
+		uid: "126fa294",
+		type: "item",
+		items: [{
+			item: "tropicraft:air_compressor"
+		}]
+	}]
+}

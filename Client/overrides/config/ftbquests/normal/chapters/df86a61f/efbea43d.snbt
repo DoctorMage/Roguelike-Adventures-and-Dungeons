@@ -16,18 +16,7 @@
 		uid: "c08cc5e7",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "gemObsidian",
-					id: "ore"
-				}
-			},
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any gemObsidian"
-				}
-			}
+			item: "cyclicmagic:crystallized_obsidian"
 		}]
 	},
 	{

@@ -4,24 +4,24 @@
 	y: -1.0d,
 	description: "Work done!",
 	text: [
-		"Complete 500 uncommon bounties."
+		"Complete 350 uncommon bounties."
 	],
 	tasks: [{
 		uid: "1e6fd85c",
 		type: "stat",
-		title: "Complete 500 uncommon bounties",
+		title: "Complete 350 uncommon bounties",
 		icon: "bountiful:bounty",
 		stat: "stat.bountiesUncommon",
-		value: 500
+		value: 350
 	}],
 	rewards: [{
 		uid: "d5947cc9",
 		type: "ftbmoney:money",
-		ftb_money: 500L
+		ftb_money: 3500L
 	},
 	{
 		uid: "5132bc5c",
 		type: "xp_levels",
-		xp_levels: 25
+		xp_levels: 250
 	}]
 }

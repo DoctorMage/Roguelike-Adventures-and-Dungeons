@@ -1,0 +1,14 @@
+{
+	x: -5.5d,
+	y: -9.0d,
+	dependencies: [
+		"f61dcb12"
+	],
+	tasks: [{
+		uid: "1b59dc50",
+		type: "item",
+		items: [{
+			item: "tropicraft:zircon"
+		}]
+	}]
+}

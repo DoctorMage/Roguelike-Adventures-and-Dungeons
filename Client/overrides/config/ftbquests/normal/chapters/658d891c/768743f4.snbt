@@ -96,8 +96,13 @@
 		item: "iceandfire:manuscript"
 	},
 	{
-		uid: "f587ab3c",
+		uid: "8816938f",
 		type: "item",
-		item: "aquaculture:loot 1 5"
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_tier_rewards"
+			}
+		}
 	}]
 }

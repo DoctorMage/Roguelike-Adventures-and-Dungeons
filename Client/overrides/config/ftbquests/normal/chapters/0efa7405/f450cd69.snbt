@@ -1,0 +1,21 @@
+{
+	x: 8.5d,
+	y: -13.0d,
+	dependencies: [
+		"7c204714"
+	],
+	tasks: [{
+		uid: "898c9b9c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:bath_salts"
+		}]
+	},
+	{
+		uid: "df40547f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:sanity_soap"
+		}]
+	}]
+}

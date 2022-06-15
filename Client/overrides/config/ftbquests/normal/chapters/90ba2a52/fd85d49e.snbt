@@ -1,6 +1,6 @@
 {
-	x: 10.5d,
-	y: -7.5d,
+	x: 9.5d,
+	y: -7.0d,
 	can_repeat: true,
 	tasks: [{
 		uid: "103e2e08",
@@ -16,8 +16,8 @@
 		ftb_money: 30L
 	},
 	{
-		uid: "453335ac",
-		type: "item",
-		item: "chancecubes:chance_cube"
+		uid: "75e9dc47",
+		type: "xp_levels",
+		xp_levels: 15
 	}]
 }

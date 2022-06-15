@@ -1,0 +1,14 @@
+{
+	x: 0.5d,
+	y: -4.0d,
+	dependencies: [
+		"03bff484"
+	],
+	tasks: [{
+		uid: "b89f4aba",
+		type: "item",
+		items: [{
+			item: "midnight:ebonys"
+		}]
+	}]
+}

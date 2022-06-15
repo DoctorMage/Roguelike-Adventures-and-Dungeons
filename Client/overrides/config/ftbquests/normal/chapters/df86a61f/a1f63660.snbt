@@ -1,6 +1,15 @@
 {
+	title: "You're Good, You're Good!",
 	x: -3.5d,
 	y: -16.0d,
+	description: "You're good!",
+	text: [
+		"Drop it!",
+		"",
+		"The Precise Dropper is a highly configurable dropper.",
+		"",
+		"Set the Speed, Velocity and more of each item that gets shot through the dropper."
+	],
 	dependencies: [
 		"ecd41947"
 	],

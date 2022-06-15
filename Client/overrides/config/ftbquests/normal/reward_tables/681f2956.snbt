@@ -1,0 +1,158 @@
+{
+	title: "Dwarf Class",
+	loot_size: 50,
+	rewards: [{
+		item: {
+			id: "minecraft:iron_helmet",
+			tag: {
+				Quality: {},
+				display: {
+					Name: "Dwarf Helmet"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_chestplate",
+			tag: {
+				Quality: {},
+				display: {
+					Name: "Dwarf Chestplate"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_leggings",
+			tag: {
+				Quality: {},
+				display: {
+					Name: "Dwarf Leggings"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_boots",
+			tag: {
+				Quality: {},
+				display: {
+					Name: "Dwarf Boots"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "spartanshields:shield_basic_tin",
+			tag: {
+				"Quark:ItemNameDye": 3,
+				Quality: {},
+				display: {
+					Name: "Dwarven Tin Shield"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 34
+				},
+				{
+					lvl: 1s,
+					id: 32
+				}],
+				"Quark:ItemNameDye": 3,
+				Quality: {},
+				display: {
+					Lore: [
+						"Every Dwarf needs a trusty pick"
+					],
+					Name: "Ol Besty"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "spartanweaponry:hammer_invar",
+			tag: {
+				"Quark:ItemNameDye": 3,
+				Quality: {},
+				display: {
+					Name: "Dwarf Hammer"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				CustomPotionEffects: [{
+					Duration: 3600,
+					Id: 3,
+					Amplifier: 0
+				},
+				{
+					Duration: 300,
+					Id: 9,
+					Amplifier: 0
+				},
+				{
+					Duration: 100,
+					Id: 15,
+					Amplifier: 0
+				},
+				{
+					Duration: 100,
+					Id: 23,
+					Amplifier: 0
+				}],
+				"Quark:ItemNameDye": 14,
+				display: {
+					Lore: [
+						"A Mighty Ale all dwarfs enjoy drinking"
+					],
+					Name: "Dwarf Grog"
+				}
+			}
+		},
+		count: 5,
+		only_one: true
+	},
+	{
+		item: "harvestcraft:breadedporkchopitem",
+		count: 24,
+		only_one: true
+	},
+	{
+		item: "minecraft:torch",
+		count: 32,
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "dwarf",
+		item_name: "Crate Of Dwarf Gear",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

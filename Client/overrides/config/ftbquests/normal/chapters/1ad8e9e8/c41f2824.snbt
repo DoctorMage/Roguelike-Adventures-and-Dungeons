@@ -134,6 +134,15 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "ca5a15a7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:deep_water_theme"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "6c5c38bc",
@@ -149,6 +158,6 @@
 		uid: "6d302809",
 		type: "item",
 		item: "thebetweenlands:items_misc 1 19",
-		count: 16
+		count: 32
 	}]
 }

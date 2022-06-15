@@ -4,7 +4,7 @@
 	y: 1.0d,
 	description: "They're up to no good",
 	text: [
-		"Slay 25 of any Goblin found in the Twilight Forest"
+		"Slay 25 of any Goblin found in the Twilight Forest."
 	],
 	can_repeat: true,
 	or_tasks: true,
@@ -50,5 +50,10 @@
 		uid: "5d69773b",
 		type: "ftbmoney:money",
 		ftb_money: 25L
+	},
+	{
+		uid: "ca80261e",
+		type: "xp_levels",
+		xp_levels: 2
 	}]
 }

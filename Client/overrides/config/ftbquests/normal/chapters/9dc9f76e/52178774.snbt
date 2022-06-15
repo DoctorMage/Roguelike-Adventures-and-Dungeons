@@ -1,5 +1,5 @@
 {
-	title: "Going Down In Value",
+	title: "Going Down in Value",
 	x: 11.0d,
 	y: -3.0d,
 	description: "This stuff isn't worth jack!",
@@ -30,11 +30,18 @@
 	{
 		uid: "407d9ef9",
 		type: "item",
-		item: "minecraft:apple"
+		item: "minecraft:apple",
+		count: 16
 	},
 	{
 		uid: "5f28d0f5",
 		type: "item",
 		item: "minecraft:emerald"
+	},
+	{
+		uid: "66a6a25d",
+		type: "item",
+		item: "dungeontactics:bag_magic",
+		count: 3
 	}]
 }

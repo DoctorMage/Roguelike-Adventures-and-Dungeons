@@ -1,0 +1,35 @@
+{
+	x: 0.0d,
+	y: -6.0d,
+	dependencies: [
+		"03bff484"
+	],
+	tasks: [{
+		uid: "eb577ba9",
+		type: "item",
+		items: [{
+			item: "midnight:rouxe_rock"
+		}]
+	},
+	{
+		uid: "cca3dadb",
+		type: "item",
+		items: [{
+			item: "midnight:rouxe"
+		}]
+	},
+	{
+		uid: "7faf430e",
+		type: "item",
+		items: [{
+			item: "midnight:bloomcrystal_rock"
+		}]
+	},
+	{
+		uid: "50c3fc87",
+		type: "item",
+		items: [{
+			item: "midnight:bloomcrystal"
+		}]
+	}]
+}

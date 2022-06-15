@@ -8,9 +8,12 @@
 		"",
 		"Okay. So you're probably wondering who John is. I guess the Spectre quests is where I tell you.",
 		"",
-		"He used to be my best friend. He used to playe Minecraft sometimes. And he was a cool dude. ",
+		"He used to be my first and best friend. He used to play Minecraft, sometimes. And he was a cool dude. ",
 		"",
 		"Rest in pepperoni friendo."
+	],
+	dependencies: [
+		"89ae8497"
 	],
 	tasks: [{
 		uid: "60852ebe",

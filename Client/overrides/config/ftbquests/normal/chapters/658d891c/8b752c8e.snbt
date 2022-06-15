@@ -1,5 +1,5 @@
 {
-	title: "Poking A Soggy Piñata",
+	title: "Poking a Soggy Piñata",
 	x: 15.5d,
 	y: 2.5d,
 	description: "Why is the piñata buzzing?",
@@ -27,10 +27,5 @@
 		uid: "064b93ca",
 		type: "xp_levels",
 		xp_levels: 5
-	},
-	{
-		uid: "3977dc0a",
-		type: "item",
-		item: "aquaculture:loot 1 6"
 	}]
 }

@@ -7,6 +7,16 @@
 		items: [{
 			item: "harvestcraft:wintersquashitem"
 		}],
-		count: 64L
+		count: 500L
+	}],
+	rewards: [{
+		uid: "1ef8d410",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "070b7781",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

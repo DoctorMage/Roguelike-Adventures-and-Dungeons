@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:chestnutitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "058d7bfb",

@@ -16,8 +16,18 @@
 		ftb_money: 300L
 	},
 	{
-		uid: "fc506cc7",
+		uid: "bccd63b6",
 		type: "xp_levels",
-		xp_levels: 1
+		xp_levels: 15
+	},
+	{
+		uid: "285605b5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_tier_rewards"
+			}
+		}
 	}]
 }

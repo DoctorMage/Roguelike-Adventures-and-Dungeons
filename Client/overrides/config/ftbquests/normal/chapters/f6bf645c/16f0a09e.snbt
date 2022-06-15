@@ -9,7 +9,7 @@
 	dependencies: [
 		"1b028991"
 	],
-	size: 1.5d,
+	size: 2.0d,
 	tasks: [{
 		uid: "f32efbfe",
 		type: "kill",
@@ -31,5 +31,10 @@
 		uid: "f0b1e77e",
 		type: "item",
 		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "1354b0de",
+		type: "item",
+		item: "megaloot:weaponcase_rare"
 	}]
 }

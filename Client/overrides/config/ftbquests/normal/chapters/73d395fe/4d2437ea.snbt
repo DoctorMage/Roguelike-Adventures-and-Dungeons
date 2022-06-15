@@ -1,0 +1,81 @@
+{
+	x: -0.5d,
+	y: 0.0d,
+	dependencies: [
+		"018f1c8f"
+	],
+	tasks: [{
+		uid: "78dcb04a",
+		type: "item",
+		items: [{
+			id: "midnight:tenebrum_pickaxe",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: 4120032507340802323L,
+						UUIDLeast: -6197618271324491994L,
+						Amount: -1.0d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.short.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dc22c3ac",
+		type: "item",
+		items: [{
+			id: "midnight:tenebrum_axe",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4904f393",
+		type: "item",
+		items: [{
+			id: "midnight:tenebrum_shovel",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "85696ed4",
+		type: "item",
+		items: [{
+			id: "midnight:tenebrum_hoe",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "795f095f",
+		type: "item",
+		items: [{
+			id: "midnight:tenebrum_sword",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

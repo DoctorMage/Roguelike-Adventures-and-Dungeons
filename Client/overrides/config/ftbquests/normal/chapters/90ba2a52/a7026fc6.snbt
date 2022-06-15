@@ -1,6 +1,11 @@
 {
+	title: "On A Trip",
 	x: 0.0d,
 	y: -0.5d,
+	description: "A cow killing trip",
+	text: [
+		"Slay 5 Minoshrooms."
+	],
 	can_repeat: true,
 	tasks: [{
 		uid: "a95633d4",
@@ -13,5 +18,20 @@
 		uid: "937ce818",
 		type: "ftbmoney:money",
 		ftb_money: 250L
+	},
+	{
+		uid: "4576ca39",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "54608b59",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
 	}]
 }

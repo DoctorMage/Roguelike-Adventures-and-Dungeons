@@ -17,5 +17,15 @@
 		items: [{
 			item: "thebetweenlands:sap_ball"
 		}]
+	}],
+	rewards: [{
+		uid: "62e12b9a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "41f468b1",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

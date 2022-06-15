@@ -6,14 +6,13 @@
 	text: [
 		"Storage Cables do nothing, essentially. They only link inventories, and have no innate function.",
 		"",
-		"Storage Link Cables will link all inventories connected to the single set of cabling. Connect these to a Storage Network Master block.",
+		"Simple Cables and Storage Link Cables will link all inventories connected to the single set of cabling. Connect these to a Storage Network Master block.",
 		"",
 		"Export and Import Cables will only Export or Import from or into inventories they are connected to. Can be linked to Storage Network Masters. The full mechanics of doing this are not fully understood on my part.",
 		"",
-		"Go have some fun with your simple storage system! It's simple to use, but your imagination can make it advanced, combined with Extra Utilities piping.",
+		"Go have some fun with your simple storage system! It's simple to use, but your imagination can make it advanced!",
 		"",
-		"There are only two different types of piping in this modpack, and this is one of them. Don't be too afraid to dive into creating some type of Storage System. It isn't too scary once you start understanding how things work.",
-		""
+		"There are only two different types of piping in this modpack, and this is one of them. Don't be too afraid to dive into creating some type of Storage System. It isn't too scary once you start understanding how things work."
 	],
 	dependencies: [
 		"a3713085"
@@ -51,6 +50,13 @@
 		type: "item",
 		items: [{
 			item: "storagenetwork:process_kabel"
+		}]
+	},
+	{
+		uid: "7f6f8480",
+		type: "item",
+		items: [{
+			item: "storagenetwork:simple_kabel"
 		}]
 	}],
 	rewards: [{

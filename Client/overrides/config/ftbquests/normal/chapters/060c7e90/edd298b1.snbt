@@ -38,10 +38,5 @@
 		uid: "8b874661",
 		type: "item",
 		item: "ebwizardry:grand_crystal"
-	},
-	{
-		uid: "35a6d99d",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

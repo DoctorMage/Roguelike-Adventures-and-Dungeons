@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:pearitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "736d505b",

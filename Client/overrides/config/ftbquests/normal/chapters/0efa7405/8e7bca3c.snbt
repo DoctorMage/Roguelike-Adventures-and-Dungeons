@@ -1,0 +1,15 @@
+{
+	x: -6.5d,
+	y: -2.75d,
+	dependencies: [
+		"bee95934"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "d342441e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:recharge_pedestal"
+		}]
+	}]
+}

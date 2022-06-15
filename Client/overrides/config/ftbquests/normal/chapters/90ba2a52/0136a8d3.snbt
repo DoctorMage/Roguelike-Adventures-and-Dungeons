@@ -1,6 +1,17 @@
 {
+	title: "Scale Seller (Dragons)",
 	x: 16.0d,
 	y: -6.5d,
+	description: "Strong shiny scales for sale!",
+	text: [
+		"Sell your unwanted Dragon Scales.",
+		"",
+		"Submit ONE stack of Dragon Scales at a time to complete this quest.",
+		"",
+		"Collect the reward after each completion.",
+		"",
+		"You will not receive rewards for more than one stack submission at a time."
+	],
 	can_repeat: true,
 	or_tasks: true,
 	tasks: [{
@@ -73,8 +84,18 @@
 		ftb_money: 100L
 	},
 	{
-		uid: "bf60e5ad",
+		uid: "9f0eb882",
 		type: "xp_levels",
-		xp_levels: 2
+		xp_levels: 15
+	},
+	{
+		uid: "66d370ca",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
 	}]
 }

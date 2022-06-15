@@ -8,6 +8,9 @@
 		"",
 		"The Spectre Illuminator will light up an entire chunk with a light level of 15, through walls, all that good stuff."
 	],
+	dependencies: [
+		"4695c2a6"
+	],
 	tasks: [{
 		uid: "f7dcb787",
 		type: "item",

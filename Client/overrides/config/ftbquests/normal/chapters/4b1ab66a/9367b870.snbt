@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:juteitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "56f41657",

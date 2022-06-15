@@ -1,0 +1,58 @@
+{
+	title: "Aether Modbox",
+	icon: "vc:item_guidebook_main",
+	loot_size: 50,
+	rewards: [{
+		item: "vc:item_guidebook_main",
+		only_one: true
+	},
+	{
+		item: "vc:airships/item_airship",
+		only_one: true
+	},
+	{
+		item: "vc:item_viesoline_pellets",
+		count: 64,
+		only_one: true
+	},
+	{
+		item: "aether_legacy:enchanted_blueberry",
+		count: 16,
+		only_one: true
+	},
+	{
+		item: "vc:modules/item_module_type",
+		count: 3,
+		only_one: true
+	},
+	{
+		item: "twilightforest:wispy_cloud",
+		count: 64,
+		only_one: true
+	},
+	{
+		item: "twilightforest:fluffy_cloud",
+		count: 64,
+		only_one: true
+	},
+	{
+		item: "aether_legacy:ambrosium_torch",
+		count: 32,
+		only_one: true
+	},
+	{
+		item: "minecraft:glowstone",
+		count: 14,
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "aether_modbox",
+		item_name: "Crate of Explorer's Equipment",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

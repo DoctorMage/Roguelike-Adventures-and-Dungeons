@@ -1,0 +1,22 @@
+{
+	title: "Thaumic Augmentation",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "assets:customicons/thaumicaugmentation.png"
+		}
+	},
+	x: 3.0d,
+	y: -29.0d,
+	description: "Acts of eldritch terrorism",
+	text: [
+		"This quest is to keep items from Thaumic Augmentation organized within the Chapter.",
+		"",
+		"You may find some items from Thaumic Augmentation in different areas of this Chapter."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"28000024"
+	],
+	size: 5.0d
+}

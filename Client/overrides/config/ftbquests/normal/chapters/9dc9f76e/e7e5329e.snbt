@@ -63,5 +63,10 @@
 		uid: "b96cc495",
 		type: "xp_levels",
 		xp_levels: 5
+	},
+	{
+		uid: "d675ed13",
+		type: "item",
+		item: "minecraft:emerald"
 	}]
 }

@@ -1,0 +1,15 @@
+{
+	x: 0.75d,
+	y: 5.0d,
+	dependencies: [
+		"187ba0b2"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "26078e0c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:dioptra"
+		}]
+	}]
+}

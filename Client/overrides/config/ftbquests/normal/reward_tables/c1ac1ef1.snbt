@@ -1,0 +1,654 @@
+{
+	title: "Rare Wizard Artifacts",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "ancientspellcraft:ring_range",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ring_focus_crystal",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ring_unbinding",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ring_disenchanter",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ring_quicksand",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_full_moon",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_blockwrangler",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_defender",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ring_devotion",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ring_lodestone",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ring_berserker",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ring_prismarine",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ring_mana_transfer",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ring_blast",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_poison",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_conjurer",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_mind_control",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_leeching",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_stormcloud",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_storm",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_shattering",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_disintegration",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_condensing",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_potential",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 3911346372190093333L,
+						UUIDLeast: -6584852676101768098L,
+						Amount: 0.20000000298023224d,
+						AttributeName: "generic.luck",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.lucky.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_anchoring",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_transience",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_auto_shield",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:amulet_power",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:amulet_persistence",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:amulet_healing_mushroom",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_frost_warding",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:amulet_imbued_marble",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:amulet_shield",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_fire_cloaking",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_wisdom",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_arcane_defence",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 5268507907546365981L,
+						UUIDLeast: -4620313944621102758L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.strengthening.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "tfspellpack:amulet_carminite",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "wizardrygolems:amulet_snare",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "wizardrygolems:charm_dried_mushroom",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "mospells:charm_cold_winds",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "tfspellpack:charm_ice_exploder",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "tfspellpack:charm_troll",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "tfspellpack:charm_accursed_tome",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "wizardrygolems:charm_fire_golemancy_potency",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_haggler",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_move_speed",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_auto_smelt",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_storm",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_undead_helmets",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_hunger_casting",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_flight",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_light",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_abseiling",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_transportation",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_mount_teleporting",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_seed_bag",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_wizard_tankard",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_enchanted_needle",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: "ancientspellcraft:charm_bucket_coal"
+	},
+	{
+		item: "ancientspellcraft:cornucopia"
+	},
+	{
+		item: "ancientspellcraft:charm_gold_bag"
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_quicksand_walker",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_magic_light",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_burrow",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -745627453834640838L,
+						UUIDLeast: -8984693532482368808L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.strengthening.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_clover",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: "ancientspellcraft:belt_enchanter"
+	},
+	{
+		item: "ancientspellcraft:belt_stone"
+	},
+	{
+		item: "ancientspellcraft:belt_vortex"
+	},
+	{
+		item: "ancientspellcraft:belt_scroll_holder"
+	},
+	{
+		item: "ancientspellcraft:belt_spring_charge"
+	},
+	{
+		item: "ancientspellcraft:head_curse"
+	},
+	{
+		item: "ancientspellcraft:head_merchant"
+	},
+	{
+		item: "ancientspellcraft:head_magelight"
+	},
+	{
+		item: "ebwizardry:purifying_elixir"
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_glyph_illumination",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_glyph_leeching",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_glyph_antigravity",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_glyph_vitality",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_glyph_warden",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -4618430043125758013L,
+						UUIDLeast: -7657847811120667802L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 4005506861945539156L,
+						UUIDLeast: -5908791259439257555L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.graceful.name"
+				}
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "rare_wizard_artifacts",
+		item_name: "Crate of Rare Wizard Artifacts",
+		color: 6060725,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

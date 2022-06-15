@@ -7,6 +7,16 @@
 		items: [{
 			item: "harvestcraft:greengrapeitem"
 		}],
-		count: 64L
+		count: 500L
+	}],
+	rewards: [{
+		uid: "37224fba",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "14cba339",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

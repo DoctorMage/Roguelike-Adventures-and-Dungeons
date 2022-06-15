@@ -17,7 +17,7 @@
 				type: 0b
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "0c610e40",
@@ -28,7 +28,7 @@
 				type: 1b
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "76fec481",
@@ -39,7 +39,7 @@
 				type: 2b
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "437ddb36",
@@ -50,7 +50,7 @@
 				type: 3b
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "1709e2a0",
@@ -61,7 +61,7 @@
 				type: 4b
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "6934a231",
@@ -72,7 +72,7 @@
 				type: 5b
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "1ff4c2a4",
@@ -83,7 +83,7 @@
 				type: 6b
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "97b71112",
@@ -94,7 +94,7 @@
 				type: 7b
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "7c657fcd",
@@ -105,7 +105,7 @@
 				type: 8b
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "b074ef14",
@@ -116,7 +116,7 @@
 				type: 9b
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "44ec9eba",
@@ -127,7 +127,7 @@
 				type: 10b
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "d51b8837",
@@ -138,7 +138,7 @@
 				type: 11b
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "334f3bd2",
@@ -149,7 +149,7 @@
 				type: 12b
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "ae96a28a",
@@ -160,7 +160,7 @@
 				type: 13b
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "9ef647b5",
@@ -187,7 +187,7 @@
 			}
 		}],
 		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	}],
 	rewards: [{
 		uid: "de9740f4",

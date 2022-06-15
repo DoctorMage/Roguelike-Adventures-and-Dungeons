@@ -6,7 +6,7 @@
 	text: [
 		"You can't trade with them if they're dead, but you can steal their wands!",
 		"",
-		"Check your Shop for a great reward!"
+		"Well, no, you can't do that either."
 	],
 	tasks: [{
 		uid: "2551b87d",
@@ -23,6 +23,6 @@
 	{
 		uid: "0a44f2af",
 		type: "xp_levels",
-		xp_levels: 50
+		xp_levels: 100
 	}]
 }

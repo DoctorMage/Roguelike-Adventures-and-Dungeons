@@ -57,59 +57,49 @@
 		ignore_nbt: 1b
 	},
 	{
-		uid: "dcc6b9ba",
+		uid: "ffba92e0",
 		type: "item",
 		items: [{
-			id: "spartanweaponry:staff_electrum",
+			id: "spartanweaponry:javelin_electrum",
 			tag: {
-				Quality: {
-					Slots: [
-						"mainhand"
-					],
-					Color: "blue",
-					AttributeModifiers: [{
-						UUIDMost: 7184081041037938191L,
-						UUIDLeast: -8248805856550797037L,
-						Amount: 0.10000000149011612d,
-						AttributeName: "generic.attackSpeed",
-						Operation: 2,
-						Name: "qualitytools"
-					},
-					{
-						UUIDMost: -4801120067222746673L,
-						UUIDLeast: -8201608087040909775L,
-						Amount: 0.10000000149011612d,
-						AttributeName: "generic.attackDamage",
-						Operation: 2,
-						Name: "qualitytools"
-					}],
-					Name: "quality.keen.name"
-				}
+				AmmoUsed: 0,
+				enchChecked: 1b
 			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
 	},
 	{
-		uid: "b03533d3",
+		uid: "f1e75e6d",
 		type: "item",
 		items: [{
-			id: "spartanweaponry:glaive_electrum",
+			id: "spartanweaponry:boomerang_electrum",
 			tag: {
-				Quality: {}
+				AmmoUsed: 0,
+				enchChecked: 1b
 			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "05b553c0",
+		uid: "d2b540d3",
 		type: "ftbmoney:money",
-		ftb_money: 200L
+		ftb_money: 250L
 	},
 	{
-		uid: "c4410032",
+		uid: "77948839",
 		type: "xp_levels",
-		xp_levels: 30
+		xp_levels: 35
+	},
+	{
+		uid: "e312f5c7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
 	}]
 }

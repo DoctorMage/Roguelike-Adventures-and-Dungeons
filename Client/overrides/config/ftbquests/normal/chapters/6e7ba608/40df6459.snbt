@@ -1,0 +1,153 @@
+{
+	title: "You Have A Problem",
+	x: 0.5d,
+	y: -6.5d,
+	description: "Rehab inc.",
+	text: [
+		"Craft all of the alcoholic concoctions added by Tropicraft."
+	],
+	dependencies: [
+		"efe5e354"
+	],
+	tasks: [{
+		uid: "e534db22",
+		type: "item",
+		items: [{
+			id: "tropicraft:cocktail",
+			tag: {
+				Ingredients: [{
+					IngredientID: 0b
+				},
+				{
+					IngredientID: 6b
+				},
+				{
+					IngredientID: 15b
+				}],
+				Color: 16777215,
+				DrinkID: 2b
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "62e16125",
+		type: "item",
+		items: [{
+			id: "tropicraft:cocktail",
+			tag: {
+				Ingredients: [{
+					IngredientID: 6b
+				},
+				{
+					IngredientID: 13b
+				},
+				{
+					IngredientID: 15b
+				}],
+				Color: 16777215,
+				DrinkID: 4b
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2701447d",
+		type: "item",
+		items: [{
+			id: "tropicraft:cocktail",
+			tag: {
+				Ingredients: [{
+					IngredientID: 0b
+				},
+				{
+					IngredientID: 7b
+				},
+				{
+					IngredientID: 15b
+				}],
+				Color: 16777215,
+				DrinkID: 3b
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9c71452e",
+		type: "item",
+		items: [{
+			id: "tropicraft:cocktail",
+			tag: {
+				Ingredients: [{
+					IngredientID: 0b
+				},
+				{
+					IngredientID: 5b
+				},
+				{
+					IngredientID: 15b
+				}],
+				Color: 16777215,
+				DrinkID: 1b
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "828a6965",
+		type: "item",
+		items: [{
+			id: "tropicraft:cocktail",
+			tag: {
+				Ingredients: [{
+					IngredientID: 14b
+				},
+				{
+					IngredientID: 15b
+				}],
+				Color: 16777215,
+				DrinkID: 5b
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5f1526d2",
+		type: "item",
+		items: [{
+			id: "tropicraft:cocktail",
+			tag: {
+				Ingredients: [{
+					IngredientID: 10b
+				},
+				{
+					IngredientID: 12b
+				}],
+				Color: 15724527,
+				DrinkID: 6b
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cdd36d2b",
+		type: "item",
+		items: [{
+			id: "tropicraft:cocktail",
+			tag: {
+				Ingredients: [{
+					IngredientID: 6b
+				},
+				{
+					IngredientID: 7b
+				},
+				{
+					IngredientID: 15b
+				}],
+				Color: 16777215,
+				DrinkID: 8b
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

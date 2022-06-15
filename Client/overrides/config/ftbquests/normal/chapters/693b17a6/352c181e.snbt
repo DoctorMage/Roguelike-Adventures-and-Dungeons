@@ -1,6 +1,6 @@
 {
 	title: "A Liking Towards Liches",
-	x: 8.5d,
+	x: 17.5d,
 	y: 0.0d,
 	description: "I didn't wanna kill you Mr. Bones...",
 	text: [
@@ -21,6 +21,6 @@
 	{
 		uid: "292c241c",
 		type: "xp_levels",
-		xp_levels: 30
+		xp_levels: 50
 	}]
 }

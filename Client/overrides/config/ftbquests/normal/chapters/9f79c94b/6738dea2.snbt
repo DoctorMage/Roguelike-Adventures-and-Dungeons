@@ -1,0 +1,145 @@
+{
+	title: "Oak Wizard Tower",
+	x: -15.5d,
+	y: -36.5d,
+	description: "Electroblob's Wizardry",
+	text: [
+		"LxWxH: 19x19x62",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: An oak and stone brick wizard tower with five rooms."
+	],
+	tasks: [{
+		uid: "a159da22",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "cbbd9521",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Oak Wizard Tower",
+				UUID: "41c89d98-9dae-4dfe-80b0-e03348b07b0f",
+				startPos: {
+					X: 366,
+					Y: 5,
+					Z: -116
+				},
+				itemcountmap: [{
+					item: 50,
+					meta: 0,
+					count: 36
+				},
+				{
+					item: 5,
+					meta: 1,
+					count: 24
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 270
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 5619,
+					meta: 0,
+					count: 624
+				},
+				{
+					item: 5627,
+					meta: 7,
+					count: 11
+				},
+				{
+					item: 5908,
+					meta: 0,
+					count: 24
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 333
+				},
+				{
+					item: 17,
+					meta: 0,
+					count: 540
+				},
+				{
+					item: 7721,
+					meta: 6,
+					count: 1
+				},
+				{
+					item: 5645,
+					meta: 9,
+					count: 184
+				},
+				{
+					item: 5643,
+					meta: 11,
+					count: 136
+				},
+				{
+					item: 4497,
+					meta: 0,
+					count: 5
+				},
+				{
+					item: 6069,
+					meta: 0,
+					count: 72
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 134,
+					meta: 0,
+					count: 96
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 284
+				},
+				{
+					item: 53,
+					meta: 0,
+					count: 168
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5548,
+					meta: 3,
+					count: 45
+				},
+				{
+					item: 168,
+					meta: 1,
+					count: 388
+				}],
+				endPos: {
+					X: 384,
+					Y: 66,
+					Z: -98
+				}
+			}
+		}
+	}]
+}

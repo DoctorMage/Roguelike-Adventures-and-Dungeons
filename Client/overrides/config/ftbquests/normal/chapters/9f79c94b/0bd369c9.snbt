@@ -1,0 +1,170 @@
+{
+	title: "Birch Wizard Tower",
+	x: -10.5d,
+	y: -26.5d,
+	description: "Electroblob's Wizardry",
+	text: [
+		"LxWxH: 29x19x62",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A birch and stone brick wizard tower with a secondary tower extention. Five large rooms and two small rooms inside."
+	],
+	tasks: [{
+		uid: "d7cec71e",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "d4a4114e",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Birch Wizard Tower",
+				UUID: "4223c444-570b-4d0c-a90d-f103a299457b",
+				startPos: {
+					X: 370,
+					Y: 5,
+					Z: -131
+				},
+				itemcountmap: [{
+					item: 50,
+					meta: 0,
+					count: 50
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 433
+				},
+				{
+					item: 6114,
+					meta: 4,
+					count: 595
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 256
+				},
+				{
+					item: 5548,
+					meta: 3,
+					count: 51
+				},
+				{
+					item: 5532,
+					meta: 11,
+					count: 15
+				},
+				{
+					item: 5,
+					meta: 0,
+					count: 24
+				},
+				{
+					item: 6218,
+					meta: 0,
+					count: 66
+				},
+				{
+					item: 96,
+					meta: 0,
+					count: 24
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 6205,
+					meta: 0,
+					count: 174
+				},
+				{
+					item: 5645,
+					meta: 9,
+					count: 204
+				},
+				{
+					item: 135,
+					meta: 0,
+					count: 248
+				},
+				{
+					item: 7721,
+					meta: 7,
+					count: 1
+				},
+				{
+					item: 5643,
+					meta: 11,
+					count: 136
+				},
+				{
+					item: 6248,
+					meta: 0,
+					count: 847
+				},
+				{
+					item: 6206,
+					meta: 0,
+					count: 147
+				},
+				{
+					item: 4497,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 260
+				},
+				{
+					item: 53,
+					meta: 0,
+					count: 96
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 1,
+					meta: 0,
+					count: 6
+				},
+				{
+					item: 5621,
+					meta: 0,
+					count: 911
+				},
+				{
+					item: 159,
+					meta: 4,
+					count: 11
+				},
+				{
+					item: 126,
+					meta: 2,
+					count: 13
+				}],
+				endPos: {
+					X: 388,
+					Y: 66,
+					Z: -103
+				}
+			}
+		}
+	}]
+}

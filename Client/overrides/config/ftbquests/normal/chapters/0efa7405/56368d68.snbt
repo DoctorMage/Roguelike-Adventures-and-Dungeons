@@ -1,0 +1,16 @@
+{
+	x: -8.0d,
+	y: -4.75d,
+	dependencies: [
+		"8e7bca3c"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "68726c98",
+		type: "item",
+		items: [{
+			item: "thaumcraft:amulet_vis 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

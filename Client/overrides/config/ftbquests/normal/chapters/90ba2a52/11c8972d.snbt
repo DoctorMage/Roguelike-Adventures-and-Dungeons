@@ -10,14 +10,7 @@
 		uid: "b09d1a6e",
 		type: "kill",
 		title: "Clearing The Foliaage",
-		icon: {
-			id: "mowziesmobs:spawn_egg",
-			tag: {
-				EntityTag: {
-					id: "mowziesmobs:foliaath"
-				}
-			}
-		},
+		icon: "mowziesmobs:foliaath_seed",
 		entity: "mowziesmobs:foliaath",
 		value: 100L
 	}],

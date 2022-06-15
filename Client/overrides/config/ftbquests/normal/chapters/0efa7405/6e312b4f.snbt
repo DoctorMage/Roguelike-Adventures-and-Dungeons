@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: 5.0d,
+	dependencies: [
+		"eabe0630"
+	],
+	tasks: [{
+		uid: "07a4a3bc",
+		type: "item",
+		items: [{
+			item: "thaumcraft:pattern_crafter"
+		}]
+	}]
+}

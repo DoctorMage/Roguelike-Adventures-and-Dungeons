@@ -1,6 +1,6 @@
 {
-	title: "Just Stick To The Code!",
-	x: -4.0d,
+	title: "Just Stick to the Code!",
+	x: 0.0d,
 	y: 0.0d,
 	description: "They know what they know",
 	text: [
@@ -18,10 +18,6 @@
 		"",
 		"The Guide will have a Chapter in it for Embers, gone over in advanced and in-depth detail.",
 		""
-	],
-	dependencies: [
-		"a5d26bd3",
-		"96ab122e"
 	],
 	size: 2.0d,
 	tasks: [{

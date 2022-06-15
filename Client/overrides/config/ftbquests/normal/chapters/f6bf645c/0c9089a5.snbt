@@ -46,7 +46,7 @@
 		items: [{
 			item: "twilightforest:fiery_blood"
 		}],
-		count: 75L
+		count: 50L
 	},
 	{
 		uid: "f980721b",
@@ -54,7 +54,7 @@
 		items: [{
 			item: "twilightforest:fiery_tears"
 		}],
-		count: 75L
+		count: 50L
 	}],
 	rewards: [{
 		uid: "9b830a0c",

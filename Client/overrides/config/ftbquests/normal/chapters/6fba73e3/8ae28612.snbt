@@ -4,7 +4,7 @@
 	y: -10.5d,
 	description: "Like a true assassin",
 	text: [
-		"Craft the Twilight Cloak."
+		"Obtain the Twilight Cloak from the Shop."
 	],
 	tasks: [{
 		uid: "ab4a98a1",

@@ -16,7 +16,8 @@
 		type: "item",
 		items: [{
 			item: "ebwizardry:blank_scroll"
-		}]
+		}],
+		ignore_nbt: 2b
 	}],
 	rewards: [{
 		uid: "385f218e",
@@ -29,8 +30,9 @@
 		xp_levels: 5
 	},
 	{
-		uid: "a3dc8ac7",
-		type: "item",
-		item: "aquaculture:loot 1 6"
+		uid: "cdf82e8c",
+		type: "random",
+		title: "Random Spectral Dust",
+		table: 2
 	}]
 }

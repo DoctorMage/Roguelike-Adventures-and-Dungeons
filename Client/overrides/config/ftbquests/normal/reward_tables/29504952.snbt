@@ -1,0 +1,84 @@
+{
+	title: "Erebus Modbox",
+	icon: "erebus:portal_activator",
+	loot_size: 30,
+	rewards: [{
+		item: "minecraft:stonebrick",
+		count: 12,
+		only_one: true
+	},
+	{
+		item: "minecraft:leaves",
+		count: 12,
+		only_one: true
+	},
+	{
+		item: "erebus:spray_can",
+		count: 9,
+		random_bonus: 9,
+		only_one: true
+	},
+	{
+		item: "erebus:materials 1 38",
+		only_one: true
+	},
+	{
+		item: {
+			id: "heroicarmory:terrariabeekeeper",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 906300460372411061L,
+						UUIDLeast: -6243540868570677077L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -7567004369662358714L,
+						UUIDLeast: -7542576661741950687L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 5983413424721117397L,
+						UUIDLeast: -8004722470719097713L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broad.name"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: "erebus:erebus_food 1 1",
+		count: 12,
+		only_one: true
+	},
+	{
+		item: "erebus:gaean_keystone",
+		count: 2,
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "erebus_modbox",
+		item_name: "Crate of Bug-Out Equipment",
+		color: 29952,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

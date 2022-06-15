@@ -4,14 +4,15 @@
 	y: 1.0d,
 	description: "WATER TUBE GO BRRRR",
 	text: [
-		"Kill 100 Sea Serpents."
+		"Kill 50 Sea Serpents."
 	],
 	tasks: [{
 		uid: "3ba19177",
 		type: "kill",
+		title: "Slay 50 Sea Serpents",
 		icon: "iceandfire:seaserpent_skull",
 		entity: "iceandfire:seaserpent",
-		value: 100L
+		value: 50L
 	}],
 	rewards: [{
 		uid: "6a866fb3",
@@ -21,6 +22,6 @@
 	{
 		uid: "acd28bf7",
 		type: "xp_levels",
-		xp_levels: 75
+		xp_levels: 200
 	}]
 }

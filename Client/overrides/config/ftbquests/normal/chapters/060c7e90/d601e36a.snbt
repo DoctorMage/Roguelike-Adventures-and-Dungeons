@@ -1,18 +1,22 @@
 {
-	title: "Ball Of Hints",
+	title: "Ball of Hints",
 	x: -5.0d,
 	y: -1.0d,
 	description: "As clear as it is belligerent!",
 	text: [
 		"You can take a hint. Literally!",
 		"",
-		"Place a Small Stone Tablet, Stone Tablet, or Large Stone Tablet into the appropriate slot.",
+		"1) Place a Small Stone Tablet, Stone Tablet, or Large Stone Tablet into the appropriate slot.",
 		"",
-		"Place Magic Crystals into the appropriate slot.",
+		"2) Place Magic Crystals into the appropriate slot.",
 		"",
-		"Research your stone tablet.",
+		"3) Research your Stone Tablet.",
 		"",
-		"You can also research Spellbooks, giving you an idea of which wand you should be casting the spell with. This is useful if you are constantly fizzling a spell, because your wand is either not powerful enough, or not attuned to the element."
+		"You can also research Spellbooks to get an idea of the type of Spell it is.",
+		"",
+		"When Spells fizzle, it is usually because the cast was too slow, or too fast.",
+		"",
+		"It can also be due to incorrect application such as Spells that fizzle because they have no target."
 	],
 	size: 2.0d,
 	tasks: [{
@@ -31,10 +35,5 @@
 		uid: "579d5f48",
 		type: "xp_levels",
 		xp_levels: 5
-	},
-	{
-		uid: "38b638d6",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

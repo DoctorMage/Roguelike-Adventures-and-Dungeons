@@ -20,8 +20,7 @@
 				}
 			}
 		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_damage: true
 	},
 	{
 		uid: "7e5697ea",
@@ -34,8 +33,7 @@
 				}
 			}
 		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_damage: true
 	},
 	{
 		uid: "9803d3f4",
@@ -48,15 +46,15 @@
 				}
 			}
 		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_damage: true
 	},
 	{
 		uid: "2892d929",
 		type: "item",
 		items: [{
 			item: "thebetweenlands:sludge_worm_egg_sac"
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "5cb6b0d6",

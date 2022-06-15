@@ -1,0 +1,15 @@
+{
+	x: 6.0d,
+	y: 5.0d,
+	dependencies: [
+		"187ba0b2"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "903000ae",
+		type: "item",
+		items: [{
+			item: "thaumcraft:redstone_relay"
+		}]
+	}]
+}

@@ -1,8 +1,8 @@
 {
 	title: "8 Legged Freaks",
+	icon: "minecraft:web",
 	x: 0.0d,
 	y: -5.5d,
-	shape: "octagon",
 	description: "Freaky Deaky",
 	text: [
 		"Kill 25 Cave Spiders.",

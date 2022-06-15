@@ -7,6 +7,16 @@
 		items: [{
 			item: "harvestcraft:candleberryitem"
 		}],
-		count: 64L
+		count: 500L
+	}],
+	rewards: [{
+		uid: "bb1a0524",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "6a4c45fb",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

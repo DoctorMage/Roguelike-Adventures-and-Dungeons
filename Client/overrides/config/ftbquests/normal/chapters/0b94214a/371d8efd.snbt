@@ -1,0 +1,29 @@
+{
+	x: 3.0d,
+	y: -15.0d,
+	description: "Real slipper making material!",
+	text: [
+		"Craft some Ruby Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8d4841a2"
+	],
+	tasks: [{
+		uid: "e067f82b",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ruby_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "b56b700c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "599b303e",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

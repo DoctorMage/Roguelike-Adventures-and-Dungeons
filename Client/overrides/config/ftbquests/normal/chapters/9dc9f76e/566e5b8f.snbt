@@ -1,6 +1,8 @@
 {
+	title: "Two Pen Clicks",
 	x: -15.5d,
 	y: -2.0d,
+	description: "Ruby Slippers on paper",
 	text: [
 		"These scrolls can be made for one time consumption. They do not incur the long cooldown of using a Warpstone.",
 		"",

@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	dependencies: [
+		"187ba0b2"
+	],
+	tasks: [{
+		uid: "00a32138",
+		type: "item",
+		items: [{
+			item: "thaumcraft:grapple_gun"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -12,30 +12,60 @@
 	tasks: [{
 		uid: "09255ce6",
 		type: "kill",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "assets:customicons\\carminiteghastguardmob.png"
+			}
+		},
 		entity: "twilightforest:tower_ghast",
 		value: 25L
 	},
 	{
 		uid: "9ab1b614",
 		type: "kill",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "assets:customicons\\carminiteghastguardmob.png"
+			}
+		},
 		entity: "twilightforest:mini_ghast",
 		value: 25L
 	},
 	{
 		uid: "5c07ab7f",
 		type: "kill",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "assets:customicons\\carminitegolemob.png"
+			}
+		},
 		entity: "twilightforest:tower_golem",
 		value: 25L
 	},
 	{
 		uid: "0c362e07",
 		type: "kill",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "assets:customicons\\carminitebroodlingmob.png"
+			}
+		},
 		entity: "twilightforest:tower_broodling",
 		value: 25L
 	},
 	{
 		uid: "864c19c7",
 		type: "kill",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "assets:customicons\\towerwoodborermob.png"
+			}
+		},
 		entity: "twilightforest:tower_termite",
 		value: 25L
 	}],

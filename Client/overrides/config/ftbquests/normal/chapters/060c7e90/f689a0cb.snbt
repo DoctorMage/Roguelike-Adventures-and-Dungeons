@@ -13,13 +13,14 @@
 		"",
 		"Each robe type specializes in something slightly different, and has different effects on your casting abilities.",
 		"",
-		"You are only required to obtain the full set of a single type of Wizard armor to unlock this quest."
+		"You are only required to obtain one upgrade material to complete this quest."
 	],
 	dependencies: [
 		"6b5d4a07"
 	],
 	dependency_requirement: "one_completed",
 	size: 3.0d,
+	or_tasks: true,
 	tasks: [{
 		uid: "fbe4625c",
 		type: "item",
@@ -56,10 +57,5 @@
 		uid: "dcd135d0",
 		type: "xp_levels",
 		xp_levels: 10
-	},
-	{
-		uid: "b50d8308",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

@@ -4,24 +4,24 @@
 	y: -2.0d,
 	description: "The verdict? Completed.",
 	text: [
-		"Complete 500 rare bounties."
+		"Complete 200 rare bounties."
 	],
 	tasks: [{
 		uid: "0c3523c5",
 		type: "stat",
-		title: "Complete 500 rare bounties",
+		title: "Complete 200 rare bounties",
 		icon: "bountiful:bounty",
 		stat: "stat.bountiesRare",
-		value: 500
+		value: 200
 	}],
 	rewards: [{
 		uid: "d383aa4e",
 		type: "ftbmoney:money",
-		ftb_money: 750L
+		ftb_money: 5000L
 	},
 	{
 		uid: "747d6de9",
 		type: "xp_levels",
-		xp_levels: 25
+		xp_levels: 250
 	}]
 }

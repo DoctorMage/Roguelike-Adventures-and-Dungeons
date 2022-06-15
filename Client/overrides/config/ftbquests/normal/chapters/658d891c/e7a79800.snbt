@@ -1,6 +1,11 @@
 {
+	title: "Bigfoot",
 	x: 24.5d,
 	y: -0.5d,
+	description: "He has big feet!",
+	text: [
+		"Obtain a set of Forest Troll Armor."
+	],
 	tasks: [{
 		uid: "b7479700",
 		type: "item",
@@ -51,10 +56,5 @@
 		uid: "2c135ac5",
 		type: "item",
 		item: "iceandfire:manuscript"
-	},
-	{
-		uid: "309bcb95",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

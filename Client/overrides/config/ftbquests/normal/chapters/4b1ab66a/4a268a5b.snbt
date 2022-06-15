@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:pecanitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "256c3f93",

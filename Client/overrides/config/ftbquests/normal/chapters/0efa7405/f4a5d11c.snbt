@@ -1,0 +1,21 @@
+{
+	x: 6.5d,
+	y: -2.5d,
+	dependencies: [
+		"d61d7f87"
+	],
+	tasks: [{
+		uid: "97cf3ba0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_eldritch_tile"
+		}]
+	},
+	{
+		uid: "3c63b651",
+		type: "item",
+		items: [{
+			item: "thaumcraft:pedestal_eldritch"
+		}]
+	}]
+}

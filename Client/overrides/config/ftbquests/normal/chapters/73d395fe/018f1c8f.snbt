@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	dependencies: [
+		"03bff484"
+	],
+	tasks: [{
+		uid: "424755b1",
+		type: "item",
+		items: [{
+			item: "midnight:tenebrum_ingot"
+		}]
+	}]
+}

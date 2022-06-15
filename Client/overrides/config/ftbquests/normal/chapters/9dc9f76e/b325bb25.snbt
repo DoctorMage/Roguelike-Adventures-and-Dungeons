@@ -6,13 +6,14 @@
 	text: [
 		"Obtain an Iron Ingot.",
 		"",
-		"Obtain many Iron Ingots.",
+		"Then, maybe, obtain MANY Iron Ingots.",
 		"",
 		"As many as you possibly can.",
 		"",
 		"And stow them away.",
 		"",
-		"Covet them."
+		"Covet them.",
+		""
 	],
 	dependencies: [
 		"293e9097"
@@ -26,16 +27,6 @@
 		}]
 	}],
 	rewards: [{
-		uid: "bd8aeccb",
-		type: "item",
-		item: "minecraft:hopper"
-	},
-	{
-		uid: "47ad46de",
-		type: "item",
-		item: "extrautils2:largishchest"
-	},
-	{
 		uid: "1603bee4",
 		type: "ftbmoney:money",
 		ftb_money: 25L
@@ -44,5 +35,21 @@
 		uid: "3b4534d9",
 		type: "xp_levels",
 		xp_levels: 5
+	},
+	{
+		uid: "c5ec5020",
+		type: "item",
+		item: "minecraft:hopper"
+	},
+	{
+		uid: "83c20281",
+		type: "item",
+		item: "extrautils2:largishchest"
+	},
+	{
+		uid: "daaed833",
+		type: "item",
+		item: "dungeontactics:bag_food",
+		count: 3
 	}]
 }

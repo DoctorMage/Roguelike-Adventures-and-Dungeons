@@ -75,13 +75,6 @@
 			},
 			Damage: 1s
 		}]
-	},
-	{
-		uid: "f9a456b8",
-		type: "item",
-		items: [{
-			item: "thebetweenlands:syrmorite_hopper"
-		}]
 	}],
 	rewards: [{
 		uid: "6dfdb063",

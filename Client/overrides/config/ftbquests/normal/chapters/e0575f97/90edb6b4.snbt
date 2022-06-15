@@ -1,0 +1,33 @@
+{
+	title: "Getting in Tune with Nature",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Tickling your toes!",
+	text: [
+		"This book will fully explain the ROOTS mod.",
+		"",
+		"I'm still trying to fully understand the best possible paths for progression. Here is a tiny start.",
+		"",
+		"The mod is well made, and hasn't posed any problems for me so far.",
+		"",
+		"Help me out! Give suggestions on progression paths. Thanks!"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "0af6dd28",
+		type: "item",
+		items: [{
+			item: "roots:roots_guide"
+		}]
+	}],
+	rewards: [{
+		uid: "5a67910f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	}]
+}

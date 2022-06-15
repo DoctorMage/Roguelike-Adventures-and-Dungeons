@@ -7,6 +7,16 @@
 		items: [{
 			item: "harvestcraft:peanutitem"
 		}],
-		count: 64L
+		count: 500L
+	}],
+	rewards: [{
+		uid: "6c59193f",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "ec6bd7e4",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

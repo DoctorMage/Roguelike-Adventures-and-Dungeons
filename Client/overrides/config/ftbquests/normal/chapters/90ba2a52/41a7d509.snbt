@@ -2,7 +2,6 @@
 	title: "Burn The Witch!",
 	x: 2.0d,
 	y: -5.5d,
-	shape: "octagon",
 	description: "Salem all over again",
 	text: [
 		"Kill 25 Witches"
@@ -11,6 +10,7 @@
 	tasks: [{
 		uid: "2dd78c8d",
 		type: "kill",
+		icon: "xreliquary:witch_hat",
 		entity: "minecraft:witch",
 		value: 25L
 	}],

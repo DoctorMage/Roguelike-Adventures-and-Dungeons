@@ -1,0 +1,14 @@
+{
+	x: 6.5d,
+	y: 3.0d,
+	dependencies: [
+		"087a1f58"
+	],
+	tasks: [{
+		uid: "63cc07d4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:levitator"
+		}]
+	}]
+}

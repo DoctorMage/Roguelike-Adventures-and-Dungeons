@@ -1,0 +1,35 @@
+{
+	x: -3.0d,
+	y: -5.0d,
+	dependencies: [
+		"dc3395c7"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "2b8603aa",
+		type: "item",
+		items: [{
+			item: "thaumcraft:focus_pouch"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0aeb2f41",
+		type: "item",
+		items: [{
+			item: "thaumcraft:focus_2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4e1bd942",
+		type: "item",
+		items: [{
+			item: "thaumcraft:focus_3"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

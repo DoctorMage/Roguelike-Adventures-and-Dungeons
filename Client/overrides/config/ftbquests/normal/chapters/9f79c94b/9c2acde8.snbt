@@ -1,0 +1,150 @@
+{
+	title: "Radiant Master Statue",
+	x: 23.0d,
+	y: -31.5d,
+	description: "Electroblob's Wizardry",
+	text: [
+		"LxWxH: 23x18x70",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A marble statue of a child wizard with raised arms. Above him is a Master Healer wand."
+	],
+	tasks: [{
+		uid: "07fcb6dc",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "7965b7ca",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Radiant Master Statue",
+				UUID: "154063b6-9d5a-4472-9515-2337a20ee3f8",
+				startPos: {
+					X: 366,
+					Y: 5,
+					Z: -115
+				},
+				itemcountmap: [{
+					item: 5989,
+					meta: 0,
+					count: 598
+				},
+				{
+					item: 41,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 5579,
+					meta: 3,
+					count: 36
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 6
+				},
+				{
+					item: 5611,
+					meta: 7,
+					count: 40
+				},
+				{
+					item: 156,
+					meta: 0,
+					count: 20
+				},
+				{
+					item: 5611,
+					meta: 8,
+					count: 796
+				},
+				{
+					item: 5585,
+					meta: 5,
+					count: 12
+				},
+				{
+					item: 9190,
+					meta: 0,
+					count: 6
+				},
+				{
+					item: 5613,
+					meta: 2,
+					count: 32
+				},
+				{
+					item: 5578,
+					meta: 3,
+					count: 31
+				},
+				{
+					item: 6071,
+					meta: 0,
+					count: 6
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 44,
+					meta: 7,
+					count: 19
+				},
+				{
+					item: 5991,
+					meta: 0,
+					count: 48
+				},
+				{
+					item: 155,
+					meta: 0,
+					count: 13
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5942,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 159,
+					meta: 4,
+					count: 404
+				},
+				{
+					item: 5529,
+					meta: 5,
+					count: 37
+				},
+				{
+					item: 5610,
+					meta: 11,
+					count: 64
+				}],
+				endPos: {
+					X: 383,
+					Y: 74,
+					Z: -93
+				}
+			}
+		}
+	}]
+}

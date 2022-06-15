@@ -1,10 +1,10 @@
 {
-	title: "It's My Money And I Need It Now!",
+	title: "Its My Money and I Need It Now ",
 	x: -6.0d,
 	y: 3.0d,
 	description: "This thing could be better than any Backpack ever wants to be.",
 	text: [
-		"If you make some big brain moves, you can set up a stash for this remote, for quite literally an endless inventory. ",
+		"If you make some big brain moves, these remotes can be used to set up infinite inventory space.",
 		"",
 		"Each remote should read its own description."
 	],

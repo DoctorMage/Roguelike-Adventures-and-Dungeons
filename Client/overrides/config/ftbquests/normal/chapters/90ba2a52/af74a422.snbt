@@ -1,6 +1,17 @@
 {
+	title: "Slave Trader",
 	x: 17.0d,
 	y: -5.5d,
+	description: "Posting Pixies for trade!",
+	text: [
+		"Sell your unwanted Pixies!",
+		"",
+		"Submit ONE Pixie Jar at a time to complete this quest.",
+		"",
+		"Collect the reward after each completion.",
+		"",
+		"You will not receive rewards for more than one item submission at a time."
+	],
 	can_repeat: true,
 	or_tasks: true,
 	tasks: [{
@@ -47,5 +58,20 @@
 		uid: "775ae1bc",
 		type: "ftbmoney:money",
 		ftb_money: 25L
+	},
+	{
+		uid: "caeef870",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "5883df09",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
 	}]
 }

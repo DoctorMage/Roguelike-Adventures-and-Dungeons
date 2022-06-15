@@ -1,5 +1,5 @@
 {
-	title: "Visit The Nether!",
+	title: "Visit the Nether!",
 	x: 2.0d,
 	y: -13.0d,
 	description: "We're going Christmas Caroling!",
@@ -12,7 +12,7 @@
 		"ed20823b"
 	],
 	tasks: [{
-		uid: "cba6a7fd",
+		uid: "1152bd6a",
 		type: "dimension",
 		dim: -1
 	}],

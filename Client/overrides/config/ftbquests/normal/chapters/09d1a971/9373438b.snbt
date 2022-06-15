@@ -1,0 +1,23 @@
+{
+	title: "Fuel Mule!",
+	x: 0.0d,
+	y: 0.0d,
+	description: "You're the mule, by the way",
+	text: [
+		"Carry it wher'ver you go!",
+		"",
+		"Don't get stuck in the clouds now!"
+	],
+	dependencies: [
+		"fac704b2"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "85660ac9",
+		type: "item",
+		items: [{
+			item: "vc:item_viesoline_pellets"
+		}],
+		count: 64L
+	}]
+}

@@ -6,7 +6,9 @@
 	text: [
 		"Upgrading your backpack is relatively expensive, but very worth it in the long run.",
 		"",
-		"Place an upgrade and the desired backpack in the crafting table together in order to apply the item."
+		"Place an upgrade and the desired backpack in the crafting table together in order to apply the upgrade to your backpack!",
+		"",
+		"Craft all upgrades to complete this quest."
 	],
 	dependencies: [
 		"902167d4"

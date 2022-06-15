@@ -58,12 +58,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "e6fc45f3",
-		type: "random",
-		title: "Random Healing Wizard Artefact",
-		table: 18
-	},
-	{
 		uid: "b37e49fe",
 		type: "ftbmoney:money",
 		ftb_money: 100L
