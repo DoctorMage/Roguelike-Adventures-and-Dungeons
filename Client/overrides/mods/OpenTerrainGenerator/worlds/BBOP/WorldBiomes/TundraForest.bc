@@ -57,6 +57,8 @@ BiomeVolatility: 0.4
 
 SmoothRadius: 4
 
+CustomHeightControlSmoothRadius: 2
+
 MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
@@ -109,9 +111,9 @@ StoneBlock: STONE
 
 SurfaceBlock: biomesoplenty:grass:4
 
-GroundBlock: biomesoplenty:dirt:2
+GroundBlock: UNKNOWN_BLOCK:2
 
-SurfaceAndGroundControl: biomesoplenty:dirt:2, STONE, -0.8 
+SurfaceAndGroundControl: UNKNOWN_BLOCK:2, STONE, -0.8 
 
 ReplacedBlocks: (AIR,LAVA,1,10)
 
@@ -148,11 +150,25 @@ WaterColor: #AFC280
 
 GrassColor: #8F824A
 
+GrassColor2: #FFFFFF
+
 GrassColorIsMultiplier: false
 
 FoliageColor: #947637
 
+FoliageColor2: #FFFFFF
+
 FoliageColorIsMultiplier: false
+
+FogColor: #000000
+
+FogDensity: 0.5
+
+FogTimeWeight: 0.1
+
+FogRainWeight: 0.25
+
+FogThunderWeight: 0.5
 
 
 #######################################################################
@@ -208,8 +224,8 @@ Plant(OxeyeDaisy,20,50.0,41,139,GRASS,DIRT,biomesoplenty:grass:4)
 Grass(LONG_GRASS,Grouped,10,10.0,GRASS,DIRT,biomesoplenty:grass:4)
 Plant(LargeFern,20,75.0,41,139,GRASS,DIRT,biomesoplenty:grass:4)
 Plant(Fern,20,75.0,41,139,GRASS,DIRT,biomesoplenty:grass:4)
-Plant(SNOW,80,60.0,81,255,GRASS,DIRT,LEAVES,STONE:0,GRAVEL,biomesoplenty:grass:4)
-Plant(SNOW,80,60.0,111,255,GRASS,DIRT,LEAVES,STONE:0,GRAVEL,biomesoplenty:grass:4)
+Plant(SNOW:0,80,60.0,81,255,GRASS,DIRT,LEAVES,STONE:0,GRAVEL,biomesoplenty:grass:4)
+Plant(SNOW:0,80,60.0,111,255,GRASS,DIRT,LEAVES,STONE:0,GRAVEL,biomesoplenty:grass:4)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

@@ -67,6 +67,8 @@ MaxPercentageOutsideSourceBlock: 2
 
 OutsideSourceBlock: placeAnyway
 
+DoReplaceBlocks: true
+
 IsOTGPlus: false
 
 
@@ -184,7 +186,7 @@ Block(2,5,-2,biomesoplenty:leaves_0:3)
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BlockCheck(0,-1,0,GRASS,DIRT:0,DIRT:1,DIRT:2,biomesoplenty:grass:0,biomesoplenty:grass:1,biomesoplenty:grass:2,biomesoplenty:grass:3,biomesoplenty:grass:4,biomesoplenty:grass:5,biomesoplenty:grass:6,biomesoplenty:grass:7,biomesoplenty:dirt:0,biomesoplenty:dirt:1,biomesoplenty:dirt:2,biomesoplenty:dirt:3,biomesoplenty:dirt:4,biomesoplenty:dirt:5,biomesoplenty:dirt:6,biomesoplenty:dirt:7,biomesoplenty:dirt:8,biomesoplenty:dirt:9,biomesoplenty:dirt:10,biomesoplenty:dried_sand:0,biomesoplenty:hard_ice:0,biomesoplenty:white_sand:0,biomesoplenty:white_sandstone:0,biomesoplenty:mud:0,biomesoplenty:ash_block:0)
+BlockCheck(0,-1,0,GRASS,DIRT:0,DIRT:1,DIRT:2,biomesoplenty:grass:0,biomesoplenty:grass:1,biomesoplenty:grass,biomesoplenty:grass:3,biomesoplenty:grass:4,biomesoplenty:grass:5,biomesoplenty:grass:6,biomesoplenty:grass:7,UNKNOWN_BLOCK:0,UNKNOWN_BLOCK:1,UNKNOWN_BLOCK:2,UNKNOWN_BLOCK:8,UNKNOWN_BLOCK:9,UNKNOWN_BLOCK:10,biomesoplenty:dried_sand,biomesoplenty:hard_ice,biomesoplenty:white_sand,biomesoplenty:white_sandstone,biomesoplenty:mud,biomesoplenty:ash_block)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

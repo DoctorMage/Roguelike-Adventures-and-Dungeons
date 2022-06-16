@@ -57,6 +57,8 @@ BiomeVolatility: 0.3
 
 SmoothRadius: 4
 
+CustomHeightControlSmoothRadius: 2
+
 MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
@@ -148,11 +150,25 @@ WaterColor: #FFFFFF
 
 GrassColor: #FFFFFF
 
+GrassColor2: #FFFFFF
+
 GrassColorIsMultiplier: true
 
 FoliageColor: #FFFFFF
 
+FoliageColor2: #FFFFFF
+
 FoliageColorIsMultiplier: true
+
+FogColor: #000000
+
+FogDensity: 0.5
+
+FogTimeWeight: 0.1
+
+FogRainWeight: 0.25
+
+FogThunderWeight: 0.5
 
 
 #######################################################################
@@ -195,8 +211,8 @@ Boulder(PACKED_ICE,2,15.0,0,255,DIRT,STONE:0,HARD_CLAY)
 IceSpike(PACKED_ICE,HugeSpike,3,1.2,71,139,ICE,DIRT,SNOW_BLOCK,HARD_CLAY,STAINED_CLAY)
 IceSpike(PACKED_ICE,SmallSpike,3,40.33,71,139,ICE,DIRT,SNOW_BLOCK,HARD_CLAY,STAINED_CLAY)
 IceSpike(PACKED_ICE,Basement,2,50.0,71,139,ICE,DIRT,SNOW_BLOCK,HARD_CLAY,STAINED_CLAY)
-Plant(SNOW,60,100.0,63,139,GRASS,DIRT,STONE:0,PACKED_ICE,ICE,LEAVES)
-Plant(SNOW,80,60.0,62,255,ICE,PACKED_ICE)
+Plant(SNOW:0,60,100.0,63,139,GRASS,DIRT,STONE:0,PACKED_ICE,ICE,LEAVES)
+Plant(SNOW:0,80,60.0,62,255,ICE,PACKED_ICE)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

@@ -67,6 +67,8 @@ MaxPercentageOutsideSourceBlock: 0
 
 OutsideSourceBlock: placeAnyway
 
+DoReplaceBlocks: true
+
 IsOTGPlus: false
 
 
@@ -303,7 +305,7 @@ Block(1,4,2,VINE:2)
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BlockCheck(0,-1,0,GRASS,DIRT,DIRT:2,HARD_CLAY,STAINED_CLAY,CLAY,SANDSTONE,SAND:1,SAND,biomesoplenty:grass:0,biomesoplenty:grass:1,biomesoplenty:grass:2,biomesoplenty:grass:3,biomesoplenty:grass:4,biomesoplenty:grass:5,biomesoplenty:grass:6,biomesoplenty:grass:7)
+BlockCheck(0,-1,0,GRASS,DIRT,DIRT:2,HARD_CLAY,STAINED_CLAY,CLAY,SANDSTONE,SAND:1,SAND,biomesoplenty:grass:0,biomesoplenty:grass:1,biomesoplenty:grass,biomesoplenty:grass:3,biomesoplenty:grass:4,biomesoplenty:grass:5,biomesoplenty:grass:6,biomesoplenty:grass:7)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

@@ -57,6 +57,8 @@ BiomeVolatility: 0.4
 
 SmoothRadius: 6
 
+CustomHeightControlSmoothRadius: 2
+
 MaxAverageHeight: 0.2
 
 MaxAverageDepth: 0.0
@@ -148,11 +150,25 @@ WaterColor: #AFC280
 
 GrassColor: #8F824A
 
+GrassColor2: #FFFFFF
+
 GrassColorIsMultiplier: false
 
 FoliageColor: #947637
 
+FoliageColor2: #FFFFFF
+
 FoliageColorIsMultiplier: false
+
+FogColor: #000000
+
+FogDensity: 0.5
+
+FogTimeWeight: 0.1
+
+FogRainWeight: 0.25
+
+FogThunderWeight: 0.5
 
 
 #######################################################################
@@ -200,8 +216,8 @@ CustomStructure(GravelOreT1,1.0)
 CustomObject(Geode1,Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
 Tree(2,GroundBush,95,Tree,5)
-Plant(SNOW,80,90.0,41,139,GRASS,DIRT,LEAVES,biomesoplenty:grass:4)
-Plant(SNOW,80,45.0,41,139,GRASS,DIRT,LEAVES,biomesoplenty:grass:4)
+Plant(SNOW:0,80,90.0,41,139,GRASS,DIRT,LEAVES,biomesoplenty:grass:4)
+Plant(SNOW:0,80,45.0,41,139,GRASS,DIRT,LEAVES,biomesoplenty:grass:4)
 Grass(LONG_GRASS,Grouped,10,50.0,GRASS,DIRT,biomesoplenty:grass:4)
 Plant(LargeFern,20,75.0,41,139,GRASS,DIRT,biomesoplenty:grass:4)
 Plant(Fern,20,75.0,41,139,GRASS,DIRT,biomesoplenty:grass:4)

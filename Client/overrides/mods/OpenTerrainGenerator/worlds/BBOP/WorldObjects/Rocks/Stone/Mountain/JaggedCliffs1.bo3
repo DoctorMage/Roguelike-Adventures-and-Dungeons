@@ -98,6 +98,9 @@ MaxPercentageOutsideSourceBlock: 100
 # What to do when a block is about to be placed outside the SourceBlock? (dontPlace, placeAnyway)
 OutsideSourceBlock: dontPlace
 
+# Disable doReplaceBlocks to make this BO3 ignore any ReplacedBlocks settings in biome configs, improves performance.
+DoReplaceBlocks: true
+
 # OTG+ settings #
 # Legacy setting, rename this file to .BO4 instead. Set this to true to enable the advanced customstructure features of OTG+.
 IsOTGPlus: false
@@ -132,6 +135,8 @@ Block(0,0,0,STONE)
 # BlockCheck(x,y,z,BlockName[,BlockName[,...]]) - one of the blocks must be at the location
 # BlockCheckNot(x,y,z,BlockName[,BlockName[,...]]) - all the blocks must not be at the location
 # LightCheck(x,y,z,minLightLevel,maxLightLevel) - light must be between min and max (inclusive)
+# ModCheck(ModName[,ModName[,...]]) - all the mods listed must be loaded
+# ModCheckNot(ModName[,ModName[,...]]) - all the mods listed must not be loaded
 
 # You can use "Solid" as a BlockName for matching all solid blocks or "All" to match all blocks that aren't air.
 

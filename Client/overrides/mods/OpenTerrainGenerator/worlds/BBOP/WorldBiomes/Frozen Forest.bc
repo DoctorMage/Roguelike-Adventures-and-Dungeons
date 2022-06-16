@@ -57,6 +57,8 @@ BiomeVolatility: 0.2
 
 SmoothRadius: 4
 
+CustomHeightControlSmoothRadius: 2
+
 MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
@@ -148,11 +150,25 @@ WaterColor: #FFFFFF
 
 GrassColor: #DEF7FF
 
+GrassColor2: #FFFFFF
+
 GrassColorIsMultiplier: false
 
 FoliageColor: #D2F1FA
 
+FoliageColor2: #FFFFFF
+
 FoliageColorIsMultiplier: false
+
+FogColor: #000000
+
+FogDensity: 0.5
+
+FogTimeWeight: 0.1
+
+FogRainWeight: 0.25
+
+FogThunderWeight: 0.5
 
 
 #######################################################################
@@ -205,7 +221,7 @@ CustomObject(OakIceTreeSmall2,OakIceTreeSmall1,OakIceTree1,OakIceTree2,OakIceTre
 CustomObject(Geode1,Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
 CustomObject(IceSpikeSmall1,IceSpikeSmall2,IceSpikeSmall3,IceSpikeMedium1,IceSpikeMedium2,IceSpikeMedium3,IceSpikeLarge1,IceSpikeLarge2)
-Plant(SNOW,60,100.0,65,139,GRASS,DIRT,STONE:0,PACKED_ICE,ICE,LEAVES)
+Plant(SNOW:0,60,100.0,65,139,GRASS,DIRT,STONE:0,PACKED_ICE,ICE,LEAVES)
 Boulder(STONE,2,10.0,71,111,GRASS)
 Grass(LONG_GRASS:1,NotGrouped,8,25.0,GRASS,DIRT)
 Liquid(WATER,20,100.0,19,139,STONE:0)
@@ -261,13 +277,13 @@ RareBuildingType: disabled
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-SpawnMonsters: [{"mob": "spider", "weight": 100, "min": 4, "max": 4}, {"mob": "zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "slime", "weight": 100, "min": 4, "max": 4}, {"mob": "enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "witch", "weight": 5, "min": 1, "max": 1}]
+SpawnMonsters: [{"mob": "minecraft:spider", "weight": 100, "min": 4, "max": 4}, {"mob": "minecraft:zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "minecraft:skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "minecraft:creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "minecraft:slime", "weight": 100, "min": 4, "max": 4}, {"mob": "minecraft:enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "minecraft:witch", "weight": 5, "min": 1, "max": 1}]
 
-SpawnCreatures: [{"mob": "rabbit", "weight": 10, "min": 2, "max": 3}, {"mob": "polar_bear", "weight": 1, "min": 1, "max": 2}, {"mob": "wolf", "weight": 8, "min": 4, "max": 4}]
+SpawnCreatures: [{"mob": "minecraft:rabbit", "weight": 10, "min": 2, "max": 3}, {"mob": "minecraft:polar_bear", "weight": 1, "min": 1, "max": 2}, {"mob": "minecraft:wolf", "weight": 8, "min": 4, "max": 4}]
 
-SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
+SpawnWaterCreatures: [{"mob": "minecraft:squid", "weight": 10, "min": 4, "max": 4}]
 
-SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
+SpawnAmbientCreatures: [{"mob": "minecraft:bat", "weight": 10, "min": 8, "max": 8}]
 
 BiomeDictId: COLD, FOREST
 

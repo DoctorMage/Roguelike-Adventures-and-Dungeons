@@ -57,6 +57,8 @@ BiomeVolatility: 0.8
 
 SmoothRadius: 6
 
+CustomHeightControlSmoothRadius: 2
+
 MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
@@ -148,11 +150,25 @@ WaterColor: #FFFFFF
 
 GrassColor: #FFFFFF
 
+GrassColor2: #FFFFFF
+
 GrassColorIsMultiplier: true
 
 FoliageColor: #FFFFFF
 
+FoliageColor2: #FFFFFF
+
 FoliageColorIsMultiplier: true
+
+FogColor: #000000
+
+FogDensity: 0.5
+
+FogTimeWeight: 0.1
+
+FogRainWeight: 0.25
+
+FogThunderWeight: 0.5
 
 
 #######################################################################
@@ -209,8 +225,8 @@ Plant(biomesoplenty:plant_0:1,6,25.0,0,139,GRASS,DIRT)
 Plant(biomesoplenty:plant_0:3,6,25.0,0,139,GRASS,DIRT)
 Plant(biomesoplenty:plant_0:11,4,25.0,0,139,GRASS,DIRT)
 Plant(biomesoplenty:plant_0:10,4,25.0,0,139,GRASS,DIRT)
-Plant(SNOW,80,100.0,146,255,GRASS,DIRT,STONE:0,LEAVES,ICE,SNOW_BLOCK)
-Plant(SNOW,80,100.0,146,255,GRASS,DIRT,STONE:0,LEAVES,ICE,SNOW_BLOCK)
+Plant(SNOW:0,80,100.0,146,255,GRASS,DIRT,STONE:0,LEAVES,ICE,SNOW_BLOCK)
+Plant(SNOW:0,80,100.0,146,255,GRASS,DIRT,STONE:0,LEAVES,ICE,SNOW_BLOCK)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -259,13 +275,13 @@ RareBuildingType: disabled
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-SpawnMonsters: [{"mob": "spider", "weight": 100, "min": 4, "max": 4}, {"mob": "zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "slime", "weight": 100, "min": 4, "max": 4}, {"mob": "enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "witch", "weight": 5, "min": 1, "max": 1}]
+SpawnMonsters: [{"mob": "minecraft:spider", "weight": 100, "min": 4, "max": 4}, {"mob": "minecraft:zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "minecraft:skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "minecraft:creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "minecraft:slime", "weight": 100, "min": 4, "max": 4}, {"mob": "minecraft:enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "minecraft:witch", "weight": 5, "min": 1, "max": 1}]
 
-SpawnCreatures: [{"mob": "sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "pig", "weight": 10, "min": 4, "max": 4}, {"mob": "chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "cow", "weight": 8, "min": 4, "max": 4}, {"mob": "horse", "weight": 5, "min": 2, "max": 6}]
+SpawnCreatures: [{"mob": "minecraft:sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "minecraft:pig", "weight": 10, "min": 4, "max": 4}, {"mob": "minecraft:chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "minecraft:cow", "weight": 8, "min": 4, "max": 4}, {"mob": "minecraft:horse", "weight": 5, "min": 2, "max": 6}]
 
-SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
+SpawnWaterCreatures: [{"mob": "minecraft:squid", "weight": 10, "min": 4, "max": 4}]
 
-SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
+SpawnAmbientCreatures: [{"mob": "minecraft:bat", "weight": 10, "min": 8, "max": 8}]
 
 BiomeDictId: 
 

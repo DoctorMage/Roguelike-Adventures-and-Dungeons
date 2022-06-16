@@ -40,7 +40,7 @@ SpawnHeightVariance: 0
 
 MinHeight: 0
 
-MaxHeight: 256
+MaxHeight: 255
 
 ######################
 # Extrusion settings #
@@ -66,6 +66,8 @@ SourceBlocks: STONE:1,STONE:3,STONE:5,DIRT:1,STONE,DIRT,SAND,GRAVEL,CLAY,GRASS,O
 MaxPercentageOutsideSourceBlock: 100
 
 OutsideSourceBlock: dontPlace
+
+DoReplaceBlocks: true
 
 IsOTGPlus: false
 

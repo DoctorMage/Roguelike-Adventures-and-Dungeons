@@ -57,6 +57,8 @@ BiomeVolatility: 0.2
 
 SmoothRadius: 4
 
+CustomHeightControlSmoothRadius: 2
+
 MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
@@ -148,11 +150,25 @@ WaterColor: #AFC280
 
 GrassColor: #8F824A
 
+GrassColor2: #FFFFFF
+
 GrassColorIsMultiplier: false
 
 FoliageColor: #947637
 
+FoliageColor2: #FFFFFF
+
 FoliageColorIsMultiplier: false
+
+FogColor: #000000
+
+FogDensity: 0.5
+
+FogTimeWeight: 0.1
+
+FogRainWeight: 0.25
+
+FogThunderWeight: 0.5
 
 
 #######################################################################

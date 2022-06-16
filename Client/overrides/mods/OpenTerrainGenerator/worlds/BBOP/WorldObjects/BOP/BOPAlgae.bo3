@@ -67,6 +67,8 @@ MaxPercentageOutsideSourceBlock: 0
 
 OutsideSourceBlock: placeAnyway
 
+DoReplaceBlocks: true
+
 IsOTGPlus: false
 
 
@@ -85,7 +87,7 @@ Block(0,-1,0,DIRT)
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BlockCheck(0,-1,0,DIRT,biomesoplenty:mud:0,SAND,HARD_CLAY,CLAY)
+BlockCheck(0,-1,0,DIRT,biomesoplenty:mud,SAND,HARD_CLAY,CLAY)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
