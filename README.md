@@ -1,7 +1,7 @@
 # Roguelike Adventures and Dungeons
 
 This is the repository for Dreams01's Roguelike Adventures and Dungeons (RAD). You can find the Curseforge page for RAD [here](https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons)
-## PART 1 OF RAD Revamp is here!
+## PART 2 OF RAD Revamp is here!
 
 * Shop revamps! 
 * New reward tables! 
@@ -9,7 +9,8 @@ This is the repository for Dreams01's Roguelike Adventures and Dungeons (RAD). Y
 * CHAPTERS! 
 * UNLOCKABLES! 
 * CUSTOM ITEMS! 
-* GUIDES TO EACH MOD! 
+* GUIDES TO EACH MOD!
+* NEW MODS! 
 * AND MORE!
 
 Get a refreshing feeling as you re-discover new items, or remember those you always forgot existed!
@@ -28,8 +29,6 @@ Special thanks to Samara#0323 for active template creation!
 * The Shop is receiving a huge revamp. All tabs will be remade for more appropriate organization of items. Tons of items have been added
 * New changes to the configs
 
-AND MUCH MORE TO COME! Current changes: https://pastebin.com/raw/e4EbKVtJ
-
  
 
 There will be notification about missing entries in your save file - that's totally OK.
@@ -39,26 +38,26 @@ Just confirm, game will make a backup of your world just in case.
 
 What other major internal changes you should expect: tweaked some generations of world structures and terrain(villages, cave variants, ravines, dungeons) which should lead to faster chunk loading.
 
- 
 
-## New options for explorers!
-• Added Biomes O Plenty with Biome Bundle Compat Layer. Old worlds should work and generate fine but if you want to experience Biomes O Plenty Biomes with Biome Bundle terrain gen you need to create new world using preset "BBOP" (Create OTG World -> choose BBOP on the left -> Continue -> Continue -> Name your world and hit OK.) For server installation: level-type=OTG | level-name=BBOP
-
- 
-
-To not overwhelm players with two tons of content in new update there will be Part 2 of Revamp!
 
 
 Stay tuned! Be a part of this revamp - leave your feedback and suggestions in our discord server!
 
 Added:
-- Biome Bundle O Plenty
-- Biomes O' Plenty
-- Hunter illager
-- Illagers+
+- Future MC
+- End Reborn
+- The Midnight
+- ROOTS
+- Roost
+- More Spell Packs (Mo' Spells, Twilight Forest Spell Pack)
+- Thaumcraft 6 Additions (Thaumic Periphery, Thaumic Wonders, Thaumic Restoration)
+- Wizardry Fates
+- AND MORE
+
+Added a total of 28 mods
 
 Updated 17 files
-Detailed mod changelog: https://pastebin.com/raw/MjUafVwp
+Detailed mod changelog: [https://pastebin.com/raw/L1yGfxCc](https://pastebin.com/raw/L1yGfxCc)
 [![bisecthosting](https://i.imgur.com/Og8jfwS.png)](https://bisecthosting.com/xdreamz)
 
 Need a server to play with friends? Don't know how to setup one? Just rent already configured server - install and update my modpacks( and dozens of others!) in one click!
