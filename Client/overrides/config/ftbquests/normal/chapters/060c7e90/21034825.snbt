@@ -43,5 +43,15 @@
 		type: "random",
 		title: "Random Spectral Dust",
 		table: 2
+	},
+	{
+		uid: "b439a3ba",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_wizard_artifacts"
+			}
+		}
 	}]
 }

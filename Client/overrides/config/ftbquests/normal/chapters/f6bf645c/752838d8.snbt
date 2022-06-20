@@ -14,6 +14,7 @@
 		uid: "89c614f7",
 		type: "kill",
 		title: "Slay a Knight Phantom",
+		icon: "twilightforest:trophy 1 4",
 		entity: "twilightforest:knight_phantom",
 		value: 1L
 	}],

@@ -1,7 +1,7 @@
 {
 	title: "A Liking Towards Liches",
-	x: 17.5d,
-	y: 0.0d,
+	x: 8.5d,
+	y: 1.0d,
 	description: "I didn't wanna kill you Mr. Bones...",
 	text: [
 		"Slay 20 Twilight Liches."

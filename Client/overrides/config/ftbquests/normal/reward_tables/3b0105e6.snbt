@@ -287,7 +287,26 @@
 	{
 		item: "minecraft:nether_star",
 		count: 3,
-		random_bonus: 10
+		random_bonus: 10,
+		weight: 8
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "crate_of_lesser_disciplines"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "crate_of_main_disciplines"
+			}
+		},
+		weight: 8
 	}],
 	loot_crate: {
 		string_id: "rare_tier_rewards",

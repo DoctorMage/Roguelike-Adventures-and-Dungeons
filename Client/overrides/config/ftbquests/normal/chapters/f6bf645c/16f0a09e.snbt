@@ -14,6 +14,7 @@
 		uid: "f32efbfe",
 		type: "kill",
 		title: "Slay a Hydra",
+		icon: "twilightforest:trophy 1 2",
 		entity: "twilightforest:hydra",
 		value: 1L
 	}],

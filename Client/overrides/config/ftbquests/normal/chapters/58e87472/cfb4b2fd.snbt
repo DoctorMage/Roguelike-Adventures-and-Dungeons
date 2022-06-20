@@ -1,0 +1,31 @@
+{
+	x: -3.5d,
+	y: -1.0d,
+	dependencies: [
+		"f5ba5fd8"
+	],
+	tasks: [{
+		uid: "13a2447f",
+		type: "item",
+		items: [{
+			item: "dimdoors:rift_configuration_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ed7cf33b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ece1cc2a",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "cc5f42eb",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

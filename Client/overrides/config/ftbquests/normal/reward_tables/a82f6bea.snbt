@@ -10,21 +10,26 @@
 	rewards: [{
 		item: "iceandfire:fire_dragon_blood",
 		count: 3,
-		random_bonus: 5
+		random_bonus: 5,
+		weight: 10
 	},
 	{
 		item: "iceandfire:ice_dragon_blood",
 		count: 3,
-		random_bonus: 5
+		random_bonus: 5,
+		weight: 10
 	},
 	{
-		item: "megaloot:weaponcase_epic"
+		item: "megaloot:weaponcase_epic",
+		weight: 10
 	},
 	{
-		item: "randomloot:titan_case"
+		item: "randomloot:titan_case",
+		weight: 10
 	},
 	{
-		item: "ancientspellcraft:stone_tablet_grand"
+		item: "ancientspellcraft:stone_tablet_grand",
+		weight: 10
 	},
 	{
 		item: {
@@ -32,7 +37,8 @@
 			tag: {
 				type: "sea_serpent_scales"
 			}
-		}
+		},
+		weight: 10
 	},
 	{
 		item: {
@@ -40,7 +46,17 @@
 			tag: {
 				type: "dragon_scales_loot_table"
 			}
-		}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "crate_of_main_disciplines"
+			}
+		},
+		weight: 10
 	}],
 	loot_crate: {
 		string_id: "epic_tier_rewards",

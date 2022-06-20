@@ -183,6 +183,15 @@
 	{
 		item: "thaumcraft:sapling_silverwood",
 		weight: 10
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "crate_of_lesser_disciplines"
+			}
+		},
+		weight: 10
 	}],
 	loot_crate: {
 		string_id: "uncommon_tier_rewards",

@@ -104,5 +104,15 @@
 				type: "epic_tier_rewards"
 			}
 		}
+	},
+	{
+		uid: "a3b44f99",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_wizard_artifacts"
+			}
+		}
 	}]
 }

@@ -25,5 +25,11 @@
 		uid: "0616f076",
 		type: "checkmark",
 		title: "Ready to roll!"
+	}],
+	rewards: [{
+		uid: "73a59f88",
+		type: "choice",
+		title: "Crate of Starting Gear",
+		table: 47
 	}]
 }

@@ -1,12 +1,12 @@
 {
-	title: "Father Time",
+	title: "Super Saplings",
 	x: 1.5d,
 	y: 11.0d,
 	description: "Just a construct",
 	text: [
-		"Collect a Tree of Time sapling.",
+		"Collect all of the special saplings.",
 		"",
-		"They can be found in tree dungeons in the Twilight Forest."
+		"Each does something special!"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -17,6 +17,27 @@
 		type: "item",
 		items: [{
 			item: "twilightforest:twilight_sapling 1 5"
+		}]
+	},
+	{
+		uid: "9c47c0bc",
+		type: "item",
+		items: [{
+			item: "twilightforest:twilight_sapling 1 6"
+		}]
+	},
+	{
+		uid: "78c860ac",
+		type: "item",
+		items: [{
+			item: "twilightforest:twilight_sapling 1 7"
+		}]
+	},
+	{
+		uid: "50170f01",
+		type: "item",
+		items: [{
+			item: "twilightforest:twilight_sapling 1 8"
 		}]
 	}],
 	rewards: [{

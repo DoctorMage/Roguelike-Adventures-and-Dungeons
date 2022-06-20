@@ -1,7 +1,7 @@
 {
 	title: "Hyper-Hydra-osis",
-	x: 16.5d,
-	y: 0.0d,
+	x: 7.5d,
+	y: 1.0d,
 	description: "Sweating because of how hot it is in this swamp",
 	text: [
 		"Slay 15 Hydra in the Twilight Forest."

@@ -1,7 +1,7 @@
 {
 	title: "Valkyrie Vanquisher",
-	x: 21.0d,
-	y: 0.0d,
+	x: 12.0d,
+	y: 1.0d,
 	description: "Victory is ours!",
 	text: [
 		"Slay 25 Valkyrie Queens."

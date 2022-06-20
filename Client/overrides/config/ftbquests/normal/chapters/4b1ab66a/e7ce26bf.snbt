@@ -15,7 +15,9 @@
 		"",
 		"This being said, it is genuinely recommended you create a large space of Kitchen Flooring to place all kitchen pieces on. This is to ensure all pieces will definitely be linked for when you want to bust out those big meals.",
 		"",
-		"Additionally, racks, baskets and toasters must be placed on top/above kitchen pieces in order to be linked. Racks can also be placed on kitchen pieces themselves, but having a rack in front of your kitchen drawers may look a bit strange."
+		"Additionally, racks, baskets and toasters must be placed on top/above kitchen pieces in order to be linked. Racks can also be placed on kitchen pieces themselves, but having a rack in front of your kitchen drawers may look a bit strange.",
+		"",
+		"You are not required to craft all of the kitchen-aid to complete this quest."
 	],
 	dependencies: [
 		"650e7f63"

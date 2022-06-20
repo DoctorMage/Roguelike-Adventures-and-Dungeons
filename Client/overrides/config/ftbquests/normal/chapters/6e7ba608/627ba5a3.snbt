@@ -26,6 +26,7 @@
 	{
 		uid: "f4d74d3a",
 		type: "item",
+		icon: "tropicraft:bongo 1 2",
 		items: [{
 			item: "tropicraft:bongo"
 		}]

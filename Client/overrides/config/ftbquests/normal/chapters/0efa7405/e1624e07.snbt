@@ -5,27 +5,41 @@
 		"9e943e03"
 	],
 	tasks: [{
-		uid: "a8d5eb88",
+		uid: "74827d55",
 		type: "item",
 		items: [{
 			id: "thaumcraft:verdant_charm",
 			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "76685405",
+		type: "item",
+		items: [{
+			id: "thaumcraft:verdant_charm",
+			tag: {
+				Quality: {},
 				type: 1b
 			}
 		}],
 		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
-		uid: "05d2a816",
+		uid: "d1c295bd",
 		type: "item",
 		items: [{
 			id: "thaumcraft:verdant_charm",
 			tag: {
+				Quality: {},
 				type: 2b
 			}
 		}],
 		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	}]
 }

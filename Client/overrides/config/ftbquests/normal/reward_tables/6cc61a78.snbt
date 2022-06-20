@@ -1,6 +1,6 @@
 {
 	title: "Primary Vis Crystals",
-	loot_size: 3,
+	loot_size: 1,
 	rewards: [{
 		item: {
 			id: "thaumcraft:crystal_essence",

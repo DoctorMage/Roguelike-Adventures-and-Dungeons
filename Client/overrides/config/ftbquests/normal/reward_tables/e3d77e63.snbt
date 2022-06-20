@@ -1,0 +1,210 @@
+{
+	title: "Sorcerer Wizard Artefacts",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "ancientspellcraft:amulet_persistence",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ring_permanent_shrinkage",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ring_permanent_growth",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_extraction",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_mana_return",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_conjurer",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 85
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_blockwrangler",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 90
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_glide",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_light",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_silk_touch",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 90
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_black_hole",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_transportation",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 80
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_banishing",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_rift_bottle",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_spectral_army",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 70
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_spectral_tome",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 70
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_sixth_sense",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_stop_time",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_enchanted_needle",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_mount_teleporting",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "ancientspellcraft:amulet_arcane_catalyst",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "ancientspellcraft:amulet_time_knot",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 65
+	},
+	{
+		item: "ancientspellcraft:head_fortune",
+		weight: 90
+	},
+	{
+		item: "ancientspellcraft:head_riftstone",
+		weight: 60
+	}]
+}

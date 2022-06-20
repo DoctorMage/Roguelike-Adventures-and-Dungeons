@@ -1,8 +1,8 @@
 {
 	title: "Pharoah, With A \"PH\"",
 	icon: "atum:dagger_poison",
-	x: 17.5d,
-	y: -2.5d,
+	x: 8.5d,
+	y: -1.5d,
 	description: "I like em' thicc... and mummified",
 	text: [
 		"Slay 25 Pharoahs.",

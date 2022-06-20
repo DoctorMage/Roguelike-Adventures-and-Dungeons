@@ -12,6 +12,14 @@
 	tasks: [{
 		uid: "0fee439b",
 		type: "item",
+		icon: {
+			id: "thebetweenlands:critter",
+			tag: {
+				Entity: {
+					id: "thebetweenlands:firefly"
+				}
+			}
+		},
 		items: [{
 			id: "thebetweenlands:critter",
 			tag: {
@@ -20,7 +28,8 @@
 				}
 			}
 		}],
-		ignore_damage: true
+		ignore_damage: true,
+		ignore_nbt: 2b
 	},
 	{
 		uid: "7e5697ea",
@@ -33,7 +42,9 @@
 				}
 			}
 		}],
-		ignore_damage: true
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 2b
 	},
 	{
 		uid: "9803d3f4",
@@ -46,7 +57,8 @@
 				}
 			}
 		}],
-		ignore_damage: true
+		ignore_damage: true,
+		ignore_nbt: 2b
 	},
 	{
 		uid: "2892d929",
@@ -54,7 +66,7 @@
 		items: [{
 			item: "thebetweenlands:sludge_worm_egg_sac"
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "5cb6b0d6",
@@ -63,7 +75,7 @@
 			item: "thebetweenlands:chiromaw_egg"
 		}],
 		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	},
 	{
 		uid: "4d08c167",
@@ -72,7 +84,7 @@
 			item: "thebetweenlands:chiromaw_egg_lightning"
 		}],
 		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	}],
 	rewards: [{
 		uid: "0aeb243e",
@@ -88,10 +100,5 @@
 		uid: "92661e8f",
 		type: "item",
 		item: "thebetweenlands:items_misc 1 40"
-	},
-	{
-		uid: "50c5e1d2",
-		type: "item",
-		item: "aquaculture:loot 1 6"
 	}]
 }

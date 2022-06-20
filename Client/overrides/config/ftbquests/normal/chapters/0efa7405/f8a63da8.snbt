@@ -11,5 +11,12 @@
 		items: [{
 			item: "thaumcraft:smelter_basic"
 		}]
+	},
+	{
+		uid: "db0cadf0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alembic"
+		}]
 	}]
 }

@@ -1,6 +1,17 @@
 {
 	x: -8.5d,
 	y: -4.0d,
+	text: [
+		"The Midnight is an early-game horror themed dimension!",
+		"",
+		"Sometimes skinny looking zombies will grab and drag you toward a red rift/portal.",
+		"",
+		"The red portals can be traveled through by walking into them. When you do so, you will enter the Midnight dimension!",
+		"",
+		"Once you have entered, you will not be able to get out unless you have a Rifting Machine or find another red portal!",
+		"",
+		"When inside the Midnight dimension, portals will appear in random locations like they do in the Overworld."
+	],
 	tasks: [{
 		uid: "a8c13396",
 		type: "dimension",

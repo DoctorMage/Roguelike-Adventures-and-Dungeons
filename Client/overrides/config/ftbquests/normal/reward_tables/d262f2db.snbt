@@ -1,0 +1,18 @@
+{
+	title: "Class Selection Gadget's Loot Table",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "hooked:hook",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: "cyclicmagic:tool_torch_launcher"
+	},
+	{
+		item: "randomthings:diviningrod 1 1"
+	}]
+}

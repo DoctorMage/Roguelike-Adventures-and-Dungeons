@@ -16,6 +16,13 @@
 		title: "Slay The Twilight Lich",
 		entity: "twilightforest:lich",
 		value: 1L
+	},
+	{
+		uid: "7751b4a8",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 1"
+		}]
 	}],
 	rewards: [{
 		uid: "27d9bc67",

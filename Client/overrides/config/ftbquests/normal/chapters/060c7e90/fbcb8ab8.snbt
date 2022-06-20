@@ -1,7 +1,7 @@
 {
 	title: "Are These Robes Real?",
-	x: -11.0d,
-	y: 14.0d,
+	x: -10.5d,
+	y: 13.5d,
 	description: "Are you real?",
 	text: [
 		"Is anything REAL!?"
@@ -102,5 +102,15 @@
 		uid: "ba77bbd5",
 		type: "xp_levels",
 		xp_levels: 10
+	},
+	{
+		uid: "f21c9ae6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_wizard_artifact"
+			}
+		}
 	}]
 }

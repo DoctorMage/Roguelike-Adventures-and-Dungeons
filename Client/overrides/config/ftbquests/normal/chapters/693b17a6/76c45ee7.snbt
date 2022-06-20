@@ -1,7 +1,7 @@
 {
 	title: "On Thin Ice",
-	x: 18.5d,
-	y: 0.0d,
+	x: 9.5d,
+	y: 1.0d,
 	description: "This is the last time!",
 	text: [
 		"Slay 10 Snow Queens."

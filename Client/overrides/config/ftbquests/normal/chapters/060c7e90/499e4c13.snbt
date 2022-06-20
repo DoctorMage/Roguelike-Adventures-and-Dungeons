@@ -81,5 +81,15 @@
 		uid: "e8a36e29",
 		type: "xp_levels",
 		xp_levels: 30
+	},
+	{
+		uid: "a3080ffe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_wizard_artifacts"
+			}
+		}
 	}]
 }

@@ -1,5 +1,6 @@
 {
 	title: "The Hydra, The Lich, and The Forest",
+	icon: "twilightforest:trophy 1 5",
 	x: 2.0d,
 	y: -14.0d,
 	description: "Narnyuh awaits you",
@@ -16,6 +17,7 @@
 		uid: "6080a1f8",
 		type: "kill",
 		title: "Slay the Snow Queen",
+		icon: "twilightforest:trophy 1 5",
 		entity: "twilightforest:snow_queen",
 		value: 1L
 	}],

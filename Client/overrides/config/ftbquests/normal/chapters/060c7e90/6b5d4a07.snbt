@@ -118,12 +118,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "5ec7f9c6",
-		type: "random",
-		title: "Random Universal Wizard Artefact",
-		table: 44
-	},
-	{
 		uid: "5731f9f3",
 		type: "ftbmoney:money",
 		ftb_money: 100L

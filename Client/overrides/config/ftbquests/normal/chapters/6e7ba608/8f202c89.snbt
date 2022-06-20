@@ -1,0 +1,29 @@
+{
+	x: 3.0d,
+	y: -3.0d,
+	dependencies: [
+		"9c73a56d"
+	],
+	tasks: [{
+		uid: "6958de4e",
+		type: "item",
+		items: [{
+			item: "tropicraft:air_compressor"
+		}]
+	}],
+	rewards: [{
+		uid: "732fe8ed",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "cf1d1615",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "5421ff3c",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

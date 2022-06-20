@@ -1,0 +1,31 @@
+{
+	title: "The Shadows Recede",
+	icon: "scalinghealth:difficultychanger",
+	x: -17.5d,
+	y: -3.0d,
+	description: "Back to the void",
+	text: [
+		"This item will decrease your game's difficulty level. Use with caution."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "1fd1860f",
+		type: "item",
+		items: [{
+			item: "twilightforest:charm_of_life_2"
+		}]
+	},
+	{
+		uid: "7da9a93e",
+		type: "item",
+		items: [{
+			item: "dungeontactics:heart_golden"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "de946fbf",
+		type: "item",
+		item: "scalinghealth:difficultychanger"
+	}]
+}

@@ -1,0 +1,149 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	dependencies: [
+		"35076070"
+	],
+	tasks: [{
+		uid: "401a33ae",
+		type: "item",
+		items: [{
+			id: "spartanfire:katana_fire_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: 122031329477084994L,
+						UUIDLeast: -7144688699553144537L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 7457253729027835621L,
+						UUIDLeast: -7739029916512878645L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.clumsy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8075ae3a",
+		type: "item",
+		items: [{
+			id: "spartanfire:greatsword_fire_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "457a4234",
+		type: "item",
+		items: [{
+			id: "spartanfire:longsword_fire_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: -8186490065017812381L,
+						UUIDLeast: -6867344334080248557L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -414314899353679087L,
+						UUIDLeast: -6877868044797219865L,
+						Amount: -0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.vicious.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d4c081ac",
+		type: "item",
+		items: [{
+			id: "spartanfire:saber_fire_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_red",
+					AttributeModifiers: [{
+						UUIDMost: -2666976682752258773L,
+						UUIDLeast: -6147918196991053583L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -1443913003166709721L,
+						UUIDLeast: -6110994617957912627L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 3794369764584669449L,
+						UUIDLeast: -8971354224876724246L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -2603374635262194439L,
+						UUIDLeast: -8843494751290705462L,
+						Amount: -1.0d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.worthless.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a3a7597f",
+		type: "item",
+		items: [{
+			id: "spartanfire:rapier_fire_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,5 +1,6 @@
 {
 	title: "The Abominable Snow-Man",
+	icon: "twilightforest:alpha_fur",
 	x: 4.0d,
 	y: -10.5d,
 	description: "It's actually a Yeti",
@@ -14,6 +15,7 @@
 		uid: "89ff6e8e",
 		type: "kill",
 		title: "Slay the Alpha Yeti",
+		icon: "twilightforest:alpha_fur",
 		entity: "twilightforest:yeti_alpha",
 		value: 1L
 	}],

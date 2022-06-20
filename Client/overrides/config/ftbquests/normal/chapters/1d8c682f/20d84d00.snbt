@@ -6,7 +6,13 @@
 	text: [
 		"These tablets seem to be enchanted with some type of magic.",
 		"",
-		"Even then... they seem relatively fragile."
+		"Even then... they seem relatively fragile.",
+		"",
+		"NOTE:",
+		"",
+		"Tablet of Assistance does not register properly for quest tasks.",
+		"",
+		"The Tablet of Assistance is used to teleport to other players or other players to you."
 	],
 	dependencies: [
 		"d6d462e3"
@@ -26,15 +32,6 @@
 		type: "item",
 		items: [{
 			item: "tombstone:tablet_of_home"
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
-	},
-	{
-		uid: "7d7364b2",
-		type: "item",
-		items: [{
-			item: "tombstone:tablet_of_assistance"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

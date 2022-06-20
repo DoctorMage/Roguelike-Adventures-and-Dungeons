@@ -127,6 +127,15 @@
 			}
 		},
 		weight: 10
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "crate_of_lesser_disciplines"
+			}
+		},
+		weight: 10
 	}],
 	loot_crate: {
 		string_id: "common_tier_rewards",

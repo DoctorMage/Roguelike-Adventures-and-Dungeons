@@ -44,5 +44,11 @@
 		uid: "0eaabf23",
 		type: "item",
 		item: "minecraft:bed 1 14"
+	},
+	{
+		uid: "099e98b3",
+		type: "choice",
+		title: "Mod Starter Kits",
+		table: 48
 	}]
 }
