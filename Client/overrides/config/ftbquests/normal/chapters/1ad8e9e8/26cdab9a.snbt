@@ -43,6 +43,13 @@
 		items: [{
 			item: "thebetweenlands:sapling_spirit_tree"
 		}]
+	},
+	{
+		uid: "25f880be",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sapling_nibbletwig"
+		}]
 	}],
 	rewards: [{
 		uid: "c21d4972",

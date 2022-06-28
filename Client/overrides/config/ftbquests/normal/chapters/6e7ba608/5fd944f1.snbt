@@ -113,5 +113,25 @@
 		items: [{
 			item: "tropicraft:flower 1 2"
 		}]
+	}],
+	rewards: [{
+		uid: "3b9bd71f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "d6f3789b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "c8e859c4",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

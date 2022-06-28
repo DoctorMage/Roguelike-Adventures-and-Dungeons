@@ -17,5 +17,25 @@
 		items: [{
 			item: "thaumcraft:pedestal_eldritch"
 		}]
+	}],
+	rewards: [{
+		uid: "6c85824b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "af21699b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "9a8eb2d3",
+		type: "xp_levels",
+		xp_levels: 2
 	}]
 }

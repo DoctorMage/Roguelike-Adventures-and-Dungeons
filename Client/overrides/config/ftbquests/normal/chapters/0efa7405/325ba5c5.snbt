@@ -10,5 +10,15 @@
 		items: [{
 			item: "thaumcraft:spa"
 		}]
+	}],
+	rewards: [{
+		uid: "ce0c969d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "9ce8ffbe",
+		type: "item",
+		item: "aquaculture:loot 1 5"
 	}]
 }

@@ -1,6 +1,6 @@
 {
 	title: "Cheating Death",
-	icon: "heroicarmory:mythdeathscythe",
+	icon: "dungeontactics:candy_skull",
 	x: -16.0d,
 	y: 1.0d,
 	description: "She's calling you",

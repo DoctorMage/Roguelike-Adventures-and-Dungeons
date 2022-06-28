@@ -121,5 +121,25 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "89f35cda",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "80a2b41f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "f2e22088",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

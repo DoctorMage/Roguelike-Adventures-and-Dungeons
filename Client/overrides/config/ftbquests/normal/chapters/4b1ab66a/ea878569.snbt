@@ -7,7 +7,8 @@
 		items: [{
 			item: "harvestcraft:waterchestnutitem"
 		}],
-		count: 500L
+		count: 500L,
+		consume_items: true
 	}],
 	rewards: [{
 		uid: "ded9c732",

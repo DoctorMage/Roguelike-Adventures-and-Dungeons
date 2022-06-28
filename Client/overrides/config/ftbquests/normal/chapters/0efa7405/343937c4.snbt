@@ -10,5 +10,20 @@
 		items: [{
 			item: "thaumcraft:potion_sprayer"
 		}]
+	}],
+	rewards: [{
+		uid: "1010e63b",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "222ba8ad",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "890afc4c",
+		type: "item",
+		item: "aquaculture:loot 1 5"
 	}]
 }

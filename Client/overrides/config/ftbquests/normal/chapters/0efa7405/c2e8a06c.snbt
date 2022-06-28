@@ -17,5 +17,15 @@
 		items: [{
 			item: "thaumcraft:arcane_ear_toggle"
 		}]
+	}],
+	rewards: [{
+		uid: "f241ad7f",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "9ad890ac",
+		type: "ftbmoney:money",
+		ftb_money: 20L
 	}]
 }

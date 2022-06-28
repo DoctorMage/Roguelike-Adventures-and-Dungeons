@@ -15,5 +15,20 @@
 		items: [{
 			item: "thaumcraft:nitor_yellow"
 		}]
+	}],
+	rewards: [{
+		uid: "eaaf9a85",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "f6e9a90a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "fb13c5fa",
+		type: "item",
+		item: "aquaculture:loot 1 5"
 	}]
 }

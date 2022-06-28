@@ -20,5 +20,15 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e5a313cb",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "8b14389f",
+		type: "item",
+		item: "aquaculture:loot 1 5"
 	}]
 }

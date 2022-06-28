@@ -36,5 +36,25 @@
 		items: [{
 			item: "tropicraft:seared_marlin"
 		}]
+	}],
+	rewards: [{
+		uid: "e4abea2c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "4eb687f3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "44d050fb",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

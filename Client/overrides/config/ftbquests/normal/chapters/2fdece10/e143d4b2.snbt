@@ -1,6 +1,9 @@
 {
 	x: 37.0d,
 	y: -2.0d,
+	dependencies: [
+		"317d659b"
+	],
 	tasks: [{
 		uid: "a8039c89",
 		type: "item",
@@ -84,5 +87,25 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45c6ace2",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "e3900cdc",
+		type: "xp_levels",
+		xp_levels: 35
+	},
+	{
+		uid: "066744e2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
 	}]
 }

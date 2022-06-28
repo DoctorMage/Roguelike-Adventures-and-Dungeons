@@ -90,5 +90,25 @@
 			},
 			Damage: 1s
 		}]
+	}],
+	rewards: [{
+		uid: "18bcd055",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "1f945d4b",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "de223052",
+		type: "xp",
+		xp: 100
 	}]
 }

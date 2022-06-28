@@ -10,5 +10,20 @@
 		items: [{
 			item: "thaumcraft:levitator"
 		}]
+	}],
+	rewards: [{
+		uid: "4559b868",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "28a401a9",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "de5d88b5",
+		type: "item",
+		item: "aquaculture:loot 1 5"
 	}]
 }

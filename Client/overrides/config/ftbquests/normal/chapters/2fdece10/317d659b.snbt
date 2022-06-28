@@ -7,5 +7,15 @@
 		items: [{
 			item: "thaumcraft:ingot"
 		}]
+	}],
+	rewards: [{
+		uid: "1065d798",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "5a993ec4",
+		type: "xp_levels",
+		xp_levels: 10
 	}]
 }

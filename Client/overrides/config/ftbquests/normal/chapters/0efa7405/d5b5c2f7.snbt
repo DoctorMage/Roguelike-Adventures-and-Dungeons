@@ -37,5 +37,30 @@
 		items: [{
 			item: "thaumcraft:salis_mundus"
 		}]
+	}],
+	rewards: [{
+		uid: "15367e1a",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "aaf5141b",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "55c8b9db",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "30b5f8b0",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "df24f585",
+		type: "ftbmoney:money",
+		ftb_money: 20L
 	}]
 }

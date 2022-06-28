@@ -1,7 +1,7 @@
 {
 	title: "The Never-Lose-Me Gem",
 	x: 11.0d,
-	y: 4.0d,
+	y: 3.5d,
 	description: "I wonder if it hurts when you summon your dragon?",
 	text: [
 		"May give frostbite if exposed to bare skin."

@@ -23,5 +23,20 @@
 		items: [{
 			item: "thaumcraft:bottle_taint"
 		}]
+	}],
+	rewards: [{
+		uid: "d83a1b03",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "d480ce8b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "0e29fb9a",
+		type: "item",
+		item: "aquaculture:loot 1 5"
 	}]
 }

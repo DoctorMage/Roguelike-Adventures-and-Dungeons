@@ -18,5 +18,15 @@
 		items: [{
 			item: "thaumcraft:salis_mundus"
 		}]
+	}],
+	rewards: [{
+		uid: "ad80bc0d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "bd1fe901",
+		type: "ftbmoney:money",
+		ftb_money: 10L
 	}]
 }

@@ -58,5 +58,25 @@
 		items: [{
 			item: "midnight:cook_stinger_egg"
 		}]
+	}],
+	rewards: [{
+		uid: "b6b88e62",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "a62b5816",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "f54fde41",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

@@ -23,5 +23,20 @@
 			item: "thaumcraft:thaumonomicon"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "58c863e1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "primary_vis_crystals"
+			}
+		}
+	},
+	{
+		uid: "577847a8",
+		type: "xp",
+		xp: 100
 	}]
 }

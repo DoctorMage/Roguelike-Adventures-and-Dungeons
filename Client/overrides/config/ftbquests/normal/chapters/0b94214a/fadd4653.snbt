@@ -26,16 +26,6 @@
 		ftb_money: 25L
 	},
 	{
-		uid: "ca95f697",
-		type: "xp_levels",
-		xp_levels: 3
-	},
-	{
-		uid: "f3322a8b",
-		type: "ftbmoney:money",
-		ftb_money: 25L
-	},
-	{
 		uid: "b4aa5332",
 		type: "xp_levels",
 		xp_levels: 2

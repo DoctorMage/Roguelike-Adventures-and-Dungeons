@@ -10,5 +10,25 @@
 		items: [{
 			item: "thaumcraft:mirror_essentia"
 		}]
+	}],
+	rewards: [{
+		uid: "51f1104a",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "99ee4123",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "51c14d53",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "primary_vis_crystals"
+			}
+		}
 	}]
 }

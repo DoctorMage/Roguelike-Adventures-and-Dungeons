@@ -57,7 +57,8 @@
 					}],
 					Name: "quality.broad.name"
 				}
-			}
+			},
+			Count: 1b
 		},
 		only_one: true
 	},

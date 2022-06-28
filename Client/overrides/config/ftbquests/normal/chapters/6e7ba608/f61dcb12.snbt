@@ -14,5 +14,20 @@
 		uid: "d04d6768",
 		type: "dimension",
 		dim: -127
+	}],
+	rewards: [{
+		uid: "e667a1ce",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	},
+	{
+		uid: "956d176a",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "7c14d358",
+		type: "ftbmoney:money",
+		ftb_money: 100L
 	}]
 }

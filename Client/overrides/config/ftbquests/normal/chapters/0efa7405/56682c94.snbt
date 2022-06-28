@@ -95,5 +95,20 @@
 		items: [{
 			item: "thaumcraft:celestial_notes 1 12"
 		}]
+	}],
+	rewards: [{
+		uid: "8e2a16a2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "57cd6a4e",
+		type: "xp_levels",
+		xp_levels: 1
 	}]
 }

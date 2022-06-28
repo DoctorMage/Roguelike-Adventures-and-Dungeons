@@ -10,5 +10,20 @@
 		items: [{
 			item: "thaumcraft:alumentum"
 		}]
+	}],
+	rewards: [{
+		uid: "cd56648f",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "8670f14b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "062298c4",
+		type: "item",
+		item: "aquaculture:loot 1 5"
 	}]
 }

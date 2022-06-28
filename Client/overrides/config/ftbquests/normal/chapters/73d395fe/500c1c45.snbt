@@ -17,5 +17,25 @@
 		items: [{
 			item: "midnight:dark_pearl"
 		}]
+	}],
+	rewards: [{
+		uid: "f4636b8b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "2c19cf94",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "8c930705",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }

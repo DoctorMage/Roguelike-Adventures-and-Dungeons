@@ -31,5 +31,25 @@
 		items: [{
 			item: "midnight:nightshroom_sporch"
 		}]
+	}],
+	rewards: [{
+		uid: "180030d0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "98acd0c1",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "3f915e1d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }

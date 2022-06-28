@@ -10,5 +10,15 @@
 		items: [{
 			item: "thaumcraft:ingot 1 2"
 		}]
+	}],
+	rewards: [{
+		uid: "039f40b6",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "b3f2c504",
+		type: "xp",
+		xp: 100
 	}]
 }

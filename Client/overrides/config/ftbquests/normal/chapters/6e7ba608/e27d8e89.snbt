@@ -24,5 +24,15 @@
 		items: [{
 			item: "tropicraft:iguana_leather"
 		}]
+	}],
+	rewards: [{
+		uid: "0b7bddca",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "f1b3d0d8",
+		type: "xp",
+		xp: 100
 	}]
 }

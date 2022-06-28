@@ -17,5 +17,20 @@
 		items: [{
 			item: "thaumcraft:sanity_soap"
 		}]
+	}],
+	rewards: [{
+		uid: "7f153cf4",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "43fa91ec",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "0f5e5017",
+		type: "item",
+		item: "aquaculture:loot 1 5"
 	}]
 }

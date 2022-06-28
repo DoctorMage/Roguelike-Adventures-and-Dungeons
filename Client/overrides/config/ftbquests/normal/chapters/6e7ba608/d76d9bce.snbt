@@ -10,5 +10,15 @@
 		items: [{
 			item: "tropicraft:sifter"
 		}]
+	}],
+	rewards: [{
+		uid: "12f91509",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
 	}]
 }

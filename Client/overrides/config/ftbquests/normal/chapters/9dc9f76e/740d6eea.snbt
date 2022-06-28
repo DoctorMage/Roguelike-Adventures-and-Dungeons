@@ -4,7 +4,7 @@
 	y: -18.0d,
 	description: "This one sounded better in my head",
 	text: [
-		"This item will permanently apply a potion effect when combined with an appropriate potion.",
+		"This item will permanently apply a potion effect at the cost of experience when combined with an appropriate potion.",
 		"",
 		"Must be equipped to be active.",
 		"",

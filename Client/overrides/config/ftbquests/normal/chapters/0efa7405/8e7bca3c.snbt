@@ -11,5 +11,15 @@
 		items: [{
 			item: "thaumcraft:recharge_pedestal"
 		}]
+	}],
+	rewards: [{
+		uid: "29538faf",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "bed73fff",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }
