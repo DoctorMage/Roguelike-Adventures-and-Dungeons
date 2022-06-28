@@ -1,8 +1,11 @@
 {
-	title: "A Big Block Of Crusties",
+	title: "A Big Block of Crusties",
 	x: 14.5d,
 	y: -5.0d,
 	description: "I dare you to lick it",
+	text: [
+		""
+	],
 	dependencies: [
 		"719a8eaa"
 	],

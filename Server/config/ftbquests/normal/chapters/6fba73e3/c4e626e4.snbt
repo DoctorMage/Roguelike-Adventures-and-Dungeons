@@ -1,11 +1,10 @@
 {
-	title: "Eye Spy With My Salamander Eye",
+	title: "Eye Spy with My Salamander Eye",
 	x: -3.0d,
 	y: -5.5d,
 	description: "Something that isn't on fire!",
 	text: [
-		"In a place like this, that's insane.",
-		""
+		"In a place like this, that's insane."
 	],
 	tasks: [{
 		uid: "0a441688",

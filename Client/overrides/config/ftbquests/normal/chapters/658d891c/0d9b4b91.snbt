@@ -1,8 +1,11 @@
 {
-	title: "I Feel Like A Fairy",
+	title: "I Feel Like a Fairy",
 	x: 27.0d,
 	y: -0.5d,
 	description: "Was that ''politically incorrect''?",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "1e4c4590",
 		type: "item",

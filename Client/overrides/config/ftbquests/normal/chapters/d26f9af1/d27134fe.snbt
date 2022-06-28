@@ -1,5 +1,5 @@
 {
-	title: "I'm Really Resonating With You",
+	title: "I'm Really Resonating with You",
 	x: 1.5d,
 	y: -11.0d,
 	description: "Like, your vibe is just, good",
@@ -8,9 +8,7 @@
 		"",
 		"Oh lord, sorry, I'm such a Capri Sun.",
 		"",
-		"The Redstone Resonating Crystal is used as a core for many of the machines in Extra Utilities 2.",
-		"",
-		""
+		"The Redstone Resonating Crystal is used as a core for many of the machines in Extra Utilities 2."
 	],
 	dependencies: [
 		"80f9d45b"

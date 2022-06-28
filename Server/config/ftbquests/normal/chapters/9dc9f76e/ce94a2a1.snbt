@@ -1,7 +1,10 @@
 {
-	title: "Buy A Silver Coin",
+	title: "Buy a Silver Coin",
 	x: -21.0d,
 	y: -5.0d,
+	text: [
+		""
+	],
 	can_repeat: true,
 	tasks: [{
 		uid: "a06a484b",

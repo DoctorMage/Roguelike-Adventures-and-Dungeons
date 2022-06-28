@@ -1,8 +1,11 @@
 {
-	title: "Cold As A Coward",
+	title: "Cold as a Coward",
 	x: 6.0d,
 	y: 4.0d,
 	description: "Running away doesn't get you any Dragon Hearts!",
+	text: [
+		""
+	],
 	dependencies: [
 		"ecbc2d9f"
 	],
