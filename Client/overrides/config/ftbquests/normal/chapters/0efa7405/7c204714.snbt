@@ -19,5 +19,15 @@
 		items: [{
 			item: "thaumcraft:crucible"
 		}]
+	}],
+	rewards: [{
+		uid: "430647a5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "primary_vis_crystals"
+			}
+		}
 	}]
 }

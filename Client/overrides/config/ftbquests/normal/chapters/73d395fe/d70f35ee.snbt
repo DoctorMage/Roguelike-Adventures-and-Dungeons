@@ -17,5 +17,20 @@
 		items: [{
 			item: "midnight:bladeshroom_spores"
 		}]
+	}],
+	rewards: [{
+		uid: "286162c0",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	},
+	{
+		uid: "d637592a",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "39cce438",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }

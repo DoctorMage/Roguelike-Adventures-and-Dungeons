@@ -10,5 +10,25 @@
 		items: [{
 			item: "thaumcraft:vis_generator"
 		}]
+	}],
+	rewards: [{
+		uid: "ee2374be",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "1e8d4da5",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "28aec25d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
 	}]
 }

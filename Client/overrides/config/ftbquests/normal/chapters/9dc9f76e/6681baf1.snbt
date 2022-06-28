@@ -25,5 +25,10 @@
 		uid: "0616f076",
 		type: "checkmark",
 		title: "Ready to roll!"
+	}],
+	rewards: [{
+		uid: "ea40f0d8",
+		type: "choice",
+		table: 47
 	}]
 }

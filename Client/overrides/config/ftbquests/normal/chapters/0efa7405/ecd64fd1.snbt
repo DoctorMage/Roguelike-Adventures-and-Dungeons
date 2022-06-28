@@ -10,5 +10,15 @@
 		items: [{
 			item: "thaumicaugmentation:glass_tube"
 		}]
+	}],
+	rewards: [{
+		uid: "317e358b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
 	}]
 }

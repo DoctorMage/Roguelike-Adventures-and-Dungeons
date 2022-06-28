@@ -11,5 +11,15 @@
 		items: [{
 			item: "thaumcraft:lamp_arcane"
 		}]
+	}],
+	rewards: [{
+		uid: "2b9306d7",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "a9e62e1c",
+		type: "ftbmoney:money",
+		ftb_money: 20L
 	}]
 }

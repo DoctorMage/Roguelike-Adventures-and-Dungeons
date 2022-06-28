@@ -7,7 +7,8 @@
 		items: [{
 			item: "harvestcraft:cranberryitem"
 		}],
-		count: 500L
+		count: 500L,
+		consume_items: true
 	}],
 	rewards: [{
 		uid: "6332cb3e",

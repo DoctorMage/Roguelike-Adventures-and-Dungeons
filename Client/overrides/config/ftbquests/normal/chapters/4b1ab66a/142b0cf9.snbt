@@ -7,7 +7,8 @@
 		items: [{
 			item: "harvestcraft:elderberryitem"
 		}],
-		count: 500L
+		count: 500L,
+		consume_items: true
 	}],
 	rewards: [{
 		uid: "e91765f5",

@@ -31,5 +31,25 @@
 		items: [{
 			item: "midnight:bloomcrystal"
 		}]
+	}],
+	rewards: [{
+		uid: "6c4ef761",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "58c804ba",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "205c5abd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }

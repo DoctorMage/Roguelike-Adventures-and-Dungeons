@@ -10,5 +10,25 @@
 		items: [{
 			item: "thaumcraft:centrifuge"
 		}]
+	}],
+	rewards: [{
+		uid: "7f7807cb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "2df3d618",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "bd535268",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

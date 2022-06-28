@@ -18,5 +18,15 @@
 		items: [{
 			item: "thaumcraft:pedestal_arcane"
 		}]
+	}],
+	rewards: [{
+		uid: "99a8bab2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "primary_vis_crystals"
+			}
+		}
 	}]
 }

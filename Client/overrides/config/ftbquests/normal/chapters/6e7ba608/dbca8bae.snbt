@@ -47,5 +47,15 @@
 			item: "comforts:hammock"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c81ed9ef",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
 	}]
 }

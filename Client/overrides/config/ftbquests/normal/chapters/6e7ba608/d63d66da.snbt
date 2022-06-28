@@ -57,5 +57,25 @@
 		items: [{
 			item: "tropicraft:nori_toasted"
 		}]
+	}],
+	rewards: [{
+		uid: "42a5a0fb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "89eaf125",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "9b5ddc8d",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

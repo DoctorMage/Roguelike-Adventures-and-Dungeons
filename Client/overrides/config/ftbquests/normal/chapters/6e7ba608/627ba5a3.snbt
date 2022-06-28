@@ -24,10 +24,30 @@
 		}]
 	},
 	{
-		uid: "f4d74d3a",
+		uid: "b3ae7a75",
 		type: "item",
 		items: [{
-			item: "tropicraft:bongo"
+			item: "tropicraft:bongo 1 2"
 		}]
+	}],
+	rewards: [{
+		uid: "67c19923",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "3d47752b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "1fa8dea1",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

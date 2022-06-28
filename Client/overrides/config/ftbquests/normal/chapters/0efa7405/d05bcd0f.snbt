@@ -17,5 +17,25 @@
 		items: [{
 			item: "thaumcraft:pedestal_ancient"
 		}]
+	}],
+	rewards: [{
+		uid: "d7cce515",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "c5e86cb0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "4396afea",
+		type: "xp_levels",
+		xp_levels: 2
 	}]
 }

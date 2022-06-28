@@ -10,5 +10,15 @@
 		items: [{
 			item: "tropicraft:zircon"
 		}]
+	}],
+	rewards: [{
+		uid: "6f078bc3",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "44556561",
+		type: "xp",
+		xp: 100
 	}]
 }

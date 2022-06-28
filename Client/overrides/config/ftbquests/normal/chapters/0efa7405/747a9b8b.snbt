@@ -11,5 +11,20 @@
 		items: [{
 			item: "thaumcraft:arcane_workbench_charger"
 		}]
+	}],
+	rewards: [{
+		uid: "0c76b162",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "d768182d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "primary_vis_crystals"
+			}
+		}
 	}]
 }

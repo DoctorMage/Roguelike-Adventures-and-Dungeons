@@ -18,5 +18,20 @@
 		items: [{
 			item: "thaumcraft:candle_white"
 		}]
+	}],
+	rewards: [{
+		uid: "c10cd8be",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "9560ebe7",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "e7c37a7d",
+		type: "item",
+		item: "aquaculture:loot 1 5"
 	}]
 }

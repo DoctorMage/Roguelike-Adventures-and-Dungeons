@@ -52,5 +52,20 @@
 		items: [{
 			item: "thaumcraft:cluster 1 6"
 		}]
+	}],
+	rewards: [{
+		uid: "94d9a7e9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "primary_vis_crystals"
+			}
+		}
+	},
+	{
+		uid: "1a7ecb6f",
+		type: "xp",
+		xp: 100
 	}]
 }

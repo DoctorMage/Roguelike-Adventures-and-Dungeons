@@ -11,5 +11,25 @@
 			item: "midnight:spore_bomb 1 1"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "451fe788",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "9074d801",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "66687f9e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }

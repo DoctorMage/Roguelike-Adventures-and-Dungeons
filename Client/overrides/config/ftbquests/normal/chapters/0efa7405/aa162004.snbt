@@ -34,5 +34,25 @@
 		items: [{
 			item: "thaumcraft:salis_mundus"
 		}]
+	}],
+	rewards: [{
+		uid: "4e05bbd2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "thaumcraft_modbox"
+			}
+		}
+	},
+	{
+		uid: "c882445a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "030bb750",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

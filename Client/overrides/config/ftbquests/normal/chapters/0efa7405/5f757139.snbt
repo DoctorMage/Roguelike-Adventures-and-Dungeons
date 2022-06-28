@@ -10,5 +10,15 @@
 		items: [{
 			item: "thaumcraft:lamp_growth"
 		}]
+	}],
+	rewards: [{
+		uid: "eac404bb",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "941d1c29",
+		type: "ftbmoney:money",
+		ftb_money: 20L
 	}]
 }

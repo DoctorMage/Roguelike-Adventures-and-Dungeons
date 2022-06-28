@@ -20,7 +20,8 @@
 				}
 			}
 		}],
-		ignore_damage: true
+		ignore_damage: true,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "7e5697ea",

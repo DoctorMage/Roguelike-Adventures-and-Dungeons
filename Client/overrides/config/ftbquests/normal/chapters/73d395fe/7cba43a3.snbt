@@ -171,5 +171,25 @@
 		items: [{
 			item: "midnight:double_bogshroom"
 		}]
+	}],
+	rewards: [{
+		uid: "1f153264",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "2f53f127",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "31f7c88a",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

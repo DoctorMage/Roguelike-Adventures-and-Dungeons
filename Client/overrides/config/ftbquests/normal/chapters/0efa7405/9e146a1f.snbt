@@ -11,5 +11,15 @@
 		items: [{
 			item: "thaumcraft:redstone_relay"
 		}]
+	}],
+	rewards: [{
+		uid: "c17721bb",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "8837f888",
+		type: "ftbmoney:money",
+		ftb_money: 20L
 	}]
 }

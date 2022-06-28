@@ -15,5 +15,10 @@
 		items: [{
 			item: "tropicraft:drink_mixer"
 		}]
+	}],
+	rewards: [{
+		uid: "47ea54fe",
+		type: "item",
+		item: "aquaculture:loot 1 6"
 	}]
 }

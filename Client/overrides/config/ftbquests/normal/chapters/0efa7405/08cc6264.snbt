@@ -17,5 +17,25 @@
 		items: [{
 			item: "thaumcraft:smelter_vent"
 		}]
+	}],
+	rewards: [{
+		uid: "b62c0d1a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "e8dcb9c6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "13c26271",
+		type: "xp",
+		xp: 100
 	}]
 }

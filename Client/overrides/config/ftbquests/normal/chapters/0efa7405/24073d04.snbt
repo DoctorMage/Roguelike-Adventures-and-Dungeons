@@ -11,5 +11,15 @@
 		items: [{
 			item: "thaumcraft:stone_arcane"
 		}]
+	}],
+	rewards: [{
+		uid: "7f5600fe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "primary_vis_crystals"
+			}
+		}
 	}]
 }

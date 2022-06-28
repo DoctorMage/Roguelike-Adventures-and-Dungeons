@@ -4,6 +4,7 @@
 	dependencies: [
 		"9e943e03"
 	],
+	or_tasks: true,
 	tasks: [{
 		uid: "a8d5eb88",
 		type: "item",
@@ -27,5 +28,25 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "88b56225",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "12ee6b73",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b2215095",
+		type: "xp_levels",
+		xp_levels: 2
 	}]
 }

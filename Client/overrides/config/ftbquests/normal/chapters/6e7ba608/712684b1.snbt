@@ -52,5 +52,25 @@
 		items: [{
 			item: "tropicraft:shell 1 5"
 		}]
+	}],
+	rewards: [{
+		uid: "47398bf7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "7d318577",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "cd371fb9",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

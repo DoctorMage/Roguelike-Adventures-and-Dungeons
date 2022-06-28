@@ -59,5 +59,25 @@
 		items: [{
 			item: "tropicraft:coral 1 6"
 		}]
+	}],
+	rewards: [{
+		uid: "9aa70ea7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "1709783b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "bfb06f74",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

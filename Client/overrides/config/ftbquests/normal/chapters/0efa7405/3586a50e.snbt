@@ -12,5 +12,20 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2dc125b8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "primary_vis_crystals"
+			}
+		}
+	},
+	{
+		uid: "be11af56",
+		type: "xp_levels",
+		xp_levels: 1
 	}]
 }

@@ -10,5 +10,25 @@
 		items: [{
 			item: "thaumcraft:smelter_thaumium"
 		}]
+	}],
+	rewards: [{
+		uid: "0d23596d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "bf17d7ee",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "507202cb",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

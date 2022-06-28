@@ -7,6 +7,7 @@
 		"Mama told you don't touch the stove tops!"
 	],
 	dependencies: [
+		"8c0c1a31",
 		"9241da7a"
 	],
 	tasks: [{
@@ -39,5 +40,10 @@
 		uid: "1d462f2b",
 		type: "xp_levels",
 		xp_levels: 15
+	},
+	{
+		uid: "2625f864",
+		type: "item",
+		item: "aquaculture:loot 1 5"
 	}]
 }

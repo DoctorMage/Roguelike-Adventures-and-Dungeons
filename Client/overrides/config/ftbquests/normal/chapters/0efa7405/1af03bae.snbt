@@ -20,5 +20,25 @@
 		items: [{
 			item: "thaumcraft:arcane_workbench"
 		}]
+	}],
+	rewards: [{
+		uid: "5ab63a23",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "6a3a13dc",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "aebd4ab2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "elemental_crystal_loot_table_wizardry_"
+			}
+		}
 	}]
 }

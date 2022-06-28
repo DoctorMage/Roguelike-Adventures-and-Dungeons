@@ -10,5 +10,20 @@
 		items: [{
 			item: "thaumcraft:bellows"
 		}]
+	}],
+	rewards: [{
+		uid: "76eaf9c3",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "7f8abcb3",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "56b727c6",
+		type: "item",
+		item: "aquaculture:loot 1 5"
 	}]
 }

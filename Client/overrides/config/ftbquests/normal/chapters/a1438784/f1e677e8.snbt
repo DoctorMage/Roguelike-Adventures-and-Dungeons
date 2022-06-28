@@ -1,7 +1,7 @@
 {
 	title: "My Birthstone Is Pearl",
-	x: 6.75d,
-	y: 2.25d,
+	x: 7.0d,
+	y: 2.0d,
 	description: "So lame...",
 	text: [
 		"Is that even a stone?!"

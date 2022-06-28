@@ -11,5 +11,25 @@
 		items: [{
 			item: "thaumcraft:dioptra"
 		}]
+	}],
+	rewards: [{
+		uid: "545b0077",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "95f2cc01",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "4a817da8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
 	}]
 }

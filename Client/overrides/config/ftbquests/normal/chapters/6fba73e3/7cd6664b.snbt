@@ -161,33 +161,6 @@
 			}
 		}],
 		ignore_nbt: 2b
-	},
-	{
-		uid: "9ef647b5",
-		type: "item",
-		items: [{
-			id: "xreliquary:mob_charm_belt",
-			tag: {
-				Quality: {
-					Slots: [
-						"baubles_trinket",
-						"offhand"
-					],
-					Color: "blue",
-					AttributeModifiers: [{
-						UUIDMost: 9070113553987095871L,
-						UUIDLeast: -4837767256146256871L,
-						Amount: 2.0d,
-						AttributeName: "generic.maxHealth",
-						Operation: 0,
-						Name: "qualitytools"
-					}],
-					Name: "quality.healthy.name"
-				}
-			}
-		}],
-		ignore_damage: true,
-		ignore_nbt: 2b
 	}],
 	rewards: [{
 		uid: "de9740f4",

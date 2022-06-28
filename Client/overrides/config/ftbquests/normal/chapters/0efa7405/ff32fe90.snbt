@@ -46,5 +46,15 @@
 		items: [{
 			item: "thaumcraft:research_table"
 		}]
+	}],
+	rewards: [{
+		uid: "963655a4",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c480a8be",
+		type: "item",
+		item: "aquaculture:loot 1 5"
 	}]
 }

@@ -18,5 +18,25 @@
 		items: [{
 			item: "thaumcraft:inlay"
 		}]
+	}],
+	rewards: [{
+		uid: "757b10dd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "0c4d1b62",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5c656bcf",
+		type: "xp_levels",
+		xp_levels: 2
 	}]
 }

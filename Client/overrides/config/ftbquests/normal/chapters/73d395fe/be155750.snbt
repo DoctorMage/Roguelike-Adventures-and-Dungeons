@@ -11,5 +11,15 @@
 		items: [{
 			item: "midnight:shadowroot_log"
 		}]
+	}],
+	rewards: [{
+		uid: "f7ab3fef",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "e24f5998",
+		type: "xp",
+		xp: 100
 	}]
 }

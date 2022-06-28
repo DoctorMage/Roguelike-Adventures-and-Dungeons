@@ -11,5 +11,15 @@
 		items: [{
 			item: "midnight:nightstone"
 		}]
+	}],
+	rewards: [{
+		uid: "44d8da93",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "b9ba93f2",
+		type: "item",
+		item: "aquaculture:loot 1 5"
 	}]
 }
