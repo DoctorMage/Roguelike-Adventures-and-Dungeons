@@ -1,10 +1,12 @@
 {
 	title: "Annual Grape Crushing Contest",
-	x: 8.5d,
-	y: 2.5d,
+	x: 0.5d,
+	y: 3.5d,
 	description: "I think you might get first place!",
 	text: [
-		"Will only accept items from the Rustic mod."
+		"The Crushing Tub will only accept items from the Rustic mod. ",
+		"",
+		"You cannot crush random stuff in the Crushing Tub. Sorry!"
 	],
 	dependencies: [
 		"ecd0a29d"

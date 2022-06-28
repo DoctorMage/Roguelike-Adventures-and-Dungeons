@@ -1,0 +1,114 @@
+{
+	title: "Crimson Altar",
+	x: 18.0d,
+	y: -17.5d,
+	description: "Thaumcraft 6",
+	text: [
+		"LxWxH: 21x21x9",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: An infusion altar in Crimson red. ",
+		"",
+		"NOTE:",
+		"",
+		"- 6 Arcane Pedestals required to replace Cyan Wool blocks."
+	],
+	tasks: [{
+		uid: "def253d4",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "9c83b67e",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Crimson Altar",
+				UUID: "c8c63df0-9a00-44f1-970f-8ee29622c88f",
+				startPos: {
+					X: 280,
+					Y: 4,
+					Z: -125
+				},
+				itemcountmap: [{
+					item: 2,
+					meta: 0,
+					count: 56
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 7
+				},
+				{
+					item: 6114,
+					meta: 4,
+					count: 100
+				},
+				{
+					item: 5543,
+					meta: 10,
+					count: 164
+				},
+				{
+					item: 5245,
+					meta: 0,
+					count: 186
+				},
+				{
+					item: 5583,
+					meta: 12,
+					count: 15
+				},
+				{
+					item: 5645,
+					meta: 6,
+					count: 5
+				},
+				{
+					item: 35,
+					meta: 9,
+					count: 8
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5257,
+					meta: 0,
+					count: 100
+				},
+				{
+					item: 4497,
+					meta: 7,
+					count: 2
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5254,
+					meta: 0,
+					count: 119
+				},
+				{
+					item: 215,
+					meta: 0,
+					count: 281
+				}],
+				endPos: {
+					X: 300,
+					Y: 12,
+					Z: -105
+				}
+			}
+		}
+	}]
+}

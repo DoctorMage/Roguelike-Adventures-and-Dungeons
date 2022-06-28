@@ -1,0 +1,56 @@
+{
+	title: "Infused Stone",
+	x: 6.0d,
+	y: -1.5d,
+	dependencies: [
+		"d61d7f87"
+	],
+	tasks: [{
+		uid: "60fe8b6a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:matrix_speed"
+		}]
+	},
+	{
+		uid: "890f4bc6",
+		type: "item",
+		items: [{
+			item: "thaumcraft:matrix_cost"
+		}]
+	},
+	{
+		uid: "46c53066",
+		type: "item",
+		items: [{
+			item: "thaumcraft:paving_stone_travel"
+		}]
+	},
+	{
+		uid: "fc1ec1b4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:paving_stone_barrier"
+		}]
+	}],
+	rewards: [{
+		uid: "608b0c25",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "1149c335",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "846424c7",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

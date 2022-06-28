@@ -1,0 +1,52 @@
+{
+	x: 6.5d,
+	y: -4.5d,
+	dependencies: [
+		"9e943e03"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "a8d5eb88",
+		type: "item",
+		items: [{
+			id: "thaumcraft:verdant_charm",
+			tag: {
+				type: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "05d2a816",
+		type: "item",
+		items: [{
+			id: "thaumcraft:verdant_charm",
+			tag: {
+				type: 2b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "88b56225",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "12ee6b73",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b2215095",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:barleyitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "31439b1b",

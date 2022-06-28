@@ -1,0 +1,138 @@
+{
+	title: "Ice/Fire Modbox",
+	icon: {
+		id: "iceandfire:armor_silver_metal_helmet",
+		tag: {
+			Quality: {}
+		}
+	},
+	loot_size: 50,
+	rewards: [{
+		item: {
+			id: "iceandfire:armor_silver_metal_helmet",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "iceandfire:armor_silver_metal_chestplate",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "iceandfire:armor_silver_metal_leggings",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "iceandfire:armor_silver_metal_boots",
+			tag: {
+				Quality: {
+					Slots: [
+						"feet"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 6154678230217868983L,
+						UUIDLeast: -8823725504686288028L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.protective.name"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "spartanweaponry:lance_silver",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "iceandfire:silver_pickaxe",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "iceandfire:silver_axe",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "iceandfire:silver_shovel",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: "iceandfire:fishing_spear",
+		only_one: true
+	},
+	{
+		item: "minecraft:cooked_cod",
+		count: 32,
+		only_one: true
+	},
+	{
+		item: "iceandfire:sapphire_gem",
+		count: 12,
+		only_one: true
+	},
+	{
+		item: "iceandfire:manuscript",
+		count: 8,
+		only_one: true
+	},
+	{
+		item: "iceandfire:iron_hippogryph_armor",
+		only_one: true
+	},
+	{
+		item: {
+			id: "spartanshields:shield_tower_iron",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "ice_fire_modbox",
+		item_name: "Crate of Dragon Knight Armaments",
+		color: 11119017,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

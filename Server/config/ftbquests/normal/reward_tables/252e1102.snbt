@@ -1,0 +1,57 @@
+{
+	title: "Embers Modbox",
+	icon: "embers:ember_cluster",
+	loot_size: 30,
+	rewards: [{
+		item: {
+			id: "embers:tinker_hammer",
+			tag: {}
+		},
+		only_one: true
+	},
+	{
+		item: "embers:tinker_lens",
+		only_one: true
+	},
+	{
+		item: "embers:ember_detector",
+		only_one: true
+	},
+	{
+		item: "embers:ancient_motive_core",
+		only_one: true
+	},
+	{
+		item: "embers:archaic_brick",
+		count: 12,
+		only_one: true
+	},
+	{
+		item: "embers:brick_caminite",
+		count: 64,
+		only_one: true
+	},
+	{
+		item: "minecraft:coal",
+		count: 64,
+		only_one: true
+	},
+	{
+		item: "embers:ember_bore",
+		only_one: true
+	},
+	{
+		item: "embers:codex",
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "embers_modbox",
+		item_name: "Embers Engineering Supply Crate",
+		color: 13391104,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

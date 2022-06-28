@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:beetitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "e1b773cc",

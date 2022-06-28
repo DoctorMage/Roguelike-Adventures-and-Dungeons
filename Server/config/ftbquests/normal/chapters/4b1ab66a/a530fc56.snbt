@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:celeryitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "e4809ffc",

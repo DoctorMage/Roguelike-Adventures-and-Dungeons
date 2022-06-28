@@ -7,6 +7,16 @@
 		items: [{
 			item: "harvestcraft:cantaloupeitem"
 		}],
-		count: 64L
+		count: 500L
+	}],
+	rewards: [{
+		uid: "13f0a359",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "28d50982",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

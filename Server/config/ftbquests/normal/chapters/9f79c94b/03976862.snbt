@@ -1,0 +1,140 @@
+{
+	title: "Jungle Wizard Tower",
+	x: -15.5d,
+	y: -31.5d,
+	description: "Electroblob's Wizardry",
+	text: [
+		"LxWxH: 23x41x44",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A jungle and stone brick wizard tower accompanied with an L shaped building. Two huge rooms and two small rooms inside."
+	],
+	tasks: [{
+		uid: "22abe896",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "4e3bcaae",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Jungle Wizard Tower",
+				UUID: "c7b5bd82-d642-4e3d-857d-6b0c2608d8d8",
+				startPos: {
+					X: 385,
+					Y: 5,
+					Z: -91
+				},
+				itemcountmap: [{
+					item: 50,
+					meta: 0,
+					count: 39
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 561
+				},
+				{
+					item: 70,
+					meta: 0,
+					count: 2
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 6114,
+					meta: 5,
+					count: 528
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 284
+				},
+				{
+					item: 5622,
+					meta: 0,
+					count: 815
+				},
+				{
+					item: 17,
+					meta: 3,
+					count: 142
+				},
+				{
+					item: 5645,
+					meta: 9,
+					count: 40
+				},
+				{
+					item: 7721,
+					meta: 5,
+					count: 1
+				},
+				{
+					item: 6224,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 136,
+					meta: 0,
+					count: 34
+				},
+				{
+					item: 5643,
+					meta: 11,
+					count: 397
+				},
+				{
+					item: 4497,
+					meta: 0,
+					count: 5
+				},
+				{
+					item: 6069,
+					meta: 0,
+					count: 64
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 250
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5548,
+					meta: 3,
+					count: 166
+				},
+				{
+					item: 126,
+					meta: 3,
+					count: 2
+				}],
+				endPos: {
+					X: 357,
+					Y: 55,
+					Z: -119
+				}
+			}
+		}
+	}]
+}

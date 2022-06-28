@@ -1,7 +1,7 @@
 {
-	title: "Crate of Random Spectral Dust",
+	title: "Spectral Dust Table",
 	icon: "ebwizardry:spectral_dust 1 2",
-	loot_size: 1,
+	loot_size: 3,
 	rewards: [{
 		item: "ebwizardry:spectral_dust 1 1",
 		random_bonus: 3

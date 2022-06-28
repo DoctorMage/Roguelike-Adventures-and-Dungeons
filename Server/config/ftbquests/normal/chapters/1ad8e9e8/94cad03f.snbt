@@ -1,5 +1,5 @@
 {
-	title: "Are You Talking To Your Shield Man?",
+	title: "Are You Talking To Your Shield, Man?",
 	x: -11.5d,
 	y: 6.0d,
 	description: "Well yea, he talks back to me?",
@@ -33,15 +33,5 @@
 		uid: "4809c464",
 		type: "xp_levels",
 		xp_levels: 5
-	},
-	{
-		uid: "3f0a387a",
-		type: "item",
-		item: "aquaculture:loot 1 5"
-	},
-	{
-		uid: "aceae34a",
-		type: "item",
-		item: "aquaculture:loot 1 6"
 	}]
 }

@@ -1,6 +1,11 @@
 {
+	title: "Abominable Snowman",
 	x: 25.5d,
 	y: -1.0d,
+	description: "He has snowcones",
+	text: [
+		"Obtain a set of Frost Troll Armor."
+	],
 	tasks: [{
 		uid: "3041926f",
 		type: "item",

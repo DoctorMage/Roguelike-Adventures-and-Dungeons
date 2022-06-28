@@ -6,11 +6,11 @@
 	text: [
 		"Simulacrums can grant certain blessings when offerings are left at Offering Tables near the Simulacrum.",
 		"",
-		"Simulacrums must be broken and placed again for the affect to activate.",
+		"Simulacrums must be broken and placed again for the effect to activate.",
 		"",
 		"They can be found rarely while exploring the Betweenlands.",
 		"",
-		"Only one required."
+		"Obtain one Simulacrum."
 	],
 	dependencies: [
 		"35775c9b"

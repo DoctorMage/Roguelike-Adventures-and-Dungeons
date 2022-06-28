@@ -4,7 +4,9 @@
 	y: 7.5d,
 	description: "Good boy!",
 	text: [
-		"Right-click a trained, Doggy Talents doggy with a stick to access the training menu. Here you can spend training points on attitributes for your doggy! Good boy!"
+		"Right-Click your Doggytalents doggy to open up the attributes menu; there, you can allot stats and skill points to your doggy companion.",
+		"",
+		"To start, feed your dog a Training Treat!"
 	],
 	size: 2.0d,
 	tasks: [{

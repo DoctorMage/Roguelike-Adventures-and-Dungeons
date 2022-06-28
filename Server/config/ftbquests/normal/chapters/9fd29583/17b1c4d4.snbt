@@ -4,7 +4,9 @@
 	y: -8.0d,
 	description: "I'm interested in your religion",
 	text: [
-		"Craft the Offering Altar and two gems, to get you there and back."
+		"Craft the Offering Altar and two gems, to get you there and back.",
+		"",
+		"To craft the buggers... you'll need Obsidian, Diamonds and Emeralds."
 	],
 	tasks: [{
 		uid: "4805ed4e",
@@ -22,13 +24,13 @@
 		count: 2L
 	}],
 	rewards: [{
-		uid: "828360d0",
-		type: "item",
-		item: "aquaculture:loot 1 5"
+		uid: "cdf1b396",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	},
 	{
-		uid: "656ef91d",
-		type: "item",
-		item: "aquaculture:loot 1 5"
+		uid: "f7350eb5",
+		type: "xp_levels",
+		xp_levels: 10
 	}]
 }

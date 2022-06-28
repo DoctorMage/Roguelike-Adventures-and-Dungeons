@@ -1,0 +1,36 @@
+{
+	title: "Hippogryph Eggs",
+	icon: "iceandfire:hippogryph_egg 1 4",
+	loot_size: 1,
+	rewards: [{
+		item: "iceandfire:hippogryph_egg"
+	},
+	{
+		item: "iceandfire:hippogryph_egg 1 1"
+	},
+	{
+		item: "iceandfire:hippogryph_egg 1 2"
+	},
+	{
+		item: "iceandfire:hippogryph_egg 1 3"
+	},
+	{
+		item: "iceandfire:hippogryph_egg 1 4"
+	},
+	{
+		item: "iceandfire:hippogryph_egg 1 5"
+	},
+	{
+		item: "iceandfire:hippogryph_egg 1 6"
+	}],
+	loot_crate: {
+		string_id: "hippogryph_eggs",
+		item_name: "Box of Hippogryph Eggs",
+		color: 12433817,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

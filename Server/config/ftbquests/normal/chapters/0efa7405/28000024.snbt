@@ -1,0 +1,42 @@
+{
+	title: "Basically The Bible",
+	x: -1.5d,
+	y: -9.0d,
+	description: "Atleast in this modpack, it is",
+	text: [
+		"This book guide you through the mod. Thaumcraft does a very good job of explaining and detailing instructions and how to do this to players.",
+		"",
+		"Though at times you may have to use your brain a bit, this book has everything you need to know, and you can access it by clicking around inside the GUI when you open it. Click on everything. You might open some new information!",
+		"",
+		"This book is similar to the FTB Questbook. You must complete objectives before you can move on with unlocking more content while exploring Thaumcraft.",
+		"",
+		"Read all new info CAREFULLY. Some info is only available one time, and pages may change after hitting \"Complete\"."
+	],
+	dependencies: [
+		"f40f0022"
+	],
+	size: 5.0d,
+	tasks: [{
+		uid: "8153cf50",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "58c863e1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "primary_vis_crystals"
+			}
+		}
+	},
+	{
+		uid: "577847a8",
+		type: "xp",
+		xp: 100
+	}]
+}

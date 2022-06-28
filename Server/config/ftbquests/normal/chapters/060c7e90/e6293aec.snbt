@@ -36,13 +36,8 @@
 		xp_levels: 5
 	},
 	{
-		uid: "a76f506e",
+		uid: "f7a1b8cb",
 		type: "item",
-		item: "ancientspellcraft:stone_tablet"
-	},
-	{
-		uid: "fc2ebacf",
-		type: "item",
-		item: "aquaculture:loot 1 5"
+		item: "ancientspellcraft:stone_tablet_large"
 	}]
 }

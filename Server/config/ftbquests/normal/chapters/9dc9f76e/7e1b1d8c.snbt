@@ -1,14 +1,14 @@
 {
-	title: "A Certain Game I Know Has Nothing On Us Now!",
+	title: "A Certain Game I Know Has Nothing on Us Now!",
 	x: 0.5d,
 	y: -1.5d,
 	description: "Feather Falling is for chumps!",
 	text: [
-		"There's a handful of different versions. They all function a little differently, if not being direct upgrades",
+		"These Hooks will have you feeling like Tarzan! There are several different kinds!",
 		"",
-		"Only one hook required to complete the quest.",
+		"Only one Hook required to complete the quest.",
 		"",
-		"Plant Fibre must be created with a vanilla sword. Modded sword additions do not work for the recipe. The sword is not consumed in the recipe."
+		"Plant Fibre must be created with a Vanilla sword. Modded sword additions do not work for the recipe. The sword is not consumed in the recipe."
 	],
 	dependencies: [
 		"b325bb25"

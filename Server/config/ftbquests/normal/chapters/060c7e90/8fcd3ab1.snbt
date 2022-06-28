@@ -86,12 +86,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "30eeed5d",
-		type: "random",
-		title: "Random Necromancy Wizard Artefact",
-		table: 15
-	},
-	{
 		uid: "fe119cff",
 		type: "ftbmoney:money",
 		ftb_money: 100L

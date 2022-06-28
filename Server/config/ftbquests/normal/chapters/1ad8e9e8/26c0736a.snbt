@@ -62,10 +62,5 @@
 		type: "item",
 		item: "thebetweenlands:druid_stone_6",
 		count: 64
-	},
-	{
-		uid: "fd1f72d7",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

@@ -1,6 +1,6 @@
 {
-	x: 15.5d,
-	y: 1.0d,
+	x: 16.0d,
+	y: 2.0d,
 	can_repeat: true,
 	tasks: [{
 		uid: "aefbe8b3",
@@ -16,8 +16,18 @@
 		ftb_money: 100L
 	},
 	{
-		uid: "08133db5",
+		uid: "aa31f528",
 		type: "xp_levels",
-		xp_levels: 1
+		xp_levels: 15
+	},
+	{
+		uid: "b4830750",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
 	}]
 }

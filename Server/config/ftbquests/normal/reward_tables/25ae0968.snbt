@@ -1,0 +1,141 @@
+{
+	title: "Common Tier Rewards",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "common_tier_rewards"
+		}
+	},
+	loot_size: 5,
+	rewards: [{
+		item: "randomthings:beans 1 2",
+		random_bonus: 1,
+		weight: 10
+	},
+	{
+		item: "ebwizardry:identification_scroll",
+		random_bonus: 2,
+		weight: 10
+	},
+	{
+		item: "thaumcraft:shimmerleaf",
+		count: 3,
+		random_bonus: 7,
+		weight: 10
+	},
+	{
+		item: "thaumcraft:cinderpearl",
+		count: 3,
+		random_bonus: 7,
+		weight: 10
+	},
+	{
+		item: "ancientspellcraft:stone_tablet_small",
+		random_bonus: 3,
+		weight: 10
+	},
+	{
+		item: "extrautils2:ingredients 1 10",
+		count: 3,
+		random_bonus: 7,
+		weight: 10
+	},
+	{
+		item: "dungeontactics:magic_powder",
+		count: 16,
+		random_bonus: 48,
+		weight: 10
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "garden_tables_pam_s_harvestcraft_"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: "mysticalagriculture:chunk",
+		count: 4,
+		random_bonus: 4,
+		weight: 10
+	},
+	{
+		item: "mysticalagriculture:chunk 1 1",
+		count: 4,
+		random_bonus: 4,
+		weight: 8
+	},
+	{
+		item: "mysticalagriculture:crafting 1 17",
+		count: 4,
+		random_bonus: 4,
+		weight: 10
+	},
+	{
+		item: "mysticalagriculture:crafting 1 18",
+		count: 4,
+		random_bonus: 4,
+		weight: 8
+	},
+	{
+		item: "dungeontactics:ducttape",
+		weight: 10
+	},
+	{
+		item: "dungeontactics:bag_quiver",
+		count: 8,
+		random_bonus: 8,
+		weight: 10
+	},
+	{
+		item: "dungeontactics:bag_potion",
+		count: 8,
+		random_bonus: 8,
+		weight: 10
+	},
+	{
+		item: "dungeontactics:bag_tool",
+		count: 8,
+		random_bonus: 8,
+		weight: 10
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "saplings_loot_table"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "elemental_shards_table"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farm_animals_table"
+			}
+		},
+		weight: 10
+	}],
+	loot_crate: {
+		string_id: "common_tier_rewards",
+		item_name: "Crate of Common Rewards",
+		color: 13878873,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

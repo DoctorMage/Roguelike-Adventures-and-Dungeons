@@ -10,6 +10,7 @@
 	tasks: [{
 		uid: "0ddeda75",
 		type: "kill",
+		icon: "minecraft:magma_cream",
 		entity: "minecraft:magma_cube",
 		value: 300L
 	}],

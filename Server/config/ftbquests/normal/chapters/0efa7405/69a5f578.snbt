@@ -1,0 +1,36 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	dependencies: [
+		"187ba0b2"
+	],
+	tasks: [{
+		uid: "00a32138",
+		type: "item",
+		items: [{
+			item: "thaumcraft:grapple_gun"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f120654a",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "4ed806e8",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "d4223f77",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	}]
+}

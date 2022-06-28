@@ -8,6 +8,9 @@
 		"",
 		"The Anchored effect will prevent the item from being dropped into a Tombstone when you die. It will stay inside your inventory instead."
 	],
+	dependencies: [
+		"4695c2a6"
+	],
 	tasks: [{
 		uid: "742c7283",
 		type: "item",

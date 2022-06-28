@@ -27,5 +27,11 @@
 		uid: "37d1a431",
 		type: "xp_levels",
 		xp_levels: 10
+	},
+	{
+		uid: "a9771e58",
+		type: "item",
+		item: "minecraft:netherrack",
+		count: 32
 	}]
 }

@@ -50,12 +50,12 @@
 		xp_levels: 15
 	},
 	{
-		uid: "1e547288",
+		uid: "3e812d1f",
 		type: "item",
 		item: "iceandfire:manuscript"
 	},
 	{
-		uid: "faa2f12e",
+		uid: "b9171997",
 		type: "item",
 		item: "aquaculture:loot 1 5"
 	}]

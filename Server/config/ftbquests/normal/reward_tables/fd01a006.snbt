@@ -1,0 +1,147 @@
+{
+	title: "Thaumcraft Modbox",
+	icon: "thaumcraft:curio 1 6",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "thaumcraft:crimson_plate_helm",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "thaumcraft:crimson_plate_chest",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "thaumcraft:crimson_plate_legs",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "thaumcraft:crimson_boots",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: "thaumcraft:curio 1 6",
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"thaumicaugmentation:elytra_harness_augment": {}
+			},
+			id: "thaumcraft:banner_crimson_cult"
+		},
+		only_one: true
+	},
+	{
+		item: "erebus:life_blood",
+		count: 32,
+		only_one: true
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			}
+		},
+		count: 16,
+		only_one: true
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			}
+		},
+		count: 16,
+		only_one: true
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			}
+		},
+		count: 16,
+		only_one: true
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			}
+		},
+		count: 16,
+		only_one: true
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			}
+		},
+		count: 16,
+		only_one: true
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			}
+		},
+		count: 16,
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "thaumcraft_modbox",
+		item_name: "Crate of Cultist Equipment",
+		color: 12990291,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

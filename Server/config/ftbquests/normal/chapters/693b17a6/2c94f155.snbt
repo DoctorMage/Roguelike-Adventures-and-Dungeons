@@ -1,0 +1,17 @@
+{
+	title: "Cheating Death III",
+	icon: "dungeontactics:candy_skull",
+	x: -16.0d,
+	y: -1.0d,
+	description: "She went silent... not good",
+	text: [
+		"Survive for 14 days."
+	],
+	tasks: [{
+		uid: "fa87d077",
+		type: "stat",
+		title: "Survive 14 days",
+		stat: "stat.timeSinceDeath",
+		value: 24192000
+	}]
+}

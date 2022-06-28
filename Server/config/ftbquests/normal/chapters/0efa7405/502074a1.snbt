@@ -1,0 +1,32 @@
+{
+	title: "Salty",
+	x: -1.5d,
+	y: -13.5d,
+	description: "Makes good soup",
+	text: [
+		"Salis Mundus is going to start your sanity meltdown.",
+		"",
+		"Have fun!"
+	],
+	dependencies: [
+		"f40f0022"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "21a20816",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "ad80bc0d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "bd1fe901",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -4,7 +4,7 @@
 	y: 10.0d,
 	description: "I'm always so low",
 	text: [
-		"This item will turn pelts and Flax into String."
+		"This item will turn Pelts and Flax into String."
 	],
 	dependencies: [
 		"b27aa160"

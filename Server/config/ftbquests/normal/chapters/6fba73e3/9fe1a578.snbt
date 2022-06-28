@@ -6,6 +6,7 @@
 	text: [
 		"Dreams, you think we won't find a way to automate stuff?"
 	],
+	or_tasks: true,
 	tasks: [{
 		uid: "2ac31f31",
 		type: "item",

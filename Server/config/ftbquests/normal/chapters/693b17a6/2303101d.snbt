@@ -1,5 +1,6 @@
 {
 	title: "Menace To Sludgeciety",
+	icon: "thebetweenlands:sludge_ball",
 	x: 4.0d,
 	y: 0.0d,
 	description: "Make him go away!",
@@ -20,6 +21,6 @@
 	{
 		uid: "1882ec00",
 		type: "xp_levels",
-		xp_levels: 50
+		xp_levels: 300
 	}]
 }

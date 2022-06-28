@@ -6,7 +6,9 @@
 	text: [
 		"Craft a Stone Pickaxe.",
 		"",
-		"It will become your most coveted tool."
+		"It will become your most coveted tool.",
+		"",
+		"Craft you Dirt House, where you may covet your tool."
 	],
 	dependencies: [
 		"16c3f3d7"
@@ -41,5 +43,17 @@
 		uid: "b40c8b2d",
 		type: "item",
 		item: "minecraft:wooden_door"
+	},
+	{
+		uid: "3ea14663",
+		type: "item",
+		item: "dungeontactics:bag_food",
+		count: 3
+	},
+	{
+		uid: "3db13eaa",
+		type: "item",
+		item: "dungeontactics:bag_quiver",
+		count: 8
 	}]
 }

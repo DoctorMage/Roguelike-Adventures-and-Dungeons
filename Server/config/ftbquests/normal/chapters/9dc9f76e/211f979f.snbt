@@ -3,6 +3,9 @@
 	x: -2.5d,
 	y: -1.5d,
 	description: "There's a little mercury, but it never hurt anyone",
+	text: [
+		"Try all the fishy foods from Aquaculture!"
+	],
 	dependencies: [
 		"c42172ba"
 	],
@@ -53,6 +56,13 @@
 		type: "item",
 		items: [{
 			item: "aquaculture:food"
+		}]
+	},
+	{
+		uid: "dca1f599",
+		type: "item",
+		items: [{
+			item: "aquaculture:food 1 8"
 		}]
 	}],
 	rewards: [{

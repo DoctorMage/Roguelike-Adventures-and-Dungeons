@@ -7,6 +7,17 @@
 		items: [{
 			item: "harvestcraft:pineappleitem"
 		}],
-		count: 64L
+		count: 500L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "29c8054c",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "84c2b718",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

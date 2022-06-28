@@ -1,0 +1,126 @@
+{
+	title: "Dark Master Statue",
+	x: 18.0d,
+	y: -26.5d,
+	description: "Electroblob's Wizardry",
+	text: [
+		"LxWxH: 22x28x46",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"",
+		"Structure Description: A slate and basalt statue of a bent over wizard supported with a Master Necromancer staff."
+	],
+	tasks: [{
+		uid: "a4428a3a",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "f1641927",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Dark Master Statue",
+				UUID: "3170c390-5dea-4232-81c7-8195ba312f63",
+				startPos: {
+					X: 362,
+					Y: 5,
+					Z: -125
+				},
+				itemcountmap: [{
+					item: 50,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 9132,
+					meta: 0,
+					count: 18
+				},
+				{
+					item: 4761,
+					meta: 0,
+					count: 713
+				},
+				{
+					item: 5435,
+					meta: 7,
+					count: 40
+				},
+				{
+					item: 5435,
+					meta: 8,
+					count: 924
+				},
+				{
+					item: 5543,
+					meta: 11,
+					count: 12
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 8
+				},
+				{
+					item: 9163,
+					meta: 1,
+					count: 12
+				},
+				{
+					item: 4765,
+					meta: 0,
+					count: 48
+				},
+				{
+					item: 5602,
+					meta: 2,
+					count: 18
+				},
+				{
+					item: 9143,
+					meta: 0,
+					count: 14
+				},
+				{
+					item: 4745,
+					meta: 0,
+					count: 32
+				},
+				{
+					item: 9172,
+					meta: 0,
+					count: 45
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5617,
+					meta: 2,
+					count: 396
+				},
+				{
+					item: 5610,
+					meta: 11,
+					count: 8
+				}],
+				endPos: {
+					X: 389,
+					Y: 50,
+					Z: -104
+				}
+			}
+		}
+	}]
+}

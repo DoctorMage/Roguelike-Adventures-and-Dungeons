@@ -36,6 +36,15 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "d77e4981",
+		type: "item",
+		items: [{
+			item: "iceandfire:silver_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "1735f1d4",
@@ -46,10 +55,5 @@
 		uid: "c9c636ba",
 		type: "xp_levels",
 		xp_levels: 5
-	},
-	{
-		uid: "1cacffd7",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

@@ -1,7 +1,7 @@
 {
 	title: "A Better, Bigger Stick!",
-	x: -1.0d,
-	y: -0.5d,
+	x: 3.0d,
+	y: 1.0d,
 	description: "This stick shoots better magic than the other one does.",
 	text: [
 		"You still just put a crystal on top of this thing...",
@@ -11,6 +11,7 @@
 	dependencies: [
 		"13570d86"
 	],
+	or_tasks: true,
 	tasks: [{
 		uid: "0180c804",
 		type: "item",
@@ -73,6 +74,15 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "113476ae",
+		type: "item",
+		items: [{
+			item: "ebwizardry:apprentice_fire_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "605b2ccd",
@@ -83,5 +93,15 @@
 		uid: "ca6f078b",
 		type: "xp_levels",
 		xp_levels: 10
+	},
+	{
+		uid: "a110586e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
 	}]
 }

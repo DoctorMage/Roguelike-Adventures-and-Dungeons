@@ -10,7 +10,18 @@
 	tasks: [{
 		uid: "058dd6e0",
 		type: "kill",
+		icon: "thebetweenlands:root",
 		entity: "thebetweenlands:wall_living_root",
 		value: 50L
+	}],
+	rewards: [{
+		uid: "b3bb9cd5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5fb46dcf",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

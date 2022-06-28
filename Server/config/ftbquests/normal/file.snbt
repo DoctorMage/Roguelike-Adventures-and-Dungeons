@@ -6,9 +6,9 @@
 	default_quest_shape: "hexagon",
 	default_quest_disable_jei: false,
 	emergency_items: [{
-		item: "minecraft:apple"
+		item: "skewers:skewer_beef_cooked"
 	}],
-	emergency_items_cooldown: "5m",
+	emergency_items_cooldown: "10m",
 	drop_loot_crates: false,
 	loot_crate_no_drop: {
 		passive: 4000,

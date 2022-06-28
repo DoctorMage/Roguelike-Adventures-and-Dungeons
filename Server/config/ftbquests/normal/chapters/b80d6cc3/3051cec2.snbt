@@ -1,0 +1,11 @@
+{
+	x: -1.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "31bd80a3",
+		type: "item",
+		items: [{
+			item: "embers:ingot_tin"
+		}]
+	}]
+}

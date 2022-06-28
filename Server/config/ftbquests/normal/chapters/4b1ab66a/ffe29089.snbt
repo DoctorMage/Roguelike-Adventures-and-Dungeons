@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:passionfruititem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "204608c3",

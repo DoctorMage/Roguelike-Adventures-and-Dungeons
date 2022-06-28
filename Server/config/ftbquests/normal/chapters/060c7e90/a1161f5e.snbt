@@ -87,12 +87,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "41ffdb05",
-		type: "choice",
-		title: "Choice Sorcerer Wizard Artefact",
-		table: 17
-	},
-	{
 		uid: "46383e00",
 		type: "ftbmoney:money",
 		ftb_money: 300L
@@ -101,10 +95,5 @@
 		uid: "11572636",
 		type: "xp_levels",
 		xp_levels: 30
-	},
-	{
-		uid: "e3bea8db",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

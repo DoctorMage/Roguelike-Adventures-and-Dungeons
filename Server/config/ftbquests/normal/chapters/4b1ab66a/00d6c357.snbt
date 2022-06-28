@@ -7,6 +7,16 @@
 		items: [{
 			item: "harvestcraft:cactusfruititem"
 		}],
-		count: 64L
+		count: 500L
+	}],
+	rewards: [{
+		uid: "22f189f6",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "e8074c9f",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

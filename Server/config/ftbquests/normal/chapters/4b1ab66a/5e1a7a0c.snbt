@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:seaweeditem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "0eb0bee5",

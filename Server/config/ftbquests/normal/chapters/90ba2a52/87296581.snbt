@@ -1,6 +1,17 @@
 {
+	title: "Skull Seller (Monsters)",
 	x: 17.0d,
 	y: -7.5d,
+	description: "Skulls here! More skulls here!",
+	text: [
+		"Sell your unwanted Monster Skulls.",
+		"",
+		"Submit ONE Monster Skull at a time to complete this quest.",
+		"",
+		"Collect the reward after each completion.",
+		"",
+		"You will not receive rewards for more than one item submission at a time."
+	],
 	can_repeat: true,
 	or_tasks: true,
 	tasks: [{
@@ -69,11 +80,21 @@
 	rewards: [{
 		uid: "d20ab3ff",
 		type: "ftbmoney:money",
-		ftb_money: 50L
+		ftb_money: 200L
 	},
 	{
 		uid: "30dd535c",
 		type: "xp_levels",
-		xp_levels: 10
+		xp_levels: 30
+	},
+	{
+		uid: "221afe94",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
 	}]
 }

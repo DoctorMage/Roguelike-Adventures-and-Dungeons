@@ -1,0 +1,55 @@
+{
+	title: "Epic Tier Rewards",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "epic_tier_rewards"
+		}
+	},
+	loot_size: 5,
+	rewards: [{
+		item: "iceandfire:fire_dragon_blood",
+		count: 3,
+		random_bonus: 5
+	},
+	{
+		item: "iceandfire:ice_dragon_blood",
+		count: 3,
+		random_bonus: 5
+	},
+	{
+		item: "megaloot:weaponcase_epic"
+	},
+	{
+		item: "randomloot:titan_case"
+	},
+	{
+		item: "ancientspellcraft:stone_tablet_grand"
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "sea_serpent_scales"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "dragon_scales_loot_table"
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "epic_tier_rewards",
+		item_name: "Crate of Epic Rewards",
+		color: 10494192,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

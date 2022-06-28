@@ -1,0 +1,154 @@
+{
+	title: "Warped Altar",
+	x: -1.0d,
+	y: -17.5d,
+	description: "Thaumcraft 6",
+	text: [
+		"LxWxH: 21x21x9",
+		"",
+		"Paste Y Level: 0 (Ground Level)",
+		"",
+		"Structure Description: An infusion altar in Warped black. ",
+		"",
+		"NOTE:",
+		"",
+		"- 6 Eldritch Pedestal required to replace Pink Wool blocks.",
+		"",
+		"- 230 Starfield Glass (Rift) required to replace Cyan Wool blocks.",
+		"",
+		"The Altar has a color coordinated underside to place candles for Infusion Altar Stability."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "2f0006a1",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "4286bb32",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Warped Altar",
+				UUID: "13b26653-12b7-45ff-bf41-70919ace0afe",
+				startPos: {
+					X: 281,
+					Y: 4,
+					Z: -125
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5521,
+					meta: 0,
+					count: 257
+				},
+				{
+					item: 4766,
+					meta: 15,
+					count: 2
+				},
+				{
+					item: 35,
+					meta: 9,
+					count: 230
+				},
+				{
+					item: 159,
+					meta: 3,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 159,
+					meta: 5,
+					count: 1
+				},
+				{
+					item: 159,
+					meta: 4,
+					count: 1
+				},
+				{
+					item: 5812,
+					meta: 5,
+					count: 124
+				},
+				{
+					item: 159,
+					meta: 1,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 6,
+					count: 8
+				},
+				{
+					item: 159,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 159,
+					meta: 10,
+					count: 1
+				},
+				{
+					item: 5529,
+					meta: 0,
+					count: 100
+				},
+				{
+					item: 159,
+					meta: 13,
+					count: 1
+				},
+				{
+					item: 5914,
+					meta: 6,
+					count: 5
+				},
+				{
+					item: 2,
+					meta: 0,
+					count: 56
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 169,
+					meta: 0,
+					count: 14
+				},
+				{
+					item: 9568,
+					meta: 0,
+					count: 185
+				},
+				{
+					item: 10770,
+					meta: 0,
+					count: 48
+				}],
+				endPos: {
+					X: 301,
+					Y: 12,
+					Z: -105
+				}
+			}
+		}
+	}]
+}

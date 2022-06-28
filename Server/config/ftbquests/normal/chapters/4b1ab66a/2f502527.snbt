@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:leekitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "024e1971",

@@ -1,0 +1,107 @@
+{
+	title: "Thaumic Spa",
+	x: -10.0d,
+	y: -7.5d,
+	description: "Thaumcraft 6",
+	text: [
+		"LxWxH: 13x13x4",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A spa for relieving warp in Thaumic purple.",
+		"",
+		"NOTE:",
+		"",
+		"- 1 Arcane Spa required to replace Pink Wool blocks.",
+		"",
+		"- 1 Evreful Urn required to replace Cyan Wool blocks."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "d4f1704b",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "a735eef9",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 5,
+				TemplateName: "Thaumic Spa",
+				UUID: "450b281b-cb86-4bc7-88cc-c7cdf0921d1d",
+				startPos: {
+					X: 288,
+					Y: 4,
+					Z: -109
+				},
+				itemcountmap: [{
+					item: 9134,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 5543,
+					meta: 11,
+					count: 24
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 5245,
+					meta: 0,
+					count: 14
+				},
+				{
+					item: 5583,
+					meta: 12,
+					count: 4
+				},
+				{
+					item: 35,
+					meta: 6,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 9,
+					count: 1
+				},
+				{
+					item: 5257,
+					meta: 0,
+					count: 9
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 380,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5254,
+					meta: 0,
+					count: 52
+				}],
+				endPos: {
+					X: 276,
+					Y: 7,
+					Z: -121
+				}
+			}
+		}
+	}]
+}

@@ -12,7 +12,6 @@
 		"35775c9b"
 	],
 	size: 2.0d,
-	or_tasks: true,
 	tasks: [{
 		uid: "ac761e99",
 		type: "item",
@@ -36,10 +35,5 @@
 		uid: "904db96e",
 		type: "xp_levels",
 		xp_levels: 5
-	},
-	{
-		uid: "c62ee4ec",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

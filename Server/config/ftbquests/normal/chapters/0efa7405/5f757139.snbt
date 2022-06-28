@@ -1,0 +1,24 @@
+{
+	x: 0.5d,
+	y: 1.5d,
+	dependencies: [
+		"e976eaad"
+	],
+	tasks: [{
+		uid: "1c1a75ba",
+		type: "item",
+		items: [{
+			item: "thaumcraft:lamp_growth"
+		}]
+	}],
+	rewards: [{
+		uid: "eac404bb",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "941d1c29",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

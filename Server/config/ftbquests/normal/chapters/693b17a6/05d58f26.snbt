@@ -1,0 +1,23 @@
+{
+	title: "Cheating Death V",
+	icon: "dungeontactics:candy_skull",
+	x: -16.0d,
+	y: -3.0d,
+	description: "She's breaking up with you",
+	text: [
+		"You're on your own. She said she doesn't care man.",
+		"",
+		"Survive for 30 days.",
+		"",
+		"She even gave you the Scythe to let you know she really cared.",
+		"",
+		"I think you lost a good thing. You're never going to know Death now..."
+	],
+	tasks: [{
+		uid: "81845e26",
+		type: "stat",
+		title: "Survive 30 days",
+		stat: "stat.timeSinceDeath",
+		value: 51840000
+	}]
+}

@@ -8,6 +8,7 @@
 		"",
 		"Being lazy has never been easier!"
 	],
+	or_tasks: true,
 	tasks: [{
 		uid: "287c5cd8",
 		type: "item",

@@ -1,0 +1,19 @@
+{
+	title: "Cheating Death II",
+	icon: "dungeontactics:candy_skull",
+	x: -16.0d,
+	y: 0.0d,
+	description: "She's blowing up your phone now",
+	text: [
+		"Better reply man...",
+		"",
+		"Survive for 7 days."
+	],
+	tasks: [{
+		uid: "d79a0f45",
+		type: "stat",
+		title: "Survive 7 days",
+		stat: "stat.timeSinceDeath",
+		value: 12096000
+	}]
+}

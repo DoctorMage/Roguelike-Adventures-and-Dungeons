@@ -1,5 +1,5 @@
 {
-	title: "Meats For Days",
+	title: "Meats for Days",
 	x: -3.5d,
 	y: -5.5d,
 	description: "You'll be full forever",
@@ -45,7 +45,14 @@
 		}]
 	},
 	{
-		uid: "7f0eaba5",
+		uid: "909109d3",
+		type: "item",
+		items: [{
+			item: "skewers:skewer_rabbit_raw"
+		}]
+	},
+	{
+		uid: "b6bf64e7",
 		type: "item",
 		items: [{
 			item: "skewers:skewer_veggie_raw"

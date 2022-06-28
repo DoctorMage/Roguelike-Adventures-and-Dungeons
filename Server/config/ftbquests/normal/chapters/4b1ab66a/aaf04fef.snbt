@@ -7,6 +7,16 @@
 		items: [{
 			item: "harvestcraft:mulberryitem"
 		}],
-		count: 64L
+		count: 500L
+	}],
+	rewards: [{
+		uid: "6362342f",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "a16f34a7",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

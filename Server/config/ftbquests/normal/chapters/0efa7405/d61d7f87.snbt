@@ -1,0 +1,32 @@
+{
+	x: 8.5d,
+	y: -1.5d,
+	dependencies: [
+		"24073d04"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "c52e1ed0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	},
+	{
+		uid: "305a5af6",
+		type: "item",
+		items: [{
+			item: "thaumcraft:pedestal_arcane"
+		}]
+	}],
+	rewards: [{
+		uid: "99a8bab2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "primary_vis_crystals"
+			}
+		}
+	}]
+}

@@ -1,7 +1,7 @@
 {
 	title: "It's All In The Technique",
-	x: 0.5d,
-	y: -7.0d,
+	x: 5.5d,
+	y: -8.0d,
 	description: "Hands and feet inside the vehicle!",
 	text: [
 		"You might be able to use these for something special.",
@@ -29,8 +29,8 @@
 		xp_levels: 10
 	},
 	{
-		uid: "659f0dfc",
-		type: "item",
-		item: "aquaculture:loot 1 6"
+		uid: "c04db953",
+		type: "loot",
+		table: 2
 	}]
 }

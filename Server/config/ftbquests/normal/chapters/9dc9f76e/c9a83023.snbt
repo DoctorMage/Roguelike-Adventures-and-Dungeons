@@ -1,6 +1,13 @@
 {
+	title: "Harder than a Hard Hat!",
 	x: 14.5d,
 	y: -4.5d,
+	description: "You're iced out!",
+	text: [
+		"Collect a full set of Diamond Armor.",
+		"",
+		"Every 12 year old wants to get their hands on this stuff."
+	],
 	dependencies: [
 		"14d5a3cd"
 	],

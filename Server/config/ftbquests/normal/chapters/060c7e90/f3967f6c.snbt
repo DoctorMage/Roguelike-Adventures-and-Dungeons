@@ -61,12 +61,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "e9deacf7",
-		type: "choice",
-		title: "Choice Universal Wizard Artefact",
-		table: 11
-	},
-	{
 		uid: "8d0162a2",
 		type: "ftbmoney:money",
 		ftb_money: 300L

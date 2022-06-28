@@ -10,7 +10,18 @@
 	tasks: [{
 		uid: "fcc29a71",
 		type: "kill",
+		icon: "thebetweenlands:wight_heart",
 		entity: "thebetweenlands:wight",
 		value: 50L
+	}],
+	rewards: [{
+		uid: "90906ae3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1edc233a",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

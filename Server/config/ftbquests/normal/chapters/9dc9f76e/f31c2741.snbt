@@ -1,19 +1,19 @@
 {
-	title: "Keybindings",
+	title: "Bound by the Keys",
 	x: -8.0d,
 	y: -4.5d,
 	shape: "circle",
 	text: [
-		"There are probably some conflicts in controls which you need to resolve.",
-		"Go to Options -> Controls. Search by category.",
+		"There are some conflicts you'll likely need to resolve.",
+		"Go to Options -> Controls. Search by Category:",
 		"",
-		"- Veinminer - Grave(Hold)",
-		"- Dodge - left alt.",
-		"- Titles - Y",
-		"- show difficulty meter - Shift+N",
-		"- select class - B",
-		"- show map - J",
-		"- change hotbar - Z"
+		"- Veinminer = Hold Grave",
+		"- Dodge = Left Alt.",
+		"- Titles = Y",
+		"- Difficulty Meter = Shift + N",
+		"- Select Class = B",
+		"- Show Map = J",
+		"- Change Hotbar = Z"
 	],
 	dependencies: [
 		"35def456"

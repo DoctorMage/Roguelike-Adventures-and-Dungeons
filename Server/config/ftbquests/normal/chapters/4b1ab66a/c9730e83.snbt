@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:radishitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "bd983767",

@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:cherryitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "15bf3a6b",

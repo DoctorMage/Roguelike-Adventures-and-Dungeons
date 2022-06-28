@@ -1,6 +1,15 @@
 {
+	title: "Classic Portal To Bugland",
 	x: -1.5d,
 	y: -8.0d,
+	description: "This is NOT \"Classic\" John",
+	text: [
+		"Your portal should be shaped like any normal portal. It can be of varying sizes as well. Stone Bricks with the Leaves inside.",
+		"",
+		"Place your Altar near your Portal, or in front, rather; then place your Scepter into the Altar.",
+		"",
+		"BOOM! BUGLAND!"
+	],
 	dependencies: [
 		"17b1c4d4"
 	],
@@ -35,5 +44,15 @@
 			item: "minecraft:stonebrick"
 		}],
 		count: 12L
+	}],
+	rewards: [{
+		uid: "9d8cf8a8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "d3f86e9c",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

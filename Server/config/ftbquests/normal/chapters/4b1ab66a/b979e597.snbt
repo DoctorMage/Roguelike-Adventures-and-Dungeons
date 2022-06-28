@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:orangeitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "3a1390ef",

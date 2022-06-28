@@ -1,10 +1,14 @@
 {
-	title: "You Should Be A Real Mechanic For This Part",
+	title: "You Should Be a Real Mechanic for This Part",
 	x: 20.0d,
 	y: -3.0d,
 	description: "Just kidding, not really, haha, smiley face...",
 	text: [
-		"Have fun! Mechanical power is very fun to deal with, honestly."
+		"Have fun! Mechanical power is very fun to deal with, honestly.",
+		"",
+		"You are only required to obtain one of the items to complete this quest.",
+		"",
+		"You will probably use all of these items if you are delving into Mechanical Energy anyways."
 	],
 	dependencies: [
 		"1587c33e"

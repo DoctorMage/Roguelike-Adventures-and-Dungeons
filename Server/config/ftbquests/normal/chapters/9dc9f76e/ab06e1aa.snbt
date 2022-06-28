@@ -1,6 +1,11 @@
 {
+	title: "Ol' Trusty",
 	x: 16.5d,
 	y: -4.5d,
+	description: "Digging out chunks since 2011",
+	text: [
+		"Craft or obtain a Diamond Pickaxe."
+	],
 	dependencies: [
 		"14d5a3cd"
 	],

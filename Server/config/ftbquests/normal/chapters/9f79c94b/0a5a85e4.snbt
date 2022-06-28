@@ -1,0 +1,96 @@
+{
+	title: "Warped Farmland",
+	x: -1.0d,
+	y: -12.5d,
+	description: "Thaumcraft 6",
+	text: [
+		"LxWxH: 21x21x8",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		" Structure Description: A plot of farmland in Warped black. It has an area of 15x15 (total of 225 blocks), thus compatible with Harvesters."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "363ec276",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "c7d2b40b",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 5,
+				TemplateName: "Warped Farmland",
+				UUID: "13b26653-12b7-45ff-bf41-70919ace0afe",
+				startPos: {
+					X: 291,
+					Y: 4,
+					Z: -105
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5521,
+					meta: 0,
+					count: 60
+				},
+				{
+					item: 5529,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 169,
+					meta: 0,
+					count: 13
+				},
+				{
+					item: 9619,
+					meta: 0,
+					count: 34
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 9568,
+					meta: 0,
+					count: 24
+				},
+				{
+					item: 5082,
+					meta: 0,
+					count: 225
+				},
+				{
+					item: 5812,
+					meta: 5,
+					count: 72
+				},
+				{
+					item: 10770,
+					meta: 0,
+					count: 16
+				}],
+				endPos: {
+					X: 271,
+					Y: 11,
+					Z: -125
+				}
+			}
+		}
+	}]
+}

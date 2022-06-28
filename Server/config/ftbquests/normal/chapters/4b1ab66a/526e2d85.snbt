@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:plumitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "ff7be305",

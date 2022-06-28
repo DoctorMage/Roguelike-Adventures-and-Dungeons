@@ -4,7 +4,9 @@
 	y: -4.0d,
 	description: "I didn't know Pony Boy liked fidget spinners",
 	text: [
-		"Wanna know what they do? You need to read first."
+		"Wanna know what they do? You need to read first.",
+		"",
+		"You are only required to craft one item to complete this quest."
 	],
 	dependencies: [
 		"2fc72e67"
@@ -47,20 +49,5 @@
 		uid: "48532f85",
 		type: "xp_levels",
 		xp_levels: 10
-	},
-	{
-		uid: "563478e8",
-		type: "item",
-		item: "aquaculture:loot 1 5"
-	},
-	{
-		uid: "3dfcd20e",
-		type: "item",
-		item: "aquaculture:loot 1 5"
-	},
-	{
-		uid: "f096a351",
-		type: "item",
-		item: "aquaculture:loot 1 6"
 	}]
 }

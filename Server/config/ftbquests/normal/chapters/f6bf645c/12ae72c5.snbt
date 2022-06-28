@@ -20,10 +20,5 @@
 		type: "dimension",
 		title: "Visit The Twilight Forest",
 		dim: 7
-	}],
-	rewards: [{
-		uid: "a087ec3f",
-		type: "item",
-		item: "aquaculture:loot 1 4"
 	}]
 }

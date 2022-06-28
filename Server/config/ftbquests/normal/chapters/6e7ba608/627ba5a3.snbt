@@ -1,0 +1,53 @@
+{
+	title: "Bing Bang Bong",
+	x: -1.5d,
+	y: -15.0d,
+	description: "Slappa da drum",
+	text: [
+		"Craft your drums and play the song of your people!"
+	],
+	dependencies: [
+		"e27d8e89"
+	],
+	tasks: [{
+		uid: "1e9126e6",
+		type: "item",
+		items: [{
+			item: "tropicraft:bongo"
+		}]
+	},
+	{
+		uid: "e04d23eb",
+		type: "item",
+		items: [{
+			item: "tropicraft:bongo 1 1"
+		}]
+	},
+	{
+		uid: "b3ae7a75",
+		type: "item",
+		items: [{
+			item: "tropicraft:bongo 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "67c19923",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "3d47752b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "1fa8dea1",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

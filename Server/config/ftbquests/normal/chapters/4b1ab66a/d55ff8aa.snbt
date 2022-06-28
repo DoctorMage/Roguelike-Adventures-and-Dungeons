@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:rhubarbitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "b769b9fd",

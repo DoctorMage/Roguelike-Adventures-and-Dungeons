@@ -1,0 +1,33 @@
+{
+	title: "Cast Iron",
+	x: 7.0d,
+	y: -9.0d,
+	description: "Casting magic, that is",
+	text: [
+		"You're like an Iron Chef if they used toxic chemicals.",
+		"",
+		"The Crucible will be necessary for many basic items and recipes in Thaumcraft. Be sure to read up, and study your Bible... I mean... Thaumonomicon!"
+	],
+	dependencies: [
+		"ff32fe90",
+		"1af03bae"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "aa34f834",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "430647a5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "primary_vis_crystals"
+			}
+		}
+	}]
+}

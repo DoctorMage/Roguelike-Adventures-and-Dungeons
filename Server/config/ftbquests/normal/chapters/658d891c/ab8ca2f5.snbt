@@ -42,22 +42,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "027a1776",
-		type: "ftbmoney:money",
-		ftb_money: 200L
-	},
-	{
-		uid: "0c1c7d36",
-		type: "xp_levels",
-		xp_levels: 20
-	},
-	{
-		uid: "d7501f76",
-		type: "random",
-		title: "Randomly Colored Dragon Scales",
-		table: 5
-	},
-	{
 		uid: "54856ec7",
 		type: "ftbmoney:money",
 		ftb_money: 500L
@@ -66,10 +50,5 @@
 		uid: "892f239e",
 		type: "xp_levels",
 		xp_levels: 30
-	},
-	{
-		uid: "5d8e2484",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

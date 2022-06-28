@@ -1,7 +1,7 @@
 {
 	title: "Advanced Alakazam!",
-	x: 3.0d,
-	y: -4.5d,
+	x: 8.0d,
+	y: -5.0d,
 	description: "And vamoosh! The monster went to Heaven!",
 	text: [
 		"Finally, your wand doesn't only look like a stick anymore.",
@@ -74,6 +74,15 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "a0ed16a9",
+		type: "item",
+		items: [{
+			item: "ebwizardry:advanced_fire_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "0e2ee293",
@@ -84,5 +93,15 @@
 		uid: "c2b90ed2",
 		type: "xp_levels",
 		xp_levels: 15
+	},
+	{
+		uid: "61395bc9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
 	}]
 }

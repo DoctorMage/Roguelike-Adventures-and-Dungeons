@@ -1,0 +1,44 @@
+{
+	title: "The Deep Dank Dark",
+	x: -9.0d,
+	y: -7.0d,
+	description: "And not the Betweenlands we're talkin here!",
+	text: [
+		"This dark is so dank, you die!",
+		"",
+		"Talk about potent!",
+		"",
+		"No really, it's very dangerous here.",
+		"",
+		"The darkness will hurt you. Literally.",
+		"",
+		"Monsters are now nightmares.",
+		"",
+		"BUT!---- The dimension is littered with ponds of gold and silver!",
+		"",
+		"Must be good..."
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "41a56a84",
+		type: "item",
+		items: [{
+			item: "beneath:teleporterbeneath"
+		}]
+	}],
+	rewards: [{
+		uid: "eaa373bc",
+		type: "xp_levels",
+		xp_levels: 100
+	},
+	{
+		uid: "a5a1e441",
+		type: "item",
+		item: "minecraft:iron_shovel"
+	},
+	{
+		uid: "d569c687",
+		type: "item",
+		item: "minecraft:emerald_block"
+	}]
+}

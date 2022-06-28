@@ -1,5 +1,5 @@
 {
-	x: 15.5d,
+	x: 13.0d,
 	y: 12.5d,
 	tasks: [{
 		uid: "34abaf87",
@@ -7,6 +7,16 @@
 		items: [{
 			item: "harvestcraft:okraitem"
 		}],
-		count: 64L
+		count: 500L
+	}],
+	rewards: [{
+		uid: "e19c0599",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "67cb6532",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

@@ -1,5 +1,5 @@
 {
-	title: "Have You Paid The Pied Piper?",
+	title: "Have You Paid the Pied Piper?",
 	x: 6.5d,
 	y: -2.5d,
 	description: "Well I did, so don't worry about it",
@@ -32,10 +32,5 @@
 		uid: "b1e6791f",
 		type: "xp_levels",
 		xp_levels: 5
-	},
-	{
-		uid: "6cba4db7",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

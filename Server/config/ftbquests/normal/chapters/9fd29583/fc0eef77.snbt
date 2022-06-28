@@ -22,8 +22,13 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "8d3a4d0f",
-		type: "item",
-		item: "aquaculture:loot 1 6"
+		uid: "d7f31748",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "50541179",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

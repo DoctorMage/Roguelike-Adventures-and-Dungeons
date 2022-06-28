@@ -1,7 +1,7 @@
 {
-	title: "Master Of Masters",
-	x: 6.5d,
-	y: -10.0d,
+	title: "Master of Masters",
+	x: 13.5d,
+	y: -9.5d,
 	description: "You feel all almighty. Bruce Almighty.",
 	text: [
 		"This thing crackles and pops when you hold it.",
@@ -75,6 +75,15 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "2e881d90",
+		type: "item",
+		items: [{
+			item: "ebwizardry:master_fire_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "6b3cff12",
@@ -87,8 +96,13 @@
 		xp_levels: 30
 	},
 	{
-		uid: "8ed7bd07",
+		uid: "c12825e2",
 		type: "item",
-		item: "aquaculture:loot 1 6"
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_tier_rewards"
+			}
+		}
 	}]
 }

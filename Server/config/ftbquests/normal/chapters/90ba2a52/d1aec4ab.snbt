@@ -23,5 +23,15 @@
 		uid: "7babe18f",
 		type: "xp_levels",
 		xp_levels: 75
+	},
+	{
+		uid: "ada2022c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
 	}]
 }

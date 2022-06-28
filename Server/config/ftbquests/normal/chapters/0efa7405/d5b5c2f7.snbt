@@ -1,0 +1,66 @@
+{
+	icon: "minecraft:nether_brick",
+	x: 4.5d,
+	y: 2.5d,
+	dependencies: [
+		"187ba0b2"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "f94bca88",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_brick"
+		}],
+		count: 12L
+	},
+	{
+		uid: "74f0c6f7",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 12L
+	},
+	{
+		uid: "e2894bbf",
+		type: "item",
+		items: [{
+			item: "minecraft:lava_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "28f9f06e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "15367e1a",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "aaf5141b",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "55c8b9db",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "30b5f8b0",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "df24f585",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,5 +1,5 @@
 {
-	title: "How Many Golems Does It Take To Change A Mantle Bulb?",
+	title: "How Many Golems Does It Take to Change a Mantle Bulb?",
 	x: 33.0d,
 	y: 7.0d,
 	description: "I don't know, I'm not an engineer...",
@@ -30,10 +30,5 @@
 		uid: "c4c117c2",
 		type: "xp_levels",
 		xp_levels: 10
-	},
-	{
-		uid: "da904481",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

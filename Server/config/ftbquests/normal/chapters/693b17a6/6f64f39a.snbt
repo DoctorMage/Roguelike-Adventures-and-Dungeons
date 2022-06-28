@@ -4,24 +4,24 @@
 	y: -3.0d,
 	description: "You saved the village from ever having to work again!",
 	text: [
-		"Complete 500 epic bounties."
+		"Complete 100 epic bounties."
 	],
 	tasks: [{
 		uid: "8d6cb917",
 		type: "stat",
-		title: "Complete 500 epic bounties",
+		title: "Complete 100 epic bounties",
 		icon: "bountiful:bounty",
 		stat: "stat.bountiesEpic",
-		value: 500
+		value: 100
 	}],
 	rewards: [{
 		uid: "2e77e845",
 		type: "ftbmoney:money",
-		ftb_money: 1000L
+		ftb_money: 10000L
 	},
 	{
 		uid: "598e7d11",
 		type: "xp_levels",
-		xp_levels: 25
+		xp_levels: 500
 	}]
 }

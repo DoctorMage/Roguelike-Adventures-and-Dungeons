@@ -16,8 +16,7 @@
 		type: "item",
 		items: [{
 			item: "minecraft:emerald"
-		}],
-		count: 15L
+		}]
 	}],
 	rewards: [{
 		uid: "7678f252",

@@ -1,7 +1,7 @@
 {
 	title: "Offensive Line Magic",
-	x: -18.75d,
-	y: 15.0d,
+	x: -15.0d,
+	y: 17.25d,
 	description: "New players, new playbook",
 	text: [
 		"Hit enemies with the dagger to level it up just like a wand.",
@@ -10,7 +10,9 @@
 		"",
 		"Upgrades can be applied to the blades just like wands. Be careful which you choose, as some are much more useful than others, and you can only put a limited amount!",
 		"",
-		"The Spellswords will need mana from a wand held in your Off-Hand to function."
+		"The Spellswords will need mana from a wand held in your Off-Hand to function.",
+		"",
+		"Equipping a complete ELEMENTAL Battlemage set will attune your Spellblade to the respective element, dealing extra damage!"
 	],
 	dependencies: [
 		"def8016e"

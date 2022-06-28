@@ -103,6 +103,15 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "3e9ab21f",
+		type: "item",
+		items: [{
+			item: "aether_legacy:phoenix_gloves"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "02d3bdfa",

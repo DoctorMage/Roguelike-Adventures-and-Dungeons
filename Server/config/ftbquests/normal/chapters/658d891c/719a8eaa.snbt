@@ -3,6 +3,11 @@
 	x: 13.5d,
 	y: -4.5d,
 	description: "You're never gonna get all of this off your armor",
+	text: [
+		"You might as well burn your clothes.",
+		"",
+		"Obtain some Desert Myrmex Resin."
+	],
 	tasks: [{
 		uid: "8fb4e0b6",
 		type: "item",
@@ -24,10 +29,5 @@
 		uid: "141f4965",
 		type: "item",
 		item: "iceandfire:manuscript"
-	},
-	{
-		uid: "72d64a8d",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

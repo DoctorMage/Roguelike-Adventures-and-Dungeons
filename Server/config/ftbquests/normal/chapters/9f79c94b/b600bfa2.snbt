@@ -1,0 +1,155 @@
+{
+	title: "Stone Wizard Tower",
+	x: -10.5d,
+	y: -36.5d,
+	description: "Electroblob's Wizardry",
+	text: [
+		"LxWxH: 39x21x52",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A diorite and stone brick wizard tower with four small rooms and one large room inside."
+	],
+	tasks: [{
+		uid: "aeddbecc",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "c27c9537",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 3,
+				TemplateName: "Stone Wizard Tower",
+				UUID: "35516b07-0437-4b1e-a2de-8b501f0c6d04",
+				startPos: {
+					X: 366,
+					Y: 5,
+					Z: -126
+				},
+				itemcountmap: [{
+					item: 50,
+					meta: 0,
+					count: 58
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 304
+				},
+				{
+					item: 5531,
+					meta: 11,
+					count: 636
+				},
+				{
+					item: 6207,
+					meta: 0,
+					count: 120
+				},
+				{
+					item: 1,
+					meta: 4,
+					count: 458
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 190
+				},
+				{
+					item: 5532,
+					meta: 0,
+					count: 188
+				},
+				{
+					item: 5645,
+					meta: 9,
+					count: 76
+				},
+				{
+					item: 5645,
+					meta: 7,
+					count: 450
+				},
+				{
+					item: 4497,
+					meta: 0,
+					count: 5
+				},
+				{
+					item: 6069,
+					meta: 0,
+					count: 56
+				},
+				{
+					item: 7721,
+					meta: 3,
+					count: 1
+				},
+				{
+					item: 5652,
+					meta: 15,
+					count: 28
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5652,
+					meta: 13,
+					count: 60
+				},
+				{
+					item: 5472,
+					meta: 8,
+					count: 146
+				},
+				{
+					item: 6201,
+					meta: 2,
+					count: 747
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 4
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5481,
+					meta: 8,
+					count: 385
+				},
+				{
+					item: 5548,
+					meta: 3,
+					count: 106
+				},
+				{
+					item: 44,
+					meta: 0,
+					count: 44
+				}],
+				endPos: {
+					X: 386,
+					Y: 56,
+					Z: -88
+				}
+			}
+		}
+	}]
+}

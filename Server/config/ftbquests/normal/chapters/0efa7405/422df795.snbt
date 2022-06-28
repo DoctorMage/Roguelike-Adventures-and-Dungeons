@@ -1,0 +1,33 @@
+{
+	x: 1.5d,
+	y: 2.0d,
+	dependencies: [
+		"e976eaad"
+	],
+	tasks: [{
+		uid: "120f9111",
+		type: "item",
+		items: [{
+			item: "thaumcraft:mirror"
+		}]
+	},
+	{
+		uid: "190e4a8b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:hand_mirror"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4e7ea3d2",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "17ebae46",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,6 +1,19 @@
 {
-	x: 22.0d,
-	y: -4.0d,
+	title: "Artefact Trader (Ruby)",
+	x: 11.0d,
+	y: -3.5d,
+	description: "Ruby for the lowlow!",
+	text: [
+		"Sell your unwanted Ruby Artefacts.",
+		"",
+		"Submit ONE stack of Ruby Artefacts to complete this quest.",
+		"",
+		"Collect the reward after each completion.",
+		"",
+		"You will not receive rewards for more than one stack submission at a time."
+	],
+	can_repeat: true,
+	or_tasks: true,
 	tasks: [{
 		uid: "9ca76d05",
 		type: "item",
@@ -45,5 +58,20 @@
 		uid: "4a4fa353",
 		type: "ftbmoney:money",
 		ftb_money: 70L
+	},
+	{
+		uid: "bb89e2f6",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "888e32c3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
 	}]
 }

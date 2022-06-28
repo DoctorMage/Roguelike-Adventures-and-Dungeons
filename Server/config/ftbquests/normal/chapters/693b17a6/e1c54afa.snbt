@@ -17,11 +17,11 @@
 	rewards: [{
 		uid: "2f6fd61e",
 		type: "ftbmoney:money",
-		ftb_money: 250L
+		ftb_money: 2500L
 	},
 	{
 		uid: "d0a4c9d4",
 		type: "xp_levels",
-		xp_levels: 25
+		xp_levels: 250
 	}]
 }

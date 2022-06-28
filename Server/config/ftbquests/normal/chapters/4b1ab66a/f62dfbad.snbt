@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:kohlrabiitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "0daf214d",

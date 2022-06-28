@@ -1,0 +1,22 @@
+{
+	title: "Feed When You Need",
+	x: 0.0d,
+	y: -1.0d,
+	description: "Don't over eat now!",
+	text: [
+		"Obese animals = Abuse.",
+		"",
+		"You can store the pets \"favorite food\" in this sack, saving inventory space!",
+		"",
+		"Pets will automatically repair themselves as needed."
+	],
+	tasks: [{
+		uid: "3c9e2aac",
+		type: "item",
+		items: [{
+			item: "inventorypets:feed_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

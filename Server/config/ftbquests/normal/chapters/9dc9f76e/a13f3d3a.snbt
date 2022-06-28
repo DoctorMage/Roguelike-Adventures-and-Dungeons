@@ -1,7 +1,7 @@
 {
 	title: "Raisins In The Sun",
-	x: 9.5d,
-	y: 1.0d,
+	x: 1.5d,
+	y: 2.0d,
 	description: "These ones taste like metal!",
 	text: [
 		"The only item you can place into the Drying Basin is Ironberries. This is intended.",

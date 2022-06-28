@@ -1,0 +1,21 @@
+{
+	x: 38.5d,
+	y: -6.0d,
+	tasks: [{
+		uid: "ba36a3a5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "9cfbbab8",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "c300f1fd",
+		type: "xp_levels",
+		xp_levels: 25
+	}]
+}

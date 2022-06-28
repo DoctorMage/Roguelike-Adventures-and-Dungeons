@@ -2,7 +2,6 @@
 	title: "Ghast Gangsters",
 	x: 1.0d,
 	y: -3.0d,
-	shape: "octagon",
 	description: "Take those hooligans down!",
 	text: [
 		"Kill 25 Ghasts."
@@ -11,6 +10,7 @@
 	tasks: [{
 		uid: "a9e9697a",
 		type: "kill",
+		icon: "minecraft:ghast_tear",
 		entity: "minecraft:ghast",
 		value: 25L
 	}],

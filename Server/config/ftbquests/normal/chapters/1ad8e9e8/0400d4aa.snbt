@@ -30,10 +30,5 @@
 		uid: "5ef4c944",
 		type: "item",
 		item: "thebetweenlands:items_misc 1 40"
-	},
-	{
-		uid: "6384456e",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

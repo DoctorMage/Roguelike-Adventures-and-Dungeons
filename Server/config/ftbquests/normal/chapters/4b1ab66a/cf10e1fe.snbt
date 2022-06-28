@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:bambooshootitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "f06bf283",

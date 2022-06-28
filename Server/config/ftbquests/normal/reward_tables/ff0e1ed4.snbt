@@ -1,0 +1,441 @@
+{
+	title: "Epic Wizard Artifacts",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "ebwizardry:ring_combustion",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_meteor",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_arcane_frost",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_seeking",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_hammer",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_soulbinding",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_mana_return",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -2917368480313360137L,
+						UUIDLeast: -5837133971061266669L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.projectileDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.aiming.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_ice_immunity",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_wither_immunity",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_glide",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_resurrection",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_absorption",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:amulet_curse_ward",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:amulet_pendant_of_eternity",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:amulet_time_knot",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:amulet_arcane_catalyst",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "mospells:amulet_earth",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "mospells:amulet_frostmaw",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "mospells:amulet_golden_sun",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "tfspellpack:amulet_life_charm",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "wizardrygolems:amulet_gaia",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "wizardrygolems:amulet_deathweed",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "wizardrygolems:amulet_steaming_netherrack",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: "ancientspellcraft:charm_philosophers_stone"
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_spectral_army",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_spectral_tome",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_stone_tablet",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "tfspellpack:charm_goblin",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "wizardrygolems:charm_ifrit_bottle",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_experience_tome",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_lava_walking",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_silk_touch",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_stop_time",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_black_hole",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_knowledge_orb",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_power_orb",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_progression_orb",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -6417019624551331733L,
+						UUIDLeast: -6163851805328514716L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.prospecting.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_rift_bottle",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_cryostasis",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_wand_upgrade",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_war_horn",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_elemental_grimoire",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_shadow_blade",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: "ancientspellcraft:charm_evergrowing_crystal"
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_reanimation",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:purifying_elixir_recipe",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -1373174609040817193L,
+						UUIDLeast: -6299367731656980163L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.prospecting.name"
+				}
+			}
+		}
+	},
+	{
+		item: "ancientspellcraft:head_minions"
+	},
+	{
+		item: "ancientspellcraft:head_shield"
+	},
+	{
+		item: "ancientspellcraft:head_riftstone"
+	},
+	{
+		item: "ancientspellcraft:head_fortune"
+	},
+	{
+		item: "ancientspellcraft:head_lightning"
+	},
+	{
+		item: "ebwizardry:resplendent_thread"
+	},
+	{
+		item: "ebwizardry:ethereal_crystalweave"
+	},
+	{
+		item: "ebwizardry:crystal_silver_plating"
+	}],
+	loot_crate: {
+		string_id: "epic_wizard_artifacts",
+		item_name: "Crate of Epic Artifacts",
+		color: 11027104,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

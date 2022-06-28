@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:lettuceitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "7ec63c1f",

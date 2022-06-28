@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:kaleitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "bf42d2cb",

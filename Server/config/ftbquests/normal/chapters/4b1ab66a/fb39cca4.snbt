@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:amaranthitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "de216b64",

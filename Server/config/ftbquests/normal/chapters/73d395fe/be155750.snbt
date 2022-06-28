@@ -1,0 +1,25 @@
+{
+	x: -6.5d,
+	y: -4.0d,
+	dependencies: [
+		"b91d4d0e"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "b9630f7b",
+		type: "item",
+		items: [{
+			item: "midnight:shadowroot_log"
+		}]
+	}],
+	rewards: [{
+		uid: "f7ab3fef",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "e24f5998",
+		type: "xp",
+		xp: 100
+	}]
+}

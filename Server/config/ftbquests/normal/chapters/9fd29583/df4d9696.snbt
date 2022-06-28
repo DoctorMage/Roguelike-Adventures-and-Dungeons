@@ -76,7 +76,7 @@
 		uid: "bd5e5f7c",
 		type: "item",
 		items: [{
-			item: "erebus:materials 1 27"
+			item: "thebetweenlands:items_misc 1 3"
 		}]
 	},
 	{

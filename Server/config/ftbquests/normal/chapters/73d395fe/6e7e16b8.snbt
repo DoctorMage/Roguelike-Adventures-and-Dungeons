@@ -1,0 +1,35 @@
+{
+	x: -5.0d,
+	y: -1.0d,
+	dependencies: [
+		"500c1c45"
+	],
+	tasks: [{
+		uid: "7f3d4141",
+		type: "item",
+		items: [{
+			item: "midnight:spore_bomb 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "23e2a59e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "ff5b6bbf",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "ccad7766",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:turnipitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "8b6ea912",

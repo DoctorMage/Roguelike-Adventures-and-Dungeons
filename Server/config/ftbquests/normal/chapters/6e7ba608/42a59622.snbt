@@ -1,0 +1,24 @@
+{
+	x: -5.5d,
+	y: -9.0d,
+	dependencies: [
+		"f61dcb12"
+	],
+	tasks: [{
+		uid: "1b59dc50",
+		type: "item",
+		items: [{
+			item: "tropicraft:zircon"
+		}]
+	}],
+	rewards: [{
+		uid: "6f078bc3",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "44556561",
+		type: "xp",
+		xp: 100
+	}]
+}

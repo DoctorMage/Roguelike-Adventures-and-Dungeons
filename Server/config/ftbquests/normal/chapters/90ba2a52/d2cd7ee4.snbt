@@ -23,5 +23,15 @@
 		uid: "a428a2d1",
 		type: "xp_levels",
 		xp_levels: 15
+	},
+	{
+		uid: "bbabe4b5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
 	}]
 }

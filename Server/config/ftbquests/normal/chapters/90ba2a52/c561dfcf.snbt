@@ -10,7 +10,18 @@
 	tasks: [{
 		uid: "f4c27455",
 		type: "kill",
+		icon: "thebetweenlands:tiny_sludge_worm",
 		entity: "thebetweenlands:large_sludge_worm",
 		value: 100L
+	}],
+	rewards: [{
+		uid: "f6b02e20",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "da925e4e",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:lentilitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "ba9a26e5",

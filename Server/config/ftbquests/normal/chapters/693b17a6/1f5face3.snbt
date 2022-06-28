@@ -1,6 +1,6 @@
 {
 	title: "Ghastastic",
-	x: 8.0d,
+	x: 17.0d,
 	y: -1.0d,
 	description: "Hip hip HORAH",
 	text: [
@@ -21,6 +21,6 @@
 	{
 		uid: "d5d68062",
 		type: "xp_levels",
-		xp_levels: 30
+		xp_levels: 75
 	}]
 }

@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:pistachioitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "58c53601",

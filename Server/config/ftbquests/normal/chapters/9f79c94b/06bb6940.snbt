@@ -1,0 +1,105 @@
+{
+	title: "Crimson Farmland + Silverwood",
+	x: 13.0d,
+	y: -12.5d,
+	description: "Thaumcraft 6",
+	text: [
+		"LxWxH: 21x21x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A plot of farmland with a Silverwood tree in Crimson red. It has an area of 15x15 (total of 222 blocks), thus compatible with Harvesters."
+	],
+	tasks: [{
+		uid: "d015ae08",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "011b194d",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 7,
+				TemplateName: "Crimson Farmland + Silverwood",
+				UUID: "8183e6b3-64a2-481c-b960-5cb21277231e",
+				startPos: {
+					X: 293,
+					Y: 4,
+					Z: -105
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 5543,
+					meta: 10,
+					count: 72
+				},
+				{
+					item: 9181,
+					meta: 0,
+					count: 34
+				},
+				{
+					item: 5245,
+					meta: 0,
+					count: 112
+				},
+				{
+					item: 4813,
+					meta: 0,
+					count: 225
+				},
+				{
+					item: 5583,
+					meta: 12,
+					count: 13
+				},
+				{
+					item: 5266,
+					meta: 0,
+					count: 283
+				},
+				{
+					item: 5257,
+					meta: 0,
+					count: 14
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5264,
+					meta: 0,
+					count: 42
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5254,
+					meta: 0,
+					count: 16
+				},
+				{
+					item: 215,
+					meta: 0,
+					count: 24
+				}],
+				endPos: {
+					X: 273,
+					Y: 18,
+					Z: -125
+				}
+			}
+		}
+	}]
+}

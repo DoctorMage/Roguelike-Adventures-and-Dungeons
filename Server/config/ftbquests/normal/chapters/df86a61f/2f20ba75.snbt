@@ -10,6 +10,9 @@
 		"",
 		"Right-Click again to be send back to where you were when you left!"
 	],
+	dependencies: [
+		"4695c2a6"
+	],
 	size: 1.5d,
 	tasks: [{
 		uid: "27dfc4de",

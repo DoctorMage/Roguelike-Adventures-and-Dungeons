@@ -8,10 +8,27 @@
 	],
 	can_repeat: true,
 	tasks: [{
-		uid: "9f01a10b",
+		uid: "7170780c",
 		type: "kill",
-		icon: "twilightforest:giant_sword",
-		entity: "minecraft:giant",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "assets:customicons\\giantminermob.png"
+			}
+		},
+		entity: "twilightforest:armored_giant",
+		value: 25L
+	},
+	{
+		uid: "04e1443b",
+		type: "kill",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "assets:customicons\\giantarmoredmob.png"
+			}
+		},
+		entity: "twilightforest:giant_miner",
 		value: 25L
 	}],
 	rewards: [{

@@ -4,7 +4,7 @@
 	y: -6.5d,
 	description: "That has a nice ring to it",
 	text: [
-		"Craft all of the Amethyst Armaments."
+		"Craft all of the Amethyst armaments."
 	],
 	dependencies: [
 		"38e4f189"

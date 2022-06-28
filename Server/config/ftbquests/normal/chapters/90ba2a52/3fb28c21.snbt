@@ -1,8 +1,8 @@
 {
 	title: "Spooky Scary Skeletons",
+	icon: "minecraft:bone",
 	x: -2.0d,
 	y: -5.5d,
-	shape: "octagon",
 	description: "That's gonna get used a lot...",
 	text: [
 		"Kill 50 Skeletons",

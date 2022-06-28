@@ -1,6 +1,13 @@
 {
+	title: "The Armor Eater",
 	x: 28.0d,
 	y: 7.0d,
+	description: "Cronch",
+	text: [
+		"This item will reduce the durability of equipment when you hit something which wears equipment.",
+		"",
+		"Especially effective on players."
+	],
 	dependencies: [
 		"2eebb48a"
 	],

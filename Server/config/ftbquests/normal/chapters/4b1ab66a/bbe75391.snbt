@@ -7,6 +7,17 @@
 		items: [{
 			item: "harvestcraft:kiwiitem"
 		}],
-		count: 64L
+		count: 500L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "44f38008",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "d8f936a6",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

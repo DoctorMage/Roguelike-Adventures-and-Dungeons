@@ -1,6 +1,6 @@
 {
-	x: 20.0d,
-	y: 0.0d,
+	x: 20.5d,
+	y: 1.0d,
 	tasks: [{
 		uid: "c1496e14",
 		type: "item",
@@ -13,5 +13,20 @@
 		uid: "92c00c7b",
 		type: "ftbmoney:money",
 		ftb_money: 600L
+	},
+	{
+		uid: "efba9108",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "0919294e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_tier_rewards"
+			}
+		}
 	}]
 }

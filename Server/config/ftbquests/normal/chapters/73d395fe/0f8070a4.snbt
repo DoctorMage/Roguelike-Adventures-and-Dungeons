@@ -1,0 +1,175 @@
+{
+	x: 2.0d,
+	y: -3.5d,
+	dependencies: [
+		"d211fcea"
+	],
+	tasks: [{
+		uid: "5fe5fe41",
+		type: "item",
+		items: [{
+			id: "midnight:ebonys_pickaxe",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -4787489815726241831L,
+						UUIDLeast: -7977281409114628657L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -4205134110622727483L,
+						UUIDLeast: -7111870750419725501L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.graceful.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "89dc7c33",
+		type: "item",
+		items: [{
+			id: "midnight:ebonys_axe",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -6201832306869910750L,
+						UUIDLeast: -7026093921266704998L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -97350205234198177L,
+						UUIDLeast: -8307369921601568233L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.graceful.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f44f0ca3",
+		type: "item",
+		items: [{
+			id: "midnight:ebonys_shovel",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f43418e0",
+		type: "item",
+		items: [{
+			id: "midnight:ebonys_hoe",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 1732759712071565502L,
+						UUIDLeast: -7977939496301894810L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 7225041880969465831L,
+						UUIDLeast: -5551576477240589129L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.keen.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ab125751",
+		type: "item",
+		items: [{
+			id: "midnight:ebonys_sword",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: 7262939881141912906L,
+						UUIDLeast: -8095553383794877930L,
+						Amount: 0.20000000298023224d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 8010627627956783931L,
+						UUIDLeast: -7478172226804262936L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.sweeping.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "97e59bba",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "27c35068",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "49941e8c",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

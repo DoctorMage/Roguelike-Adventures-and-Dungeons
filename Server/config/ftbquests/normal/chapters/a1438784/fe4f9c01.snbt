@@ -16,11 +16,6 @@
 		}]
 	}],
 	rewards: [{
-		uid: "26d66e6a",
-		type: "ftbmoney:money",
-		ftb_money: 10L
-	},
-	{
 		uid: "250a20d0",
 		type: "ftbmoney:money",
 		ftb_money: 50L

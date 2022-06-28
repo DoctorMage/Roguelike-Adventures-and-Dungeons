@@ -1,0 +1,25 @@
+{
+	x: -4.25d,
+	y: -2.75d,
+	dependencies: [
+		"dc3395c7"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "fb8fab86",
+		type: "item",
+		items: [{
+			item: "thaumcraft:wand_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "5d4f6b20",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "2179564c",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

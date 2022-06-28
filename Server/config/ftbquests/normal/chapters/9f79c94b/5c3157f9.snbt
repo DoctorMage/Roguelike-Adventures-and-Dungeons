@@ -1,0 +1,155 @@
+{
+	title: "Spruce Wizard Tower",
+	x: -15.5d,
+	y: -41.5d,
+	description: "Electroblob's Wizardry",
+	text: [
+		"LxWxH: 23x41x44",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A spruce and stone brick wizard tower with a tower extention. Two huge rooms inside."
+	],
+	tasks: [{
+		uid: "c924967a",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "5283de27",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Spruce Wizard Tower",
+				UUID: "2ff664bd-9d90-4989-b710-672b3722d591",
+				startPos: {
+					X: 375,
+					Y: 5,
+					Z: -117
+				},
+				itemcountmap: [{
+					item: 50,
+					meta: 0,
+					count: 38
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 548
+				},
+				{
+					item: 164,
+					meta: 0,
+					count: 54
+				},
+				{
+					item: 6001,
+					meta: 0,
+					count: 765
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 191,
+					meta: 0,
+					count: 16
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 218
+				},
+				{
+					item: 5620,
+					meta: 0,
+					count: 874
+				},
+				{
+					item: 17,
+					meta: 1,
+					count: 356
+				},
+				{
+					item: 5645,
+					meta: 9,
+					count: 32
+				},
+				{
+					item: 6202,
+					meta: 7,
+					count: 1
+				},
+				{
+					item: 5643,
+					meta: 11,
+					count: 581
+				},
+				{
+					item: 7721,
+					meta: 2,
+					count: 1
+				},
+				{
+					item: 4497,
+					meta: 0,
+					count: 2
+				},
+				{
+					item: 6069,
+					meta: 0,
+					count: 96
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 134,
+					meta: 0,
+					count: 62
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 166
+				},
+				{
+					item: 171,
+					meta: 8,
+					count: 12
+				},
+				{
+					item: 126,
+					meta: 5,
+					count: 4
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5548,
+					meta: 3,
+					count: 191
+				},
+				{
+					item: 126,
+					meta: 1,
+					count: 2
+				}],
+				endPos: {
+					X: 353,
+					Y: 48,
+					Z: -77
+				}
+			}
+		}
+	}]
+}

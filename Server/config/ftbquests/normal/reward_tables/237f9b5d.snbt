@@ -1,0 +1,150 @@
+{
+	title: "Jousters Class",
+	loot_size: 50,
+	rewards: [{
+		item: {
+			id: "minecraft:lead",
+			tag: {
+				"Quark:ItemNameDye": 12,
+				display: {
+					Lore: [
+						"Fences not included!"
+					],
+					Name: "Horse Puller"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:golden_horse_armor",
+			tag: {
+				"Quark:ItemNameDye": 14,
+				display: {
+					Lore: [
+						"If you get armour so does the horse."
+					]
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:horse"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:sugar",
+			tag: {
+				display: {
+					Lore: [
+						"Good for making your horse feel better"
+					],
+					Name: "Horse Happy Powder"
+				}
+			}
+		},
+		count: 32,
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_helmet",
+			tag: {
+				Quality: {},
+				display: {
+					Name: "Jockey Helmet"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_chestplate",
+			tag: {
+				Quality: {},
+				display: {
+					Name: "Jockey Chestplate"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_leggings",
+			tag: {
+				Quality: {},
+				display: {
+					Name: "Jockey Leggings"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_boots",
+			tag: {
+				Quality: {},
+				display: {
+					Name: "Jockey Boots"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: "minecraft:bread",
+		count: 24,
+		only_one: true
+	},
+	{
+		item: {
+			id: "spartanweaponry:lance_invar",
+			tag: {
+				"Quark:ItemNameDye": 13,
+				Quality: {},
+				display: {
+					Name: "Eiffel Poker"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:name_tag",
+			tag: {
+				"Quark:ItemNameDye": 13,
+				display: {
+					Lore: [
+						"Wonder if it likes pizza or mozzerella"
+					],
+					Name: "Valkyrie"
+				}
+			}
+		},
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "jockey",
+		item_name: "Crate Of Jousting Equipment",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

@@ -4,7 +4,9 @@
 	y: 3.5d,
 	description: "Those tents get big!",
 	text: [
-		"You will need these to upgrade the size of your tent, eventually. Check with JEI."
+		"You will need these to upgrade the size of your tent. ",
+		"",
+		"Check with JEI for recipes; they're all a bit different!"
 	],
 	dependencies: [
 		"90186a89"
@@ -31,22 +33,12 @@
 		}]
 	}],
 	rewards: [{
-		uid: "8d4fadeb",
-		type: "item",
-		item: "minecraft:dirt"
-	},
-	{
 		uid: "dc744ce5",
 		type: "ftbmoney:money",
 		ftb_money: 25L
 	},
 	{
 		uid: "cd76ce9a",
-		type: "xp_levels",
-		xp_levels: 5
-	},
-	{
-		uid: "fc79f096",
 		type: "xp_levels",
 		xp_levels: 5
 	}]

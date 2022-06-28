@@ -17,11 +17,21 @@
 	rewards: [{
 		uid: "299610ae",
 		type: "ftbmoney:money",
-		ftb_money: 300L
+		ftb_money: 450L
 	},
 	{
 		uid: "f8503389",
 		type: "xp_levels",
 		xp_levels: 50
+	},
+	{
+		uid: "977eb938",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
 	}]
 }

@@ -7,6 +7,17 @@
 		items: [{
 			item: "harvestcraft:cranberryitem"
 		}],
-		count: 64L
+		count: 500L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "6332cb3e",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "e98bd111",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

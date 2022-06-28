@@ -1,6 +1,11 @@
 {
+	title: "Steady Hands",
 	x: -3.0d,
 	y: -17.0d,
+	description: "Doing no more and no less",
+	text: [
+		"The Steady Miner will "
+	],
 	dependencies: [
 		"ecd41947"
 	],

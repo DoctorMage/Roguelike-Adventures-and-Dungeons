@@ -1,6 +1,17 @@
 {
+	title: "Scale Seller (Sea Serpents)",
 	x: 17.0d,
 	y: -6.5d,
+	description: "Scales here! Buy your scales here!",
+	text: [
+		"Sell your unwanted Sea Serpent Scales.",
+		"",
+		"Submit ONE stack of Sea Serpent Scales at a time to complete this quest.",
+		"",
+		"Collect the reward after each completion.",
+		"",
+		"You will not receive rewards for more than one stack submission at a time."
+	],
 	can_repeat: true,
 	or_tasks: true,
 	tasks: [{
@@ -63,5 +74,20 @@
 		uid: "a8fd0084",
 		type: "ftbmoney:money",
 		ftb_money: 75L
+	},
+	{
+		uid: "c7bc051a",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "6ed48ee4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
 	}]
 }

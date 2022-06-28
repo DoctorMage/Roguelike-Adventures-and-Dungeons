@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:chilipepperitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "040ec0b9",

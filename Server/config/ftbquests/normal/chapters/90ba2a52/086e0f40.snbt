@@ -12,6 +12,7 @@
 	tasks: [{
 		uid: "ac77ff4b",
 		type: "kill",
+		icon: "netherex:orange_salamander_hide",
 		entity: "netherex:salamander",
 		value: 25L
 	}],

@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:quinoaitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "6636e892",

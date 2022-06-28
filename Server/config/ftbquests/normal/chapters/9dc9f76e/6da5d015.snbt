@@ -1,22 +1,16 @@
 {
-	title: "Gift Of The Gods",
+	title: "Gift of the Gods ",
 	x: -2.0d,
 	y: -6.0d,
-	description: "Sea, he likes you",
+	description: "Sea? He likes you",
 	text: [
 		"Obtain a piece of the Neptunium Armor."
 	],
 	dependencies: [
 		"2dc7b27e"
 	],
+	or_tasks: true,
 	tasks: [{
-		uid: "ea75dcf4",
-		type: "item",
-		items: [{
-			item: "aquaculture:loot 1 7"
-		}]
-	},
-	{
 		uid: "d04d43ef",
 		type: "item",
 		items: [{
@@ -61,10 +55,5 @@
 		uid: "68f38bc1",
 		type: "xp_levels",
 		xp_levels: 10
-	},
-	{
-		uid: "0ac65d7d",
-		type: "item",
-		item: "minecraft:slime_ball"
 	}]
 }

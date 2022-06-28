@@ -4,7 +4,9 @@
 	y: 6.5d,
 	description: "Don't throw it across the street!",
 	text: [
-		"Your dog(s) will retrive this item and bring it back to. Go play with your dog!"
+		"Your dog(s) will retrive this item and bring it back to. Go play with your dog!",
+		"",
+		"And don't bother... you'll never get all the drool off."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

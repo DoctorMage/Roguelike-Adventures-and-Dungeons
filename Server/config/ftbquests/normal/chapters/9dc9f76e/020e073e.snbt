@@ -4,7 +4,9 @@
 	y: -16.5d,
 	description: "Stinks, but taste good!",
 	text: [
-		"You're going to need more Spider Eyes..."
+		"You're going to need more Spider Eyes...",
+		"",
+		"Here's some!"
 	],
 	dependencies: [
 		"ca494ea6"
@@ -27,8 +29,9 @@
 		xp_levels: 10
 	},
 	{
-		uid: "7bb80273",
+		uid: "6ae9544c",
 		type: "item",
-		item: "aquaculture:loot 1 6"
+		item: "minecraft:fermented_spider_eye",
+		count: 3
 	}]
 }

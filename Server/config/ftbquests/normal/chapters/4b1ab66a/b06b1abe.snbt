@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:rutabagaitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "571600ae",

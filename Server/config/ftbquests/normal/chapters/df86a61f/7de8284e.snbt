@@ -10,6 +10,9 @@
 		"",
 		"The Buffer can only hold 1,000,000 FE. You must either have huge charging capacity, or low energy consumption. Otherwise, your Buffer will always be out of energy."
 	],
+	dependencies: [
+		"4695c2a6"
+	],
 	tasks: [{
 		uid: "50086e64",
 		type: "item",

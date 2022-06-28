@@ -3,6 +3,11 @@
 	x: -9.0d,
 	y: -3.0d,
 	description: "This place is somehow.... familiar",
+	text: [
+		"You did it! You downloaded the RAD pack and you're starting your adventure!",
+		"",
+		"Now go find a dungeon. And crawl in it."
+	],
 	tasks: [{
 		uid: "4896abf0",
 		type: "dimension",
@@ -10,13 +15,20 @@
 		dim: 0
 	}],
 	rewards: [{
-		uid: "33b2df38",
+		uid: "091b3c24",
 		type: "item",
-		item: "minecraft:torch"
+		item: "minecraft:boat"
 	},
 	{
-		uid: "e6e0cabb",
+		uid: "6a517ec1",
 		type: "item",
-		item: "minecraft:apple"
+		item: "minecraft:apple",
+		count: 16
+	},
+	{
+		uid: "10bc803d",
+		type: "item",
+		item: "minecraft:torch",
+		count: 32
 	}]
 }

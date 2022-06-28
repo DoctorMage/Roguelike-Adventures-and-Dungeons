@@ -1,0 +1,138 @@
+{
+	x: 34.0d,
+	y: -7.5d,
+	dependencies: [
+		"7a11af33"
+	],
+	tasks: [{
+		uid: "f101914b",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:dagger_dawnstone",
+			tag: {
+				didUse: 0b,
+				poweredOn: 0b,
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c088307a",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:throwing_axe_dawnstone",
+			tag: {
+				didUse: 0b,
+				AmmoUsed: 0,
+				poweredOn: 0b,
+				UUIDMost: -9164053473968830854L,
+				UUIDLeast: -6296780430375567169L,
+				enchChecked: 1b,
+				Original: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6229a53b",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:throwing_knife_dawnstone",
+			tag: {
+				didUse: 0b,
+				AmmoUsed: 0,
+				poweredOn: 0b,
+				UUIDMost: 4046879882080963486L,
+				UUIDLeast: -9112537978959435161L,
+				enchChecked: 1b,
+				Original: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b300f843",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:longbow_dawnstone",
+			tag: {
+				poweredOn: 0b,
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "65bc6a19",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:crossbow_dawnstone",
+			tag: {
+				poweredOn: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "47419950",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:javelin_dawnstone",
+			tag: {
+				didUse: 0b,
+				AmmoUsed: 0,
+				poweredOn: 0b,
+				UUIDMost: -6101896205999062135L,
+				UUIDLeast: -6192930099841750689L,
+				enchChecked: 1b,
+				Original: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0601724b",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:boomerang_dawnstone",
+			tag: {
+				didUse: 0b,
+				AmmoUsed: 0,
+				poweredOn: 0b,
+				UUIDMost: -5887046101490645775L,
+				UUIDLeast: -5218722457597022647L,
+				enchChecked: 1b,
+				Original: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9a75b5eb",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "0a43c5ff",
+		type: "xp_levels",
+		xp_levels: 35
+	},
+	{
+		uid: "6fc4c7fd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
+	}]
+}

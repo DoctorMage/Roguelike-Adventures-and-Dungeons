@@ -1,0 +1,160 @@
+{
+	title: "Thaumic Altar",
+	x: -15.0d,
+	y: -17.5d,
+	description: "Thaumcraft 6",
+	text: [
+		"LxWxH: 21x21x9",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: An infusion altar in Thaumic purple. ",
+		"",
+		"NOTE:",
+		"",
+		"- 6 Arcane Pedestals required to replace Cyan Wool blocks."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "cd1fe872",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "fe80b258",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Thaumic Altar",
+				UUID: "b0d88977-cc99-4835-a24f-d13bbe368839",
+				startPos: {
+					X: 278,
+					Y: 4,
+					Z: -125
+				},
+				itemcountmap: [{
+					item: 9134,
+					meta: 0,
+					count: 60
+				},
+				{
+					item: 159,
+					meta: 1,
+					count: 1
+				},
+				{
+					item: 2,
+					meta: 0,
+					count: 56
+				},
+				{
+					item: 5543,
+					meta: 11,
+					count: 293
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 7
+				},
+				{
+					item: 5543,
+					meta: 10,
+					count: 40
+				},
+				{
+					item: 5245,
+					meta: 0,
+					count: 257
+				},
+				{
+					item: 5543,
+					meta: 5,
+					count: 4
+				},
+				{
+					item: 9136,
+					meta: 0,
+					count: 142
+				},
+				{
+					item: 5583,
+					meta: 12,
+					count: 14
+				},
+				{
+					item: 5645,
+					meta: 6,
+					count: 5
+				},
+				{
+					item: 35,
+					meta: 9,
+					count: 8
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5257,
+					meta: 0,
+					count: 100
+				},
+				{
+					item: 159,
+					meta: 13,
+					count: 1
+				},
+				{
+					item: 159,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 159,
+					meta: 10,
+					count: 1
+				},
+				{
+					item: 4497,
+					meta: 7,
+					count: 2
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5254,
+					meta: 0,
+					count: 48
+				},
+				{
+					item: 159,
+					meta: 5,
+					count: 1
+				},
+				{
+					item: 159,
+					meta: 4,
+					count: 1
+				},
+				{
+					item: 159,
+					meta: 3,
+					count: 1
+				}],
+				endPos: {
+					X: 298,
+					Y: 12,
+					Z: -105
+				}
+			}
+		}
+	}]
+}

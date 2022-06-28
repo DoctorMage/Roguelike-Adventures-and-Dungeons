@@ -1,0 +1,150 @@
+{
+	title: "Fiery Master Statue",
+	x: 18.0d,
+	y: -31.5d,
+	description: "Electroblob's Wizardry",
+	text: [
+		"LxWxH: 19x30x41",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A slate and basalt statue of a wizard with a Master Pyromancer wand while blowing a flame."
+	],
+	tasks: [{
+		uid: "5f595da5",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "59efeb97",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Fiery Master Statue",
+				UUID: "f8637d36-7443-4106-b8bb-1cba00d758fb",
+				startPos: {
+					X: 365,
+					Y: 5,
+					Z: -116
+				},
+				itemcountmap: [{
+					item: 50,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 5997,
+					meta: 1,
+					count: 341
+				},
+				{
+					item: 5579,
+					meta: 3,
+					count: 1
+				},
+				{
+					item: 4761,
+					meta: 0,
+					count: 626
+				},
+				{
+					item: 5435,
+					meta: 7,
+					count: 40
+				},
+				{
+					item: 5435,
+					meta: 8,
+					count: 664
+				},
+				{
+					item: 5552,
+					meta: 3,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 6
+				},
+				{
+					item: 5632,
+					meta: 0,
+					count: 7
+				},
+				{
+					item: 5567,
+					meta: 3,
+					count: 3
+				},
+				{
+					item: 5553,
+					meta: 3,
+					count: 2
+				},
+				{
+					item: 114,
+					meta: 0,
+					count: 6
+				},
+				{
+					item: 4765,
+					meta: 0,
+					count: 48
+				},
+				{
+					item: 4745,
+					meta: 0,
+					count: 32
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 44,
+					meta: 6,
+					count: 13
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5942,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 215,
+					meta: 0,
+					count: 31
+				},
+				{
+					item: 5610,
+					meta: 11,
+					count: 8
+				},
+				{
+					item: 112,
+					meta: 0,
+					count: 11
+				},
+				{
+					item: 11351,
+					meta: 0,
+					count: 11
+				}],
+				endPos: {
+					X: 394,
+					Y: 45,
+					Z: -98
+				}
+			}
+		}
+	}]
+}
