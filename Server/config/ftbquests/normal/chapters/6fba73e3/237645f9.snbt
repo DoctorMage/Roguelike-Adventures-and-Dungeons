@@ -29,10 +29,5 @@
 		uid: "72e983ba",
 		type: "item",
 		item: "aquaculture:loot 1 5"
-	},
-	{
-		uid: "70898330",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

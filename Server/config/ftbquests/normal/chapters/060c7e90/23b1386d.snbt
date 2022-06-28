@@ -73,6 +73,15 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "a21f57af",
+		type: "item",
+		items: [{
+			item: "ebwizardry:novice_fire_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "6231f683",
@@ -83,5 +92,15 @@
 		uid: "2f137528",
 		type: "xp_levels",
 		xp_levels: 5
+	},
+	{
+		uid: "c653a167",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
 	}]
 }

@@ -1,0 +1,60 @@
+{
+	title: "Knowledge Is Power",
+	x: 3.0d,
+	y: -12.0d,
+	description: "And power is responsibility",
+	text: [
+		"And responsibility means not using your insanity to wreak havoc on the world.",
+		"",
+		"Now, knowledge in Thaumcraft is divided into two parts:",
+		"",
+		"- Observations; these are real-world observations made by the player using items from Thaumcraft, like the Thaumometer, or by exploring and being physically present in certain areas.",
+		"",
+		"-Theories; essentially craftable knowledge made at your Research Table by combining reasonable objects together. Occasionally, theories are made when doing random things.",
+		"",
+		"To progress through the mod, you'll need to pay attention to both parts of knowledge, and act accordingly.",
+		"",
+		"Paper (lots) is required for research and theory crafting.",
+		"",
+		"When you click \"Complete\", pay attention to which Observation and Research knowledge is getting consumed, as you'll need to reacquire it for further progression.",
+		"",
+		"Think of the Observation and Research knowledge totals you gather as expendable research points. The bars small blue bars are your total \"xp\" till you receive another point."
+	],
+	dependencies: [
+		"28000024"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "994e210a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:scribing_tools"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a5114bf4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:table_wood"
+		}]
+	},
+	{
+		uid: "0d82c9e3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:research_table"
+		}]
+	}],
+	rewards: [{
+		uid: "963655a4",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c480a8be",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

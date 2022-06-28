@@ -111,18 +111,7 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "1d177309",
-		type: "choice",
-		title: "Choice Storm Wizard Artefact",
-		table: 14
-	},
-	{
 		uid: "6a0905d4",
-		type: "ftbmoney:money",
-		ftb_money: 300L
-	},
-	{
-		uid: "99a9aaa6",
 		type: "ftbmoney:money",
 		ftb_money: 300L
 	},
@@ -130,15 +119,5 @@
 		uid: "ecb641ff",
 		type: "xp_levels",
 		xp_levels: 30
-	},
-	{
-		uid: "ccb831a2",
-		type: "xp_levels",
-		xp_levels: 30
-	},
-	{
-		uid: "88f53131",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

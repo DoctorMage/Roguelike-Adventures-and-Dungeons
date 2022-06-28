@@ -1,5 +1,11 @@
 {
 	title: "Cloud Chaser",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "assets:customicons\\zephyrmob.png"
+		}
+	},
 	x: -1.0d,
 	y: 4.0d,
 	description: "A storm is brewin'!",
@@ -10,6 +16,12 @@
 	tasks: [{
 		uid: "5e8fa7db",
 		type: "kill",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "assets:customicons\\zephyrmob.png"
+			}
+		},
 		entity: "aether_legacy:zephyr",
 		value: 25L
 	}],

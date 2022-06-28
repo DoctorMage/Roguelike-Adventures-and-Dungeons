@@ -6,11 +6,13 @@
 	text: [
 		"These gears can be used in the gearboxes from Embers.",
 		"",
-		"The Black Hole and Iron Fan Gears will pull, and push, respectively.",
+		"The Black Hole and Iron Fan Gears will pull and push, respectively.",
 		"",
-		"Pretty sure since all the transfers are similar, there isn't really a best one.",
+		"There is a best gear, but the returns on all the gears are very similar.",
 		"",
-		"We may experiment with this later."
+		"The RAD Management Team might experiment with configuring the values for gears at a later time! :)",
+		"",
+		"You are only required to craft one item to complete this quest."
 	],
 	dependencies: [
 		"2fc72e67"
@@ -93,13 +95,6 @@
 		}]
 	},
 	{
-		uid: "50f5b8fd",
-		type: "item",
-		items: [{
-			item: "mystgears:gear_brass"
-		}]
-	},
-	{
 		uid: "cac66ca2",
 		type: "item",
 		items: [{
@@ -164,10 +159,5 @@
 		uid: "0e98d77a",
 		type: "xp_levels",
 		xp_levels: 10
-	},
-	{
-		uid: "4584ac01",
-		type: "item",
-		item: "aquaculture:loot 1 6"
 	}]
 }

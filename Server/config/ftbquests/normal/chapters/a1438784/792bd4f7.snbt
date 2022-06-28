@@ -4,7 +4,12 @@
 	y: 2.0d,
 	description: "IT IS!",
 	text: [
-		"Iceeeee!"
+		"Iceeeee!",
+		"",
+		"Collect all Necklaces."
+	],
+	dependencies: [
+		"f1e677e8"
 	],
 	tasks: [{
 		uid: "34ceee1e",
@@ -61,6 +66,7 @@
 	{
 		uid: "1f9d4a09",
 		type: "random",
-		table: 19
+		title: "Random Atum Artefact",
+		table: 3
 	}]
 }

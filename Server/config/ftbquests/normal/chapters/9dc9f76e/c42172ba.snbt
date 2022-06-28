@@ -6,9 +6,15 @@
 	text: [
 		"Dive right in!",
 		"",
-		"One fishing rod will catch Minecraft fish and other modded creatures, and the Aquaculture rod will only capture Aquaculture related items.",
+		"The Vanilla Fishing Rod will only capture Vanilla fish.",
 		"",
-		"Applying anything above Lure V to your Rod will break it. Don't do that."
+		"The Aquaculture Fishing Rod will only catch Aquaculture related items.",
+		"",
+		"Applying anything above Lure V to your Rod will break it. Don't do that.",
+		"",
+		"You are required to make a Vanilla AND an Aquaculture Fishing Rod to complete this quest.",
+		"",
+		"THESE ARE TWO DIFFERENT FISHING POLES!"
 	],
 	dependencies: [
 		"16c3f3d7"
@@ -44,6 +50,7 @@
 	{
 		uid: "e98b7114",
 		type: "item",
-		item: "minecraft:slime_ball"
+		item: "minecraft:slime_ball",
+		count: 3
 	}]
 }

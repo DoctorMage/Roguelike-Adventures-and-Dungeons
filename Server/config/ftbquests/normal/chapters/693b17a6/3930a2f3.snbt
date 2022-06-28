@@ -1,0 +1,17 @@
+{
+	title: "Cheating Death",
+	icon: "dungeontactics:candy_skull",
+	x: -16.0d,
+	y: 1.0d,
+	description: "She's calling you",
+	text: [
+		"Survive for 24h."
+	],
+	tasks: [{
+		uid: "45a0dcd5",
+		type: "stat",
+		title: "Survive 24h",
+		stat: "stat.timeSinceDeath",
+		value: 1728000
+	}]
+}

@@ -1,0 +1,177 @@
+{
+	x: 40.0d,
+	y: -7.0d,
+	dependencies: [
+		"8f206c26"
+	],
+	tasks: [{
+		uid: "53d002a4",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:spear_voidmetal",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -6892132060280107432L,
+						UUIDLeast: -6728684131825016491L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.long.name"
+				},
+				TC.WARP: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "707ba648",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:pike_voidmetal",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: 6686672805702291180L,
+						UUIDLeast: -8753453626739572442L,
+						Amount: 0.20000000298023224d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -6248753862137264096L,
+						UUIDLeast: -7421967890890296206L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.sweeping.name"
+				},
+				TC.WARP: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "88f652ab",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:lance_voidmetal",
+			tag: {
+				Quality: {},
+				TC.WARP: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f65b700b",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:halberd_voidmetal",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 6342358837540635285L,
+						UUIDLeast: -7289808082557826038L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -1245476043197955109L,
+						UUIDLeast: -7727484035933300477L,
+						Amount: 0.05000000074505806d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.pokey.name"
+				},
+				TC.WARP: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4de7b066",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:staff_voidmetal",
+			tag: {
+				Quality: {},
+				TC.WARP: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bb1428da",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:glaive_voidmetal",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: 3041178475484761819L,
+						UUIDLeast: -8198793386834428812L,
+						Amount: -1.0d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.short.name"
+				},
+				TC.WARP: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e8f4e19e",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "ab8e866b",
+		type: "xp_levels",
+		xp_levels: 35
+	},
+	{
+		uid: "9d2951f0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
+	}]
+}

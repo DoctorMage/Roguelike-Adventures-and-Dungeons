@@ -21,8 +21,19 @@
 		}]
 	}],
 	rewards: [{
-		uid: "fcc5c536",
-		type: "item",
-		item: "aquaculture:loot 1 6"
+		uid: "380e71c5",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "6635c44d",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "ceb8b21b",
+		type: "random",
+		title: "Random Universal Wizard Artefact",
+		table: 43
 	}]
 }

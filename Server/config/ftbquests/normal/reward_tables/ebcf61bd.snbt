@@ -1,0 +1,116 @@
+{
+	title: "Samurai Class",
+	loot_size: 50,
+	rewards: [{
+		item: "minecraft:arrow",
+		count: 32,
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_chestplate",
+			tag: {
+				Quality: {},
+				display: {
+					Name: "Shogun Chestplate"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_leggings",
+			tag: {
+				Quality: {},
+				display: {
+					Name: "Shogun Greaves"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_boots",
+			tag: {
+				Quality: {},
+				display: {
+					Name: "Shogun Boots"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "spartanweaponry:longbow_invar",
+			tag: {
+				"Quark:ItemNameDye": 8,
+				Quality: {},
+				display: {
+					Name: "Samurai's Longbow"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: "harvestcraft:sushiitem",
+		count: 24,
+		only_one: true
+	},
+	{
+		item: {
+			id: "spartanweaponry:katana_invar",
+			tag: {
+				"Quark:ItemNameDye": 8,
+				Quality: {},
+				display: {
+					Lore: [
+						"A blade passed through your family for generations wield it with honour"
+					],
+					Name: "Shusui"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "mysticalworld:beetle_mask",
+			tag: {
+				"Quark:ItemNameDye": 1,
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 391399746275459219L,
+						UUIDLeast: -7403910016459502634L,
+						Amount: 1.0d,
+						AttributeName: "generic.armorToughness",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.tough.name"
+				},
+				display: {
+					Name: "Samurai's Mask"
+				}
+			}
+		},
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "samurai",
+		item_name: "Crate Of Samurai Equipment",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

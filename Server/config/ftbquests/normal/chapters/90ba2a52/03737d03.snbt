@@ -1,5 +1,6 @@
 {
 	title: "Ghost Buster",
+	icon: "pvj:spectral_wrappings",
 	x: 1.0d,
 	y: -4.5d,
 	description: "You have a lot of calls now",

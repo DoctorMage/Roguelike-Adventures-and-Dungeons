@@ -13,12 +13,12 @@
 		}]
 	}],
 	rewards: [{
-		uid: "6cdba250",
+		uid: "a09544ac",
 		type: "xp_levels",
 		xp_levels: 5
 	},
 	{
-		uid: "a012f4e9",
+		uid: "f306c0fa",
 		type: "ftbmoney:money",
 		ftb_money: 50L
 	}]

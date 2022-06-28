@@ -1,11 +1,15 @@
 {
-	title: "Build A Bridge Workshop!",
+	title: "Build a Bridge Workshop!",
+	icon: "ropebridge:bridge_builder",
 	x: 3.5d,
 	y: -4.5d,
 	description: "Ladders too!",
 	text: [
-		"Requires any wooden slab, and rope to use. Will automatically build a bridge or ladder when holding right-click, then releasing. Has certain limitations. ",
-		""
+		"Builds bridges and ladders when holding and releasing Right-Click at a distance.",
+		"",
+		"Requires Wooden Slabs and Rope to be used.",
+		"",
+		"Has limitations."
 	],
 	dependencies: [
 		"b325bb25"

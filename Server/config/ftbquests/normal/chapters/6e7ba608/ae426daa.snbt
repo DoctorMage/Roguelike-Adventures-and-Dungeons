@@ -1,0 +1,130 @@
+{
+	title: "Reptilian Protection",
+	x: -3.0d,
+	y: -16.0d,
+	description: "You're as mean as they are now!",
+	text: [
+		"Craft a set of Iguana Scale Armor."
+	],
+	dependencies: [
+		"e27d8e89"
+	],
+	tasks: [{
+		uid: "5bc1ff72",
+		type: "item",
+		items: [{
+			id: "tropicraft:scale_helmet",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "eb4ebae2",
+		type: "item",
+		items: [{
+			id: "tropicraft:scale_chestplate",
+			tag: {
+				Quality: {
+					Slots: [
+						"chest"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 4455143347013829705L,
+						UUIDLeast: -8314331193922539309L,
+						Amount: -1.0d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.dented.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e085fab4",
+		type: "item",
+		items: [{
+			id: "tropicraft:scale_leggings",
+			tag: {
+				Quality: {
+					Slots: [
+						"legs"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: -739146653939054041L,
+						UUIDLeast: -5454664336259307585L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -1352539876165334318L,
+						UUIDLeast: -6854516717461400270L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.thick.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4ce2b9e3",
+		type: "item",
+		items: [{
+			id: "tropicraft:scale_boots",
+			tag: {
+				Quality: {
+					Slots: [
+						"feet"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 6996020340740869550L,
+						UUIDLeast: -6564995641651005996L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.speedy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eaa2b0e2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "ffb83f3d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "87341b3a",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

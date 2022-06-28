@@ -1,0 +1,42 @@
+{
+	x: 9.5d,
+	y: -3.5d,
+	dependencies: [
+		"d61d7f87"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "45011948",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stabilizer"
+		}]
+	},
+	{
+		uid: "9dc8305f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:inlay"
+		}]
+	}],
+	rewards: [{
+		uid: "757b10dd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "0c4d1b62",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5c656bcf",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

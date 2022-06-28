@@ -33,6 +33,7 @@
 	{
 		uid: "7d7364b2",
 		type: "item",
+		title: "&6Tablet of Assistance",
 		items: [{
 			item: "tombstone:tablet_of_assistance"
 		}],

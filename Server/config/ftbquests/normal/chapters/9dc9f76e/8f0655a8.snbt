@@ -4,7 +4,9 @@
 	y: 2.0d,
 	description: "Oh I KNOW you hate them",
 	text: [
-		"After all your hard work killing Goons, you can make this nasty stuff. Not sure what to do with it? Well... this goes into your food... basically."
+		"After all your hard work killing Goons, you can make this nasty stuff. Not sure what to do with it? Well... this goes into your food... basically.",
+		"",
+		"Use this to power your Mystical Grill!"
 	],
 	dependencies: [
 		"79095e08"

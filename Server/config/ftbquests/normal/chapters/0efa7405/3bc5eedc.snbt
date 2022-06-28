@@ -1,0 +1,42 @@
+{
+	x: 5.0d,
+	y: -12.0d,
+	dependencies: [
+		"7c204714"
+	],
+	tasks: [{
+		uid: "ba70c09f",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "liquid_death",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "197e9131",
+		type: "item",
+		items: [{
+			item: "thaumcraft:bottle_taint"
+		}]
+	}],
+	rewards: [{
+		uid: "d83a1b03",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "d480ce8b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "0e29fb9a",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

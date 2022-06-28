@@ -1,16 +1,15 @@
 {
-	title: "Village Idiot IV",
+	title: "Trader Joe IV",
 	x: -11.5d,
 	y: -2.0d,
-	description: "You have a double digit IQ",
+	description: "I traded Wheat for a Nether Star",
 	text: [
-		"Unheard of in the Minecraft world.",
-		"",
-		"Trade with villagers 5,000 times."
+		"Trade with... anything... 5,000 times."
 	],
 	tasks: [{
 		uid: "f8d28e74",
 		type: "stat",
+		title: "Make 5,000 Trades",
 		icon: "minecraft:book",
 		stat: "stat.tradedWithVillager",
 		value: 5000

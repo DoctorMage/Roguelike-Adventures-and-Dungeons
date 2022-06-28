@@ -94,12 +94,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "33e32a76",
-		type: "random",
-		title: "Random Storm Wizard Artefact",
-		table: 14
-	},
-	{
 		uid: "f1fd6b4c",
 		type: "ftbmoney:money",
 		ftb_money: 100L

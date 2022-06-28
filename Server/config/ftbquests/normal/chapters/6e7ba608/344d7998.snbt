@@ -1,0 +1,266 @@
+{
+	title: "Midget Murderer",
+	x: -3.0d,
+	y: -6.5d,
+	description: "Who'd you kill for these masks?",
+	text: [
+		"I know what you did."
+	],
+	dependencies: [
+		"f61dcb12"
+	],
+	tasks: [{
+		uid: "5e0fb2cf",
+		type: "item",
+		items: [{
+			id: "tropicraft:mask_square_zord",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "80d84c75",
+		type: "item",
+		items: [{
+			id: "tropicraft:mask_horn_monkey",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e58783ed",
+		type: "item",
+		items: [{
+			id: "tropicraft:mask_oblongatron",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 4100385009792797897L,
+						UUIDLeast: -8216626933637200714L,
+						Amount: 1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.arcane.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ca91762a",
+		type: "item",
+		items: [{
+			id: "tropicraft:mask_headinator",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b2208b0c",
+		type: "item",
+		items: [{
+			id: "tropicraft:mask_square_horn",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "35008d4a",
+		type: "item",
+		items: [{
+			id: "tropicraft:mask_screw_attack",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -7137364422959610769L,
+						UUIDLeast: -7594463869788174747L,
+						Amount: 1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.arcane.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "35ea439e",
+		type: "item",
+		items: [{
+			id: "tropicraft:mask_the_brain",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "45c2460e",
+		type: "item",
+		items: [{
+			id: "tropicraft:mask_bat_boy",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 6682966890959228523L,
+						UUIDLeast: -5284119736311413391L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -1411078226608045053L,
+						UUIDLeast: -5740653413141511150L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.thick.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5b0b3eba",
+		type: "item",
+		items: [{
+			id: "tropicraft:mask_ashen_mask1",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a268670e",
+		type: "item",
+		items: [{
+			id: "tropicraft:mask_ashen_mask2",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d217c25c",
+		type: "item",
+		items: [{
+			id: "tropicraft:mask_ashen_mask3",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -4454166202629140887L,
+						UUIDLeast: -8166610448836320131L,
+						Amount: 0.5d,
+						AttributeName: "generic.luck",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.lucky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "72508e15",
+		type: "item",
+		items: [{
+			id: "tropicraft:mask_ashen_mask4",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f8cddfa3",
+		type: "item",
+		items: [{
+			id: "tropicraft:mask_ashen_mask5",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -4502554003724613557L,
+						UUIDLeast: -8160118135821408111L,
+						Amount: 0.5d,
+						AttributeName: "generic.luck",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.lucky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f85d59b9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "393ecd14",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "517df23f",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

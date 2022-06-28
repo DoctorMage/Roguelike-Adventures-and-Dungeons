@@ -1,0 +1,208 @@
+{
+	title: "Thief Class",
+	loot_size: 50,
+	rewards: [{
+		item: {
+			id: "minecraft:chainmail_helmet",
+			tag: {
+				"Quark:ItemNameDye": 7,
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -7318988283784313981L,
+						UUIDLeast: -9092959836226143158L,
+						Amount: 0.5d,
+						AttributeName: "generic.luck",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.lucky.name"
+				},
+				display: {
+					Name: "Thief's Lucky Hat"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:chainmail_chestplate",
+			tag: {
+				"Quark:ItemNameDye": 7,
+				Quality: {
+					Slots: [
+						"chest"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -789819005643438509L,
+						UUIDLeast: -6206504634097689558L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.protective.name"
+				},
+				display: {
+					Name: "Thief's Chainmail"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:chainmail_leggings",
+			tag: {
+				"Quark:ItemNameDye": 7,
+				Quality: {
+					Slots: [
+						"legs"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 5805975603309857448L,
+						UUIDLeast: -5992164683496189690L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.protective.name"
+				},
+				display: {
+					Name: "Thief's Leggings"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "spartanweaponry:dagger_invar",
+			tag: {
+				"Quark:RuneColor": 8,
+				ench: [{
+					lvl: 1s,
+					id: 21
+				}],
+				"Quark:ItemNameDye": 7,
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -4189445466217627593L,
+						UUIDLeast: -6488452619633009502L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -6559915912720923189L,
+						UUIDLeast: -7263757639049342708L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.clumsy.name"
+				},
+				display: {
+					Lore: [
+						"A dagger common amongst thieves."
+					],
+					Name: "Thief's Dagger"
+				},
+				"Quark:RuneAttached": 1b
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "cyclicmagic:glove_climb",
+			tag: {
+				"Quark:RuneColor": 8,
+				ench: [{
+					lvl: 1s,
+					id: 34
+				}],
+				"Quark:ItemNameDye": 7,
+				Quality: {},
+				display: {
+					Lore: [
+						"Gloves used for climbing along walls it's worn out from extensive usage."
+					],
+					Name: "Thief's Worn Climbing Gloves"
+				},
+				"Quark:RuneAttached": 1b
+			},
+			Damage: 4500s
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "harvestcraft:cheeseitem",
+			tag: {
+				"Quark:ItemNameDye": 11,
+				display: {
+					Lore: [
+						"Cheese 'borrowed' from the most high class cheese seller."
+					],
+					Name: "Luxurious Cheese"
+				}
+			}
+		},
+		count: 48,
+		only_one: true
+	},
+	{
+		item: "ebwizardry:smoke_bomb",
+		count: 8,
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:chainmail_boots",
+			tag: {
+				Quality: {
+					Slots: [
+						"feet"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: -5014445861857505700L,
+						UUIDLeast: -8513599938011762302L,
+						Amount: -1.0d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.dented.name"
+				},
+				display: {
+					Name: "Thief's Boots"
+				}
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "thief",
+		item_name: "Crate Of Thief Gear",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

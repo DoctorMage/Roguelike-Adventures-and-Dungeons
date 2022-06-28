@@ -1,0 +1,61 @@
+{
+	x: 0.5d,
+	y: -10.0d,
+	dependencies: [
+		"f61dcb12"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "35124280",
+		type: "item",
+		items: [{
+			item: "tropicraft:bundle 1 1"
+		}]
+	},
+	{
+		uid: "f707f845",
+		type: "item",
+		items: [{
+			item: "tropicraft:log"
+		}]
+	},
+	{
+		uid: "92102f58",
+		type: "item",
+		items: [{
+			item: "tropicraft:log 1 1"
+		}]
+	},
+	{
+		uid: "d48d71e4",
+		type: "item",
+		items: [{
+			item: "tropicraft:thatch_stairs_fuzzy"
+		}]
+	},
+	{
+		uid: "f6b503dd",
+		type: "item",
+		items: [{
+			item: "tropicraft:bundle"
+		}]
+	},
+	{
+		uid: "b1b7c858",
+		type: "item",
+		items: [{
+			item: "comforts:hammock"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c81ed9ef",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	}]
+}

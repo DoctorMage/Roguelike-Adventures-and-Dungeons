@@ -6,6 +6,9 @@
 	text: [
 		"Working similar to the Coil, the Spectre Charger will charge any items inside your inventory which take FE. You must be wearing the item for this effect to be active."
 	],
+	dependencies: [
+		"4695c2a6"
+	],
 	tasks: [{
 		uid: "20fbb239",
 		type: "item",

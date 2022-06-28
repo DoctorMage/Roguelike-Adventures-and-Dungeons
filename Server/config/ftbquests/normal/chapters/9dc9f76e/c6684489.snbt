@@ -4,7 +4,9 @@
 	y: 7.5d,
 	description: "Bad dog!",
 	text: [
-		"New levels! Dire levels! Like Paragon levels... or prestiging... but for your dog. Levels up to 30."
+		"They're like Paragon Levels... or Prestiging.",
+		"",
+		"Feed your doggy Dire Treats until Dire Level 30!"
 	],
 	dependencies: [
 		"df8f3703"
@@ -26,5 +28,11 @@
 		uid: "0a70075f",
 		type: "xp_levels",
 		xp_levels: 5
+	},
+	{
+		uid: "00525dfb",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 16
 	}]
 }

@@ -6,7 +6,7 @@
 	text: [
 		"Using a Training Treat on a tamed Wolf will turn it into a Doggy Talents ready doggy!",
 		"",
-		"Feed your doggy Training Treats till level 20, where it will then need something more satisfying!"
+		"Feed your doggy Training Treats until level 20!"
 	],
 	dependencies: [
 		"a455aa9f"

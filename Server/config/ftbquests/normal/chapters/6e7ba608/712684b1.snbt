@@ -1,0 +1,76 @@
+{
+	title: "Sea Shore Sally",
+	x: 0.0d,
+	y: -12.0d,
+	description: "Selling seashells by the sea shore",
+	text: [
+		"Collect all shell decorations.",
+		"",
+		"They can be placed as wall objects."
+	],
+	dependencies: [
+		"5ea1c5e5"
+	],
+	tasks: [{
+		uid: "5a1f3d09",
+		type: "item",
+		items: [{
+			item: "tropicraft:shell"
+		}]
+	},
+	{
+		uid: "225d58ed",
+		type: "item",
+		items: [{
+			item: "tropicraft:shell 1 1"
+		}]
+	},
+	{
+		uid: "8d10ceec",
+		type: "item",
+		items: [{
+			item: "tropicraft:shell 1 2"
+		}]
+	},
+	{
+		uid: "6e7318b4",
+		type: "item",
+		items: [{
+			item: "tropicraft:shell 1 3"
+		}]
+	},
+	{
+		uid: "bcd736a3",
+		type: "item",
+		items: [{
+			item: "tropicraft:shell 1 4"
+		}]
+	},
+	{
+		uid: "8c80d519",
+		type: "item",
+		items: [{
+			item: "tropicraft:shell 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "47398bf7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "7d318577",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "cd371fb9",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

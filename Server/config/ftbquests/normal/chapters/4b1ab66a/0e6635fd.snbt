@@ -7,6 +7,17 @@
 		items: [{
 			item: "harvestcraft:grapeitem"
 		}],
-		count: 64L
+		count: 500L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "09a9e07e",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "d3ce6e82",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

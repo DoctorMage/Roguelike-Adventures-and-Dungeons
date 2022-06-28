@@ -1,5 +1,6 @@
 {
 	title: "Malevolent Shmevolent",
+	icon: "chancecubes:chance_icosahedron",
 	x: 4.5d,
 	y: 1.0d,
 	description: "You're gonna die!",
@@ -22,6 +23,6 @@
 	{
 		uid: "735d0c98",
 		type: "xp_levels",
-		xp_levels: 75
+		xp_levels: 350
 	}]
 }

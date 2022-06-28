@@ -16,8 +16,18 @@
 		ftb_money: 50L
 	},
 	{
-		uid: "956ee69e",
+		uid: "022b2004",
 		type: "xp_levels",
-		xp_levels: 1
+		xp_levels: 10
+	},
+	{
+		uid: "7c2ce6fd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
 	}]
 }

@@ -7,6 +7,17 @@
 		items: [{
 			item: "harvestcraft:tomatilloitem"
 		}],
-		count: 64L
+		count: 500L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "1ef7094d",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "e9b02863",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

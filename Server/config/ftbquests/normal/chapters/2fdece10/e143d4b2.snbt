@@ -1,0 +1,111 @@
+{
+	x: 37.0d,
+	y: -2.0d,
+	dependencies: [
+		"317d659b"
+	],
+	tasks: [{
+		uid: "a8039c89",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:warhammer_thaumium",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5e02d19a",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:hammer_thaumium",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: -6890344489588407024L,
+						UUIDLeast: -5957299632693430358L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 3553757872906259175L,
+						UUIDLeast: -5523110698196189741L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.thin.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2dce2e34",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:battleaxe_thaumium",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "26bafee9",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:mace_thaumium",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: -3589390698683873393L,
+						UUIDLeast: -7095204859944805305L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broken.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45c6ace2",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "e3900cdc",
+		type: "xp_levels",
+		xp_levels: 35
+	},
+	{
+		uid: "066744e2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
+	}]
+}

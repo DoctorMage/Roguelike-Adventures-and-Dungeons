@@ -1,0 +1,170 @@
+{
+	title: "Mystical Master Statue",
+	x: 23.0d,
+	y: -36.5d,
+	description: "Electroblob's Wizardry",
+	text: [
+		"LxWxH: 19x27x67",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A marble statue of a wizard with a Master Sorcerer wand over an open book."
+	],
+	tasks: [{
+		uid: "75b1b94f",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "512a0392",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 3,
+				TemplateName: "Mystical Master Statue",
+				UUID: "a3dcca55-f1ab-40df-9678-e68c07de0011",
+				startPos: {
+					X: 356,
+					Y: 5,
+					Z: -116
+				},
+				itemcountmap: [{
+					item: 5989,
+					meta: 0,
+					count: 673
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 5586,
+					meta: 13,
+					count: 16
+				},
+				{
+					item: 9175,
+					meta: 0,
+					count: 20
+				},
+				{
+					item: 5555,
+					meta: 3,
+					count: 54
+				},
+				{
+					item: 6187,
+					meta: 0,
+					count: 20
+				},
+				{
+					item: 9135,
+					meta: 0,
+					count: 26
+				},
+				{
+					item: 9166,
+					meta: 1,
+					count: 20
+				},
+				{
+					item: 5611,
+					meta: 8,
+					count: 787
+				},
+				{
+					item: 5627,
+					meta: 1,
+					count: 72
+				},
+				{
+					item: 5613,
+					meta: 2,
+					count: 32
+				},
+				{
+					item: 5991,
+					meta: 0,
+					count: 48
+				},
+				{
+					item: 5554,
+					meta: 3,
+					count: 103
+				},
+				{
+					item: 168,
+					meta: 1,
+					count: 401
+				},
+				{
+					item: 216,
+					meta: 0,
+					count: 118
+				},
+				{
+					item: 5626,
+					meta: 10,
+					count: 14
+				},
+				{
+					item: 5536,
+					meta: 7,
+					count: 1
+				},
+				{
+					item: 5536,
+					meta: 5,
+					count: 26
+				},
+				{
+					item: 5536,
+					meta: 3,
+					count: 44
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 5611,
+					meta: 7,
+					count: 40
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 6001,
+					meta: 1,
+					count: 20
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 6185,
+					meta: 0,
+					count: 21
+				},
+				{
+					item: 5610,
+					meta: 11,
+					count: 64
+				}],
+				endPos: {
+					X: 382,
+					Y: 71,
+					Z: -98
+				}
+			}
+		}
+	}]
+}

@@ -1,6 +1,7 @@
 {
 	x: 13.5d,
 	y: -3.0d,
+	or_tasks: true,
 	tasks: [{
 		uid: "f7966265",
 		type: "item",
@@ -21,12 +22,15 @@
 		items: [{
 			item: "embers:ingot_silver"
 		}]
+	}],
+	rewards: [{
+		uid: "fc44fb49",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	},
 	{
-		uid: "1acbf369",
-		type: "item",
-		items: [{
-			item: "mysticalworld:silver_ingot"
-		}]
+		uid: "6fc46782",
+		type: "xp_levels",
+		xp_levels: 10
 	}]
 }

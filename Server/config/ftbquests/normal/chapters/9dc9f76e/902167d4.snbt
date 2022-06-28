@@ -25,13 +25,18 @@
 		ftb_money: 20L
 	},
 	{
-		uid: "84ab6b54",
-		type: "item",
-		item: "improvedbackpacks:tanned_leather",
-		count: 6
+		uid: "d882810f",
+		type: "xp_levels",
+		xp_levels: 2
 	},
 	{
-		uid: "58ea0512",
+		uid: "6f6c42ce",
+		type: "item",
+		item: "minecraft:leather",
+		count: 12
+	},
+	{
+		uid: "ecae3b99",
 		type: "item",
 		item: "minecraft:dye",
 		count: 4

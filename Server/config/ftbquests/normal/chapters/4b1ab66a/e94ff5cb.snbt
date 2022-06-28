@@ -7,6 +7,16 @@
 		items: [{
 			item: "harvestcraft:blueberryitem"
 		}],
-		count: 64L
+		count: 500L
+	}],
+	rewards: [{
+		uid: "37423c32",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "0cc0476a",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

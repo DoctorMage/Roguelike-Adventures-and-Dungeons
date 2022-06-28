@@ -1,8 +1,8 @@
 {
 	title: "Apocalypse Now",
+	icon: "minecraft:rotten_flesh",
 	x: -1.0d,
 	y: -5.5d,
-	shape: "octagon",
 	description: "World War Z didn't have a thing on this game",
 	text: [
 		"Kill 50 Zombies",

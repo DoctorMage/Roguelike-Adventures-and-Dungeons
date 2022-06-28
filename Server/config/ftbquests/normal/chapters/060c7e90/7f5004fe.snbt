@@ -73,12 +73,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "cfc0deac",
-		type: "choice",
-		title: "Choice Earth Wizard Artefact",
-		table: 16
-	},
-	{
 		uid: "78db6239",
 		type: "ftbmoney:money",
 		ftb_money: 300L
@@ -87,10 +81,5 @@
 		uid: "45975af2",
 		type: "xp_levels",
 		xp_levels: 30
-	},
-	{
-		uid: "5169f91d",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:spinachitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "8a37825a",

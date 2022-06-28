@@ -3,6 +3,11 @@
 	x: 13.5d,
 	y: 2.5d,
 	description: "This stuff looks contagious",
+	text: [
+		"So THIS is where COVID came from!",
+		"",
+		"Obtain some Jungle Myrmex Resin."
+	],
 	tasks: [{
 		uid: "45e20dbe",
 		type: "item",

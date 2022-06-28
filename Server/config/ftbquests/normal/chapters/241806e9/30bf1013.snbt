@@ -203,6 +203,24 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "15216260",
+		type: "item",
+		items: [{
+			item: "dungeontactics:alchemist_brew"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "82a216c5",
+		type: "item",
+		items: [{
+			item: "dungeontactics:terrible_feather"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "f47392d4",

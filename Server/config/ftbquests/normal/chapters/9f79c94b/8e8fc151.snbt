@@ -1,0 +1,105 @@
+{
+	title: "Thaumic Jar Storage",
+	x: -10.0d,
+	y: -17.5d,
+	description: "Thaumcraft 6",
+	text: [
+		"LxWxH: 25x25x14",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A storage circle for jars in Thaumic purple. There are 53 slots available on the ledge. ",
+		"",
+		"NOTE:",
+		"",
+		"- 4 Arcane Pedestals required to replace Cyan Wool blocks."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "b0fac8d4",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "09b218ce",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Thaumic Jar Storage",
+				UUID: "25c9cb7d-2242-4e7d-a3a2-29d83c9e5cb3",
+				startPos: {
+					X: 298,
+					Y: 4,
+					Z: -103
+				},
+				itemcountmap: [{
+					item: 9134,
+					meta: 0,
+					count: 76
+				},
+				{
+					item: 5543,
+					meta: 11,
+					count: 155
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 5543,
+					meta: 10,
+					count: 64
+				},
+				{
+					item: 5245,
+					meta: 0,
+					count: 278
+				},
+				{
+					item: 5583,
+					meta: 12,
+					count: 10
+				},
+				{
+					item: 9136,
+					meta: 0,
+					count: 28
+				},
+				{
+					item: 35,
+					meta: 9,
+					count: 4
+				},
+				{
+					item: 5257,
+					meta: 0,
+					count: 132
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5254,
+					meta: 0,
+					count: 87
+				}],
+				endPos: {
+					X: 274,
+					Y: 17,
+					Z: -127
+				}
+			}
+		}
+	}]
+}

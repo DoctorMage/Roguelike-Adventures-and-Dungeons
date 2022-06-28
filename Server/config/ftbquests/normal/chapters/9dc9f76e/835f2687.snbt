@@ -1,10 +1,12 @@
 {
 	title: "African Honey Bee Honey",
-	x: 6.5d,
-	y: 3.5d,
+	x: -1.5d,
+	y: 4.5d,
 	description: "The sweetest you'll ever find",
 	text: [
-		"Can be crushed in a Crushing Tub to create Honey. Must then be trasferred somehow."
+		"The Honeycomb can be crushed in a Crushing Tub to produce Honey.",
+		"",
+		"You must transfer the Honey by hand, or with some type of piping system."
 	],
 	dependencies: [
 		"f1310661"
@@ -29,6 +31,7 @@
 	{
 		uid: "8d838e9a",
 		type: "item",
-		item: "minecraft:emerald"
+		item: "minecraft:emerald",
+		count: 3
 	}]
 }

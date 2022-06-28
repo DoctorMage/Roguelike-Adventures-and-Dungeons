@@ -32,5 +32,11 @@
 		type: "item",
 		item: "atum:date",
 		count: 16
+	},
+	{
+		uid: "bbb2e932",
+		type: "item",
+		item: "minecraft:sand",
+		count: 64
 	}]
 }

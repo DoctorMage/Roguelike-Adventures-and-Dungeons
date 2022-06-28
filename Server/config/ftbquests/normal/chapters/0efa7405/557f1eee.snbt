@@ -1,0 +1,29 @@
+{
+	x: 6.5d,
+	y: 3.0d,
+	dependencies: [
+		"087a1f58"
+	],
+	tasks: [{
+		uid: "63cc07d4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:levitator"
+		}]
+	}],
+	rewards: [{
+		uid: "4559b868",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "28a401a9",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "de5d88b5",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

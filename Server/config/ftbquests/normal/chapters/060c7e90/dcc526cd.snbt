@@ -1,0 +1,66 @@
+{
+	x: -25.0d,
+	y: 16.5d,
+	dependencies: [
+		"012072e4"
+	],
+	tasks: [{
+		uid: "18abcd52",
+		type: "item",
+		items: [{
+			item: "ancientspellcraft:sage_tome_advanced_fire"
+		}]
+	},
+	{
+		uid: "b8195e26",
+		type: "item",
+		items: [{
+			item: "ancientspellcraft:sage_tome_advanced_ice"
+		}]
+	},
+	{
+		uid: "bab87f46",
+		type: "item",
+		items: [{
+			item: "ancientspellcraft:sage_tome_advanced_lightning"
+		}]
+	},
+	{
+		uid: "e60adc7d",
+		type: "item",
+		items: [{
+			item: "ancientspellcraft:sage_tome_advanced_necromancy"
+		}]
+	},
+	{
+		uid: "e3f294b3",
+		type: "item",
+		items: [{
+			item: "ancientspellcraft:sage_tome_advanced_earth"
+		}]
+	},
+	{
+		uid: "c6f2d932",
+		type: "item",
+		items: [{
+			item: "ancientspellcraft:sage_tome_advanced_sorcery"
+		}]
+	},
+	{
+		uid: "61dc7725",
+		type: "item",
+		items: [{
+			item: "ancientspellcraft:sage_tome_advanced_healing"
+		}]
+	}],
+	rewards: [{
+		uid: "f8ad19c6",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "e6d62ad8",
+		type: "xp_levels",
+		xp_levels: 40
+	}]
+}

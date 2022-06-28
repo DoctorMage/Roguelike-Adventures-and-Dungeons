@@ -1,0 +1,34 @@
+{
+	x: 0.5d,
+	y: -4.0d,
+	dependencies: [
+		"03bff484"
+	],
+	tasks: [{
+		uid: "b89f4aba",
+		type: "item",
+		items: [{
+			item: "midnight:ebonys"
+		}]
+	}],
+	rewards: [{
+		uid: "bf686e6f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "dc171e3f",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "398120ad",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

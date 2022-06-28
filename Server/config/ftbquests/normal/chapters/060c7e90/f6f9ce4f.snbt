@@ -87,12 +87,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "c57ad273",
-		type: "choice",
-		title: "Choice Universal Wizard Artefact",
-		table: 11
-	},
-	{
 		uid: "a66c9bf0",
 		type: "ftbmoney:money",
 		ftb_money: 300L
@@ -101,15 +95,5 @@
 		uid: "80ab87ff",
 		type: "xp_levels",
 		xp_levels: 30
-	},
-	{
-		uid: "a6636a10",
-		type: "item",
-		item: "aquaculture:loot 1 5"
-	},
-	{
-		uid: "a0a3b38f",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

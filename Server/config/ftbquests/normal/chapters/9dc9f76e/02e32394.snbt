@@ -1,5 +1,5 @@
 {
-	title: "Spin To Win",
+	title: "Spin to Win",
 	icon: "mysticalworld:spindle",
 	x: -2.5d,
 	y: -4.5d,
@@ -9,11 +9,14 @@
 		"",
 		"Silk Cocoons are obtained from Silk Worms. You cannot find them in the wild, but you can obtain their eggs by breaking leaves.",
 		"",
-		"Right-Clicking with these eggs will spawn Silk Worms. They will grow overtime, and if you feed them more Leaves.",
+		"Right-Clicking with these eggs will spawn Silk Worms. They will grow when fed Leaves. Simply throw the Leaves onto the ground.",
 		"",
 		"Eventually, when they are big enough, they will spawn Silk Cocoons. These can be combined with a Spindle to make Silk Thread.",
 		"",
-		"Silk Thread is a sustainable alternative to String."
+		"Silk Thread is a highly sustainable alternative to String."
+	],
+	dependencies: [
+		"293e9097"
 	],
 	size: 1.3d,
 	tasks: [{

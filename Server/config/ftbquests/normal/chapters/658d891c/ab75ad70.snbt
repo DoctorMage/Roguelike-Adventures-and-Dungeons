@@ -1,10 +1,10 @@
 {
-	title: "Sings Like A Snake",
+	title: "Sings Like a Snake",
 	x: 17.5d,
 	y: 1.5d,
 	description: "Hissing through the air",
 	text: [
-		"Deadly arrows adorned with the fang of a Hydra."
+		"Deadly arrows adorned with the fangs of Hydras."
 	],
 	tasks: [{
 		uid: "cbd22193",

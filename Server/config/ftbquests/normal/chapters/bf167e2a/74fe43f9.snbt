@@ -4,7 +4,7 @@
 	y: -20.5d,
 	description: "Seriously, I have cuts everywhere",
 	text: [
-		"Obtain Obsidian Armor."
+		"Obtain a set of Obsidian Armor."
 	],
 	dependencies: [
 		"3b01c990"

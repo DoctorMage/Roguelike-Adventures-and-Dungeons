@@ -58,12 +58,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "ca5d8d73",
-		type: "random",
-		title: "Random Ice Wizard Artefact",
-		table: 13
-	},
-	{
 		uid: "4db59b41",
 		type: "ftbmoney:money",
 		ftb_money: 100L

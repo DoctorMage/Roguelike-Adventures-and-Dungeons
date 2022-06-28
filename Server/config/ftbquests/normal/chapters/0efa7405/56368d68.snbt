@@ -1,0 +1,31 @@
+{
+	x: -8.0d,
+	y: -4.75d,
+	dependencies: [
+		"8e7bca3c"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "68726c98",
+		type: "item",
+		items: [{
+			item: "thaumcraft:amulet_vis 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6a0584e9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "08cbf719",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "primary_vis_crystals"
+			}
+		}
+	}]
+}

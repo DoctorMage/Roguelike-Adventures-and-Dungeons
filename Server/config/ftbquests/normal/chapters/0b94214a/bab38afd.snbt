@@ -1,0 +1,19 @@
+{
+	x: 7.0d,
+	y: -11.0d,
+	description: "It's not a rock!",
+	text: [
+		"Craft some Ender Amethyst Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e515d867"
+	],
+	tasks: [{
+		uid: "505a6ccb",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ender_amethyst_seeds"
+		}]
+	}]
+}

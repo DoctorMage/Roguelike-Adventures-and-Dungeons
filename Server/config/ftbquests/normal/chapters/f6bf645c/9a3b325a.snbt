@@ -81,11 +81,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "b870ef7e",
-		type: "ftbmoney:money",
-		ftb_money: 50L
-	},
-	{
 		uid: "7987d4ef",
 		type: "ftbmoney:money",
 		ftb_money: 50L

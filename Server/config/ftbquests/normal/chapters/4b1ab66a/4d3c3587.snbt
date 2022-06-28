@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:bananaitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "1b77f409",

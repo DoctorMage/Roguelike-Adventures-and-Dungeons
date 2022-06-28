@@ -8,7 +8,7 @@
 		"",
 		"Right-Clicking on a water source block will fill the can.",
 		"",
-		"Right-Clicking on a growing crop willa ccelerate the growth of the crop by a small amount.",
+		"Right-Clicking on a growing crop will accelerate the growth of the crop by a small amount.",
 		"",
 		"Holding, or rapidly Right-Clicking will accelerate the growth of a crop at a faster rate."
 	],
@@ -22,11 +22,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "d596f0ba",
-		type: "item",
-		item: "aquaculture:loot 1 5"
-	},
-	{
 		uid: "38bb2d7f",
 		type: "xp_levels",
 		xp_levels: 5

@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:durianitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "3c83998c",

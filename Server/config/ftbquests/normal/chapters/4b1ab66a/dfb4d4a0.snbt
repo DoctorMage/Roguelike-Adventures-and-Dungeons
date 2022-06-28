@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:peppercornitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "37d33bc4",

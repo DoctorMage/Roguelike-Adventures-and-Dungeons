@@ -1,13 +1,13 @@
 {
-	title: "Are You Allergic To Anything?",
-	x: 18.0d,
-	y: -2.0d,
+	title: "Are You Allergic to Anything?",
+	x: 21.0d,
+	y: -1.0d,
 	description: "Peanuts, Shellfish, Nuts, and Red Meat.",
 	text: [
 		"You poor soul."
 	],
 	dependencies: [
-		"311cdfc1"
+		"271fdf51"
 	],
 	tasks: [{
 		uid: "1089a0ad",

@@ -31,5 +31,10 @@
 		uid: "d1ed6697",
 		type: "item",
 		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "14954e5c",
+		type: "item",
+		item: "megaloot:weaponcase_epic"
 	}]
 }

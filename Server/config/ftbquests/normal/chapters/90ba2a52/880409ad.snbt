@@ -1,6 +1,19 @@
 {
-	x: 19.0d,
-	y: -4.0d,
+	title: "Artefacft Trader (Silver)",
+	x: 8.0d,
+	y: -3.5d,
+	description: "Silver heirlooms here!",
+	text: [
+		"Sell your unwanted Silver Artefacts.",
+		"",
+		"Submit ONE stack of Silver Artefacts to complete this quest.",
+		"",
+		"Collect the reward after each completion.",
+		"",
+		"You will not receive rewards for more than one stack submission at a time."
+	],
+	can_repeat: true,
+	or_tasks: true,
 	tasks: [{
 		uid: "dd44be02",
 		type: "item",
@@ -45,5 +58,20 @@
 		uid: "037801b9",
 		type: "ftbmoney:money",
 		ftb_money: 20L
+	},
+	{
+		uid: "e677971b",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "97cf0d49",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
 	}]
 }

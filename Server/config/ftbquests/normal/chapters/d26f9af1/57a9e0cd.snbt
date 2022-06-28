@@ -28,27 +28,8 @@
 		items: [{
 			item: "extrautils2:ingredients 1 8"
 		}]
-	},
-	{
-		uid: "0cd9ed00",
-		type: "item",
-		items: [{
-			item: "extrautils2:ingredients 1 15"
-		}]
-	},
-	{
-		uid: "bd718816",
-		type: "item",
-		items: [{
-			item: "extrautils2:ingredients 1 16"
-		}]
 	}],
 	rewards: [{
-		uid: "2a99f8ac",
-		type: "item",
-		item: "aquaculture:loot 1 6"
-	},
-	{
 		uid: "31b7b8d8",
 		type: "xp_levels",
 		xp_levels: 5

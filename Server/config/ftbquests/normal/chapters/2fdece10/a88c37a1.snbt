@@ -7,5 +7,15 @@
 		items: [{
 			item: "embers:ingot_electrum"
 		}]
+	}],
+	rewards: [{
+		uid: "e97012e7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1a3e7882",
+		type: "xp_levels",
+		xp_levels: 10
 	}]
 }

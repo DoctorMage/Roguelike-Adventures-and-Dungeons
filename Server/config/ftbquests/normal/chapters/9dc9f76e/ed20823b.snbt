@@ -1,5 +1,5 @@
 {
-	title: "Sid The Obsidian",
+	title: "Sid the Obsidian",
 	x: 2.0d,
 	y: -9.5d,
 	description: "He's my friend",
@@ -11,6 +11,7 @@
 	dependencies: [
 		"f1196cf2"
 	],
+	size: 2.0d,
 	tasks: [{
 		uid: "e94447bb",
 		type: "item",
@@ -27,5 +28,17 @@
 		uid: "c9673064",
 		type: "xp_levels",
 		xp_levels: 10
+	},
+	{
+		uid: "202920fd",
+		type: "item",
+		item: "minecraft:flint",
+		count: 32
+	},
+	{
+		uid: "f9351a25",
+		type: "item",
+		item: "minecraft:coal",
+		count: 64
 	}]
 }

@@ -1,14 +1,15 @@
 {
-	title: "Village Idiot III",
+	title: "Trader Joe III",
 	x: -11.5d,
 	y: -1.0d,
-	description: "You're like a genius, now atleast",
+	description: "From Duck Tape, to BMWs, we trade it all",
 	text: [
-		"Trade with villagers 2,500 times."
+		"Trade with... anything... 2,500 times."
 	],
 	tasks: [{
 		uid: "c85f320c",
 		type: "stat",
+		title: "Make 2,500 Trades",
 		icon: "minecraft:book",
 		stat: "stat.tradedWithVillager",
 		value: 2500

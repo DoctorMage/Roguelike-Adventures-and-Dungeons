@@ -7,5 +7,15 @@
 		items: [{
 			item: "embers:ingot_copper"
 		}]
+	}],
+	rewards: [{
+		uid: "edff6888",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "e25bfa78",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

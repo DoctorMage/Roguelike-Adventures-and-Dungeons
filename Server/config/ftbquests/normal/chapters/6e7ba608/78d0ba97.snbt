@@ -1,0 +1,43 @@
+{
+	title: "Water Wisk-Awayer",
+	x: -4.5d,
+	y: -5.5d,
+	description: "More like water waster",
+	text: [
+		"People in a Badlands biome could use that water.",
+		"",
+		"This item will absorb water and make it NO MORE!"
+	],
+	dependencies: [
+		"5064de44"
+	],
+	tasks: [{
+		uid: "6e22e6e7",
+		type: "item",
+		items: [{
+			item: "tropicraft:water_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "176e4152",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "ba7b968f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "27419cb4",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

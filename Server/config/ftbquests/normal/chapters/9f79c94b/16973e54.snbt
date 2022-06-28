@@ -1,0 +1,135 @@
+{
+	title: "Acacia Wizard Tower",
+	x: -15.5d,
+	y: -26.5d,
+	description: "Electroblob's Wizardry",
+	text: [
+		"LxWxH: 37x19x62",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: Acacia and stone brick wizard towers joined with a bridge. Nine rooms inside."
+	],
+	tasks: [{
+		uid: "7c2a60de",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "9d236106",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Acacia Wizard Tower",
+				UUID: "dac11ffb-5263-4096-9709-d1e028f09ffb",
+				startPos: {
+					X: 374,
+					Y: 5,
+					Z: -90
+				},
+				itemcountmap: [{
+					item: 50,
+					meta: 0,
+					count: 60
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 597
+				},
+				{
+					item: 14135,
+					meta: 0,
+					count: 160
+				},
+				{
+					item: 14126,
+					meta: 0,
+					count: 40
+				},
+				{
+					item: 179,
+					meta: 2,
+					count: 776
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 624
+				},
+				{
+					item: 6248,
+					meta: 4,
+					count: 19
+				},
+				{
+					item: 5645,
+					meta: 9,
+					count: 368
+				},
+				{
+					item: 5643,
+					meta: 11,
+					count: 272
+				},
+				{
+					item: 4497,
+					meta: 0,
+					count: 9
+				},
+				{
+					item: 6069,
+					meta: 0,
+					count: 130
+				},
+				{
+					item: 7721,
+					meta: 1,
+					count: 1
+				},
+				{
+					item: 162,
+					meta: 0,
+					count: 914
+				},
+				{
+					item: 5623,
+					meta: 0,
+					count: 1308
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 548
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5548,
+					meta: 3,
+					count: 74
+				}],
+				endPos: {
+					X: 356,
+					Y: 66,
+					Z: -126
+				}
+			}
+		}
+	}]
+}

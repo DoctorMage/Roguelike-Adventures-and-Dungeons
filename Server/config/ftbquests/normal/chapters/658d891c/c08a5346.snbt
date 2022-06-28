@@ -29,10 +29,5 @@
 		uid: "c6c986cf",
 		type: "item",
 		item: "iceandfire:manuscript"
-	},
-	{
-		uid: "39e92573",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

@@ -7,5 +7,15 @@
 		items: [{
 			item: "harvestcraft:waterchestnutseeditem"
 		}]
+	}],
+	rewards: [{
+		uid: "8de86c6b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "cfaa1f56",
+		type: "xp_levels",
+		xp_levels: 2
 	}]
 }

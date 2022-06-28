@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: 5.0d,
+	dependencies: [
+		"187ba0b2"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "903000ae",
+		type: "item",
+		items: [{
+			item: "thaumcraft:redstone_relay"
+		}]
+	}],
+	rewards: [{
+		uid: "c17721bb",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "8837f888",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

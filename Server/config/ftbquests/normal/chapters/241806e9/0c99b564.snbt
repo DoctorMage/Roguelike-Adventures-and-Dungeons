@@ -75,10 +75,19 @@
 		ignore_nbt: 1b
 	},
 	{
-		uid: "5fdb62fc",
+		uid: "a256a75b",
 		type: "item",
 		items: [{
-			item: "dungeontactics:charm_bleak"
+			item: "dungeontactics:charm_emaciated"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7ef69030",
+		type: "item",
+		items: [{
+			item: "dungeontactics:charm_barren"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -92,15 +101,5 @@
 		uid: "58317845",
 		type: "xp_levels",
 		xp_levels: 15
-	},
-	{
-		uid: "6d60b32b",
-		type: "item",
-		item: "aquaculture:loot 1 6"
-	},
-	{
-		uid: "a0200907",
-		type: "item",
-		item: "aquaculture:loot 1 4"
 	}]
 }

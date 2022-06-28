@@ -4,7 +4,7 @@
 	y: -14.5d,
 	description: "Literally",
 	text: [
-		"Like a fire chicken, but it isn't."
+		"It's like a Pontiac, but also not."
 	],
 	dependencies: [
 		"c93dd89b"

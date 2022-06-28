@@ -6,9 +6,7 @@
 	text: [
 		"Slay 500 Remnants.",
 		"",
-		"Any Remnant will give credit towards this quest.",
-		"",
-		"Check your Shop for a nice reward."
+		"Any Remnant will give credit towards this quest."
 	],
 	tasks: [{
 		uid: "fc85c7bc",
@@ -25,6 +23,6 @@
 	{
 		uid: "7e32e5a2",
 		type: "xp_levels",
-		xp_levels: 50
+		xp_levels: 100
 	}]
 }

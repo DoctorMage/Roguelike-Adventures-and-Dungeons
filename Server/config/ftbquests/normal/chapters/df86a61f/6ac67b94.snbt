@@ -8,6 +8,9 @@
 		"",
 		"Gone are the days of needing magic and weird methods!"
 	],
+	dependencies: [
+		"4695c2a6"
+	],
 	tasks: [{
 		uid: "a3dcaea6",
 		type: "item",

@@ -1,6 +1,15 @@
 {
+	title: "Portability is Power",
 	x: 12.0d,
 	y: -2.0d,
+	description: "Rechargable too!",
+	text: [
+		"These items will carry Ember power in your inventory.",
+		"",
+		"Items in your inventory which use Ember will take Ember power from the Mantle Jar if needed.",
+		"",
+		"You must hold the Mantle Cartridge in your hand to use its Ember power."
+	],
 	dependencies: [
 		"bc1659db"
 	],

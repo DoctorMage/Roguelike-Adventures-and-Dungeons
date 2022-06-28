@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:mangoitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "db2d064a",

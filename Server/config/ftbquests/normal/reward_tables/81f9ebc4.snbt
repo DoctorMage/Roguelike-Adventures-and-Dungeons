@@ -1,0 +1,42 @@
+{
+	title: "DungeonTactics Charms",
+	icon: "dungeontactics:charm_toxic",
+	loot_size: 1,
+	rewards: [{
+		item: "dungeontactics:charm_toxic"
+	},
+	{
+		item: "dungeontactics:charm_sapping"
+	},
+	{
+		item: "dungeontactics:charm_heavy"
+	},
+	{
+		item: "dungeontactics:charm_emaciated"
+	},
+	{
+		item: "dungeontactics:charm_unintelligible"
+	},
+	{
+		item: "dungeontactics:charm_darkened"
+	},
+	{
+		item: "dungeontactics:charm_famine"
+	},
+	{
+		item: "dungeontactics:charm_barren"
+	},
+	{
+		item: "dungeontactics:charm_searing"
+	}],
+	loot_crate: {
+		string_id: "dungeontactics_charms",
+		item_name: "Box of Charms",
+		color: 15975553,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

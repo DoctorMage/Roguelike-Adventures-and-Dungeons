@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:walnutitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "cbed18c1",

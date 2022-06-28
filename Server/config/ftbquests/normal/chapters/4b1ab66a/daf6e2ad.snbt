@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:spiceleafitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "4985cd1d",

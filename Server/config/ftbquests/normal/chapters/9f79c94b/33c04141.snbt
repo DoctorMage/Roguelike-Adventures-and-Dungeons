@@ -1,0 +1,146 @@
+{
+	title: "Stone Library",
+	x: 4.0d,
+	y: -41.5d,
+	description: "Electroblob's Wizardry",
+	text: [
+		"LxWxH: 15x15x24",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A stone library with 32 shelves. There is enough room to house all the books in EBWizardy and Dan's Ancient Wizardry. ",
+		"",
+		"NOTE:",
+		"",
+		"- 32 Oak Bookshelves required to replace Cyan Wool blocks.",
+		"",
+		"- 1 Oak Lectern required to replace Pink Wool blocks."
+	],
+	tasks: [{
+		uid: "2b4b95c6",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "bd1184ba",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Stone Library",
+				UUID: "eb838db9-5003-4229-8c9b-71b26aa04a61",
+				startPos: {
+					X: 281,
+					Y: 4,
+					Z: -107
+				},
+				itemcountmap: [{
+					item: 98,
+					meta: 0,
+					count: 33
+				},
+				{
+					item: 7724,
+					meta: 0,
+					count: 6
+				},
+				{
+					item: 5461,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 25
+				},
+				{
+					item: 5645,
+					meta: 9,
+					count: 32
+				},
+				{
+					item: 5645,
+					meta: 6,
+					count: 12
+				},
+				{
+					item: 5645,
+					meta: 7,
+					count: 136
+				},
+				{
+					item: 35,
+					meta: 6,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 9,
+					count: 32
+				},
+				{
+					item: 5644,
+					meta: 0,
+					count: 44
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5437,
+					meta: 9,
+					count: 12
+				},
+				{
+					item: 5472,
+					meta: 8,
+					count: 116
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 105
+				},
+				{
+					item: 5674,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5437,
+					meta: 4,
+					count: 14
+				},
+				{
+					item: 5437,
+					meta: 1,
+					count: 6
+				},
+				{
+					item: 4746,
+					meta: 0,
+					count: 2
+				}],
+				endPos: {
+					X: 267,
+					Y: 27,
+					Z: -121
+				}
+			}
+		}
+	}]
+}

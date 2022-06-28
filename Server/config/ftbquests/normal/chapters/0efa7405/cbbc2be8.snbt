@@ -1,0 +1,34 @@
+{
+	title: "The Observational Assistant",
+	x: 3.0d,
+	y: -9.0d,
+	description: "Like an intern who you abuse",
+	text: [
+		"The Thaumometer will allow you to scan objects in your inventory by picking the item up, and hovering over other items inside your inventory, with the item in hand.",
+		"",
+		"You can also hold the item in your Main-Hand and Right-Click to observe objects, entities and blocks that have blue sparkles around them. This can advance research, and unlock theories."
+	],
+	dependencies: [
+		"1af03bae"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "a3dfbae4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e5a313cb",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "8b14389f",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

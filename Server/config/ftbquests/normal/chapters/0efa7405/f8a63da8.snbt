@@ -1,0 +1,25 @@
+{
+	x: 15.0d,
+	y: -9.0d,
+	dependencies: [
+		"1ce5751a"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "4a87b6cf",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_basic"
+		}]
+	}],
+	rewards: [{
+		uid: "e994ca6a",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	},
+	{
+		uid: "692a9676",
+		type: "xp",
+		xp: 100
+	}]
+}

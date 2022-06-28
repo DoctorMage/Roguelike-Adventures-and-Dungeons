@@ -4,7 +4,9 @@
 	y: 6.5d,
 	description: "Everyone loves puppies",
 	text: [
-		"Give this bone to two different dogs to make them breed."
+		"Give this bone to two different dogs to make them breed.",
+		"",
+		"What an item name... huh?"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

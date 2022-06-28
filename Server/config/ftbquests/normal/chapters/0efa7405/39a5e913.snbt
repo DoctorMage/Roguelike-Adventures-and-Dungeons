@@ -1,0 +1,34 @@
+{
+	x: 19.5d,
+	y: -10.5d,
+	dependencies: [
+		"4105176f"
+	],
+	tasks: [{
+		uid: "12ea4f3c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:centrifuge"
+		}]
+	}],
+	rewards: [{
+		uid: "7f7807cb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "2df3d618",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "bd535268",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

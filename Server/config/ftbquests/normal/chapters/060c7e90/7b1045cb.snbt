@@ -1,7 +1,7 @@
 {
 	title: "100 Years Of Study",
-	x: 3.0d,
-	y: -9.0d,
+	x: 8.25d,
+	y: -10.5d,
 	description: "You've finally perfected Magic Missile!",
 	text: [
 		"This is the final item used to upgrade your wand.",
@@ -29,10 +29,5 @@
 		uid: "a59189bb",
 		type: "xp_levels",
 		xp_levels: 20
-	},
-	{
-		uid: "81defe0b",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

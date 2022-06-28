@@ -7,7 +7,7 @@
 	text: [
 		"Kinda like a Tamagotchi but WAY better.",
 		"",
-		"Make sure you keep them fed! The pets will break if you don't!"
+		"Make sure you keep them fed! The pets will stop working if you don't!"
 	],
 	tasks: [{
 		uid: "5a9d6c88",

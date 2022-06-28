@@ -1,0 +1,29 @@
+{
+	x: 3.0d,
+	y: -16.0d,
+	description: "Bootleg emeralds!",
+	text: [
+		"Craft some Peridot Seeds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8d4841a2"
+	],
+	tasks: [{
+		uid: "09407ad5",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:peridot_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "90008022",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "8e8aea63",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

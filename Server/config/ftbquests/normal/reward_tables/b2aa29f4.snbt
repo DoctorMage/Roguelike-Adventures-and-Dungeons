@@ -1,0 +1,59 @@
+{
+	title: "Runic Plates",
+	icon: "ancientspellcraft:runic_plate 1 410",
+	loot_size: 1,
+	rewards: [{
+		title: "Runic Plate - Blast",
+		item: "ancientspellcraft:runic_plate 1 405"
+	},
+	{
+		title: "Runic Plate - Supress",
+		item: "ancientspellcraft:runic_plate 1 410"
+	},
+	{
+		title: "Runic Plate - Briar",
+		item: "ancientspellcraft:runic_plate 1 400"
+	},
+	{
+		title: "Runic Plate - Shatter",
+		item: "ancientspellcraft:runic_plate 1 404"
+	},
+	{
+		title: "Runic Plate - Reach",
+		item: "ancientspellcraft:runic_plate 1 407"
+	},
+	{
+		title: "Runic Plate - Push",
+		item: "ancientspellcraft:runic_plate 1 408"
+	},
+	{
+		title: "Runic Plate - Endure",
+		item: "ancientspellcraft:runic_plate 1 402"
+	},
+	{
+		title: "Runic Plate - Sol",
+		item: "ancientspellcraft:runic_plate 1 403"
+	},
+	{
+		title: "Runic Plate - Pull",
+		item: "ancientspellcraft:runic_plate 1 406"
+	},
+	{
+		title: "Runic Plate - Displace",
+		item: "ancientspellcraft:runic_plate 1 401"
+	},
+	{
+		title: "Runic Plate - Fury",
+		item: "ancientspellcraft:runic_plate 1 409"
+	}],
+	loot_crate: {
+		string_id: "runic_plates",
+		item_name: "Crate of Runic Plates",
+		color: 9598865,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

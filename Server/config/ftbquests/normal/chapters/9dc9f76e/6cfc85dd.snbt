@@ -1,0 +1,24 @@
+{
+	title: "Basic Information",
+	x: -10.5d,
+	y: -3.0d,
+	description: "READ ME",
+	text: [
+		"Pressing F3 + H will enable Advanced Tooltips. Highly recommended.",
+		"",
+		"Many items will also show extended information when you hold Shift while hovering over them in your inventory.",
+		"",
+		"A plethora of items can also be upgraded in this modpack!",
+		"",
+		"To upgrade items, you should try things like putting the item you want to upgrade in your Off-Hand, and using the upgrade item with your Main-Hand.",
+		"",
+		"Putting the item you want to upgrade and the upgrade item into the Crafting Grid may also yield results.",
+		"",
+		"In the end, you can always refer to JEI!"
+	],
+	tasks: [{
+		uid: "f6aafa3d",
+		type: "checkmark",
+		title: "Sounds good!"
+	}]
+}

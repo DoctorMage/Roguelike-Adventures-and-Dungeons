@@ -56,10 +56,5 @@
 		uid: "3c3f6b8c",
 		type: "xp_levels",
 		xp_levels: 5
-	},
-	{
-		uid: "ef6b3048",
-		type: "item",
-		item: "aquaculture:loot 1 6"
 	}]
 }

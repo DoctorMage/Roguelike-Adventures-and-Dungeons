@@ -1,32 +1,39 @@
 {
-	title: "Crate of Random Elemental Crystals",
+	title: "Elemental Crystals Table",
 	icon: "ebwizardry:grand_crystal",
-	loot_size: 1,
+	loot_size: 3,
 	rewards: [{
-		item: "ebwizardry:magic_crystal 1 1"
+		item: "ebwizardry:magic_crystal 1 1",
+		random_bonus: 4
 	},
 	{
-		item: "ebwizardry:magic_crystal 1 2"
+		item: "ebwizardry:magic_crystal 1 2",
+		random_bonus: 4
 	},
 	{
-		item: "ebwizardry:magic_crystal 1 3"
+		item: "ebwizardry:magic_crystal 1 3",
+		random_bonus: 4
 	},
 	{
-		item: "ebwizardry:magic_crystal 1 4"
+		item: "ebwizardry:magic_crystal 1 4",
+		random_bonus: 4
 	},
 	{
-		item: "ebwizardry:magic_crystal 1 5"
+		item: "ebwizardry:magic_crystal 1 5",
+		random_bonus: 4
 	},
 	{
-		item: "ebwizardry:magic_crystal 1 6"
+		item: "ebwizardry:magic_crystal 1 6",
+		random_bonus: 4
 	},
 	{
-		item: "ebwizardry:magic_crystal 1 7"
+		item: "ebwizardry:magic_crystal 1 7",
+		random_bonus: 4
 	}],
 	loot_crate: {
 		string_id: "elemental_crystal_loot_table_wizardry_",
 		item_name: "Crate of Random Elemental Crystals",
-		color: 16777215,
+		color: 16761035,
 		drops: {
 			boss: 0,
 			passive: 0,

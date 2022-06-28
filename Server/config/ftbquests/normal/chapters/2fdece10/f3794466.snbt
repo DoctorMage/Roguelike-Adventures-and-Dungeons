@@ -1,0 +1,155 @@
+{
+	x: 33.0d,
+	y: -7.5d,
+	dependencies: [
+		"7a11af33"
+	],
+	tasks: [{
+		uid: "f2b4df93",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:spear_dawnstone",
+			tag: {
+				didUse: 0b,
+				poweredOn: 0b,
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "08428ee5",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:pike_dawnstone",
+			tag: {
+				didUse: 0b,
+				poweredOn: 0b,
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: -187622839476140147L,
+						UUIDLeast: -7220258087256707107L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -6736139894612016620L,
+						UUIDLeast: -8100360325889149137L,
+						Amount: -0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.vicious.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d51b76d1",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:lance_dawnstone",
+			tag: {
+				didUse: 0b,
+				poweredOn: 0b,
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d3c2f0db",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:halberd_dawnstone",
+			tag: {
+				didUse: 0b,
+				poweredOn: 0b,
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -4230744672354481743L,
+						UUIDLeast: -9132209355479006561L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -1412164514341370726L,
+						UUIDLeast: -8988538936404161982L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.graceful.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c35f1ed4",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:staff_dawnstone",
+			tag: {
+				didUse: 0b,
+				poweredOn: 0b,
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "91416f5d",
+		type: "item",
+		items: [{
+			id: "spartanweaponryarcana:glaive_dawnstone",
+			tag: {
+				didUse: 0b,
+				poweredOn: 0b,
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "392d6a3d",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "ac5a84f5",
+		type: "xp_levels",
+		xp_levels: 35
+	},
+	{
+		uid: "3536c153",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
+	}]
+}

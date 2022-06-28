@@ -10,6 +10,7 @@
 	tasks: [{
 		uid: "ff0716d4",
 		type: "kill",
+		icon: "minecraft:gunpowder",
 		entity: "minecraft:creeper",
 		value: 50L
 	}],

@@ -10,7 +10,18 @@
 	tasks: [{
 		uid: "753bccc6",
 		type: "kill",
+		icon: "thebetweenlands:shambler_tongue",
 		entity: "thebetweenlands:shambler",
 		value: 50L
+	}],
+	rewards: [{
+		uid: "287387cc",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "786a1291",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

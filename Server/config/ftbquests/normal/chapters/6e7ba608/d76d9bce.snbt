@@ -1,0 +1,24 @@
+{
+	x: 3.0d,
+	y: -10.0d,
+	dependencies: [
+		"dbca8bae"
+	],
+	tasks: [{
+		uid: "bb648e11",
+		type: "item",
+		items: [{
+			item: "tropicraft:sifter"
+		}]
+	}],
+	rewards: [{
+		uid: "12f91509",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	}]
+}

@@ -4,7 +4,7 @@
 	y: -3.0d,
 	description: "Your first set!",
 	text: [
-		"How cute.. you have no idea how fast you're gonna mine later.",
+		"How cute... you have no idea how fast you're gonna mine later.",
 		"",
 		"Craft a set of Iron Tools. All of them."
 	],
@@ -77,5 +77,11 @@
 		type: "item",
 		item: "minecraft:torch",
 		count: 32
+	},
+	{
+		uid: "f4c9f947",
+		type: "item",
+		item: "dungeontactics:bag_arbour",
+		count: 8
 	}]
 }

@@ -1,9 +1,13 @@
 {
-	title: "Bring Me To Life!",
+	title: "Wake Him Up!",
 	x: -6.0d,
 	y: -4.5d,
-	description: "Wake me up!",
+	description: "Wake him up inside!",
 	text: [
+		"He can't wake up!---",
+		"",
+		"Just kidding, yes he can.",
+		"",
 		"This spell should react with a pumpkin to create a Golem Head..."
 	],
 	dependencies: [

@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:oatsitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "f2593e72",

@@ -4,9 +4,7 @@
 	y: -5.5d,
 	description: "Putting down the bad guys!",
 	text: [
-		"You've made the world a safer place, clearing it of evil magic users.",
-		"",
-		"Check your Shop for a reward."
+		"You've made the world a safer place, clearing it of evil magic users."
 	],
 	tasks: [{
 		uid: "6ff99b1c",
@@ -23,6 +21,6 @@
 	{
 		uid: "df392784",
 		type: "xp_levels",
-		xp_levels: 50
+		xp_levels: 100
 	}]
 }

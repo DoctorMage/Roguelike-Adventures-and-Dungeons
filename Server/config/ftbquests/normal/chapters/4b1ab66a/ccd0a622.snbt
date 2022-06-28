@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:cucumberitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "7fc0a564",

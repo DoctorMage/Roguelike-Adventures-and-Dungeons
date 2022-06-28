@@ -3,17 +3,13 @@
 	x: -1.5d,
 	y: -18.0d,
 	description: "That's it... here's a participation award",
+	text: [
+		"The Block and Fluid placers will fill an area directly below them when supplied with material."
+	],
 	dependencies: [
 		"ecd41947"
 	],
 	tasks: [{
-		uid: "34d7f42c",
-		type: "item",
-		items: [{
-			item: "cyclicmagic:placer_block"
-		}]
-	},
-	{
 		uid: "35a1fab9",
 		type: "item",
 		items: [{

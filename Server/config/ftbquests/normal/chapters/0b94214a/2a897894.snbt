@@ -1,6 +1,6 @@
 {
 	x: 0.5d,
-	y: -16.0d,
+	y: -15.0d,
 	description: "How can steel weigh more than leaves?",
 	text: [
 		"Craft some Steeleaf Seeds."

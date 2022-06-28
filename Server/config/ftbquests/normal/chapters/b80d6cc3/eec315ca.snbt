@@ -1,6 +1,13 @@
 {
+	title: "The Stay-Hot-Stuff",
 	x: 10.5d,
 	y: -3.5d,
+	description: "It's in your walls!",
+	text: [
+		"Insulation will provide additional benefits to your Hearth Coil when placed on the sides of your Hearth Coil.",
+		"",
+		"See your Codex for more information."
+	],
 	dependencies: [
 		"1df9f3d5"
 	],
@@ -20,10 +27,5 @@
 		uid: "0cb16483",
 		type: "xp_levels",
 		xp_levels: 5
-	},
-	{
-		uid: "db8e0949",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

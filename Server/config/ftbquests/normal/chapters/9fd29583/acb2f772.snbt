@@ -1,6 +1,11 @@
 {
+	title: "This Gear Stinks",
 	x: 3.0d,
 	y: -4.5d,
+	description: "But not like death...",
+	text: [
+		"Ever smelled dead bugs?"
+	],
 	dependencies: [
 		"d7ca76bc"
 	],
@@ -90,5 +95,15 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "96d7059e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "9ef4dbfa",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

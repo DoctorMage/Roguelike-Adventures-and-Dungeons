@@ -1,0 +1,130 @@
+{
+	title: "Verdant Master Statue",
+	x: 23.0d,
+	y: -41.5d,
+	description: "Electroblob's Wizardry",
+	text: [
+		"LxWxH: 21x21x48",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A marble statue of a child wizard in oversided robes posing with a Master Earth Mage wand under him."
+	],
+	tasks: [{
+		uid: "18374c6c",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "e95580b8",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Verdant Master Statue",
+				UUID: "db92a3c6-4971-415c-987f-567ae04fa672",
+				startPos: {
+					X: 360,
+					Y: 5,
+					Z: -119
+				},
+				itemcountmap: [{
+					item: 5989,
+					meta: 0,
+					count: 789
+				},
+				{
+					item: 5536,
+					meta: 7,
+					count: 5
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 5586,
+					meta: 13,
+					count: 4
+				},
+				{
+					item: 5536,
+					meta: 5,
+					count: 8
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 6114,
+					meta: 5,
+					count: 477
+				},
+				{
+					item: 5611,
+					meta: 7,
+					count: 40
+				},
+				{
+					item: 5611,
+					meta: 8,
+					count: 676
+				},
+				{
+					item: 5613,
+					meta: 2,
+					count: 32
+				},
+				{
+					item: 162,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5583,
+					meta: 2,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5991,
+					meta: 0,
+					count: 48
+				},
+				{
+					item: 134,
+					meta: 0,
+					count: 7
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 126,
+					meta: 1,
+					count: 4
+				},
+				{
+					item: 5610,
+					meta: 11,
+					count: 64
+				}],
+				endPos: {
+					X: 380,
+					Y: 52,
+					Z: -99
+				}
+			}
+		}
+	}]
+}

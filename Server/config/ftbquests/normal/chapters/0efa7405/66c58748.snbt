@@ -1,0 +1,36 @@
+{
+	x: 7.5d,
+	y: -5.0d,
+	dependencies: [
+		"9e943e03"
+	],
+	tasks: [{
+		uid: "ef244371",
+		type: "item",
+		items: [{
+			item: "thaumcraft:curiosity_band"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "680daddb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "a78a01ea",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "44d3a07e",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

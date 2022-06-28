@@ -1,5 +1,6 @@
 {
 	title: "Barrishee Banisher",
+	icon: "thebetweenlands:rune_door_key",
 	x: 4.5d,
 	y: -1.0d,
 	description: "Back to the depths!",
@@ -20,6 +21,6 @@
 	{
 		uid: "e41b2684",
 		type: "xp_levels",
-		xp_levels: 50
+		xp_levels: 350
 	}]
 }

@@ -1,12 +1,12 @@
 {
 	title: "Johnny's Apple Seeds",
-	x: 9.5d,
-	y: 2.5d,
+	x: 1.5d,
+	y: 3.5d,
 	description: "He was very nice to share them with you",
 	text: [
 		"These seeds will sprout into an Apple Tree when planted.",
 		"",
-		"Can be obtained by crushing Apples in a Crushing Tub."
+		"Apple Seeds can be obtained by crushing Apples in a Crushing Tub."
 	],
 	dependencies: [
 		"84ebebbc"
@@ -31,6 +31,7 @@
 	{
 		uid: "88287ab5",
 		type: "item",
-		item: "minecraft:emerald"
+		item: "minecraft:emerald",
+		count: 3
 	}]
 }

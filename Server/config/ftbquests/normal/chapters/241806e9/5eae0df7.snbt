@@ -2,7 +2,7 @@
 	title: "Plant Picker",
 	x: 8.0d,
 	y: -2.0d,
-	shape: "circle",
+	shape: "hexagon",
 	description: "Did any of them bite you?",
 	text: [
 		"No? What a surprise.",

@@ -1,0 +1,33 @@
+{
+	title: "So No Head?",
+	x: -1.0d,
+	y: -9.0d,
+	description: "*Snaps skateboard*",
+	text: [
+		"Chunks o' Head can be found out in the Overworld.",
+		"",
+		"They are relatively rare.",
+		"",
+		"Once you find one, break down the Head for Chunks o' Head."
+	],
+	dependencies: [
+		"f61dcb12"
+	],
+	tasks: [{
+		uid: "00327722",
+		type: "item",
+		items: [{
+			item: "tropicraft:chunk"
+		}]
+	}],
+	rewards: [{
+		uid: "a786dccb",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	},
+	{
+		uid: "8b14dbe2",
+		type: "xp",
+		xp: 100
+	}]
+}

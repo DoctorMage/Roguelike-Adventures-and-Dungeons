@@ -10,6 +10,7 @@
 	dependencies: [
 		"6dbe8507"
 	],
+	or_tasks: true,
 	tasks: [{
 		uid: "a8e5da49",
 		type: "item",
@@ -47,10 +48,5 @@
 		uid: "82561bf1",
 		type: "xp_levels",
 		xp_levels: 10
-	},
-	{
-		uid: "89d7c9a6",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

@@ -4,7 +4,7 @@
 	y: 1.5d,
 	description: "A stick? That's it?",
 	text: [
-		"Craft all of the Weedwood armor and tools."
+		"Craft all the Weedwood tools."
 	],
 	dependencies: [
 		"3c192351"

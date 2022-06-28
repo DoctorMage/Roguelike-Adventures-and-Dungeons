@@ -10,14 +10,18 @@
 	tasks: [{
 		uid: "c142f5b5",
 		type: "kill",
+		title: "Slay 75 Fire Dragons",
+		icon: "iceandfire:fire_dragon_blood",
 		entity: "iceandfire:firedragon",
-		value: 250L
+		value: 75L
 	},
 	{
 		uid: "5601e003",
 		type: "kill",
+		title: "Slay 75 Ice Dragons",
+		icon: "iceandfire:ice_dragon_blood",
 		entity: "iceandfire:icedragon",
-		value: 250L
+		value: 75L
 	}],
 	rewards: [{
 		uid: "d227da6c",
@@ -27,6 +31,6 @@
 	{
 		uid: "0b228fa7",
 		type: "xp_levels",
-		xp_levels: 100
+		xp_levels: 500
 	}]
 }

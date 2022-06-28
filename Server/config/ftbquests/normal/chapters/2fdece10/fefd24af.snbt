@@ -7,5 +7,15 @@
 		items: [{
 			item: "dungeontactics:steel_ingot"
 		}]
+	}],
+	rewards: [{
+		uid: "650325e1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "ef250c08",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

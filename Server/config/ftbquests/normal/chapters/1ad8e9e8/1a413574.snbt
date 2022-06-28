@@ -1,10 +1,10 @@
 {
-	title: "Octine Armaments",
+	title: "Octine Tools",
 	x: 12.5d,
 	y: 1.5d,
 	description: "This is pretty good...",
 	text: [
-		"Craft all of the Octine armor and tools."
+		"Craft all of the Octine tools as well as an Octine Shield."
 	],
 	dependencies: [
 		"cb10740a"

@@ -1,5 +1,5 @@
 {
-	title: "How To Break Your Toilet 101",
+	title: "How to Break Your Toilet 101",
 	x: 33.5d,
 	y: 2.0d,
 	description: "Must've had Mexican food",
@@ -25,10 +25,5 @@
 		uid: "3779be44",
 		type: "xp_levels",
 		xp_levels: 10
-	},
-	{
-		uid: "8f4739ec",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

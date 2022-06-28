@@ -4,20 +4,91 @@
 	y: -1.5d,
 	description: "They work for minimum wage too",
 	text: [
-		"This item will transport a chest, maintaining the items inside.",
+		"This item will transport a chest while maintaining the items inside.",
 		"",
 		"The Chest Transporter can only hold one chest at a time.",
 		"",
-		"Right-click or Shift Right-click a chest with the item to transport it."
+		"Right-Click or Shift Right-Click a chest with the item to transport it."
 	],
 	dependencies: [
 		"b325bb25"
 	],
+	or_tasks: true,
 	tasks: [{
-		uid: "2233cd78",
+		uid: "f72fddc7",
+		type: "item",
+		items: [{
+			id: "chesttransporter:chesttransporter",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0e96a46c",
 		type: "item",
 		items: [{
 			id: "chesttransporter:chesttransporter_iron",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "321c8cd0",
+		type: "item",
+		items: [{
+			id: "chesttransporter:chesttransporter_gold",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b672b8c5",
+		type: "item",
+		items: [{
+			id: "chesttransporter:chesttransporter_diamond",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "019a135e",
+		type: "item",
+		items: [{
+			id: "chesttransporter:chesttransporter_copper",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a86260ac",
+		type: "item",
+		items: [{
+			id: "chesttransporter:chesttransporter_silver",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f67d2d7e",
+		type: "item",
+		items: [{
+			id: "chesttransporter:chesttransporter_tin",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "597a4153",
+		type: "item",
+		items: [{
+			id: "chesttransporter:chesttransporter_obsidian",
 			tag: {}
 		}],
 		ignore_damage: true,

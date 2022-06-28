@@ -1,0 +1,118 @@
+{
+	x: 7.0d,
+	y: 1.5d,
+	dependencies: [
+		"d61d7f87"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "5a56d38c",
+		type: "item",
+		items: [{
+			id: "thaumcraft:fortress_helm",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "21138eb7",
+		type: "item",
+		items: [{
+			id: "thaumcraft:fortress_chest",
+			tag: {
+				Quality: {
+					Slots: [
+						"chest"
+					],
+					Color: "light_purple",
+					AttributeModifiers: [{
+						UUIDMost: 5717488794894877400L,
+						UUIDLeast: -6803641535825610886L,
+						Amount: 1.0d,
+						AttributeName: "generic.armorToughness",
+						Operation: 0,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -8256462785678588275L,
+						UUIDLeast: -7543713414138077690L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -3030341587739587989L,
+						UUIDLeast: -6064937079399323528L,
+						Amount: 0.5d,
+						AttributeName: "generic.knockbackResistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.masterful.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "43350582",
+		type: "item",
+		items: [{
+			id: "thaumcraft:fortress_legs",
+			tag: {
+				Quality: {
+					Slots: [
+						"legs"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 4242296591066089935L,
+						UUIDLeast: -8759817040140668711L,
+						Amount: -1.0d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.dented.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "763392fd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "cbc45037",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "24f24ff0",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "3de2bfdb",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "a520fac3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,6 +1,6 @@
 {
 	title: "Valkyrie Vanquisher",
-	x: 12.0d,
+	x: 21.0d,
 	y: 0.0d,
 	description: "Victory is ours!",
 	text: [
@@ -21,6 +21,6 @@
 	{
 		uid: "944cfeea",
 		type: "xp_levels",
-		xp_levels: 50
+		xp_levels: 100
 	}]
 }

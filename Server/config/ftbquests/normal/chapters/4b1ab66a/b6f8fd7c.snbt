@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:artichokeitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "efce6015",

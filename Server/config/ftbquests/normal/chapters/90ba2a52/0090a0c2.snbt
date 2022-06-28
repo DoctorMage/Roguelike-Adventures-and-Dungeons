@@ -1,6 +1,19 @@
 {
-	x: 24.0d,
-	y: -4.0d,
+	title: "Artefact Trader (Diamond)",
+	x: 13.0d,
+	y: -3.5d,
+	description: "Totally non-fake Diamonds here!",
+	text: [
+		"Sell your unwanted Diamond Artefacts.",
+		"",
+		"Submit ONE stack of Diamond Artefacts at a time to complete this quest.",
+		"",
+		"Collect the reward after each completion.",
+		"",
+		"You will not receive the reward for more than one stack submission at a time."
+	],
+	can_repeat: true,
+	or_tasks: true,
 	tasks: [{
 		uid: "e154423d",
 		type: "item",
@@ -44,6 +57,21 @@
 	rewards: [{
 		uid: "81ac3f32",
 		type: "ftbmoney:money",
-		ftb_money: 100L
+		ftb_money: 125L
+	},
+	{
+		uid: "9a67ec4f",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "2eb45571",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
 	}]
 }

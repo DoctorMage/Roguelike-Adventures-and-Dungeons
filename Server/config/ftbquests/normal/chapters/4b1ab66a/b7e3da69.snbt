@@ -7,5 +7,15 @@
 		items: [{
 			item: "harvestcraft:whitemushroomseeditem"
 		}]
+	}],
+	rewards: [{
+		uid: "62b0ed12",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "ec8fe853",
+		type: "xp_levels",
+		xp_levels: 2
 	}]
 }

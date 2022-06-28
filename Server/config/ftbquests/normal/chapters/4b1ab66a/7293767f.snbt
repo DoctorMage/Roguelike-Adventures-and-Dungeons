@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:dragonfruititem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "c7d3f47d",

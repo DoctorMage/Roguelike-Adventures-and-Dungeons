@@ -1,0 +1,56 @@
+{
+	title: "Relaxing",
+	x: -7.0d,
+	y: -10.0d,
+	description: "No one better bother you",
+	text: [
+		"Craft a White Beach Chair to sit in at Sunset!",
+		"",
+		"Drink your Pinacolada at Sunset in order to travel to the TropiCraft dimension.",
+		"",
+		"This is actually how you get there!"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "4ce9e9db",
+		type: "item",
+		items: [{
+			item: "tropicraft:chair 1 15"
+		}]
+	},
+	{
+		uid: "9fc49bfd",
+		type: "item",
+		items: [{
+			item: "tropicraft:umbrella 1 15"
+		}]
+	},
+	{
+		uid: "360a3f98",
+		type: "item",
+		items: [{
+			id: "tropicraft:cocktail",
+			tag: {
+				Ingredients: [{
+					IngredientID: 10b
+				},
+				{
+					IngredientID: 12b
+				}],
+				Color: 15724527,
+				DrinkID: 6b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b2f6844",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	},
+	{
+		uid: "c2b640fe",
+		type: "xp",
+		xp: 100
+	}]
+}

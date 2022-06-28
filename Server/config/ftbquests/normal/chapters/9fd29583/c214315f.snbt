@@ -23,5 +23,15 @@
 		items: [{
 			item: "erebus:bamboo_torch"
 		}]
+	}],
+	rewards: [{
+		uid: "57ec9119",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "568fa9d9",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

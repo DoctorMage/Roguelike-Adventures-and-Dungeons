@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:asparagusitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "22e2c898",

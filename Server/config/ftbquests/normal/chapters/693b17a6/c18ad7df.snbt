@@ -1,0 +1,17 @@
+{
+	title: "Cheating Death IV",
+	icon: "dungeontactics:candy_skull",
+	x: -16.0d,
+	y: -2.0d,
+	description: "There's a knock on your door...",
+	text: [
+		"Survive for 21 days."
+	],
+	tasks: [{
+		uid: "8a48a5dc",
+		type: "stat",
+		title: "Survive 21 days",
+		stat: "stat.timeSinceDeath",
+		value: 36288000
+	}]
+}

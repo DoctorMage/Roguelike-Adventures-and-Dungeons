@@ -1,6 +1,12 @@
 {
 	title: "Starting Equipment Selection!",
-	x: -6.5d,
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "apprentice_spellbooks"
+		}
+	},
+	x: -7.0d,
 	y: -3.0d,
 	description: "Start your adventure TODAY!",
 	text: [
@@ -21,15 +27,8 @@
 		title: "Ready to roll!"
 	}],
 	rewards: [{
-		uid: "ca32940d",
+		uid: "ea40f0d8",
 		type: "choice",
-		title: "Item Crate Selection",
-		table: 0
-	},
-	{
-		uid: "8b27efb4",
-		type: "choice",
-		title: "Gadget Selection",
-		table: 3
+		table: 47
 	}]
 }

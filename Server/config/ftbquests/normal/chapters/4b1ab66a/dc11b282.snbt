@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:jicamaitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "9d59658a",

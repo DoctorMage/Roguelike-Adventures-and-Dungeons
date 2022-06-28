@@ -43,6 +43,7 @@
 	{
 		uid: "7a5dd53e",
 		type: "random",
-		table: 19
+		title: "Random Atum Artefact",
+		table: 3
 	}]
 }

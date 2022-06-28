@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: -4.0d,
+	dependencies: [
+		"7ce4e664"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ffa52c2d",
+		type: "item",
+		items: [{
+			item: "midnight:nightstone"
+		}]
+	}],
+	rewards: [{
+		uid: "44d8da93",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "b9ba93f2",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

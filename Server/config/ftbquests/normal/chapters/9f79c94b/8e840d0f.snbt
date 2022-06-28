@@ -1,0 +1,135 @@
+{
+	title: "Stormy Master Statue",
+	x: 23.0d,
+	y: -26.5d,
+	description: "Electroblob's Wizardry",
+	text: [
+		"LxWxH: 21x22x52",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A slate and basalt statue of a wizard with a Master Storm Mage wand while concentrating an energy."
+	],
+	tasks: [{
+		uid: "5a2f163d",
+		type: "ftbmoney:money",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "a54098aa",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Stormy Master Statue",
+				UUID: "76ff5b7e-40b2-492f-ab18-cfe7da9c95bd",
+				startPos: {
+					X: 358,
+					Y: 5,
+					Z: -113
+				},
+				itemcountmap: [{
+					item: 50,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 5563,
+					meta: 3,
+					count: 29
+				},
+				{
+					item: 4761,
+					meta: 0,
+					count: 730
+				},
+				{
+					item: 5435,
+					meta: 7,
+					count: 40
+				},
+				{
+					item: 5435,
+					meta: 8,
+					count: 968
+				},
+				{
+					item: 9176,
+					meta: 0,
+					count: 14
+				},
+				{
+					item: 5562,
+					meta: 3,
+					count: 18
+				},
+				{
+					item: 12207,
+					meta: 0,
+					count: 16
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 6
+				},
+				{
+					item: 9167,
+					meta: 1,
+					count: 4
+				},
+				{
+					item: 9136,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 7198,
+					meta: 1,
+					count: 10
+				},
+				{
+					item: 4765,
+					meta: 0,
+					count: 48
+				},
+				{
+					item: 4745,
+					meta: 0,
+					count: 32
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 169,
+					meta: 0,
+					count: 7
+				},
+				{
+					item: 168,
+					meta: 2,
+					count: 424
+				},
+				{
+					item: 5610,
+					meta: 11,
+					count: 8
+				}],
+				endPos: {
+					X: 379,
+					Y: 56,
+					Z: -93
+				}
+			}
+		}
+	}]
+}

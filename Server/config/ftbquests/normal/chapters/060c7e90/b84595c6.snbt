@@ -87,12 +87,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "28fc2ff7",
-		type: "choice",
-		title: "Choice Necromancy Wizard Artefact",
-		table: 15
-	},
-	{
 		uid: "857b2286",
 		type: "ftbmoney:money",
 		ftb_money: 300L
@@ -101,10 +95,5 @@
 		uid: "01fa3633",
 		type: "xp_levels",
 		xp_levels: 30
-	},
-	{
-		uid: "70c95a55",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

@@ -87,12 +87,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "19ac20f4",
-		type: "choice",
-		title: "Choice Fire Wizard Artefact",
-		table: 12
-	},
-	{
 		uid: "1af7b968",
 		type: "ftbmoney:money",
 		ftb_money: 300L
@@ -101,10 +95,5 @@
 		uid: "ee49e08f",
 		type: "xp_levels",
 		xp_levels: 30
-	},
-	{
-		uid: "b66daabc",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

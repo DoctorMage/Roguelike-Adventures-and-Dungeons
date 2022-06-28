@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:arrowrootitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "11ad1253",

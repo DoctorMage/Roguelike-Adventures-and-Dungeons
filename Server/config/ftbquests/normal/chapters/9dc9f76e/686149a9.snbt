@@ -1,0 +1,60 @@
+{
+	title: "Stronghold Stormer",
+	icon: "minecraft:stonebrick",
+	x: 6.0d,
+	y: -16.0d,
+	description: "You went right in!",
+	text: [
+		"After you entered a Stronghold, you might find that the End Portal is just NOT there.",
+		"",
+		"Sometimes in a modpack with modded worldgen, this will happen!",
+		"",
+		"To help alleviate this issue, after you've discovered a Stronghold, you can purchase End Stone and End Rods to construct an Artificial End Portal from the Random Things mod!",
+		"",
+		"You'll need to build it correctly; you'll also need an Evil Tear for it to be activated."
+	],
+	dependencies: [
+		"a962f849"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0806dbfa",
+		type: "advancement",
+		title: "Enter A Stronghold",
+		advancement: "story/follow_ender_eye",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "0d6fc463",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "End Portal Frame",
+				UUID: "0577e741-5c56-45b1-a500-be96b97a8f2f",
+				startPos: {
+					X: -707,
+					Y: 63,
+					Z: 945
+				},
+				itemcountmap: [{
+					item: 120,
+					meta: 0,
+					count: 12
+				}],
+				endPos: {
+					X: -711,
+					Y: 63,
+					Z: 949
+				}
+			}
+		}
+	},
+	{
+		uid: "da1a5d41",
+		type: "item",
+		item: "buildinggadgets:constructionpaste",
+		count: 12
+	}]
+}

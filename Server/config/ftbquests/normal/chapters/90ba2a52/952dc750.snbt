@@ -1,6 +1,7 @@
 {
 	title: "Troll Hunters",
-	x: -1.0d,
+	icon: "iceandfire:troll_tusk",
+	x: 4.0d,
 	y: -4.5d,
 	description: "You'll love the armor, but hate the mob",
 	text: [

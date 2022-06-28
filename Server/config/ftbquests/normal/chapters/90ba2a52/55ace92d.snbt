@@ -4,7 +4,7 @@
 	y: -3.0d,
 	description: "Your worst nightmare come true",
 	text: [
-		"Kill 50 Spinouts"
+		"Kill 50 Spinouts."
 	],
 	can_repeat: true,
 	tasks: [{

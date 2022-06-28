@@ -27,8 +27,13 @@
 		value: 25L
 	}],
 	rewards: [{
-		uid: "b498369e",
+		uid: "d25e5ab7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "852d31c5",
 		type: "xp_levels",
-		xp_levels: 25
+		xp_levels: 3
 	}]
 }

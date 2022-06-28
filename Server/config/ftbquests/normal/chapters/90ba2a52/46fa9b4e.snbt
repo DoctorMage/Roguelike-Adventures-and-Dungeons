@@ -10,6 +10,7 @@
 	tasks: [{
 		uid: "755fb03f",
 		type: "kill",
+		icon: "xreliquary:mob_ingredient 1 16",
 		entity: "minecraft:guardian",
 		value: 50L
 	}],

@@ -7,7 +7,7 @@
 		items: [{
 			item: "harvestcraft:garlicitem"
 		}],
-		count: 64L
+		count: 500L
 	}],
 	rewards: [{
 		uid: "d3d192e4",

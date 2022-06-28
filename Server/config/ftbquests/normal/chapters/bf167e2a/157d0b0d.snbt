@@ -15,5 +15,15 @@
 		items: [{
 			item: "aether_legacy:incubator"
 		}]
+	}],
+	rewards: [{
+		uid: "cef97ceb",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "2dcac7fb",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

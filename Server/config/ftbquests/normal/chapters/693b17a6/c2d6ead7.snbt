@@ -1,6 +1,12 @@
 {
 	title: "Whale Watchers",
-	x: 11.0d,
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "assets:customicons\\aerwhalemob.png"
+		}
+	},
+	x: 20.0d,
 	y: 0.0d,
 	description: "Watching them die!",
 	text: [
@@ -21,6 +27,6 @@
 	{
 		uid: "34a5dc50",
 		type: "xp_levels",
-		xp_levels: 50
+		xp_levels: 75
 	}]
 }

@@ -23,5 +23,15 @@
 		uid: "38835eef",
 		type: "xp_levels",
 		xp_levels: 3
+	},
+	{
+		uid: "c09130b8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
 	}]
 }

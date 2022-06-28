@@ -1,6 +1,6 @@
 {
 	title: "On Thin Ice",
-	x: 9.5d,
+	x: 18.5d,
 	y: 0.0d,
 	description: "This is the last time!",
 	text: [
@@ -21,6 +21,6 @@
 	{
 		uid: "a2f89533",
 		type: "xp_levels",
-		xp_levels: 30
+		xp_levels: 75
 	}]
 }

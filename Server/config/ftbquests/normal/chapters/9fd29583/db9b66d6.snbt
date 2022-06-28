@@ -55,5 +55,15 @@
 		uid: "963ff6f9",
 		type: "item",
 		item: "aquaculture:loot 1 6"
+	},
+	{
+		uid: "9390bb8a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "27d2803a",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

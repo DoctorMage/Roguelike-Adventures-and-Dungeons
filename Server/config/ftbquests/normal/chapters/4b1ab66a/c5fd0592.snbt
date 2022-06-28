@@ -7,6 +7,16 @@
 		items: [{
 			item: "harvestcraft:cornitem"
 		}],
-		count: 64L
+		count: 500L
+	}],
+	rewards: [{
+		uid: "0ccc2df9",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "6768200e",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

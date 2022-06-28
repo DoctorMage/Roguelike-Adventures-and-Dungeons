@@ -1,0 +1,26 @@
+{
+	title: "Angler Angler",
+	x: 13.0d,
+	y: 9.5d,
+	description: "Fishing for the foes!",
+	text: [
+		"Kill 50 Anglers."
+	],
+	tasks: [{
+		uid: "8be31885",
+		type: "kill",
+		icon: "thebetweenlands:items_misc 1 21",
+		entity: "thebetweenlands:angler",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "24af5c5d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "138ac241",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

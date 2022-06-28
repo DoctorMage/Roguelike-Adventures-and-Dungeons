@@ -5,13 +5,13 @@
 	y: 0.0d,
 	description: "Your friends were right... she's stone cold",
 	text: [
-		"You've slain 150 Gorgons. You're a stone cold killer."
+		"You've slain 50 Gorgons. You're a stone cold killer."
 	],
 	tasks: [{
 		uid: "ff734403",
 		type: "kill",
 		entity: "iceandfire:gorgon",
-		value: 150L
+		value: 50L
 	}],
 	rewards: [{
 		uid: "c7a352b7",
@@ -21,6 +21,6 @@
 	{
 		uid: "0dbd8cc7",
 		type: "xp_levels",
-		xp_levels: 75
+		xp_levels: 250
 	}]
 }

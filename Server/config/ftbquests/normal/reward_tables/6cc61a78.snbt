@@ -1,0 +1,92 @@
+{
+	title: "Primary Vis Crystals",
+	loot_size: 3,
+	rewards: [{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			}
+		},
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			}
+		},
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			}
+		},
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			}
+		},
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			}
+		},
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			}
+		},
+		count: 32,
+		random_bonus: 32
+	}],
+	loot_crate: {
+		string_id: "primary_vis_crystals",
+		item_name: "Crate of Primary Vis Crystals",
+		color: 11711154,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

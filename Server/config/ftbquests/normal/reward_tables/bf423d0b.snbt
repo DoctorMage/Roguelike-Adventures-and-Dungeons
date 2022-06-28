@@ -1,0 +1,54 @@
+{
+	title: "Tropicraft Modbox",
+	icon: {
+		id: "tropicraft:cocktail",
+		tag: {
+			Ingredients: [{
+				IngredientID: 10b
+			},
+			{
+				IngredientID: 12b
+			}],
+			Color: 15724527,
+			DrinkID: 6b
+		}
+	},
+	loot_size: 50,
+	rewards: [{
+		item: "tropicraft:chair 1 15",
+		only_one: true
+	},
+	{
+		item: {
+			id: "tropicraft:cocktail",
+			tag: {
+				Ingredients: [{
+					IngredientID: 9b
+				},
+				{
+					IngredientID: 11b
+				}],
+				Color: 15724527,
+				DrinkID: 6b
+			}
+		},
+		only_one: true
+	},
+	{
+		title: "Sunet Command",
+		icon: "inventorypets:sun_pet",
+		auto: "enabled",
+		command: "/time set 12000",
+		type: "command"
+	}],
+	loot_crate: {
+		string_id: "tropicraft_modbox",
+		item_name: "Drink & Chair Low Needs Combo Crate",
+		color: 16762112,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	x: 1.5d,
+	y: -25.5d,
+	dependencies: [
+		"0c541cc5"
+	],
+	tasks: [{
+		uid: "10db5206",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:vis_regenerator"
+		}]
+	}],
+	rewards: [{
+		uid: "f9eb1ef6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
+	}]
+}

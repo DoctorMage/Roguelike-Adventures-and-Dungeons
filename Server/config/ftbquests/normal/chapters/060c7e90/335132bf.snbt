@@ -2,7 +2,13 @@
 	title: "Out Of Control Aronist",
 	x: -21.5d,
 	y: 12.0d,
+	shape: "hexagon",
 	description: "Somebody stop him!",
+	text: [
+		"They can't.",
+		"",
+		"80% of Arsons go unsolved."
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"96a91ff2"
@@ -120,12 +126,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "e88715aa",
-		type: "choice",
-		title: "Choice Fire Wizard Artefact",
-		table: 12
-	},
-	{
 		uid: "3defbf8c",
 		type: "ftbmoney:money",
 		ftb_money: 300L
@@ -134,10 +134,5 @@
 		uid: "49bc1137",
 		type: "xp_levels",
 		xp_levels: 30
-	},
-	{
-		uid: "cc946848",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

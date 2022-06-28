@@ -72,12 +72,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "5311e3a5",
-		type: "random",
-		title: "Random Fire Wizard Artefact",
-		table: 12
-	},
-	{
 		uid: "3a9e9550",
 		type: "ftbmoney:money",
 		ftb_money: 100L

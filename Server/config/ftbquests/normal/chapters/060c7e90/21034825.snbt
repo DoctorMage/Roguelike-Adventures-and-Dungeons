@@ -39,8 +39,9 @@
 		xp_levels: 20
 	},
 	{
-		uid: "59432415",
-		type: "item",
-		item: "aquaculture:loot 1 5"
+		uid: "41d55d51",
+		type: "random",
+		title: "Random Spectral Dust",
+		table: 2
 	}]
 }

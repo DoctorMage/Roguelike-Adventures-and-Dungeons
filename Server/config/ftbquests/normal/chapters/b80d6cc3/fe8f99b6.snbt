@@ -5,7 +5,7 @@
 	y: 4.5d,
 	description: "Quite literally, too",
 	text: [
-		"You're going to need to obtain some of these bad boys with an I for some of the best items in the mod!"
+		"You're going to need to obtain some of these bad boys for some of the best items in the mod!"
 	],
 	dependencies: [
 		"0cb962a9"
@@ -36,8 +36,9 @@
 		xp_levels: 15
 	},
 	{
-		uid: "e5eff79a",
+		uid: "cd905dad",
 		type: "item",
-		item: "aquaculture:loot 1 5"
+		item: "embers:dust_ash",
+		count: 128
 	}]
 }

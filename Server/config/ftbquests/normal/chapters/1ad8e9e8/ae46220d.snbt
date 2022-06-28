@@ -1,5 +1,5 @@
 {
-	title: "Everything You Need To Know About Plants",
+	title: "Everything You Need to Know About Plants",
 	x: -6.5d,
 	y: 2.0d,
 	description: "How to find them, where to find them, and what to do with them",
@@ -29,15 +29,5 @@
 		uid: "d2e5f63f",
 		type: "xp_levels",
 		xp_levels: 5
-	},
-	{
-		uid: "c96ca961",
-		type: "item",
-		item: "aquaculture:loot 1 5"
-	},
-	{
-		uid: "fb3034f6",
-		type: "item",
-		item: "aquaculture:loot 1 5"
 	}]
 }

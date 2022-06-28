@@ -1,7 +1,7 @@
 {
 	title: "Sensical Condensing",
-	x: 9.5d,
-	y: 0.0d,
+	x: 1.5d,
+	y: 1.0d,
 	description: "Alchemy boiled down! No pun intended",
 	text: [
 		"Requires Alchemical Retorts to be placed on all sides, facing the Alchemical Condenser.",

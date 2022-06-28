@@ -1,13 +1,13 @@
 {
 	title: "The Ur-Ghast's Ugly Wife",
-	x: 7.5d,
-	y: -11.0d,
+	x: 6.0d,
+	y: -11.25d,
 	description: "DON'T Tell him I said that",
 	text: [
 		"She'd turn you to stone if she was any uglier."
 	],
 	dependencies: [
-		"c228a9d6"
+		"b049fdec"
 	],
 	size: 1.5d,
 	tasks: [{
