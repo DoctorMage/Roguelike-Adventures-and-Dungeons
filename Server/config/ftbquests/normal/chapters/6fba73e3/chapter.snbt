@@ -1,7 +1,0 @@
-{
-	title: "Reliquary (of Ancient Artifacts!)",
-	icon: "xreliquary:mercy_cross",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

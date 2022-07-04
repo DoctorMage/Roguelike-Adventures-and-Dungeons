@@ -1,7 +1,0 @@
-{
-	title: "Mile High Club",
-	icon: "vc:item_airship_ignition",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

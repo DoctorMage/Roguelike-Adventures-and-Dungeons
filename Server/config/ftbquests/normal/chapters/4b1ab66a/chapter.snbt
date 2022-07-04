@@ -1,7 +1,0 @@
-{
-	title: "Pam Says You're a Farmer Now",
-	icon: "minecraft:apple",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: "circle"
-}

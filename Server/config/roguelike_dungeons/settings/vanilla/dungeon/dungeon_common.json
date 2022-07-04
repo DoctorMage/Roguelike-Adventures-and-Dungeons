@@ -1,8 +1,0 @@
-{
-  "name": "dungeon:common",
-  "exclusive": false,
-  "inherit": [
-    "dungeon:generic",
-    "main:rad"
-  ]
-}

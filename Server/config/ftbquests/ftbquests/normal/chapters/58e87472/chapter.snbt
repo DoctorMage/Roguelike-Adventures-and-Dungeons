@@ -1,7 +1,0 @@
-{
-	title: "Interdimensional Adventures",
-	icon: "dimdoors:oak_dimensional_door",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

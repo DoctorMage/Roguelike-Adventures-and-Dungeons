@@ -1,7 +1,0 @@
-{
-	title: "The Good and the Damned",
-	icon: "tombstone:decorative_tombstone",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

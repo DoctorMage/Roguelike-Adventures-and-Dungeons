@@ -1,7 +1,0 @@
-{
-	title: "Pam's Harvest Craft",
-	icon: "harvestcraft:asparagusseeditem",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}
