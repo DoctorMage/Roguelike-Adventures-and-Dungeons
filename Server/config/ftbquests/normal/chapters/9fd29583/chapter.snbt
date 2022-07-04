@@ -1,7 +1,0 @@
-{
-	title: "Buggin' Out",
-	icon: "erebus:erebus_food",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

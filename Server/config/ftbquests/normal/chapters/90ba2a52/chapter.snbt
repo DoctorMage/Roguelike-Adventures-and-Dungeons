@@ -1,7 +1,0 @@
-{
-	title: "The Grind Don't Stop",
-	icon: "xreliquary:mob_ingredient 1 10",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

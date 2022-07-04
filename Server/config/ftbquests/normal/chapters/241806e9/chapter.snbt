@@ -1,7 +1,0 @@
-{
-	title: "Dungeon Tactics",
-	icon: "dungeontactics:charm_bleak",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}
