@@ -26,13 +26,6 @@
 		}]
 	},
 	{
-		uid: "0656e290",
-		type: "item",
-		items: [{
-			item: "ancientspellcraft:sage_tome_advanced_necromancy"
-		}]
-	},
-	{
 		uid: "d7bed2f7",
 		type: "item",
 		items: [{
@@ -51,6 +44,13 @@
 		type: "item",
 		items: [{
 			item: "ancientspellcraft:sage_tome_master_healing"
+		}]
+	},
+	{
+		uid: "f3ba1ee9",
+		type: "item",
+		items: [{
+			item: "ancientspellcraft:sage_tome_master_necromancy"
 		}]
 	}],
 	rewards: [{
