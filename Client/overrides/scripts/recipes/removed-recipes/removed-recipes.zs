@@ -13,7 +13,8 @@ recipes.remove(<apotheosis:bow_book>);
 recipes.remove(<apotheosis:scrap_tome>);
 
 //# BBOP
-recipes.remove(<biomesoplenty:gem:7>);
+recipes.removeByRecipeName("biomesoplenty:amber");
+recipes.removeByRecipeName("biomesoplenty:amber_block");
 
 
 //# BiggerCraftingTables
@@ -38,6 +39,7 @@ recipes.remove(<dungeontactics:caltrops>);
 
 //# ExtraUtilites 2
 recipes.remove(<extrautils2:teleporter:1>);
+recipes.remove(<extrautils2:snowglobe>);
 
 //# Ice & Fire
 recipes.remove(<iceandfire:dragon_horn>);
@@ -51,6 +53,9 @@ recipes.remove(<minecraft:chainmail_leggings>);
 recipes.remove(<minecraft:chainmail_chestplate>);
 recipes.remove(<minecraft:chainmail_helmet>);
 recipes.remove(<minecraft:flint_and_steel>);
+
+//#Mystical Agriculture
+recipes.removeByRecipeName("mysticalagriculture:gemamber");
 
 //# Open Blocks
 recipes.remove(<openblocks:scaffolding>);
@@ -86,8 +91,8 @@ recipes.remove(<xreliquary:infernal_claws>);
 recipes.remove(<xreliquary:infernal_tear>);
 
 //# Thaumcraft 6
-recipes.remove(<thaumcraft:amber_block>);
-recipes.remove(<thaumcraft:amber_brick>);
+recipes.removeByRecipeName("thaumcraft:amberblocktoamber");
+recipes.removeByRecipeName("thaumcraft:amberblocktobrick");
 
 //# Twilight Forest
 recipes.remove(<twilightforest:uncrafting_table>);
@@ -97,7 +102,8 @@ recipes.remove(<waystones:waystone>);
 
 
 
-
+//#Viescraft
+recipes.remove(<vc:airship_workbench>);
 
 
 

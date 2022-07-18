@@ -42,7 +42,7 @@ Pyre.addRecipe("stalicripe", <roots:stalicripe>*3, [<minecraft:flint>, <minecraf
 
 Pyre.removeRecipe(<roots:moonglow_leaf>);
 
-Pyre.addRecipe("moonglow_leaf", <roots:moonglow_leaf>*3, [<ore:treeLeaves>, <minecraft:quartz>, <minecraft:glowstone_dust>, <roots:bark_birch>, <ore:blockGass>]);
+Pyre.addRecipe("moonglow_leaf", <roots:moonglow_leaf>*3, [<ore:treeLeaves>, <minecraft:quartz>, <minecraft:glowstone_dust>, <roots:bark_birch>, <ore:grass>]);
 
 
 
