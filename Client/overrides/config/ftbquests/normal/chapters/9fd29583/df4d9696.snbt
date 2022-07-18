@@ -73,13 +73,6 @@
 		}]
 	},
 	{
-		uid: "bd5e5f7c",
-		type: "item",
-		items: [{
-			item: "thebetweenlands:items_misc 1 3"
-		}]
-	},
-	{
 		uid: "f45f022e",
 		type: "item",
 		items: [{
@@ -112,6 +105,13 @@
 		type: "item",
 		items: [{
 			item: "erebus:materials 1 66"
+		}]
+	},
+	{
+		uid: "f257d080",
+		type: "item",
+		items: [{
+			item: "erebus:materials 1 24"
 		}]
 	}],
 	rewards: [{
