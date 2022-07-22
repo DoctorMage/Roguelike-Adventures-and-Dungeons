@@ -1,6 +1,11 @@
 {
+	title: "Darkness Diamonds",
 	x: -1.0d,
 	y: -2.0d,
+	description: "But in ingot form and dark grey",
+	text: [
+		"Obtain a Tenebrum Ingot."
+	],
 	dependencies: [
 		"03bff484"
 	],
@@ -22,13 +27,13 @@
 		}
 	},
 	{
-		uid: "4107239b",
-		type: "xp",
-		xp: 250
-	},
-	{
 		uid: "37aa6305",
 		type: "ftbmoney:money",
 		ftb_money: 50L
+	},
+	{
+		uid: "fded0c92",
+		type: "xp_levels",
+		xp_levels: 15
 	}]
 }

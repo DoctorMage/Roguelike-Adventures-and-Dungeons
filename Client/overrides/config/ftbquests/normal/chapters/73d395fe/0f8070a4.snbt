@@ -1,6 +1,11 @@
 {
+	title: "Ebonite Tools",
 	x: 2.0d,
 	y: -3.5d,
+	description: "Hey, these quartz tools aren't bad",
+	text: [
+		"Craft all of the Ebonite tools."
+	],
 	dependencies: [
 		"d211fcea"
 	],

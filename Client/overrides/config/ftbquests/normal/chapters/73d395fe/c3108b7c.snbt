@@ -1,6 +1,13 @@
 {
+	title: "Slowness Bomb",
 	x: -4.0d,
 	y: 0.0d,
+	description: "You're not going anywhere with this",
+	text: [
+		"This bomb gives an effect similar to slowness.",
+		"",
+		"Obtain a Dewshroom Spore Bomb."
+	],
 	dependencies: [
 		"500c1c45"
 	],
@@ -23,13 +30,13 @@
 		}
 	},
 	{
-		uid: "9074d801",
-		type: "xp",
-		xp: 250
-	},
-	{
 		uid: "66687f9e",
 		type: "ftbmoney:money",
 		ftb_money: 50L
+	},
+	{
+		uid: "ed267f5a",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

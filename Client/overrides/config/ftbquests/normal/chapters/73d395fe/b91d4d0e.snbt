@@ -1,6 +1,12 @@
 {
+	title: "Visit the Midnight",
 	x: -8.5d,
 	y: -4.0d,
+	description: "It's kind of dark in here...",
+	text: [
+		"Visiting the Midnight dimension does not require a built portal like the End, Nether, and Aether.",
+		"Instead, the portals to the Midnight spawn at night in the Overworld. To exit the Midnight, you must enter the same looking portal."
+	],
 	tasks: [{
 		uid: "a8c13396",
 		type: "dimension",

@@ -1,6 +1,11 @@
 {
+	title: "Glowy Rocks!",
 	x: 0.0d,
 	y: -6.0d,
+	description: "Just there to look pretty",
+	text: [
+		"Obtain some Rouxe and Bloomcrystal rocks and crystals."
+	],
 	dependencies: [
 		"03bff484"
 	],
@@ -43,13 +48,13 @@
 		}
 	},
 	{
-		uid: "58c804ba",
-		type: "xp",
-		xp: 250
-	},
-	{
 		uid: "205c5abd",
 		type: "ftbmoney:money",
 		ftb_money: 50L
+	},
+	{
+		uid: "3968c611",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

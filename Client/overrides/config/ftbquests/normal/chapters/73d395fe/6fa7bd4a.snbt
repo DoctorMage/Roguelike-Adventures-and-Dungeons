@@ -1,6 +1,11 @@
 {
+	title: "Purple Tools",
 	x: -2.0d,
 	y: -8.0d,
+	description: "Not the best, but it will have to do",
+	text: [
+		"Craft all Nightstone tools."
+	],
 	dependencies: [
 		"03bff484"
 	],

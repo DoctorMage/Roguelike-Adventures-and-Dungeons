@@ -1,6 +1,13 @@
 {
+	title: "Nagrilite Ingot",
 	x: 0.5d,
 	y: -2.5d,
+	description: "I want to make a grill out of this",
+	text: [
+		"Cook up some blue steak as well.",
+		"",
+		"Obtain a Nagrilite Ingot."
+	],
 	dependencies: [
 		"03bff484"
 	],
@@ -22,13 +29,13 @@
 		}
 	},
 	{
-		uid: "b89676a8",
-		type: "xp",
-		xp: 250
-	},
-	{
 		uid: "151563d8",
 		type: "ftbmoney:money",
 		ftb_money: 50L
+	},
+	{
+		uid: "1ae369ab",
+		type: "xp_levels",
+		xp_levels: 15
 	}]
 }

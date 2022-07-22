@@ -1,6 +1,11 @@
 {
+	title: "What's Inside?",
 	x: -3.0d,
 	y: -2.0d,
+	description: "Let's throw it to find out",
+	text: [
+		"Obtain a Geode and a Dark Pearl."
+	],
 	dependencies: [
 		"03bff484"
 	],
@@ -29,13 +34,13 @@
 		}
 	},
 	{
-		uid: "2c19cf94",
-		type: "xp",
-		xp: 250
-	},
-	{
 		uid: "8c930705",
 		type: "ftbmoney:money",
 		ftb_money: 50L
+	},
+	{
+		uid: "0278c1b1",
+		type: "xp_levels",
+		xp_levels: 15
 	}]
 }

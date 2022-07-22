@@ -1,6 +1,11 @@
 {
+	title: "Tenebrum Tools",
 	x: -0.5d,
 	y: 0.0d,
+	description: "These tools have extra flair",
+	text: [
+		"Craft all of the Tenebrum tools."
+	],
 	dependencies: [
 		"018f1c8f"
 	],

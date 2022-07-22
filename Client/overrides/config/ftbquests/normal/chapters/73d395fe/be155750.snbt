@@ -1,6 +1,11 @@
 {
+	title: "How Do These Trees Grow?",
 	x: -6.5d,
 	y: -4.0d,
+	description: "There's no sunlight here anyways",
+	text: [
+		"Obtain some Shadowroot Logs."
+	],
 	dependencies: [
 		"b91d4d0e"
 	],
@@ -13,13 +18,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "f7ab3fef",
-		type: "item",
-		item: "aquaculture:loot 1 5"
-	},
-	{
-		uid: "e24f5998",
-		type: "xp",
-		xp: 100
+		uid: "29365a3d",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

@@ -1,6 +1,13 @@
 {
+	title: "Black Quartz",
 	x: 0.5d,
 	y: -4.0d,
+	description: "Its not, actually",
+	text: [
+		"You can make tools out of this stuff, unlike real quartz.",
+		"",
+		"Obtain some Ebonite."
+	],
 	dependencies: [
 		"03bff484"
 	],
@@ -22,13 +29,13 @@
 		}
 	},
 	{
-		uid: "dc171e3f",
-		type: "xp",
-		xp: 250
-	},
-	{
 		uid: "398120ad",
 		type: "ftbmoney:money",
 		ftb_money: 50L
+	},
+	{
+		uid: "1144dbab",
+		type: "xp_levels",
+		xp_levels: 15
 	}]
 }

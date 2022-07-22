@@ -1,6 +1,13 @@
 {
+	title: "Blindness Bomb",
 	x: -3.0d,
 	y: 0.0d,
+	description: "Makes the darkness even darker",
+	text: [
+		"This bomb gives an effect similar to blindness.",
+		"",
+		"Obtain a Nightshroom Spore Bomb."
+	],
 	dependencies: [
 		"500c1c45"
 	],
@@ -23,13 +30,13 @@
 		}
 	},
 	{
-		uid: "1496e992",
-		type: "xp",
-		xp: 250
-	},
-	{
 		uid: "c91905d3",
 		type: "ftbmoney:money",
 		ftb_money: 50L
+	},
+	{
+		uid: "1e947ca3",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

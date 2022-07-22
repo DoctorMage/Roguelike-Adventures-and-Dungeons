@@ -1,6 +1,13 @@
 {
+	title: "Nagrilite Tools",
 	x: 1.5d,
 	y: -1.5d,
+	description: "Grilling mobs with these",
+	text: [
+		"...the sword definitely.",
+		"",
+		"Craft all of the Nagrilite tools."
+	],
 	dependencies: [
 		"154c18e8"
 	],

@@ -1,6 +1,17 @@
 {
+	title: "Purple Stone!",
 	x: -2.0d,
 	y: -4.0d,
+	description: "It's found underground!",
+	text: [
+		"The trees are purple. ",
+		"The stone is purple. ",
+		"The grass is purple. ",
+		"EVERYTHING IS PURPLE.",
+		"Am I purple as well?",
+		"",
+		"Obtain some Nightstone."
+	],
 	dependencies: [
 		"7ce4e664"
 	],
@@ -13,13 +24,13 @@
 		}]
 	}],
 	rewards: [{
-		uid: "44d8da93",
-		type: "xp",
-		xp: 100
+		uid: "858000a4",
+		type: "xp_levels",
+		xp_levels: 5
 	},
 	{
-		uid: "b9ba93f2",
-		type: "item",
-		item: "aquaculture:loot 1 5"
+		uid: "b3934d52",
+		type: "ftbmoney:money",
+		ftb_money: 20L
 	}]
 }

@@ -1,6 +1,13 @@
 {
+	title: "I Welcome You to the Sporch!",
 	x: -1.0d,
 	y: -6.5d,
+	description: "Its like a spore and torch in one!",
+	text: [
+		"Unfortunately, Sporches function just like Torches.",
+		"",
+		"Obtain all Sporches."
+	],
 	dependencies: [
 		"03bff484"
 	],
@@ -43,13 +50,13 @@
 		}
 	},
 	{
-		uid: "98acd0c1",
-		type: "xp",
-		xp: 250
-	},
-	{
 		uid: "3f915e1d",
 		type: "ftbmoney:money",
 		ftb_money: 50L
+	},
+	{
+		uid: "fe5ff616",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

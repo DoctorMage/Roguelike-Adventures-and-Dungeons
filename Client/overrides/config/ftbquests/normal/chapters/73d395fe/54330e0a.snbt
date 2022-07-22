@@ -1,6 +1,11 @@
 {
+	title: "Tenebrum Armaments",
 	x: 0.5d,
 	y: -0.5d,
+	description: "The best it gets in the Midnight",
+	text: [
+		"Craft the Tenebrum armor."
+	],
 	dependencies: [
 		"018f1c8f"
 	],

@@ -1,6 +1,13 @@
 {
+	title: "Twitchy Bomb",
 	x: -5.0d,
 	y: -2.0d,
+	description: "Am I lagging?",
+	text: [
+		"This bomb gives an effect similar to rubberbanding and lag.",
+		"",
+		"Obtain a Bogshroom Spore Bomb."
+	],
 	dependencies: [
 		"500c1c45"
 	],
@@ -23,13 +30,13 @@
 		}
 	},
 	{
-		uid: "ae0488ff",
-		type: "xp",
-		xp: 250
-	},
-	{
 		uid: "738c94f6",
 		type: "ftbmoney:money",
 		ftb_money: 50L
+	},
+	{
+		uid: "1b852dec",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

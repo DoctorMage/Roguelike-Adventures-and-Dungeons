@@ -1,6 +1,13 @@
 {
+	title: "Poison Bomb",
 	x: -5.0d,
 	y: -1.0d,
+	description: "Don't inhale it",
+	text: [
+		"This bomb gives an effect similar to poison.",
+		"",
+		"Obtain a Viridshroom Spore Bomb."
+	],
 	dependencies: [
 		"500c1c45"
 	],
@@ -23,13 +30,13 @@
 		}
 	},
 	{
-		uid: "ff5b6bbf",
-		type: "xp",
-		xp: 250
-	},
-	{
 		uid: "ccad7766",
 		type: "ftbmoney:money",
 		ftb_money: 50L
+	},
+	{
+		uid: "62040ebf",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

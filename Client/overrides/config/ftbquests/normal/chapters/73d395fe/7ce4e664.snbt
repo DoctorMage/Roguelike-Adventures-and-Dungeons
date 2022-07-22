@@ -1,6 +1,11 @@
 {
+	title: "Shadowroot Armaments",
 	x: -4.5d,
 	y: -4.0d,
+	description: "Looks cooler than regular wooden tools",
+	text: [
+		"Craft all of the Shadowroot tools."
+	],
 	dependencies: [
 		"be155750"
 	],
@@ -50,13 +55,13 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "7163b695",
-		type: "item",
-		item: "aquaculture:loot 1 5"
+		uid: "d06df07d",
+		type: "xp_levels",
+		xp_levels: 5
 	},
 	{
-		uid: "50587c38",
-		type: "xp",
-		xp: 100
+		uid: "e99fc8d0",
+		type: "ftbmoney:money",
+		ftb_money: 20L
 	}]
 }
