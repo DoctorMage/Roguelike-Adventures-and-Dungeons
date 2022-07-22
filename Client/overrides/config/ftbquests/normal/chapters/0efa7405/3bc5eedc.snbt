@@ -1,6 +1,11 @@
 {
+	title: "Liquid Death",
 	x: 5.0d,
 	y: -12.0d,
+	description: "As the name suggests",
+	text: [
+		"I don't think this smells pleasant, but it might taste like grape juice!"
+	],
 	dependencies: [
 		"7c204714"
 	],
@@ -25,18 +30,13 @@
 		}]
 	}],
 	rewards: [{
-		uid: "d83a1b03",
-		type: "xp",
-		xp: 500
-	},
-	{
 		uid: "d480ce8b",
 		type: "ftbmoney:money",
 		ftb_money: 20L
 	},
 	{
-		uid: "0e29fb9a",
-		type: "item",
-		item: "aquaculture:loot 1 5"
+		uid: "42020d2b",
+		type: "xp_levels",
+		xp_levels: 15
 	}]
 }

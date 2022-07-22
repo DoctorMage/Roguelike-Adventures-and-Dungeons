@@ -1,6 +1,11 @@
 {
+	title: "What Type of Mending is This?",
 	x: 7.5d,
 	y: -5.0d,
+	description: "It repairs your mind instead of your tools",
+	text: [
+		"The Headband of Curiosity converts half of your experience into knowledge."
+	],
 	dependencies: [
 		"9e943e03"
 	],

@@ -1,6 +1,11 @@
 {
+	title: "Minecraft 1.19?",
 	x: 7.5d,
 	y: 4.5d,
+	description: "At least we don't have Warden in 1.12.2",
+	text: [
+		"Arcane Ears function similar to Warden Sensers. However, the Arcane Ear must be tuned to a note block to respond to."
+	],
 	dependencies: [
 		"9e146a1f"
 	],

@@ -1,6 +1,11 @@
 {
+	title: "Focus!",
 	x: -3.0d,
 	y: -5.0d,
+	description: "I get distracted so easily...",
+	text: [
+		"Obtain a Focus Pouch, a Blank Advanced Focus, and a Blank Greater Focus."
+	],
 	dependencies: [
 		"dc3395c7"
 	],

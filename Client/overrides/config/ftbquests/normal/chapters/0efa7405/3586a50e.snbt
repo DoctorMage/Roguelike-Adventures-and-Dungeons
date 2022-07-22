@@ -1,6 +1,11 @@
 {
+	title: "I'm Not Crazy",
 	x: 10.0d,
 	y: -7.5d,
+	description: "You are",
+	text: [
+		"Might want to keep tabs on your sanity and how much warp you've accumulated."
+	],
 	dependencies: [
 		"204856d1"
 	],

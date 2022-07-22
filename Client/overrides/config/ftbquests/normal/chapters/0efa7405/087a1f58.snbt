@@ -1,6 +1,11 @@
 {
+	title: "Hungry Hungry Hippo",
 	x: 5.0d,
 	y: 4.0d,
+	description: "*munch munch*",
+	text: [
+		"Basically a hopper on all sides, but does not move items."
+	],
 	dependencies: [
 		"187ba0b2"
 	],

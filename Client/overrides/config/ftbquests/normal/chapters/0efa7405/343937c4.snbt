@@ -1,6 +1,11 @@
 {
+	title: "Splash Potionator",
 	x: 9.0d,
 	y: -12.0d,
+	description: "Things just got more complicated",
+	text: [
+		"Provide it with essentia and it will be good for 8 sprays."
+	],
 	dependencies: [
 		"7c204714"
 	],
@@ -12,18 +17,13 @@
 		}]
 	}],
 	rewards: [{
-		uid: "1010e63b",
-		type: "xp",
-		xp: 500
-	},
-	{
 		uid: "222ba8ad",
 		type: "ftbmoney:money",
 		ftb_money: 20L
 	},
 	{
-		uid: "890afc4c",
-		type: "item",
-		item: "aquaculture:loot 1 5"
+		uid: "230f32ce",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

@@ -1,6 +1,11 @@
 {
+	title: "Fertilizer is in the Air",
 	x: 0.5d,
 	y: 1.5d,
+	description: "And not in the soil?",
+	text: [
+		"A Lamp of Growth makes plants grow faster. Uses Herba to function."
+	],
 	dependencies: [
 		"e976eaad"
 	],

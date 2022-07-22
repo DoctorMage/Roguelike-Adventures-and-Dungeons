@@ -1,6 +1,11 @@
 {
+	title: "Love is in the Air",
 	x: -0.5d,
 	y: 2.0d,
+	description: "But not in their hearts",
+	text: [
+		"A Lamp of Fertility makes animals mate. Uses Deiderium to function."
+	],
 	dependencies: [
 		"e976eaad"
 	],

@@ -1,0 +1,31 @@
+{
+	title: "Essentia Sorter",
+	x: 15.0d,
+	y: -10.5d,
+	description: "Gotta stack them high",
+	text: [
+		"Arcane Alembics filter out the essentia from a Smeltery when stacked on top.",
+		"",
+		"You might need a few dozen and a ladder."
+	],
+	dependencies: [
+		"f8a63da8"
+	],
+	tasks: [{
+		uid: "fba68158",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alembic"
+		}]
+	}],
+	rewards: [{
+		uid: "95639b9a",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "6e0bbe3b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,6 +1,11 @@
 {
+	title: "Arcane Levitator",
 	x: 6.5d,
 	y: 3.0d,
+	description: "Slow elevator",
+	text: [
+		"It levitates you up in the air."
+	],
 	dependencies: [
 		"087a1f58"
 	],

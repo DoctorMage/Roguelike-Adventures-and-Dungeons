@@ -1,6 +1,13 @@
 {
+	title: "Stabilizer",
 	x: 9.5d,
 	y: -3.5d,
+	description: "Has an I on it",
+	text: [
+		"Does it stand for ingenious?",
+		"",
+		"A Stabilizer stablizes the infusion process."
+	],
 	dependencies: [
 		"d61d7f87"
 	],

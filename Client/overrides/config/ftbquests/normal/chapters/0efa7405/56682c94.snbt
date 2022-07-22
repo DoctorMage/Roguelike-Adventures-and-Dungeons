@@ -1,6 +1,11 @@
 {
+	title: "Don't Stare at the Sun",
 	x: 4.75d,
 	y: -9.0d,
+	description: "You'll have vision damage, silly",
+	text: [
+		"Collect all of the Celestial Notes."
+	],
 	dependencies: [
 		"cbbc2be8"
 	],

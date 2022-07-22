@@ -1,6 +1,11 @@
 {
+	title: "Boots of the Traveler",
 	x: 8.5d,
 	y: 1.0d,
+	description: "Why do these need to be charged?",
+	text: [
+		"You'll move better and faster as long as these boots are charged."
+	],
 	dependencies: [
 		"d61d7f87"
 	],

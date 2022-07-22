@@ -1,6 +1,11 @@
 {
+	title: "Hot Potato, Hot Potato",
 	x: 6.5d,
 	y: -13.5d,
+	description: "Don't drop it!",
+	text: [
+		"Alumentum makes for a great fuel. Sure hope I don't right click while holding this."
+	],
 	dependencies: [
 		"7c204714"
 	],
@@ -12,18 +17,13 @@
 		}]
 	}],
 	rewards: [{
-		uid: "cd56648f",
-		type: "xp",
-		xp: 500
-	},
-	{
 		uid: "8670f14b",
 		type: "ftbmoney:money",
 		ftb_money: 20L
 	},
 	{
-		uid: "062298c4",
-		type: "item",
-		item: "aquaculture:loot 1 5"
+		uid: "bd5efab8",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

@@ -1,6 +1,13 @@
 {
+	title: "Charm of Undying",
 	x: 6.0d,
 	y: -3.5d,
+	description: "Keeps your other hand empty",
+	text: [
+		"For other tools and torches.",
+		"",
+		"Functions like a Totem of Undying, but works in your baubles instead."
+	],
 	dependencies: [
 		"9e943e03"
 	],

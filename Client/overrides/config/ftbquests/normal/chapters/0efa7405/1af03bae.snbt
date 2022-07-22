@@ -22,16 +22,6 @@
 		}]
 	}],
 	rewards: [{
-		uid: "5ab63a23",
-		type: "xp",
-		xp: 100
-	},
-	{
-		uid: "6a3a13dc",
-		type: "item",
-		item: "aquaculture:loot 1 5"
-	},
-	{
 		uid: "aebd4ab2",
 		type: "item",
 		item: {
@@ -40,5 +30,10 @@
 				type: "elemental_crystal_loot_table_wizardry_"
 			}
 		}
+	},
+	{
+		uid: "869c85c1",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

@@ -1,6 +1,11 @@
 {
+	title: "No Spectre Coils?",
 	x: 7.5d,
 	y: 5.5d,
+	description: "Well, here's your alternative",
+	text: [
+		"A Vis Generator uses the local aura to produce energy."
+	],
 	dependencies: [
 		"9e146a1f"
 	],

@@ -1,6 +1,11 @@
 {
+	title: "Portable Battery?",
 	x: -8.0d,
 	y: -4.75d,
+	description: "No shock hazard guaranteed!",
+	text: [
+		"Obtain a Amulet of Vis."
+	],
 	dependencies: [
 		"8e7bca3c"
 	],

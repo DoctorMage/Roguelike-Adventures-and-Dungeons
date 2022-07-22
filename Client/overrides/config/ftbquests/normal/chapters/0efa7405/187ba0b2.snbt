@@ -1,6 +1,12 @@
 {
+	title: "Two Thaumometers",
 	x: 3.0d,
 	y: 5.0d,
+	description: "Strapped to your face",
+	text: [
+		"Its like a Thaumometer, but its equipable in your baubles.",
+		"Requires no effort on your part."
+	],
 	dependencies: [
 		"1af03bae"
 	],

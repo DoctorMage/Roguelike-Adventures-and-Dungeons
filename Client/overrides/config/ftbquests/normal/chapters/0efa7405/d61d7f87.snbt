@@ -1,6 +1,13 @@
 {
+	title: "Intro to Infusion",
 	x: 8.5d,
 	y: -1.5d,
+	description: "Infused with... MAGIC!",
+	text: [
+		"Infusion is like a complicated crafting table without an interface.",
+		"",
+		"To activate the Runic Matrix, you must right click it with the Caster's Gauntlet."
+	],
 	dependencies: [
 		"24073d04"
 	],
@@ -17,6 +24,21 @@
 		type: "item",
 		items: [{
 			item: "thaumcraft:pedestal_arcane"
+		}]
+	},
+	{
+		uid: "37bf04a6",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_arcane"
+		}],
+		count: 8L
+	},
+	{
+		uid: "9b5e8b38",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
 		}]
 	}],
 	rewards: [{

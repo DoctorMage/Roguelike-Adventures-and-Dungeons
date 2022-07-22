@@ -1,6 +1,11 @@
 {
+	title: "Efficiency at Last!",
 	x: 15.0d,
 	y: -9.0d,
+	description: "Safer, too",
+	text: [
+		"You can now smelt items into essentia."
+	],
 	dependencies: [
 		"1ce5751a"
 	],
@@ -13,13 +18,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "e994ca6a",
-		type: "item",
-		item: "aquaculture:loot 1 6"
-	},
-	{
-		uid: "692a9676",
-		type: "xp",
-		xp: 100
+		uid: "1aae90ef",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

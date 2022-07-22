@@ -1,6 +1,11 @@
 {
+	title: "Essentia WiFi",
 	x: 22.5d,
 	y: -7.0d,
+	description: "Saves you on pipes later",
+	text: [
+		"As the name suggests, the Emptying Essentia Transfuser empties the corresponding jar, while the Filling Essentia Transfuser fills the jar."
+	],
 	dependencies: [
 		"aa162004"
 	],

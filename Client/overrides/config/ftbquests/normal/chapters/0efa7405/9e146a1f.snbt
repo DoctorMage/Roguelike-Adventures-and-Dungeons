@@ -1,6 +1,11 @@
 {
+	title: "Back to Vanilla",
 	x: 6.0d,
 	y: 5.0d,
+	description: "Nah, it's still Thaumcraft",
+	text: [
+		""
+	],
 	dependencies: [
 		"187ba0b2"
 	],

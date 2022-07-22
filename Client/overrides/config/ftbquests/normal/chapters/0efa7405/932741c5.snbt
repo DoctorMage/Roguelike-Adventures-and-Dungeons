@@ -1,7 +1,15 @@
 {
-	title: "Infused Stone",
+	title: "Infused Stones",
 	x: 6.0d,
 	y: -1.5d,
+	description: "Pretty interesting properties",
+	text: [
+		"The Infusion Speed Stone when placed under an infusion pillar speeds up the infusion process.",
+		"The Infusion Cost Stone decreases the cost of infusion.",
+		"",
+		"The Paving Stone of Travel makes the player walk fast while walking on it.",
+		"The Barrier Stone prevent entities, within reason, from stepping past the block."
+	],
 	dependencies: [
 		"d61d7f87"
 	],

@@ -1,6 +1,11 @@
 {
+	title: "Magical Stone",
 	x: 8.5d,
 	y: -6.0d,
+	description: "With magical properties",
+	text: [
+		"If you like how it looks, you can chisel it, too."
+	],
 	dependencies: [
 		"1af03bae"
 	],

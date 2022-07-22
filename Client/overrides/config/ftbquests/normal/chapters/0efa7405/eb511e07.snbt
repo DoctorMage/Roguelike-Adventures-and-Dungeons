@@ -1,6 +1,11 @@
 {
+	title: "More Bang for Your Buck",
 	x: 10.0d,
 	y: -10.5d,
+	description: "And more buck for your bang",
+	text: [
+		"You can make Native Clusters with some metallum and ordo to double how many ingots you get by smelting."
+	],
 	dependencies: [
 		"204856d1"
 	],
@@ -64,8 +69,8 @@
 		}
 	},
 	{
-		uid: "1a7ecb6f",
-		type: "xp",
-		xp: 100
+		uid: "708d4bf5",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

@@ -1,6 +1,11 @@
 {
+	title: "It's Pretty Old",
 	x: 6.5d,
 	y: -0.5d,
+	description: "So old to belong nowhere",
+	text: [
+		""
+	],
 	dependencies: [
 		"d61d7f87"
 	],

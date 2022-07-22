@@ -1,6 +1,11 @@
 {
+	title: "Got Swag?",
 	x: 7.0d,
 	y: 1.5d,
+	description: "You sure as heck do!",
+	text: [
+		"Infuse the Thaumium Fortress armor set."
+	],
 	dependencies: [
 		"d61d7f87"
 	],
@@ -96,22 +101,12 @@
 		}
 	},
 	{
-		uid: "cbc45037",
-		type: "xp_levels",
-		xp_levels: 5
-	},
-	{
 		uid: "24f24ff0",
 		type: "xp_levels",
 		xp_levels: 5
 	},
 	{
 		uid: "3de2bfdb",
-		type: "ftbmoney:money",
-		ftb_money: 100L
-	},
-	{
-		uid: "a520fac3",
 		type: "ftbmoney:money",
 		ftb_money: 100L
 	}]

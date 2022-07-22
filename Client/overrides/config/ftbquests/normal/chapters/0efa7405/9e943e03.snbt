@@ -1,6 +1,11 @@
 {
+	title: "Lighter on Your Feet",
 	x: 7.5d,
 	y: -3.5d,
+	description: "Feels like a few pounds were lost",
+	text: [
+		"The Cloudstepper Ring allows feather falling and a double jump."
+	],
 	dependencies: [
 		"d61d7f87"
 	],
@@ -15,13 +20,8 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "93214d56",
-		type: "item",
-		item: "aquaculture:loot 1 5"
-	},
-	{
-		uid: "fb1f5830",
-		type: "xp",
-		xp: 100
+		uid: "0a4e6d35",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

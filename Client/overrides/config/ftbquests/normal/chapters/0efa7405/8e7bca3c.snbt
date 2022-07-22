@@ -1,6 +1,13 @@
 {
+	title: "Tesla Charger",
 	x: -6.5d,
 	y: -2.75d,
+	description: "Unfortunately, there are no Thaumcraft cars yet",
+	text: [
+		"Recharge Pedestals recharge baubles that require energy to function.",
+		"",
+		"Obtain a Recharge Pedestal."
+	],
 	dependencies: [
 		"bee95934"
 	],

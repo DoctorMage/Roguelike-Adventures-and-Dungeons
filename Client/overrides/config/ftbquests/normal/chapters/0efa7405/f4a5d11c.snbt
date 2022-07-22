@@ -1,6 +1,11 @@
 {
+	title: "Evil Stone",
 	x: 6.5d,
 	y: -2.5d,
+	description: "Made by evil people",
+	text: [
+		""
+	],
 	dependencies: [
 		"d61d7f87"
 	],

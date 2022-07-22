@@ -1,6 +1,11 @@
 {
+	title: "A Cooler Looking Hook",
 	x: 2.0d,
 	y: 3.0d,
+	description: "Requires vis",
+	text: [
+		"Functions like a grapling hook."
+	],
 	dependencies: [
 		"187ba0b2"
 	],

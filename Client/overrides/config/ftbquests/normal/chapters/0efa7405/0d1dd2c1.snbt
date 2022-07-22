@@ -1,6 +1,15 @@
 {
+	title: "Jar Jar",
 	x: 18.0d,
 	y: -9.0d,
+	description: "Blinks",
+	text: [
+		"Does he have eyelids?",
+		"",
+		"Anyways, jars help sort and store essentia. Be sure to label them because there are many shades of red essentia that are hard to tell apart.",
+		"",
+		"Jars can also be hooked up to pipes."
+	],
 	dependencies: [
 		"f8a63da8"
 	],
@@ -102,13 +111,8 @@
 		}
 	},
 	{
-		uid: "1f945d4b",
-		type: "item",
-		item: "aquaculture:loot 1 5"
-	},
-	{
-		uid: "de223052",
-		type: "xp",
-		xp: 100
+		uid: "f0dd9905",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

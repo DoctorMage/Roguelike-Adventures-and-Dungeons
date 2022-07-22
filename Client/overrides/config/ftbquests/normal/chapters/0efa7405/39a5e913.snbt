@@ -1,6 +1,11 @@
 {
+	title: "One Makes Two",
 	x: 19.5d,
 	y: -10.5d,
+	description: "Separated out like oil and water",
+	text: [
+		"The Essentia Centrifuge separates out essentia into its parts (which is more essentia)."
+	],
 	dependencies: [
 		"4105176f"
 	],

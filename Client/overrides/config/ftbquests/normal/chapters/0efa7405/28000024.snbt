@@ -35,8 +35,8 @@
 		}
 	},
 	{
-		uid: "577847a8",
-		type: "xp",
-		xp: 100
+		uid: "f1c41abc",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

@@ -1,8 +1,15 @@
 {
-	x: 16.5d,
-	y: -12.5d,
+	title: "Smeltery Sidekicks",
+	x: 15.0d,
+	y: -7.5d,
+	description: "Robin would be envious",
+	text: [
+		"Auxiliary Slurry Pumps allow more Arcane Alembics to be placed ontop of it to filter essentia.",
+		"",
+		"Auxiliary Venting Ports reduce the flux output of the Smeltery. However, it follows the law of diminishing returns."
+	],
 	dependencies: [
-		"4105176f"
+		"f8a63da8"
 	],
 	tasks: [{
 		uid: "fbca0ef6",
@@ -34,8 +41,8 @@
 		ftb_money: 50L
 	},
 	{
-		uid: "13c26271",
-		type: "xp",
-		xp: 100
+		uid: "e0dd23af",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

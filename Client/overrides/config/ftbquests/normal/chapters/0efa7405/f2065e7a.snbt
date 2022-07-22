@@ -1,7 +1,13 @@
 {
-	title: "Tools Of Creation",
+	title: "Power Rangers in Tool Form",
 	x: 10.0d,
 	y: 1.5d,
+	description: "Together, you have the best tools",
+	text: [
+		"Lest you become insane because of it.",
+		"",
+		"Infuse this tool set."
+	],
 	dependencies: [
 		"d61d7f87"
 	],

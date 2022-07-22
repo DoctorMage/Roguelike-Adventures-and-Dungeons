@@ -1,6 +1,15 @@
 {
+	title: "Relaxing Bath Salts",
 	x: 8.5d,
 	y: -13.0d,
+	description: "Like an at home spa",
+	text: [
+		"This stuff keeps you sane when you have warp.",
+		"",
+		"Drop the Purifying Bath Salts into a 1 by 1 pool of water and wait for it to disolve. Hop in to be temporarily guarded from warp.",
+		"",
+		"The Sanitizing Soap removes temporary and sticky warp, though you'll have to use a lot of it."
+	],
 	dependencies: [
 		"7c204714"
 	],
@@ -19,18 +28,13 @@
 		}]
 	}],
 	rewards: [{
-		uid: "7f153cf4",
-		type: "xp",
-		xp: 500
-	},
-	{
 		uid: "43fa91ec",
 		type: "ftbmoney:money",
 		ftb_money: 20L
 	},
 	{
-		uid: "0f5e5017",
-		type: "item",
-		item: "aquaculture:loot 1 5"
+		uid: "a791b7d4",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

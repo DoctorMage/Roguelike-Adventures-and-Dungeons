@@ -1,6 +1,11 @@
 {
+	title: "Spa Day Just Got Better",
 	x: 8.5d,
 	y: -14.5d,
+	description: "No need to do it yourself anymore",
+	text: [
+		"The Arcane Spa takes bathsalts and automatically mixes it with the water around itself."
+	],
 	dependencies: [
 		"f450cd69"
 	],
@@ -12,13 +17,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "ce0c969d",
-		type: "xp",
-		xp: 100
-	},
-	{
-		uid: "9ce8ffbe",
-		type: "item",
-		item: "aquaculture:loot 1 5"
+		uid: "1dda2128",
+		type: "xp_levels",
+		xp_levels: 15
 	}]
 }

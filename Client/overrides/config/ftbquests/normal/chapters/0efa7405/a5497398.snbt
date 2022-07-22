@@ -1,7 +1,13 @@
 {
+	title: "Recycling",
 	icon: "thaumcraft:tallow",
 	x: 7.5d,
 	y: -13.5d,
+	description: "Who needs 100 stacks of rotten flesh?",
+	text: [
+		"Who knew that Yankee Candle sold rotten flesh scent candles.",
+		"Mmm, smells nice."
+	],
 	dependencies: [
 		"7c204714"
 	],
@@ -20,18 +26,13 @@
 		}]
 	}],
 	rewards: [{
-		uid: "c10cd8be",
-		type: "xp",
-		xp: 500
-	},
-	{
 		uid: "9560ebe7",
 		type: "ftbmoney:money",
 		ftb_money: 20L
 	},
 	{
-		uid: "e7c37a7d",
-		type: "item",
-		item: "aquaculture:loot 1 5"
+		uid: "524001e9",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

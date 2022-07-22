@@ -1,6 +1,16 @@
 {
+	title: "We Need More Aura",
 	x: -5.5d,
 	y: -4.75d,
+	description: "Got a solution?",
+	text: [
+		"Yes, we do.",
+		"A Workbench Charger amplifies the local aura on the workbench you're using.",
+		"",
+		"It allows crafting of items that uses a large amount of aura.",
+		"",
+		"Obtain a Workbench Charger."
+	],
 	dependencies: [
 		"bee95934"
 	],

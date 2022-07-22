@@ -1,6 +1,11 @@
 {
+	title: "Efficiency at Best",
 	x: 18.0d,
 	y: -7.0d,
+	description: "The safest bet",
+	text: [
+		"A Thaumium Essentia Smeltery is much like an Essentia Smelter, but has 10% more effieciency and 100% higher slurry process speed."
+	],
 	dependencies: [
 		"f8a63da8"
 	],

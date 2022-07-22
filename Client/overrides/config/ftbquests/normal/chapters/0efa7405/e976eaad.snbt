@@ -1,6 +1,11 @@
 {
+	title: "Lamp That Places More Lamps?",
 	x: 0.5d,
 	y: 3.25d,
+	description: "Theres more light for some reason",
+	text: [
+		"An Arcane Lamp places more light sources within 16 blocks away if its dark enough to spawn monsters."
+	],
 	dependencies: [
 		"187ba0b2"
 	],

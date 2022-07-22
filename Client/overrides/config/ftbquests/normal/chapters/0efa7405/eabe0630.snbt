@@ -1,6 +1,13 @@
 {
+	title: "The Coolest Hologram in RAD",
 	x: 0.75d,
 	y: 5.0d,
+	description: "Comes with a white and purple toggle!",
+	text: [
+		"The white option shows how much aura is in the surrounding chunks.",
+		"",
+		"The purple option shows how much flux is in the surrounding chunks."
+	],
 	dependencies: [
 		"187ba0b2"
 	],

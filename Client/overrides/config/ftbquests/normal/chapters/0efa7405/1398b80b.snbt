@@ -17,13 +17,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "9ac9517e",
-		type: "xp",
-		xp: 100
-	},
-	{
-		uid: "82f10133",
-		type: "item",
-		item: "aquaculture:loot 1 5"
+		uid: "a0f1a545",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

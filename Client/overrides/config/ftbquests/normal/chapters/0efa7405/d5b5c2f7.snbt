@@ -1,7 +1,14 @@
 {
+	title: "Infernal Furnace",
 	icon: "minecraft:nether_brick",
 	x: 4.5d,
 	y: 2.5d,
+	description: "It doesn't have respect to any items it smelts",
+	text: [
+		"Follow the Thaumonomicon on how to construct this.",
+		"",
+		"You put the items in; it spits the items out."
+	],
 	dependencies: [
 		"187ba0b2"
 	],
@@ -37,29 +44,21 @@
 		items: [{
 			item: "thaumcraft:salis_mundus"
 		}]
+	},
+	{
+		uid: "dc5da2ea",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_bars"
+		}]
 	}],
 	rewards: [{
-		uid: "15367e1a",
-		type: "item",
-		item: "aquaculture:loot 1 5"
-	},
-	{
-		uid: "aaf5141b",
-		type: "xp_levels",
-		xp_levels: 5
-	},
-	{
 		uid: "55c8b9db",
 		type: "xp_levels",
 		xp_levels: 5
 	},
 	{
 		uid: "30b5f8b0",
-		type: "ftbmoney:money",
-		ftb_money: 20L
-	},
-	{
-		uid: "df24f585",
 		type: "ftbmoney:money",
 		ftb_money: 20L
 	}]

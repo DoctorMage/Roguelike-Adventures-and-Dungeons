@@ -1,6 +1,11 @@
 {
+	title: "Magic Mirror Sending Magic Gas",
 	x: 1.5d,
 	y: 0.5d,
+	description: "Can we transport natural gas using this?",
+	text: [
+		"Works like a Magic Mirror, but instead of transporting items, it transports essentia."
+	],
 	dependencies: [
 		"422df795"
 	],

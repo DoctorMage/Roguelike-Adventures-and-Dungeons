@@ -1,6 +1,12 @@
 {
+	title: "Alchemical Brass",
 	x: 10.0d,
 	y: -9.0d,
+	description: "Basically Thaumcraft's iron",
+	text: [
+		"Purple smoke comes out of the caudron when you make this stuff.",
+		"It's not bad, is it?"
+	],
 	dependencies: [
 		"7c204714"
 	],
@@ -12,13 +18,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "039f40b6",
-		type: "item",
-		item: "aquaculture:loot 1 5"
-	},
-	{
-		uid: "b3f2c504",
-		type: "xp",
-		xp: 100
+		uid: "d97275d0",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

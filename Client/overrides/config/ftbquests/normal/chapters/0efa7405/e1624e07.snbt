@@ -1,6 +1,13 @@
 {
+	title: "Creative Mode with Gravity",
 	x: 6.5d,
 	y: -4.5d,
+	description: "Health and hunger, gone",
+	text: [
+		"The yellow pulsing Verdant Heart Charm heals you.",
+		"",
+		"The blue pulsing Verdant Heart Charm feeds you and gives you air underwater."
+	],
 	dependencies: [
 		"9e943e03"
 	],

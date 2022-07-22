@@ -1,7 +1,15 @@
 {
+	title: "Alchemical Automation",
 	icon: "thaumcraft:metal_alchemical",
 	x: 20.5d,
 	y: -8.0d,
+	description: "Hands free, no hassle",
+	text: [
+		"Follow the Thaumonomicon on how to construct this.",
+		"",
+		"Hook pipes to jars and the base material inside the GUI, and it will automate production without you measuring out each essentia.",
+		"Making Brass and Thaumium has never been easier."
+	],
 	dependencies: [
 		"39a5e913",
 		"01732add"
@@ -12,14 +20,8 @@
 		type: "item",
 		items: [{
 			item: "thaumcraft:metal_alchemical"
-		}]
-	},
-	{
-		uid: "4391a818",
-		type: "item",
-		items: [{
-			item: "thaumcraft:brain_box"
-		}]
+		}],
+		count: 2L
 	},
 	{
 		uid: "8ee00c47",

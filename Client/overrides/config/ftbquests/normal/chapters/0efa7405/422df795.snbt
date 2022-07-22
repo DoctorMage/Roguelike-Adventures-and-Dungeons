@@ -1,6 +1,13 @@
 {
+	title: "Magic Mirror on the Wall",
 	x: 1.5d,
 	y: 2.0d,
+	description: "Who is the fairest of all?",
+	text: [
+		"Over the seven jewelled hills, beyond the &6seventh &ffall, in the cottage of the Seven Dwarfs, dwells Snow White, fairest one of all.",
+		"",
+		"These Magic Mirrors transport items between any distance and any dimension when paired."
+	],
 	dependencies: [
 		"e976eaad"
 	],

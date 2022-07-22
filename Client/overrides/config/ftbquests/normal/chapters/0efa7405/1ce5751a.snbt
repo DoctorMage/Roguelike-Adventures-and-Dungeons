@@ -1,6 +1,13 @@
 {
+	title: "Thaumium",
 	x: 12.5d,
 	y: -9.0d,
+	description: "Like Thaumcraft's diamonds in iron form",
+	text: [
+		"Thaumium and Alchemical Brass are important materials in making all sorts of things.",
+		"",
+		"Don't make too much, however."
+	],
 	dependencies: [
 		"204856d1"
 	],
@@ -13,13 +20,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "dc06d3c0",
-		type: "item",
-		item: "aquaculture:loot 1 6"
-	},
-	{
-		uid: "662eb515",
-		type: "xp",
-		xp: 100
+		uid: "f7c2a618",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }
