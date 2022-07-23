@@ -5,9 +5,9 @@
 //# Most recipes which use the Bigger Crafting Table(s) will be in this file.
 
 //# Recipes for crafting the Bigger Crafting Tables
-recipes.addShaped(<biggercraftingtables:biggercraftingtable:0>, [[<extrautils2:decorativesolidwood:1>, <extrautils2:decorativesolidwood:1>, null], [<extrautils2:decorativesolidwood:1>, <extrautils2:decorativesolidwood:1>, null], [null, null, null]]);
-recipes.addShaped(<biggercraftingtables:biggercraftingtable:1>, [[<biggercraftingtables:biggercraftingtable:0>, <thaumcraft:log_greatwood>, null], [<thaumcraft:log_greatwood>, <thaumcraft:log_greatwood>, null], [null, null, null]]);
-recipes.addShaped(<biggercraftingtables:biggercraftingtable:2>, [[<biggercraftingtables:biggercraftingtable:1>, <twilightforest:giant_log>, null], [<twilightforest:giant_log>, <twilightforest:giant_log>, null], [null, null, null]]);
+recipes.addShaped(<biggercraftingtables:biggercraftingtable:0>, [[<extrautils2:decorativesolidwood:1>, <extrautils2:decorativesolidwood:1>], [<extrautils2:decorativesolidwood:1>, <extrautils2:decorativesolidwood:1>]]);
+recipes.addShaped(<biggercraftingtables:biggercraftingtable:1>, [[<biggercraftingtables:biggercraftingtable:0>, <thaumcraft:log_greatwood>], [<thaumcraft:log_greatwood>, <thaumcraft:log_greatwood>]]);
+recipes.addShaped(<biggercraftingtables:biggercraftingtable:2>, [[<biggercraftingtables:biggercraftingtable:1>, <twilightforest:giant_log>], [<twilightforest:giant_log>, <twilightforest:giant_log>]]);
 
 
 

@@ -50,7 +50,7 @@ Pyre.addRecipe("moonglow_leaf", <roots:moonglow_leaf>*3, [<ore:treeLeaves>, <min
 
 Pyre.removeRecipe(<roots:pereskia>);
 
-Pyre.addRecipe("pereskia", <roots:pereskia>*3, [<roots:wildroot>, <biomesoplenty:flower_1>, <ore:sugarcane>, <minecraft:beetroot>, <minecraft:speckled_melon>]);
+Pyre.addRecipe("pereskia", <roots:pereskia>*3, [<roots:wildroot>, <rustic:aloe_vera>, <ore:sugarcane>, <minecraft:beetroot>, <minecraft:speckled_melon>]);
 
 
 
