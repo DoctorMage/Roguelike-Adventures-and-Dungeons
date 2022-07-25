@@ -22,15 +22,6 @@
 		ignore_nbt: 1b
 	},
 	{
-		uid: "87aa056e",
-		type: "item",
-		items: [{
-			item: "inventorypets:wither_pet"
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
-	},
-	{
 		uid: "45274d80",
 		type: "item",
 		items: [{

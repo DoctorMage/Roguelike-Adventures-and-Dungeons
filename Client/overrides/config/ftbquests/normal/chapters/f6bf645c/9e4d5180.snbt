@@ -1,5 +1,6 @@
 {
 	title: "Naga No More!",
+	icon: "twilightforest:trophy",
 	x: 5.25d,
 	y: 1.5d,
 	description: "Because you know, he's dead",

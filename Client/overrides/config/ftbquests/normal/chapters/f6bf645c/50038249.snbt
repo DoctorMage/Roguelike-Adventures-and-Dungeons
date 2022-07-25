@@ -1,0 +1,52 @@
+{
+	x: 1.5d,
+	y: 11.0d,
+	text: [
+		"Collect all unique tree saplings of Twilight"
+	],
+	tasks: [{
+		uid: "47ab2101",
+		type: "item",
+		items: [{
+			item: "twilightforest:twilight_sapling 1 4"
+		}]
+	},
+	{
+		uid: "6fb2d6c4",
+		type: "item",
+		items: [{
+			item: "twilightforest:twilight_sapling 1 5"
+		}]
+	},
+	{
+		uid: "8c15336f",
+		type: "item",
+		items: [{
+			item: "twilightforest:twilight_sapling 1 6"
+		}]
+	},
+	{
+		uid: "22134c13",
+		type: "item",
+		items: [{
+			item: "twilightforest:twilight_sapling 1 7"
+		}]
+	},
+	{
+		uid: "1363fd57",
+		type: "item",
+		items: [{
+			item: "twilightforest:twilight_sapling 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "96d28bea",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "17fd96b7",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

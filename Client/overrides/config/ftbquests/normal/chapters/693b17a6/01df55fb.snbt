@@ -1,7 +1,7 @@
 {
 	title: "Nagamancer",
-	x: 18.0d,
-	y: -1.0d,
+	x: 9.0d,
+	y: 0.0d,
 	description: "Can you summon them? No.",
 	text: [
 		"Slay 15 Naga in the Twilight Forest."

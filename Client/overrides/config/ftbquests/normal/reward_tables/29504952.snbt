@@ -23,46 +23,6 @@
 		only_one: true
 	},
 	{
-		item: {
-			id: "heroicarmory:terrariabeekeeper",
-			tag: {
-				Quality: {
-					Slots: [
-						"mainhand"
-					],
-					Color: "yellow",
-					AttributeModifiers: [{
-						UUIDMost: 906300460372411061L,
-						UUIDLeast: -6243540868570677077L,
-						Amount: -0.05000000074505806d,
-						AttributeName: "potioncore.digSpeed",
-						Operation: 2,
-						Name: "qualitytools"
-					},
-					{
-						UUIDMost: -7567004369662358714L,
-						UUIDLeast: -7542576661741950687L,
-						Amount: -0.05000000074505806d,
-						AttributeName: "generic.attackSpeed",
-						Operation: 2,
-						Name: "qualitytools"
-					},
-					{
-						UUIDMost: 5983413424721117397L,
-						UUIDLeast: -8004722470719097713L,
-						Amount: 0.10000000149011612d,
-						AttributeName: "generic.attackDamage",
-						Operation: 2,
-						Name: "qualitytools"
-					}],
-					Name: "quality.broad.name"
-				}
-			},
-			Count: 1b
-		},
-		only_one: true
-	},
-	{
 		item: "erebus:erebus_food 1 1",
 		count: 12,
 		only_one: true

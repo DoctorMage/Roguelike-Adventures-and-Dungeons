@@ -6,8 +6,8 @@
 			icon: "assets:customicons\\aerwhalemob.png"
 		}
 	},
-	x: 20.0d,
-	y: 0.0d,
+	x: 11.0d,
+	y: 1.0d,
 	description: "Watching them die!",
 	text: [
 		"Slay 25 Aerwhale Kings."

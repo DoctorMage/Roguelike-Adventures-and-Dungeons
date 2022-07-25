@@ -39,10 +39,5 @@
 		uid: "e8dcb9c6",
 		type: "ftbmoney:money",
 		ftb_money: 50L
-	},
-	{
-		uid: "e0dd23af",
-		type: "xp_levels",
-		xp_levels: 5
 	}]
 }

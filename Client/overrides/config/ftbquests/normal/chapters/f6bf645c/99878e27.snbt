@@ -1,5 +1,6 @@
 {
 	title: "Twilight Lich in a Twilight Ditch",
+	icon: "twilightforest:trophy 1 1",
 	x: 1.0d,
 	y: 1.5d,
 	description: "Too morbid?",

@@ -1,5 +1,6 @@
 {
 	title: "Minishroom",
+	icon: "twilightforest:trophy 1 6",
 	x: 3.25d,
 	y: -0.75d,
 	description: "He's not actually little....",
