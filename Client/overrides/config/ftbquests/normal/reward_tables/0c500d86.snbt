@@ -1,0 +1,906 @@
+{
+	title: "Common Wizardry Artefacts",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: {
+			id: "ebwizardry:ring_earth_melee",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -1871434371590961233L,
+						UUIDLeast: -5729636986253849148L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.damageResistance",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.armored.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "tfspellpack:ring_twilight",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -1651747480040947177L,
+						UUIDLeast: -8861332777017495231L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 7490463615611781464L,
+						UUIDLeast: -9221450238115369764L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.graceful.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "tfspellpack:ring_stealth_attack",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 6974713933179080408L,
+						UUIDLeast: -7179086955647678420L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -3616675112359868391L,
+						UUIDLeast: -5377887472893357896L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -7856244397154809190L,
+						UUIDLeast: -8725925186525777202L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.clunky.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "tfspellpack:amulet_steeleaf",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "wizardrygolems:ring_sandstone",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "wizardrygolems:ring_grass",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: 5290681077572977291L,
+						UUIDLeast: -6536024437205651438L,
+						Amount: -0.20000000298023224d,
+						AttributeName: "generic.luck",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.unlucky.name"
+				}
+			}
+		}
+	},
+	{
+		item: "ancientspellcraft:belt_horse"
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_mana_orb",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:charm_ice_cream",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -186294337134378121L,
+						UUIDLeast: -9124245938720879185L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.damageResistance",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.armored.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_earth_biome",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -2501795783752594315L,
+						UUIDLeast: -8631707958826542183L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 2508918155116036875L,
+						UUIDLeast: -6388382346274128943L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.graceful.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_extraction",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 4808558457674024175L,
+						UUIDLeast: -5389877453580283899L,
+						Amount: 2.0d,
+						AttributeName: "generic.maxHealth",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.healthy.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_paladin",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 7232499024361571037L,
+						UUIDLeast: -5813322139253313861L,
+						Amount: 2.0d,
+						AttributeName: "generic.maxHealth",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.healthy.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_warding",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "light_purple",
+					AttributeModifiers: [{
+						UUIDMost: 1821475002380470688L,
+						UUIDLeast: -7000682653835799881L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.damageResistance",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -8935888996777506764L,
+						UUIDLeast: -5620247638821802493L,
+						Amount: 2.0d,
+						AttributeName: "generic.maxHealth",
+						Operation: 0,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -8199860658881084196L,
+						UUIDLeast: -8998593627300698919L,
+						Amount: 1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.undying.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_fire_protection",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -3469397676240387207L,
+						UUIDLeast: -8136074808014222076L,
+						Amount: 0.5d,
+						AttributeName: "potioncore.jumpHeight",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.springy.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_ice_protection",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -2477387660251742061L,
+						UUIDLeast: -8904651067485490041L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.flailing.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_channeling",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -4358823926229677825L,
+						UUIDLeast: -8575768851890030878L,
+						Amount: 1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.shielding.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_lich",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -4574061095257748595L,
+						UUIDLeast: -8558725394849430757L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.flailing.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_banishing",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "wizardrygolems:ring_engraved_concrete",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -1061490288364336437L,
+						UUIDLeast: -6313302757766197447L,
+						Amount: 2.0d,
+						AttributeName: "generic.maxHealth",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.healthy.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_feeding",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -4689735094730472317L,
+						UUIDLeast: -8274953110313233885L,
+						Amount: 0.5d,
+						AttributeName: "potioncore.jumpHeight",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.springy.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_recovery",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 325318055100106564L,
+						UUIDLeast: -7558774205065548095L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.damageResistance",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.armored.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_spell_discovery",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 5892159613340041435L,
+						UUIDLeast: -6770340902932162416L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.magicDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.focusing.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_minion_health",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_minion_variants",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_growth",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_sixth_sense",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -4605422897827134001L,
+						UUIDLeast: -8124543382481280353L,
+						Amount: 0.05000000074505806d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -5436359837272094388L,
+						UUIDLeast: -8968749204464180715L,
+						Amount: 0.5d,
+						AttributeName: "potioncore.jumpHeight",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.athletic.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:amulet_poison_resistance",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:amulet_rabbit",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 2062901546513811779L,
+						UUIDLeast: -9176195550563060397L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 8257829166956430435L,
+						UUIDLeast: -4833922796219203113L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 2955827697518726628L,
+						UUIDLeast: -9050800230382764722L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.clunky.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:amulet_mana",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -4114111981805745279L,
+						UUIDLeast: -6358713868574055039L,
+						Amount: 0.5d,
+						AttributeName: "potioncore.jumpHeight",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.springy.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ring_charge",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 8281846823527730014L,
+						UUIDLeast: -8405933376679158672L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.flailing.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ring_lily_flower",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: 3080149481297756188L,
+						UUIDLeast: -8030246845844906959L,
+						Amount: -0.20000000298023224d,
+						AttributeName: "generic.luck",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.unlucky.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ring_protector",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: 8395464227089697780L,
+						UUIDLeast: -8734847652126345683L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -3540802684533781772L,
+						UUIDLeast: -8803892895005088450L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.graceful.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ring_mana_lesser",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 2946874047135827543L,
+						UUIDLeast: -6736972657899246074L,
+						Amount: 0.05000000074505806d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.speedy.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ring_power",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 2629988537225658497L,
+						UUIDLeast: -5800156792962868552L,
+						Amount: 1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.shielding.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ancientspellcraft:ring_poison_arrow",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_siphoning",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -5168716555169610464L,
+						UUIDLeast: -9088652588790817533L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 8730943399629898497L,
+						UUIDLeast: -7226184180277256616L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.graceful.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_fire_melee",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 2075470678956262632L,
+						UUIDLeast: -4871467149617491999L,
+						Amount: 0.20000000298023224d,
+						AttributeName: "generic.luck",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.lucky.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_fire_biome",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 9170909539205400244L,
+						UUIDLeast: -6696343528213157863L,
+						Amount: 0.05000000074505806d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.speedy.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_ice_melee",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -1030487745150105938L,
+						UUIDLeast: -8971914880341359411L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.projectileDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.aiming.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_ice_biome",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_lightning_melee",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 4092395569273455111L,
+						UUIDLeast: -6388858450982132508L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.magicDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.focusing.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_necromancy_melee",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_battlemage",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -4148713408891761274L,
+						UUIDLeast: -6826871252223708044L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.prospecting.name"
+				}
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "common_wizardry_artefacts",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

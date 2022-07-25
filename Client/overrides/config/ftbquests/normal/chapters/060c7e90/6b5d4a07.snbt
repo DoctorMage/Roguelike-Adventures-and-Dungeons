@@ -118,12 +118,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "5ec7f9c6",
-		type: "random",
-		title: "Random Universal Wizard Artefact",
-		table: 44
-	},
-	{
 		uid: "5731f9f3",
 		type: "ftbmoney:money",
 		ftb_money: 100L
@@ -132,5 +126,48 @@
 		uid: "64d0efc1",
 		type: "xp_levels",
 		xp_levels: 10
+	},
+	{
+		uid: "7fd3ff1f",
+		type: "loot",
+		title: "&bRandom Wizardry Artefact",
+		icon: {
+			id: "ancientspellcraft:ring_disenchanter",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "light_purple",
+					AttributeModifiers: [{
+						UUIDMost: -9612050074219647L,
+						UUIDLeast: -8573738024557858871L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.damageResistance",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -6260459351197663212L,
+						UUIDLeast: -9023398028467624609L,
+						Amount: 2.0d,
+						AttributeName: "generic.maxHealth",
+						Operation: 0,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 2640681222218663561L,
+						UUIDLeast: -8743280288180521734L,
+						Amount: 1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.undying.name"
+				}
+			}
+		},
+		table: 52
 	}]
 }
