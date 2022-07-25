@@ -24,6 +24,7 @@ rh(<biggercraftingtables:autobiggercraftingtable:2>);
 //# Cyclic changes
 rh(<cyclicmagic:chest_sack_empty>);
 
+//Ice and Fire changes
 rh(<iceandfire:dragon_horn>);
 rh(<iceandfire:dragon_horn_fire>);
 rh(<iceandfire:dragon_horn_ice>);
@@ -73,6 +74,8 @@ rh(<inventorypets:cloud_pet>);
 //#Viescraft
 rh(<vc:airship_workbench>);
 
-
 //#extrautils
 rh(<extrautils2:snowglobe>);
+
+//placable items
+rh(<placeableitems:item_horse_armor_stand>);

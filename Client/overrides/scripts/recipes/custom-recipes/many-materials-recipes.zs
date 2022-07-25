@@ -5,10 +5,10 @@ recipes.addShaped(<manymaterials:material:0>, [[null, <thaumcraft:ingot:1>, null
 recipes.addShaped(<manymaterials:material:1>, [[<pvj:unstable_essence>, <ancientspellcraft:arcane_compound>, <pvj:unstable_essence>], [<ancientspellcraft:arcane_compound>, <ebwizardry:grand_crystal>, <ancientspellcraft:arcane_compound>], [<pvj:unstable_essence>, <ancientspellcraft:arcane_compound>, <pvj:unstable_essence>]]);
 
 //# Ancient Fragments (Break-down)
-recipes.addShaped(<manymaterials:material:2>*3, [[<ancientspellcraft:stone_tablet_small>, null, null], [null, null, null], [null, null, null]]);
-recipes.addShaped(<manymaterials:material:2>*6, [[<ancientspellcraft:stone_tablet>, null, null], [null, null, null], [null, null, null]]);
-recipes.addShaped(<manymaterials:material:2>*9, [[<ancientspellcraft:stone_tablet_large>, null, null], [null, null, null], [null, null, null]]);
-recipes.addShaped(<manymaterials:material:2>*12, [[<ancientspellcraft:stone_tablet_grand>, null, null], [null, null, null], [null, null, null]]);
+recipes.addShapeless(<manymaterials:material:2>*3, [<ancientspellcraft:stone_tablet_small>]);
+recipes.addShapeless(<manymaterials:material:2>*6, [<ancientspellcraft:stone_tablet>]);
+recipes.addShapeless(<manymaterials:material:2>*9, [<ancientspellcraft:stone_tablet_large>]);
+recipes.addShapeless(<manymaterials:material:2>*12, [<ancientspellcraft:stone_tablet_grand>]);
 
 //# Ancient Tablets/Items (Crafting)
 //# See bigger-crafting-tables-recipes file for "Large Stone Tablet" and "Grand Stone Tablet" recipes.
