@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "manymaterials:item/orb_of_potential"
-  }
-}
