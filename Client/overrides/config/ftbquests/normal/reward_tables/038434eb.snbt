@@ -1,0 +1,31 @@
+{
+	title: "Wizardry Artefacts",
+	loot_size: 1,
+	rewards: [{
+		title: "Common Wizardry Artefacts",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_wizardry_artefacts"
+			}
+		}
+	},
+	{
+		title: "Uncommon Wizardry Artefacts",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_wizardry_artefacts"
+			}
+		}
+	},
+	{
+		title: "Rare Wizardry Artefacts",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_wizardry_artefacts"
+			}
+		}
+	}]
+}

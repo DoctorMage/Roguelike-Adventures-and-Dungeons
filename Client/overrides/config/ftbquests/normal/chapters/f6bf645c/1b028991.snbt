@@ -1,10 +1,13 @@
 {
 	title: "Minishroom",
+	icon: "twilightforest:trophy 1 6",
 	x: 3.25d,
 	y: -0.75d,
 	description: "He's not actually little....",
 	text: [
-		"Slay the Minoshroom in his Labyrinth."
+		"Slay the Minoshroom in his Labyrinth.",
+		"",
+		"You must drink the Meef Stroganoff to unlock the Hydra."
 	],
 	dependencies: [
 		"99878e27"

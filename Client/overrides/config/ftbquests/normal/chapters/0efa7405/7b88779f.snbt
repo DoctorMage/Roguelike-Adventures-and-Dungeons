@@ -17,13 +17,13 @@
 		}]
 	}],
 	rewards: [{
-		uid: "76eaf9c3",
-		type: "xp_levels",
-		xp_levels: 5
-	},
-	{
 		uid: "7f8abcb3",
 		type: "ftbmoney:money",
 		ftb_money: 20L
+	},
+	{
+		uid: "51bef178",
+		type: "item",
+		item: "thaumcraft:loot_bag"
 	}]
 }

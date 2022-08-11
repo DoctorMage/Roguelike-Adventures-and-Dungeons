@@ -1,5 +1,14 @@
 {
 	title: "The Abominable Snow-Man",
+	icon: {
+		id: "twilightforest:yeti_helmet",
+		tag: {
+			ench: [{
+				lvl: 2s,
+				id: 0
+			}]
+		}
+	},
 	x: 4.0d,
 	y: -10.5d,
 	description: "It's actually a Yeti",

@@ -8,7 +8,9 @@
 		"",
 		"The Interface can be connected to pipes to enable simple or advanced sorting systems.",
 		"",
-		"You are only required to build the pieces for one type of Colossal Chest to complete this quest."
+		"You are only required to build the pieces for one type of Colossal Chest to complete this quest.",
+		"",
+		"&c&lIt is highly recommended to build the Colossial Chest with all parts in the same chunk."
 	],
 	dependencies: [
 		"5e5e8910"

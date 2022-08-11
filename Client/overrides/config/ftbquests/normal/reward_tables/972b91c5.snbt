@@ -193,7 +193,8 @@
 					Name: "Thief's Boots"
 				}
 			}
-		}
+		},
+		only_one: true
 	}],
 	loot_crate: {
 		string_id: "thief",

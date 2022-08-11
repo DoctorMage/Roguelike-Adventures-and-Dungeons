@@ -22,11 +22,6 @@
 		ftb_money: 100L
 	},
 	{
-		uid: "c0f88613",
-		type: "xp_levels",
-		xp_levels: 15
-	},
-	{
 		uid: "5ef4c944",
 		type: "item",
 		item: "thebetweenlands:items_misc 1 40"
