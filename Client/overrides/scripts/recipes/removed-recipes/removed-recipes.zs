@@ -1,3 +1,5 @@
+#priority 15
+
 //#Removed recipes - Please see each mod tab
 
 //# Apotheosis
@@ -27,6 +29,12 @@ recipes.remove(<biggercraftingtables:autobiggercraftingtable:2>);
 
 //# Cyclic
 recipes.remove(<cyclicmagic:chest_sack_empty>);
+recipes.remove(<cyclicmagic:emerald_boots>);
+recipes.remove(<cyclicmagic:emerald_leggings>);
+recipes.remove(<cyclicmagic:emerald_chestplate>);
+recipes.remove(<cyclicmagic:emerald_helmet>);
+
+
 
 
 //# DungeonTactics
@@ -48,6 +56,11 @@ recipes.remove(<iceandfire:dragon_horn>);
 recipes.remove(<levelup2:respecbook>);
 
 //# Minecraft (Vanilla)
+recipes.remove(<minecraft:chainmail_boots>);
+recipes.remove(<minecraft:chainmail_leggings>);
+recipes.remove(<minecraft:chainmail_chestplate>);
+recipes.remove(<minecraft:chainmail_helmet>);
+recipes.remove(<minecraft:flint_and_steel>);
 
 //#Mystical Agriculture
 recipes.removeByRecipeName("mysticalagriculture:gemamber");
@@ -95,14 +108,10 @@ recipes.remove(<twilightforest:uncrafting_table>);
 //# Waystones
 recipes.remove(<waystones:waystone>);
 
+
+
 //#Viescraft
 recipes.remove(<vc:airship_workbench>);
-
-//Arroma
-recipes.remove(<aroma1997sdimension:dimensionchanger>);
-recipes.remove(<aroma1997sdimension:miningmultitool>);
-recipes.remove(<aroma1997sdimension:portalframe>);
-
 
 
 
