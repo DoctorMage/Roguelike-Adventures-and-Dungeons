@@ -14,10 +14,14 @@ recipes.remove(<apotheosis:fishing_rod_book>);
 recipes.remove(<apotheosis:bow_book>);
 recipes.remove(<apotheosis:scrap_tome>);
 
+//Aroma
+recipes.remove(<aroma1997sdimension:dimensionchanger>);
+recipes.remove(<aroma1997sdimension:miningmultitool>);
+recipes.remove(<aroma1997sdimension:portalframe>);
+
 //# BBOP
 recipes.removeByRecipeName("biomesoplenty:amber");
 recipes.removeByRecipeName("biomesoplenty:amber_block");
-
 
 //# BiggerCraftingTables
 recipes.remove(<biggercraftingtables:biggercraftingtable:0>);
@@ -33,9 +37,6 @@ recipes.remove(<cyclicmagic:emerald_boots>);
 recipes.remove(<cyclicmagic:emerald_leggings>);
 recipes.remove(<cyclicmagic:emerald_chestplate>);
 recipes.remove(<cyclicmagic:emerald_helmet>);
-
-
-
 
 //# DungeonTactics
 recipes.remove(<dungeontactics:ironlinks>);
@@ -68,13 +69,11 @@ recipes.removeByRecipeName("mysticalagriculture:gemamber");
 //# Open Blocks
 recipes.remove(<openblocks:scaffolding>);
 
-
 //# Placeable Items
 recipes.remove(<placeableitems:item_horse_armor_stand>);
 
 //# Quark
 recipes.remove(<quark:slime_bucket>);
-
 
 //# Random Things
 recipes.remove(<randomthings:chunkanalyzer>);
@@ -85,9 +84,6 @@ recipes.remove(<randomthings:diviningrod:5>);
 recipes.remove(<randomthings:diviningrod:7>);
 recipes.remove(<randomthings:biomeradar>);
 recipes.remove(<randomthings:rezstone>);
-
-
-
 
 //# Reliquary
 recipes.remove(<xreliquary:alkahestry_tome:1001>);
@@ -107,8 +103,6 @@ recipes.remove(<twilightforest:uncrafting_table>);
 
 //# Waystones
 recipes.remove(<waystones:waystone>);
-
-
 
 //#Viescraft
 recipes.remove(<vc:airship_workbench>);
