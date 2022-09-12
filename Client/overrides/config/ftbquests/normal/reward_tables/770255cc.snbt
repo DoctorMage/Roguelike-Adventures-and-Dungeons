@@ -1,22 +1,7 @@
 {
-	title: "Artillery Class",
+	title: "Artillery Gear",
 	loot_size: 50,
 	rewards: [{
-		item: {
-			id: "spartanweaponry:crossbow_invar",
-			tag: {
-				"Quark:ItemNameDye": 5,
-				display: {
-					Lore: [
-						"You have my crossbow!"
-					],
-					Name: "The Crossbow of the Galadhrim"
-				}
-			}
-		},
-		only_one: true
-	},
-	{
 		item: {
 			ForgeCaps: {
 				Parent: {
@@ -54,7 +39,64 @@
 	},
 	{
 		item: {
-			id: "spartanweaponry:throwing_axe_invar",
+			id: "ebwizardry:spark_bomb",
+			tag: {
+				"Quark:ItemNameDye": 4,
+				display: {
+					Lore: [
+						"Throw it at an opponent and look at the shock on their face."
+					],
+					Name: "Spark Bomb"
+				}
+			}
+		},
+		count: 4,
+		only_one: true
+	},
+	{
+		item: {
+			id: "ebwizardry:firebomb",
+			tag: {
+				"Quark:ItemNameDye": 1,
+				display: {
+					Lore: [
+						"Hot and Spicy."
+					],
+					Name: "Fire Bomb"
+				}
+			}
+		},
+		count: 3,
+		only_one: true
+	},
+	{
+		item: "spartanweaponry:bolt",
+		count: 48,
+		only_one: true
+	},
+	{
+		item: "harvestcraft:potroastitem",
+		count: 24,
+		only_one: true
+	},
+	{
+		item: {
+			id: "spartanweaponry:crossbow_bronze",
+			tag: {
+				"Quark:ItemNameDye": 5,
+				display: {
+					Lore: [
+						"You have my crossbow!"
+					],
+					Name: "The Crossbow of the Galadhrim"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "spartanweaponry:throwing_axe_bronze",
 			tag: {
 				AmmoUsed: 4,
 				"Quark:ItemNameDye": 5,
@@ -74,11 +116,28 @@
 	},
 	{
 		item: {
+			id: "ebwizardry:poison_bomb",
+			tag: {
+				"Quark:ItemNameDye": 10,
+				display: {
+					Lore: [
+						"Do not breathe in the chemicals from this."
+					],
+					Name: "Poison Bomb"
+				}
+			}
+		},
+		count: 4,
+		only_one: true
+	},
+	{
+		item: {
 			id: "minecraft:iron_helmet",
 			tag: {
+				"Quark:ItemNameDye": 5,
 				Quality: {},
 				display: {
-					Name: "Artillery's Helmet"
+					Name: "Artillery Helmet"
 				}
 			}
 		},
@@ -88,10 +147,10 @@
 		item: {
 			id: "minecraft:iron_chestplate",
 			tag: {
-				"Quark:ItemNameDye": 15,
+				"Quark:ItemNameDye": 5,
 				Quality: {},
 				display: {
-					Name: "Artillery's Chestplate"
+					Name: "Artillery Chestplate"
 				}
 			}
 		},
@@ -101,10 +160,10 @@
 		item: {
 			id: "minecraft:iron_leggings",
 			tag: {
-				"Quark:ItemNameDye": 15,
+				"Quark:ItemNameDye": 5,
 				Quality: {},
 				display: {
-					Name: "Artillery's Leggings"
+					Name: "Artillery Leggings"
 				}
 			}
 		},
@@ -114,70 +173,13 @@
 		item: {
 			id: "minecraft:iron_boots",
 			tag: {
+				"Quark:ItemNameDye": 5,
 				Quality: {},
 				display: {
-					Name: "Artillery's Boots"
+					Name: "Artillery Boots"
 				}
 			}
 		},
-		only_one: true
-	},
-	{
-		item: {
-			id: "ebwizardry:spark_bomb",
-			tag: {
-				"Quark:ItemNameDye": 4,
-				display: {
-					Lore: [
-						"Throw it at an opponent and look at the shock on their face."
-					],
-					Name: "Spark Bomb"
-				}
-			}
-		},
-		count: 10,
-		only_one: true
-	},
-	{
-		item: {
-			id: "ebwizardry:poison_bomb",
-			tag: {
-				"Quark:ItemNameDye": 10,
-				display: {
-					Lore: [
-						"Do not breathe in the chemicals from this."
-					],
-					Name: "Spark Bomb"
-				}
-			}
-		},
-		count: 5,
-		only_one: true
-	},
-	{
-		item: {
-			id: "ebwizardry:firebomb",
-			tag: {
-				"Quark:ItemNameDye": 1,
-				display: {
-					Lore: [
-						"Hot and Spicy."
-					],
-					Name: "Fire Bomb"
-				}
-			}
-		},
-		count: 5,
-		only_one: true
-	},
-	{
-		item: "spartanweaponry:bolt",
-		count: 48,
-		only_one: true
-	},
-	{
-		item: "harvestcraft:potroastitem",
-		count: 24,
 		only_one: true
 	}],
 	loot_crate: {

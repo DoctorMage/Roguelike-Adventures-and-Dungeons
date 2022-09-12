@@ -56,5 +56,37 @@
 				type: "jockey"
 			}
 		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "warlord"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "warden"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "dancer"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "wizard"
+			}
+		}
 	}]
 }

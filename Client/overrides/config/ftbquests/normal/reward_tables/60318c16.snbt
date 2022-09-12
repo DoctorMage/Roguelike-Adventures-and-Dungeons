@@ -1,0 +1,140 @@
+{
+	title: "Blade Dancer Gear",
+	loot_size: 50,
+	rewards: [{
+		item: {
+			id: "spartanweaponry:glaive_bronze",
+			tag: {
+				"Quark:ItemNameDye": 9,
+				Quality: {},
+				display: {
+					Name: "Gae Bolg"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: "harvestcraft:mixedsaladitem",
+		count: 24,
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:chainmail_helmet",
+			tag: {
+				"Quark:ItemNameDye": 9,
+				Quality: {},
+				display: {
+					Name: "Dancer Helmet"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:chainmail_chestplate",
+			tag: {
+				"Quark:ItemNameDye": 9,
+				Quality: {},
+				display: {
+					Name: "Dancer Chestplate"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:chainmail_leggings",
+			tag: {
+				"Quark:ItemNameDye": 9,
+				Quality: {},
+				display: {
+					Name: "Dancer Leggings"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:chainmail_boots",
+			tag: {
+				"Quark:RuneColor": 6,
+				ench: [{
+					lvl: 1s,
+					id: 171
+				}],
+				"Quark:ItemNameDye": 9,
+				Quality: {
+					Slots: [
+						"feet"
+					],
+					Color: "light_purple",
+					AttributeModifiers: [{
+						UUIDMost: 1315548515203695510L,
+						UUIDLeast: -7515393779546135881L,
+						Amount: 1.0d,
+						AttributeName: "potioncore.stepHeight",
+						Operation: 0,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -6670059043840307814L,
+						UUIDLeast: -5662368054747926175L,
+						Amount: 0.05d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -774763763761131972L,
+						UUIDLeast: -7461556339006468728L,
+						Amount: -1.0d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "Graceful"
+				},
+				display: {
+					Name: "Dancer's Lightweight Boots"
+				},
+				"Quark:RuneAttached": 1b
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "spartanweaponry:throwing_knife_bronze",
+			tag: {
+				AmmoUsed: 4,
+				"Quark:ItemNameDye": 9,
+				UUIDMost: -8032206901116122072L,
+				UUIDLeast: -4719180196403979358L,
+				display: {
+					Lore: [
+						"A bundle of throwing knives very efficient in frozen time."
+					],
+					Name: "Maid's Knife Bundle"
+				},
+				enchChecked: 1b,
+				Original: 1b
+			}
+		},
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "dancer",
+		item_name: "Crate Of Blade Dancer Gear",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}
