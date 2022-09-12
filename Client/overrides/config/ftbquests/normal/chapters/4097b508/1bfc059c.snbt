@@ -1,0 +1,131 @@
+{
+	title: "Hedge Maze",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "60126a13-51b7-4ebc-a6e4-6fc44370b89f"
+		}
+	},
+	x: 11.67857142857143d,
+	y: 2.017857142857146d,
+	shape: "square",
+	text: [
+		"Title: Hedge Maze",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 35x35x41",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A hedge maze within stone walls. In the center lies a tree and flowers."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "6f2ee48c",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "c2b004d3",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Hedge Maze",
+				UUID: "62db8fb3-9e24-42a0-9292-692011f8601f",
+				startPos: {
+					X: 1882,
+					Y: 4,
+					Z: 161
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 160
+				},
+				{
+					item: 6036,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 6151,
+					meta: 0,
+					count: 246
+				},
+				{
+					item: 5245,
+					meta: 3,
+					count: 326
+				},
+				{
+					item: 5409,
+					meta: 7,
+					count: 80
+				},
+				{
+					item: 18,
+					meta: 0,
+					count: 118
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 7
+				},
+				{
+					item: 4166,
+					meta: 10,
+					count: 3252
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 4166,
+					meta: 9,
+					count: 147
+				},
+				{
+					item: 160,
+					meta: 12,
+					count: 4
+				},
+				{
+					item: 38,
+					meta: 7,
+					count: 12
+				},
+				{
+					item: 4167,
+					meta: 9,
+					count: 322
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 242
+				},
+				{
+					item: 175,
+					meta: 5,
+					count: 56
+				}],
+				endPos: {
+					X: 1848,
+					Y: 44,
+					Z: 127
+				}
+			}
+		}
+	}]
+}

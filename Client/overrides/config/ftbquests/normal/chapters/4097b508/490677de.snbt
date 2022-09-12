@@ -1,0 +1,121 @@
+{
+	title: "Crimson Altar",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+		}
+	},
+	x: -1.3000000000000043d,
+	y: 5.290476190476177d,
+	shape: "square",
+	text: [
+		"Title: Crimson Altar",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 21x21x9",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: An infusion altar in Crimson red. NOTE: Six Arcane Pedestals are needed where the Cyan Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "ee64a29f",
+		type: "ftbmoney:money",
+		value: 200L
+	}],
+	rewards: [{
+		uid: "85023f57",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Crimson Altar",
+				UUID: "bf9fc858-134b-448c-971c-31b4c2453827",
+				startPos: {
+					X: 280,
+					Y: 4,
+					Z: -125
+				},
+				itemcountmap: [{
+					item: 215,
+					meta: 0,
+					count: 281
+				},
+				{
+					item: 5454,
+					meta: 6,
+					count: 5
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 2,
+					meta: 0,
+					count: 56
+				},
+				{
+					item: 4497,
+					meta: 7,
+					count: 2
+				},
+				{
+					item: 6118,
+					meta: 4,
+					count: 100
+				},
+				{
+					item: 5392,
+					meta: 12,
+					count: 15
+				},
+				{
+					item: 35,
+					meta: 9,
+					count: 8
+				},
+				{
+					item: 5352,
+					meta: 10,
+					count: 164
+				},
+				{
+					item: 5496,
+					meta: 0,
+					count: 186
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 7
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5505,
+					meta: 0,
+					count: 119
+				},
+				{
+					item: 5508,
+					meta: 0,
+					count: 100
+				}],
+				endPos: {
+					X: 300,
+					Y: 12,
+					Z: -105
+				}
+			}
+		}
+	}]
+}

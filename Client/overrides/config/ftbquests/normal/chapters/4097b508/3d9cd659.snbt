@@ -1,0 +1,116 @@
+{
+	title: "Crimson Farmland + Greatwood",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+		}
+	},
+	x: 1.8214285714285623d,
+	y: 6.779761904761891d,
+	shape: "square",
+	text: [
+		"Title: Crimson Farmland with Greatwood",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 21x21x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A plot of farmland with Greatwood trees in Crimson red. It has an area of 15x15 (total of 222 blocks), thus compatible with Harvesters."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "01d741d5",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "c7457af2",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Crimson Farmland + Greatwood",
+				UUID: "887d78cd-f717-40d6-a1c6-3a1dd1e03710",
+				startPos: {
+					X: 292,
+					Y: 4,
+					Z: -105
+				},
+				itemcountmap: [{
+					item: 215,
+					meta: 0,
+					count: 24
+				},
+				{
+					item: 5516,
+					meta: 0,
+					count: 307
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 9032,
+					meta: 0,
+					count: 34
+				},
+				{
+					item: 5392,
+					meta: 12,
+					count: 13
+				},
+				{
+					item: 5352,
+					meta: 10,
+					count: 72
+				},
+				{
+					item: 5496,
+					meta: 0,
+					count: 112
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 5514,
+					meta: 0,
+					count: 70
+				},
+				{
+					item: 5505,
+					meta: 0,
+					count: 16
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5508,
+					meta: 0,
+					count: 14
+				},
+				{
+					item: 4813,
+					meta: 0,
+					count: 225
+				}],
+				endPos: {
+					X: 272,
+					Y: 18,
+					Z: -125
+				}
+			}
+		}
+	}]
+}

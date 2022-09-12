@@ -1,0 +1,154 @@
+{
+	title: "&3&lStormy Master Statue",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			"Quark:RuneColor": 9,
+			ench: [{
+				lvl: 1s,
+				id: 244
+			}],
+			"Quark:RuneAttached": 1b,
+			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
+		}
+	},
+	x: -5.090136054421755d,
+	y: -1.0408163265306172d,
+	shape: "square",
+	text: [
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 21x22x52",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A slate and basalt statue of a wizard with a Master Storm Mage wand while concentrating an energy."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a947fc6d"
+	],
+	tasks: [{
+		uid: "6f2df0b4",
+		type: "ftbmoney:money",
+		value: 500L
+	}],
+	rewards: [{
+		uid: "6b35fe69",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Stormy Master Statue",
+				UUID: "5462b298-a045-48fe-a1e7-37266a370f6d",
+				startPos: {
+					X: 358,
+					Y: 5,
+					Z: -113
+				},
+				itemcountmap: [{
+					item: 5372,
+					meta: 3,
+					count: 29
+				},
+				{
+					item: 4745,
+					meta: 0,
+					count: 32
+				},
+				{
+					item: 11134,
+					meta: 0,
+					count: 16
+				},
+				{
+					item: 6723,
+					meta: 1,
+					count: 10
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 9027,
+					meta: 0,
+					count: 14
+				},
+				{
+					item: 9018,
+					meta: 1,
+					count: 4
+				},
+				{
+					item: 169,
+					meta: 0,
+					count: 7
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 5419,
+					meta: 11,
+					count: 8
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 6
+				},
+				{
+					item: 4765,
+					meta: 0,
+					count: 48
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5371,
+					meta: 3,
+					count: 18
+				},
+				{
+					item: 8987,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 5244,
+					meta: 8,
+					count: 968
+				},
+				{
+					item: 5244,
+					meta: 7,
+					count: 40
+				},
+				{
+					item: 168,
+					meta: 2,
+					count: 424
+				},
+				{
+					item: 4761,
+					meta: 0,
+					count: 730
+				}],
+				endPos: {
+					X: 379,
+					Y: 56,
+					Z: -93
+				}
+			}
+		}
+	}]
+}

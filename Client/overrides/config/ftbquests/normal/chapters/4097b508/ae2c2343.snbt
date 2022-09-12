@@ -1,0 +1,111 @@
+{
+	title: "Crimson Spa",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+		}
+	},
+	x: 0.2836734693877787d,
+	y: 8.259863945578246d,
+	shape: "square",
+	text: [
+		"Title: Crimson Spa",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 13x13x4",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A spa for relieving warp in Crimson red. NOTE: An Arcane Spa is needed where the Pink Wool is, and an Everful Urn where the Cyan Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "0c6c0fcd",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "af8140d6",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Crimson Spa",
+				UUID: "53059db9-ba0b-4d70-9927-92f62b8cf55c",
+				startPos: {
+					X: 288,
+					Y: 4,
+					Z: -109
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 215,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 5505,
+					meta: 0,
+					count: 52
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 380,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 5508,
+					meta: 0,
+					count: 9
+				},
+				{
+					item: 35,
+					meta: 6,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 9,
+					count: 1
+				},
+				{
+					item: 5392,
+					meta: 12,
+					count: 4
+				},
+				{
+					item: 5352,
+					meta: 10,
+					count: 24
+				},
+				{
+					item: 5496,
+					meta: 0,
+					count: 14
+				}],
+				endPos: {
+					X: 276,
+					Y: 7,
+					Z: -121
+				}
+			}
+		}
+	}]
+}

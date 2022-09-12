@@ -1,0 +1,15 @@
+{
+	x: 54.0d,
+	y: 38.0d,
+	text: [
+		"Hi, I guess.",
+		"",
+		"You found me."
+	],
+	hide: true,
+	tasks: [{
+		uid: "cffb811f",
+		type: "checkmark",
+		title: "This quest is to center the whole viewing area"
+	}]
+}

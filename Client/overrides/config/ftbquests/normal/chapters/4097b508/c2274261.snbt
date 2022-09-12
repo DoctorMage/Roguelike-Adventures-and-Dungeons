@@ -1,0 +1,131 @@
+{
+	title: "Warped Observer Tower",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+		}
+	},
+	x: 7.2357142857142875d,
+	y: 5.27619047619045d,
+	shape: "square",
+	text: [
+		"Title: Warped Observer Tower",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 7x7x21",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A tower for Celestial Observation in Warped black. NOTE: A Celestial Observer is needed where the Cyan Wool is,two Chests where the Pink Wool is, and six Starfield Glass (Rift) where the yellow Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "edf23834",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "6464179b",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Warped Observer Tower",
+				UUID: "d618d0e3-940d-4178-b384-e247b0df0fc4",
+				startPos: {
+					X: 287,
+					Y: 4,
+					Z: -112
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 9038,
+					meta: 0,
+					count: 28
+				},
+				{
+					item: 9027,
+					meta: 0,
+					count: 16
+				},
+				{
+					item: 9018,
+					meta: 1,
+					count: 8
+				},
+				{
+					item: 35,
+					meta: 6,
+					count: 2
+				},
+				{
+					item: 35,
+					meta: 4,
+					count: 6
+				},
+				{
+					item: 5352,
+					meta: 5,
+					count: 24
+				},
+				{
+					item: 5503,
+					meta: 0,
+					count: 72
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 169,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 9,
+					count: 1
+				},
+				{
+					item: 4497,
+					meta: 7,
+					count: 2
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 10249,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 8987,
+					meta: 0,
+					count: 46
+				}],
+				endPos: {
+					X: 281,
+					Y: 24,
+					Z: -118
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,265 @@
+{
+	title: "Cross",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "97d093a5-40bd-4301-8ef1-d804ae40cd22"
+		}
+	},
+	x: 1.5d,
+	y: -1.0d,
+	shape: "square",
+	text: [
+		"Title: Full Stone Wall Straight Cross",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 34x34x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A straight cross stone wall.",
+		"---",
+		"Title: Stone Wall Straight Cross",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 34x34x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A windowed straight cross stone wall.",
+		"---",
+		"Title: Stone Wall Walkthrough Straight Cross",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 33x33x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A walkable cross of stone wall."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "20a8af8e",
+		type: "ftbmoney:money",
+		value: 300L
+	}],
+	rewards: [{
+		uid: "f2635b49",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Full Stone Straight Cross",
+				UUID: "00ed0a6f-3d15-4a20-85c1-ff456e5bf05d",
+				startPos: {
+					X: 1573,
+					Y: 4,
+					Z: 294
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 14
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 448
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 1571
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 273
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 259
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 271
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 192
+				}],
+				endPos: {
+					X: 1606,
+					Y: 18,
+					Z: 327
+				}
+			}
+		}
+	},
+	{
+		uid: "7fc9b6aa",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Stone Wall Straight Cross",
+				UUID: "0f382780-827e-443a-b8e2-64a42a4f787a",
+				startPos: {
+					X: 1628,
+					Y: 4,
+					Z: 294
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 14
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 448
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 1571
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 273
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 259
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 143
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 160
+				}],
+				endPos: {
+					X: 1661,
+					Y: 18,
+					Z: 327
+				}
+			}
+		}
+	},
+	{
+		uid: "d7564648",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Stone Wall Walkthrough Straight Cross",
+				UUID: "aedcfdbf-abf4-4c7a-bbdf-c1862dac9c2d",
+				startPos: {
+					X: 1678,
+					Y: 4,
+					Z: 294
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 7
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 340
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 1320
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 192
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 168
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 431
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 36
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 31
+				},
+				{
+					item: 5508,
+					meta: 0,
+					count: 285
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 120
+				}],
+				endPos: {
+					X: 1710,
+					Y: 18,
+					Z: 326
+				}
+			}
+		}
+	}]
+}

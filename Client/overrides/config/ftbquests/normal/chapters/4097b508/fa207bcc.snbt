@@ -1,0 +1,121 @@
+{
+	title: "Warped Farmland + Greatwood",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+		}
+	},
+	x: 7.2357142857142875d,
+	y: 6.799999999999983d,
+	shape: "square",
+	text: [
+		"Title: Warped Farmland with Greatwood",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 21x21x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A plot of farmland with tainted Greatwood trees in Warped black. It has an area of 15x15 (total of 222 blocks), thus compatible with Harvesters."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "5fdae32a",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "c51c6310",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Warped Farmland + Greatwood",
+				UUID: "dfcbd362-c22b-4991-8338-c90a363ca0f6",
+				startPos: {
+					X: 291,
+					Y: 4,
+					Z: -105
+				},
+				itemcountmap: [{
+					item: 5508,
+					meta: 0,
+					count: 10
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 9038,
+					meta: 0,
+					count: 31
+				},
+				{
+					item: 5352,
+					meta: 5,
+					count: 72
+				},
+				{
+					item: 5503,
+					meta: 0,
+					count: 60
+				},
+				{
+					item: 169,
+					meta: 0,
+					count: 13
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 10249,
+					meta: 0,
+					count: 15
+				},
+				{
+					item: 5542,
+					meta: 0,
+					count: 74
+				},
+				{
+					item: 5511,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 4813,
+					meta: 0,
+					count: 225
+				},
+				{
+					item: 8987,
+					meta: 0,
+					count: 24
+				},
+				{
+					item: 5496,
+					meta: 0,
+					count: 52
+				}],
+				endPos: {
+					X: 271,
+					Y: 18,
+					Z: -125
+				}
+			}
+		}
+	}]
+}

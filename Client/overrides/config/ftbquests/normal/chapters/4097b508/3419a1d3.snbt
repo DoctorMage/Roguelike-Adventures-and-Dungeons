@@ -1,0 +1,131 @@
+{
+	title: "Oak Library",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
+		}
+	},
+	x: -8.004081632653055d,
+	y: 1.9537414965986173d,
+	shape: "square",
+	text: [
+		"Title: Oak Library",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 15x15x7",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: An oak library with 32 shelves. There is enough room to house all the books in EBWizardy and Dan's Ancient Wizardry. Note: 32 Oak Bookshelf is needed where the Cyan Wool is and one Oak Lecturn is needed where the Pink Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "b45b18d4",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "f3d43a82",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Oak Library",
+				UUID: "4f950d9d-22f2-4e15-89cc-29e3ce519479",
+				startPos: {
+					X: 281,
+					Y: 4,
+					Z: -107
+				},
+				itemcountmap: [{
+					item: 126,
+					meta: 0,
+					count: 29
+				},
+				{
+					item: 5246,
+					meta: 6,
+					count: 12
+				},
+				{
+					item: 5246,
+					meta: 7,
+					count: 9
+				},
+				{
+					item: 53,
+					meta: 0,
+					count: 5
+				},
+				{
+					item: 5483,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 35,
+					meta: 6,
+					count: 1
+				},
+				{
+					item: 5428,
+					meta: 0,
+					count: 52
+				},
+				{
+					item: 17,
+					meta: 0,
+					count: 59
+				},
+				{
+					item: 6151,
+					meta: 0,
+					count: 10
+				},
+				{
+					item: 35,
+					meta: 9,
+					count: 32
+				},
+				{
+					item: 5270,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 7357,
+					meta: 0,
+					count: 6
+				},
+				{
+					item: 5246,
+					meta: 3,
+					count: 11
+				}],
+				endPos: {
+					X: 267,
+					Y: 10,
+					Z: -121
+				}
+			}
+		}
+	}]
+}

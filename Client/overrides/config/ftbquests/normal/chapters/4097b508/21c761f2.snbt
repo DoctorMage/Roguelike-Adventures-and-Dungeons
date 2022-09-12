@@ -1,0 +1,146 @@
+{
+	title: "&4Acacia Wizard Tower",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
+		}
+	},
+	x: -10.883333333333312d,
+	y: 0.43333333333333d,
+	shape: "square",
+	text: [
+		"Title: Acacia Wizard Tower",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 37x19x62",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: Acacia and stone brick wizard towers joined with a bridge. Nine rooms inside."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "08de054a",
+		type: "ftbmoney:money",
+		value: 200L
+	}],
+	rewards: [{
+		uid: "141e83d4",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Acacia Wizard Tower",
+				UUID: "5d1ac5ad-2288-414c-a39e-6adc19ad8e5f",
+				startPos: {
+					X: 374,
+					Y: 5,
+					Z: -90
+				},
+				itemcountmap: [{
+					item: 5357,
+					meta: 3,
+					count: 74
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 4497,
+					meta: 0,
+					count: 9
+				},
+				{
+					item: 5454,
+					meta: 9,
+					count: 368
+				},
+				{
+					item: 7354,
+					meta: 1,
+					count: 1
+				},
+				{
+					item: 6252,
+					meta: 4,
+					count: 19
+				},
+				{
+					item: 179,
+					meta: 2,
+					count: 776
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 60
+				},
+				{
+					item: 5432,
+					meta: 0,
+					count: 1308
+				},
+				{
+					item: 13775,
+					meta: 0,
+					count: 40
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 6073,
+					meta: 0,
+					count: 130
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5452,
+					meta: 11,
+					count: 272
+				},
+				{
+					item: 162,
+					meta: 0,
+					count: 914
+				},
+				{
+					item: 13784,
+					meta: 0,
+					count: 160
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 548
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 597
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 624
+				}],
+				endPos: {
+					X: 356,
+					Y: 66,
+					Z: -126
+				}
+			}
+		}
+	}]
+}

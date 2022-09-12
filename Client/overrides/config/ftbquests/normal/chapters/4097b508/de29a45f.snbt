@@ -1,0 +1,20 @@
+{
+	x: 14.100340136054413d,
+	y: 3.4972789115645995d,
+	shape: "square",
+	text: [
+		"This is a set that goes along with the Village set to the left.",
+		"",
+		"Bridge pieces under the &lS &rsection are straight.",
+		"",
+		"Bridge pieces under the &lD &rsection are diagonal.",
+		"",
+		"More diagonal pieces are coming soon!"
+	],
+	size: 0.9d,
+	tasks: [{
+		uid: "f64f584a",
+		type: "checkmark",
+		title: "Village Bridge Info"
+	}]
+}

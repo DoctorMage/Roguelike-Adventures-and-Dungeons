@@ -1,0 +1,156 @@
+{
+	title: "Warped Altar",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+		}
+	},
+	x: 4.140476190476193d,
+	y: 5.2761904761904646d,
+	shape: "square",
+	text: [
+		"Title: Warped Altar",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 21x21x9",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: An infusion altar in Warped black. NOTE: Six Eldritch Pedestals are needed where the Pink Wool is and 230 Starfield Glass (Rift) is needed where the Cyan Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "de6d8f1a",
+		type: "ftbmoney:money",
+		value: 200L
+	}],
+	rewards: [{
+		uid: "1745bba4",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Warped Altar",
+				UUID: "e5d81fc1-126b-47ae-b1d6-1a76d0969575",
+				startPos: {
+					X: 281,
+					Y: 4,
+					Z: -125
+				},
+				itemcountmap: [{
+					item: 5454,
+					meta: 6,
+					count: 5
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 2,
+					meta: 0,
+					count: 56
+				},
+				{
+					item: 4497,
+					meta: 15,
+					count: 2
+				},
+				{
+					item: 35,
+					meta: 6,
+					count: 8
+				},
+				{
+					item: 159,
+					meta: 4,
+					count: 1
+				},
+				{
+					item: 159,
+					meta: 5,
+					count: 1
+				},
+				{
+					item: 5503,
+					meta: 0,
+					count: 257
+				},
+				{
+					item: 5352,
+					meta: 5,
+					count: 124
+				},
+				{
+					item: 159,
+					meta: 3,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 9,
+					count: 230
+				},
+				{
+					item: 169,
+					meta: 0,
+					count: 14
+				},
+				{
+					item: 159,
+					meta: 1,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 10249,
+					meta: 0,
+					count: 48
+				},
+				{
+					item: 159,
+					meta: 13,
+					count: 1
+				},
+				{
+					item: 159,
+					meta: 10,
+					count: 1
+				},
+				{
+					item: 5511,
+					meta: 0,
+					count: 100
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 159,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 8987,
+					meta: 0,
+					count: 185
+				}],
+				endPos: {
+					X: 301,
+					Y: 12,
+					Z: -105
+				}
+			}
+		}
+	}]
+}

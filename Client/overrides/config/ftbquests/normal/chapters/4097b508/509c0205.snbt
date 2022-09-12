@@ -1,0 +1,60 @@
+{
+	icon: {
+		id: "ancientspellcraft:duplication_scroll",
+		tag: {
+			"Quark:RuneColor": 6,
+			ench: [{
+				lvl: 4s,
+				id: 81
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: -3.4285714285714306d,
+	y: 5.25d,
+	shape: "square",
+	text: [
+		"By paying coins, you will receive a Template that already has a build loaded.",
+		"",
+		"To paste a Template, you must load the Template onto a Copy-Paste Gadget using the Template Manager",
+		"Keep in mind that the Copy-Paste Gadget will only paste from the available blocks within your inventory. To be clear, &lit will not paste the build, you must get the materials for it first.&r",
+		"",
+		"Things to Note:",
+		"",
+		"- The paste will NOT override any blocks in the way",
+		"",
+		"- You can paste multiple times",
+		"",
+		"- Pasting takes durability off of the Copy-Paste Gadget. It is best to enchant the Gadget with Unbreaking first."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "fd11f50e",
+		type: "checkmark",
+		title: "How Builds Work"
+	},
+	{
+		uid: "cc3ae01c",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:copypastetool",
+			tag: {
+				mode: "Copy"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9b16196e",
+		type: "item",
+		items: [{
+			item: "buildinggadgets:templatemanager"
+		}]
+	}],
+	rewards: [{
+		uid: "b45628d0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

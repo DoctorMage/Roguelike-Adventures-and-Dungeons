@@ -1,0 +1,14 @@
+{
+	disable_toast: true,
+	x: -58.5d,
+	y: -26.5d,
+	tasks: [{
+		uid: "3affb38e",
+		type: "item",
+		items: [{
+			item: "ebwizardry:master_healing_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

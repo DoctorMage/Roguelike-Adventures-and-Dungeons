@@ -1,0 +1,181 @@
+{
+	title: "Archway House",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "60126a13-51b7-4ebc-a6e4-6fc44370b89f"
+		}
+	},
+	x: 12.392857142857139d,
+	y: -0.9821428571428577d,
+	shape: "square",
+	text: [
+		"Title: House Archway",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 39x18x32",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A large archway that is enterable. Three rooms total."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "910a232b",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "b220fffd",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Archway House",
+				UUID: "14f772be-0d5e-4e81-8141-c6629a02a16a",
+				startPos: {
+					X: 2037,
+					Y: 4,
+					Z: 208
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 108
+				},
+				{
+					item: 4827,
+					meta: 0,
+					count: 68
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 11
+				},
+				{
+					item: 4791,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 13775,
+					meta: 0,
+					count: 104
+				},
+				{
+					item: 4770,
+					meta: 0,
+					count: 108
+				},
+				{
+					item: 5357,
+					meta: 3,
+					count: 120
+				},
+				{
+					item: 4228,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 4771,
+					meta: 0,
+					count: 148
+				},
+				{
+					item: 4160,
+					meta: 6,
+					count: 182
+				},
+				{
+					item: 7976,
+					meta: 0,
+					count: 210
+				},
+				{
+					item: 5245,
+					meta: 1,
+					count: 64
+				},
+				{
+					item: 5245,
+					meta: 3,
+					count: 268
+				},
+				{
+					item: 4497,
+					meta: 0,
+					count: 12
+				},
+				{
+					item: 7803,
+					meta: 6,
+					count: 140
+				},
+				{
+					item: 5272,
+					meta: 0,
+					count: 58
+				},
+				{
+					item: 4769,
+					meta: 0,
+					count: 858
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 4747,
+					meta: 0,
+					count: 36
+				},
+				{
+					item: 5243,
+					meta: 8,
+					count: 284
+				},
+				{
+					item: 7991,
+					meta: 0,
+					count: 590
+				},
+				{
+					item: 4815,
+					meta: 1,
+					count: 402
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 262
+				},
+				{
+					item: 13784,
+					meta: 0,
+					count: 72
+				},
+				{
+					item: 4814,
+					meta: 1,
+					count: 424
+				}],
+				endPos: {
+					X: 2054,
+					Y: 35,
+					Z: 246
+				}
+			}
+		}
+	}]
+}

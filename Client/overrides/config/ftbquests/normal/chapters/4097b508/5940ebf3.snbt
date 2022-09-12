@@ -1,0 +1,111 @@
+{
+	title: "Warped Spa",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+		}
+	},
+	x: 5.664285714285718d,
+	y: 8.276190476190443d,
+	shape: "square",
+	text: [
+		"Title: Warped Spa",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 13x13x4",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A spa for relieving warp in Warped black. NOTE: An Arcane Spa is needed where the Pink Wool is, an Everful Urn where the Cyan Wool is, and 20 Starfield Glass (Rift) where the Yellow Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "ca80e36a",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "16ebf239",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Warped Spa",
+				UUID: "380cace5-3555-47bc-8df6-8f0003cc06ff",
+				startPos: {
+					X: 287,
+					Y: 4,
+					Z: -109
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 10249,
+					meta: 0,
+					count: 52
+				},
+				{
+					item: 5511,
+					meta: 0,
+					count: 9
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 380,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 6,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 4,
+					count: 19
+				},
+				{
+					item: 5503,
+					meta: 0,
+					count: 14
+				},
+				{
+					item: 5352,
+					meta: 5,
+					count: 12
+				},
+				{
+					item: 35,
+					meta: 9,
+					count: 1
+				},
+				{
+					item: 169,
+					meta: 0,
+					count: 4
+				}],
+				endPos: {
+					X: 275,
+					Y: 7,
+					Z: -121
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,171 @@
+{
+	title: "&6&lRadiant Master Statue",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			"Quark:RuneColor": 4,
+			ench: [{
+				lvl: 1s,
+				id: 244
+			}],
+			"Quark:RuneAttached": 1b,
+			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
+		}
+	},
+	x: -6.547619047619037d,
+	y: -1.0059523809523796d,
+	shape: "square",
+	text: [
+		"Title: Radiant Master Statue",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 23x18x70",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A marble statue of a child wizard with raised arms. Above him is a Master Healer wand."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a86eb223"
+	],
+	tasks: [{
+		uid: "d0ccc11b",
+		type: "ftbmoney:money",
+		value: 500L
+	}],
+	rewards: [{
+		uid: "e62d1817",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Radiant Master Statue",
+				UUID: "2d74401c-b220-4a3e-b761-20bdfdfc6f05",
+				startPos: {
+					X: 366,
+					Y: 5,
+					Z: -115
+				},
+				itemcountmap: [{
+					item: 5387,
+					meta: 3,
+					count: 31
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 41,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 159,
+					meta: 4,
+					count: 404
+				},
+				{
+					item: 6075,
+					meta: 0,
+					count: 6
+				},
+				{
+					item: 155,
+					meta: 0,
+					count: 13
+				},
+				{
+					item: 156,
+					meta: 0,
+					count: 20
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 5419,
+					meta: 11,
+					count: 64
+				},
+				{
+					item: 5388,
+					meta: 3,
+					count: 36
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 6
+				},
+				{
+					item: 5422,
+					meta: 2,
+					count: 32
+				},
+				{
+					item: 5420,
+					meta: 7,
+					count: 40
+				},
+				{
+					item: 5420,
+					meta: 8,
+					count: 796
+				},
+				{
+					item: 44,
+					meta: 7,
+					count: 19
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5394,
+					meta: 5,
+					count: 12
+				},
+				{
+					item: 5955,
+					meta: 0,
+					count: 48
+				},
+				{
+					item: 9041,
+					meta: 0,
+					count: 6
+				},
+				{
+					item: 6036,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 5953,
+					meta: 0,
+					count: 598
+				},
+				{
+					item: 5338,
+					meta: 5,
+					count: 37
+				}],
+				endPos: {
+					X: 383,
+					Y: 74,
+					Z: -93
+				}
+			}
+		}
+	}]
+}

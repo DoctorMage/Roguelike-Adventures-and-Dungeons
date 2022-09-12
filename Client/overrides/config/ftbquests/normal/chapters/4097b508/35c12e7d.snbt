@@ -1,0 +1,18 @@
+{
+	title: "Stone Wall Info",
+	x: -1.9251700680271782d,
+	y: 3.4863945578231323d,
+	shape: "square",
+	text: [
+		"All structures in this set are 15 blocks high and 10 blocks wide for non-walkthough pieces.",
+		"",
+		"Walkthrough pieces are 15 wide to allow the player to walk in them.",
+		"",
+		"All &lStone Wall &rand &lWalkthrough &rstructures have windows while all &lFull Stone &rstructures do not."
+	],
+	tasks: [{
+		uid: "b71209be",
+		type: "checkmark",
+		title: "Stone Wall Info"
+	}]
+}

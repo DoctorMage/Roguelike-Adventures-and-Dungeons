@@ -1,0 +1,171 @@
+{
+	title: "&4&lFiery Master Statue",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			"Quark:RuneColor": 14,
+			ench: [{
+				lvl: 1s,
+				id: 244
+			}],
+			"Quark:RuneAttached": 1b,
+			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
+		}
+	},
+	x: -10.906462585034006d,
+	y: -1.0408163265306172d,
+	shape: "square",
+	text: [
+		"Title: Fiery Master Statue",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 19x30x41",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A slate and basalt statue of a wizard with a Master Pyromancer wand while blowing a flame."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"8bfef60b"
+	],
+	tasks: [{
+		uid: "ac48c099",
+		type: "ftbmoney:money",
+		value: 500L
+	}],
+	rewards: [{
+		uid: "11a00481",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Fiery Master Statue",
+				UUID: "941b01a7-4c57-401c-a699-e0350788de4b",
+				startPos: {
+					X: 365,
+					Y: 5,
+					Z: -116
+				},
+				itemcountmap: [{
+					item: 215,
+					meta: 0,
+					count: 31
+				},
+				{
+					item: 5362,
+					meta: 3,
+					count: 2
+				},
+				{
+					item: 4745,
+					meta: 0,
+					count: 32
+				},
+				{
+					item: 5961,
+					meta: 1,
+					count: 341
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 5388,
+					meta: 3,
+					count: 1
+				},
+				{
+					item: 5419,
+					meta: 11,
+					count: 8
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 6
+				},
+				{
+					item: 4765,
+					meta: 0,
+					count: 48
+				},
+				{
+					item: 112,
+					meta: 0,
+					count: 11
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 11554,
+					meta: 0,
+					count: 11
+				},
+				{
+					item: 5441,
+					meta: 0,
+					count: 7
+				},
+				{
+					item: 5376,
+					meta: 3,
+					count: 3
+				},
+				{
+					item: 5361,
+					meta: 3,
+					count: 1
+				},
+				{
+					item: 6036,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 5244,
+					meta: 8,
+					count: 664
+				},
+				{
+					item: 44,
+					meta: 6,
+					count: 13
+				},
+				{
+					item: 114,
+					meta: 0,
+					count: 6
+				},
+				{
+					item: 5244,
+					meta: 7,
+					count: 40
+				},
+				{
+					item: 4761,
+					meta: 0,
+					count: 626
+				}],
+				endPos: {
+					X: 394,
+					Y: 45,
+					Z: -98
+				}
+			}
+		}
+	}]
+}

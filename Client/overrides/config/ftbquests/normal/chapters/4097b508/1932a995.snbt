@@ -1,0 +1,191 @@
+{
+	title: "&2&lMystical Master Statue",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			"Quark:RuneColor": 13,
+			ench: [{
+				lvl: 1s,
+				id: 244
+			}],
+			"Quark:RuneAttached": 1b,
+			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
+		}
+	},
+	x: -8.008503401360528d,
+	y: -1.0408163265306172d,
+	shape: "square",
+	text: [
+		"Title: Mystical Master Statue",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 19x27x67",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A marble statue of a wizard with a Master Sorcerer wand over an open book."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"bf68e71d"
+	],
+	tasks: [{
+		uid: "b3bde77b",
+		type: "ftbmoney:money",
+		value: 500L
+	}],
+	rewards: [{
+		uid: "bbe509db",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Mystical Master Statue",
+				UUID: "9a160e0a-3797-4265-9150-12a48ea1d7df",
+				startPos: {
+					X: 356,
+					Y: 5,
+					Z: -116
+				},
+				itemcountmap: [{
+					item: 6189,
+					meta: 0,
+					count: 21
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 216,
+					meta: 0,
+					count: 118
+				},
+				{
+					item: 5965,
+					meta: 1,
+					count: 20
+				},
+				{
+					item: 5419,
+					meta: 11,
+					count: 64
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 5422,
+					meta: 2,
+					count: 32
+				},
+				{
+					item: 5420,
+					meta: 8,
+					count: 787
+				},
+				{
+					item: 5436,
+					meta: 1,
+					count: 72
+				},
+				{
+					item: 5363,
+					meta: 3,
+					count: 103
+				},
+				{
+					item: 5435,
+					meta: 10,
+					count: 14
+				},
+				{
+					item: 9017,
+					meta: 1,
+					count: 20
+				},
+				{
+					item: 9026,
+					meta: 0,
+					count: 20
+				},
+				{
+					item: 8986,
+					meta: 0,
+					count: 26
+				},
+				{
+					item: 5364,
+					meta: 3,
+					count: 54
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 5420,
+					meta: 7,
+					count: 40
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 168,
+					meta: 1,
+					count: 401
+				},
+				{
+					item: 5955,
+					meta: 0,
+					count: 48
+				},
+				{
+					item: 5345,
+					meta: 5,
+					count: 26
+				},
+				{
+					item: 6191,
+					meta: 0,
+					count: 20
+				},
+				{
+					item: 5345,
+					meta: 3,
+					count: 44
+				},
+				{
+					item: 5395,
+					meta: 13,
+					count: 16
+				},
+				{
+					item: 5953,
+					meta: 0,
+					count: 673
+				},
+				{
+					item: 5345,
+					meta: 7,
+					count: 1
+				}],
+				endPos: {
+					X: 382,
+					Y: 71,
+					Z: -98
+				}
+			}
+		}
+	}]
+}

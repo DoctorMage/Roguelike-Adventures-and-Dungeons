@@ -1,0 +1,151 @@
+{
+	title: "&a&lVerdant Master Statue",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			"Quark:RuneColor": 5,
+			ench: [{
+				lvl: 1s,
+				id: 244
+			}],
+			"Quark:RuneAttached": 1b,
+			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
+		}
+	},
+	x: -3.654761904761891d,
+	y: -1.0714285714285694d,
+	shape: "square",
+	text: [
+		"Title: Verdant Master Statue",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 21x21x48",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A marble statue of a child wizard in oversided robes posing with a Master Earth Mage wand under him."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"b71c9ae2"
+	],
+	tasks: [{
+		uid: "ba48fd3c",
+		type: "ftbmoney:money",
+		value: 500L
+	}],
+	rewards: [{
+		uid: "e5a73287",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Verdant Master Statue",
+				UUID: "93a1a0d7-cb6e-4833-9f9f-f106551cc206",
+				startPos: {
+					X: 360,
+					Y: 5,
+					Z: -119
+				},
+				itemcountmap: [{
+					item: 126,
+					meta: 1,
+					count: 4
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 162,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 134,
+					meta: 0,
+					count: 7
+				},
+				{
+					item: 5419,
+					meta: 11,
+					count: 64
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 5422,
+					meta: 2,
+					count: 32
+				},
+				{
+					item: 5420,
+					meta: 7,
+					count: 40
+				},
+				{
+					item: 5420,
+					meta: 8,
+					count: 676
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5955,
+					meta: 0,
+					count: 48
+				},
+				{
+					item: 5345,
+					meta: 5,
+					count: 8
+				},
+				{
+					item: 5392,
+					meta: 2,
+					count: 1
+				},
+				{
+					item: 5953,
+					meta: 0,
+					count: 789
+				},
+				{
+					item: 5395,
+					meta: 13,
+					count: 4
+				},
+				{
+					item: 6118,
+					meta: 5,
+					count: 477
+				},
+				{
+					item: 5345,
+					meta: 7,
+					count: 5
+				}],
+				endPos: {
+					X: 380,
+					Y: 52,
+					Z: -99
+				}
+			}
+		}
+	}]
+}

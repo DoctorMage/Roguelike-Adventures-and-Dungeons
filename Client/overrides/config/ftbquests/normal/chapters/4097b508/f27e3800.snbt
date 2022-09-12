@@ -1,0 +1,201 @@
+{
+	title: "Clock Tower",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "60126a13-51b7-4ebc-a6e4-6fc44370b89f"
+		}
+	},
+	x: 6.607142857142854d,
+	y: 0.5178571428571459d,
+	shape: "square",
+	text: [
+		"Title: Clock Tower",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 20x20x52",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A village clock tower showing 10:20. Enterable with two rooms."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "b78d0dc7",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "c35be7d0",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Clock Tower",
+				UUID: "04dedf97-78a9-4831-94e6-90c0ad0826bc",
+				startPos: {
+					X: 1991,
+					Y: 4,
+					Z: 216
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 120
+				},
+				{
+					item: 5244,
+					meta: 2,
+					count: 49
+				},
+				{
+					item: 4827,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 14
+				},
+				{
+					item: 4791,
+					meta: 0,
+					count: 2
+				},
+				{
+					item: 13775,
+					meta: 0,
+					count: 386
+				},
+				{
+					item: 4770,
+					meta: 0,
+					count: 32
+				},
+				{
+					item: 5357,
+					meta: 3,
+					count: 88
+				},
+				{
+					item: 4228,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 4771,
+					meta: 0,
+					count: 32
+				},
+				{
+					item: 4160,
+					meta: 6,
+					count: 22
+				},
+				{
+					item: 7976,
+					meta: 0,
+					count: 88
+				},
+				{
+					item: 5245,
+					meta: 1,
+					count: 32
+				},
+				{
+					item: 5245,
+					meta: 3,
+					count: 391
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 9
+				},
+				{
+					item: 7803,
+					meta: 6,
+					count: 208
+				},
+				{
+					item: 4497,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 5272,
+					meta: 0,
+					count: 28
+				},
+				{
+					item: 4769,
+					meta: 0,
+					count: 333
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 4747,
+					meta: 0,
+					count: 24
+				},
+				{
+					item: 5243,
+					meta: 8,
+					count: 104
+				},
+				{
+					item: 7991,
+					meta: 0,
+					count: 96
+				},
+				{
+					item: 10120,
+					meta: 0,
+					count: 32
+				},
+				{
+					item: 5360,
+					meta: 1,
+					count: 32
+				},
+				{
+					item: 4815,
+					meta: 1,
+					count: 528
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 360
+				},
+				{
+					item: 13784,
+					meta: 0,
+					count: 198
+				},
+				{
+					item: 4814,
+					meta: 1,
+					count: 240
+				}],
+				endPos: {
+					X: 2010,
+					Y: 55,
+					Z: 197
+				}
+			}
+		}
+	}]
+}

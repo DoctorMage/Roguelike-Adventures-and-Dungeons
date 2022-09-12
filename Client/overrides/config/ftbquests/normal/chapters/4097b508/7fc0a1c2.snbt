@@ -1,0 +1,191 @@
+{
+	title: "House 3",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "60126a13-51b7-4ebc-a6e4-6fc44370b89f"
+		}
+	},
+	x: 9.5d,
+	y: -1.0d,
+	shape: "square",
+	text: [
+		"Title: Overhaning House",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 21x24x25",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: An overhanging two story village house."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "bf2bf56c",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "17388814",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "House 3",
+				UUID: "b3166db6-e970-4bc4-9a92-f73eaf63909c",
+				startPos: {
+					X: 2036,
+					Y: 4,
+					Z: 256
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 86
+				},
+				{
+					item: 4827,
+					meta: 0,
+					count: 44
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 11
+				},
+				{
+					item: 4791,
+					meta: 0,
+					count: 6
+				},
+				{
+					item: 4770,
+					meta: 0,
+					count: 40
+				},
+				{
+					item: 13775,
+					meta: 0,
+					count: 115
+				},
+				{
+					item: 5357,
+					meta: 3,
+					count: 76
+				},
+				{
+					item: 4228,
+					meta: 0,
+					count: 2
+				},
+				{
+					item: 4771,
+					meta: 0,
+					count: 62
+				},
+				{
+					item: 4160,
+					meta: 6,
+					count: 87
+				},
+				{
+					item: 7976,
+					meta: 0,
+					count: 135
+				},
+				{
+					item: 5245,
+					meta: 3,
+					count: 158
+				},
+				{
+					item: 7803,
+					meta: 6,
+					count: 100
+				},
+				{
+					item: 4497,
+					meta: 0,
+					count: 2
+				},
+				{
+					item: 5272,
+					meta: 0,
+					count: 45
+				},
+				{
+					item: 4769,
+					meta: 0,
+					count: 232
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 4747,
+					meta: 0,
+					count: 28
+				},
+				{
+					item: 5243,
+					meta: 8,
+					count: 62
+				},
+				{
+					item: 7991,
+					meta: 0,
+					count: 360
+				},
+				{
+					item: 10120,
+					meta: 0,
+					count: 45
+				},
+				{
+					item: 4815,
+					meta: 1,
+					count: 385
+				},
+				{
+					item: 4749,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 4746,
+					meta: 0,
+					count: 9
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 72
+				},
+				{
+					item: 13784,
+					meta: 0,
+					count: 32
+				},
+				{
+					item: 4814,
+					meta: 1,
+					count: 315
+				}],
+				endPos: {
+					X: 2059,
+					Y: 28,
+					Z: 276
+				}
+			}
+		}
+	}]
+}

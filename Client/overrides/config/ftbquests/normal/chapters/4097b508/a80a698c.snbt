@@ -1,0 +1,146 @@
+{
+	title: "&5&lDark Master Statue",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			"Quark:RuneColor": 10,
+			ench: [{
+				lvl: 1s,
+				id: 244
+			}],
+			"Quark:RuneAttached": 1b,
+			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
+		}
+	},
+	x: -12.33503401360543d,
+	y: -1.0612244897959187d,
+	shape: "square",
+	text: [
+		"Title: Dark Master Statue",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 22x28x46",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A slate and basalt statue of a bent over wizard supported with a Master Necromancer staff."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"af6abf08"
+	],
+	tasks: [{
+		uid: "f4a27ab5",
+		type: "ftbmoney:money",
+		value: 500L
+	}],
+	rewards: [{
+		uid: "f3c5f5e3",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Dark Master Statue",
+				UUID: "7619ec8f-dcfd-4bba-bdfb-dfa275d32f64",
+				startPos: {
+					X: 362,
+					Y: 5,
+					Z: -125
+				},
+				itemcountmap: [{
+					item: 5352,
+					meta: 11,
+					count: 12
+				},
+				{
+					item: 8994,
+					meta: 0,
+					count: 14
+				},
+				{
+					item: 4745,
+					meta: 0,
+					count: 32
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 5419,
+					meta: 11,
+					count: 8
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 8
+				},
+				{
+					item: 9014,
+					meta: 1,
+					count: 12
+				},
+				{
+					item: 9023,
+					meta: 0,
+					count: 45
+				},
+				{
+					item: 4765,
+					meta: 0,
+					count: 48
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 5426,
+					meta: 2,
+					count: 396
+				},
+				{
+					item: 8983,
+					meta: 0,
+					count: 18
+				},
+				{
+					item: 5411,
+					meta: 2,
+					count: 18
+				},
+				{
+					item: 5244,
+					meta: 8,
+					count: 924
+				},
+				{
+					item: 5244,
+					meta: 7,
+					count: 40
+				},
+				{
+					item: 4761,
+					meta: 0,
+					count: 713
+				}],
+				endPos: {
+					X: 389,
+					Y: 50,
+					Z: -104
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Village Info",
+	x: 6.071428571428569d,
+	y: 3.4880952380952195d,
+	shape: "square",
+	text: [
+		"&lThis set requires blocks from Biomes O' Plenty&r",
+		"",
+		"If you do not have the BBOP world gen type, then you cannot obtain the blocks needed to paste these!"
+	],
+	tasks: [{
+		uid: "07c7d792",
+		type: "checkmark",
+		title: "Village Info"
+	}]
+}

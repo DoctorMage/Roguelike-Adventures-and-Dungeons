@@ -1,0 +1,176 @@
+{
+	title: "House 4",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "60126a13-51b7-4ebc-a6e4-6fc44370b89f"
+		}
+	},
+	x: 8.044217687074834d,
+	y: 0.5068027210884409d,
+	shape: "square",
+	text: [
+		"Title: Stone House",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 28x28x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: An one story stone village house."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "7e36d384",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "b5fca920",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "House 4",
+				UUID: "751b3c88-b9e1-4b8c-8d8d-95bef7962899",
+				startPos: {
+					X: 1995,
+					Y: 4,
+					Z: 223
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 122
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 14
+				},
+				{
+					item: 4791,
+					meta: 0,
+					count: 2
+				},
+				{
+					item: 13775,
+					meta: 0,
+					count: 177
+				},
+				{
+					item: 4770,
+					meta: 0,
+					count: 16
+				},
+				{
+					item: 5357,
+					meta: 3,
+					count: 33
+				},
+				{
+					item: 4228,
+					meta: 0,
+					count: 2
+				},
+				{
+					item: 4771,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 4160,
+					meta: 6,
+					count: 60
+				},
+				{
+					item: 7976,
+					meta: 0,
+					count: 126
+				},
+				{
+					item: 5245,
+					meta: 1,
+					count: 136
+				},
+				{
+					item: 5245,
+					meta: 3,
+					count: 176
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 9
+				},
+				{
+					item: 7803,
+					meta: 6,
+					count: 231
+				},
+				{
+					item: 5272,
+					meta: 0,
+					count: 27
+				},
+				{
+					item: 4769,
+					meta: 0,
+					count: 38
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 4747,
+					meta: 0,
+					count: 17
+				},
+				{
+					item: 5243,
+					meta: 8,
+					count: 48
+				},
+				{
+					item: 7991,
+					meta: 0,
+					count: 402
+				},
+				{
+					item: 4815,
+					meta: 1,
+					count: 353
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 147
+				},
+				{
+					item: 13784,
+					meta: 0,
+					count: 36
+				},
+				{
+					item: 4814,
+					meta: 1,
+					count: 115
+				}],
+				endPos: {
+					X: 1968,
+					Y: 18,
+					Z: 250
+				}
+			}
+		}
+	}]
+}

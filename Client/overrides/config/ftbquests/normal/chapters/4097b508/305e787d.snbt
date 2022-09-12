@@ -1,0 +1,295 @@
+{
+	title: "Diagonal Cross",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "97d093a5-40bd-4301-8ef1-d804ae40cd22"
+		}
+	},
+	x: 1.5d,
+	y: 0.5d,
+	shape: "square",
+	text: [
+		"Title: Full Stone Wall Diagonal Cross",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 29x29x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A diagonal cross stone wall.",
+		"---",
+		"Title: Stone Wall Diagonal Cross",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 29x29x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A windowed diagonal cross stone wall.",
+		"---",
+		"Title: Stone Wall Walkthrough Diagonal Cross",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 32x32x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A walkable diagonal cross of stone wall."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "81624240",
+		type: "ftbmoney:money",
+		value: 300L
+	}],
+	rewards: [{
+		uid: "4add3730",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Full Stone Diagonal Cross",
+				UUID: "b7a071ed-489b-4d3f-9153-59b35b0100c7",
+				startPos: {
+					X: 1562,
+					Y: 4,
+					Z: 542
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 7
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 367
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 1746
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 509
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 258
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 339
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 16
+				},
+				{
+					item: 5508,
+					meta: 0,
+					count: 45
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 130
+				}],
+				endPos: {
+					X: 1590,
+					Y: 18,
+					Z: 570
+				}
+			}
+		}
+	},
+	{
+		uid: "82db9c92",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Stone Diagonal Cross",
+				UUID: "77c547a8-2f9f-4d72-8d48-93e924ec4e30",
+				startPos: {
+					X: 1672,
+					Y: 4,
+					Z: 538
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 14
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 257
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 1337
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 194
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 128
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 410
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 228
+				},
+				{
+					item: 5508,
+					meta: 0,
+					count: 293
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 44
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 128
+				}],
+				endPos: {
+					X: 1703,
+					Y: 18,
+					Z: 569
+				}
+			}
+		}
+	},
+	{
+		uid: "3b3f974a",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Stone Wall Walkthrough Archway",
+				UUID: "05a2cd93-f6e8-4316-bf22-f0fdf6d86258",
+				startPos: {
+					X: 1672,
+					Y: 4,
+					Z: 765
+				},
+				itemcountmap: [{
+					item: 5352,
+					meta: 4,
+					count: 96
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 160
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 10
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 7
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 226
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 995
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 9048,
+					meta: 0,
+					count: 174
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 95
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 16
+				},
+				{
+					item: 5508,
+					meta: 0,
+					count: 90
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 88
+				}],
+				endPos: {
+					X: 1686,
+					Y: 27,
+					Z: 797
+				}
+			}
+		}
+	}]
+}

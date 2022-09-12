@@ -1,0 +1,265 @@
+{
+	title: "Straight L",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "97d093a5-40bd-4301-8ef1-d804ae40cd22"
+		}
+	},
+	x: 0.05102040816330344d,
+	y: -1.0102040816326507d,
+	shape: "square",
+	text: [
+		"Title: Full Stone Wall Straight L",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 22x22x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A straight L stone wall.",
+		"---",
+		"Title: Stone Wall Straight L",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 22x22x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A windowed straight L stone wall.",
+		"---",
+		"Title: Stone Wall Walkthrough Straight L",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 24x24x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A walkable L of stone wall."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "a5d3e198",
+		type: "ftbmoney:money",
+		value: 300L
+	}],
+	rewards: [{
+		uid: "f88c713a",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Full Stone Straight L",
+				UUID: "d945b9c7-ced2-458e-a3d0-4f8f08814304",
+				startPos: {
+					X: 1571,
+					Y: 4,
+					Z: 397
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 14
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 256
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 899
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 169
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 147
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 135
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 96
+				}],
+				endPos: {
+					X: 1592,
+					Y: 18,
+					Z: 418
+				}
+			}
+		}
+	},
+	{
+		uid: "fb2ce3fb",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Stone Wall Straight L",
+				UUID: "d897917c-a2a2-4333-aed5-5a0076052328",
+				startPos: {
+					X: 1626,
+					Y: 4,
+					Z: 397
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 14
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 256
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 899
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 169
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 147
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 71
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 80
+				}],
+				endPos: {
+					X: 1647,
+					Y: 18,
+					Z: 418
+				}
+			}
+		}
+	},
+	{
+		uid: "bd854724",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Stone Wall Walkthrough Straight L",
+				UUID: "7d242b33-d72c-4da5-9c8b-52de6e66a405",
+				startPos: {
+					X: 1678,
+					Y: 4,
+					Z: 395
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 14
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 260
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 867
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 134
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 128
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 248
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 21
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 18
+				},
+				{
+					item: 5508,
+					meta: 0,
+					count: 159
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 87
+				}],
+				endPos: {
+					X: 1701,
+					Y: 18,
+					Z: 418
+				}
+			}
+		}
+	}]
+}

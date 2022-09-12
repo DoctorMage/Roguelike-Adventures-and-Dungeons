@@ -1,0 +1,136 @@
+{
+	title: "&b&lIcy Master Statue",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			"Quark:RuneColor": 3,
+			ench: [{
+				lvl: 1s,
+				id: 244
+			}],
+			"Quark:RuneAttached": 1b,
+			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
+		}
+	},
+	x: -9.440476190476176d,
+	y: -1.0059523809523867d,
+	shape: "square",
+	text: [
+		"Title: Icy Master Statue",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 26x18x57",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A marble statue of a wizard holding a Master Ice Mage wand."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"6c8caa04"
+	],
+	tasks: [{
+		uid: "0be2fd59",
+		type: "ftbmoney:money",
+		value: 500L
+	}],
+	rewards: [{
+		uid: "ba489ca3",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Icy Master Statue",
+				UUID: "a18cd5b7-cef0-4efc-b7d5-2f99cf4f81c2",
+				startPos: {
+					X: 364,
+					Y: 5,
+					Z: -120
+				},
+				itemcountmap: [{
+					item: 8118,
+					meta: 0,
+					count: 18
+				},
+				{
+					item: 174,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 5965,
+					meta: 1,
+					count: 323
+				},
+				{
+					item: 5419,
+					meta: 11,
+					count: 64
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 3
+				},
+				{
+					item: 5422,
+					meta: 2,
+					count: 32
+				},
+				{
+					item: 5420,
+					meta: 7,
+					count: 40
+				},
+				{
+					item: 5420,
+					meta: 8,
+					count: 829
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5955,
+					meta: 0,
+					count: 97
+				},
+				{
+					item: 5411,
+					meta: 2,
+					count: 23
+				},
+				{
+					item: 5954,
+					meta: 0,
+					count: 13
+				},
+				{
+					item: 5953,
+					meta: 0,
+					count: 458
+				}],
+				endPos: {
+					X: 380,
+					Y: 61,
+					Z: -95
+				}
+			}
+		}
+	}]
+}

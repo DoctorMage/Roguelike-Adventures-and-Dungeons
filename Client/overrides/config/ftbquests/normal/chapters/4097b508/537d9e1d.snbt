@@ -1,0 +1,106 @@
+{
+	title: "Diagonal Bridge L",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+		}
+	},
+	x: 16.152380952380952d,
+	y: -0.9857142857142946d,
+	shape: "square",
+	text: [
+		"Title: Diagonal Bridge L",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 24x24x12",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A diagonal village bridge."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "0d4c620c",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "6b9087b2",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Diagonal Bridge L",
+				UUID: "95c2dcbb-50cc-474b-ae3d-506985e13675",
+				startPos: {
+					X: 1860,
+					Y: 4,
+					Z: 107
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 14
+				},
+				{
+					item: 5244,
+					meta: 2,
+					count: 15
+				},
+				{
+					item: 4815,
+					meta: 1,
+					count: 42
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 92
+				},
+				{
+					item: 13793,
+					meta: 0,
+					count: 115
+				},
+				{
+					item: 13784,
+					meta: 0,
+					count: 39
+				},
+				{
+					item: 5245,
+					meta: 3,
+					count: 118
+				},
+				{
+					item: 13775,
+					meta: 0,
+					count: 214
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 46
+				}],
+				endPos: {
+					X: 1883,
+					Y: 15,
+					Z: 84
+				}
+			}
+		}
+	}]
+}

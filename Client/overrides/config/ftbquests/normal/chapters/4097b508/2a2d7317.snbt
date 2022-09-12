@@ -1,0 +1,202 @@
+{
+	title: "Thaumic House",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+		}
+	},
+	x: 13.283333333333346d,
+	y: 9.738095238095205d,
+	shape: "square",
+	text: [
+		"Title: Thaumic House",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 23x20x13",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A building to house common Thaumcraft blocks with storage in the attic. NOTE: Refer to the legend picture for block placement.",
+		"",
+		"&lLEGEND COMING SOON!!"
+	],
+	tasks: [{
+		uid: "ae9fc606",
+		type: "ftbmoney:money",
+		value: 200L
+	}],
+	rewards: [{
+		uid: "621dff03",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Thaumic House",
+				UUID: "721e5e7d-bbf0-447e-b4e8-c62e2371ecf8",
+				startPos: {
+					X: 296,
+					Y: 4,
+					Z: -104
+				},
+				itemcountmap: [{
+					item: 5352,
+					meta: 11,
+					count: 22
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 3
+				},
+				{
+					item: 8985,
+					meta: 0,
+					count: 51
+				},
+				{
+					item: 5392,
+					meta: 12,
+					count: 6
+				},
+				{
+					item: 5524,
+					meta: 0,
+					count: 18
+				},
+				{
+					item: 9038,
+					meta: 0,
+					count: 49
+				},
+				{
+					item: 5522,
+					meta: 0,
+					count: 236
+				},
+				{
+					item: 35,
+					meta: 9,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 139
+				},
+				{
+					item: 35,
+					meta: 12,
+					count: 1
+				},
+				{
+					item: 5523,
+					meta: 0,
+					count: 26
+				},
+				{
+					item: 9046,
+					meta: 0,
+					count: 2
+				},
+				{
+					item: 5525,
+					meta: 0,
+					count: 3
+				},
+				{
+					item: 5240,
+					meta: 5,
+					count: 32
+				},
+				{
+					item: 5352,
+					meta: 10,
+					count: 10
+				},
+				{
+					item: 35,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 4497,
+					meta: 15,
+					count: 4
+				},
+				{
+					item: 35,
+					meta: 6,
+					count: 1
+				},
+				{
+					item: 5357,
+					meta: 6,
+					count: 50
+				},
+				{
+					item: 5526,
+					meta: 0,
+					count: 161
+				},
+				{
+					item: 5514,
+					meta: 0,
+					count: 153
+				},
+				{
+					item: 35,
+					meta: 13,
+					count: 1
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 33
+				},
+				{
+					item: 5521,
+					meta: 0,
+					count: 291
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 5265,
+					meta: 0,
+					count: 2
+				},
+				{
+					item: 35,
+					meta: 15,
+					count: 1
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 138
+				},
+				{
+					item: 4841,
+					meta: 0,
+					count: 4
+				}],
+				endPos: {
+					X: 277,
+					Y: 16,
+					Z: -126
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,111 @@
+{
+	title: "Fountain",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "60126a13-51b7-4ebc-a6e4-6fc44370b89f"
+		}
+	},
+	x: 9.5d,
+	y: 2.0d,
+	shape: "square",
+	text: [
+		"Title: Fountain",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 33x33x24",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A village fountain. Note: The ice will melt and remove the torches; no water is required after pasting."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "7077f577",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "b6ae466b",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Fountain",
+				UUID: "1fec0e13-35ba-4ee5-a078-effac6e06cf3",
+				startPos: {
+					X: 1974,
+					Y: 4,
+					Z: 109
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 7
+				},
+				{
+					item: 7803,
+					meta: 6,
+					count: 116
+				},
+				{
+					item: 79,
+					meta: 0,
+					count: 9
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 220
+				},
+				{
+					item: 13775,
+					meta: 0,
+					count: 272
+				},
+				{
+					item: 7991,
+					meta: 0,
+					count: 56
+				},
+				{
+					item: 7976,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 5245,
+					meta: 3,
+					count: 186
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 272
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 9
+				}],
+				endPos: {
+					X: 2006,
+					Y: 27,
+					Z: 77
+				}
+			}
+		}
+	}]
+}

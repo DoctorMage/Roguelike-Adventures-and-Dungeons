@@ -1,0 +1,106 @@
+{
+	title: "Crimson Farmland",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+		}
+	},
+	x: -1.2857142857142918d,
+	y: 6.779761904761891d,
+	shape: "square",
+	text: [
+		"Title: Crimson Farmland",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 21x21x8",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A plot of farmland in Crimson red. It has an area of 15x15 (total of 225 blocks), thus compatible with Harvesters."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "a39ac82d",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "c974ee28",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Crimson Farmland",
+				UUID: "47efd031-2b48-46e9-bf87-156f6b73329c",
+				startPos: {
+					X: 291,
+					Y: 4,
+					Z: -105
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 215,
+					meta: 0,
+					count: 24
+				},
+				{
+					item: 5505,
+					meta: 0,
+					count: 16
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 9032,
+					meta: 0,
+					count: 34
+				},
+				{
+					item: 5508,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 4813,
+					meta: 0,
+					count: 225
+				},
+				{
+					item: 5392,
+					meta: 12,
+					count: 13
+				},
+				{
+					item: 5352,
+					meta: 10,
+					count: 72
+				},
+				{
+					item: 5496,
+					meta: 0,
+					count: 60
+				}],
+				endPos: {
+					X: 271,
+					Y: 11,
+					Z: -125
+				}
+			}
+		}
+	}]
+}

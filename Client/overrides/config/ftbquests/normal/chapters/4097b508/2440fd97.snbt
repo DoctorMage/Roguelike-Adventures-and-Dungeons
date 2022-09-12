@@ -1,0 +1,59 @@
+{
+	icon: {
+		id: "ancientspellcraft:bartering_scroll",
+		tag: {
+			"Quark:RuneColor": 13,
+			ench: [{
+				lvl: 4s,
+				id: 81
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: -3.418367346938794d,
+	y: 6.9693877551020265d,
+	shape: "square",
+	text: [
+		"To submit a build your build must:",
+		"",
+		"- Be built (duh!)",
+		"",
+		"- Have placed:",
+		"",
+		" &c&lRED&r wool centered on the highest North/South/East/West edge of the build",
+		"",
+		"&9&lBLUE&r wool centered on the lowest front edge",
+		"",
+		"and",
+		"",
+		"&6&lORANGE&r wool on the closest bottom left and furthest top right corners of the build",
+		"",
+		"- Have it saved as a .txt file (by using the Copy button in the Template Manager after selecting it using your Copy-Paste Gadget)",
+		"&6&l-----&r",
+		"After that you must:",
+		"",
+		"Create a .txt doccument that follows:",
+		"",
+		"**RAD TEMPLATE SUBMISSION**",
+		"Title: (Title Here)",
+		"Theme: (Theme Here)",
+		"LxWxH: (Dimensions Here)",
+		"Paste Y Level: (Level Here)",
+		"Structure Description: (Description Here)",
+		"",
+		"Submit the .txt of the build AND the .txt of the info in the Official Dreams' Modpacks Discord in the rad-revamp-project thread under #roguelike-adventures-and-dungeons",
+		"&6&l-----&r",
+		"From there, someone will review and possibly add it. Keep in mind that after you submit a build, you allow us to alter it, reject it, and use it as we see fit for the RAD Modpack."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "0f843a00",
+		type: "checkmark",
+		title: "How to Submit Builds"
+	}],
+	rewards: [{
+		uid: "7d53dd1f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

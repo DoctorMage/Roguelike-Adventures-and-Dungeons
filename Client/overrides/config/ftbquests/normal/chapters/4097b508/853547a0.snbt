@@ -1,0 +1,116 @@
+{
+	title: "Thaumic Farmland + Silverwood",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+		}
+	},
+	x: 11.140476190476207d,
+	y: 6.809523809523782d,
+	shape: "square",
+	text: [
+		"Title: Thaumic Farmland with Silverwood",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 21x21x15",
+		"",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"Structure Description: A plot of farmland with a Silverwood tree in Thaumic purple. It has an area of 15x15 (total of 222 blocks), thus compatible with Harvesters."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "a4e11428",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "91b869b4",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Thaumic Farmland + Silverwood",
+				UUID: "06c9aeec-41bb-43d5-aeb6-7a98b6f8750d",
+				startPos: {
+					X: 295,
+					Y: 4,
+					Z: -105
+				},
+				itemcountmap: [{
+					item: 5508,
+					meta: 0,
+					count: 14
+				},
+				{
+					item: 5352,
+					meta: 11,
+					count: 72
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 8985,
+					meta: 0,
+					count: 24
+				},
+				{
+					item: 5392,
+					meta: 12,
+					count: 13
+				},
+				{
+					item: 9036,
+					meta: 0,
+					count: 32
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5505,
+					meta: 0,
+					count: 16
+				},
+				{
+					item: 5517,
+					meta: 0,
+					count: 283
+				},
+				{
+					item: 4813,
+					meta: 0,
+					count: 222
+				},
+				{
+					item: 5515,
+					meta: 0,
+					count: 47
+				},
+				{
+					item: 5496,
+					meta: 0,
+					count: 112
+				}],
+				endPos: {
+					X: 275,
+					Y: 18,
+					Z: -125
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,116 @@
+{
+	title: "Well",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "60126a13-51b7-4ebc-a6e4-6fc44370b89f"
+		}
+	},
+	x: 7.3214285714285765d,
+	y: 2.017857142857139d,
+	shape: "square",
+	text: [
+		"Title: Well",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 11x11x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A small village well."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "ec1c5ed0",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "c48079a9",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Well",
+				UUID: "81ebd4bd-cd36-4ce3-91c0-9a86b2e125ce",
+				startPos: {
+					X: 2021,
+					Y: 4,
+					Z: 207
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 44
+				},
+				{
+					item: 7976,
+					meta: 0,
+					count: 45
+				},
+				{
+					item: 5245,
+					meta: 1,
+					count: 46
+				},
+				{
+					item: 4790,
+					meta: 0,
+					count: 9
+				},
+				{
+					item: 5245,
+					meta: 3,
+					count: 37
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 7
+				},
+				{
+					item: 7803,
+					meta: 6,
+					count: 2
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 4791,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 7991,
+					meta: 0,
+					count: 40
+				},
+				{
+					item: 4815,
+					meta: 1,
+					count: 25
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 42
+				}],
+				endPos: {
+					X: 2031,
+					Y: 18,
+					Z: 197
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,126 @@
+{
+	title: "Thaumic Observer Tower",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+		}
+	},
+	x: 12.71190476190477d,
+	y: 5.285714285714256d,
+	shape: "square",
+	text: [
+		"Title: Thaumic Observer Tower",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 7x7x21",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A tower for Celestial Observation in Thaumic purple. NOTE: A Celestial Observer is needed where the Cyan Wool is, and two Chests where the Pink Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "809ecab3",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "6caf217a",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Thaumic Observer Tower",
+				UUID: "8a832fa0-a9e3-48d0-ba18-9b4878c31295",
+				startPos: {
+					X: 288,
+					Y: 4,
+					Z: -112
+				},
+				itemcountmap: [{
+					item: 5508,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 5352,
+					meta: 11,
+					count: 6
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 8985,
+					meta: 0,
+					count: 64
+				},
+				{
+					item: 5392,
+					meta: 12,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 6,
+					count: 2
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 9,
+					count: 1
+				},
+				{
+					item: 4497,
+					meta: 7,
+					count: 2
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5505,
+					meta: 0,
+					count: 44
+				},
+				{
+					item: 9025,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 8987,
+					meta: 0,
+					count: 24
+				},
+				{
+					item: 5496,
+					meta: 0,
+					count: 54
+				}],
+				endPos: {
+					X: 282,
+					Y: 24,
+					Z: -118
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,280 @@
+{
+	title: "Diagonal",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "97d093a5-40bd-4301-8ef1-d804ae40cd22"
+		}
+	},
+	x: -1.3979591836734357d,
+	y: 0.5d,
+	shape: "square",
+	text: [
+		"Title: Full Stone Wall Diagonal",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 29x29x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A diagonal stone wall.",
+		"---",
+		"Title: Stone Wall Diagonal",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 29x29x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A windowed diagonal stone wall.",
+		"---",
+		"Title: Stone Wall Walkthrough Diagonal",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 32x32x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A walkable diagonal of stone wall."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "29395322",
+		type: "ftbmoney:money",
+		value: 300L
+	}],
+	rewards: [{
+		uid: "0c997c98",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Full Stone Diagonal",
+				UUID: "d661d3f3-ad59-4bac-8ade-b81200bc9bbd",
+				startPos: {
+					X: 1574,
+					Y: 4,
+					Z: 445
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 7
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 229
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 928
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 278
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 162
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 170
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 16
+				},
+				{
+					item: 5508,
+					meta: 0,
+					count: 20
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 64
+				}],
+				endPos: {
+					X: 1602,
+					Y: 18,
+					Z: 473
+				}
+			}
+		}
+	},
+	{
+		uid: "1204b7b1",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Stone Wall Diagonal",
+				UUID: "2bfca8e5-6639-4d0c-b295-f71dfd406690",
+				startPos: {
+					X: 1629,
+					Y: 4,
+					Z: 445
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 6
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 229
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 936
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 270
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 166
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 114
+				},
+				{
+					item: 5508,
+					meta: 0,
+					count: 20
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 64
+				}],
+				endPos: {
+					X: 1657,
+					Y: 18,
+					Z: 473
+				}
+			}
+		}
+	},
+	{
+		uid: "f73f383b",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Stone Wall Walkthrough Diagonal",
+				UUID: "17910954-9c88-485c-9634-2ee0f299d29f",
+				startPos: {
+					X: 1667,
+					Y: 4,
+					Z: 448
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 12
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 221
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 880
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 132
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 98
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 222
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 92
+				},
+				{
+					item: 5508,
+					meta: 0,
+					count: 167
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 21
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 80
+				}],
+				endPos: {
+					X: 1698,
+					Y: 18,
+					Z: 479
+				}
+			}
+		}
+	}]
+}

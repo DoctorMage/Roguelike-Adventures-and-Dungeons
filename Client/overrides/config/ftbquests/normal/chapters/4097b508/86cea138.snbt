@@ -1,0 +1,151 @@
+{
+	title: "Stone Library",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
+		}
+	},
+	x: -5.085714285714275d,
+	y: 1.9809523809523597d,
+	shape: "square",
+	text: [
+		"Title: Stone Library",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 15x15x24",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A stone library with 32 shelves. There is enough room to house all the books in EBWizardy and Dan's Ancient Wizardry. Note: 32 Oak Bookshelf is needed where the Cyan Wool is and one Oak Lecturn is needed where the Pink Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "d78f5afa",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "a4baba28",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Stone Library",
+				UUID: "b376f434-6c99-4f81-ae94-ff0ac79dec85",
+				startPos: {
+					X: 281,
+					Y: 4,
+					Z: -107
+				},
+				itemcountmap: [{
+					item: 5246,
+					meta: 9,
+					count: 12
+				},
+				{
+					item: 5483,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 4746,
+					meta: 0,
+					count: 2
+				},
+				{
+					item: 35,
+					meta: 6,
+					count: 1
+				},
+				{
+					item: 5454,
+					meta: 9,
+					count: 32
+				},
+				{
+					item: 5454,
+					meta: 7,
+					count: 136
+				},
+				{
+					item: 5454,
+					meta: 6,
+					count: 12
+				},
+				{
+					item: 35,
+					meta: 9,
+					count: 32
+				},
+				{
+					item: 5270,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 7357,
+					meta: 0,
+					count: 6
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 33
+				},
+				{
+					item: 5246,
+					meta: 1,
+					count: 6
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 105
+				},
+				{
+					item: 5453,
+					meta: 0,
+					count: 44
+				},
+				{
+					item: 5281,
+					meta: 8,
+					count: 116
+				},
+				{
+					item: 5246,
+					meta: 4,
+					count: 14
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 25
+				}],
+				endPos: {
+					X: 267,
+					Y: 27,
+					Z: -121
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,191 @@
+{
+	title: "House 2",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "60126a13-51b7-4ebc-a6e4-6fc44370b89f"
+		}
+	},
+	x: 10.947278911564624d,
+	y: -0.994897959183703d,
+	shape: "square",
+	text: [
+		"Title: Large House",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 28x31x22",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A large two story village house."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "5577024a",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "1e83dbfb",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "House 2",
+				UUID: "e3d35425-f035-439b-9cd9-0c1f1c2a3e1e",
+				startPos: {
+					X: 2031,
+					Y: 4,
+					Z: 230
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 130
+				},
+				{
+					item: 4827,
+					meta: 0,
+					count: 77
+				},
+				{
+					item: 5244,
+					meta: 2,
+					count: 14
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 10
+				},
+				{
+					item: 4791,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 4770,
+					meta: 0,
+					count: 63
+				},
+				{
+					item: 13775,
+					meta: 0,
+					count: 134
+				},
+				{
+					item: 5357,
+					meta: 3,
+					count: 87
+				},
+				{
+					item: 4228,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 4771,
+					meta: 0,
+					count: 127
+				},
+				{
+					item: 4160,
+					meta: 6,
+					count: 140
+				},
+				{
+					item: 13793,
+					meta: 0,
+					count: 23
+				},
+				{
+					item: 7976,
+					meta: 0,
+					count: 242
+				},
+				{
+					item: 4790,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 5245,
+					meta: 3,
+					count: 286
+				},
+				{
+					item: 7803,
+					meta: 6,
+					count: 334
+				},
+				{
+					item: 4497,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 5272,
+					meta: 0,
+					count: 102
+				},
+				{
+					item: 4769,
+					meta: 0,
+					count: 346
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 4747,
+					meta: 0,
+					count: 29
+				},
+				{
+					item: 5243,
+					meta: 8,
+					count: 169
+				},
+				{
+					item: 7991,
+					meta: 0,
+					count: 395
+				},
+				{
+					item: 4815,
+					meta: 1,
+					count: 461
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 93
+				},
+				{
+					item: 13784,
+					meta: 0,
+					count: 98
+				},
+				{
+					item: 4814,
+					meta: 1,
+					count: 510
+				}],
+				endPos: {
+					X: 2004,
+					Y: 25,
+					Z: 260
+				}
+			}
+		}
+	}]
+}

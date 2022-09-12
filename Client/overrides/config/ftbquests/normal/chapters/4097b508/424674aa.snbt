@@ -1,0 +1,121 @@
+{
+	title: "Crimson Observer Tower",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+		}
+	},
+	x: 1.8214285714285623d,
+	y: 5.279761904761891d,
+	shape: "square",
+	text: [
+		"Title: Crimson Observer Tower",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 7x7x21",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A tower for Celestial Observation in Crimson red. NOTE: A Celestial Observer is needed where the Cyan Wool is, and two Chests where the Pink Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "80acb529",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "5bf5994d",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Crimson Observer Tower",
+				UUID: "315449b3-8a7d-4080-bbeb-9cfe80bdb913",
+				startPos: {
+					X: 286,
+					Y: 4,
+					Z: -112
+				},
+				itemcountmap: [{
+					item: 215,
+					meta: 0,
+					count: 24
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 35,
+					meta: 6,
+					count: 2
+				},
+				{
+					item: 4497,
+					meta: 7,
+					count: 2
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 6118,
+					meta: 4,
+					count: 6
+				},
+				{
+					item: 5392,
+					meta: 12,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 9,
+					count: 1
+				},
+				{
+					item: 5352,
+					meta: 10,
+					count: 64
+				},
+				{
+					item: 5496,
+					meta: 0,
+					count: 54
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 5505,
+					meta: 0,
+					count: 52
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5508,
+					meta: 0,
+					count: 8
+				}],
+				endPos: {
+					X: 280,
+					Y: 24,
+					Z: -118
+				}
+			}
+		}
+	}]
+}

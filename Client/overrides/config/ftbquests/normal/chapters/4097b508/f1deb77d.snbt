@@ -1,0 +1,111 @@
+{
+	title: "Warped Jar Storage",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+		}
+	},
+	x: 5.664285714285718d,
+	y: 5.2761904761904574d,
+	shape: "square",
+	text: [
+		"Title: Warped Jar Storage",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 25x25x14",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A storage circle for jars in Warped black. There are 53 slots available on the ledge. NOTE: Four Eldritch Pedestals are needed where the Pink Wool is and 143 Starfield Glass (Rift) is needed where the Cyan Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "38c49171",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "e8ff843e",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Warped Jar Storage",
+				UUID: "ab33cafd-45b6-407b-b73b-f627daf99813",
+				startPos: {
+					X: 294,
+					Y: 4,
+					Z: -103
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 10249,
+					meta: 0,
+					count: 3
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 9027,
+					meta: 0,
+					count: 84
+				},
+				{
+					item: 9018,
+					meta: 1,
+					count: 132
+				},
+				{
+					item: 35,
+					meta: 6,
+					count: 4
+				},
+				{
+					item: 8987,
+					meta: 0,
+					count: 224
+				},
+				{
+					item: 5503,
+					meta: 0,
+					count: 106
+				},
+				{
+					item: 5352,
+					meta: 5,
+					count: 128
+				},
+				{
+					item: 35,
+					meta: 9,
+					count: 143
+				},
+				{
+					item: 169,
+					meta: 0,
+					count: 10
+				}],
+				endPos: {
+					X: 270,
+					Y: 17,
+					Z: -127
+				}
+			}
+		}
+	}]
+}

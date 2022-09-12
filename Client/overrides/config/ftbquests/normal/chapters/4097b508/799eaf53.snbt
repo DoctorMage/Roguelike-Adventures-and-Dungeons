@@ -1,0 +1,111 @@
+{
+	title: "Bridge T",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+		}
+	},
+	x: 14.689795918367345d,
+	y: 1.9925170068027d,
+	shape: "square",
+	text: [
+		"Title: Bridge T",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 13x25xx13",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A village bridge. Note: This bridge part goes in the middle of the whole structure."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "fd0c0bda",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "340a8c55",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Bridge T",
+				UUID: "57994e2b-952c-4ed0-ac53-7f2824276a54",
+				startPos: {
+					X: 1927,
+					Y: 4,
+					Z: 120
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 7
+				},
+				{
+					item: 5244,
+					meta: 2,
+					count: 47
+				},
+				{
+					item: 4815,
+					meta: 1,
+					count: 66
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 13793,
+					meta: 0,
+					count: 90
+				},
+				{
+					item: 13784,
+					meta: 0,
+					count: 80
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 92
+				},
+				{
+					item: 5245,
+					meta: 3,
+					count: 136
+				},
+				{
+					item: 13775,
+					meta: 0,
+					count: 304
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 46
+				}],
+				endPos: {
+					X: 1903,
+					Y: 16,
+					Z: 108
+				}
+			}
+		}
+	}]
+}

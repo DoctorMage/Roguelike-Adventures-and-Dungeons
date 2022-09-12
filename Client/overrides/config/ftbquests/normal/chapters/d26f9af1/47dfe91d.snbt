@@ -6,7 +6,9 @@
 	text: [
 		"Holds as much as a chest does.",
 		"",
-		"Right-Click to use the Bag of Holding."
+		"&lPRONE TO BUGS AND DELETING ITSELF. USE WITH CAUTION.",
+		"",
+		"&rRight-Click to use the Bag of Holding."
 	],
 	dependencies: [
 		"80f9d45b"

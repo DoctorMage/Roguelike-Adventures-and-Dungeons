@@ -1,0 +1,280 @@
+{
+	title: "Archway",
+	icon: {
+		id: "buildinggadgets:template",
+		tag: {
+			UUID: "97d093a5-40bd-4301-8ef1-d804ae40cd22"
+		}
+	},
+	x: 1.5d,
+	y: 2.0d,
+	shape: "square",
+	text: [
+		"Title: Full Stone Wall Archway",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 33x10x24",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: An archway of stone wall.",
+		"---",
+		"Title: Stone Wall Archway",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 33x10x24",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A windowed archway of stone wall.",
+		"---",
+		"Title: Stone Wall Walkthrough Archway",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 33x25x24",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A walkable archway of stone wall."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "7aa51ed9",
+		type: "ftbmoney:money",
+		value: 300L
+	}],
+	rewards: [{
+		uid: "78e0b305",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Full Stone Archway",
+				UUID: "0a663abd-2120-447d-aeb1-f3f0593b55e1",
+				startPos: {
+					X: 1589,
+					Y: 4,
+					Z: 762
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 11
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 192
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 842
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 96
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 9048,
+					meta: 0,
+					count: 87
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 124
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 56
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 56
+				}],
+				endPos: {
+					X: 1598,
+					Y: 27,
+					Z: 794
+				}
+			}
+		}
+	},
+	{
+		uid: "c5670e58",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Stone Wall Archway",
+				UUID: "3275f70f-3c0c-460b-a5e1-735486c76d3a",
+				startPos: {
+					X: 1633,
+					Y: 4,
+					Z: 762
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 11
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 192
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 842
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 96
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 9048,
+					meta: 0,
+					count: 87
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 124
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 32
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 40
+				}],
+				endPos: {
+					X: 1642,
+					Y: 27,
+					Z: 794
+				}
+			}
+		}
+	},
+	{
+		uid: "5d5de071",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Stone Wall Walkthrough Archway",
+				UUID: "05a2cd93-f6e8-4316-bf22-f0fdf6d86258",
+				startPos: {
+					X: 1672,
+					Y: 4,
+					Z: 765
+				},
+				itemcountmap: [{
+					item: 5352,
+					meta: 4,
+					count: 96
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 160
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 10
+				},
+				{
+					item: 35,
+					meta: 14,
+					count: 7
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 226
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 995
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 9048,
+					meta: 0,
+					count: 174
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 95
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 16
+				},
+				{
+					item: 5508,
+					meta: 0,
+					count: 90
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 88
+				}],
+				endPos: {
+					X: 1686,
+					Y: 27,
+					Z: 797
+				}
+			}
+		}
+	}]
+}
