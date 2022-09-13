@@ -1,6 +1,14 @@
 {
+	title: "Airship Workbench",
 	x: -5.0d,
 	y: 0.0d,
+	description: "Now just for decoration!",
+	text: [
+		"The Airship Workbench had a habit of deleting your items left inside, so we put it in time-out forever.",
+		"You can still craft it, but its just a decoration block now.",
+		"",
+		"Instead, use the Crafting Table."
+	],
 	tasks: [{
 		uid: "163bb013",
 		type: "item",
