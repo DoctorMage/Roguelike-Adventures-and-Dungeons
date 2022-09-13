@@ -1,67 +1,8 @@
 {
-	title: "Pirate Class",
+	title: "Pirate Gear",
 	icon: "quark:pirate_hat",
 	loot_size: 50,
 	rewards: [{
-		item: {
-			id: "quark:pirate_hat",
-			tag: {
-				Quality: {
-					Slots: [
-						"head"
-					],
-					Color: "blue",
-					AttributeModifiers: [{
-						UUIDMost: 1649889442192311499L,
-						UUIDLeast: -4961167699670902919L,
-						Amount: 1.0d,
-						AttributeName: "generic.armorToughness",
-						Operation: 0,
-						Name: "qualitytools"
-					}],
-					Name: "quality.tough.name"
-				}
-			}
-		},
-		only_one: true
-	},
-	{
-		item: {
-			id: "minecraft:iron_chestplate",
-			tag: {
-				Quality: {},
-				display: {
-					Name: "Pirate Chestplate"
-				}
-			}
-		},
-		only_one: true
-	},
-	{
-		item: {
-			id: "minecraft:iron_leggings",
-			tag: {
-				Quality: {},
-				display: {
-					Name: "Pirate Leggings"
-				}
-			}
-		},
-		only_one: true
-	},
-	{
-		item: {
-			id: "minecraft:iron_boots",
-			tag: {
-				Quality: {},
-				display: {
-					Name: "Pirate Boots"
-				}
-			}
-		},
-		only_one: true
-	},
-	{
 		item: {
 			id: "minecraft:dark_oak_boat",
 			tag: {
@@ -71,19 +12,6 @@
 						"There's no bigger or better boat"
 					],
 					Name: "The Jolly Roger"
-				}
-			}
-		},
-		only_one: true
-	},
-	{
-		item: {
-			id: "spartanweaponry:saber_invar",
-			tag: {
-				"Quark:ItemNameDye": 1,
-				Quality: {},
-				display: {
-					Name: "Scally Wag Poker"
 				}
 			}
 		},
@@ -190,10 +118,86 @@
 			}
 		},
 		only_one: true
+	},
+	{
+		item: {
+			id: "spartanweaponry:saber_bronze",
+			tag: {
+				"Quark:ItemNameDye": 1,
+				Quality: {},
+				display: {
+					Name: "Scally Wag Poker"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_boots",
+			tag: {
+				"Quark:ItemNameDye": 14,
+				Quality: {},
+				display: {
+					Name: "Pirate Boots"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_leggings",
+			tag: {
+				"Quark:ItemNameDye": 14,
+				Quality: {},
+				display: {
+					Name: "Pirate Leggings"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_chestplate",
+			tag: {
+				"Quark:ItemNameDye": 14,
+				Quality: {},
+				display: {
+					Name: "Pirate Chestplate"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "quark:pirate_hat",
+			tag: {
+				"Quark:ItemNameDye": 14,
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 1649889442192311499L,
+						UUIDLeast: -4961167699670902919L,
+						Amount: 1.0d,
+						AttributeName: "generic.armorToughness",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.tough.name"
+				}
+			}
+		},
+		only_one: true
 	}],
 	loot_crate: {
 		string_id: "pirate",
-		item_name: "Crate Of Pirate Equipment",
+		item_name: "Crate Of Pirate Gear",
 		color: 16777215,
 		drops: {
 			boss: 0,

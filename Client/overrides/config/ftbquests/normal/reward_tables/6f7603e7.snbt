@@ -1,0 +1,128 @@
+{
+	title: "Warden Gear",
+	loot_size: 50,
+	rewards: [{
+		item: {
+			id: "spartanweaponry:warhammer_bronze",
+			tag: {
+				"Quark:ItemNameDye": 4,
+				Quality: {},
+				display: {
+					Name: "Warden's Warhammer"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: "harvestcraft:honeyglazedhamitem",
+		count: 24,
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_helmet",
+			tag: {
+				"Quark:ItemNameDye": 4,
+				Quality: {},
+				display: {
+					Name: "Warden Helmet"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_chestplate",
+			tag: {
+				"Quark:RuneColor": 0,
+				ench: [{
+					lvl: 2s,
+					id: 87
+				}],
+				"Quark:ItemNameDye": 4,
+				Quality: {},
+				display: {
+					Name: "Warden's Heavy Chestplate"
+				},
+				"Quark:RuneAttached": 1b
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_leggings",
+			tag: {
+				"Quark:ItemNameDye": 4,
+				Quality: {},
+				display: {
+					Name: "Warden Leggings"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_boots",
+			tag: {
+				"Quark:RuneColor": 0,
+				ench: [{
+					lvl: 1s,
+					id: 0
+				}],
+				"Quark:ItemNameDye": 4,
+				Quality: {},
+				display: {
+					Name: "Warden's Reinforced Boots"
+				},
+				"Quark:RuneAttached": 1b
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				CustomPotionEffects: [{
+					Duration: 600,
+					Id: 2,
+					Amplifier: 0
+				},
+				{
+					Duration: 1500,
+					Id: 11,
+					Amplifier: 0
+				},
+				{
+					Duration: 600,
+					Id: 22,
+					Amplifier: 0
+				}],
+				CustomPotionColor: 1454569,
+				"Quark:ItemNameDye": 8,
+				display: {
+					Lore: [
+						"Steel Skin Potion Son!"
+					],
+					Name: "Steel Skin Potion"
+				}
+			}
+		},
+		count: 2,
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "warden",
+		item_name: "Crate Of Warden Gear",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

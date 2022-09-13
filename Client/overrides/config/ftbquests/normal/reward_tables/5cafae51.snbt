@@ -1,0 +1,182 @@
+{
+	title: "Warlord Gear",
+	loot_size: 50,
+	rewards: [{
+		item: {
+			id: "spartanweaponry:greatsword_bronze",
+			tag: {
+				"Quark:ItemNameDye": 1,
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "light_purple",
+					AttributeModifiers: [{
+						UUIDMost: 5414422033505338482L,
+						UUIDLeast: -7210327974333615201L,
+						Amount: 0.05d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 7715692548528554156L,
+						UUIDLeast: -6051602092020315825L,
+						Amount: -0.05d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -2345347565259043949L,
+						UUIDLeast: -5593691322639275996L,
+						Amount: -0.25d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "Broken Tip"
+				},
+				display: {
+					Lore: [
+						"A Large Greatsword with a broken tip still gets the job done"
+					],
+					Name: "The Unforged"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			Count: 2b,
+			tag: {
+				CustomPotionEffects: [{
+					Duration: 200,
+					Id: 2
+				},
+				{
+					Duration: 900,
+					Id: 5
+				},
+				{
+					Duration: 140,
+					Id: 15
+				},
+				{
+					Duration: 600,
+					Id: 17,
+					Amplifier: 1
+				}],
+				CustomPotionColor: 16725555,
+				"Quark:ItemNameDye": 1,
+				display: {
+					Name: "Warlord's Fury"
+				}
+			}
+		},
+		count: 2,
+		only_one: true
+	},
+	{
+		item: "harvestcraft:apricotglazedporkitem",
+		count: 24,
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_helmet",
+			tag: {
+				"Quark:ItemNameDye": 1,
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 9026572113225204086L,
+						UUIDLeast: -7634051865651200724L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.protective.name"
+				},
+				display: {
+					Name: "Warlord Helmet"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_chestplate",
+			tag: {
+				"Quark:ItemNameDye": 1,
+				Quality: {
+					Slots: [
+						"chest"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -1667490227086472295L,
+						UUIDLeast: -5594526119887086409L,
+						Amount: 1.0d,
+						AttributeName: "generic.armorToughness",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.tough.name"
+				},
+				display: {
+					Name: "Warlord Chestplate"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_leggings",
+			tag: {
+				"Quark:ItemNameDye": 1,
+				Quality: {},
+				display: {
+					Name: "Warlord Leggings"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_boots",
+			tag: {
+				ench: [{
+					lvl: 1,
+					id: 4
+				}],
+				enchantmentColor: 11743532,
+				"Quark:ItemNameDye": 1,
+				Quality: {},
+				display: {
+					Name: "Warlord's Heels"
+				}
+			}
+		},
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "warlord",
+		item_name: "Crate Of Warlord Gear",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}
