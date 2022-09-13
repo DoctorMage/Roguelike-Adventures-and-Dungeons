@@ -103,11 +103,3 @@ recipes.remove(<twilightforest:uncrafting_table>);
 
 //# Waystones
 recipes.remove(<waystones:waystone>);
-
-//#Viescraft
-recipes.remove(<vc:airship_workbench>);
-
-
-
-
-
