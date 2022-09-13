@@ -89,21 +89,7 @@
 			id: "minecraft:iron_helmet",
 			tag: {
 				"Quark:ItemNameDye": 1,
-				Quality: {
-					Slots: [
-						"head"
-					],
-					Color: "blue",
-					AttributeModifiers: [{
-						UUIDMost: 9026572113225204086L,
-						UUIDLeast: -7634051865651200724L,
-						Amount: 0.5d,
-						AttributeName: "generic.armor",
-						Operation: 0,
-						Name: "qualitytools"
-					}],
-					Name: "quality.protective.name"
-				},
+				Quality: {},
 				display: {
 					Name: "Warlord Helmet"
 				}
@@ -116,21 +102,7 @@
 			id: "minecraft:iron_chestplate",
 			tag: {
 				"Quark:ItemNameDye": 1,
-				Quality: {
-					Slots: [
-						"chest"
-					],
-					Color: "blue",
-					AttributeModifiers: [{
-						UUIDMost: -1667490227086472295L,
-						UUIDLeast: -5594526119887086409L,
-						Amount: 1.0d,
-						AttributeName: "generic.armorToughness",
-						Operation: 0,
-						Name: "qualitytools"
-					}],
-					Name: "quality.tough.name"
-				},
+				Quality: {},
 				display: {
 					Name: "Warlord Chestplate"
 				}
@@ -161,7 +133,29 @@
 				}],
 				enchantmentColor: 11743532,
 				"Quark:ItemNameDye": 1,
-				Quality: {},
+				Quality: {
+					Slots: [
+						"feet"
+					],
+					Color: "dark_red",
+					AttributeModifiers: [{
+						UUIDMost: 5253442232822090819L,
+						UUIDLeast: -7207881377648735076L,
+						Amount: -0.5d,
+						AttributeName: "generic.armorToughness",
+						Operation: 0,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -1851530171536356551L,
+						UUIDLeast: -5814866886873367965L,
+						Amount: -0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "Exposed"
+				},
 				display: {
 					Name: "Warlord's Heels"
 				}
