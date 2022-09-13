@@ -1,5 +1,5 @@
 {
-	title: "Jousters Class",
+	title: "Jousting Gear",
 	loot_size: 50,
 	rewards: [{
 		item: {
@@ -57,69 +57,8 @@
 		only_one: true
 	},
 	{
-		item: {
-			id: "minecraft:iron_helmet",
-			tag: {
-				Quality: {},
-				display: {
-					Name: "Jockey Helmet"
-				}
-			}
-		},
-		only_one: true
-	},
-	{
-		item: {
-			id: "minecraft:iron_chestplate",
-			tag: {
-				Quality: {},
-				display: {
-					Name: "Jockey Chestplate"
-				}
-			}
-		},
-		only_one: true
-	},
-	{
-		item: {
-			id: "minecraft:iron_leggings",
-			tag: {
-				Quality: {},
-				display: {
-					Name: "Jockey Leggings"
-				}
-			}
-		},
-		only_one: true
-	},
-	{
-		item: {
-			id: "minecraft:iron_boots",
-			tag: {
-				Quality: {},
-				display: {
-					Name: "Jockey Boots"
-				}
-			}
-		},
-		only_one: true
-	},
-	{
 		item: "minecraft:bread",
 		count: 24,
-		only_one: true
-	},
-	{
-		item: {
-			id: "spartanweaponry:lance_invar",
-			tag: {
-				"Quark:ItemNameDye": 13,
-				Quality: {},
-				display: {
-					Name: "Eiffel Poker"
-				}
-			}
-		},
 		only_one: true
 	},
 	{
@@ -136,10 +75,78 @@
 			}
 		},
 		only_one: true
+	},
+	{
+		item: {
+			id: "spartanweaponry:lance_bronze",
+			tag: {
+				"Quark:ItemNameDye": 1,
+				Quality: {},
+				display: {
+					Lore: [
+						"Legends say this lance is able to pierce through any shield"
+					],
+					Name: "Lance of Longinus"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_boots",
+			tag: {
+				"Quark:ItemNameDye": 1,
+				Quality: {},
+				display: {
+					Name: "Jockey Boots"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_leggings",
+			tag: {
+				"Quark:ItemNameDye": 1,
+				Quality: {},
+				display: {
+					Name: "Jockey Leggings"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_chestplate",
+			tag: {
+				"Quark:ItemNameDye": 1,
+				Quality: {},
+				display: {
+					Name: "Jockey Chestplate"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_helmet",
+			tag: {
+				"Quark:ItemNameDye": 1,
+				Quality: {},
+				display: {
+					Name: "Jockey Helmet"
+				}
+			}
+		},
+		only_one: true
 	}],
 	loot_crate: {
 		string_id: "jockey",
-		item_name: "Crate Of Jousting Equipment",
+		item_name: "Crate Of Jousting Gear",
 		color: 16777215,
 		drops: {
 			boss: 0,

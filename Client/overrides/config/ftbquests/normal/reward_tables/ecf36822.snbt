@@ -1,0 +1,102 @@
+{
+	title: "Wizard Gear",
+	loot_size: 50,
+	rewards: [{
+		item: {
+			id: "ebwizardry:wizard_hat",
+			tag: {
+				"Quark:ItemNameDye": 12,
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "ebwizardry:wizard_robe",
+			tag: {
+				"Quark:ItemNameDye": 12,
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "ebwizardry:wizard_leggings",
+			tag: {
+				"Quark:ItemNameDye": 12,
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "ebwizardry:wizard_boots",
+			tag: {
+				"Quark:ItemNameDye": 12,
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "ebwizardry:small_mana_flask",
+			tag: {
+				"Quark:ItemNameDye": 12
+			}
+		},
+		count: 4,
+		only_one: true
+	},
+	{
+		item: "ebwizardry:identification_scroll",
+		count: 3,
+		only_one: true
+	},
+	{
+		item: "ebwizardry:wizard_handbook",
+		only_one: true
+	},
+	{
+		item: "harvestcraft:pumpkinoatsconesitem",
+		count: 24,
+		only_one: true
+	},
+	{
+		item: {
+			id: "ebwizardry:magic_wand",
+			tag: {
+				"Quark:ItemNameDye": 12,
+				Quality: {},
+				display: {
+					Lore: [
+						"A traditional wand used by novice wizards"
+					],
+					Name: "Mage's Wand"
+				},
+				progression: 20,
+				spells: [I;
+					1,
+					0,
+					0,
+					0,
+					0
+				]
+			}
+		},
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "wizard",
+		item_name: "Crate Of Wizard Gear",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

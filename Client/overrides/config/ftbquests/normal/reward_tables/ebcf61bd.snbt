@@ -1,5 +1,5 @@
 {
-	title: "Samurai Class",
+	title: "Samurai Gear",
 	loot_size: 50,
 	rewards: [{
 		item: "minecraft:arrow",
@@ -43,37 +43,8 @@
 		only_one: true
 	},
 	{
-		item: {
-			id: "spartanweaponry:longbow_invar",
-			tag: {
-				"Quark:ItemNameDye": 8,
-				Quality: {},
-				display: {
-					Name: "Samurai's Longbow"
-				}
-			}
-		},
-		only_one: true
-	},
-	{
 		item: "harvestcraft:sushiitem",
 		count: 24,
-		only_one: true
-	},
-	{
-		item: {
-			id: "spartanweaponry:katana_invar",
-			tag: {
-				"Quark:ItemNameDye": 8,
-				Quality: {},
-				display: {
-					Lore: [
-						"A blade passed through your family for generations wield it with honour"
-					],
-					Name: "Shusui"
-				}
-			}
-		},
 		only_one: true
 	},
 	{
@@ -102,10 +73,39 @@
 			}
 		},
 		only_one: true
+	},
+	{
+		item: {
+			id: "spartanweaponry:katana_bronze",
+			tag: {
+				"Quark:ItemNameDye": 8,
+				Quality: {},
+				display: {
+					Lore: [
+						"A blade passed through your family for generations wield it with honour"
+					],
+					Name: "Shusui"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "spartanweaponry:longbow_bronze",
+			tag: {
+				"Quark:ItemNameDye": 8,
+				Quality: {},
+				display: {
+					Name: "Hamayumi"
+				}
+			}
+		},
+		only_one: true
 	}],
 	loot_crate: {
 		string_id: "samurai",
-		item_name: "Crate Of Samurai Equipment",
+		item_name: "Crate Of Samurai Gear",
 		color: 16777215,
 		drops: {
 			boss: 0,
