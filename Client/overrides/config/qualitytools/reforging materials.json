@@ -3355,6 +3355,1154 @@
     "material": {
         "item": "embers:ingot_dawnstone"
     }
+  },
+          {
+    "tool": {
+        "item": "randomloot:heavy_helmet"
+    },
+    "material": {
+        "item": "minecraft:diamond"
+    }
+  },
+          {
+    "tool": {
+        "item": "randomloot:heavy_chest"
+    },
+    "material": {
+        "item": "minecraft:diamond"
+    }
+  },
+          {
+    "tool": {
+        "item": "randomloot:heavy_legs"
+    },
+    "material": {
+        "item": "minecraft:diamond"
+    }
+  },
+          {
+    "tool": {
+        "item": "randomloot:heavy_boots"
+    },
+    "material": {
+        "item": "minecraft:diamond"
+    }
+  },
+          {
+    "tool": {
+        "item": "randomloot:titanium_helmet"
+    },
+    "material": {
+        "item": "minecraft:diamond"
+    }
+  },
+          {
+    "tool": {
+        "item": "randomloot:titanium_chest"
+    },
+    "material": {
+        "item": "minecraft:diamond"
+    }
+  },
+          {
+    "tool": {
+        "item": "randomloot:titanium_legs"
+    },
+    "material": {
+        "item": "minecraft:diamond"
+    }
+  },
+          {
+    "tool": {
+        "item": "randomloot:titanium_boots"
+    },
+    "material": {
+        "item": "minecraft:diamond"
+    }
+  },
+          {
+    "tool": {
+        "item": "atum:wanderer_helmet"
+    },
+    "material": {
+        "item": "atum:linen_cloth"
+    }
+  },
+          {
+    "tool": {
+        "item": "atum:wanderer_chest"
+    },
+    "material": {
+        "item": "atum:linen_cloth"
+    }
+  },
+          {
+    "tool": {
+        "item": "atum:wanderer_legs"
+    },
+    "material": {
+        "item": "atum:linen_cloth"
+    }
+  },
+          {
+    "tool": {
+        "item": "atum:wanderer_boots"
+    },
+    "material": {
+        "item": "atum:linen_cloth"
+    }
+  },
+      {
+    "tool": {
+        "item": "erebus:max_speed_bow"
+    },
+    "material": {
+        "item": "erebus:materials",
+		"meta": 8
+    }
+  },
+      {
+    "tool": {
+        "item": "erebus:spider_t_shirt"
+    },
+    "material": {
+        "item": "erebus:materials",
+		"meta": 0
+    }
+  },
+        {
+    "tool": {
+        "item": "erebus:wasp_sword"
+    },
+    "material": {
+        "item": "erebus:materials",
+		"meta": 10
+    }
+  },
+        {
+    "tool": {
+        "item": "erebus:enhanced_scorpion_pincer"
+    },
+    "material": {
+        "item": "erebus:materials",
+		"meta": 15
+    }
+  },
+        {
+    "tool": {
+        "item": "erebus:rolled_newspaper"
+    },
+    "material": {
+        "item": "erebus:materials",
+		"meta": 26
+    }
+  },
+          {
+    "tool": {
+        "item": "ancientspellcraft:battlemage_sword_novice"
+    },
+    "material": {
+        "item": "ancientspellcraft:crystal_silver_nugget"
+    }
+  },
+          {
+    "tool": {
+        "item": "ancientspellcraft:battlemage_sword_apprentice"
+    },
+    "material": {
+        "item": "ancientspellcraft:crystal_silver_nugget"
+    }
+  },
+          {
+    "tool": {
+        "item": "ancientspellcraft:battlemage_sword_advanced"
+    },
+    "material": {
+        "item": "ancientspellcraft:crystal_silver_nugget"
+    }
+  },
+          {
+    "tool": {
+        "item": "ancientspellcraft:battlemage_sword_master"
+    },
+    "material": {
+        "item": "ancientspellcraft:crystal_silver_nugget"
+    }
+  },
+                  {
+    "tool": {
+        "item": "ancientspellcraft:devoritium_sword"
+    },
+    "material": {
+        "item": "ancientspellcraft:devoritium_ingot"
+    }
+  },
+          {
+    "tool": {
+        "item": "ancientspellcraft:devoritium_scimitar"
+    },
+    "material": {
+        "item": "ancientspellcraft:devoritium_ingot"
+    }
+  },
+          {
+    "tool": {
+        "item": "ancientspellcraft:devoritium_axe"
+    },
+    "material": {
+        "item": "ancientspellcraft:devoritium_ingot"
+    }
+  },
+          {
+    "tool": {
+        "item": "thaumcraft:baubles",
+		"meta": 3
+    },
+    "material": {
+        "item": "thaumcraft:ingot",
+		"meta": 2
+    }
+  },
+          {
+    "tool": {
+        "item": "thaumcraft:baubles",
+		"meta": 0
+    },
+    "material": {
+        "item": "thaumcraft:ingot",
+		"meta": 2
+    }
+  },
+          {
+    "tool": {
+        "item": "thaumcraft:baubles",
+		"meta": 1
+    },
+    "material": {
+        "item": "thaumcraft:ingot",
+		"meta": 2
+    }
+  },
+          {
+    "tool": {
+        "item": "thaumcraft:baubles",
+		"meta": 2
+    },
+    "material": {
+        "item": "thaumcraft:ingot",
+		"meta": 2
+    }
+  },
+          {
+    "tool": {
+        "item": "thaumcraft:cloud_ring"
+    },
+    "material": {
+        "item": "thaumcraft:ingot",
+		"meta": 2
+    }
+  },
+          {
+    "tool": {
+        "item": "thaumcraft:charm_undying"
+    },
+    "material": {
+        "item": "thaumcraft:ingot",
+		"meta": 2
+    }
+  },
+          {
+    "tool": {
+        "item": "thaumcraft:baubles",
+		"meta": 4
+    },
+    "material": {
+        "item": "minecraft:gold_ingot"
+    }
+  },
+          {
+    "tool": {
+        "item": "thaumcraft:baubles",
+		"meta": 5
+    },
+    "material": {
+        "item": "minecraft:gold_ingot"
+    }
+  },
+          {
+    "tool": {
+        "item": "thaumcraft:baubles",
+		"meta": 6
+    },
+    "material": {
+        "item": "minecraft:gold_ingot"
+    }
+  },
+            {
+    "tool": {
+        "item": "thaumcraft:amulet_vis",
+		"meta": 0
+    },
+    "material": {
+        "item": "thaumcraft:vis_resonator"
+    }
+  },
+            {
+    "tool": {
+        "item": "thaumcraft:amulet_vis",
+		"meta": 1
+    },
+    "material": {
+        "item": "thaumcraft:vis_resonator"
+    }
+  },
+          {
+    "tool": {
+        "item": "thaumcraft:void_pick"
+    },
+    "material": {
+        "item": "thaumcraft:ingot",
+		"meta": 1
+    }
+  },
+            {
+    "tool": {
+        "item": "thaumcraft:void_hoe"
+    },
+    "material": {
+        "item": "thaumcraft:ingot",
+		"meta": 1
+    }
+  },
+          {
+    "tool": {
+        "item": "thaumcraft:void_shovel"
+    },
+    "material": {
+        "item": "thaumcraft:ingot",
+		"meta": 1
+    }
+  },
+          {
+    "tool": {
+        "item": "thaumcraft:void_sword"
+    },
+    "material": {
+        "item": "thaumcraft:ingot",
+		"meta": 1
+    }
+  },
+          {
+    "tool": {
+        "item": "thaumcraft:void_axe"
+    },
+    "material": {
+        "item": "thaumcraft:ingot",
+		"meta": 1
+    }
+  },
+          {
+    "tool": {
+        "item": "thaumcraft:focus_pouch"
+    },
+    "material": {
+        "item": "minecraft:leather"
+    }
+  },
+          {
+    "tool": {
+        "item": "thaumcraft:traveller_boots"
+    },
+    "material": {
+        "item": "thaumcraft:fabric"
+    }
+  },
+          {
+    "tool": {
+        "item": "thaumcraft:curiosity_band"
+    },
+    "material": {
+        "item": "minecraft:emerald"
+    }
+  },
+          {
+    "tool": {
+        "item": "thaumcraft:voidseer_charm"
+    },
+    "material": {
+        "item": "thaumcraft:void_seed"
+    }
+  },
+          {
+    "tool": {
+        "item": "thaumcraft:verdant_charm"
+    },
+    "material": {
+        "item": "minecraft:emerald"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:3dglasses"
+    },
+    "material": {
+        "item": "minecraft:iron_ingot"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:brassknuckles"
+    },
+    "material": {
+        "item": "minecraft:iron_ingot"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:slippers"
+    },
+    "material": {
+        "item": "minecraft:glass"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:bootsleague"
+    },
+    "material": {
+        "item": "minecraft:leather"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:cactushelm"
+    },
+    "material": {
+        "item": "minecraft:cactus"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:cactusplate"
+    },
+    "material": {
+        "item": "minecraft:cactus"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:cactuslegs"
+    },
+    "material": {
+        "item": "minecraft:cactus"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:cactusboots"
+    },
+    "material": {
+        "item": "minecraft:cactus"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:emblem.food"
+    },
+    "material": {
+        "item": "minecraft:potato"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:emblem.melee"
+    },
+    "material": {
+        "item": "uniquecrops:darkblock"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:emblem.scarab"
+    },
+    "material": {
+        "item": "uniquecrops:darkblock"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:emblem.leaf"
+    },
+    "material": {
+        "item": "uniquecrops:darkblock"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:emblem.weight"
+    },
+    "material": {
+        "item": "uniquecrops:darkblock"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:emblem.bookworm"
+    },
+    "material": {
+        "item": "uniquecrops:darkblock"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:emblem.pacifism"
+    },
+    "material": {
+        "item": "uniquecrops:darkblock"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:emblem.transformation"
+    },
+    "material": {
+        "item": "uniquecrops:darkblock"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:emblem.powerfist"
+    },
+    "material": {
+        "item": "uniquecrops:darkblock"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:emblem.rainbow"
+    },
+    "material": {
+        "item": "uniquecrops:darkblock"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:emblem.blacksmith"
+    },
+    "material": {
+        "item": "uniquecrops:darkblock"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:emblem.defense"
+    },
+    "material": {
+        "item": "uniquecrops:darkblock"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:emblem.ironstomach"
+    },
+    "material": {
+        "item": "uniquecrops:darkblock"
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:thunderpantz"
+    },
+    "material": {
+        "item": "uniquecrops:generic",
+		"meta": 12
+    }
+  },
+          {
+    "tool": {
+        "item": "uniquecrops:pixelglasses"
+    },
+    "material": {
+        "item": "uniquecrops:generic",
+		"meta": 26
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:ancient_boots"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 19
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:ancient_leggings"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 19
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:ancient_chestplate"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 19
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:ancient_helmet"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 19
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:valonite_pickaxe"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 19
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:shockwave_sword"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 19
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:wights_bane"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 19
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:sludge_slicer"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 19
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:critter_cruncher"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 19
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:hag_hacker"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 19
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:swift_pick"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 19
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:ancient_greatsword"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 19
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:valonite_greataxe"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 19
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:valonite_axe"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 19
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:valonite_shovel"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 19
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:valonite_sword"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 19
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:valonite_boots"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 19
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:valonite_leggings"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 19
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:valonite_chestplate"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 19
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:valonite_helmet"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 19
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:bone_pickaxe"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 14
+    }
+  },
+              {
+    "tool": {
+        "item": "thebetweenlands:bone_axe"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 14
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:bone_shovel"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 14
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:bone_sword"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 14
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:bone_boots"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 14
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:bone_leggings"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 14
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:bone_chestplate"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 14
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:bone_helmet"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 14
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:skull_mask"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 14
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:bone_shield"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 14
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:explorers_hat"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 4
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:amphibious_boots"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 4
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:amphibious_leggings"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 4
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:amphibious_chestplate"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 4
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:amphibious_helmet"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 4
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:lurker_skin_boots"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 4
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:lurker_skin_leggings"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 4
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:skull_mask"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 4
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:lurker_skin_chestplate"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 4
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:lurker_skin_helmet"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 4
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:lurker_skin_shield"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 4
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:syrmorite_shield"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 11
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:syrmorite_boots"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 11
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:syrmorite_leggings"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 11
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:syrmorite_chestplate"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 11
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:syrmorite_helmet"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 11
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:octine_shield"
+    },
+    "material": {
+        "item": "thebetweenlands:octine_ingot"
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:octine_pickaxe"
+    },
+    "material": {
+        "item": "thebetweenlands:octine_ingot"
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:octine_axe"
+    },
+    "material": {
+        "item": "thebetweenlands:octine_ingot"
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:octine_shovel"
+    },
+    "material": {
+        "item": "thebetweenlands:octine_ingot"
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:octine_sword"
+    },
+    "material": {
+        "item": "thebetweenlands:octine_ingot"
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:living_weedwood_shield"
+    },
+    "material": {
+        "item": "thebetweenlands:log_spirit_tree"
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:spirit_tree_face_small_mask"
+    },
+    "material": {
+        "item": "thebetweenlands:log_spirit_tree"
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:spirit_tree_face_large_mask"
+    },
+    "material": {
+        "item": "thebetweenlands:log_spirit_tree"
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:weedwood_bow"
+    },
+    "material": {
+        "item": "thebetweenlands:weedwood_planks"
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:weedwood_shield"
+    },
+    "material": {
+        "item": "thebetweenlands:weedwood_planks"
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:weedwood_pickaxe"
+    },
+    "material": {
+        "item": "thebetweenlands:weedwood_planks"
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:weedwood_axe"
+    },
+    "material": {
+        "item": "thebetweenlands:weedwood_planks"
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:weedwood_shovel"
+    },
+    "material": {
+        "item": "thebetweenlands:weedwood_planks"
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:weedwood_sword"
+    },
+    "material": {
+        "item": "thebetweenlands:weedwood_planks"
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:rubber_boots"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 23
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:marsh_runner_boots"
+    },
+    "material": {
+        "item": "thebetweenlands:items_misc",
+		"meta": 23
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:dentrothyst_shield_green"
+    },
+    "material": {
+        "item": "thebetweenlands:dentrothyst_shard_green"
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:dentrothyst_shield_orange"
+    },
+    "material": {
+        "item": "thebetweenlands:dentrothyst_shard_orange"
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:dentrothyst_shield_green_polished"
+    },
+    "material": {
+        "item": "thebetweenlands:polished_dentrothyst",
+		"meta": 0
+    }
+  },
+          {
+    "tool": {
+        "item": "thebetweenlands:dentrothyst_shield_orange_polished"
+    },
+    "material": {
+        "item": "thebetweenlands:polished_dentrothyst",
+		"meta": 1
+    }
   }
 ]
-  
