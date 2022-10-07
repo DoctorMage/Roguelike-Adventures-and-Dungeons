@@ -1,8 +1,7 @@
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
-val crystalAcid = <ore:crystalAcid>;
-crystalAcid.add(<ebwizardry:magic_crystal:3>, <ebwizardry:magic_crystal:5>);
+
 
 if (loadedMods has "ebwizardry") {
 	val crystalElemental = <ore:crystalElemental>;
@@ -10,5 +9,8 @@ if (loadedMods has "ebwizardry") {
 	
 	val crystalGreen = <ore:crystalGreen>;
 	crystalGreen.add(<ebwizardry:magic_crystal:5>, <ebwizardry:magic_crystal:6>);
+	
+	val crystalAcid = <ore:crystalAcid>;
+	crystalAcid.add(<ebwizardry:magic_crystal:3>, <ebwizardry:magic_crystal:5>);
 }
 
