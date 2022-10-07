@@ -1,0 +1,11 @@
+language.name=English
+language.region=United States
+language.code=en_us
+
+#Tooltip is missing. Guide has 2 entries, short one is actually tooltip, long one should be guide
+
+###CORRECTION
+item.cyclic_wand_build.guide=Advanced long range building tool.  Has a custom HUD to change the direction (sneak and mouse wheel) Fill its inventory with blocks to build with.  Has different building modes: Random, Pattern, and Normal.
+
+###MISSING
+item.cyclic_wand_build.tooltip=Advanced long range building tool

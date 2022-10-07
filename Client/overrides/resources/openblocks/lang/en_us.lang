@@ -1,0 +1,7 @@
+language.name=English
+language.region=United States
+language.code=en_us
+
+###MISSING
+enchantment.openblocks.last_stand.desc=Prevents lethal damage at the cost of experience
+enchantment.openblocks.flim_flam.desc=Brings bad luck to other players

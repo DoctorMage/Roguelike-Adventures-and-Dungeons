@@ -1,0 +1,9 @@
+language.name=English
+language.region=United States
+language.code=en_us
+
+###TYPOS
+#table > tablet
+relic_type.enchantment.instruction=Hold the tablet in your main hand and an item in your other hand for 6 seconds to enchant it
+relic_type.incantation.instruction=Hold the tablet for 6 seconds to shatter it and release the stored Incantation
+relic_type.power.instruction=Hold the tablet for 6 seconds to shatter it and release the stored Power
