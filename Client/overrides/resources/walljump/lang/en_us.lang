@@ -1,0 +1,8 @@
+language.name=English
+language.region=United States
+language.code=en_us
+
+###MISSING
+enchantment.walljump.walljump.desc=Allows you to wall jump (if useWallJump is disabled in config).
+enchantment.walljump.doublejump.desc=Grants an extra jump per level
+enchantment.walljump.speedboost.desc=Increases speed while sprinting

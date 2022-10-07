@@ -1,0 +1,8 @@
+language.name=English
+language.region=United States
+language.code=en_us
+
+###MISSING
+tile.BiblioCraft:Clipboard.name=Clipboard
+enchantment.bibliocraft.bibliocraft.readingench.desc=Grants the same effect as wearing Reading Glasses
+enchantment.bibliocraft.bibliocraft.deathcompassench.desc=When you die, you will spawn with an Eternal Compass that will lead you back to your point of death

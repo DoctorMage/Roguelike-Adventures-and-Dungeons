@@ -1,0 +1,12 @@
+language.name=English
+language.region=United States
+language.code=en_us
+
+###MISSING
+enchantment.endreborn.ender_core.desc=Randomly teleports on user hit.
+enchantment.endreborn.ender_killer.desc=Deals additional damage to ender-mobs.
+enchantment.endreborn.shulker_core.desc=Target entity on hit gets levitation effect.
+
+entity.Villager.endreborn.overworld_explorer=World Explorer
+entity.Villager.endreborn.end_explorer=End Explorer
+entity.Villager.endreborn.nether_explorer=Nether Explorer

@@ -1,0 +1,10 @@
+language.name=English
+language.region=United States
+language.code=en_us
+
+###MISSING
+enchantment.extrautils2.xu.boomereaperang.desc=Boomerang can harvest crops and flowers.
+
+entity.Villager.red_mechanic=Red Priest
+entity.Villager.alchemist=Alchemist
+entity.Villager.shady_merchant=Shady Merchant
