@@ -4496,13 +4496,354 @@
 		"meta": 0
     }
   },
-          {
+    {
     "tool": {
         "item": "thebetweenlands:dentrothyst_shield_orange_polished"
     },
     "material": {
         "item": "thebetweenlands:polished_dentrothyst",
 		"meta": 1
+    }
+  },
+    {
+    "tool": {
+      "item": "ancientspellcraft:charm_clover"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal"
+    }
+  },
+  {
+    "tool": {
+      "item": "ancientspellcraft:charm_stone_tablet"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal"
+    }
+  },
+  {
+    "tool": {
+      "item": "ancientspellcraft:charm_stone_tablet"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 7
+    }
+  },
+  {
+    "tool": {
+      "item": "ancientspellcraft:belt_scroll_holder"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal"
+    }
+  },
+  {
+    "tool": {
+      "item": "ancientspellcraft:belt_spring_charge"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 3
+    }
+  },
+  {
+    "tool": {
+      "item": "ancientspellcraft:head_lightning"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 3
+    }
+  },
+  {
+    "tool": {
+      "item": "ancientspellcraft:charm_glyph_illumination"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal"
+    }
+  },
+  {
+    "tool": {
+      "item": "ancientspellcraft:charm_glyph_leeching"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 4
+    }
+  },
+  {
+    "tool": {
+      "item": "ancientspellcraft:charm_glyph_antigravity"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 6
+    }
+  },
+  {
+    "tool": {
+      "item": "ancientspellcraft:ring_lily_flower"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 5
+    }
+  },
+  {
+    "tool": {
+      "item": "ancientspellcraft:charm_glyph_vitality"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 5
+    }
+  },
+  {
+    "tool": {
+      "item": "ancientspellcraft:charm_glyph_warden"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 5
+    }
+  },
+  {
+    "tool": {
+      "item": "ancientspellcraft:ring_protector"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal"
+    }
+  },
+  {
+    "tool": {
+      "item": "ancientspellcraft:ring_devotion"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 7
+    }
+  },
+  {
+    "tool": {
+      "item": "ancientspellcraft:ring_withdraw_life"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 4
+    }
+  },
+  {
+    "tool": {
+      "item": "ancientspellcraft:ring_cloudwalker"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 3
+    }
+  },
+  {
+    "tool": {
+      "item": "ancientspellcraft:ring_spirit_ward"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 4
+    }
+  },
+  {
+    "tool": {
+      "item": "ancientspellcraft:ring_kinetic"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 3
+    }
+  },
+  {
+    "tool": {
+      "item": "ancientspellcraft:charm_cube_duplication"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal"
+    }
+  },
+  {
+    "tool": {
+      "item": "ancientspellcraft:ring_charge"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 3
+    }
+  },
+  {
+    "tool": {
+      "item": "ancientspellcraft:amulet_imbued_marble"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal"
+    }
+  },  {
+    "tool": {
+      "item": "mospells:ring_wind_touch"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 2
+    }
+  },
+  {
+    "tool": {
+      "item": "mospells:ring_ice_crystal"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 2
+    }
+  },
+  {
+    "tool": {
+      "item": "mospells:amulet_earth"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 5
+    }
+  },
+  {
+    "tool": {
+      "item": "mospells:amulet_frostmaw"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 2
+    }
+  },
+  {
+    "tool": {
+      "item": "mospells:amulet_golden_sun"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 1
+    }
+  },
+  {
+    "tool": {
+      "item": "mospells:charm_cold_winds"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 2
+    }
+  },  {
+    "tool": {
+      "item": "tfspellpack:charm_ice_exploder"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 2
+    }
+  },
+  {
+    "tool": {
+      "item": "tfspellpack:amulet_life_charm"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 7
+    }
+  },
+  {
+    "tool": {
+      "item": "tfspellpack:amulet_carminite"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 3
+    }
+  },
+  {
+    "tool": {
+      "item": "tfspellpack:charm_goblin"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 4
+    }
+  },
+  {
+    "tool": {
+      "item": "tfspellpack:charm_troll"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 4
+    }
+  },
+  {
+    "tool": {
+      "item": "tfspellpack:charm_accursed_tome"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 6
+    }
+  },
+  {
+    "tool": {
+      "item": "tfspellpack:ring_hydra_kaboom"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 1
+    }
+  },
+  {
+    "tool": {
+      "item": "tfspellpack:ring_aurora"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 2
+    }
+  },
+  {
+    "tool": {
+      "item": "tfspellpack:ring_trollsteinn"
+    },
+    "material": {
+      "ore_dict": "crystalAcid"
+    }
+  },
+  {
+    "tool": {
+      "item": "tfspellpack:ring_stealth_attack"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 5
+    }
+  },
+  {
+    "tool": {
+      "item": "tfspellpack:amulet_steeleaf"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 5
+    }
+  },
+  {
+    "tool": {
+      "item": "tfspellpack:ring_twilight"
+    },
+    "material": {
+      "item": "ebwizardry:magic_crystal",
+      "meta": 0
     }
   }
 ]
