@@ -1,0 +1,32 @@
+{
+	title: "You've Got, Mail!",
+	x: 7.0d,
+	y: 12.5d,
+	text: [
+		"The Ender Letter and Ender Mailbox are special items which allow players to remotely send items to each other, from any dimension, by username.",
+		"",
+		"Right-Click with an Ender Letter to fill it with your gift, and address your receiver's name at the top. Shift-Right-Click an Ender Mailbox to send your letter!",
+		"",
+		"You cannot send an empty letter. ",
+		"",
+		"If you sent your letter to an invalid username, it is lost (unless a player with that username joins, and places a mailbox). Be sure to type the correct username.",
+		"",
+		"When the receiver of an Ender Letter has a full inventory, the Letter will be received once they have a free slot available in their inventory.",
+		"",
+		"The player receiving a Letter receives a notification, similar to an achievement notification when a Letter is placed in their inventory.",
+		"",
+		"The Ender Letter disappears after all items within have been removed by the recipient."
+	],
+	tasks: [{
+		uid: "f1da0119",
+		type: "item",
+		items: [{
+			item: "randomthings:endermailbox"
+		}]
+	}],
+	rewards: [{
+		uid: "7606ea9f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

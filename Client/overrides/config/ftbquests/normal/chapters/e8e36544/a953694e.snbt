@@ -1,0 +1,25 @@
+{
+	title: "Just One?",
+	x: 4.0d,
+	y: 7.5d,
+	description: "Just one, John",
+	text: [
+		"Why not all of them?",
+		"",
+		"Because we already have that, John!",
+		"",
+		"The Sided Block of Redstone will only produce a signal on one side. The red side."
+	],
+	tasks: [{
+		uid: "9170d4b9",
+		type: "item",
+		items: [{
+			item: "randomthings:sidedredstone"
+		}]
+	}],
+	rewards: [{
+		uid: "bb18dc51",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "The Scorpio Full Moon",
+	x: 4.5d,
+	y: -9.5d,
+	description: "Who da &#@$ put a scorpion on tha moon?",
+	text: [
+		"This device will emit varying signal strengths depending on the Moon Phases. ",
+		"",
+		"You can make things like a door which only opens on a full moon, or something cool.",
+		"",
+		"You can make something that monitors the celestial phases for Thaumcraft.",
+		"",
+		"Go crazy."
+	],
+	tasks: [{
+		uid: "25a8339d",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:moon_sensor"
+		}]
+	}],
+	rewards: [{
+		uid: "e836fb03",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

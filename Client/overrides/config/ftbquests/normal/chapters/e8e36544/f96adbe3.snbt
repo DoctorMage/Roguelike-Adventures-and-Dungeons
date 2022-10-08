@@ -1,0 +1,58 @@
+{
+	title: "Beans and Things",
+	x: -3.976190476190439d,
+	y: 4.904761904761898d,
+	description: "Bean stuff",
+	text: [
+		"Bean activities.",
+		"",
+		"Normal beans are beans.",
+		"",
+		"Lesser Magic Beans are not so normal, and grow a beanstalk up to the height limit. You can climb it.",
+		"",
+		"Magic Beans cannot be crafted, but must be found. They're ABnormal. They'll grow a bean stalk up to the height limit AND it will have a Bean Pod on top. ",
+		"",
+		"Bean Pods contain loot like Diamonds, Iron and Gold, and other special stuff like Goden Eggs, which will hatch Gold Ingot laying Chickens."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "a15f60e9",
+		type: "item",
+		items: [{
+			item: "randomthings:beans"
+		}]
+	},
+	{
+		uid: "7850e670",
+		type: "item",
+		items: [{
+			item: "randomthings:beans 1 1"
+		}]
+	},
+	{
+		uid: "8fcc4ce9",
+		type: "item",
+		items: [{
+			item: "randomthings:beans 1 2"
+		}]
+	},
+	{
+		uid: "9d26f952",
+		type: "item",
+		items: [{
+			item: "randomthings:beanstew"
+		}]
+	},
+	{
+		uid: "ed566aee",
+		type: "item",
+		items: [{
+			item: "randomthings:ingredient 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "b49b355b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Hot and Melty!",
+	x: -2.0d,
+	y: -5.5d,
+	description: "Like S'mores, but burned!",
+	text: [
+		"Place Lava next to each cardinal direction of the Melter to increase its Heat! Higher heat is required to produce high tier results.",
+		"",
+		"The Melter can only melt certain items into the following results:",
+		"",
+		"Water",
+		"Lava",
+		"Experience",
+		"Amber",
+		"Poison",
+		"Crystallized Obsidian",
+		"Biomass",
+		"",
+		"Items must be placed correctly into the Melter for the Melter to process the items. JEI recipes may not be correct. You may have to fiddle with the order of items before the Melter will produce the result.",
+		"",
+		"It is suggested to turn your Melter OFF before placing your materials inside. This is to prevent some materials like Obsidian being turned into Lava before you can have a chance to set up the recipe for Crystallized Obsidian.",
+		"",
+		"Heat will not display correctly while the machine is OFF."
+	],
+	tasks: [{
+		uid: "555d45a1",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:melter"
+		}]
+	}],
+	rewards: [{
+		uid: "e9c403cf",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

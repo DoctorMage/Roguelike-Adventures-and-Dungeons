@@ -1,0 +1,54 @@
+{
+	title: "Your Own Recording Studio!",
+	icon: "randomthings:soundrecorder",
+	x: -1.5d,
+	y: 4.0d,
+	description: "Fa-lalala-LLAAAAAAAA",
+	text: [
+		"The Sound Recorder will record up to ten sounds. The sounds recorded will be the first ten sounds that play in the world.",
+		"",
+		"This can be used to narrow down sounds from the world, instead of finding it in a large list.",
+		"",
+		"Right-Click to open your Sound Recorder and fill it with empty Sound Patterns. These are used to save the sound you wish to do something with.",
+		"",
+		"Shift-Right-Clicking will activate the Sound Recorder to record the first ten sounds it hears. Shift-Right-Clicking again can end the recording prematurely.",
+		"",
+		"When you've located the sound you want, and recorded it, Right-Click the Sound Recorder and find it in the list of sounds. Simply click it, and it will be copied to an empty Sound Pattern."
+	],
+	tasks: [{
+		uid: "b1804671",
+		type: "item",
+		items: [{
+			id: "randomthings:soundrecorder",
+			tag: {
+				recordList: [
+					"minecraft:entity.slime.squish",
+					"minecraft:block.grass.step",
+					"minecraft:entity.small_slime.squish",
+					"minecraft:entity.slime.jump",
+					"minecraft:entity.small_slime.jump",
+					"minecraft:entity.zombie.hurt",
+					"minecraft:entity.skeleton.hurt",
+					"minecraft:entity.zombie.step",
+					"minecraft:entity.spider.step",
+					"minecraft:entity.spider.ambient"
+				],
+				recording: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "12fcda4f",
+		type: "item",
+		items: [{
+			item: "randomthings:soundpattern"
+		}]
+	}],
+	rewards: [{
+		uid: "2832d05e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

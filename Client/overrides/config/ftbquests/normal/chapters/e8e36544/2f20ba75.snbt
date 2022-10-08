@@ -1,0 +1,31 @@
+{
+	title: "Your Own Realm!",
+	x: 20.25d,
+	y: 9.75d,
+	description: "It's not very big is it...",
+	text: [
+		"Well, at least you can make it cozy or something.",
+		"",
+		"Right-Click with your key in hand to travel to the Spectre Dimension, a private pocket realm for you!",
+		"",
+		"Right-Click again to be send back to where you were when you left!"
+	],
+	dependencies: [
+		"4695c2a6"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "27dfc4de",
+		type: "item",
+		items: [{
+			item: "randomthings:spectrekey"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "43b4ffbe",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

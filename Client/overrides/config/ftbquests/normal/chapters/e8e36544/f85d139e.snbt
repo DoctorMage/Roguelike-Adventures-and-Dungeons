@@ -1,0 +1,30 @@
+{
+	title: "Secret Service Suitcase",
+	x: -12.0d,
+	y: -5.0d,
+	description: "Carry-on with a twist",
+	text: [
+		"He walk, he stalk, but most of all, he drop when you Shift-Right-Click him!",
+		"",
+		"Luggage is a walking, nigh pet-like chest which will scuddle around behind you, collecting any dropped items, or items put into his inventory.",
+		"",
+		"I wonder what would happen if we struck him with lightning...",
+		""
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "4efd02f0",
+		type: "item",
+		items: [{
+			id: "openblocks:luggage",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f1ffe4f0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

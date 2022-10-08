@@ -1,0 +1,23 @@
+{
+	title: "Smack It Till It's Where You Want It!",
+	x: -20.0d,
+	y: -7.5d,
+	description: "Bang! Pow! Boom! Crash!",
+	text: [
+		"The Big Metal Bar is used to rotate blocks from OpenBlocks which cannot normally be rotated, or you don't want to pick up because they'll drop the items inside."
+	],
+	tasks: [{
+		uid: "13763ae2",
+		type: "item",
+		items: [{
+			item: "openblocks:wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6fafd375",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Dead Man Walking",
+	x: 9.0d,
+	y: 4.0d,
+	description: "So many regrets",
+	text: [
+		"Let's turn it back a notch, shall we?",
+		"",
+		"The Time in a Bottle will gather time while sitting in your inventory. REAL time.",
+		"",
+		"When you use this on objects you can Right-Click on normally, which have a function, like plants, or furnaces, you can speed up the amount of time that is passing for that block.",
+		"",
+		"When used on plants, they grow faster. It's like Bonemeal for ANYTHING.",
+		"",
+		"When used on a Furnace, it cooks faster. It's like... um. Yea."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "13536fa9",
+		type: "item",
+		items: [{
+			id: "randomthings:timeinabottle",
+			tag: {
+				timeData: {
+					storedTime: 500
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "be7f2246",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

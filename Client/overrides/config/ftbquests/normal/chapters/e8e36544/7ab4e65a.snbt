@@ -1,0 +1,23 @@
+{
+	title: "Street Lights",
+	x: -14.0d,
+	y: 12.5d,
+	description: "Be home before 6:00",
+	text: [
+		"The Lit Redstone Lamp will stay lit without a Redstone signal.",
+		"",
+		"It does not output a signal."
+	],
+	tasks: [{
+		uid: "b547ec54",
+		type: "item",
+		items: [{
+			item: "quark:lit_lamp"
+		}]
+	}],
+	rewards: [{
+		uid: "727c41eb",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

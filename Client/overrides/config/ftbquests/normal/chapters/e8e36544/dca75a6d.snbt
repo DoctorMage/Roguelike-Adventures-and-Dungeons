@@ -1,0 +1,46 @@
+{
+	title: "Who Said What Now?",
+	icon: "randomthings:globalchatdetector",
+	x: 1.5d,
+	y: 6.5d,
+	description: "You said \"What now?\"",
+	text: [
+		"The Chat Detector will detect messages from the player who placed the block. If the typed message matches the one inside the Chat Detector, the block will output a signal.",
+		"",
+		"The mode toggle will prevent your message from being sent to chat when it is the matching message inside your Chat Detector, like maybe your password. Remember that it will not detect chat from anyone but you, anyways.",
+		"",
+		"The Global Chat Detector will detect chat from ANY player in chat.",
+		"",
+		"If any public chat matches what's inside the Global Chat Detector, it will output a signal.",
+		"",
+		"To prevent messages from being sent with the Global Chat Detector, you'll need an ID Card linked to the player who sent it, inside the Global Chat Detector. Make sure to put it on the correct toggle.",
+		"",
+		"Right-Click to link ID Cards."
+	],
+	tasks: [{
+		uid: "9b91fc2f",
+		type: "item",
+		items: [{
+			item: "randomthings:chatdetector"
+		}]
+	},
+	{
+		uid: "4d7d3c37",
+		type: "item",
+		items: [{
+			item: "randomthings:globalchatdetector"
+		}]
+	},
+	{
+		uid: "2e2214f5",
+		type: "item",
+		items: [{
+			item: "randomthings:idcard"
+		}]
+	}],
+	rewards: [{
+		uid: "1b4d8a6e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

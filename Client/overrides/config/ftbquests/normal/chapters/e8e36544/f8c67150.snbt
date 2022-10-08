@@ -1,0 +1,29 @@
+{
+	title: "Wireless Charging!",
+	x: 17.5d,
+	y: 7.5d,
+	description: "Supernatural shock!",
+	text: [
+		"Working similar to the Coil, the Spectre Charger will charge any items inside your inventory which take FE. You must be wearing the item for this effect to be active."
+	],
+	dependencies: [
+		"4695c2a6"
+	],
+	tasks: [{
+		uid: "20fbb239",
+		type: "item",
+		items: [{
+			id: "randomthings:spectrecharger",
+			tag: {
+				Quality: {},
+				options: {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "44c2f018",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "If Moses Was God Incarnate",
+	x: 2.5d,
+	y: -3.5d,
+	description: "The whole ocean would've just been gone",
+	text: [
+		"Well, now you can be God Incarnate for just two payments of $99.99!"
+	],
+	tasks: [{
+		uid: "bf7aa56a",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:ender_water",
+			tag: {
+				ActionType: 2,
+				timeout: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0fa0096f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

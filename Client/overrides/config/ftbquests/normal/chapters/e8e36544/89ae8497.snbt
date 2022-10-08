@@ -1,0 +1,26 @@
+{
+	title: "ZOINKS",
+	x: 14.714285714285765d,
+	y: 9.41666666666665d,
+	description: "Let's get out of here!",
+	text: [
+		"Ectoplasm is obtain from Spirits!",
+		"",
+		"When a mob dies, it has a small chance to spawn a Spirit. This chance is slightly increased during the night.",
+		"",
+		"Spirits can only be killed with magic, potion effects, or by other unorthodox means."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "05d316ef",
+		type: "item",
+		items: [{
+			item: "randomthings:ingredient 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "4ca29b57",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

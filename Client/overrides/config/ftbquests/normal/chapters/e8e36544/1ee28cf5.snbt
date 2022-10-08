@@ -1,0 +1,23 @@
+{
+	title: "Surprise Me",
+	x: -16.5d,
+	y: 10.5d,
+	description: "You know I hate surprises, John",
+	text: [
+		"Well, the Randomizer never fails!",
+		"",
+		"The Redstone Randomizer will take in a Redstone signal from it's single faced end, or the backside, and output a random signal to the left or right."
+	],
+	tasks: [{
+		uid: "d9aa7c60",
+		type: "item",
+		items: [{
+			item: "quark:redstone_randomizer"
+		}]
+	}],
+	rewards: [{
+		uid: "344c7ec8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

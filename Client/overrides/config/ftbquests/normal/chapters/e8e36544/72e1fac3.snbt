@@ -1,0 +1,32 @@
+{
+	title: "Quick-Time Events!",
+	x: -2.0d,
+	y: 12.5d,
+	description: "Press X for doubt",
+	text: [
+		"Blocks Of Sticks are basically quick-time scaffolding blocks.",
+		"",
+		"They last 10 seconds before decaying.",
+		"",
+		"The Returning Block Of Sticks will do just that. Return to your inventory, after decaying."
+	],
+	tasks: [{
+		uid: "7a6bf8fd",
+		type: "item",
+		items: [{
+			item: "randomthings:blockofsticks"
+		}]
+	},
+	{
+		uid: "bf371e51",
+		type: "item",
+		items: [{
+			item: "randomthings:blockofsticks 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "b02ad111",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

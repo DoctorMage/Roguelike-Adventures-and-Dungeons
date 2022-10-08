@@ -1,0 +1,21 @@
+{
+	title: "Johnny Applesprout",
+	x: 11.5d,
+	y: -5.5d,
+	description: "Tell him thank you for sharing",
+	text: [
+		"Placing these below any leaves will cause Apples to grow beneath them. They can be continuously harvested for Apples."
+	],
+	tasks: [{
+		uid: "d5b0e197",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:apple"
+		}]
+	}],
+	rewards: [{
+		uid: "966a1b46",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

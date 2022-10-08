@@ -1,0 +1,27 @@
+{
+	title: "Clean Your Shower Door!",
+	x: -24.0d,
+	y: -3.5d,
+	description: "Jk I never did",
+	text: [
+		"It's actually to reduce soap scum build up.",
+		"",
+		"But in MINECRAFT it's used to remove Paint from blocks.",
+		"",
+		"Right-Click to remove Paint from one side. Shift-Right-Click to remove Paint from all sides."
+	],
+	tasks: [{
+		uid: "6892af12",
+		type: "item",
+		items: [{
+			item: "openblocks:squeegee"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b0bf09dc",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

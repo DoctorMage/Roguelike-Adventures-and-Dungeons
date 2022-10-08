@@ -1,0 +1,41 @@
+{
+	title: "ASMR but for Your Eyes",
+	x: 7.0d,
+	y: -15.0d,
+	description: "Satisfaction",
+	text: [
+		"These items will help you create large builds without having to invest huge amounts of time destroying those dirt lines you created. ",
+		"",
+		"Yes they're faster than using VeinMiner to destroy those dirt lines, too.",
+		"",
+		"You just have to know how to use them.",
+		"",
+		"The Decaying and Responsive variants are my most highly used."
+	],
+	tasks: [{
+		uid: "2e050040",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_fragile"
+		}]
+	},
+	{
+		uid: "34e0b825",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_fragile_weak"
+		}]
+	},
+	{
+		uid: "8840d21c",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_fragile_auto"
+		}]
+	}],
+	rewards: [{
+		uid: "cd9f357b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

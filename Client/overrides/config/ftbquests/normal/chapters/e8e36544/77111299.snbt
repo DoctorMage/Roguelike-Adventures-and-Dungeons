@@ -1,0 +1,30 @@
+{
+	title: "He Slipped and Slid Forever",
+	x: 11.0d,
+	y: 6.0d,
+	description: "The schmovers",
+	text: [
+		"The Super Lubricent Boots cause you to slide to the left, and the right.",
+		"",
+		"You will never lose velocity while wearing these.",
+		"",
+		"You're a speed demon. A really slippery one."
+	],
+	tasks: [{
+		uid: "0dc98d85",
+		type: "item",
+		items: [{
+			id: "randomthings:superlubricentboots",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0ce2156e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

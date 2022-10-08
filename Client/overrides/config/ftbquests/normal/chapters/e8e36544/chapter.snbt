@@ -1,0 +1,83 @@
+{
+	title: "All Just Thrown In",
+	icon: {
+		id: "cyclicmagic:ender_eye_orb",
+		tag: {
+			"Quark:RuneColor": 3,
+			ench: [{
+				lvl: 2s,
+				id: 19
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -17.5d,
+		y: -1.5d,
+		width: 25.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "assets:questicons\\openblocks.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -15.5d,
+		y: 14.5d,
+		width: 12.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "assets:questicons\\quark.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 8.0d,
+		y: 14.5d,
+		width: 30.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "assets:questicons\\randomthings.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 7.5d,
+		y: -1.5d,
+		width: 15.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "assets:questicons\\cyclic.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -32.0d,
+		y: 14.5d,
+		width: 15.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "assets:questicons\\danknull.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -32.0d,
+		y: 6.5d,
+		width: 9.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "assets:questicons\\charm.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

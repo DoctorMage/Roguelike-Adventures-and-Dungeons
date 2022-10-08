@@ -1,0 +1,24 @@
+{
+	title: "The Crafting Cake",
+	x: 12.035714285714292d,
+	y: -7.898809523809511d,
+	description: "See, I still got it... sometimes",
+	text: [
+		"This item can be eaten to allow you to craft out of your inventory.",
+		"",
+		"You will need to set up a hotkey in your controls, or alternatively, you can select the \"C\" button under your Crafting Grid which should appear after consuming this item."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "72b7fdcd",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:crafting_food"
+		}]
+	}],
+	rewards: [{
+		uid: "9745d9dd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

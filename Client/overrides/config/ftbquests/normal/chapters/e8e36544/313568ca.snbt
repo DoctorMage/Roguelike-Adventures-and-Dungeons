@@ -1,0 +1,29 @@
+{
+	title: "A Decent Job",
+	x: 1.5d,
+	y: -8.0d,
+	description: "Better than I usually do myself",
+	text: [
+		"This scepter does a rather decent job of randomizing blocks, especially in larger builds.",
+		"",
+		"Very handy for creating wall texturing before building in front of it; E.G Castle Walls."
+	],
+	tasks: [{
+		uid: "0225bf2a",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:tool_randomize",
+			tag: {
+				ActionType: 0,
+				timeout: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7d218d72",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Spider-Steve, Spider-Steve",
+	x: 10.0d,
+	y: -9.5d,
+	description: "I'm basically playing Terraria?",
+	text: [
+		"These gloves will allow you to climb any walls.",
+		"",
+		"Simple walk up to them, and just... keep walking."
+	],
+	tasks: [{
+		uid: "af737a32",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:glove_climb",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "55f733f2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

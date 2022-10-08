@@ -1,0 +1,34 @@
+{
+	title: "CAUTION: WET",
+	x: -1.5d,
+	y: 7.5d,
+	description: "Not just, wet. It's WET",
+	text: [
+		"Super slippery slippy sliders.",
+		"",
+		"This ice is just ridiculously slippery.",
+		"",
+		"Ride a boat on it, and travel back in time.",
+		"",
+		"(Entities which slide on this ice DO NOT lose velocity)"
+	],
+	tasks: [{
+		uid: "c187802b",
+		type: "item",
+		items: [{
+			item: "randomthings:superlubricentice"
+		}]
+	},
+	{
+		uid: "b5eb3d8b",
+		type: "item",
+		items: [{
+			item: "randomthings:superlubricentplatform"
+		}]
+	}],
+	rewards: [{
+		uid: "98b6c39a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

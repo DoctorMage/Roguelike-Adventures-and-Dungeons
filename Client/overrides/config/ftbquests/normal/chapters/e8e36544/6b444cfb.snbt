@@ -1,0 +1,28 @@
+{
+	title: "Fake It Till You Make It!",
+	x: 2.857142857142861d,
+	y: -16.553571428571423d,
+	description: "You'll make it, eventually...",
+	text: [
+		"Does what it say it do.",
+		"",
+		"Give it some power and bask in that fake light.",
+		"",
+		"At least you have a laser in the sky now...",
+		"",
+		"If that's all you wanted you could've just made a map marker... you can change the color of those too, at least..."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "0aa6ddc3",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:beacon_redstone"
+		}]
+	}],
+	rewards: [{
+		uid: "a03af1a3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

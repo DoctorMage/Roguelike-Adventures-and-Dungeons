@@ -1,0 +1,24 @@
+{
+	title: "You Placed",
+	x: 18.0d,
+	y: -7.5d,
+	description: "That's it... here's a participation award",
+	text: [
+		"The Block and Fluid placers will fill an area directly below them when supplied with material."
+	],
+	dependencies: [
+		"ecd41947"
+	],
+	tasks: [{
+		uid: "35a1fab9",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:fluid_placer"
+		}]
+	}],
+	rewards: [{
+		uid: "27ddab04",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

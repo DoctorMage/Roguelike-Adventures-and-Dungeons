@@ -1,0 +1,35 @@
+{
+	title: "Feels a Bit Offbrand",
+	x: -16.5d,
+	y: -3.5d,
+	description: "Why is the circle in the middle yellow instead of red...?",
+	text: [
+		"This Target device needs to be powered with Redstone in the first place in order to work.",
+		"",
+		"If you wish the Target to constantly be up, a Redstone Torch does the trick. If you wish to toggle the Target, you can hook it up to a Lever. This is the upside to this Target device.",
+		"",
+		"This Target device will of course output varying signal strengths based on the location hit.",
+		"",
+		"Blue - 3",
+		"Red - 6",
+		"Yellow - 9",
+		"",
+		"The accuracy of this target and its hitboxes are not amazing.",
+		"",
+		"The compromise comes in the toggle, I feel.",
+		"",
+		"You can still make some fun games with it."
+	],
+	tasks: [{
+		uid: "d08ccfdb",
+		type: "item",
+		items: [{
+			item: "openblocks:target"
+		}]
+	}],
+	rewards: [{
+		uid: "2ccadae0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

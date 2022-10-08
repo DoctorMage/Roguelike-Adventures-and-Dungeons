@@ -1,0 +1,28 @@
+{
+	title: "The Forbidden Ritual",
+	x: 6.500000000000028d,
+	y: 7.726190476190467d,
+	description: "The inside of this pendulum smells like waterfowl",
+	text: [
+		"A goose must've been here recently.",
+		"",
+		"This Pendulum can be used to store friendly mobs, like animals, and the Questing Ram...",
+		"",
+		"You can't capture a Hydra with this anyways, but just a reminder, DO NOT capture Hydras."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "6fa90437",
+		type: "item",
+		items: [{
+			item: "randomthings:summoningpendulum"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1032639c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

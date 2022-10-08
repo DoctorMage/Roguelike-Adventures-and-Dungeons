@@ -1,0 +1,28 @@
+{
+	title: "Indiana Never Left Without His",
+	x: -17.0d,
+	y: 7.5d,
+	description: "That was a whip, John",
+	text: [
+		"Oh... right",
+		"",
+		"The Rope Coil can be placed on the bottoms of blocks. It will place down a Rope. ",
+		"",
+		"Right-Click anywhere on the Rope to send down more, until it reaches the bottom. You can then descend safely.",
+		"",
+		"Shift-Right-Click to retract the Rope, up to the level you're Right-Clicking on."
+	],
+	tasks: [{
+		uid: "1aa98d48",
+		type: "item",
+		items: [{
+			item: "quark:rope"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "287fef7c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

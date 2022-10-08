@@ -1,0 +1,25 @@
+{
+	title: "If Moses Was a Wizard?",
+	x: 2.5d,
+	y: -8.0d,
+	description: "This is definitely what he would've done instead",
+	text: [
+		"This item do what it say it do.",
+		"",
+		"Some people don't think it be like it do, but it do be."
+	],
+	tasks: [{
+		uid: "a987a423",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:water_freezer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1860bf84",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

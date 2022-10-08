@@ -1,0 +1,35 @@
+{
+	title: "The Spectre What?",
+	x: 16.523809523809547d,
+	y: 11.994047619047606d,
+	description: "Here, I'll show you",
+	text: [
+		"The Spectre Energy Injector is an item which allows you to charge your \"Buffer\" by providing energy to the block. Your Buffer can reach 1,000,000 FE.",
+		"",
+		"There are several ways to charge your Buffer.",
+		"",
+		"Some of the easiest ways will be:",
+		"",
+		"-Charging your Injector the same way you would activate Embers' devices.",
+		"",
+		"-Setting up a Peat-Fired Generator next to the Injector. Energy transfers automatically when the Generator is active.",
+		"",
+		"-Placing a Battery from Cyclic next to the Injector, and placing Numbered Spectre Coils onto the Battery. Make sure to set the energy transfer to the correct side of the Battery! Use JourneyMap to help with the cardinal directions."
+	],
+	dependencies: [
+		"403c8235"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "42504828",
+		type: "item",
+		items: [{
+			item: "randomthings:spectreenergyinjector"
+		}]
+	}],
+	rewards: [{
+		uid: "0869ee91",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

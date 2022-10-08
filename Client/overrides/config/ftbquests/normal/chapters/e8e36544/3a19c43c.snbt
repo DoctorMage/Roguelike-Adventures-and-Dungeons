@@ -1,0 +1,27 @@
+{
+	title: "Stablized Enderporting!",
+	x: 6.0d,
+	y: 12.5d,
+	description: "Now you don't have to make it float!",
+	text: [
+		"Remember when you had to set up Ender Pearls on top of water and make them float until you wanted them to drop so they'd teleport you?",
+		"",
+		"WELL NO MORE!",
+		"",
+		"Place this bad boy into something that will drop it onto the ground, and you will be teleported to the Stable Ender Pearl 7 seconds later.",
+		"",
+		"Alternatively, you can drop it yourself and see how far you get before it rubberbands you."
+	],
+	tasks: [{
+		uid: "0b990a35",
+		type: "item",
+		items: [{
+			item: "randomthings:stableenderpearl"
+		}]
+	}],
+	rewards: [{
+		uid: "fd64efa7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

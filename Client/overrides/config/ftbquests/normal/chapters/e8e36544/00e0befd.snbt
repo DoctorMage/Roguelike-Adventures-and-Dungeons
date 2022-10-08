@@ -1,0 +1,35 @@
+{
+	title: "Where Did It Come From?",
+	x: 1.5d,
+	y: 10.5d,
+	description: "No really?",
+	text: [
+		"The Player Interface allows players to import AND export items to and from their inventory.",
+		"",
+		"Each face of the block has a different icon, correlating to the appropriate inventory.",
+		"",
+		"Importing items into these slots will automatically place them into the players inventory, if room is available.",
+		"",
+		"Exporting items from a face on the block will export ALL items from the slots until none are available. Will not export from your hotbar.",
+		"",
+		"To export items from your inventory with more control, it is easiest to use Item Requisitioners from Embers to control which items are requested for export out of your inventory, like Dirt, Cobblestone, Stone, and Ores. ",
+		"",
+		"To do this, set up your Item Req. to an inventory, and link it to an Item Extractor connected to your Player Interface.",
+		"",
+		"Regulation of exporting from the Player Interface is much harder than the regulation of importing.",
+		"",
+		"It is recommended to use this item in conjuction with an Inventory Rerouter."
+	],
+	tasks: [{
+		uid: "f1c2024e",
+		type: "item",
+		items: [{
+			item: "randomthings:playerinterface"
+		}]
+	}],
+	rewards: [{
+		uid: "2a3196f6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

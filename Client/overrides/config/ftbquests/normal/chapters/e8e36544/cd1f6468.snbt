@@ -1,0 +1,26 @@
+{
+	title: "Tree Lover",
+	x: 16.0d,
+	y: -4.0d,
+	description: "I love them because they're useful",
+	text: [
+		"The Forester will automatically plant and harvest trees in a localized area when supplied with Saplings.",
+		"",
+		"Be sure to collect the items, as the Forester will not automatically pick up drops from trees."
+	],
+	dependencies: [
+		"ecd41947"
+	],
+	tasks: [{
+		uid: "00083386",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_forester"
+		}]
+	}],
+	rewards: [{
+		uid: "86361d9a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

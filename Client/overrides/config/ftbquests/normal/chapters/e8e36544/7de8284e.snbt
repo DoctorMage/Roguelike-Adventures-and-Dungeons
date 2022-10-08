@@ -1,0 +1,28 @@
+{
+	title: "The Energy Is in the Rhythm",
+	x: 18.5d,
+	y: 8.0d,
+	description: "Feel that transfer!",
+	text: [
+		"The Spectre Transfer Coil will transfer energy from your Buffer to an item which it can be attached to, and which takes energy to run.",
+		"",
+		"All Transfer Coils will consume energy from the same Buffer. ",
+		"",
+		"The Buffer can only hold 1,000,000 FE. You must either have huge charging capacity, or low energy consumption. Otherwise, your Buffer will always be out of energy."
+	],
+	dependencies: [
+		"4695c2a6"
+	],
+	tasks: [{
+		uid: "50086e64",
+		type: "item",
+		items: [{
+			item: "randomthings:spectrecoil_normal"
+		}]
+	}],
+	rewards: [{
+		uid: "84bb0a2c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

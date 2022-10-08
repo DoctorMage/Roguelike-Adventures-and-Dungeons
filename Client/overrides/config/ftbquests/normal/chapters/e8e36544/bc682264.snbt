@@ -1,0 +1,59 @@
+{
+	title: "I Always Forgot Mine",
+	x: -24.0d,
+	y: -5.5d,
+	description: "Borrow pencils to get them to like you!",
+	text: [
+		"That's a real mind trick by the way.",
+		"",
+		"Pencils can be used to draw invisible blocks which you CANNOT pass through",
+		"",
+		"The invisible wall will still take up a block space, preventing anything else from being placed; however, you will not be able to see the block.",
+		"",
+		"Pencil Glasses are needed to see Pencil Blocks. When Pencil Blocks are visible, they can be destroyed.",
+		"",
+		"Right-Clicking with the Pencil will place Pencil Blocks like normal. You may not be able to see them, if you're not wearing your glasses!"
+	],
+	tasks: [{
+		uid: "4a8951ee",
+		type: "item",
+		items: [{
+			id: "openblocks:imaginary",
+			tag: {
+				Uses: 10.0f,
+				Mode: 0
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8afa30f2",
+		type: "item",
+		items: [{
+			id: "openblocks:pencil_glasses",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: 1718617093408378312L,
+						UUIDLeast: -7198325265715062215L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.heavy.name"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "230bc5a8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

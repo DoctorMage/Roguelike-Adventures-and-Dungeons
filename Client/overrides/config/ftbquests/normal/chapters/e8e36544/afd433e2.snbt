@@ -1,0 +1,32 @@
+{
+	title: "Teach a Man to Fish?",
+	x: 16.0d,
+	y: -10.0d,
+	description: "He'll live forever",
+	text: [
+		"Teach a man to automate fishing?",
+		"",
+		"He'll live forever, still, and so will his kids, and their kids.",
+		"",
+		"His business is booming...",
+		"",
+		"Simply place this Automated Fisher into the water and ensure it has power. It will collect vanilla and modded fish.",
+		"",
+		"Placing a good fishing rod into the trap will yield positive effects on your fish harvest."
+	],
+	dependencies: [
+		"ecd41947"
+	],
+	tasks: [{
+		uid: "43dc9a6b",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_fishing"
+		}]
+	}],
+	rewards: [{
+		uid: "91469eb7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

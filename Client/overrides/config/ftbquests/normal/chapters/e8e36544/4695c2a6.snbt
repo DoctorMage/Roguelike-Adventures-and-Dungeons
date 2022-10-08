@@ -1,0 +1,37 @@
+{
+	title: "It's Kinda Cold",
+	x: 16.5d,
+	y: 9.5d,
+	description: "Well, it's metal",
+	text: [
+		"No it isn't, John! It's obviously not metal!",
+		"",
+		"Okay. So you're probably wondering who John is. I guess the Spectre quests is where I tell you.",
+		"",
+		"He used to be my first and best friend. He used to play Minecraft, sometimes. And he was a cool dude. ",
+		"",
+		"Rest in pepperoni friendo."
+	],
+	dependencies: [
+		"89ae8497"
+	],
+	tasks: [{
+		uid: "60852ebe",
+		type: "item",
+		items: [{
+			item: "randomthings:ingredient 1 3"
+		}]
+	},
+	{
+		uid: "5d21e6fe",
+		type: "item",
+		items: [{
+			item: "randomthings:ingredient 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "b68da52e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

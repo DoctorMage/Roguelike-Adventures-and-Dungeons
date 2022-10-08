@@ -1,0 +1,26 @@
+{
+	title: "Bob",
+	x: 14.0d,
+	y: -3.5d,
+	description: "He builds stuff",
+	text: [
+		"When powered and active, the Structure Builder will automatically build basic shapes when supplied with material!",
+		"",
+		"Select your shape and edit the sizes, and make sure you check your preview before turning it on!"
+	],
+	dependencies: [
+		"ecd41947"
+	],
+	tasks: [{
+		uid: "2956362e",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:builder_block"
+		}]
+	}],
+	rewards: [{
+		uid: "670e8bb5",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

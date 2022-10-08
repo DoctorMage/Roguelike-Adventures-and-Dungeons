@@ -1,0 +1,27 @@
+{
+	title: "Can You Keep a Secret?",
+	x: 5.0d,
+	y: -3.5d,
+	description: "Shut up, big mouth!",
+	text: [
+		"That's no way to talk to your friends, John.",
+		"",
+		"This device will create a Redstone signal when the set password is typed into the chat. The block must be claimed by someone, and a password must be input for it to work. ",
+		"",
+		"This password should not be a common phrase, as chat will be disabled when entering the password, to prevent other players in Multiplayer from seeing your password.",
+		"",
+		"You can also set who can use the password, nullifying the necessity to keep the password a secret."
+	],
+	tasks: [{
+		uid: "ced3f04a",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:password_block"
+		}]
+	}],
+	rewards: [{
+		uid: "6957dd30",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

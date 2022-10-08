@@ -1,0 +1,27 @@
+{
+	title: "No Dragon Is Wild, Now...",
+	x: 3.5d,
+	y: -14.5d,
+	description: "Wild? You mean... captured?",
+	text: [
+		"This item will capture any hostile entity. ",
+		"",
+		"!!!!!!!!!!!!",
+		"",
+		"Using this item on the HYDRA from TWILIGHT FOREST will crash your game and corrupt your world.",
+		"",
+		"!!!!!!!!!!!!"
+	],
+	tasks: [{
+		uid: "9031a1bf",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:magic_net"
+		}]
+	}],
+	rewards: [{
+		uid: "6387146c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "The Books Enchant Themselves",
+	x: 15.0d,
+	y: -10.5d,
+	description: "Really takes a load off of you doing it.",
+	text: [
+		"This Powered Enchanter takes books, experience, and power (in FE) to enchant your books.",
+		"",
+		"If you're clever, you will find a way to hook up experience tanks, chests, and power, using pipes..."
+	],
+	dependencies: [
+		"ecd41947"
+	],
+	tasks: [{
+		uid: "9520496a",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_enchanter"
+		}]
+	}],
+	rewards: [{
+		uid: "c5c5f848",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

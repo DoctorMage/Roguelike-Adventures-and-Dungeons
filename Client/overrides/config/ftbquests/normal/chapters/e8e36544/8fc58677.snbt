@@ -1,0 +1,24 @@
+{
+	title: "Santa Has One of These",
+	x: 2.8095238095238244d,
+	y: -13.291666666666664d,
+	description: "The elves have one too",
+	text: [
+		"This almost replaces the Ender Chest. Crazy."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "073702b5",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:sack_ender"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a16def68",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

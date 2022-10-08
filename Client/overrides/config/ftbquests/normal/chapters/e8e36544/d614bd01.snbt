@@ -1,0 +1,23 @@
+{
+	title: "Hercules Couldn't Do It",
+	x: -14.0d,
+	y: 10.5d,
+	description: "And neither can you!",
+	text: [
+		"This stone cannot be moved by pistons!",
+		"",
+		"They just arent stronk enough."
+	],
+	tasks: [{
+		uid: "4e5b3b40",
+		type: "item",
+		items: [{
+			item: "quark:sturdy_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "06c0dca4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "The Autobed?",
+	x: 10.0d,
+	y: -7.5d,
+	description: "Does everything for you, including tucking you in!",
+	text: [
+		"Allows you to sleep through the night. ",
+		"",
+		"This item does NOT seem to set your spawn point.",
+		"",
+		"This means it can be used to simply sleep through the night, and continue travels during the day."
+	],
+	tasks: [{
+		uid: "59240042",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:sleeping_mat",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "43a51034",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

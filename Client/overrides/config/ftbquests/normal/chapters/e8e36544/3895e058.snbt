@@ -1,0 +1,32 @@
+{
+	title: "007",
+	x: -26.5d,
+	y: -5.5d,
+	description: "But you can't find a damn thing",
+	text: [
+		"This item is suppose to find structures.",
+		"",
+		"Well... it DOES find them... just not often, and not a lot.",
+		"",
+		"This may be to due to file structure within the pack and the fact that there aren't many structures in the modpack for this item to lock onto.",
+		"",
+		"For clarity, structures are a special type of file which generate the buildings. They are located in a \"Structures\" folder.",
+		"",
+		"Either there isn't a lot of \"structures\" in the folder, or this item sucks. I really can't tell, and I've tested it a lot. Maybe it's my Seed?"
+	],
+	tasks: [{
+		uid: "3ada13ca",
+		type: "item",
+		items: [{
+			id: "openblocks:golden_eye",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9d141ac9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

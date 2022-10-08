@@ -1,0 +1,29 @@
+{
+	title: "Righty Twisty, Lefty Lifty",
+	x: 2.0d,
+	y: -4.5d,
+	description: "Something like that",
+	text: [
+		"This wrench will rotate Cyclic's machines for you.",
+		"",
+		"This is highly useful if the machine is already in a system, but for WHATEVER REASON you want to rotate it.",
+		"",
+		"The machine will keep it's inventory and everything, but can still be rotated without picking it up.",
+		"",
+		"Snazzy."
+	],
+	tasks: [{
+		uid: "5cbceee2",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_rotate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "546c88ad",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

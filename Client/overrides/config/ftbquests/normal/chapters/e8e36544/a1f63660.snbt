@@ -1,0 +1,28 @@
+{
+	title: "You're Good, You're Good!",
+	x: 17.5d,
+	y: -8.5d,
+	description: "You're good!",
+	text: [
+		"Drop it!",
+		"",
+		"The Precise Dropper is a highly configurable dropper.",
+		"",
+		"Set the Speed, Velocity and more of each item that gets shot through the dropper."
+	],
+	dependencies: [
+		"ecd41947"
+	],
+	tasks: [{
+		uid: "259ceabc",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:dropper_exact"
+		}]
+	}],
+	rewards: [{
+		uid: "7ff9c707",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Purty Rocks",
+	x: -11.5d,
+	y: -3.5d,
+	description: "They look nice...",
+	text: [
+		"Put these purty rocks anywhere!"
+	],
+	tasks: [{
+		uid: "4893360a",
+		type: "item",
+		items: [{
+			item: "openblocks:path"
+		}]
+	}],
+	rewards: [{
+		uid: "dca3b375",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

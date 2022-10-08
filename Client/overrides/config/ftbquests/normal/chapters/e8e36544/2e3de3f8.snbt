@@ -1,0 +1,24 @@
+{
+	title: "Mad Duck?",
+	x: 9.5d,
+	y: -13.892857142857153d,
+	description: "Quack",
+	text: [
+		"Will break blocks in a 3x3 area."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "b99d6aa0",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:mattock"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "872318a6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

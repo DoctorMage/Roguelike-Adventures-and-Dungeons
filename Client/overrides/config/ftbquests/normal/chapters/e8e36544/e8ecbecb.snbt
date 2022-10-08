@@ -1,0 +1,32 @@
+{
+	title: "Fear the Shears",
+	x: 9.5d,
+	y: -10.5d,
+	description: "The sheep will never know what hit them",
+	text: [
+		"Cyclic adds two types of shears.",
+		"",
+		"The Obsidian, and the Enhanced Shears.",
+		"",
+		"Obsidian trades off a range for durability.",
+		"",
+		"The Enhanced Shears will shoot shears when Right-Clicking, but come with much lower durability."
+	],
+	tasks: [{
+		uid: "047c17a2",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:shears_obsidian",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a263101d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

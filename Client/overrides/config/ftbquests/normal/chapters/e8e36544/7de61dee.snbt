@@ -1,0 +1,21 @@
+{
+	title: "Scary AND Spooky!",
+	x: -14.5d,
+	y: 5.5d,
+	description: "Increases your voodoo",
+	text: [
+		"Candles will increase the enchanting power of nearby Enchanting Tables equal to one Bookshelf. They do not count as a Bookshelf for activation of the Enchanting Table."
+	],
+	tasks: [{
+		uid: "fd52a44d",
+		type: "item",
+		items: [{
+			item: "quark:candle"
+		}]
+	}],
+	rewards: [{
+		uid: "c1453a2a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

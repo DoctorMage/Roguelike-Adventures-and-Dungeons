@@ -1,0 +1,23 @@
+{
+	title: "I'm Just Attracted to Stuff",
+	x: 4.0d,
+	y: -10.5d,
+	description: "It might be the other way around",
+	text: [
+		"This plate will do what it says.",
+		"",
+		"Use it to collect excess mob drops from your mob farm... I don't know."
+	],
+	tasks: [{
+		uid: "490b4f3a",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:magnet_block"
+		}]
+	}],
+	rewards: [{
+		uid: "2b6b99e2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

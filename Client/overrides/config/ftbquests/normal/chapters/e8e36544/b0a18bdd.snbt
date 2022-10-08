@@ -1,0 +1,26 @@
+{
+	title: "Ever Had Homemade Jerky?",
+	x: 17.0d,
+	y: -9.5d,
+	description: "It's great",
+	text: [
+		"Try it with Rotten Flesh next time.",
+		"",
+		"Water extracted from the Dehydrator will need to be extracted to another location, if the Dehydrator becomes full."
+	],
+	dependencies: [
+		"ecd41947"
+	],
+	tasks: [{
+		uid: "b52feda4",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:dehydrator"
+		}]
+	}],
+	rewards: [{
+		uid: "5cfa9a27",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "The Ultimate Surfer Equipment",
+	x: 12.0d,
+	y: 8.0d,
+	description: "Wave Walker",
+	text: [
+		"These boots do what they say!",
+		"",
+		"Hold Shift to enter the water."
+	],
+	tasks: [{
+		uid: "b2ed0ddc",
+		type: "item",
+		items: [{
+			id: "randomthings:waterwalkingboots",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d2302047",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

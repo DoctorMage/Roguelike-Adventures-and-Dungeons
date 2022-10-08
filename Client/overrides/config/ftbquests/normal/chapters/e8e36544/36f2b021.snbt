@@ -1,0 +1,24 @@
+{
+	title: "The Ground Bit Me!",
+	x: -1.0d,
+	y: -3.0d,
+	description: "Oh no, it's Tremors all over again!",
+	text: [
+		"The Evoker Fang will summon spikes from the ground in a straight line, dealing moderate damage to mobs.",
+		""
+	],
+	tasks: [{
+		uid: "416d075d",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:evoker_fang"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "434ecc82",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}
