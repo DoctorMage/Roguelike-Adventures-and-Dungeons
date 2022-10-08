@@ -1,0 +1,22 @@
+{
+	title: "The OG Beacon",
+	x: 1.095238095238102d,
+	y: -16.553571428571416d,
+	description: "''Back in my day''",
+	text: [
+		"''We had to make our own effects for our own Beacons''"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "d0fbb8c3",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:beacon_potion"
+		}]
+	}],
+	rewards: [{
+		uid: "bb1ae79c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Drink from It",
+	x: -3.5d,
+	y: 7.5d,
+	description: "I dare you",
+	text: [
+		"Will it make me hallucinate?",
+		"",
+		"The Pitcher Plant will slowly fill nearby water storage blocks with water, including cauldrons."
+	],
+	tasks: [{
+		uid: "f783ae8c",
+		type: "item",
+		items: [{
+			item: "randomthings:pitcherplant"
+		}]
+	}],
+	rewards: [{
+		uid: "753ae0bc",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

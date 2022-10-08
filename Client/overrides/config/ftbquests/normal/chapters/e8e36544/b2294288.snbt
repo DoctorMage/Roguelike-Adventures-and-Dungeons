@@ -1,0 +1,23 @@
+{
+	title: "The Common Mob Farmer's Friend",
+	x: 7.5d,
+	y: -5.5d,
+	description: "Useful for all sorts of stuff, actually",
+	text: [
+		"Not really, just super good for mob farms.",
+		"",
+		"This fan is highly configurable."
+	],
+	tasks: [{
+		uid: "166a3e64",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:fan"
+		}]
+	}],
+	rewards: [{
+		uid: "2d56118f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

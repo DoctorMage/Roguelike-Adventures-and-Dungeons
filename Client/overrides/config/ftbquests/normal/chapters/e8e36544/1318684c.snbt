@@ -1,0 +1,60 @@
+{
+	title: "Panels of Portals",
+	x: -33.719047619047636d,
+	y: 12.432142857142871d,
+	description: "Can't do much with them though.",
+	text: [
+		"These panels make up a /dank/null.",
+		"",
+		"One is needed to complete this quest."
+	],
+	size: 1.5d,
+	or_tasks: true,
+	tasks: [{
+		uid: "b296d635",
+		type: "item",
+		items: [{
+			item: "danknull:dank_null_panel_0"
+		}]
+	},
+	{
+		uid: "52456fe2",
+		type: "item",
+		items: [{
+			item: "danknull:dank_null_panel_1"
+		}]
+	},
+	{
+		uid: "a967f821",
+		type: "item",
+		items: [{
+			item: "danknull:dank_null_panel_2"
+		}]
+	},
+	{
+		uid: "d2f0ea34",
+		type: "item",
+		items: [{
+			item: "danknull:dank_null_panel_3"
+		}]
+	},
+	{
+		uid: "6b7371b9",
+		type: "item",
+		items: [{
+			item: "danknull:dank_null_panel_4"
+		}]
+	},
+	{
+		uid: "51bfb61b",
+		type: "item",
+		items: [{
+			item: "danknull:dank_null_panel_5"
+		}]
+	}],
+	rewards: [{
+		uid: "b7485e14",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

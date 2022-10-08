@@ -1,0 +1,23 @@
+{
+	title: "It's Broken!",
+	x: 9.5d,
+	y: 10.5d,
+	description: "But in a good way...",
+	text: [
+		"Combining a Golden Compass with a Position Filter will make the compass point towards the location on the Position Filter."
+	],
+	tasks: [{
+		uid: "e5da6619",
+		type: "item",
+		items: [{
+			item: "randomthings:goldencompass"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eccc93f6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

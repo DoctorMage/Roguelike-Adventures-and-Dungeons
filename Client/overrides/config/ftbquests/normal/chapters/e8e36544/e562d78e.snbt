@@ -1,0 +1,23 @@
+{
+	title: "Hang Ten!",
+	x: -19.0d,
+	y: -3.5d,
+	description: "Cowabunga!",
+	text: [
+		"The Hang Glider will allow you to glide to safety from high up.",
+		"",
+		"Simply Right-Click with the Glider in your Main Hand and get your squirrel on!"
+	],
+	tasks: [{
+		uid: "3707a921",
+		type: "item",
+		items: [{
+			item: "openblocks:hang_glider"
+		}]
+	}],
+	rewards: [{
+		uid: "c3916a1b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

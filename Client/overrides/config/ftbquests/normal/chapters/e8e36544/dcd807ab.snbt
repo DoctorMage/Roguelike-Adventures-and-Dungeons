@@ -1,0 +1,24 @@
+{
+	title: "Steady Hands",
+	x: 18.0d,
+	y: -6.5d,
+	description: "Doing no more and no less",
+	text: [
+		"The Steady Miner will "
+	],
+	dependencies: [
+		"ecd41947"
+	],
+	tasks: [{
+		uid: "1951808f",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_miner_smart"
+		}]
+	}],
+	rewards: [{
+		uid: "06418e11",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

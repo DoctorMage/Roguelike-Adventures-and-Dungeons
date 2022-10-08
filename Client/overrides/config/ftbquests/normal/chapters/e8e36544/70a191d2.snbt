@@ -1,0 +1,191 @@
+{
+	title: "Passively Catch Them All!",
+	x: -17.5d,
+	y: -8.0d,
+	description: "But not so passively.",
+	text: [
+		"Become a mass murderer of all sorts of animals to collect their trophies!",
+		"",
+		"All are needed to complete this quest."
+	],
+	tasks: [{
+		uid: "cedc3db6",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:wolf"
+			}
+		}]
+	},
+	{
+		uid: "cf52e873",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:chicken"
+			}
+		}]
+	},
+	{
+		uid: "34b469fa",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:cow"
+			}
+		}]
+	},
+	{
+		uid: "8408452c",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:bat"
+			}
+		}]
+	},
+	{
+		uid: "4c8e153c",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:villager"
+			}
+		}]
+	},
+	{
+		uid: "6f542ee2",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:ocelot"
+			}
+		}]
+	},
+	{
+		uid: "3dff21fd",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:sheep"
+			}
+		}]
+	},
+	{
+		uid: "5e31c621",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:squid"
+			}
+		}]
+	},
+	{
+		uid: "cdcca95b",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:mooshroom"
+			}
+		}]
+	},
+	{
+		uid: "e3a565f9",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:villager_golem"
+			}
+		}]
+	},
+	{
+		uid: "fd7ee3cb",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:snowman"
+			}
+		}]
+	},
+	{
+		uid: "6682f3db",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:pig"
+			}
+		}]
+	},
+	{
+		uid: "e48eae9f",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:rabbit"
+			}
+		}]
+	},
+	{
+		uid: "02df5425",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:polar_bear"
+			}
+		}]
+	},
+	{
+		uid: "bd94b6ee",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:horse"
+			}
+		}]
+	},
+	{
+		uid: "2282d54d",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:donkey"
+			}
+		}]
+	},
+	{
+		uid: "bf7b19a3",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:llama"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3bc2b9cd",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "ae2481b1",
+		type: "xp_levels",
+		xp_levels: 20
+	}]
+}

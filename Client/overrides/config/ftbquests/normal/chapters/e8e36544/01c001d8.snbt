@@ -1,0 +1,35 @@
+{
+	title: "Charged Up!",
+	x: 12.75d,
+	y: -11.25d,
+	description: "It's my catch phrase after smashing a Redbull",
+	text: [
+		"I scream it at the top of my lungs before going in for my 5AM shift.",
+		"",
+		"That's how you gotta do it sometimes.",
+		"",
+		"This bad boy is gonna store lots of energy for you. You can even pick it up to move it somewhere else!",
+		"",
+		"Only bad thing? There is no way to transfer energy with FE in this pack, at the moment.",
+		"",
+		"Unless pipes are re-enabled, you will need to place the Batteries right next to the machine which needs power. Most commonly, it is good to put the battery right under the machine which needs to be powered. ",
+		"",
+		"In the case of charging a battery? See The Guides (may not be made yet, LOL)"
+	],
+	dependencies: [
+		"ecd41947"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "0664964b",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:battery"
+		}]
+	}],
+	rewards: [{
+		uid: "5b54f01d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

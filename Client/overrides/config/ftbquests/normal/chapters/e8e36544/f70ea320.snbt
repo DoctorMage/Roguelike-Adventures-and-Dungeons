@@ -1,0 +1,27 @@
+{
+	title: "Gang Induction",
+	x: -17.5d,
+	y: 10.5d,
+	description: "No, not that kind of induction, John!",
+	text: [
+		"The Redstone Inductor will take all incoming signal strengths and output the sum.",
+		"",
+		"This device is redundant if all incoming signal strengths are at 15.",
+		"",
+		"To lock the output, you can place a vanilla Repeater or Comparator next to your Redstone Inductor, facing towards one of the three input sides. Send a Redstone signal to the Repeater/Comparator, and the Inductor will have it's current output locked.",
+		"",
+		"If the Repeater or Comparator loses its signal, the Inductor will have its output unlocked again, and it will be updated."
+	],
+	tasks: [{
+		uid: "08d8b9fe",
+		type: "item",
+		items: [{
+			item: "quark:redstone_inductor"
+		}]
+	}],
+	rewards: [{
+		uid: "bb4ef3ab",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

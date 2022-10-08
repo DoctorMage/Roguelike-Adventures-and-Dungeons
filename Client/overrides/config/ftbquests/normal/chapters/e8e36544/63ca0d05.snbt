@@ -1,0 +1,34 @@
+{
+	title: "Touchless Delivery",
+	x: 3.5d,
+	y: 11.5d,
+	description: "Well.. I did grab your food from the drive-thru window...",
+	text: [
+		"Ya know, now that I think about it...",
+		"",
+		"Contact Buttons and Levers will cause the block in front of them to act as the Button or Lever.",
+		"",
+		"The Contact Button or Lever block itself will output a signal when the block in front of it is Right-Clicked!",
+		"",
+		"The most secret button of all, is one that isn't actually a button ;)"
+	],
+	tasks: [{
+		uid: "fc23de1c",
+		type: "item",
+		items: [{
+			item: "randomthings:contactbutton"
+		}]
+	},
+	{
+		uid: "8f680bbd",
+		type: "item",
+		items: [{
+			item: "randomthings:contactlever"
+		}]
+	}],
+	rewards: [{
+		uid: "90179349",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

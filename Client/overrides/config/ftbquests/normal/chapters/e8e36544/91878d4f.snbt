@@ -1,0 +1,27 @@
+{
+	title: "Moonstoned",
+	x: -32.96428571428572d,
+	y: 3.267857142857146d,
+	description: "Guide the way!",
+	text: [
+		"Right-Clicking the Moonstone on a block will bind it to the location.",
+		"",
+		"When aligned on the X or Z axis, the Moonstone will glow. When you are standing on top of the bound location, the Moonstone will gleam with an enchantment glint.",
+		"",
+		"This works across dimensions and respects the spatial expansion of the Nether, helping you to align portals precisely between the Overworld and Nether."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "78a012ea",
+		type: "item",
+		items: [{
+			item: "charm:moonstone"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "51d2509d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

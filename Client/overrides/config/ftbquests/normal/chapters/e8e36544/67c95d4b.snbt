@@ -1,0 +1,41 @@
+{
+	title: "Turn Left!",
+	x: 8.25d,
+	y: -16.5d,
+	description: "Off this bridge?!",
+	text: [
+		"The GPS Marker will store a single 1x1x1 block location.",
+		"",
+		"You will need to Right-Click or Shift-Right-Click if the item is interactable, like a chest, to store a location.",
+		"",
+		"The Marker can then be added to machines which use GPS locations in the world to engage their function.",
+		"",
+		"You will need to have basic understanding of how each machine is using the GPS Marker to know what location you want to store.",
+		"",
+		""
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "f5541d90",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:card_location",
+			tag: {
+				side: 1,
+				ypos: 64,
+				zpos: -1532,
+				xpos: -570,
+				hitx: 0.8775299f,
+				hity: 0.875f,
+				hitz: 0.36473146f,
+				dim: 0,
+				sidefacing: 4
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "43897b6e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Look Ma! No Scaffolding!",
+	x: 2.0d,
+	y: -7.0d,
+	description: "I can probably do this with no hands too!",
+	text: [
+		"The Ranged Building Scepter is ridiculously handy for those megabuilds you just can't reach with Range V. ",
+		"",
+		"Using the wand is easy to get the hang of, but will take some reading to fully understand how it works.",
+		"",
+		"Holding Shift and scrolling with your Mouse Wheel will select the different modes the Scepter offers, seen in the bottom left corner, when using the Scepter.",
+		"",
+		"To start, the chest mode is to refill your Scepter with your material. You can then select a mode in the left corner of your Scepter inventory. Read each mode for what they do.",
+		"",
+		"The different arrows represent which face you are placing the block from, and which direction it will be pointing from the face.",
+		"",
+		"The square mode will place blocks according to whatever surface you are looking at, like vanilla placement.",
+		"",
+		""
+	],
+	tasks: [{
+		uid: "bb91afb1",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:cyclic_wand_build",
+			tag: {
+				buildslot: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4bf33b81",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "This Weird Feeling",
+	x: -16.5d,
+	y: 12.5d,
+	description: "I swear... nevermind",
+	text: [
+		"The Ender Watcher will send out a max signal when you are looking at it with your Crosshair."
+	],
+	tasks: [{
+		uid: "5a396678",
+		type: "item",
+		items: [{
+			item: "quark:ender_watcher"
+		}]
+	}],
+	rewards: [{
+		uid: "fc611826",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

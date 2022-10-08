@@ -1,0 +1,29 @@
+{
+	title: "''Set a Reminder for 2:00 PM''",
+	x: 1.5d,
+	y: 8.5d,
+	description: "''Take the chicken out''",
+	text: [
+		"For a walk... that is.",
+		"",
+		"JK We're eating it.",
+		"",
+		"This device can be used to create toast messages on the screen of the player who placed it.",
+		"",
+		"Put an item into the empty slot. This will be the icon.",
+		"",
+		"Type in a title and description for your toast, like \"Reminder!\" \"Don't Let Cows Overpopulate!\", and activate the device with a Redstone signal!"
+	],
+	tasks: [{
+		uid: "112c99a3",
+		type: "item",
+		items: [{
+			item: "randomthings:notificationinterface"
+		}]
+	}],
+	rewards: [{
+		uid: "8caea010",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Isn't This Supposed to Get Rid of Spiders?",
+	x: -3.5d,
+	y: 11.5d,
+	description: "That's what they told me, John",
+	text: [
+		"The Lapis Lamp will emit the max light level of 15, but will not prevent anything from spawning which requires darkness."
+	],
+	tasks: [{
+		uid: "ac58bbb0",
+		type: "item",
+		items: [{
+			item: "randomthings:lapislamp"
+		}]
+	}],
+	rewards: [{
+		uid: "e3e8c117",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

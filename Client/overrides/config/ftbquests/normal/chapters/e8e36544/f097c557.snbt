@@ -1,0 +1,26 @@
+{
+	title: "Let Me Get That for You!",
+	x: 17.5d,
+	y: -5.5d,
+	description: "Please, I insist!",
+	text: [
+		"The Item Collector will collect loose items on the ground.",
+		"",
+		"An internal storage exists within the Item Collector, but items should be pumped out of the Item Collector with a Hopper, an Upper, or by other means."
+	],
+	dependencies: [
+		"ecd41947"
+	],
+	tasks: [{
+		uid: "5af0f4e6",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_vacuum"
+		}]
+	}],
+	rewards: [{
+		uid: "a2a0f718",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

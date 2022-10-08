@@ -1,0 +1,27 @@
+{
+	title: "Cyclops Times Two",
+	x: 4.5d,
+	y: -4.5d,
+	description: "I wonder if he hated life",
+	text: [
+		"I would, for the most part.",
+		"",
+		"Use a GPS Marker to select a location for a laser to point to.",
+		"",
+		"Get creative. Make laser eyes for a statue.",
+		"",
+		"Create a laser room that protects something special. Note that the lasers do not create any Redstone signals."
+	],
+	tasks: [{
+		uid: "27037074",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:laser"
+		}]
+	}],
+	rewards: [{
+		uid: "a6f9f408",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

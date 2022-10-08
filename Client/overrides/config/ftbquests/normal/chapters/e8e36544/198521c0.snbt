@@ -1,0 +1,71 @@
+{
+	title: "Artificial Ender",
+	x: 6.0d,
+	y: 10.5d,
+	description: "Basically a drop of the void",
+	text: [
+		"The Evil Tear can be used to build artificial End Portals.",
+		"",
+		"-Build a 5x5 outline out of Obsidian, with a 3x3 space inside for the portal.",
+		"",
+		"-Make the floor of the 5x5 outline Endstone. DO NOT FILL THE PORTAL AREA. E.G When you jump into the outline, you should be standing on End Stone.",
+		"",
+		"-Place a piece of End Stone 5 blocks above the floor of the portal frame. Make sure it is in the center.",
+		"",
+		"-Place an End Rod below the floating piece of End Stone.",
+		"",
+		"-Right-Click the End Rod with an Evil Tear. Shortly after, an animation should play, and your portal will be ready!",
+		"",
+		"The Evil Tear is also used to make the Eclipse Clock.",
+		""
+	],
+	tasks: [{
+		uid: "042d3d6c",
+		type: "item",
+		items: [{
+			item: "randomthings:ingredient 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "67fbbb34",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Artificial End Portal",
+				UUID: "36540101-26e3-41f3-a2f2-214f00c25cd4",
+				startPos: {
+					X: -580,
+					Y: 63,
+					Z: -1520
+				},
+				itemcountmap: [{
+					item: 49,
+					meta: 0,
+					count: 16
+				},
+				{
+					item: 121,
+					meta: 0,
+					count: 10
+				},
+				{
+					item: 198,
+					meta: 0,
+					count: 1
+				}],
+				endPos: {
+					X: -584,
+					Y: 68,
+					Z: -1524
+				}
+			}
+		}
+	},
+	{
+		uid: "d04830fe",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

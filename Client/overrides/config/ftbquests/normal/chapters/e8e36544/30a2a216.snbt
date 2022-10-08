@@ -1,0 +1,29 @@
+{
+	title: "You Don't Understand",
+	x: -20.0d,
+	y: -5.5d,
+	description: "How fast I really am...",
+	text: [
+		"The Pedometer will track some advanced movement stats like a Stopwatch.",
+		"",
+		"Right-Click to activate, and start tracking your movement.",
+		"",
+		"Right-Clicking again will give you a readout in your chat about your movement stats.",
+		"",
+		"Shift-Right-Clicking will reset your Pedometer."
+	],
+	tasks: [{
+		uid: "020894f5",
+		type: "item",
+		items: [{
+			item: "openblocks:pedometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c2d1d98a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

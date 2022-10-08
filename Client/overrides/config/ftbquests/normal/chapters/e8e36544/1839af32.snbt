@@ -1,0 +1,27 @@
+{
+	title: "Escapé",
+	x: 9.5d,
+	y: 12.5d,
+	description: "P. Sherman 42 Wallaby Way, Sydney",
+	text: [
+		"The Escape Rope might allow you to escape from a cave!",
+		"",
+		"Holding Right-Click with the Escape Rope will cause it to search for an exit. Keep holding, it's working its magic!",
+		"",
+		"Eventually, you'll be teleported to the surface, if there is a way out of the cave you're in. If not, you'll be teleported to the highest possible Y height in the cave system you're currently in."
+	],
+	tasks: [{
+		uid: "2e68a5fe",
+		type: "item",
+		items: [{
+			item: "randomthings:escaperope"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45350a89",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

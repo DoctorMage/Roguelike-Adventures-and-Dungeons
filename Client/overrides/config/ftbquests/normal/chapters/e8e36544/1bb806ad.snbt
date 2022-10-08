@@ -1,0 +1,25 @@
+{
+	title: "Okay We're Actually Playing Terraria?",
+	x: 7.0d,
+	y: -12.0d,
+	description: "Spawns go BRRRR",
+	text: [
+		"The Water Candle does what it say it do.",
+		"",
+		"This thing makes spawns go a little crazier.",
+		"",
+		"Especially when you put it near some Cursed Earth."
+	],
+	tasks: [{
+		uid: "6ea035e2",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:water_candle"
+		}]
+	}],
+	rewards: [{
+		uid: "fc113c85",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

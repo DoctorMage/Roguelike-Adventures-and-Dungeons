@@ -1,0 +1,27 @@
+{
+	title: "Put It out of Its Misery...",
+	x: -19.5d,
+	y: -6.5d,
+	description: "Bye Yeller...",
+	text: [
+		"These Beartraps are military grade.",
+		"",
+		"In order to remove whatever is inside of it, you have to KILL IT.",
+		"",
+		"That's right, this Beartrap will not let go unless the thing inside is dead.",
+		"",
+		"After it's dead and despawned, the Beartrap can be reset with Right-Click because it realizes it's lockjawed its prey into dust."
+	],
+	tasks: [{
+		uid: "e92ed3c2",
+		type: "item",
+		items: [{
+			item: "openblocks:beartrap"
+		}]
+	}],
+	rewards: [{
+		uid: "4bcb648e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

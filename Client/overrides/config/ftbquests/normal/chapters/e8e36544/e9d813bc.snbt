@@ -1,0 +1,45 @@
+{
+	title: "The Seed Slaver's Dream",
+	disable_toast: true,
+	x: 9.5d,
+	y: -11.964285714285722d,
+	description: "For the manual farmer in you",
+	text: [
+		"Sprint and hold Right-Click. You're welcome.",
+		"",
+		"Keep in mind, each scythe is indeed useful for something different. "
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "6e5e6076",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_harvest_weeds"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "69763c02",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_harvest_leaves"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fc409bf5",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_harvest_crops"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cdc2a4fd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

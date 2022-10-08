@@ -1,0 +1,35 @@
+{
+	title: "The Item Launcher",
+	x: -16.5d,
+	y: -5.5d,
+	description: "Sheesh",
+	text: [
+		"The Item Dropper will drop items. It will NOT shoot items like arrows.",
+		"",
+		"The Item Dropper can \"drop\" items at varying speeds. The items will also travel varying distances based on the speed.",
+		"",
+		"You can toggle the Item Dropper to scale the speed to a Redstone Signal.",
+		"",
+		"Redstone Signal Strengths have a maximum of 15.",
+		"",
+		"This means if the Speed on your Item Dropper is set to 4.00, and you give it a Redstone Signal at max strength, the item will shoot at 4.00 Speed.",
+		"",
+		"If a signal below max is given, the Speed the item is shot at will be below 4.00.",
+		"",
+		"Hopefully this makes sense.",
+		"",
+		"TLDR; The stronger the signal, the higher the speed."
+	],
+	tasks: [{
+		uid: "74b39f60",
+		type: "item",
+		items: [{
+			item: "openblocks:item_dropper"
+		}]
+	}],
+	rewards: [{
+		uid: "53ecff6b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

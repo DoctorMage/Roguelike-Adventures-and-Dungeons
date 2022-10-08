@@ -1,0 +1,28 @@
+{
+	title: "Fire? Where? There? Got it.",
+	x: 15.0d,
+	y: -3.5d,
+	description: "BOOM",
+	text: [
+		"Ever wanted to have something that makes a spontaneous spark from 300ft away? Now you can!",
+		"",
+		"This bad boy will produce a toggleable flame far away from the front face of the block!",
+		"",
+		"It's configurable, so get out there and make that Nether Portal that turns on and off, like you always wanted!"
+	],
+	dependencies: [
+		"ecd41947"
+	],
+	tasks: [{
+		uid: "a7018660",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:fire_starter"
+		}]
+	}],
+	rewards: [{
+		uid: "754888fb",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

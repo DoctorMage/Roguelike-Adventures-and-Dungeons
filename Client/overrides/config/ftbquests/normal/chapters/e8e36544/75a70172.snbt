@@ -1,0 +1,23 @@
+{
+	title: "Night Light",
+	x: -15.0d,
+	y: 12.5d,
+	description: "Keeps the fear away",
+	text: [
+		"The Blaze Lantern is not a compressed storage method, since you cannot revert this process back to Blaze Rods, or Powder.",
+		"",
+		"This block will stay lit on fire forever!"
+	],
+	tasks: [{
+		uid: "13b0ea86",
+		type: "item",
+		items: [{
+			item: "quark:blaze_lantern"
+		}]
+	}],
+	rewards: [{
+		uid: "930dd5b2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

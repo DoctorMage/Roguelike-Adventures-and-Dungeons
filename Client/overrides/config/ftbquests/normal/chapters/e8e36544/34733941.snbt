@@ -1,0 +1,21 @@
+{
+	title: "Falling Sand",
+	x: -29.0d,
+	y: 4.0d,
+	description: "RIP Flash",
+	text: [
+		"Redstone Sand behaves like a Redstone Block except it falls down."
+	],
+	tasks: [{
+		uid: "71744259",
+		type: "item",
+		items: [{
+			item: "charm:redstone_sand"
+		}]
+	}],
+	rewards: [{
+		uid: "d66030af",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

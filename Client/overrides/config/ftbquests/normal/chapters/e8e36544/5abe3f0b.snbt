@@ -1,0 +1,31 @@
+{
+	title: "The Biggest One of Them All",
+	x: -17.5d,
+	y: -5.5d,
+	description: "A diehard, if you will",
+	text: [
+		"Fans will push entities away with a gentle breeze.",
+		"",
+		"This isn't a joke. These things are not very strong.",
+		"",
+		"They're aesthetically pleasing, and you can stack them behind eachother to increase the force.",
+		"",
+		"The range of the blowback is decreased by one for each fan the farther back it is.",
+		"",
+		"This means that the strongest blowback will only occur at the very front of the fans. Meaning the closer you get, the harder it is to move forward.",
+		"",
+		"Can be used to create SOME type of game?"
+	],
+	tasks: [{
+		uid: "c97f1a09",
+		type: "item",
+		items: [{
+			item: "openblocks:fan"
+		}]
+	}],
+	rewards: [{
+		uid: "25bac4ae",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

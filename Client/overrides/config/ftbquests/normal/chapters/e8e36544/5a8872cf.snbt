@@ -1,0 +1,28 @@
+{
+	title: "I Believe I Can Fly!",
+	x: 1.5d,
+	y: -3.5d,
+	description: "And now you can!",
+	text: [
+		"For two payments of $9.99 plus Shipping & Handling.",
+		"",
+		"Craft the Player Launcher, which launches you in the direction you're facing at a high speed.",
+		"",
+		"Incurs a small cooldown, but it might be able to be combined with some other items, or enchantments, to allow bootleg flight."
+	],
+	tasks: [{
+		uid: "df6b2cee",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:tool_launcher",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "98b67495",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

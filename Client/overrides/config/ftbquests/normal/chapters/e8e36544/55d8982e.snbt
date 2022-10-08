@@ -1,0 +1,76 @@
+{
+	title: "Hold Less and More at the Same Time",
+	x: -30.0d,
+	y: 12.5d,
+	description: "Hard to wrap my head around...",
+	text: [
+		"/Dank/Nulls hold more of a specific item, but less variety of items.",
+		"",
+		" For example, the red /dank/null has 9 slots, but holds 128 items per slot instead of the traditional 64.",
+		"To access your /dank/null, you need to shift right click the ground. You can also place items directly out of the /dank/null as well by placing the /dank/null like a regular block."
+	],
+	dependencies: [
+		"1318684c"
+	],
+	size: 2.0d,
+	or_tasks: true,
+	tasks: [{
+		uid: "48ffd7a8",
+		type: "item",
+		items: [{
+			item: "danknull:dank_null_0"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0c255d3d",
+		type: "item",
+		items: [{
+			item: "danknull:dank_null_1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c600e191",
+		type: "item",
+		items: [{
+			item: "danknull:dank_null_2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b745cddc",
+		type: "item",
+		items: [{
+			item: "danknull:dank_null_3"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a2014d39",
+		type: "item",
+		items: [{
+			item: "danknull:dank_null_4"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8de56989",
+		type: "item",
+		items: [{
+			item: "danknull:dank_null_5"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cc9f452b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "LET THERE BE LIGHT!",
+	x: 19.0d,
+	y: 10.5d,
+	description: "And so it shone, across the Chunk",
+	text: [
+		"And the Chunk was illuminated, as He said it would be.",
+		"",
+		"The Spectre Illuminator will light up an entire chunk with a light level of 15, through walls, all that good stuff."
+	],
+	dependencies: [
+		"4695c2a6"
+	],
+	tasks: [{
+		uid: "f7dcb787",
+		type: "item",
+		items: [{
+			item: "randomthings:spectreilluminator"
+		}]
+	}],
+	rewards: [{
+		uid: "94eae8f2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

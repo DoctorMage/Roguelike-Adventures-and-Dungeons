@@ -1,0 +1,23 @@
+{
+	title: "Independence",
+	x: -19.5d,
+	y: 11.5d,
+	description: "The ladders, they're evolving",
+	text: [
+		"This ladder will stand up on it's own, as long as the top of the ladder is on a block.",
+		"",
+		"Great for making ladders up and down ravines."
+	],
+	tasks: [{
+		uid: "5344fe62",
+		type: "item",
+		items: [{
+			item: "quark:iron_ladder"
+		}]
+	}],
+	rewards: [{
+		uid: "9080038d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

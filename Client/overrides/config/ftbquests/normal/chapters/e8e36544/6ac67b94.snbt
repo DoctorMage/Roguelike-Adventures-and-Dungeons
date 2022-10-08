@@ -1,0 +1,133 @@
+{
+	title: "Ghost Busters!",
+	x: 19.0d,
+	y: 9.0d,
+	description: "Literally, they're dying!",
+	text: [
+		"Spectre armaments can be used to slay Spirits which rise from mobs after being killed!",
+		"",
+		"Gone are the days of needing magic and weird methods!"
+	],
+	dependencies: [
+		"4695c2a6"
+	],
+	tasks: [{
+		uid: "a3dcaea6",
+		type: "item",
+		items: [{
+			id: "randomthings:spectrepickaxe",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -3473174578021448109L,
+						UUIDLeast: -7366247378112569988L,
+						Amount: 0.20000000298023224d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 7496481476415407561L,
+						UUIDLeast: -6515845998866066548L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.sweeping.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "252cefb7",
+		type: "item",
+		items: [{
+			id: "randomthings:spectreaxe",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: -4467176780376356159L,
+						UUIDLeast: -6944109683685644691L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -4177500403630718901L,
+						UUIDLeast: -5039141251727682088L,
+						Amount: -0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.vicious.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "337407ff",
+		type: "item",
+		items: [{
+			id: "randomthings:spectreshovel",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -8847235527321040713L,
+						UUIDLeast: -6015605725332798943L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 6509732293718197486L,
+						UUIDLeast: -7182121633818683531L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.chipped.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c498711e",
+		type: "item",
+		items: [{
+			id: "randomthings:spectresword",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9ebdf95c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

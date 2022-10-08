@@ -1,0 +1,25 @@
+{
+	title: "Waving the White Flag",
+	x: -17.5d,
+	y: -3.5d,
+	description: "I yield I yield!",
+	text: [
+		"Flags are simply decorational.",
+		"",
+		"They can change color, but do not need dye.",
+		"",
+		"Simply Right-Click somewhere they can't be placed, like Glass, or Air."
+	],
+	tasks: [{
+		uid: "6128074c",
+		type: "item",
+		items: [{
+			item: "openblocks:flag"
+		}]
+	}],
+	rewards: [{
+		uid: "0be984bd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

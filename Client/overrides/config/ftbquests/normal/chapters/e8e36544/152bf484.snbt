@@ -1,0 +1,26 @@
+{
+	title: "Where'd You F-eye-nd This, Son?",
+	x: 2.0d,
+	y: -15.0d,
+	description: "Kill me, now",
+	text: [
+		"This item will let you spawn 100 Ender Eyes before it breaks.",
+		"",
+		"Yes, it can be repaired, somehow. ;)"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "2234f869",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:ender_eye_orb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7b3bc37d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Get Off My Lawn!",
+	x: -4.0d,
+	y: 6.5d,
+	description: "I just watered, John!",
+	text: [
+		"You're gonna make deadspots!",
+		"",
+		"Grass Seeds are acquired from normal Grass Blocks.",
+		"",
+		"They can be dyed to create Colored Grass. See JEI for recipes!"
+	],
+	tasks: [{
+		uid: "329686d5",
+		type: "item",
+		items: [{
+			item: "randomthings:grassseeds"
+		}]
+	}],
+	rewards: [{
+		uid: "ed3ba797",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

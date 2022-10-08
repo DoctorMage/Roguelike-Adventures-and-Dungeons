@@ -1,0 +1,25 @@
+{
+	title: "Horses Love the Color Blue",
+	x: 12.0d,
+	y: -4.5d,
+	description: "It makes them calm",
+	text: [
+		"JK I don't know a DAMN thing about horses.",
+		"",
+		"And I'm DEATHLY allergic to them.",
+		"",
+		"Go feed them this sussy apple tho. Maybe they'll like it."
+	],
+	tasks: [{
+		uid: "2fa83fe9",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:apple_lapis"
+		}]
+	}],
+	rewards: [{
+		uid: "68c48a51",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

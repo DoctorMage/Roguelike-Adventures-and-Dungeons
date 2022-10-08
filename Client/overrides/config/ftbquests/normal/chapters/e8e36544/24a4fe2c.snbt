@@ -1,0 +1,35 @@
+{
+	title: "Why Is Our Wifi So Slow?",
+	x: 4.505442176870787d,
+	y: -7.9367346938775825d,
+	description: "I don't know, John, go reset the router",
+	text: [
+		"I'm calling the ISP tomorrow.",
+		"",
+		"True story, we had a rat chew our line to the street and switched ISPs twice before they figured it out.",
+		"",
+		"And they tried to charge us for it.",
+		"",
+		"I hate the world."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "8a1ac78c",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:wireless_transmitter"
+		}]
+	},
+	{
+		uid: "7d12b7fa",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:wireless_receiver"
+		}]
+	}],
+	rewards: [{
+		uid: "47e2bdec",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

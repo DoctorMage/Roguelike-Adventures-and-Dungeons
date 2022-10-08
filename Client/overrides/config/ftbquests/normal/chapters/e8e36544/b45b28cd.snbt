@@ -1,0 +1,51 @@
+{
+	title: "Take a Horse to Water",
+	x: 12.5d,
+	y: -5.5d,
+	description: "He'll still want the carrots",
+	text: [
+		"These carrots give horses super powers, or cripples them.",
+		"",
+		"JK Super powers only."
+	],
+	tasks: [{
+		uid: "b0428c88",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:horse_upgrade_health"
+		}]
+	},
+	{
+		uid: "f728a6fd",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:horse_upgrade_type"
+		}]
+	},
+	{
+		uid: "c91f6597",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:horse_upgrade_variant"
+		}]
+	},
+	{
+		uid: "084497ca",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:horse_upgrade_speed"
+		}]
+	},
+	{
+		uid: "5c5ee62f",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:horse_upgrade_jump"
+		}]
+	}],
+	rewards: [{
+		uid: "76f4120a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

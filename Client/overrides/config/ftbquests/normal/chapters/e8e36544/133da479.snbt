@@ -1,0 +1,47 @@
+{
+	title: "HOT HOT HOT",
+	x: 13.0d,
+	y: 9.5d,
+	description: "Ahh... not so hot",
+	text: [
+		"BUT STILL HOT",
+		"",
+		"The Lava Charm will prevent LAVA DAMAGE for 10 seconds when entering Lava. The Lava Charm will need some time to recover if you're in the lava longer than 10 seconds.",
+		"",
+		"The Lava Charm does not need to be in the Baubles slot to gain its effect."
+	],
+	tasks: [{
+		uid: "79b314cb",
+		type: "item",
+		items: [{
+			id: "randomthings:lavacharm",
+			tag: {
+				charge: 200,
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 4396233805166757809L,
+						UUIDLeast: -6816561267852534053L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.flailing.name"
+				},
+				chargeCooldown: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "63110f9b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

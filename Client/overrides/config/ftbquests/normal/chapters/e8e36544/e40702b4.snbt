@@ -1,0 +1,33 @@
+{
+	title: "Basically a Religious Artifact",
+	x: 9.5d,
+	y: -6.5d,
+	description: "David's personal slingshot... imagine...",
+	text: [
+		"You know that slingshot was lowkey made by God and not David.",
+		"",
+		"I mean... can slingshots really pierce skulls like that?"
+	],
+	tasks: [{
+		uid: "a0d94641",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:slingshot_weapon",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8a3b6bc2",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:stone_pebble"
+		}]
+	}],
+	rewards: [{
+		uid: "61ccfb85",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

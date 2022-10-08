@@ -1,0 +1,31 @@
+{
+	title: "Leap of Faith",
+	x: 4.5d,
+	y: -11.5d,
+	description: "More like Leap Of Fate",
+	text: [
+		"You're fated to die by the way.",
+		"",
+		"Not sure if that's the news you want before you use this thing.",
+		"",
+		"Entirely configurable settings for jumping when stepping onto the plate."
+	],
+	tasks: [{
+		uid: "63170706",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:plate_vector",
+			tag: {
+				vectorYaw: 90,
+				vectorAngle: 45,
+				sound: 1,
+				vectorPower: 60
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ddfe7ae3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

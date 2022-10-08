@@ -1,0 +1,31 @@
+{
+	title: "Brick by Brick!",
+	x: -20.0d,
+	y: 12.5d,
+	description: "I built this house!",
+	text: [
+		"Right-Clicking with the Trowel in your hand will place a random placeable item from your hotbar."
+	],
+	tasks: [{
+		uid: "018cab88",
+		type: "item",
+		items: [{
+			id: "quark:trowel",
+			tag: {
+				last_stack: {
+					id: "minecraft:double_plant",
+					Count: 64b,
+					Damage: 2s
+				},
+				placing_seed: 462804890636782426L
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9a2f63d9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Pizza Diet?",
+	x: -2.0d,
+	y: 5.0d,
+	description: "No no, John, peace and quiet!",
+	text: [
+		"Same thing...",
+		"",
+		"The Sound Dampener will prevent sounds from Sound Patterns inside of it from being played in a 20 block radius."
+	],
+	tasks: [{
+		uid: "3208b741",
+		type: "item",
+		items: [{
+			item: "randomthings:sounddampener"
+		}]
+	}],
+	rewards: [{
+		uid: "5bcd4574",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

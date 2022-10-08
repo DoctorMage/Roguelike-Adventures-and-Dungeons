@@ -1,0 +1,30 @@
+{
+	title: "Septic Leak?",
+	x: 19.0d,
+	y: -7.0d,
+	description: "We got you covered",
+	text: [
+		"The Fluid Collector will collect fluid in a large area beneath it, and replace the collected fluid with blocks.",
+		"",
+		"The Fluid Collector MUST have blocks available to fill, or it will not activate.",
+		"",
+		"This is useful for automatically draining and filling large lakes, or random ponds you find around your base.",
+		"",
+		"It can also be useful for draining large amounts of Lava from the Nether, or any other fluids in large quantity."
+	],
+	dependencies: [
+		"ecd41947"
+	],
+	tasks: [{
+		uid: "2010a5bc",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:fluid_drain"
+		}]
+	}],
+	rewards: [{
+		uid: "5785a44a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

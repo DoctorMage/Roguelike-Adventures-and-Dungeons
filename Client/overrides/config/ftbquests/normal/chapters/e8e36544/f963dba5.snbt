@@ -1,0 +1,39 @@
+{
+	title: "What Does Red Mean?",
+	x: 3.5d,
+	y: 4.0d,
+	description: "Red means run, John... RUN",
+	text: [
+		"CODE RED CODE RED!",
+		"",
+		"This lamp will change colors based on the signal strength it receives!",
+		"",
+		"1 - Orange",
+		"2 - Magenta",
+		"3 - Light Blue",
+		"4 - Yellow",
+		"5 - Lime",
+		"6 - Pink",
+		"7 - Gray",
+		"8 - Light Gray",
+		"9 - Cyan",
+		"10 - Purple",
+		"11 - Blue",
+		"12 - Brown",
+		"13 - Green",
+		"14 - Red",
+		"15 - Black"
+	],
+	tasks: [{
+		uid: "fdc368e4",
+		type: "item",
+		items: [{
+			item: "randomthings:rainbowlamp"
+		}]
+	}],
+	rewards: [{
+		uid: "db667b19",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

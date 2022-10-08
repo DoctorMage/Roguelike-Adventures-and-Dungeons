@@ -1,0 +1,31 @@
+{
+	title: "No Air Pockets",
+	x: 1.5d,
+	y: -6.0d,
+	description: "Actually, just no air",
+	text: [
+		"This scepter does not replace air. The only blocks which are replaced by this scepter are those which are Right-Clicked.",
+		"",
+		"That single matching block will be replaced.",
+		"",
+		"Again, blocks must be in your inventory and are not consumed from your hotbar."
+	],
+	tasks: [{
+		uid: "7f93274a",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:tool_swap_match",
+			tag: {
+				ActionType: 3,
+				timeout: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9b8ff4c4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

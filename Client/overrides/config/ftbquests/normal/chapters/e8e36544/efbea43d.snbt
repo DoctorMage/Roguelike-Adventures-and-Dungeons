@@ -1,0 +1,34 @@
+{
+	title: "Grapes To Oranges",
+	x: 0.4404761904762182d,
+	y: -7.077380952380942d,
+	description: "You still can't compare them?!",
+	text: [
+		"I hate that phrase.",
+		"",
+		"Now make some Crystallized Obsidian, and Amber."
+	],
+	dependencies: [
+		"be7868d4"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "c08cc5e7",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:crystallized_obsidian"
+		}]
+	},
+	{
+		uid: "a4de606c",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:crystallized_amber"
+		}]
+	}],
+	rewards: [{
+		uid: "bd636f45",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "HOW THE TABLES HAVE TURNED",
+	x: 10.0d,
+	y: -5.5d,
+	description: "AHAHAHA",
+	text: [
+		"WHO'S THE MONSTER NOW!!!!!!",
+		"",
+		"Use this to mount any entity, without control."
+	],
+	tasks: [{
+		uid: "2d077e0e",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_mount"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7a97f6c0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "I Keep That Thang on Me",
+	x: 16.5d,
+	y: 7.5d,
+	description: "Even when I'm dead!",
+	text: [
+		"The Spectral Anchor can be combined with an item in your crafting grid to give it the \"Anchored\" effect.",
+		"",
+		"The Anchored effect will prevent the item from being dropped into a Tombstone when you die. It will stay inside your inventory instead."
+	],
+	dependencies: [
+		"4695c2a6"
+	],
+	tasks: [{
+		uid: "742c7283",
+		type: "item",
+		items: [{
+			item: "randomthings:spectreanchor"
+		}]
+	}],
+	rewards: [{
+		uid: "f2fc5b2c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

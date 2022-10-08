@@ -1,0 +1,46 @@
+{
+	title: "You're Not Very Creative Huh?",
+	icon: "openblocks:drawing_table",
+	x: -24.5d,
+	y: -4.5d,
+	description: "My imagination is very limited!",
+	text: [
+		"The Drawing Table will allow you to use Unprepared Stencils to create Stencil designs and Glyphs.",
+		"",
+		"Stencils can be placed over any block and painted over with a Paint Brush to create designs, similar to how Banners are created, but much less intricate.",
+		"",
+		"Glyphs are made with Unprepared Stencils as well. ",
+		"",
+		"To my knowledge, they cannot be painted or colored, and are simply placed on the sides of blocks for labeling or naming purposes.",
+		"",
+		"Typing out your message and hitting Print while in Glyph mode will print the message, if enough Unprepared Stencils are available inside."
+	],
+	tasks: [{
+		uid: "287f0890",
+		type: "item",
+		items: [{
+			item: "openblocks:drawing_table"
+		}]
+	},
+	{
+		uid: "b21260f7",
+		type: "item",
+		items: [{
+			item: "openblocks:generic 1 10"
+		}]
+	},
+	{
+		uid: "5c46ca9e",
+		type: "item",
+		items: [{
+			item: "openblocks:paintbrush"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6eebaaaf",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

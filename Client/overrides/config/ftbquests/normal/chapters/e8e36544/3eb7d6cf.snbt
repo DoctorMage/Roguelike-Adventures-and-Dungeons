@@ -1,0 +1,32 @@
+{
+	title: "Making a Fashion Statement",
+	x: 6.523809523809547d,
+	y: 5.547619047619044d,
+	description: "In any color you want",
+	text: [
+		"The Dyeing Machine can change the color of any item.",
+		"",
+		"Not only the color of the item, but the color of the enchantment as well.",
+		"",
+		"When an item is place into the Dyeing Machine with dye, the resulting outputs are the item being dyed, or the enchantment being dyed.",
+		"",
+		"Most items can be dyed. Those that \"color themselves\" or have dye recipes established may have issues.",
+		"",
+		"Results may not be optimal. Take into account the color of the items you are dying in the first place.",
+		"",
+		"Works on weapons and armor."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "6b3b919d",
+		type: "item",
+		items: [{
+			item: "randomthings:dyeingmachine"
+		}]
+	}],
+	rewards: [{
+		uid: "e35b4403",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

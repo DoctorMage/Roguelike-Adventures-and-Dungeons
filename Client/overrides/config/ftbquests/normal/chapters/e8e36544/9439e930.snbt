@@ -1,0 +1,232 @@
+{
+	title: "Aggressively Catch Them All!",
+	x: -16.5d,
+	y: -8.0d,
+	description: "Or else they will catch you!",
+	text: [
+		"Kill all sorts of monsters and bring them to extinction to obtain all of these trophies!",
+		"(Some monsters were left out for ease-of-completion)",
+		"",
+		"All are needed to complete this quest."
+	],
+	tasks: [{
+		uid: "3611c8c6",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:creeper"
+			}
+		}]
+	},
+	{
+		uid: "d4f04afb",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:skeleton"
+			}
+		}]
+	},
+	{
+		uid: "ab63abf4",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:zombie_pigman"
+			}
+		}]
+	},
+	{
+		uid: "79e7f248",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:zombie"
+			}
+		}]
+	},
+	{
+		uid: "8548951f",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:witch"
+			}
+		}]
+	},
+	{
+		uid: "91f41f41",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:blaze"
+			}
+		}]
+	},
+	{
+		uid: "a86e9b3e",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:silverfish"
+			}
+		}]
+	},
+	{
+		uid: "b793c3eb",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:spider"
+			}
+		}]
+	},
+	{
+		uid: "7533fead",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:cave_spider"
+			}
+		}]
+	},
+	{
+		uid: "1ebdbbda",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:husk"
+			}
+		}]
+	},
+	{
+		uid: "dbb15c18",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:stray"
+			}
+		}]
+	},
+	{
+		uid: "392cd2c3",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:wither_skeleton"
+			}
+		}]
+	},
+	{
+		uid: "3611e7d3",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:guardian"
+			}
+		}]
+	},
+	{
+		uid: "388c1c0e",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:shulker"
+			}
+		}]
+	},
+	{
+		uid: "af210c98",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:magma_cube"
+			}
+		}]
+	},
+	{
+		uid: "692e8dd2",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:enderman"
+			}
+		}]
+	},
+	{
+		uid: "2d801402",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:ghast"
+			}
+		}]
+	},
+	{
+		uid: "e9e75bdb",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:slime"
+			}
+		}]
+	},
+	{
+		uid: "2008dc3b",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:zombie_villager"
+			}
+		}]
+	},
+	{
+		uid: "d831c3b6",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:evocation_illager"
+			}
+		}]
+	},
+	{
+		uid: "430f5db7",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:vindication_illager"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bcb7e8d1",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "b306b4f8",
+		type: "xp_levels",
+		xp_levels: 20
+	}]
+}

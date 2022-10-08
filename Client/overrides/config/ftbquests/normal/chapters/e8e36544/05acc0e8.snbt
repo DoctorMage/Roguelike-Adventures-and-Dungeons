@@ -1,0 +1,27 @@
+{
+	title: "This Is Crazy...",
+	x: -31.0d,
+	y: 4.0d,
+	description: "Does it have rabies?",
+	text: [
+		"The Bat in a Bucket will cause nearby mobs to show through walls with a white outline for a short time; when you release him that is.",
+		"",
+		"Good luck getting him back inside everytime you want your Bat friendo to be useful.",
+		"",
+		"He's actually kinda useful by the way."
+	],
+	tasks: [{
+		uid: "4441175d",
+		type: "item",
+		items: [{
+			item: "charm:bat_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6425064d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

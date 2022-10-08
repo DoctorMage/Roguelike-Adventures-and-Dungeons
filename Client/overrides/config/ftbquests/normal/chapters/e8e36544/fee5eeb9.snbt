@@ -1,0 +1,25 @@
+{
+	title: "Squid Glass",
+	x: 3.5d,
+	y: 6.5d,
+	description: "GO GO GO GO GO",
+	text: [
+		"The collision for this glass will turn off for 3 seconds when given a Redstone signal.",
+		"",
+		"After 3 seconds, it will return solid.",
+		"",
+		"Trigger Glass will activate other conneted Trigger Glass, making a single Redstone signal enough to trigger all connected blocks."
+	],
+	tasks: [{
+		uid: "c288f869",
+		type: "item",
+		items: [{
+			item: "randomthings:triggerglass"
+		}]
+	}],
+	rewards: [{
+		uid: "d4c3d7c5",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

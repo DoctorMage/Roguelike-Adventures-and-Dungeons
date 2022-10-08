@@ -1,0 +1,37 @@
+{
+	title: "Jesus in Your Footwear",
+	x: 11.0d,
+	y: 8.0d,
+	description: "The best gear affix is that of the holy spirit",
+	text: [
+		"These boots will let you walk on water.",
+		"",
+		"They often nullify low fire damage."
+	],
+	dependencies: [
+		"97ad5d54",
+		"38128315"
+	],
+	tasks: [{
+		uid: "0f41d4a3",
+		type: "item",
+		items: [{
+			id: "randomthings:obsidianwaterwalkingboots",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "562057f7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "7cfe9f8e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

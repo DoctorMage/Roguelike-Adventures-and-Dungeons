@@ -1,0 +1,64 @@
+{
+	title: "Built to Last",
+	x: -1.5d,
+	y: -9.5d,
+	description: "Ooo they come with a warranty!",
+	text: [
+		"These tools have double the durability of Diamond tools.",
+		"",
+		"That's a nice thing to start with."
+	],
+	dependencies: [
+		"efbea43d"
+	],
+	tasks: [{
+		uid: "7305b4c8",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:crystal_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a19b3657",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:crystal_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4d8b1bf3",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:crystal_spade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7ab1f942",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:crystal_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "94ce253a",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:crystal_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "505e0783",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

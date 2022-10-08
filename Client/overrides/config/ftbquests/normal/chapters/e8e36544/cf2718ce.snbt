@@ -1,0 +1,25 @@
+{
+	title: "Praying for Peace",
+	x: 9.0d,
+	y: 9.5d,
+	description: "Legend tells",
+	text: [
+		"Just kidding, there's no legends about these candles.",
+		"",
+		"But they are proven to stop mobs from spawning within a 3 chunk radius around them.",
+		"",
+		"Villages have been known to utilize them to prevent Zombie invasions."
+	],
+	tasks: [{
+		uid: "26487a8a",
+		type: "item",
+		items: [{
+			item: "randomthings:peacecandle"
+		}]
+	}],
+	rewards: [{
+		uid: "ca402c5a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Chapter Overview",
+	icon: {
+		id: "cyclicmagic:ender_eye_orb",
+		tag: {
+			"Quark:RuneColor": 3,
+			ench: [{
+				lvl: 2s,
+				id: 19
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: -8.75d,
+	y: 3.5d,
+	description: "Yes, I know it's messy right now... It'll get better... maybe.",
+	text: [
+		"Just kidding! We have finally organized this chapter.",
+		"",
+		"The mods in this chapter are:",
+		"-Cyclic",
+		"-Open Blocks",
+		"-Random Things",
+		"-Quark",
+		"-Charm",
+		"-Dank/Null"
+	],
+	size: 3.5d
+}

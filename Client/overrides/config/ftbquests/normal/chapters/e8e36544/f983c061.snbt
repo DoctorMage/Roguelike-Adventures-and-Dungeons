@@ -1,0 +1,25 @@
+{
+	title: "So, This ISN'T for Dragons?",
+	x: 9.5d,
+	y: -4.5d,
+	description: "Disclaimer: Is not for dragons",
+	text: [
+		"Will extinguish the FLAMES from dragons, but will not extinguish the dragon itself.",
+		"",
+		"You have been warned."
+	],
+	tasks: [{
+		uid: "c93d28b7",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:fire_killer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b6269bde",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

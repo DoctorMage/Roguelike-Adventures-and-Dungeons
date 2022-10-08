@@ -1,0 +1,29 @@
+{
+	title: "Making Your Own Schedule",
+	x: 4.0d,
+	y: -3.5d,
+	description: "Right on time!",
+	text: [
+		"That's why you're late all the time.",
+		"",
+		"Anyways, this clock will emit a HIGHLY configurable Redstone signal from every direction.",
+		"",
+		"Configure the tick rate of the signal, the strength, and which faces will emit the signal. ",
+		"",
+		"All faces emit a signal by default. Unchecking a face will DISABLE the signal from that side.",
+		"",
+		"You cannot configure varying strengths per side with one clock. All sides will emit the same strength."
+	],
+	tasks: [{
+		uid: "b7bfe20e",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:clock"
+		}]
+	}],
+	rewards: [{
+		uid: "b6d2c30b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

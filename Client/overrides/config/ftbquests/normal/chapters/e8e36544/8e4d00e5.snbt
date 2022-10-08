@@ -1,0 +1,25 @@
+{
+	title: "Teletoken!",
+	x: 12.0d,
+	y: 12.5d,
+	description: "See, I can do item names",
+	text: [
+		"This Floo Token will combust and turn into a green patch of flames for the player to stand inside of, and teleport from.",
+		"",
+		"In order to teleport using the Floo Token, stand inside the patch of flames produced when thrown on the ground.",
+		"",
+		"Quickly type the name of the location you wish to teleport to, within your Floo Network, and watch the magic happen."
+	],
+	tasks: [{
+		uid: "c48a7a49",
+		type: "item",
+		items: [{
+			item: "randomthings:flootoken"
+		}]
+	}],
+	rewards: [{
+		uid: "45f21c89",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

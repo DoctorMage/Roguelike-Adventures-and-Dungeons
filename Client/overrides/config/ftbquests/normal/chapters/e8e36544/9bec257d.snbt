@@ -1,0 +1,36 @@
+{
+	title: "Ender Technology in a Cylindrical Shape",
+	x: 7.0d,
+	y: 10.5d,
+	description: "This is as advanced as it gets",
+	text: [
+		"These buckets will automatically search for source blocks of fluid whenever you click on a non-source block of fluid.",
+		"",
+		"The Ender Bucket holds one bucket like normal. ",
+		"",
+		"The Reinforced version will hold 10 buckets worth of fluid, and when Shift-Right-Clicking to pick up fluids, will automatically search for source blocks until it is full, or there are none left.",
+		"",
+		"It's like a fluid sniffer outer."
+	],
+	tasks: [{
+		uid: "412bdbc6",
+		type: "item",
+		items: [{
+			item: "randomthings:enderbucket"
+		}]
+	},
+	{
+		uid: "dad63645",
+		type: "item",
+		items: [{
+			item: "randomthings:reinforcedenderbucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a8cd575d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

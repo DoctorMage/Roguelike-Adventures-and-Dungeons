@@ -1,0 +1,51 @@
+{
+	title: "A Novelty!",
+	x: -19.5d,
+	y: -4.5d,
+	description: "Except in the Nether, early game!",
+	text: [
+		"The Crane will help players lift blocks up and down from marvelous heights.",
+		"",
+		"This item will not extend the range which players can interact, or obtain blocks.",
+		"",
+		"This item will grab blocks from much lower heights, and lift them up to the player's level.",
+		"",
+		"To use the Crane Backpack, take the Crane Control and Right-Click while Sneaking. This will cause the Crane to descend.",
+		"",
+		"Holding Right-Click while NOT Sneaking will cause the Crane to ascend.",
+		"",
+		"When the Crane is near, or on top of a block, you can let go of the Right-Click on the Crane Control, and press Left-Click.",
+		"",
+		"This will cause the Crane to grab what is hopefully the block you wanted.",
+		"",
+		"You can now lift this block up to your height, if it was lower than you were.",
+		"",
+		"To place the block, press Left-Click again."
+	],
+	tasks: [{
+		uid: "9acf3d89",
+		type: "item",
+		items: [{
+			item: "openblocks:crane_control"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "90130ed9",
+		type: "item",
+		items: [{
+			id: "openblocks:crane_backpack",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "34384ef8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

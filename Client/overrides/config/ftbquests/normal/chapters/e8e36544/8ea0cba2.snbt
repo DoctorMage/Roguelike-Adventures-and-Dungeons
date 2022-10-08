@@ -1,0 +1,26 @@
+{
+	title: "Back Bessy!",
+	x: -19.5d,
+	y: 9.75d,
+	description: "I SAID BACK!",
+	text: [
+		"MOOOO!!",
+		"",
+		"Animals will not walk over Iron Grates. ",
+		"",
+		"Items will fall directly through Iron Grates."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "d1700d98",
+		type: "item",
+		items: [{
+			item: "quark:grate"
+		}]
+	}],
+	rewards: [{
+		uid: "a27bbc37",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

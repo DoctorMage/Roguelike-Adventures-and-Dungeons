@@ -1,0 +1,39 @@
+{
+	title: "How Many Eggs Does It Take to Change the Weather?",
+	x: 9.5d,
+	y: 8.5d,
+	description: "Just one. You just throw it, too.",
+	text: [
+		"These eggs are magical, and when you throw them, the weather changes!",
+		"",
+		"You should make shrines dedicated to these eggs, with special droppers which drop them at a whim to change the weather!",
+		"",
+		"Worship whatever chicken layed these eggs!"
+	],
+	tasks: [{
+		uid: "316ba202",
+		type: "item",
+		items: [{
+			item: "randomthings:weatheregg"
+		}]
+	},
+	{
+		uid: "3a86f54c",
+		type: "item",
+		items: [{
+			item: "randomthings:weatheregg 1 1"
+		}]
+	},
+	{
+		uid: "1193f861",
+		type: "item",
+		items: [{
+			item: "randomthings:weatheregg 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "3f92579b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

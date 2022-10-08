@@ -1,0 +1,23 @@
+{
+	title: "An Apple a Day... Makes You Grow Taller?",
+	x: 12.5d,
+	y: -3.5d,
+	description: "I should've eaten way more apples...",
+	text: [
+		"I'm only 5'9... damn.",
+		"",
+		"Should've ate my greens."
+	],
+	tasks: [{
+		uid: "790e5ce8",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:food_step"
+		}]
+	}],
+	rewards: [{
+		uid: "fe199f01",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

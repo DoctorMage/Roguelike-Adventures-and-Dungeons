@@ -1,0 +1,32 @@
+{
+	title: "Not on My Watch!",
+	x: 6.5d,
+	y: 9.5d,
+	description: "Well, it's not on anyone's watch",
+	text: [
+		"We are on my schedule though.",
+		"",
+		"And we do things my way.",
+		"",
+		"The clock says so.",
+		"",
+		"Right-Click or Shift-Right-Click to set the desired time on your clock. ",
+		"",
+		"Right-Click on your Eclipse Clock with Time in a Bottle, consuming time proportionate to the amount of time skipped. Remember, each hour in the game is one minute in real life."
+	],
+	dependencies: [
+		"198521c0"
+	],
+	tasks: [{
+		uid: "cf3f9971",
+		type: "item",
+		items: [{
+			item: "randomthings:eclipsedclock"
+		}]
+	}],
+	rewards: [{
+		uid: "b076a4a1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

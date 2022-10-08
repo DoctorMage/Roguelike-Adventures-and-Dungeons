@@ -1,0 +1,28 @@
+{
+	title: "Put Your Glasses On!",
+	x: 18.5d,
+	y: 11.5d,
+	description: "You'll be able to see better!",
+	text: [
+		"The Spectre Lens can be placed on top of a Beacon to make the effect reach across the Dimension, instead of only an area.",
+		"",
+		"You can only have one Spectre Lens active at a time. Activating another one will overwrite the previous.",
+		"",
+		"Also used to craft the Spectre Energy Injector."
+	],
+	dependencies: [
+		"4695c2a6"
+	],
+	tasks: [{
+		uid: "760e0563",
+		type: "item",
+		items: [{
+			item: "randomthings:spectrelens"
+		}]
+	}],
+	rewards: [{
+		uid: "24d39d2f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}
