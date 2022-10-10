@@ -37,37 +37,52 @@
 		value: 500L
 	}],
 	rewards: [{
-		uid: "f3c5f5e3",
+		uid: "f4714c62",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Dark Master Statue",
-				UUID: "7619ec8f-dcfd-4bba-bdfb-dfa275d32f64",
+				UUID: "c7606afd-be0f-4f71-969c-be36ad49e746",
 				startPos: {
 					X: 362,
 					Y: 5,
 					Z: -125
 				},
 				itemcountmap: [{
-					item: 5352,
-					meta: 11,
+					item: 35,
+					meta: 14,
+					count: 8
+				},
+				{
+					item: 5426,
+					meta: 2,
+					count: 396
+				},
+				{
+					item: 9016,
+					meta: 1,
 					count: 12
 				},
 				{
-					item: 8994,
+					item: 4765,
+					meta: 0,
+					count: 48
+				},
+				{
+					item: 9025,
+					meta: 0,
+					count: 45
+				},
+				{
+					item: 8996,
 					meta: 0,
 					count: 14
 				},
 				{
-					item: 4745,
-					meta: 0,
-					count: 32
-				},
-				{
 					item: 35,
-					meta: 1,
+					meta: 11,
 					count: 2
 				},
 				{
@@ -76,54 +91,19 @@
 					count: 1
 				},
 				{
-					item: 5419,
-					meta: 11,
-					count: 8
-				},
-				{
-					item: 35,
-					meta: 14,
-					count: 8
-				},
-				{
-					item: 9014,
-					meta: 1,
-					count: 12
-				},
-				{
-					item: 9023,
-					meta: 0,
-					count: 45
-				},
-				{
-					item: 4765,
-					meta: 0,
-					count: 48
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				},
-				{
-					item: 5426,
-					meta: 2,
-					count: 396
-				},
-				{
-					item: 8983,
-					meta: 0,
-					count: 18
-				},
-				{
 					item: 5411,
 					meta: 2,
 					count: 18
 				},
 				{
-					item: 5244,
-					meta: 8,
-					count: 924
+					item: 5419,
+					meta: 11,
+					count: 8
+				},
+				{
+					item: 8985,
+					meta: 0,
+					count: 18
 				},
 				{
 					item: 5244,
@@ -131,9 +111,29 @@
 					count: 40
 				},
 				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 4745,
+					meta: 0,
+					count: 32
+				},
+				{
 					item: 4761,
 					meta: 0,
 					count: 713
+				},
+				{
+					item: 5244,
+					meta: 8,
+					count: 924
+				},
+				{
+					item: 5352,
+					meta: 11,
+					count: 12
 				}],
 				endPos: {
 					X: 389,

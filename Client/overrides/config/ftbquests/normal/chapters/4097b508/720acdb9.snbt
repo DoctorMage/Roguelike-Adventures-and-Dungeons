@@ -27,41 +27,26 @@
 		value: 50L
 	}],
 	rewards: [{
-		uid: "82ed00dc",
+		uid: "dfddbb76",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Jungle Library",
-				UUID: "64e5b775-bf29-4c97-b797-2461523cea43",
+				UUID: "4d6919c5-44e9-4eae-a44a-e05395cff949",
 				startPos: {
 					X: 281,
 					Y: 4,
 					Z: -107
 				},
 				itemcountmap: [{
-					item: 5431,
-					meta: 0,
-					count: 52
-				},
-				{
-					item: 5483,
-					meta: 0,
-					count: 1
-				},
-				{
 					item: 35,
-					meta: 1,
-					count: 2
+					meta: 14,
+					count: 4
 				},
 				{
-					item: 126,
-					meta: 3,
-					count: 29
-				},
-				{
-					item: 6151,
+					item: 6153,
 					meta: 3,
 					count: 10
 				},
@@ -81,34 +66,19 @@
 					count: 32
 				},
 				{
-					item: 5270,
-					meta: 0,
-					count: 8
-				},
-				{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
 					item: 35,
 					meta: 11,
 					count: 1
 				},
 				{
-					item: 7357,
+					item: 7359,
 					meta: 3,
 					count: 6
 				},
 				{
-					item: 5249,
-					meta: 6,
-					count: 12
-				},
-				{
-					item: 5249,
-					meta: 3,
-					count: 11
+					item: 5431,
+					meta: 0,
+					count: 52
 				},
 				{
 					item: 5249,
@@ -119,6 +89,36 @@
 					item: 136,
 					meta: 0,
 					count: 5
+				},
+				{
+					item: 5249,
+					meta: 6,
+					count: 12
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 126,
+					meta: 3,
+					count: 29
+				},
+				{
+					item: 5483,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 5270,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 5249,
+					meta: 3,
+					count: 11
 				}],
 				endPos: {
 					X: 267,

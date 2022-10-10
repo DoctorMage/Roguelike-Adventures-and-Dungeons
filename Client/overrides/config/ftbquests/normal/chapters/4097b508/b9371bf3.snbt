@@ -27,73 +27,28 @@
 		value: 50L
 	}],
 	rewards: [{
-		uid: "6ffebd73",
+		uid: "65cfdbd9",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Spruce Library",
-				UUID: "38734618-c365-42dd-951d-3ff3e67be985",
+				UUID: "5f0c4e55-ce8d-4fa8-a5f1-8b97832c70c0",
 				startPos: {
 					X: 281,
 					Y: 4,
 					Z: -107
 				},
 				itemcountmap: [{
-					item: 126,
-					meta: 1,
-					count: 29
-				},
-				{
-					item: 5483,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 35,
-					meta: 6,
-					count: 1
-				},
-				{
-					item: 6151,
-					meta: 1,
-					count: 10
-				},
-				{
-					item: 35,
-					meta: 9,
-					count: 32
-				},
-				{
-					item: 134,
-					meta: 0,
-					count: 5
-				},
-				{
-					item: 17,
-					meta: 1,
-					count: 59
-				},
-				{
-					item: 5270,
-					meta: 0,
-					count: 8
-				},
-				{
 					item: 35,
 					meta: 14,
 					count: 4
 				},
 				{
-					item: 5247,
-					meta: 6,
-					count: 12
+					item: 6153,
+					meta: 1,
+					count: 10
 				},
 				{
 					item: 5429,
@@ -101,9 +56,34 @@
 					count: 52
 				},
 				{
+					item: 17,
+					meta: 1,
+					count: 59
+				},
+				{
+					item: 35,
+					meta: 6,
+					count: 1
+				},
+				{
+					item: 5247,
+					meta: 6,
+					count: 12
+				},
+				{
 					item: 5247,
 					meta: 7,
 					count: 9
+				},
+				{
+					item: 35,
+					meta: 9,
+					count: 32
+				},
+				{
+					item: 7359,
+					meta: 1,
+					count: 6
 				},
 				{
 					item: 35,
@@ -116,9 +96,29 @@
 					count: 11
 				},
 				{
-					item: 7357,
+					item: 126,
 					meta: 1,
-					count: 6
+					count: 29
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5483,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 5270,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 134,
+					meta: 0,
+					count: 5
 				}],
 				endPos: {
 					X: 267,

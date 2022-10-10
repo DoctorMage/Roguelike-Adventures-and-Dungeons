@@ -27,23 +27,83 @@
 		value: 200L
 	}],
 	rewards: [{
-		uid: "128a4ad3",
+		uid: "1367b959",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Duplex",
-				UUID: "0352e28c-6f87-4047-a1d9-4f15c773c09c",
+				UUID: "07ba612d-c3ce-4161-a0ae-0ececa2f3ba3",
 				startPos: {
 					X: 2071,
 					Y: 4,
 					Z: 190
 				},
 				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 14
+				},
+				{
+					item: 4497,
+					meta: 0,
+					count: 11
+				},
+				{
+					item: 4749,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 7805,
+					meta: 6,
+					count: 519
+				},
+				{
+					item: 4771,
+					meta: 0,
+					count: 262
+				},
+				{
+					item: 13791,
+					meta: 0,
+					count: 183
+				},
+				{
+					item: 4791,
+					meta: 0,
+					count: 12
+				},
+				{
 					item: 4251,
 					meta: 0,
 					count: 17
+				},
+				{
+					item: 13782,
+					meta: 0,
+					count: 468
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 4228,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 4825,
+					meta: 0,
+					count: 3
+				},
+				{
+					item: 4250,
+					meta: 7,
+					count: 6
 				},
 				{
 					item: 35,
@@ -51,14 +111,9 @@
 					count: 2
 				},
 				{
-					item: 5509,
-					meta: 0,
-					count: 310
-				},
-				{
-					item: 2,
-					meta: 0,
-					count: 27
+					item: 4815,
+					meta: 1,
+					count: 1535
 				},
 				{
 					item: 4827,
@@ -71,89 +126,19 @@
 					count: 3
 				},
 				{
-					item: 35,
-					meta: 14,
-					count: 14
-				},
-				{
-					item: 4825,
+					item: 7993,
 					meta: 0,
-					count: 3
+					count: 982
 				},
 				{
-					item: 4791,
+					item: 5506,
 					meta: 0,
-					count: 12
+					count: 448
 				},
 				{
-					item: 4823,
-					meta: 0,
-					count: 49
-				},
-				{
-					item: 4770,
-					meta: 0,
-					count: 109
-				},
-				{
-					item: 13775,
-					meta: 0,
-					count: 468
-				},
-				{
-					item: 5357,
-					meta: 3,
-					count: 104
-				},
-				{
-					item: 4228,
-					meta: 0,
-					count: 8
-				},
-				{
-					item: 4771,
-					meta: 0,
-					count: 262
-				},
-				{
-					item: 4250,
-					meta: 8,
-					count: 4
-				},
-				{
-					item: 4160,
-					meta: 6,
-					count: 298
-				},
-				{
-					item: 7976,
-					meta: 0,
-					count: 44
-				},
-				{
-					item: 5245,
+					item: 4814,
 					meta: 1,
-					count: 364
-				},
-				{
-					item: 5245,
-					meta: 3,
-					count: 431
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 8
-				},
-				{
-					item: 7803,
-					meta: 6,
-					count: 519
-				},
-				{
-					item: 4497,
-					meta: 0,
-					count: 11
+					count: 1173
 				},
 				{
 					item: 5272,
@@ -161,9 +146,19 @@
 					count: 234
 				},
 				{
-					item: 4769,
+					item: 4770,
 					meta: 0,
-					count: 954
+					count: 109
+				},
+				{
+					item: 7978,
+					meta: 0,
+					count: 44
+				},
+				{
+					item: 4823,
+					meta: 0,
+					count: 49
 				},
 				{
 					item: 35,
@@ -171,34 +166,24 @@
 					count: 2
 				},
 				{
-					item: 4747,
-					meta: 0,
-					count: 88
+					item: 5245,
+					meta: 3,
+					count: 431
 				},
 				{
-					item: 5243,
-					meta: 8,
-					count: 158
+					item: 4160,
+					meta: 6,
+					count: 298
 				},
 				{
-					item: 7991,
-					meta: 0,
-					count: 982
-				},
-				{
-					item: 10120,
+					item: 10122,
 					meta: 0,
 					count: 90
 				},
 				{
-					item: 4815,
+					item: 5245,
 					meta: 1,
-					count: 1535
-				},
-				{
-					item: 4749,
-					meta: 0,
-					count: 1
+					count: 364
 				},
 				{
 					item: 4746,
@@ -207,23 +192,38 @@
 				},
 				{
 					item: 4250,
-					meta: 7,
-					count: 6
+					meta: 8,
+					count: 4
 				},
 				{
-					item: 5506,
+					item: 2,
 					meta: 0,
-					count: 448
+					count: 27
 				},
 				{
-					item: 13784,
+					item: 5509,
 					meta: 0,
-					count: 183
+					count: 310
 				},
 				{
-					item: 4814,
-					meta: 1,
-					count: 1173
+					item: 4769,
+					meta: 0,
+					count: 954
+				},
+				{
+					item: 5357,
+					meta: 3,
+					count: 104
+				},
+				{
+					item: 5243,
+					meta: 8,
+					count: 158
+				},
+				{
+					item: 4747,
+					meta: 0,
+					count: 88
 				}],
 				endPos: {
 					X: 2098,

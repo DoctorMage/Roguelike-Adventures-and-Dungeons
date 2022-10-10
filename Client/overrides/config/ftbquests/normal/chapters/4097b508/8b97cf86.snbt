@@ -37,43 +37,48 @@
 		value: 500L
 	}],
 	rewards: [{
-		uid: "11a00481",
+		uid: "bfaa7c03",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Fiery Master Statue",
-				UUID: "941b01a7-4c57-401c-a699-e0350788de4b",
+				UUID: "f37df625-4bdc-46ff-bccb-fcbc62a812f5",
 				startPos: {
 					X: 365,
 					Y: 5,
 					Z: -116
 				},
 				itemcountmap: [{
-					item: 215,
-					meta: 0,
-					count: 31
+					item: 35,
+					meta: 14,
+					count: 6
 				},
 				{
-					item: 5362,
+					item: 112,
+					meta: 0,
+					count: 11
+				},
+				{
+					item: 4765,
+					meta: 0,
+					count: 48
+				},
+				{
+					item: 5388,
 					meta: 3,
-					count: 2
+					count: 1
 				},
 				{
-					item: 4745,
-					meta: 0,
-					count: 32
-				},
-				{
-					item: 5961,
-					meta: 1,
-					count: 341
+					item: 44,
+					meta: 6,
+					count: 13
 				},
 				{
 					item: 35,
-					meta: 1,
-					count: 2
+					meta: 11,
+					count: 1
 				},
 				{
 					item: 50,
@@ -81,8 +86,13 @@
 					count: 1
 				},
 				{
-					item: 5388,
+					item: 5362,
 					meta: 3,
+					count: 2
+				},
+				{
+					item: 5949,
+					meta: 0,
 					count: 1
 				},
 				{
@@ -91,29 +101,19 @@
 					count: 8
 				},
 				{
-					item: 35,
-					meta: 14,
-					count: 6
-				},
-				{
-					item: 4765,
-					meta: 0,
-					count: 48
-				},
-				{
-					item: 112,
-					meta: 0,
-					count: 11
+					item: 5244,
+					meta: 7,
+					count: 40
 				},
 				{
 					item: 35,
-					meta: 11,
-					count: 1
+					meta: 1,
+					count: 2
 				},
 				{
-					item: 11554,
-					meta: 0,
-					count: 11
+					item: 5990,
+					meta: 1,
+					count: 341
 				},
 				{
 					item: 5441,
@@ -121,18 +121,33 @@
 					count: 7
 				},
 				{
+					item: 11563,
+					meta: 0,
+					count: 11
+				},
+				{
+					item: 4745,
+					meta: 0,
+					count: 32
+				},
+				{
+					item: 215,
+					meta: 0,
+					count: 31
+				},
+				{
 					item: 5376,
 					meta: 3,
 					count: 3
 				},
 				{
-					item: 5361,
-					meta: 3,
-					count: 1
+					item: 4761,
+					meta: 0,
+					count: 626
 				},
 				{
-					item: 6036,
-					meta: 0,
+					item: 5361,
+					meta: 3,
 					count: 1
 				},
 				{
@@ -141,24 +156,9 @@
 					count: 664
 				},
 				{
-					item: 44,
-					meta: 6,
-					count: 13
-				},
-				{
 					item: 114,
 					meta: 0,
 					count: 6
-				},
-				{
-					item: 5244,
-					meta: 7,
-					count: 40
-				},
-				{
-					item: 4761,
-					meta: 0,
-					count: 626
 				}],
 				endPos: {
 					X: 394,

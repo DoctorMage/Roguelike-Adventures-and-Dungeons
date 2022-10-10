@@ -27,14 +27,14 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "c2b004d3",
+		uid: "963e7210",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Hedge Maze",
-				UUID: "62db8fb3-9e24-42a0-9292-692011f8601f",
+				UUID: "6f8d7981-90dd-41c9-9191-0dbd914e4005",
 				startPos: {
 					X: 1882,
 					Y: 4,
@@ -42,23 +42,18 @@
 				},
 				itemcountmap: [{
 					item: 35,
-					meta: 1,
-					count: 2
+					meta: 14,
+					count: 7
 				},
 				{
-					item: 5509,
-					meta: 0,
-					count: 160
-				},
-				{
-					item: 6036,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 6151,
+					item: 6153,
 					meta: 0,
 					count: 246
+				},
+				{
+					item: 175,
+					meta: 5,
+					count: 56
 				},
 				{
 					item: 5245,
@@ -66,9 +61,14 @@
 					count: 326
 				},
 				{
-					item: 5409,
-					meta: 7,
-					count: 80
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5949,
+					meta: 0,
+					count: 1
 				},
 				{
 					item: 18,
@@ -76,34 +76,19 @@
 					count: 118
 				},
 				{
-					item: 35,
-					meta: 14,
-					count: 7
-				},
-				{
-					item: 4166,
-					meta: 10,
-					count: 3252
+					item: 5509,
+					meta: 0,
+					count: 160
 				},
 				{
 					item: 35,
-					meta: 11,
-					count: 1
+					meta: 1,
+					count: 2
 				},
 				{
-					item: 4166,
-					meta: 9,
-					count: 147
-				},
-				{
-					item: 160,
-					meta: 12,
-					count: 4
-				},
-				{
-					item: 38,
+					item: 5409,
 					meta: 7,
-					count: 12
+					count: 80
 				},
 				{
 					item: 4167,
@@ -111,14 +96,29 @@
 					count: 322
 				},
 				{
+					item: 4166,
+					meta: 9,
+					count: 147
+				},
+				{
+					item: 4166,
+					meta: 10,
+					count: 3252
+				},
+				{
+					item: 38,
+					meta: 7,
+					count: 12
+				},
+				{
+					item: 160,
+					meta: 12,
+					count: 4
+				},
+				{
 					item: 5506,
 					meta: 0,
 					count: 242
-				},
-				{
-					item: 175,
-					meta: 5,
-					count: 56
 				}],
 				endPos: {
 					X: 1848,

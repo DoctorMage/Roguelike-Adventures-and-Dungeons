@@ -27,28 +27,23 @@
 		value: 200L
 	}],
 	rewards: [{
-		uid: "141e83d4",
+		uid: "c94a1389",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Acacia Wizard Tower",
-				UUID: "5d1ac5ad-2288-414c-a39e-6adc19ad8e5f",
+				UUID: "eefa502c-1b41-452f-8b7b-e59ac9b3bb20",
 				startPos: {
 					X: 374,
 					Y: 5,
 					Z: -90
 				},
 				itemcountmap: [{
-					item: 5357,
-					meta: 3,
-					count: 74
-				},
-				{
 					item: 35,
-					meta: 1,
-					count: 2
+					meta: 14,
+					count: 4
 				},
 				{
 					item: 4497,
@@ -56,24 +51,24 @@
 					count: 9
 				},
 				{
-					item: 5454,
-					meta: 9,
-					count: 368
-				},
-				{
-					item: 7354,
-					meta: 1,
-					count: 1
-				},
-				{
-					item: 6252,
+					item: 6254,
 					meta: 4,
 					count: 19
 				},
 				{
-					item: 179,
-					meta: 2,
-					count: 776
+					item: 109,
+					meta: 0,
+					count: 624
+				},
+				{
+					item: 13791,
+					meta: 0,
+					count: 160
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 548
 				},
 				{
 					item: 50,
@@ -81,24 +76,9 @@
 					count: 60
 				},
 				{
-					item: 5432,
-					meta: 0,
-					count: 1308
-				},
-				{
-					item: 13775,
+					item: 13782,
 					meta: 0,
 					count: 40
-				},
-				{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 6073,
-					meta: 0,
-					count: 130
 				},
 				{
 					item: 35,
@@ -111,19 +91,19 @@
 					count: 272
 				},
 				{
-					item: 162,
-					meta: 0,
-					count: 914
+					item: 35,
+					meta: 1,
+					count: 2
 				},
 				{
-					item: 13784,
-					meta: 0,
-					count: 160
+					item: 179,
+					meta: 2,
+					count: 776
 				},
 				{
-					item: 44,
-					meta: 5,
-					count: 548
+					item: 5357,
+					meta: 3,
+					count: 74
 				},
 				{
 					item: 98,
@@ -131,9 +111,29 @@
 					count: 597
 				},
 				{
-					item: 109,
+					item: 5432,
 					meta: 0,
-					count: 624
+					count: 1308
+				},
+				{
+					item: 162,
+					meta: 0,
+					count: 914
+				},
+				{
+					item: 5454,
+					meta: 9,
+					count: 368
+				},
+				{
+					item: 6075,
+					meta: 0,
+					count: 130
+				},
+				{
+					item: 7356,
+					meta: 1,
+					count: 1
 				}],
 				endPos: {
 					X: 356,

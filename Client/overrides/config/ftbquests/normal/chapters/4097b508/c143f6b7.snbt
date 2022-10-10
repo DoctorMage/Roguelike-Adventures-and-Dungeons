@@ -27,14 +27,14 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "c974ee28",
+		uid: "492fdd2f",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Crimson Farmland",
-				UUID: "47efd031-2b48-46e9-bf87-156f6b73329c",
+				UUID: "48005099-5309-4321-9231-fd2888059bc0",
 				startPos: {
 					X: 291,
 					Y: 4,
@@ -46,19 +46,9 @@
 					count: 4
 				},
 				{
-					item: 215,
-					meta: 0,
-					count: 24
-				},
-				{
-					item: 5505,
-					meta: 0,
-					count: 16
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
+					item: 5392,
+					meta: 12,
+					count: 13
 				},
 				{
 					item: 35,
@@ -66,9 +56,9 @@
 					count: 2
 				},
 				{
-					item: 9032,
+					item: 5496,
 					meta: 0,
-					count: 34
+					count: 60
 				},
 				{
 					item: 5508,
@@ -76,14 +66,24 @@
 					count: 4
 				},
 				{
+					item: 5505,
+					meta: 0,
+					count: 16
+				},
+				{
+					item: 215,
+					meta: 0,
+					count: 24
+				},
+				{
 					item: 4813,
 					meta: 0,
 					count: 225
 				},
 				{
-					item: 5392,
-					meta: 12,
-					count: 13
+					item: 9034,
+					meta: 0,
+					count: 34
 				},
 				{
 					item: 5352,
@@ -91,9 +91,9 @@
 					count: 72
 				},
 				{
-					item: 5496,
-					meta: 0,
-					count: 60
+					item: 35,
+					meta: 11,
+					count: 1
 				}],
 				endPos: {
 					X: 271,

@@ -47,14 +47,14 @@
 		value: 300L
 	}],
 	rewards: [{
-		uid: "4add3730",
+		uid: "82d4ef39",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
-				TemplateName: "Full Stone Diagonal Cross",
-				UUID: "b7a071ed-489b-4d3f-9153-59b35b0100c7",
+				TemplateName: "Full Stone Wall Diagonal Cross",
+				UUID: "10be773b-4818-46b3-a7df-d53854cd37ea",
 				startPos: {
 					X: 1562,
 					Y: 4,
@@ -66,44 +66,14 @@
 					count: 7
 				},
 				{
-					item: 5506,
-					meta: 0,
-					count: 367
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 1746
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 509
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
 					item: 5509,
 					meta: 0,
 					count: 258
 				},
 				{
-					item: 98,
-					meta: 0,
-					count: 339
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 16
+					item: 35,
+					meta: 1,
+					count: 2
 				},
 				{
 					item: 5508,
@@ -114,6 +84,36 @@
 					item: 109,
 					meta: 0,
 					count: 130
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 509
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 1746
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 339
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 367
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 16
 				}],
 				endPos: {
 					X: 1590,
@@ -124,14 +124,86 @@
 		}
 	},
 	{
-		uid: "82db9c92",
+		uid: "80eef123",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 2,
-				TemplateName: "Stone Diagonal Cross",
-				UUID: "77c547a8-2f9f-4d72-8d48-93e924ec4e30",
+				TemplateName: "Stone Wall Diagonal Cross",
+				UUID: "56e6ec9e-8ef9-4b6c-85e8-5a7b057b21a6",
+				startPos: {
+					X: 1617,
+					Y: 4,
+					Z: 542
+				},
+				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 7
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 258
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5508,
+					meta: 0,
+					count: 45
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 111
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 505
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 1718
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 229
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 367
+				}],
+				endPos: {
+					X: 1645,
+					Y: 18,
+					Z: 570
+				}
+			}
+		}
+	},
+	{
+		uid: "c688896f",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Stone Wall Walkthrough Diagonal Cross",
+				UUID: "31e87e97-027c-40dc-aea2-c1a6bdaeeb70",
 				startPos: {
 					X: 1672,
 					Y: 4,
@@ -143,44 +215,14 @@
 					count: 14
 				},
 				{
-					item: 5506,
-					meta: 0,
-					count: 257
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 1337
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 194
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
 					item: 5509,
 					meta: 0,
 					count: 128
 				},
 				{
-					item: 98,
-					meta: 0,
-					count: 410
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 228
+					item: 35,
+					meta: 1,
+					count: 2
 				},
 				{
 					item: 5508,
@@ -188,106 +230,49 @@
 					count: 293
 				},
 				{
+					item: 109,
+					meta: 0,
+					count: 128
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 194
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 1337
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 410
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 257
+				},
+				{
 					item: 50,
 					meta: 0,
 					count: 44
 				},
 				{
-					item: 109,
-					meta: 0,
-					count: 128
+					item: 44,
+					meta: 5,
+					count: 228
 				}],
 				endPos: {
 					X: 1703,
 					Y: 18,
 					Z: 569
-				}
-			}
-		}
-	},
-	{
-		uid: "3b3f974a",
-		type: "item",
-		item: {
-			id: "buildinggadgets:template",
-			tag: {
-				copycounter: 2,
-				TemplateName: "Stone Wall Walkthrough Archway",
-				UUID: "05a2cd93-f6e8-4316-bf22-f0fdf6d86258",
-				startPos: {
-					X: 1672,
-					Y: 4,
-					Z: 765
-				},
-				itemcountmap: [{
-					item: 5352,
-					meta: 4,
-					count: 96
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 160
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 10
-				},
-				{
-					item: 35,
-					meta: 14,
-					count: 7
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 226
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 995
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 9048,
-					meta: 0,
-					count: 174
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 95
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 16
-				},
-				{
-					item: 5508,
-					meta: 0,
-					count: 90
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 88
-				}],
-				endPos: {
-					X: 1686,
-					Y: 27,
-					Z: 797
 				}
 			}
 		}

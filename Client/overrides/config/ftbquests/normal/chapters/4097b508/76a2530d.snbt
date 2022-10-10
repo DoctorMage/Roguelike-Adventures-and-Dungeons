@@ -27,38 +27,23 @@
 		value: 200L
 	}],
 	rewards: [{
-		uid: "dd2d3a08",
+		uid: "c3c97492",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Stone Wizard Tower",
-				UUID: "207e7851-a0ec-4ac1-b8f2-c49a44825eed",
+				UUID: "0fb64d8d-8af0-4603-8646-ca55d70b89d0",
 				startPos: {
 					X: 366,
 					Y: 5,
 					Z: -126
 				},
 				itemcountmap: [{
-					item: 5461,
-					meta: 13,
-					count: 60
-				},
-				{
-					item: 5357,
-					meta: 3,
-					count: 106
-				},
-				{
-					item: 5461,
-					meta: 15,
-					count: 28
-				},
-				{
 					item: 35,
-					meta: 1,
-					count: 2
+					meta: 14,
+					count: 4
 				},
 				{
 					item: 4497,
@@ -66,34 +51,24 @@
 					count: 5
 				},
 				{
-					item: 6211,
+					item: 1,
+					meta: 4,
+					count: 458
+				},
+				{
+					item: 6213,
 					meta: 0,
 					count: 120
 				},
 				{
-					item: 5290,
-					meta: 8,
-					count: 385
+					item: 7356,
+					meta: 3,
+					count: 1
 				},
 				{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 6073,
+					item: 9179,
 					meta: 0,
-					count: 56
-				},
-				{
-					item: 5341,
-					meta: 0,
-					count: 188
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 4
+					count: 252
 				},
 				{
 					item: 109,
@@ -101,34 +76,9 @@
 					count: 190
 				},
 				{
-					item: 9177,
-					meta: 0,
-					count: 252
-				},
-				{
-					item: 6205,
-					meta: 2,
-					count: 747
-				},
-				{
-					item: 7354,
-					meta: 3,
-					count: 1
-				},
-				{
 					item: 5340,
 					meta: 11,
 					count: 636
-				},
-				{
-					item: 5454,
-					meta: 9,
-					count: 76
-				},
-				{
-					item: 5454,
-					meta: 7,
-					count: 450
 				},
 				{
 					item: 50,
@@ -136,19 +86,14 @@
 					count: 58
 				},
 				{
+					item: 44,
+					meta: 5,
+					count: 4
+				},
+				{
 					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 1,
-					meta: 4,
-					count: 458
-				},
-				{
-					item: 9220,
-					meta: 0,
-					count: 220
+					meta: 1,
+					count: 2
 				},
 				{
 					item: 44,
@@ -156,14 +101,69 @@
 					count: 44
 				},
 				{
+					item: 5290,
+					meta: 8,
+					count: 385
+				},
+				{
+					item: 5454,
+					meta: 7,
+					count: 450
+				},
+				{
+					item: 5341,
+					meta: 0,
+					count: 188
+				},
+				{
+					item: 5454,
+					meta: 9,
+					count: 76
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 9222,
+					meta: 0,
+					count: 220
+				},
+				{
+					item: 5357,
+					meta: 3,
+					count: 106
+				},
+				{
 					item: 98,
 					meta: 0,
 					count: 304
 				},
 				{
+					item: 5461,
+					meta: 13,
+					count: 60
+				},
+				{
+					item: 6207,
+					meta: 2,
+					count: 747
+				},
+				{
 					item: 5281,
 					meta: 8,
 					count: 146
+				},
+				{
+					item: 5461,
+					meta: 15,
+					count: 28
+				},
+				{
+					item: 6075,
+					meta: 0,
+					count: 56
 				}],
 				endPos: {
 					X: 386,

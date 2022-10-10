@@ -27,38 +27,28 @@
 		value: 50L
 	}],
 	rewards: [{
-		uid: "a4baba28",
+		uid: "e2ef6f90",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Stone Library",
-				UUID: "b376f434-6c99-4f81-ae94-ff0ac79dec85",
+				UUID: "4a63a9d3-d96d-4589-97bf-2400775f0169",
 				startPos: {
 					X: 281,
 					Y: 4,
 					Z: -107
 				},
 				itemcountmap: [{
-					item: 5246,
-					meta: 9,
-					count: 12
-				},
-				{
-					item: 5483,
-					meta: 0,
-					count: 1
-				},
-				{
 					item: 35,
-					meta: 1,
-					count: 2
+					meta: 14,
+					count: 4
 				},
 				{
-					item: 4746,
+					item: 109,
 					meta: 0,
-					count: 2
+					count: 25
 				},
 				{
 					item: 35,
@@ -66,9 +56,69 @@
 					count: 1
 				},
 				{
-					item: 5454,
+					item: 5246,
+					meta: 1,
+					count: 6
+				},
+				{
+					item: 35,
 					meta: 9,
 					count: 32
+				},
+				{
+					item: 5453,
+					meta: 0,
+					count: 44
+				},
+				{
+					item: 7359,
+					meta: 0,
+					count: 6
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 105
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5246,
+					meta: 4,
+					count: 14
+				},
+				{
+					item: 4746,
+					meta: 0,
+					count: 2
+				},
+				{
+					item: 5246,
+					meta: 9,
+					count: 12
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5483,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 33
+				},
+				{
+					item: 5270,
+					meta: 0,
+					count: 8
 				},
 				{
 					item: 5454,
@@ -81,64 +131,14 @@
 					count: 12
 				},
 				{
-					item: 35,
-					meta: 9,
-					count: 32
-				},
-				{
-					item: 5270,
-					meta: 0,
-					count: 8
-				},
-				{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 7357,
-					meta: 0,
-					count: 6
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 33
-				},
-				{
-					item: 5246,
-					meta: 1,
-					count: 6
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 105
-				},
-				{
-					item: 5453,
-					meta: 0,
-					count: 44
-				},
-				{
 					item: 5281,
 					meta: 8,
 					count: 116
 				},
 				{
-					item: 5246,
-					meta: 4,
-					count: 14
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 25
+					item: 5454,
+					meta: 9,
+					count: 32
 				}],
 				endPos: {
 					X: 267,

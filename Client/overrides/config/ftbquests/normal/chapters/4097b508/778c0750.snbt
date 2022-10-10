@@ -27,73 +27,23 @@
 		value: 200L
 	}],
 	rewards: [{
-		uid: "1745bba4",
+		uid: "0df2bde2",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Warped Altar",
-				UUID: "e5d81fc1-126b-47ae-b1d6-1a76d0969575",
+				UUID: "9b02e892-f01e-49bc-b4bc-2d68ef73bf8e",
 				startPos: {
 					X: 281,
 					Y: 4,
 					Z: -125
 				},
 				itemcountmap: [{
-					item: 5454,
-					meta: 6,
-					count: 5
-				},
-				{
 					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 2,
-					meta: 0,
-					count: 56
-				},
-				{
-					item: 4497,
-					meta: 15,
-					count: 2
-				},
-				{
-					item: 35,
-					meta: 6,
-					count: 8
-				},
-				{
-					item: 159,
-					meta: 4,
-					count: 1
-				},
-				{
-					item: 159,
-					meta: 5,
-					count: 1
-				},
-				{
-					item: 5503,
-					meta: 0,
-					count: 257
-				},
-				{
-					item: 5352,
-					meta: 5,
-					count: 124
-				},
-				{
-					item: 159,
-					meta: 3,
-					count: 1
-				},
-				{
-					item: 35,
-					meta: 9,
-					count: 230
+					meta: 14,
+					count: 4
 				},
 				{
 					item: 169,
@@ -101,17 +51,22 @@
 					count: 14
 				},
 				{
-					item: 159,
-					meta: 1,
-					count: 1
+					item: 35,
+					meta: 6,
+					count: 8
 				},
 				{
 					item: 35,
-					meta: 14,
-					count: 4
+					meta: 9,
+					count: 230
 				},
 				{
-					item: 10249,
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 10251,
 					meta: 0,
 					count: 48
 				},
@@ -121,8 +76,63 @@
 					count: 1
 				},
 				{
+					item: 4497,
+					meta: 15,
+					count: 2
+				},
+				{
+					item: 2,
+					meta: 0,
+					count: 56
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
 					item: 159,
 					meta: 10,
+					count: 1
+				},
+				{
+					item: 159,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 159,
+					meta: 5,
+					count: 1
+				},
+				{
+					item: 5352,
+					meta: 5,
+					count: 124
+				},
+				{
+					item: 8989,
+					meta: 0,
+					count: 185
+				},
+				{
+					item: 5503,
+					meta: 0,
+					count: 257
+				},
+				{
+					item: 159,
+					meta: 1,
+					count: 1
+				},
+				{
+					item: 5454,
+					meta: 6,
+					count: 5
+				},
+				{
+					item: 159,
+					meta: 3,
 					count: 1
 				},
 				{
@@ -131,19 +141,9 @@
 					count: 100
 				},
 				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
 					item: 159,
-					meta: 11,
+					meta: 4,
 					count: 1
-				},
-				{
-					item: 8987,
-					meta: 0,
-					count: 185
 				}],
 				endPos: {
 					X: 301,

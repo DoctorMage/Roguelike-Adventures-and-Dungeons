@@ -27,14 +27,14 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "e8ff843e",
+		uid: "4aa498b2",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Warped Jar Storage",
-				UUID: "ab33cafd-45b6-407b-b73b-f627daf99813",
+				UUID: "45afcba8-cd19-451d-b6d3-81785f88f4b9",
 				startPos: {
 					X: 294,
 					Y: 4,
@@ -46,14 +46,14 @@
 					count: 4
 				},
 				{
-					item: 10249,
+					item: 9029,
 					meta: 0,
-					count: 3
+					count: 84
 				},
 				{
-					item: 35,
-					meta: 11,
-					count: 1
+					item: 169,
+					meta: 0,
+					count: 10
 				},
 				{
 					item: 35,
@@ -61,12 +61,7 @@
 					count: 2
 				},
 				{
-					item: 9027,
-					meta: 0,
-					count: 84
-				},
-				{
-					item: 9018,
+					item: 9020,
 					meta: 1,
 					count: 132
 				},
@@ -76,19 +71,14 @@
 					count: 4
 				},
 				{
-					item: 8987,
-					meta: 0,
-					count: 224
-				},
-				{
-					item: 5503,
-					meta: 0,
-					count: 106
-				},
-				{
 					item: 5352,
 					meta: 5,
 					count: 128
+				},
+				{
+					item: 8989,
+					meta: 0,
+					count: 224
 				},
 				{
 					item: 35,
@@ -96,9 +86,19 @@
 					count: 143
 				},
 				{
-					item: 169,
+					item: 5503,
 					meta: 0,
-					count: 10
+					count: 106
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 10251,
+					meta: 0,
+					count: 3
 				}],
 				endPos: {
 					X: 270,

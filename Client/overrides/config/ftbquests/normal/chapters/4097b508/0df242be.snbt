@@ -27,55 +27,20 @@
 		value: 200L
 	}],
 	rewards: [{
-		uid: "bb15b231",
+		uid: "3ac2feb7",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Birch Wizard Tower",
-				UUID: "604b0532-d366-4ef8-8f8b-3cac144e70cd",
+				UUID: "848efe6d-d74f-49aa-8075-b896c846d569",
 				startPos: {
 					X: 370,
 					Y: 5,
 					Z: -131
 				},
 				itemcountmap: [{
-					item: 5357,
-					meta: 3,
-					count: 51
-				},
-				{
-					item: 53,
-					meta: 0,
-					count: 96
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 4497,
-					meta: 0,
-					count: 8
-				},
-				{
-					item: 126,
-					meta: 2,
-					count: 13
-				},
-				{
-					item: 6209,
-					meta: 0,
-					count: 174
-				},
-				{
-					item: 5341,
-					meta: 11,
-					count: 15
-				},
-				{
 					item: 35,
 					meta: 14,
 					count: 4
@@ -86,19 +51,9 @@
 					count: 24
 				},
 				{
-					item: 6118,
-					meta: 4,
-					count: 595
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 260
-				},
-				{
-					item: 6210,
+					item: 4497,
 					meta: 0,
-					count: 147
+					count: 8
 				},
 				{
 					item: 109,
@@ -106,18 +61,53 @@
 					count: 256
 				},
 				{
-					item: 6222,
-					meta: 0,
-					count: 66
+					item: 5341,
+					meta: 11,
+					count: 15
 				},
 				{
-					item: 135,
-					meta: 0,
-					count: 248
-				},
-				{
-					item: 7354,
+					item: 7356,
 					meta: 7,
+					count: 1
+				},
+				{
+					item: 53,
+					meta: 0,
+					count: 96
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 260
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 50
+				},
+				{
+					item: 1,
+					meta: 0,
+					count: 6
+				},
+				{
+					item: 6254,
+					meta: 0,
+					count: 847
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5454,
+					meta: 9,
+					count: 204
+				},
+				{
+					item: 35,
+					meta: 11,
 					count: 1
 				},
 				{
@@ -126,14 +116,19 @@
 					count: 911
 				},
 				{
-					item: 159,
-					meta: 4,
-					count: 11
+					item: 5452,
+					meta: 11,
+					count: 136
 				},
 				{
-					item: 5454,
-					meta: 9,
-					count: 204
+					item: 6212,
+					meta: 0,
+					count: 147
+				},
+				{
+					item: 135,
+					meta: 0,
+					count: 248
 				},
 				{
 					item: 96,
@@ -141,34 +136,39 @@
 					count: 24
 				},
 				{
-					item: 50,
-					meta: 0,
-					count: 50
+					item: 126,
+					meta: 2,
+					count: 13
 				},
 				{
-					item: 6252,
-					meta: 0,
-					count: 847
+					item: 6120,
+					meta: 4,
+					count: 595
 				},
 				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5452,
-					meta: 11,
-					count: 136
-				},
-				{
-					item: 1,
-					meta: 0,
-					count: 6
+					item: 5357,
+					meta: 3,
+					count: 51
 				},
 				{
 					item: 98,
 					meta: 0,
 					count: 433
+				},
+				{
+					item: 6224,
+					meta: 0,
+					count: 66
+				},
+				{
+					item: 6211,
+					meta: 0,
+					count: 174
+				},
+				{
+					item: 159,
+					meta: 4,
+					count: 11
 				}],
 				endPos: {
 					X: 388,

@@ -27,14 +27,14 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "69d22564",
+		uid: "02e74ec4",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Bridge L",
-				UUID: "653bca26-b530-48d9-a05f-6c559b5763f1",
+				UUID: "e7b62a75-5c5a-4971-b427-00c3c86030a0",
 				startPos: {
 					X: 1941,
 					Y: 4,
@@ -46,19 +46,9 @@
 					count: 6
 				},
 				{
-					item: 5244,
-					meta: 2,
-					count: 25
-				},
-				{
-					item: 4815,
-					meta: 1,
-					count: 50
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
+					item: 5509,
+					meta: 0,
+					count: 30
 				},
 				{
 					item: 35,
@@ -66,14 +56,29 @@
 					count: 2
 				},
 				{
-					item: 13793,
+					item: 5244,
+					meta: 2,
+					count: 25
+				},
+				{
+					item: 13791,
 					meta: 0,
 					count: 58
 				},
 				{
-					item: 13784,
+					item: 4815,
+					meta: 1,
+					count: 50
+				},
+				{
+					item: 13800,
 					meta: 0,
 					count: 58
+				},
+				{
+					item: 13782,
+					meta: 0,
+					count: 184
 				},
 				{
 					item: 5506,
@@ -86,19 +91,14 @@
 					count: 118
 				},
 				{
-					item: 13775,
-					meta: 0,
-					count: 184
-				},
-				{
 					item: 50,
 					meta: 0,
 					count: 2
 				},
 				{
-					item: 5509,
-					meta: 0,
-					count: 30
+					item: 35,
+					meta: 11,
+					count: 1
 				}],
 				endPos: {
 					X: 1957,

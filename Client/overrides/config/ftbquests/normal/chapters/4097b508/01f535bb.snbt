@@ -27,33 +27,33 @@
 		value: 200L
 	}],
 	rewards: [{
-		uid: "a57a1371",
+		uid: "88e1ccc5",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Dark Oak Wizard Tower",
-				UUID: "38de4536-69a4-43a1-a2b0-99832d3d848e",
+				UUID: "4003645e-6108-4f1b-a4f7-8916079afa31",
 				startPos: {
 					X: 366,
 					Y: 5,
 					Z: -127
 				},
 				itemcountmap: [{
-					item: 5357,
-					meta: 3,
-					count: 73
+					item: 35,
+					meta: 14,
+					count: 4
 				},
 				{
-					item: 7354,
+					item: 5461,
+					meta: 2,
+					count: 11
+				},
+				{
+					item: 7356,
 					meta: 4,
 					count: 1
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
 				},
 				{
 					item: 4497,
@@ -61,9 +61,49 @@
 					count: 5
 				},
 				{
-					item: 8983,
+					item: 5,
+					meta: 1,
+					count: 24
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 399
+				},
+				{
+					item: 5,
+					meta: 5,
+					count: 804
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 366
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 42
+				},
+				{
+					item: 5452,
+					meta: 11,
+					count: 196
+				},
+				{
+					item: 8985,
 					meta: 0,
 					count: 608
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
 				},
 				{
 					item: 164,
@@ -71,9 +111,19 @@
 					count: 208
 				},
 				{
-					item: 6002,
+					item: 5357,
+					meta: 3,
+					count: 73
+				},
+				{
+					item: 98,
 					meta: 0,
-					count: 24
+					count: 378
+				},
+				{
+					item: 134,
+					meta: 0,
+					count: 96
 				},
 				{
 					item: 162,
@@ -86,64 +136,14 @@
 					count: 184
 				},
 				{
-					item: 50,
-					meta: 0,
-					count: 42
-				},
-				{
-					item: 134,
-					meta: 0,
-					count: 96
-				},
-				{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 6073,
+					item: 6075,
 					meta: 0,
 					count: 66
 				},
 				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5452,
-					meta: 11,
-					count: 196
-				},
-				{
-					item: 5,
-					meta: 5,
-					count: 804
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 366
-				},
-				{
-					item: 98,
+					item: 5915,
 					meta: 0,
-					count: 378
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 399
-				},
-				{
-					item: 5,
-					meta: 1,
 					count: 24
-				},
-				{
-					item: 5461,
-					meta: 2,
-					count: 11
 				}],
 				endPos: {
 					X: 384,

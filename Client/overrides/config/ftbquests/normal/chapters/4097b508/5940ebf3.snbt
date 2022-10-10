@@ -27,14 +27,14 @@
 		value: 50L
 	}],
 	rewards: [{
-		uid: "16ebf239",
+		uid: "7fdee016",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Warped Spa",
-				UUID: "380cace5-3555-47bc-8df6-8f0003cc06ff",
+				UUID: "686b821c-b919-4de3-8295-7e5439f41458",
 				startPos: {
 					X: 287,
 					Y: 4,
@@ -46,24 +46,9 @@
 					count: 4
 				},
 				{
-					item: 10249,
+					item: 169,
 					meta: 0,
-					count: 52
-				},
-				{
-					item: 5511,
-					meta: 0,
-					count: 9
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
+					count: 4
 				},
 				{
 					item: 380,
@@ -72,8 +57,8 @@
 				},
 				{
 					item: 35,
-					meta: 6,
-					count: 1
+					meta: 1,
+					count: 2
 				},
 				{
 					item: 35,
@@ -81,9 +66,9 @@
 					count: 19
 				},
 				{
-					item: 5503,
-					meta: 0,
-					count: 14
+					item: 35,
+					meta: 6,
+					count: 1
 				},
 				{
 					item: 5352,
@@ -96,9 +81,24 @@
 					count: 1
 				},
 				{
-					item: 169,
+					item: 5503,
 					meta: 0,
-					count: 4
+					count: 14
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 10251,
+					meta: 0,
+					count: 52
+				},
+				{
+					item: 5511,
+					meta: 0,
+					count: 9
 				}],
 				endPos: {
 					X: 275,

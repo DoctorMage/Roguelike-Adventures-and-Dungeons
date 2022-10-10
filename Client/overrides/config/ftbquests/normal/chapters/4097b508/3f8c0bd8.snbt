@@ -47,14 +47,14 @@
 		value: 300L
 	}],
 	rewards: [{
-		uid: "5fbe916b",
+		uid: "1cf9c6f4",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
-				TemplateName: "Full Stone Extender",
-				UUID: "f160614c-4c21-4cd5-8cc4-cd3bece9a223",
+				TemplateName: "Full Stone Wall Extender",
+				UUID: "78404e0f-ce3f-4c36-a511-064a8b69f5a1",
 				startPos: {
 					X: 1609,
 					Y: 4,
@@ -66,24 +66,9 @@
 					count: 14
 				},
 				{
-					item: 5506,
+					item: 5509,
 					meta: 0,
-					count: 76
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 340
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 48
+					count: 40
 				},
 				{
 					item: 35,
@@ -91,9 +76,19 @@
 					count: 2
 				},
 				{
-					item: 5509,
+					item: 109,
 					meta: 0,
-					count: 40
+					count: 24
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 48
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 340
 				},
 				{
 					item: 98,
@@ -101,9 +96,14 @@
 					count: 32
 				},
 				{
-					item: 109,
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 5506,
 					meta: 0,
-					count: 24
+					count: 76
 				}],
 				endPos: {
 					X: 1618,
@@ -114,14 +114,14 @@
 		}
 	},
 	{
-		uid: "c1268d4d",
+		uid: "08c71d3b",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Stone Wall Extender",
-				UUID: "da8d9954-a374-4b6d-8d87-a9a41e77a5a0",
+				UUID: "eb4a375b-f70b-4600-9deb-bf2457fd2824",
 				startPos: {
 					X: 1646,
 					Y: 4,
@@ -133,24 +133,9 @@
 					count: 14
 				},
 				{
-					item: 5506,
+					item: 5509,
 					meta: 0,
-					count: 76
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 340
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 48
+					count: 40
 				},
 				{
 					item: 35,
@@ -158,9 +143,19 @@
 					count: 2
 				},
 				{
-					item: 5509,
+					item: 109,
 					meta: 0,
-					count: 40
+					count: 20
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 48
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 340
 				},
 				{
 					item: 98,
@@ -168,9 +163,14 @@
 					count: 16
 				},
 				{
-					item: 109,
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 5506,
 					meta: 0,
-					count: 20
+					count: 76
 				}],
 				endPos: {
 					X: 1655,
@@ -181,14 +181,14 @@
 		}
 	},
 	{
-		uid: "7c9987dc",
+		uid: "7133ac42",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Stone Wall Walkthrough Extender",
-				UUID: "17a9dded-d643-4ddf-8152-cfb58db06743",
+				UUID: "940a9def-5c20-479b-84c9-c3afad93d3ac",
 				startPos: {
 					X: 1690,
 					Y: 4,
@@ -200,24 +200,9 @@
 					count: 10
 				},
 				{
-					item: 5506,
+					item: 5509,
 					meta: 0,
-					count: 84
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 336
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 48
+					count: 40
 				},
 				{
 					item: 35,
@@ -225,24 +210,9 @@
 					count: 2
 				},
 				{
-					item: 5509,
+					item: 109,
 					meta: 0,
-					count: 40
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 66
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 8
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 6
+					count: 24
 				},
 				{
 					item: 5508,
@@ -250,9 +220,39 @@
 					count: 50
 				},
 				{
-					item: 109,
+					item: 5352,
+					meta: 4,
+					count: 48
+				},
+				{
+					item: 5497,
 					meta: 0,
-					count: 24
+					count: 336
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 66
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 84
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 6
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 8
 				}],
 				endPos: {
 					X: 1704,

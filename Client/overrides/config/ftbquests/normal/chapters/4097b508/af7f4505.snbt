@@ -27,88 +27,38 @@
 		value: 50L
 	}],
 	rewards: [{
-		uid: "7820834e",
+		uid: "67ace5d2",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Dark Oak Library",
-				UUID: "c3be7bfa-8ffe-4ff0-a152-a74f7186f622",
+				UUID: "f45ae7be-f347-4f63-b294-f926b9ef0e66",
 				startPos: {
 					X: 281,
 					Y: 4,
 					Z: -107
 				},
 				itemcountmap: [{
-					item: 5251,
-					meta: 3,
-					count: 11
-				},
-				{
-					item: 5483,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5251,
-					meta: 6,
-					count: 12
-				},
-				{
-					item: 126,
-					meta: 5,
-					count: 29
-				},
-				{
-					item: 6151,
-					meta: 5,
-					count: 10
-				},
-				{
-					item: 5251,
-					meta: 7,
-					count: 9
-				},
-				{
-					item: 164,
-					meta: 0,
-					count: 5
-				},
-				{
-					item: 162,
-					meta: 1,
-					count: 59
-				},
-				{
-					item: 35,
-					meta: 6,
-					count: 1
-				},
-				{
-					item: 35,
-					meta: 9,
-					count: 32
-				},
-				{
-					item: 5270,
-					meta: 0,
-					count: 8
-				},
-				{
 					item: 35,
 					meta: 14,
 					count: 4
 				},
 				{
+					item: 6153,
+					meta: 5,
+					count: 10
+				},
+				{
 					item: 35,
-					meta: 11,
+					meta: 6,
 					count: 1
+				},
+				{
+					item: 7359,
+					meta: 5,
+					count: 6
 				},
 				{
 					item: 5433,
@@ -116,9 +66,59 @@
 					count: 52
 				},
 				{
-					item: 7357,
+					item: 35,
+					meta: 9,
+					count: 32
+				},
+				{
+					item: 5251,
+					meta: 3,
+					count: 11
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5251,
+					meta: 7,
+					count: 9
+				},
+				{
+					item: 5251,
+					meta: 6,
+					count: 12
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 164,
+					meta: 0,
+					count: 5
+				},
+				{
+					item: 5483,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 5270,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 162,
+					meta: 1,
+					count: 59
+				},
+				{
+					item: 126,
 					meta: 5,
-					count: 6
+					count: 29
 				}],
 				endPos: {
 					X: 267,

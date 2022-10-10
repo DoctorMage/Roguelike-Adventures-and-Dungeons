@@ -27,14 +27,14 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "70719b9a",
+		uid: "ff13330d",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Thaumic Farmland",
-				UUID: "fe289e46-5dc1-4e07-aea8-2ecc9390c621",
+				UUID: "1799fa83-dfbe-45fa-a05d-27451d95c75a",
 				startPos: {
 					X: 293,
 					Y: 4,
@@ -46,24 +46,14 @@
 					count: 4
 				},
 				{
-					item: 5508,
+					item: 5392,
+					meta: 12,
+					count: 13
+				},
+				{
+					item: 9038,
 					meta: 0,
-					count: 4
-				},
-				{
-					item: 5352,
-					meta: 11,
-					count: 72
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5505,
-					meta: 0,
-					count: 16
+					count: 34
 				},
 				{
 					item: 35,
@@ -71,14 +61,24 @@
 					count: 2
 				},
 				{
-					item: 8985,
+					item: 8987,
 					meta: 0,
 					count: 24
 				},
 				{
-					item: 5392,
-					meta: 12,
-					count: 13
+					item: 5496,
+					meta: 0,
+					count: 60
+				},
+				{
+					item: 5508,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 5505,
+					meta: 0,
+					count: 16
 				},
 				{
 					item: 4813,
@@ -86,14 +86,14 @@
 					count: 225
 				},
 				{
-					item: 9036,
-					meta: 0,
-					count: 34
+					item: 35,
+					meta: 11,
+					count: 1
 				},
 				{
-					item: 5496,
-					meta: 0,
-					count: 60
+					item: 5352,
+					meta: 11,
+					count: 72
 				}],
 				endPos: {
 					X: 273,

@@ -27,68 +27,28 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "1e807c8a",
+		uid: "5ade94c5",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Smeltery",
-				UUID: "82cfc989-e1af-4f6e-9f9c-e83565f9f25f",
+				UUID: "08acfc39-ceaf-41a0-aeb0-fb80935e5075",
 				startPos: {
 					X: 2001,
 					Y: 4,
 					Z: 167
 				},
 				itemcountmap: [{
-					item: 5357,
-					meta: 13,
-					count: 5
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 87
-				},
-				{
-					item: 7976,
-					meta: 0,
-					count: 129
-				},
-				{
-					item: 5245,
-					meta: 1,
-					count: 8
-				},
-				{
-					item: 5245,
-					meta: 3,
-					count: 224
-				},
-				{
-					item: 5244,
-					meta: 2,
-					count: 45
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 4
-				},
-				{
 					item: 35,
 					meta: 14,
 					count: 7
 				},
 				{
-					item: 35,
-					meta: 11,
-					count: 1
+					item: 13791,
+					meta: 0,
+					count: 31
 				},
 				{
 					item: 4791,
@@ -96,19 +56,54 @@
 					count: 12
 				},
 				{
-					item: 5243,
-					meta: 8,
-					count: 18
-				},
-				{
-					item: 7991,
+					item: 7978,
 					meta: 0,
-					count: 197
+					count: 129
 				},
 				{
-					item: 13775,
+					item: 5245,
+					meta: 3,
+					count: 224
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 13782,
 					meta: 0,
 					count: 57
+				},
+				{
+					item: 5357,
+					meta: 13,
+					count: 5
+				},
+				{
+					item: 5245,
+					meta: 1,
+					count: 8
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 87
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5244,
+					meta: 2,
+					count: 45
 				},
 				{
 					item: 4815,
@@ -121,14 +116,19 @@
 					count: 4
 				},
 				{
+					item: 7993,
+					meta: 0,
+					count: 197
+				},
+				{
+					item: 5243,
+					meta: 8,
+					count: 18
+				},
+				{
 					item: 5506,
 					meta: 0,
 					count: 109
-				},
-				{
-					item: 13784,
-					meta: 0,
-					count: 31
 				}],
 				endPos: {
 					X: 1981,

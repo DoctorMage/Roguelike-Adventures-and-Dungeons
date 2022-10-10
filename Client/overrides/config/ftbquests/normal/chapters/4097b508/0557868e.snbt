@@ -37,20 +37,55 @@
 		value: 500L
 	}],
 	rewards: [{
-		uid: "e5a73287",
+		uid: "9b972b33",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Verdant Master Statue",
-				UUID: "93a1a0d7-cb6e-4833-9f9f-f106551cc206",
+				UUID: "6f61c338-7d19-4ffc-a9ec-1f519a1ac10c",
 				startPos: {
 					X: 360,
 					Y: 5,
 					Z: -119
 				},
 				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 4
+				},
+				{
+					item: 5420,
+					meta: 7,
+					count: 40
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5420,
+					meta: 8,
+					count: 676
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 5419,
+					meta: 11,
+					count: 64
+				},
+				{
+					item: 5395,
+					meta: 13,
+					count: 4
+				},
+				{
 					item: 126,
 					meta: 1,
 					count: 4
@@ -61,29 +96,19 @@
 					count: 2
 				},
 				{
-					item: 162,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 50,
+					item: 5984,
 					meta: 0,
-					count: 1
+					count: 48
 				},
 				{
-					item: 134,
-					meta: 0,
-					count: 7
+					item: 5345,
+					meta: 7,
+					count: 5
 				},
 				{
-					item: 5419,
-					meta: 11,
-					count: 64
-				},
-				{
-					item: 35,
-					meta: 14,
-					count: 4
+					item: 6120,
+					meta: 5,
+					count: 477
 				},
 				{
 					item: 5422,
@@ -91,29 +116,19 @@
 					count: 32
 				},
 				{
-					item: 5420,
-					meta: 7,
-					count: 40
-				},
-				{
-					item: 5420,
-					meta: 8,
-					count: 676
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5955,
+					item: 134,
 					meta: 0,
-					count: 48
+					count: 7
 				},
 				{
-					item: 5345,
-					meta: 5,
-					count: 8
+					item: 162,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5982,
+					meta: 0,
+					count: 789
 				},
 				{
 					item: 5392,
@@ -121,24 +136,9 @@
 					count: 1
 				},
 				{
-					item: 5953,
-					meta: 0,
-					count: 789
-				},
-				{
-					item: 5395,
-					meta: 13,
-					count: 4
-				},
-				{
-					item: 6118,
-					meta: 5,
-					count: 477
-				},
-				{
 					item: 5345,
-					meta: 7,
-					count: 5
+					meta: 5,
+					count: 8
 				}],
 				endPos: {
 					X: 380,

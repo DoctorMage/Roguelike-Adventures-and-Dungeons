@@ -27,23 +27,68 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "d0449e0c",
+		uid: "7d6819c1",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Bakery",
-				UUID: "29e959a3-08c8-4af1-925f-f31ebd0ac4e8",
+				UUID: "6a2b1267-52d3-47c6-bbe4-74bb992e5c59",
 				startPos: {
 					X: 2032,
 					Y: 4,
 					Z: 169
 				},
 				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 10
+				},
+				{
+					item: 7805,
+					meta: 6,
+					count: 36
+				},
+				{
+					item: 4771,
+					meta: 0,
+					count: 12
+				},
+				{
+					item: 13791,
+					meta: 0,
+					count: 63
+				},
+				{
+					item: 4791,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 13782,
+					meta: 0,
+					count: 71
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 10
+				},
+				{
+					item: 4228,
+					meta: 0,
+					count: 2
+				},
+				{
 					item: 5357,
 					meta: 13,
 					count: 4
+				},
+				{
+					item: 4825,
+					meta: 0,
+					count: 13
 				},
 				{
 					item: 35,
@@ -51,14 +96,14 @@
 					count: 2
 				},
 				{
-					item: 5509,
-					meta: 0,
-					count: 90
-				},
-				{
 					item: 5244,
 					meta: 2,
 					count: 21
+				},
+				{
+					item: 4815,
+					meta: 1,
+					count: 183
 				},
 				{
 					item: 4827,
@@ -71,104 +116,9 @@
 					count: 6
 				},
 				{
-					item: 35,
-					meta: 14,
-					count: 10
-				},
-				{
-					item: 4825,
-					meta: 0,
-					count: 13
-				},
-				{
-					item: 4791,
-					meta: 0,
-					count: 4
-				},
-				{
-					item: 13775,
-					meta: 0,
-					count: 71
-				},
-				{
-					item: 5357,
-					meta: 3,
-					count: 11
-				},
-				{
-					item: 4228,
-					meta: 0,
-					count: 2
-				},
-				{
-					item: 4771,
-					meta: 0,
-					count: 12
-				},
-				{
-					item: 4160,
-					meta: 6,
-					count: 26
-				},
-				{
-					item: 7976,
-					meta: 0,
-					count: 83
-				},
-				{
-					item: 5245,
-					meta: 1,
-					count: 35
-				},
-				{
-					item: 5245,
-					meta: 3,
-					count: 170
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 10
-				},
-				{
-					item: 7803,
-					meta: 6,
-					count: 36
-				},
-				{
-					item: 5272,
-					meta: 0,
-					count: 6
-				},
-				{
-					item: 4769,
-					meta: 0,
-					count: 43
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				},
-				{
-					item: 4747,
-					meta: 0,
-					count: 8
-				},
-				{
-					item: 5243,
-					meta: 8,
-					count: 35
-				},
-				{
-					item: 7991,
+					item: 7993,
 					meta: 0,
 					count: 176
-				},
-				{
-					item: 4815,
-					meta: 1,
-					count: 183
 				},
 				{
 					item: 5506,
@@ -176,14 +126,64 @@
 					count: 93
 				},
 				{
-					item: 13784,
-					meta: 0,
-					count: 63
-				},
-				{
 					item: 4814,
 					meta: 1,
 					count: 63
+				},
+				{
+					item: 5272,
+					meta: 0,
+					count: 6
+				},
+				{
+					item: 7978,
+					meta: 0,
+					count: 83
+				},
+				{
+					item: 5245,
+					meta: 3,
+					count: 170
+				},
+				{
+					item: 4160,
+					meta: 6,
+					count: 26
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 5245,
+					meta: 1,
+					count: 35
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 90
+				},
+				{
+					item: 4769,
+					meta: 0,
+					count: 43
+				},
+				{
+					item: 5357,
+					meta: 3,
+					count: 11
+				},
+				{
+					item: 5243,
+					meta: 8,
+					count: 35
+				},
+				{
+					item: 4747,
+					meta: 0,
+					count: 8
 				}],
 				endPos: {
 					X: 2011,

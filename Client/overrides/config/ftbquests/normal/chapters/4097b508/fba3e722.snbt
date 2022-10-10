@@ -47,14 +47,14 @@
 		value: 300L
 	}],
 	rewards: [{
-		uid: "0c997c98",
+		uid: "a1244e7e",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
-				TemplateName: "Full Stone Diagonal",
-				UUID: "d661d3f3-ad59-4bac-8ade-b81200bc9bbd",
+				TemplateName: "Full Stone Wall Diagonal",
+				UUID: "beb39dd1-4b1b-4336-a750-423fb22e1847",
 				startPos: {
 					X: 1574,
 					Y: 4,
@@ -66,44 +66,14 @@
 					count: 7
 				},
 				{
-					item: 5506,
-					meta: 0,
-					count: 229
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 928
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 278
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
 					item: 5509,
 					meta: 0,
 					count: 162
 				},
 				{
-					item: 98,
-					meta: 0,
-					count: 170
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 16
+					item: 35,
+					meta: 1,
+					count: 2
 				},
 				{
 					item: 5508,
@@ -114,6 +84,36 @@
 					item: 109,
 					meta: 0,
 					count: 64
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 278
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 928
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 170
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 229
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 16
 				}],
 				endPos: {
 					X: 1602,
@@ -124,14 +124,14 @@
 		}
 	},
 	{
-		uid: "1204b7b1",
+		uid: "feffdb61",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Stone Wall Diagonal",
-				UUID: "2bfca8e5-6639-4d0c-b295-f71dfd406690",
+				UUID: "e0b686f1-05ea-4e1a-9026-30476bca9d94",
 				startPos: {
 					X: 1629,
 					Y: 4,
@@ -143,39 +143,14 @@
 					count: 6
 				},
 				{
-					item: 5506,
-					meta: 0,
-					count: 229
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 936
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 270
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
 					item: 5509,
 					meta: 0,
 					count: 166
 				},
 				{
-					item: 98,
-					meta: 0,
-					count: 114
+					item: 35,
+					meta: 1,
+					count: 2
 				},
 				{
 					item: 5508,
@@ -186,6 +161,31 @@
 					item: 109,
 					meta: 0,
 					count: 64
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 270
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 936
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 114
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 229
 				}],
 				endPos: {
 					X: 1657,
@@ -196,14 +196,14 @@
 		}
 	},
 	{
-		uid: "f73f383b",
+		uid: "278fb44d",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Stone Wall Walkthrough Diagonal",
-				UUID: "17910954-9c88-485c-9634-2ee0f299d29f",
+				UUID: "6cc2ef1e-6b11-406c-87ad-8da710c5d944",
 				startPos: {
 					X: 1667,
 					Y: 4,
@@ -215,24 +215,9 @@
 					count: 12
 				},
 				{
-					item: 5506,
+					item: 5509,
 					meta: 0,
-					count: 221
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 880
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 132
+					count: 98
 				},
 				{
 					item: 35,
@@ -240,9 +225,24 @@
 					count: 2
 				},
 				{
-					item: 5509,
+					item: 5508,
 					meta: 0,
-					count: 98
+					count: 167
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 80
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 132
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 880
 				},
 				{
 					item: 98,
@@ -250,14 +250,14 @@
 					count: 222
 				},
 				{
-					item: 44,
-					meta: 5,
-					count: 92
+					item: 35,
+					meta: 11,
+					count: 2
 				},
 				{
-					item: 5508,
+					item: 5506,
 					meta: 0,
-					count: 167
+					count: 221
 				},
 				{
 					item: 50,
@@ -265,9 +265,9 @@
 					count: 21
 				},
 				{
-					item: 109,
-					meta: 0,
-					count: 80
+					item: 44,
+					meta: 5,
+					count: 92
 				}],
 				endPos: {
 					X: 1698,

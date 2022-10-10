@@ -47,14 +47,14 @@
 		value: 300L
 	}],
 	rewards: [{
-		uid: "38540366",
+		uid: "5d0287d4",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
-				TemplateName: "Full Stone Straight to Diagonal",
-				UUID: "eb1faf1e-f250-4f8d-9f39-66b168dc923d",
+				TemplateName: "Full Stone Wall Obtuse Straight Diagonal Connector",
+				UUID: "f3d32441-1e30-4b67-a5c8-e4f18c40fd22",
 				startPos: {
 					X: 1570,
 					Y: 4,
@@ -66,44 +66,14 @@
 					count: 7
 				},
 				{
-					item: 5506,
-					meta: 0,
-					count: 469
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 1764
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 408
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
 					item: 5509,
 					meta: 0,
 					count: 294
 				},
 				{
-					item: 98,
-					meta: 0,
-					count: 304
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 16
+					item: 35,
+					meta: 1,
+					count: 2
 				},
 				{
 					item: 5508,
@@ -114,6 +84,36 @@
 					item: 109,
 					meta: 0,
 					count: 160
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 408
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 1764
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 304
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 469
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 16
 				}],
 				endPos: {
 					X: 1598,
@@ -124,14 +124,14 @@
 		}
 	},
 	{
-		uid: "f0fd20a3",
+		uid: "5b0e63a3",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
-				TemplateName: "Stone Wall Straight to Diagonal",
-				UUID: "f167efb0-3bda-462c-92b3-739928b38e99",
+				TemplateName: "Stone Wall Obtuse Straight Diagonal Connector",
+				UUID: "5066b12a-8fe3-42ac-8e6f-7e7d5464a60d",
 				startPos: {
 					X: 1625,
 					Y: 4,
@@ -143,39 +143,14 @@
 					count: 7
 				},
 				{
-					item: 5506,
-					meta: 0,
-					count: 470
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 1772
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 400
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
 					item: 5509,
 					meta: 0,
 					count: 301
 				},
 				{
-					item: 98,
-					meta: 0,
-					count: 184
+					item: 35,
+					meta: 1,
+					count: 2
 				},
 				{
 					item: 5508,
@@ -186,6 +161,31 @@
 					item: 109,
 					meta: 0,
 					count: 144
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 400
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 1772
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 184
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 470
 				}],
 				endPos: {
 					X: 1653,
@@ -196,14 +196,14 @@
 		}
 	},
 	{
-		uid: "6d4540ca",
+		uid: "d11908c6",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
-				TemplateName: "Stone Wall Walkthrough Straight to Diagonal",
-				UUID: "4ead13a3-af6c-416b-a86d-327634e22046",
+				TemplateName: "Stone Wall Thru Obtuse Straight Diagonal Connector",
+				UUID: "515f22b6-ae2e-474e-aef3-903c91d30ab4",
 				startPos: {
 					X: 1663,
 					Y: 4,
@@ -215,24 +215,9 @@
 					count: 14
 				},
 				{
-					item: 5506,
+					item: 5509,
 					meta: 0,
-					count: 481
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 1801
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 268
+					count: 234
 				},
 				{
 					item: 35,
@@ -240,9 +225,24 @@
 					count: 2
 				},
 				{
-					item: 5509,
+					item: 5508,
 					meta: 0,
-					count: 234
+					count: 327
+				},
+				{
+					item: 109,
+					meta: 0,
+					count: 176
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 268
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 1801
 				},
 				{
 					item: 98,
@@ -250,14 +250,14 @@
 					count: 453
 				},
 				{
-					item: 44,
-					meta: 5,
-					count: 124
+					item: 35,
+					meta: 11,
+					count: 2
 				},
 				{
-					item: 5508,
+					item: 5506,
 					meta: 0,
-					count: 327
+					count: 481
 				},
 				{
 					item: 50,
@@ -265,9 +265,9 @@
 					count: 42
 				},
 				{
-					item: 109,
-					meta: 0,
-					count: 176
+					item: 44,
+					meta: 5,
+					count: 124
 				}],
 				endPos: {
 					X: 1696,

@@ -27,43 +27,23 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "c51c6310",
+		uid: "0dc33860",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Warped Farmland + Greatwood",
-				UUID: "dfcbd362-c22b-4991-8338-c90a363ca0f6",
+				UUID: "7c52ac31-e550-4dc6-8456-bb92d7acb0c2",
 				startPos: {
 					X: 291,
 					Y: 4,
 					Z: -105
 				},
 				itemcountmap: [{
-					item: 5508,
-					meta: 0,
-					count: 10
-				},
-				{
 					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 9038,
-					meta: 0,
-					count: 31
-				},
-				{
-					item: 5352,
-					meta: 5,
-					count: 72
-				},
-				{
-					item: 5503,
-					meta: 0,
-					count: 60
+					meta: 14,
+					count: 4
 				},
 				{
 					item: 169,
@@ -71,24 +51,19 @@
 					count: 13
 				},
 				{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 10249,
-					meta: 0,
-					count: 15
-				},
-				{
 					item: 5542,
 					meta: 0,
 					count: 74
 				},
 				{
-					item: 5511,
+					item: 5508,
 					meta: 0,
-					count: 4
+					count: 10
+				},
+				{
+					item: 9040,
+					meta: 0,
+					count: 31
 				},
 				{
 					item: 35,
@@ -96,19 +71,44 @@
 					count: 1
 				},
 				{
-					item: 4813,
+					item: 10251,
 					meta: 0,
-					count: 225
+					count: 15
 				},
 				{
-					item: 8987,
-					meta: 0,
-					count: 24
+					item: 35,
+					meta: 1,
+					count: 2
 				},
 				{
 					item: 5496,
 					meta: 0,
 					count: 52
+				},
+				{
+					item: 5352,
+					meta: 5,
+					count: 72
+				},
+				{
+					item: 4813,
+					meta: 0,
+					count: 225
+				},
+				{
+					item: 8989,
+					meta: 0,
+					count: 24
+				},
+				{
+					item: 5503,
+					meta: 0,
+					count: 60
+				},
+				{
+					item: 5511,
+					meta: 0,
+					count: 4
 				}],
 				endPos: {
 					X: 271,

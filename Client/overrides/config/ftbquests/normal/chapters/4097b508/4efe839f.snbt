@@ -27,14 +27,14 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "5334c107",
+		uid: "be81c832",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Warped Farmland",
-				UUID: "92b78e35-75df-4196-944d-cf5c5bfa8b09",
+				UUID: "7a62d42b-bb86-401e-8e67-5b32f4a1aa9a",
 				startPos: {
 					X: 291,
 					Y: 4,
@@ -46,19 +46,9 @@
 					count: 4
 				},
 				{
-					item: 10249,
+					item: 169,
 					meta: 0,
-					count: 16
-				},
-				{
-					item: 5511,
-					meta: 0,
-					count: 4
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
+					count: 13
 				},
 				{
 					item: 35,
@@ -66,9 +56,9 @@
 					count: 2
 				},
 				{
-					item: 9038,
-					meta: 0,
-					count: 34
+					item: 5352,
+					meta: 5,
+					count: 72
 				},
 				{
 					item: 4813,
@@ -76,14 +66,9 @@
 					count: 225
 				},
 				{
-					item: 8987,
+					item: 8989,
 					meta: 0,
 					count: 24
-				},
-				{
-					item: 5352,
-					meta: 5,
-					count: 72
 				},
 				{
 					item: 5503,
@@ -91,9 +76,24 @@
 					count: 60
 				},
 				{
-					item: 169,
+					item: 9040,
 					meta: 0,
-					count: 13
+					count: 34
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 10251,
+					meta: 0,
+					count: 16
+				},
+				{
+					item: 5511,
+					meta: 0,
+					count: 4
 				}],
 				endPos: {
 					X: 271,

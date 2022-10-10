@@ -27,14 +27,14 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "6b9087b2",
+		uid: "3afe21a7",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Diagonal Bridge L",
-				UUID: "95c2dcbb-50cc-474b-ae3d-506985e13675",
+				UUID: "72451b25-5bcf-4cf9-b973-e222a57c41c7",
 				startPos: {
 					X: 1860,
 					Y: 4,
@@ -44,6 +44,16 @@
 					item: 35,
 					meta: 14,
 					count: 14
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 46
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
 				},
 				{
 					item: 5244,
@@ -56,14 +66,14 @@
 					count: 42
 				},
 				{
-					item: 35,
-					meta: 11,
-					count: 2
+					item: 13791,
+					meta: 0,
+					count: 39
 				},
 				{
-					item: 35,
-					meta: 1,
-					count: 2
+					item: 13800,
+					meta: 0,
+					count: 115
 				},
 				{
 					item: 5506,
@@ -71,29 +81,19 @@
 					count: 92
 				},
 				{
-					item: 13793,
-					meta: 0,
-					count: 115
-				},
-				{
-					item: 13784,
-					meta: 0,
-					count: 39
-				},
-				{
 					item: 5245,
 					meta: 3,
 					count: 118
 				},
 				{
-					item: 13775,
+					item: 13782,
 					meta: 0,
 					count: 214
 				},
 				{
-					item: 5509,
-					meta: 0,
-					count: 46
+					item: 35,
+					meta: 11,
+					count: 2
 				}],
 				endPos: {
 					X: 1883,

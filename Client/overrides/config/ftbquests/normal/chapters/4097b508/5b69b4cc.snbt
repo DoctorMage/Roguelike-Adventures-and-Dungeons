@@ -27,14 +27,14 @@
 		value: 50L
 	}],
 	rewards: [{
-		uid: "81909a53",
+		uid: "46fd96d7",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Thaumic Spa",
-				UUID: "a2fa37a0-c3f1-4c2b-a051-a6d693e3da44",
+				UUID: "305a583b-c019-4bf7-92dc-d25af2a4799e",
 				startPos: {
 					X: 288,
 					Y: 4,
@@ -46,19 +46,34 @@
 					count: 4
 				},
 				{
-					item: 5508,
-					meta: 0,
-					count: 9
+					item: 5392,
+					meta: 12,
+					count: 4
 				},
 				{
-					item: 5352,
-					meta: 11,
-					count: 24
+					item: 380,
+					meta: 0,
+					count: 1
 				},
 				{
 					item: 35,
-					meta: 11,
-					count: 1
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 8987,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 5496,
+					meta: 0,
+					count: 14
+				},
+				{
+					item: 5508,
+					meta: 0,
+					count: 9
 				},
 				{
 					item: 5505,
@@ -67,38 +82,23 @@
 				},
 				{
 					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 380,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 8985,
-					meta: 0,
-					count: 8
-				},
-				{
-					item: 5392,
-					meta: 12,
-					count: 4
-				},
-				{
-					item: 35,
 					meta: 6,
 					count: 1
-				},
-				{
-					item: 5496,
-					meta: 0,
-					count: 14
 				},
 				{
 					item: 35,
 					meta: 9,
 					count: 1
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5352,
+					meta: 11,
+					count: 24
 				}],
 				endPos: {
 					X: 276,

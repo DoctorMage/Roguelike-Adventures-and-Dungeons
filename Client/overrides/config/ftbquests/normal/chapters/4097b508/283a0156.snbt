@@ -27,48 +27,28 @@
 		value: 50L
 	}],
 	rewards: [{
-		uid: "37444d15",
+		uid: "11be50eb",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Birch Library",
-				UUID: "b9e3d03f-6f0d-4b9e-8a53-0e51a888d6ad",
+				UUID: "1df4a2a2-cfaa-4010-8f4b-5612b03511e2",
 				startPos: {
 					X: 281,
 					Y: 4,
 					Z: -107
 				},
 				itemcountmap: [{
-					item: 135,
-					meta: 0,
-					count: 5
-				},
-				{
-					item: 5483,
-					meta: 0,
-					count: 1
-				},
-				{
 					item: 35,
-					meta: 1,
-					count: 2
+					meta: 14,
+					count: 4
 				},
 				{
-					item: 126,
-					meta: 2,
-					count: 29
-				},
-				{
-					item: 5430,
-					meta: 0,
-					count: 52
-				},
-				{
-					item: 35,
+					item: 5248,
 					meta: 6,
-					count: 1
+					count: 11
 				},
 				{
 					item: 5248,
@@ -76,24 +56,9 @@
 					count: 10
 				},
 				{
-					item: 6151,
+					item: 6153,
 					meta: 2,
 					count: 10
-				},
-				{
-					item: 5248,
-					meta: 6,
-					count: 11
-				},
-				{
-					item: 35,
-					meta: 9,
-					count: 32
-				},
-				{
-					item: 17,
-					meta: 2,
-					count: 59
 				},
 				{
 					item: 5248,
@@ -101,14 +66,19 @@
 					count: 11
 				},
 				{
-					item: 5270,
-					meta: 0,
-					count: 8
+					item: 17,
+					meta: 2,
+					count: 59
 				},
 				{
 					item: 35,
-					meta: 14,
-					count: 4
+					meta: 6,
+					count: 1
+				},
+				{
+					item: 35,
+					meta: 9,
+					count: 32
 				},
 				{
 					item: 35,
@@ -116,9 +86,39 @@
 					count: 1
 				},
 				{
-					item: 7357,
+					item: 5430,
+					meta: 0,
+					count: 52
+				},
+				{
+					item: 7359,
 					meta: 2,
 					count: 6
+				},
+				{
+					item: 135,
+					meta: 0,
+					count: 5
+				},
+				{
+					item: 126,
+					meta: 2,
+					count: 29
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5483,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 5270,
+					meta: 0,
+					count: 8
 				}],
 				endPos: {
 					X: 267,

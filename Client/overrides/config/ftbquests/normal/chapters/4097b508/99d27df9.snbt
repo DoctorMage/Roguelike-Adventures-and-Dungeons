@@ -47,14 +47,14 @@
 		value: 300L
 	}],
 	rewards: [{
-		uid: "78e0b305",
+		uid: "8b4d7e8a",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
-				copycounter: 2,
-				TemplateName: "Full Stone Archway",
-				UUID: "0a663abd-2120-447d-aeb1-f3f0593b55e1",
+				copycounter: 1,
+				TemplateName: "Full Stone Wall Archway",
+				UUID: "33a651da-4b12-4f2d-919d-560d102de725",
 				startPos: {
 					X: 1589,
 					Y: 4,
@@ -66,24 +66,9 @@
 					count: 11
 				},
 				{
-					item: 5506,
+					item: 5509,
 					meta: 0,
-					count: 192
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 842
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 96
+					count: 124
 				},
 				{
 					item: 35,
@@ -91,14 +76,24 @@
 					count: 2
 				},
 				{
-					item: 9048,
+					item: 9050,
 					meta: 0,
 					count: 87
 				},
 				{
-					item: 5509,
+					item: 109,
 					meta: 0,
-					count: 124
+					count: 56
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 96
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 842
 				},
 				{
 					item: 98,
@@ -106,9 +101,14 @@
 					count: 56
 				},
 				{
-					item: 109,
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5506,
 					meta: 0,
-					count: 56
+					count: 192
 				}],
 				endPos: {
 					X: 1598,
@@ -119,14 +119,14 @@
 		}
 	},
 	{
-		uid: "c5670e58",
+		uid: "ce31a5dc",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Stone Wall Archway",
-				UUID: "3275f70f-3c0c-460b-a5e1-735486c76d3a",
+				UUID: "d1bee3c8-ce9f-44ca-9b39-2ecc43229c41",
 				startPos: {
 					X: 1633,
 					Y: 4,
@@ -138,24 +138,9 @@
 					count: 11
 				},
 				{
-					item: 5506,
+					item: 5509,
 					meta: 0,
-					count: 192
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 842
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 96
+					count: 124
 				},
 				{
 					item: 35,
@@ -163,14 +148,24 @@
 					count: 2
 				},
 				{
-					item: 9048,
+					item: 9050,
 					meta: 0,
 					count: 87
 				},
 				{
-					item: 5509,
+					item: 109,
 					meta: 0,
-					count: 124
+					count: 40
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 96
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 842
 				},
 				{
 					item: 98,
@@ -178,9 +173,14 @@
 					count: 32
 				},
 				{
-					item: 109,
+					item: 35,
+					meta: 11,
+					count: 1
+				},
+				{
+					item: 5506,
 					meta: 0,
-					count: 40
+					count: 192
 				}],
 				endPos: {
 					X: 1642,
@@ -191,48 +191,33 @@
 		}
 	},
 	{
-		uid: "5d5de071",
+		uid: "21e53d4a",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
-				copycounter: 2,
+				copycounter: 1,
 				TemplateName: "Stone Wall Walkthrough Archway",
-				UUID: "05a2cd93-f6e8-4316-bf22-f0fdf6d86258",
+				UUID: "0b16f7bc-0c73-4ab9-b86d-479860ed53ff",
 				startPos: {
 					X: 1672,
 					Y: 4,
 					Z: 765
 				},
 				itemcountmap: [{
-					item: 5352,
-					meta: 4,
-					count: 96
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 160
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 10
-				},
-				{
 					item: 35,
 					meta: 14,
 					count: 7
 				},
 				{
-					item: 5506,
+					item: 109,
 					meta: 0,
-					count: 226
+					count: 88
+				},
+				{
+					item: 5508,
+					meta: 0,
+					count: 90
 				},
 				{
 					item: 5497,
@@ -245,14 +230,9 @@
 					count: 1
 				},
 				{
-					item: 9048,
+					item: 50,
 					meta: 0,
-					count: 174
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 95
+					count: 10
 				},
 				{
 					item: 44,
@@ -260,14 +240,34 @@
 					count: 16
 				},
 				{
-					item: 5508,
+					item: 5509,
 					meta: 0,
-					count: 90
+					count: 160
 				},
 				{
-					item: 109,
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 9050,
 					meta: 0,
-					count: 88
+					count: 174
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 96
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 95
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 226
 				}],
 				endPos: {
 					X: 1686,

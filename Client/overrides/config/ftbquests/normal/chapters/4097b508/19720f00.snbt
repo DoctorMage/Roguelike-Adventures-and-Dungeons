@@ -37,48 +37,38 @@
 		value: 500L
 	}],
 	rewards: [{
-		uid: "e62d1817",
+		uid: "3284d100",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Radiant Master Statue",
-				UUID: "2d74401c-b220-4a3e-b761-20bdfdfc6f05",
+				UUID: "3cd27f2e-33ac-487e-b8f3-a79d7580be03",
 				startPos: {
 					X: 366,
 					Y: 5,
 					Z: -115
 				},
 				itemcountmap: [{
+					item: 35,
+					meta: 14,
+					count: 6
+				},
+				{
 					item: 5387,
 					meta: 3,
 					count: 31
 				},
 				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 41,
-					meta: 0,
-					count: 8
-				},
-				{
-					item: 159,
-					meta: 4,
-					count: 404
-				},
-				{
-					item: 6075,
+					item: 9043,
 					meta: 0,
 					count: 6
 				},
 				{
-					item: 155,
+					item: 6077,
 					meta: 0,
-					count: 13
+					count: 6
 				},
 				{
 					item: 156,
@@ -86,14 +76,9 @@
 					count: 20
 				},
 				{
-					item: 50,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 5419,
-					meta: 11,
-					count: 64
+					item: 5420,
+					meta: 7,
+					count: 40
 				},
 				{
 					item: 5388,
@@ -102,18 +87,8 @@
 				},
 				{
 					item: 35,
-					meta: 14,
-					count: 6
-				},
-				{
-					item: 5422,
-					meta: 2,
-					count: 32
-				},
-				{
-					item: 5420,
-					meta: 7,
-					count: 40
+					meta: 11,
+					count: 1
 				},
 				{
 					item: 5420,
@@ -121,14 +96,44 @@
 					count: 796
 				},
 				{
+					item: 155,
+					meta: 0,
+					count: 13
+				},
+				{
+					item: 41,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 5949,
+					meta: 0,
+					count: 8
+				},
+				{
 					item: 44,
 					meta: 7,
 					count: 19
 				},
 				{
-					item: 35,
+					item: 5419,
 					meta: 11,
-					count: 1
+					count: 64
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5984,
+					meta: 0,
+					count: 48
 				},
 				{
 					item: 5394,
@@ -136,29 +141,24 @@
 					count: 12
 				},
 				{
-					item: 5955,
-					meta: 0,
-					count: 48
+					item: 5338,
+					meta: 5,
+					count: 37
 				},
 				{
-					item: 9041,
-					meta: 0,
-					count: 6
+					item: 5422,
+					meta: 2,
+					count: 32
 				},
 				{
-					item: 6036,
-					meta: 0,
-					count: 8
-				},
-				{
-					item: 5953,
+					item: 5982,
 					meta: 0,
 					count: 598
 				},
 				{
-					item: 5338,
-					meta: 5,
-					count: 37
+					item: 159,
+					meta: 4,
+					count: 404
 				}],
 				endPos: {
 					X: 383,

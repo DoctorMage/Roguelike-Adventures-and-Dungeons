@@ -47,14 +47,14 @@
 		value: 300L
 	}],
 	rewards: [{
-		uid: "5da6903d",
+		uid: "d22d06dc",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
-				TemplateName: "Full Stone Straight T",
-				UUID: "ad82ee87-884d-43a0-afbf-081da6f6ff59",
+				TemplateName: "Full Stone Wall Straight T",
+				UUID: "870c8e98-7386-4aa5-ab5f-f484acb79943",
 				startPos: {
 					X: 1571,
 					Y: 4,
@@ -66,24 +66,9 @@
 					count: 14
 				},
 				{
-					item: 5506,
+					item: 5509,
 					meta: 0,
-					count: 354
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 1230
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 225
+					count: 201
 				},
 				{
 					item: 35,
@@ -91,9 +76,19 @@
 					count: 2
 				},
 				{
-					item: 5509,
+					item: 109,
 					meta: 0,
-					count: 201
+					count: 144
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 225
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 1230
 				},
 				{
 					item: 98,
@@ -101,9 +96,14 @@
 					count: 202
 				},
 				{
-					item: 109,
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 5506,
 					meta: 0,
-					count: 144
+					count: 354
 				}],
 				endPos: {
 					X: 1604,
@@ -114,14 +114,14 @@
 		}
 	},
 	{
-		uid: "630cece9",
+		uid: "a4b752b7",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Stone Wall Straight T",
-				UUID: "c0d3491a-38f6-437a-9bb0-3670e3e19a80",
+				UUID: "2f649fa1-874b-44b7-913a-4e21d9e49c31",
 				startPos: {
 					X: 1626,
 					Y: 4,
@@ -133,24 +133,9 @@
 					count: 14
 				},
 				{
-					item: 5506,
+					item: 5509,
 					meta: 0,
-					count: 354
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 1230
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 225
+					count: 201
 				},
 				{
 					item: 35,
@@ -158,9 +143,19 @@
 					count: 2
 				},
 				{
-					item: 5509,
+					item: 109,
 					meta: 0,
-					count: 201
+					count: 120
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 225
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 1230
 				},
 				{
 					item: 98,
@@ -168,9 +163,14 @@
 					count: 106
 				},
 				{
-					item: 109,
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 5506,
 					meta: 0,
-					count: 120
+					count: 354
 				}],
 				endPos: {
 					X: 1659,
@@ -181,14 +181,14 @@
 		}
 	},
 	{
-		uid: "efbdb36f",
+		uid: "bbb8a80a",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Stone Wall Walkthrough Straight T",
-				UUID: "41af3bab-ceff-4e29-bdfc-46dc539abbeb",
+				UUID: "7e42d615-c80b-4cc1-acf6-7dc7e4b18a17",
 				startPos: {
 					X: 1678,
 					Y: 4,
@@ -200,49 +200,14 @@
 					count: 10
 				},
 				{
-					item: 5506,
-					meta: 0,
-					count: 305
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 1104
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 168
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
 					item: 5509,
 					meta: 0,
 					count: 152
 				},
 				{
-					item: 98,
-					meta: 0,
-					count: 328
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 30
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 25
+					item: 35,
+					meta: 1,
+					count: 2
 				},
 				{
 					item: 5508,
@@ -253,6 +218,41 @@
 					item: 109,
 					meta: 0,
 					count: 108
+				},
+				{
+					item: 5352,
+					meta: 4,
+					count: 168
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 1104
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 328
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 25
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 305
+				},
+				{
+					item: 44,
+					meta: 5,
+					count: 30
 				}],
 				endPos: {
 					X: 1710,

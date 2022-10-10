@@ -28,33 +28,23 @@
 		value: 200L
 	}],
 	rewards: [{
-		uid: "621dff03",
+		uid: "bf3c1828",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
-				copycounter: 2,
+				copycounter: 1,
 				TemplateName: "Thaumic House",
-				UUID: "721e5e7d-bbf0-447e-b4e8-c62e2371ecf8",
+				UUID: "f56dd473-8236-41e6-b825-5a7c082367fe",
 				startPos: {
 					X: 296,
 					Y: 4,
 					Z: -104
 				},
 				itemcountmap: [{
-					item: 5352,
-					meta: 11,
-					count: 22
-				},
-				{
 					item: 35,
-					meta: 1,
-					count: 3
-				},
-				{
-					item: 8985,
-					meta: 0,
-					count: 51
+					meta: 14,
+					count: 4
 				},
 				{
 					item: 5392,
@@ -67,9 +57,84 @@
 					count: 18
 				},
 				{
-					item: 9038,
+					item: 35,
+					meta: 6,
+					count: 1
+				},
+				{
+					item: 5497,
+					meta: 0,
+					count: 138
+				},
+				{
+					item: 9040,
 					meta: 0,
 					count: 49
+				},
+				{
+					item: 5526,
+					meta: 0,
+					count: 161
+				},
+				{
+					item: 35,
+					meta: 12,
+					count: 1
+				},
+				{
+					item: 4497,
+					meta: 15,
+					count: 4
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 3
+				},
+				{
+					item: 5525,
+					meta: 0,
+					count: 3
+				},
+				{
+					item: 5265,
+					meta: 0,
+					count: 2
+				},
+				{
+					item: 5357,
+					meta: 6,
+					count: 50
+				},
+				{
+					item: 5523,
+					meta: 0,
+					count: 26
+				},
+				{
+					item: 4841,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 5506,
+					meta: 0,
+					count: 33
+				},
+				{
+					item: 5352,
+					meta: 11,
+					count: 22
+				},
+				{
+					item: 35,
+					meta: 15,
+					count: 1
+				},
+				{
+					item: 5521,
+					meta: 0,
+					count: 291
 				},
 				{
 					item: 5522,
@@ -77,14 +142,29 @@
 					count: 236
 				},
 				{
+					item: 9048,
+					meta: 0,
+					count: 2
+				},
+				{
 					item: 35,
 					meta: 9,
 					count: 1
 				},
 				{
+					item: 5514,
+					meta: 0,
+					count: 153
+				},
+				{
 					item: 35,
-					meta: 14,
-					count: 4
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 35,
+					meta: 13,
+					count: 1
 				},
 				{
 					item: 5509,
@@ -93,23 +173,13 @@
 				},
 				{
 					item: 35,
-					meta: 12,
+					meta: 0,
 					count: 1
 				},
 				{
-					item: 5523,
+					item: 8987,
 					meta: 0,
-					count: 26
-				},
-				{
-					item: 9046,
-					meta: 0,
-					count: 2
-				},
-				{
-					item: 5525,
-					meta: 0,
-					count: 3
+					count: 51
 				},
 				{
 					item: 5240,
@@ -120,76 +190,6 @@
 					item: 5352,
 					meta: 10,
 					count: 10
-				},
-				{
-					item: 35,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 4497,
-					meta: 15,
-					count: 4
-				},
-				{
-					item: 35,
-					meta: 6,
-					count: 1
-				},
-				{
-					item: 5357,
-					meta: 6,
-					count: 50
-				},
-				{
-					item: 5526,
-					meta: 0,
-					count: 161
-				},
-				{
-					item: 5514,
-					meta: 0,
-					count: 153
-				},
-				{
-					item: 35,
-					meta: 13,
-					count: 1
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 33
-				},
-				{
-					item: 5521,
-					meta: 0,
-					count: 291
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				},
-				{
-					item: 5265,
-					meta: 0,
-					count: 2
-				},
-				{
-					item: 35,
-					meta: 15,
-					count: 1
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 138
-				},
-				{
-					item: 4841,
-					meta: 0,
-					count: 4
 				}],
 				endPos: {
 					X: 277,

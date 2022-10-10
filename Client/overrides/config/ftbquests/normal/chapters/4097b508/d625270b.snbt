@@ -27,14 +27,14 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "81afd305",
+		uid: "5e27ab37",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Crimson Jar Storage",
-				UUID: "15811989-353d-45cf-bff2-acf2e47bf8d7",
+				UUID: "e87b218d-f5e7-4c43-a533-f007a35198ce",
 				startPos: {
 					X: 293,
 					Y: 4,
@@ -46,19 +46,9 @@
 					count: 4
 				},
 				{
-					item: 215,
-					meta: 0,
-					count: 207
-				},
-				{
-					item: 5505,
-					meta: 0,
-					count: 87
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
+					item: 5392,
+					meta: 12,
+					count: 10
 				},
 				{
 					item: 35,
@@ -66,14 +56,29 @@
 					count: 2
 				},
 				{
+					item: 5496,
+					meta: 0,
+					count: 226
+				},
+				{
 					item: 5508,
 					meta: 0,
 					count: 132
 				},
 				{
-					item: 5392,
-					meta: 12,
-					count: 10
+					item: 6120,
+					meta: 4,
+					count: 23
+				},
+				{
+					item: 5505,
+					meta: 0,
+					count: 87
+				},
+				{
+					item: 215,
+					meta: 0,
+					count: 207
 				},
 				{
 					item: 35,
@@ -81,19 +86,14 @@
 					count: 4
 				},
 				{
-					item: 6118,
-					meta: 4,
-					count: 23
-				},
-				{
 					item: 5352,
 					meta: 10,
 					count: 145
 				},
 				{
-					item: 5496,
-					meta: 0,
-					count: 226
+					item: 35,
+					meta: 11,
+					count: 1
 				}],
 				endPos: {
 					X: 269,

@@ -27,14 +27,14 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "c35be7d0",
+		uid: "1494b431",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Clock Tower",
-				UUID: "04dedf97-78a9-4831-94e6-90c0ad0826bc",
+				UUID: "5a367de6-2bac-4c45-8221-503ae27e407d",
 				startPos: {
 					X: 1991,
 					Y: 4,
@@ -42,88 +42,8 @@
 				},
 				itemcountmap: [{
 					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 120
-				},
-				{
-					item: 5244,
-					meta: 2,
-					count: 49
-				},
-				{
-					item: 4827,
-					meta: 0,
-					count: 4
-				},
-				{
-					item: 35,
 					meta: 14,
 					count: 14
-				},
-				{
-					item: 4791,
-					meta: 0,
-					count: 2
-				},
-				{
-					item: 13775,
-					meta: 0,
-					count: 386
-				},
-				{
-					item: 4770,
-					meta: 0,
-					count: 32
-				},
-				{
-					item: 5357,
-					meta: 3,
-					count: 88
-				},
-				{
-					item: 4228,
-					meta: 0,
-					count: 4
-				},
-				{
-					item: 4771,
-					meta: 0,
-					count: 32
-				},
-				{
-					item: 4160,
-					meta: 6,
-					count: 22
-				},
-				{
-					item: 7976,
-					meta: 0,
-					count: 88
-				},
-				{
-					item: 5245,
-					meta: 1,
-					count: 32
-				},
-				{
-					item: 5245,
-					meta: 3,
-					count: 391
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 9
-				},
-				{
-					item: 7803,
-					meta: 6,
-					count: 208
 				},
 				{
 					item: 4497,
@@ -131,44 +51,49 @@
 					count: 4
 				},
 				{
-					item: 5272,
-					meta: 0,
-					count: 28
+					item: 7805,
+					meta: 6,
+					count: 208
 				},
 				{
-					item: 4769,
+					item: 4771,
 					meta: 0,
-					count: 333
+					count: 32
 				},
 				{
-					item: 35,
-					meta: 11,
+					item: 13791,
+					meta: 0,
+					count: 198
+				},
+				{
+					item: 4791,
+					meta: 0,
 					count: 2
 				},
 				{
-					item: 4747,
+					item: 13782,
 					meta: 0,
-					count: 24
+					count: 386
 				},
 				{
-					item: 5243,
-					meta: 8,
-					count: 104
-				},
-				{
-					item: 7991,
+					item: 50,
 					meta: 0,
-					count: 96
+					count: 9
 				},
 				{
-					item: 10120,
+					item: 4228,
 					meta: 0,
-					count: 32
+					count: 4
 				},
 				{
-					item: 5360,
+					item: 35,
 					meta: 1,
-					count: 32
+					count: 2
+				},
+				{
+					item: 5244,
+					meta: 2,
+					count: 49
 				},
 				{
 					item: 4815,
@@ -176,19 +101,94 @@
 					count: 528
 				},
 				{
+					item: 4827,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 7993,
+					meta: 0,
+					count: 96
+				},
+				{
 					item: 5506,
 					meta: 0,
 					count: 360
 				},
 				{
-					item: 13784,
-					meta: 0,
-					count: 198
-				},
-				{
 					item: 4814,
 					meta: 1,
 					count: 240
+				},
+				{
+					item: 5272,
+					meta: 0,
+					count: 28
+				},
+				{
+					item: 4770,
+					meta: 0,
+					count: 32
+				},
+				{
+					item: 7978,
+					meta: 0,
+					count: 88
+				},
+				{
+					item: 5245,
+					meta: 3,
+					count: 391
+				},
+				{
+					item: 4160,
+					meta: 6,
+					count: 22
+				},
+				{
+					item: 35,
+					meta: 11,
+					count: 2
+				},
+				{
+					item: 10122,
+					meta: 0,
+					count: 32
+				},
+				{
+					item: 5245,
+					meta: 1,
+					count: 32
+				},
+				{
+					item: 5509,
+					meta: 0,
+					count: 120
+				},
+				{
+					item: 4769,
+					meta: 0,
+					count: 333
+				},
+				{
+					item: 5357,
+					meta: 3,
+					count: 88
+				},
+				{
+					item: 5243,
+					meta: 8,
+					count: 104
+				},
+				{
+					item: 5360,
+					meta: 1,
+					count: 32
+				},
+				{
+					item: 4747,
+					meta: 0,
+					count: 24
 				}],
 				endPos: {
 					X: 2010,

@@ -27,38 +27,23 @@
 		value: 50L
 	}],
 	rewards: [{
-		uid: "6caf217a",
+		uid: "0a6cef3a",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Thaumic Observer Tower",
-				UUID: "8a832fa0-a9e3-48d0-ba18-9b4878c31295",
+				UUID: "e9260f2b-b087-4e78-9aef-b5ac1105e964",
 				startPos: {
 					X: 288,
 					Y: 4,
 					Z: -112
 				},
 				itemcountmap: [{
-					item: 5508,
-					meta: 0,
-					count: 8
-				},
-				{
-					item: 5352,
-					meta: 11,
-					count: 6
-				},
-				{
 					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 8985,
-					meta: 0,
-					count: 64
+					meta: 14,
+					count: 4
 				},
 				{
 					item: 5392,
@@ -66,19 +51,24 @@
 					count: 1
 				},
 				{
+					item: 5508,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 5505,
+					meta: 0,
+					count: 44
+				},
+				{
+					item: 9027,
+					meta: 0,
+					count: 8
+				},
+				{
 					item: 35,
 					meta: 6,
 					count: 2
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 35,
-					meta: 9,
-					count: 1
 				},
 				{
 					item: 4497,
@@ -87,8 +77,13 @@
 				},
 				{
 					item: 35,
-					meta: 14,
-					count: 4
+					meta: 9,
+					count: 1
+				},
+				{
+					item: 50,
+					meta: 0,
+					count: 1
 				},
 				{
 					item: 35,
@@ -96,24 +91,29 @@
 					count: 1
 				},
 				{
-					item: 5505,
-					meta: 0,
-					count: 44
-				},
-				{
-					item: 9025,
-					meta: 0,
-					count: 8
+					item: 35,
+					meta: 1,
+					count: 2
 				},
 				{
 					item: 8987,
 					meta: 0,
-					count: 24
+					count: 64
 				},
 				{
 					item: 5496,
 					meta: 0,
 					count: 54
+				},
+				{
+					item: 8989,
+					meta: 0,
+					count: 24
+				},
+				{
+					item: 5352,
+					meta: 11,
+					count: 6
 				}],
 				endPos: {
 					X: 282,

@@ -27,14 +27,14 @@
 		value: 50L
 	}],
 	rewards: [{
-		uid: "af8140d6",
+		uid: "ff997843",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Crimson Spa",
-				UUID: "53059db9-ba0b-4d70-9927-92f62b8cf55c",
+				UUID: "c155fea3-d4ae-482e-9548-79036b6fa3c8",
 				startPos: {
 					X: 288,
 					Y: 4,
@@ -46,18 +46,13 @@
 					count: 4
 				},
 				{
-					item: 215,
-					meta: 0,
-					count: 8
+					item: 5392,
+					meta: 12,
+					count: 4
 				},
 				{
-					item: 5505,
+					item: 380,
 					meta: 0,
-					count: 52
-				},
-				{
-					item: 35,
-					meta: 11,
 					count: 1
 				},
 				{
@@ -66,9 +61,9 @@
 					count: 2
 				},
 				{
-					item: 380,
+					item: 5496,
 					meta: 0,
-					count: 1
+					count: 14
 				},
 				{
 					item: 5508,
@@ -76,9 +71,19 @@
 					count: 9
 				},
 				{
+					item: 5505,
+					meta: 0,
+					count: 52
+				},
+				{
 					item: 35,
 					meta: 6,
 					count: 1
+				},
+				{
+					item: 215,
+					meta: 0,
+					count: 8
 				},
 				{
 					item: 35,
@@ -86,19 +91,14 @@
 					count: 1
 				},
 				{
-					item: 5392,
-					meta: 12,
-					count: 4
-				},
-				{
 					item: 5352,
 					meta: 10,
 					count: 24
 				},
 				{
-					item: 5496,
-					meta: 0,
-					count: 14
+					item: 35,
+					meta: 11,
+					count: 1
 				}],
 				endPos: {
 					X: 276,

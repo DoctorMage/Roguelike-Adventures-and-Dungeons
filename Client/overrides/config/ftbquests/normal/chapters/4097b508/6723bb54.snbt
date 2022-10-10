@@ -27,14 +27,14 @@
 		value: 5L
 	}],
 	rewards: [{
-		uid: "b059f770",
+		uid: "d96b5247",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Bridge Extender",
-				UUID: "fe00393c-0ca4-4f6f-89a7-e64155d44a65",
+				UUID: "ae24dadf-eaaf-4bf4-9132-182ce95c0b2c",
 				startPos: {
 					X: 1935,
 					Y: 11,
@@ -46,29 +46,34 @@
 					count: 7
 				},
 				{
+					item: 5509,
+					meta: 0,
+					count: 2
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 13791,
+					meta: 0,
+					count: 2
+				},
+				{
 					item: 4815,
 					meta: 1,
 					count: 2
 				},
 				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 13793,
+					item: 13800,
 					meta: 0,
 					count: 4
 				},
 				{
-					item: 13784,
+					item: 13782,
 					meta: 0,
-					count: 2
+					count: 11
 				},
 				{
 					item: 5506,
@@ -81,14 +86,9 @@
 					count: 2
 				},
 				{
-					item: 13775,
-					meta: 0,
-					count: 11
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 2
+					item: 35,
+					meta: 11,
+					count: 1
 				}],
 				endPos: {
 					X: 1933,

@@ -27,38 +27,23 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "6418f297",
+		uid: "968ee3dd",
 		type: "item",
 		item: {
 			id: "buildinggadgets:template",
 			tag: {
 				copycounter: 1,
 				TemplateName: "Crimson Farmland + Silverwood",
-				UUID: "f255ba64-b6f0-4c19-8d24-02acfe39e681",
+				UUID: "4a9f911f-15f1-4cc2-8d39-560210b84746",
 				startPos: {
 					X: 293,
 					Y: 4,
 					Z: -105
 				},
 				itemcountmap: [{
-					item: 215,
-					meta: 0,
-					count: 24
-				},
-				{
-					item: 5515,
-					meta: 0,
-					count: 42
-				},
-				{
 					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 9032,
-					meta: 0,
-					count: 34
+					meta: 14,
+					count: 4
 				},
 				{
 					item: 5392,
@@ -66,19 +51,14 @@
 					count: 13
 				},
 				{
-					item: 5352,
-					meta: 10,
-					count: 72
-				},
-				{
-					item: 5496,
+					item: 5515,
 					meta: 0,
-					count: 112
+					count: 42
 				},
 				{
-					item: 35,
-					meta: 14,
-					count: 4
+					item: 5508,
+					meta: 0,
+					count: 14
 				},
 				{
 					item: 5505,
@@ -91,9 +71,24 @@
 					count: 1
 				},
 				{
-					item: 5508,
+					item: 5517,
 					meta: 0,
-					count: 14
+					count: 283
+				},
+				{
+					item: 35,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 5496,
+					meta: 0,
+					count: 112
+				},
+				{
+					item: 215,
+					meta: 0,
+					count: 24
 				},
 				{
 					item: 4813,
@@ -101,9 +96,14 @@
 					count: 225
 				},
 				{
-					item: 5517,
+					item: 9034,
 					meta: 0,
-					count: 283
+					count: 34
+				},
+				{
+					item: 5352,
+					meta: 10,
+					count: 72
 				}],
 				endPos: {
 					X: 273,
