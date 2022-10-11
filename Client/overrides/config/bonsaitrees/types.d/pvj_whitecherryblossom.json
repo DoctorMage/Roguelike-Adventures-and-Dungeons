@@ -1,0 +1,31 @@
+{
+    "name": "pvj:whitecherryblossom",
+    "mod": "pvj",
+    "sapling": {
+        "name": "pvj:sapling_white_cherry_blossom",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.5,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "pvj:log_cherry_blossom",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "pvj:sapling_white_cherry_blossom",
+            "data": 0,
+            "type": "SAPLING"
+        },
+        {
+            "name": "pvj:leaves_white_cherry_blossom",
+            "data": 0,
+            "type": "LEAVES"
+        }
+    ]
+}

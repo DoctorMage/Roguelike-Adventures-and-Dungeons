@@ -1,0 +1,108 @@
+{
+  "type": "pvj:pine",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "pvj:log_pine",
+      "meta": 0
+    },
+    "b": {
+      "name": "pvj:leaves_pine",
+      "meta": 0
+    },
+    "c": {
+      "name": "pvj:log_pine",
+      "meta": 2
+    },
+    "d": {
+      "name": "pvj:log_pine",
+      "meta": 1
+    }
+  },
+  "shape": [
+    [
+      "      ",
+      "      ",
+      "      ",
+      "      ",
+      "      ",
+      "  bb  ",
+      "      ",
+      "  bb  ",
+      "      ",
+      "      ",
+      "      ",
+      "      "
+    ],
+    [
+      "      ",
+      "  bb  ",
+      "      ",
+      "  bb  ",
+      "      ",
+      " bbbb ",
+      "      ",
+      " bbbb ",
+      "  b   ",
+      "      ",
+      "      ",
+      "      "
+    ],
+    [
+      "      ",
+      " bbbb ",
+      "   b  ",
+      " bbbb ",
+      "   b  ",
+      "bbbbbb",
+      "   b  ",
+      "bbbbbb",
+      " bdb  ",
+      "  b   ",
+      "      ",
+      "      "
+    ],
+    [
+      "  b   ",
+      " babb ",
+      "  acb ",
+      " babb ",
+      "  acb ",
+      "bbabbb",
+      "  acb ",
+      "bbabbb",
+      "  a   ",
+      "  a   ",
+      "  a   ",
+      "  a   "
+    ],
+    [
+      "      ",
+      "  bb  ",
+      "   b  ",
+      "  bb  ",
+      "   b  ",
+      " bbbb ",
+      "   b  ",
+      " bbbb ",
+      "      ",
+      "      ",
+      "      ",
+      "      "
+    ],
+    [
+      "      ",
+      "      ",
+      "      ",
+      "      ",
+      "      ",
+      "  bb  ",
+      "      ",
+      "  bb  ",
+      "      ",
+      "      ",
+      "      ",
+      "      "
+    ]
+  ]
+}

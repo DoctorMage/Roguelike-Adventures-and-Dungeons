@@ -1,0 +1,123 @@
+{
+  "type": "pvj:willow",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "pvj:log_willow",
+      "meta": 0
+    },
+    "b": {
+      "name": "pvj:leaves_willow",
+      "meta": 0
+    },
+    "c": {
+      "name": "pvj:leaves_willow",
+      "meta": 1
+    },
+    "d": {
+      "name": "minecraft:vine",
+      "meta": 2
+    },
+    "e": {
+      "name": "minecraft:vine",
+      "meta": 8
+    },
+    "f": {
+      "name": "minecraft:vine",
+      "meta": 4
+    }
+  },
+  "shape": [
+    [
+      "               ",
+      "               ",
+      "    d d        ",
+      "    d d        ",
+      "    d d        ",
+      "    d d        ",
+      "      d        ",
+      "               ",
+      "               ",
+      "               ",
+      "               "
+    ],
+    [
+      "               ",
+      " bbbb          ",
+      "   bcbbf       ",
+      "  b bbbf  bb   ",
+      "    bbbb       ",
+      "    b bf       ",
+      "       fbbbbb  ",
+      "       f       ",
+      "       f       ",
+      "               ",
+      "               "
+    ],
+    [
+      " bbbb          ",
+      " bcbc          ",
+      "  bbbbbbb      ",
+      " bbbbbbbb bbcbb",
+      "bbbbbbbbbbbbb  ",
+      "   bbcbbbbb    ",
+      "        bbbbb  ",
+      "               ",
+      "               ",
+      "               ",
+      "               "
+    ],
+    [
+      " b b           ",
+      " bbbb          ",
+      " cababbb  bbbbb",
+      "bbaababbbbbbab ",
+      " bbaaaabbbbaa  ",
+      "  bbbacaaaab   ",
+      "      baaba    ",
+      "       aa      ",
+      "        a      ",
+      "        aa     ",
+      "        aaa    "
+    ],
+    [
+      " bbbbb         ",
+      "bbbbbb         ",
+      "bbbbbbb   bbbbb",
+      "dbbbbcbb bbbbbb",
+      "dbbbbbbbbbbbb  ",
+      " bbbbbcbbbbbb  ",
+      "       bbbbb   ",
+      "               ",
+      "               ",
+      "               ",
+      "         a     "
+    ],
+    [
+      "  b            ",
+      " bc            ",
+      " b bbb         ",
+      "  bbbbbc  bc   ",
+      " bbbbbbbcbb    ",
+      "  b     bb b   ",
+      "         bbb   ",
+      "               ",
+      "               ",
+      "               ",
+      "               "
+    ],
+    [
+      "  e            ",
+      "  e            ",
+      "  e            ",
+      "               ",
+      "      e        ",
+      "      e        ",
+      "      e        ",
+      "               ",
+      "               ",
+      "               ",
+      "               "
+    ]
+  ]
+}

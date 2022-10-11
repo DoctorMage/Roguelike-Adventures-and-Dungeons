@@ -1,0 +1,159 @@
+{
+  "type": "pvj:aspen",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "pvj:leaves_aspen",
+      "meta": 0
+    },
+    "b": {
+      "name": "pvj:log_aspen",
+      "meta": 0
+    },
+    "c": {
+      "name": "pvj:log_aspen",
+      "meta": 1
+    },
+    "d": {
+      "name": "pvj:log_aspen",
+      "meta": 2
+    }
+  },
+  "shape": [
+    [
+      "         ",
+      "         ",
+      "         ",
+      "    a    ",
+      "   aa    ",
+      "    aa   ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "         ",
+      "         ",
+      "   aaa   ",
+      "   aca   ",
+      "   aaa   ",
+      "   aaa   ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "         ",
+      "    a    ",
+      "    aa   ",
+      "   aaa   ",
+      "   aca   ",
+      "   aaa   ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "    a    ",
+      "    aa   ",
+      "   aaa   ",
+      "   aca   ",
+      "aaaaaaaa ",
+      " aaacaaaa",
+      " aaaaaaa ",
+      "    a    ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "   aaa   ",
+      "   aba   ",
+      "  aabaa  ",
+      "  adbda  ",
+      "aaaabaaaa",
+      "adddbddda",
+      "aaaabaaaa",
+      "   aba   ",
+      "    b    ",
+      "    b    ",
+      "    b    ",
+      "    b    ",
+      "    b    "
+    ],
+    [
+      "    aa   ",
+      "    a    ",
+      "   aaa   ",
+      "   aca   ",
+      " aaaaaaa ",
+      " aaacaaa ",
+      " aaaaaaa ",
+      "    a    ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "         ",
+      "   aa    ",
+      "    a    ",
+      "   aaa   ",
+      "   aca   ",
+      "   aaa   ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "         ",
+      "         ",
+      "   aaa   ",
+      "   aca   ",
+      "   aaa   ",
+      "    a    ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "         ",
+      "         ",
+      "   aaa   ",
+      "    a    ",
+      "    a    ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ]
+  ]
+}

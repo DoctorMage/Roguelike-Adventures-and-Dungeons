@@ -1,0 +1,101 @@
+{
+  "type": "pvj:juniper",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "pvj:log_juniper",
+      "meta": 0
+    },
+    "b": {
+      "name": "pvj:leaves_juniper",
+      "meta": 0
+    },
+    "c": {
+      "name": "pvj:leaves_juniper",
+      "meta": 1
+    },
+    "d": {
+      "name": "pvj:leaves_juniper_berried",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "    ",
+      "    ",
+      "   b",
+      "    ",
+      " bb ",
+      " bab",
+      "  a ",
+      "  a ",
+      "    "
+    ],
+    [
+      "    ",
+      " bb ",
+      " bbc",
+      "bbbd",
+      "bbab",
+      "  ab",
+      "  a ",
+      "  a ",
+      "  a "
+    ],
+    [
+      "    ",
+      "dbb ",
+      " b  ",
+      "bbad",
+      " bab",
+      " ba ",
+      "    ",
+      "  a ",
+      "  a "
+    ],
+    [
+      "    ",
+      "db  ",
+      "bdab",
+      "bbab",
+      " ba ",
+      "bb  ",
+      "    ",
+      "    ",
+      "    "
+    ],
+    [
+      "b   ",
+      "bba ",
+      "bbbb",
+      "bb  ",
+      " bab",
+      "  a ",
+      "    ",
+      "    ",
+      "    "
+    ],
+    [
+      "b   ",
+      "    ",
+      "  b ",
+      "  bb",
+      "bbb ",
+      "    ",
+      "    ",
+      "    ",
+      "    "
+    ],
+    [
+      "    ",
+      "    ",
+      "    ",
+      "    ",
+      "bbb ",
+      "    ",
+      "    ",
+      "    ",
+      "    "
+    ]
+  ]
+}
