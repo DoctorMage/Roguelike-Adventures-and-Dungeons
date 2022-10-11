@@ -1,0 +1,93 @@
+{
+  "type": "landsoficaria:laurel",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "landsoficaria:log_laurel",
+      "meta": 0
+    },
+    "b": {
+      "name": "landsoficaria:leaf_laurel",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "       ",
+      "       ",
+      "     b ",
+      "     b ",
+      "     b ",
+      "       ",
+      "       ",
+      "       ",
+      "       "
+    ],
+    [
+      "       ",
+      "     b ",
+      "    bab",
+      "    bab",
+      "    bab",
+      "    bb ",
+      "       ",
+      "       ",
+      "       "
+    ],
+    [
+      "       ",
+      "       ",
+      " b   b ",
+      "  b  b ",
+      "  b bb ",
+      "  bbab ",
+      "    b  ",
+      "       ",
+      "       "
+    ],
+    [
+      "       ",
+      " b     ",
+      "bab    ",
+      " bab   ",
+      " bab   ",
+      " babb  ",
+      "  ba   ",
+      "   a   ",
+      "   a   "
+    ],
+    [
+      "       ",
+      "  b    ",
+      " bb    ",
+      "  b    ",
+      " bab   ",
+      " bab   ",
+      "  b    ",
+      "       ",
+      "       "
+    ],
+    [
+      "  b    ",
+      " bab   ",
+      " bab   ",
+      " bab   ",
+      "  b    ",
+      "  b    ",
+      "       ",
+      "       ",
+      "       "
+    ],
+    [
+      "       ",
+      "  b    ",
+      "  b    ",
+      "  b    ",
+      "       ",
+      "       ",
+      "       ",
+      "       ",
+      "       "
+    ]
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "type": "landsoficaria:cypress",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "landsoficaria:log_cypress",
+      "meta": 0
+    },
+    "b": {
+      "name": "landsoficaria:leaf_cypress",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "   ",
+      " b ",
+      " b ",
+      " bb",
+      "bbb",
+      "bbb",
+      "bbb",
+      "bb ",
+      " b ",
+      "   ",
+      "   "
+    ],
+    [
+      " b ",
+      " b ",
+      "bbb",
+      "bab",
+      "bab",
+      "bab",
+      "bab",
+      "bab",
+      " ab",
+      " a ",
+      " a "
+    ],
+    [
+      "   ",
+      " b ",
+      " b ",
+      "bb ",
+      "bbb",
+      "bbb",
+      "bbb",
+      " bb",
+      "   ",
+      "   ",
+      "   "
+    ]
+  ]
+}

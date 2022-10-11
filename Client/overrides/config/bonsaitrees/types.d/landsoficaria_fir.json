@@ -1,0 +1,31 @@
+{
+    "name": "landsoficaria:fir",
+    "mod": "landsoficaria",
+    "sapling": {
+        "name": "landsoficaria:sapling_fir",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.5,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "landsoficaria:log_fir",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "landsoficaria:sapling_fir",
+            "data": 0,
+            "type": "SAPLING"
+        },
+        {
+            "name": "landsoficaria:leaf_fir",
+            "data": 0,
+            "type": "LEAVES"
+        }
+    ]
+}

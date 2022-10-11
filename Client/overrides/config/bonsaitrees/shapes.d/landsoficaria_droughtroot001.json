@@ -1,0 +1,70 @@
+{
+  "type": "landsoficaria:droughtroot",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "landsoficaria:log_droughtroot",
+      "meta": 4
+    },
+    "b": {
+      "name": "landsoficaria:leaf_droughtroot",
+      "meta": 0
+    },
+    "c": {
+      "name": "landsoficaria:log_droughtroot",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "   ",
+      "   ",
+      "   ",
+      "   ",
+      " b ",
+      "   ",
+      "   ",
+      "   "
+    ],
+    [
+      "   ",
+      "   ",
+      " b ",
+      "   ",
+      "bab",
+      " b ",
+      "   ",
+      "   "
+    ],
+    [
+      " b ",
+      " b ",
+      "bcb",
+      "bcb",
+      "bcb",
+      "bcb",
+      " c ",
+      " c "
+    ],
+    [
+      "   ",
+      " b ",
+      "   ",
+      " b ",
+      "   ",
+      "bab",
+      " b ",
+      "   "
+    ],
+    [
+      "   ",
+      "   ",
+      "   ",
+      "   ",
+      "   ",
+      " b ",
+      "   ",
+      "   "
+    ]
+  ]
+}

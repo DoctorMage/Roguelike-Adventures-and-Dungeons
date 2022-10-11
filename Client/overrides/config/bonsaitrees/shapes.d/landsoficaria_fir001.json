@@ -1,0 +1,81 @@
+{
+  "type": "landsoficaria:fir",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "landsoficaria:log_fir",
+      "meta": 0
+    },
+    "b": {
+      "name": "landsoficaria:leaf_fir",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "  b  ",
+      " bb  ",
+      " bbb ",
+      " bbb ",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "  b  ",
+      "  b  ",
+      " bbb ",
+      " bbb ",
+      "bbbbb",
+      "bbbbb",
+      "  b  ",
+      "     ",
+      "     "
+    ],
+    [
+      "  b  ",
+      "  b  ",
+      " bab ",
+      " bab ",
+      "bbabb",
+      "bbabb",
+      "bbabb",
+      "bbabb",
+      " ba  ",
+      "  a  ",
+      "  a  "
+    ],
+    [
+      "     ",
+      "     ",
+      "  b  ",
+      "  b  ",
+      " bbb ",
+      "bbbb ",
+      "bbbbb",
+      "bbbbb",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "  b  ",
+      " bbb ",
+      " bbb ",
+      " bbb ",
+      "     ",
+      "     ",
+      "     "
+    ]
+  ]
+}

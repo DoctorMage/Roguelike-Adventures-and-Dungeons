@@ -1,0 +1,114 @@
+{
+  "type": "landsoficaria:plane",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "landsoficaria:leaf_plane",
+      "meta": 0
+    },
+    "b": {
+      "name": "landsoficaria:log_plane",
+      "meta": 4
+    },
+    "c": {
+      "name": "landsoficaria:log_plane",
+      "meta": 0
+    },
+    "d": {
+      "name": "landsoficaria:log_plane",
+      "meta": 8
+    }
+  },
+  "shape": [
+    [
+      "         ",
+      "     a   ",
+      "     aa  ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "     aa  ",
+      "     aba ",
+      "      aa ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "         ",
+      "      ba ",
+      "      aa ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      " aa      ",
+      " aa      ",
+      "     b   ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "aa       ",
+      "ada      ",
+      " ad      ",
+      "   d     ",
+      "    cd   ",
+      "    c    ",
+      "    c    ",
+      "    c    "
+    ],
+    [
+      " a       ",
+      " a       ",
+      "      aa ",
+      "    b aa ",
+      "      d  ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "         ",
+      " aab  aa ",
+      " a    ada",
+      "       a ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "  a      ",
+      " aba     ",
+      "  a    a ",
+      "       a ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "  aa     ",
+      "  aa     ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ]
+  ]
+}

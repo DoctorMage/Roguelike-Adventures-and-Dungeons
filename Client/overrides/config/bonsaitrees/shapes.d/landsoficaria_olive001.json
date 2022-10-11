@@ -1,0 +1,104 @@
+{
+  "type": "landsoficaria:olive",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "landsoficaria:leaf_olive",
+      "meta": 0
+    },
+    "b": {
+      "name": "landsoficaria:leaf_olive_fruit",
+      "meta": 0
+    },
+    "c": {
+      "name": "landsoficaria:log_olive",
+      "meta": 0
+    },
+    "d": {
+      "name": "landsoficaria:leaf_olive",
+      "meta": 8
+    }
+  },
+  "shape": [
+    [
+      "       ",
+      "       ",
+      "       ",
+      "       ",
+      "  aa   ",
+      "       ",
+      "       ",
+      "       "
+    ],
+    [
+      "       ",
+      "       ",
+      "  bb   ",
+      "  aaa  ",
+      " aaaba ",
+      "   ba  ",
+      "       ",
+      "       "
+    ],
+    [
+      "       ",
+      "   aa  ",
+      "  aaa  ",
+      " aabaa ",
+      "aaabaa ",
+      " aaaa  ",
+      "       ",
+      "       "
+    ],
+    [
+      "       ",
+      " aaaa  ",
+      " abaaaa",
+      "aaaaaaa",
+      "aabcaba",
+      " abcaa ",
+      "   c   ",
+      "   c   "
+    ],
+    [
+      "   a   ",
+      " baaaa ",
+      "aaacbaa",
+      "aaacaaa",
+      " aaaaa ",
+      "  aaaa ",
+      "       ",
+      "       "
+    ],
+    [
+      "       ",
+      " aaaaa ",
+      " aaaaa ",
+      "aaaaaaa",
+      "  baa  ",
+      "  aab  ",
+      "       ",
+      "       "
+    ],
+    [
+      "       ",
+      "  aa   ",
+      " baaa  ",
+      " aaaaa ",
+      "   a   ",
+      "       ",
+      "       ",
+      "       "
+    ],
+    [
+      "       ",
+      "       ",
+      "  aaa  ",
+      "  aad  ",
+      "       ",
+      "       ",
+      "       ",
+      "       "
+    ]
+  ]
+}

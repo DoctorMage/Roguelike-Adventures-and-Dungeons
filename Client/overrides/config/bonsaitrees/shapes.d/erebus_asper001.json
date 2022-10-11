@@ -1,0 +1,56 @@
+{
+  "type": "erebus:asper",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "erebus:log_asper",
+      "meta": 4
+    },
+    "b": {
+      "name": "erebus:leaves_asper",
+      "meta": 0
+    },
+    "c": {
+      "name": "erebus:log_asper",
+      "meta": 0
+    },
+    "d": {
+      "name": "erebus:log_asper",
+      "meta": 8
+    }
+  },
+  "shape": [
+    [
+      "    ",
+      "    ",
+      "    ",
+      "  b ",
+      "    ",
+      "    "
+    ],
+    [
+      "  b ",
+      " bbb",
+      " bbb",
+      "  a ",
+      "    ",
+      "  a "
+    ],
+    [
+      " bbb",
+      " bcb",
+      "bdcd",
+      "  cb",
+      "  c ",
+      " dc "
+    ],
+    [
+      "  b ",
+      " bbb",
+      " bbb",
+      "  a ",
+      "    ",
+      "  a "
+    ]
+  ]
+}
