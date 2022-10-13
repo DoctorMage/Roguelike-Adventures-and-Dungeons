@@ -11,7 +11,7 @@ Special thanks to Samara#0323 for active template creation!
 
 ## Features of the new update include:
 
-* A brand new FTB Questbook remade from scratch with massive attention to detail ranging from humorous quest names and titles to new informative descriptions. Progression should now be streamlined in a fashion where you should progress through the Questbook just by playing the game. 
+* A some Chapters remade from scratch with massive attention to detail ranging from humorous quest names and titles to new informative descriptions. Progression should now be streamlined in a fashion where you should progress through the Chapter just by playing the game. 
 * The Building Gadgets mod will be replaced or accompanied by the Capsules mod.
 * Items which eventually become useless, like Manuscripts, unlock items for the Titles mod, and more, will now have a use in the Questbook
 * The Shop is receiving a huge revamp. All tabs will be remade for more appropriate organization of items. Tons of items have been added
@@ -23,13 +23,7 @@ There will be notification about missing entries in your save file - that's tota
 Just confirm, game will make a backup of your world just in case.
 
  
-
-What other major internal changes you should expect: tweaked some generations of world structures and terrain(villages, cave variants, ravines, dungeons) which should lead to faster chunk loading.
-
-
-
-
-Stay tuned! Be a part of this revamp - leave your feedback and suggestions in our discord server!
+Stay tuned! Be a part of this update - leave your feedback and suggestions in our discord server!
 
 Main changes:
 * More quest fixes
@@ -41,7 +35,9 @@ Main changes:
 
 
 Updated 8 files
+
 Removed 7 files
+
 Added 3 files
 * Craft presence
 * Content tweaker
