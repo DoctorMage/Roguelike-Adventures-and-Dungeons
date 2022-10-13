@@ -1,17 +1,7 @@
 # Roguelike Adventures and Dungeons
 
 This is the repository for Dreams01's Roguelike Adventures and Dungeons (RAD). You can find the Curseforge page for RAD [here](https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons)
-## PART 2 OF RAD Revamp is here!
-
-* Shop revamps! 
-* New reward tables! 
-* Loot crates! 
-* CHAPTERS! 
-* UNLOCKABLES! 
-* CUSTOM ITEMS! 
-* GUIDES TO EACH MOD!
-* NEW MODS! 
-* AND MORE!
+## RAD 1.52 IS OUT
 
 Get a refreshing feeling as you re-discover new items, or remember those you always forgot existed!
 Be relieved from the stress of gaming with a bit of humor as you read the titles and subtitles of quests, as well as their snazzy new descriptions, which will boast an extra smile or give some helpful insight!
@@ -21,11 +11,9 @@ Special thanks to Samara#0323 for active template creation!
 
 ## Features of the new update include:
 
-* A brand new FTB Questbook remade from scratch with massive attention to detail ranging from humorous quest names and titles to new informative descriptions. Progression should now be streamlined in a fashion where you should progress through the Questbook just by playing the game. (NOTE: rewards are still work in progress!)
-* TONS more repeatable quests in “The Grind Don’t Stop” Chapter, and longer quest trees should give most mods higher play time, and replayability
-* The Building Gadgets mod has allowed to organize a new feature which will help players share their builds through the use of the Building Gadgets mod
+* A brand new FTB Questbook remade from scratch with massive attention to detail ranging from humorous quest names and titles to new informative descriptions. Progression should now be streamlined in a fashion where you should progress through the Questbook just by playing the game. 
+* The Building Gadgets mod will be replaced or accompanied by the Capsules mod.
 * Items which eventually become useless, like Manuscripts, unlock items for the Titles mod, and more, will now have a use in the Questbook
-* A new Chapter with “achievement” like quests will also be added. This new Chapter will have ridiculously challenging quests which are not intended to be completed in one sitting
 * The Shop is receiving a huge revamp. All tabs will be remade for more appropriate organization of items. Tons of items have been added
 * New changes to the configs
 
@@ -43,21 +31,23 @@ What other major internal changes you should expect: tweaked some generations of
 
 Stay tuned! Be a part of this revamp - leave your feedback and suggestions in our discord server!
 
-Added:
-- Future MC
-- End Reborn
-- The Midnight
-- ROOTS
-- Roost
-- More Spell Packs (Mo' Spells, Twilight Forest Spell Pack)
-- Thaumcraft 6 Additions (Thaumic Periphery, Thaumic Wonders, Thaumic Restoration)
-- Wizardry Fates
-- AND MORE
+Main changes:
+* More quest fixes
+* Added a ton of items to reforge materials
+* 4 new starting gear added
+* Enchanting tweaks
+* Electroblob’s wizardry tweaks and additions
 
-Added a total of 28 mods
 
-Updated 17 files
-Detailed mod changelog: [https://pastebin.com/raw/L1yGfxCc](https://pastebin.com/raw/L1yGfxCc)
+
+Updated 8 files
+Removed 7 files
+Added 3 files
+* Craft presence
+* Content tweaker
+* Loot tweaker
+
+Detailed mod changelog: [https://pastebin.com/raw/K0ktapr0](https://pastebin.com/raw/K0ktapr0)
 [![bisecthosting](https://i.imgur.com/Og8jfwS.png)](https://bisecthosting.com/xdreamz)
 
 Need a server to play with friends? Don't know how to setup one? Just rent already configured server - install and update my modpacks( and dozens of others!) in one click!
