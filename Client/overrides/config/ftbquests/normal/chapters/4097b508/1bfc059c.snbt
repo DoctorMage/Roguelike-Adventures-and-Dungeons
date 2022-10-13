@@ -1,11 +1,6 @@
 {
 	title: "Hedge Maze",
-	icon: {
-		id: "buildinggadgets:template",
-		tag: {
-			UUID: "60126a13-51b7-4ebc-a6e4-6fc44370b89f"
-		}
-	},
+	icon: "ebwizardry:blank_scroll",
 	x: 11.67857142857143d,
 	y: 2.017857142857146d,
 	shape: "square",
@@ -27,105 +22,22 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "963e7210",
+		uid: "2cecd752",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Hedge Maze",
-				UUID: "6f8d7981-90dd-41c9-9191-0dbd914e4005",
-				startPos: {
-					X: 1882,
-					Y: 4,
-					Z: 161
+				upgraded: 0,
+				color: 16777215,
+				size: 41,
+				sourceInventory: {},
+				structureName: "B-83-config_capsule_rewards_hedge_maze",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 7
-				},
-				{
-					item: 6153,
-					meta: 0,
-					count: 246
-				},
-				{
-					item: 175,
-					meta: 5,
-					count: 56
-				},
-				{
-					item: 5245,
-					meta: 3,
-					count: 326
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5949,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 18,
-					meta: 0,
-					count: 118
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 160
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5409,
-					meta: 7,
-					count: 80
-				},
-				{
-					item: 4167,
-					meta: 9,
-					count: 322
-				},
-				{
-					item: 4166,
-					meta: 9,
-					count: 147
-				},
-				{
-					item: 4166,
-					meta: 10,
-					count: 3252
-				},
-				{
-					item: 38,
-					meta: 7,
-					count: 12
-				},
-				{
-					item: 160,
-					meta: 12,
-					count: 4
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 242
-				}],
-				endPos: {
-					X: 1848,
-					Y: 44,
-					Z: 127
-				}
-			}
+				label: "Hedge Maze"
+			},
+			Damage: 3s
 		}
 	}]
 }

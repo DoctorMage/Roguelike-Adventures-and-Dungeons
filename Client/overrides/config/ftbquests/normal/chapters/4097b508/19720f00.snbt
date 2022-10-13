@@ -1,15 +1,14 @@
 {
 	title: "&6&lRadiant Master Statue",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:empty_theory_scroll",
 		tag: {
 			"Quark:RuneColor": 4,
 			ench: [{
 				lvl: 1s,
-				id: 244
+				id: 34
 			}],
-			"Quark:RuneAttached": 1b,
-			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: -6.547619047619037d,
@@ -37,135 +36,22 @@
 		value: 500L
 	}],
 	rewards: [{
-		uid: "3284d100",
+		uid: "e478c13d",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Radiant Master Statue",
-				UUID: "3cd27f2e-33ac-487e-b8f3-a79d7580be03",
-				startPos: {
-					X: 366,
-					Y: 5,
-					Z: -115
+				upgraded: 0,
+				color: 16777215,
+				size: 71,
+				sourceInventory: {},
+				structureName: "B-35-config_capsule_rewards_radiant_master_statue",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 6
-				},
-				{
-					item: 5387,
-					meta: 3,
-					count: 31
-				},
-				{
-					item: 9043,
-					meta: 0,
-					count: 6
-				},
-				{
-					item: 6077,
-					meta: 0,
-					count: 6
-				},
-				{
-					item: 156,
-					meta: 0,
-					count: 20
-				},
-				{
-					item: 5420,
-					meta: 7,
-					count: 40
-				},
-				{
-					item: 5388,
-					meta: 3,
-					count: 36
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5420,
-					meta: 8,
-					count: 796
-				},
-				{
-					item: 155,
-					meta: 0,
-					count: 13
-				},
-				{
-					item: 41,
-					meta: 0,
-					count: 8
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 5949,
-					meta: 0,
-					count: 8
-				},
-				{
-					item: 44,
-					meta: 7,
-					count: 19
-				},
-				{
-					item: 5419,
-					meta: 11,
-					count: 64
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5984,
-					meta: 0,
-					count: 48
-				},
-				{
-					item: 5394,
-					meta: 5,
-					count: 12
-				},
-				{
-					item: 5338,
-					meta: 5,
-					count: 37
-				},
-				{
-					item: 5422,
-					meta: 2,
-					count: 32
-				},
-				{
-					item: 5982,
-					meta: 0,
-					count: 598
-				},
-				{
-					item: 159,
-					meta: 4,
-					count: 404
-				}],
-				endPos: {
-					X: 383,
-					Y: 74,
-					Z: -93
-				}
-			}
+				label: "Radiant Master Statue"
+			},
+			Damage: 3s
 		}
 	}]
 }

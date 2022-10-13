@@ -1,15 +1,14 @@
 {
 	title: "&5&lDark Master Statue",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
 			"Quark:RuneColor": 10,
 			ench: [{
 				lvl: 1s,
-				id: 244
+				id: 34
 			}],
-			"Quark:RuneAttached": 1b,
-			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: -12.33503401360543d,
@@ -37,110 +36,28 @@
 		value: 500L
 	}],
 	rewards: [{
-		uid: "f4714c62",
+		uid: "8dbd3f4f",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Dark Master Statue",
-				UUID: "c7606afd-be0f-4f71-969c-be36ad49e746",
-				startPos: {
-					X: 362,
-					Y: 5,
-					Z: -125
+				spawnPosition: {
+					x: -1327,
+					y: 56,
+					dim: 0,
+					z: 1213
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 8
+				upgraded: 0,
+				color: 16777215,
+				size: 47,
+				sourceInventory: {},
+				structureName: "B-31-config_capsule_rewards_dark_master_statue",
+				display: {
+					color: 3949738
 				},
-				{
-					item: 5426,
-					meta: 2,
-					count: 396
-				},
-				{
-					item: 9016,
-					meta: 1,
-					count: 12
-				},
-				{
-					item: 4765,
-					meta: 0,
-					count: 48
-				},
-				{
-					item: 9025,
-					meta: 0,
-					count: 45
-				},
-				{
-					item: 8996,
-					meta: 0,
-					count: 14
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 5411,
-					meta: 2,
-					count: 18
-				},
-				{
-					item: 5419,
-					meta: 11,
-					count: 8
-				},
-				{
-					item: 8985,
-					meta: 0,
-					count: 18
-				},
-				{
-					item: 5244,
-					meta: 7,
-					count: 40
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 4745,
-					meta: 0,
-					count: 32
-				},
-				{
-					item: 4761,
-					meta: 0,
-					count: 713
-				},
-				{
-					item: 5244,
-					meta: 8,
-					count: 924
-				},
-				{
-					item: 5352,
-					meta: 11,
-					count: 12
-				}],
-				endPos: {
-					X: 389,
-					Y: 50,
-					Z: -104
-				}
-			}
+				label: "Dark Master Statue"
+			},
+			Damage: 3s
 		}
 	}]
 }

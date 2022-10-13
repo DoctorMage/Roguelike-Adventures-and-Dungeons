@@ -1,9 +1,14 @@
 {
 	title: "Extender",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
-			UUID: "97d093a5-40bd-4301-8ef1-d804ae40cd22"
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: 4.404761904761926d,
@@ -47,219 +52,60 @@
 		value: 300L
 	}],
 	rewards: [{
-		uid: "1cf9c6f4",
+		uid: "46f044e1",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Full Stone Wall Extender",
-				UUID: "78404e0f-ce3f-4c36-a511-064a8b69f5a1",
-				startPos: {
-					X: 1609,
-					Y: 4,
-					Z: 188
+				upgraded: 0,
+				color: 16777215,
+				size: 15,
+				sourceInventory: {},
+				structureName: "B-194-config_capsule_rewards_Full_Stone_Wall_Extender",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 14
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 40
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 24
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 48
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 340
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 32
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 76
-				}],
-				endPos: {
-					X: 1618,
-					Y: 18,
-					Z: 199
-				}
-			}
+				label: "Full Stone Wall Extender"
+			},
+			Damage: 3s
 		}
 	},
 	{
-		uid: "08c71d3b",
+		uid: "781abb31",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Stone Wall Extender",
-				UUID: "eb4a375b-f70b-4600-9deb-bf2457fd2824",
-				startPos: {
-					X: 1646,
-					Y: 4,
-					Z: 188
+				upgraded: 0,
+				color: 16777215,
+				size: 15,
+				sourceInventory: {},
+				structureName: "B-195-config_capsule_rewards_Stone_Wall_Extender",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 14
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 40
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 20
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 48
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 340
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 16
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 76
-				}],
-				endPos: {
-					X: 1655,
-					Y: 18,
-					Z: 199
-				}
-			}
+				label: "Stone Wall Extender"
+			},
+			Damage: 3s
 		}
 	},
 	{
-		uid: "7133ac42",
+		uid: "554c91f8",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Stone Wall Walkthrough Extender",
-				UUID: "940a9def-5c20-479b-84c9-c3afad93d3ac",
-				startPos: {
-					X: 1690,
-					Y: 4,
-					Z: 188
+				upgraded: 0,
+				color: 16777215,
+				size: 15,
+				sourceInventory: {},
+				structureName: "B-196-config_capsule_rewards_Stone_Wall_Walkthrough_Extender",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 10
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 40
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 24
-				},
-				{
-					item: 5508,
-					meta: 0,
-					count: 50
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 48
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 336
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 66
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 84
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 6
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 8
-				}],
-				endPos: {
-					X: 1704,
-					Y: 18,
-					Z: 199
-				}
-			}
+				label: "Stone Wall Walkthrough Extender"
+			},
+			Damage: 3s
 		}
 	}]
 }

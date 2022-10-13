@@ -1,9 +1,14 @@
 {
 	title: "Stone Library",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:transmutation_scroll",
 		tag: {
-			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: -5.085714285714275d,
@@ -27,125 +32,22 @@
 		value: 50L
 	}],
 	rewards: [{
-		uid: "e2ef6f90",
+		uid: "c8d4d9de",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Stone Library",
-				UUID: "4a63a9d3-d96d-4589-97bf-2400775f0169",
-				startPos: {
-					X: 281,
-					Y: 4,
-					Z: -107
+				upgraded: 0,
+				color: 16777215,
+				size: 25,
+				sourceInventory: {},
+				structureName: "B-39-config_capsule_rewards_stone_library",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 25
-				},
-				{
-					item: 35,
-					meta: 6,
-					count: 1
-				},
-				{
-					item: 5246,
-					meta: 1,
-					count: 6
-				},
-				{
-					item: 35,
-					meta: 9,
-					count: 32
-				},
-				{
-					item: 5453,
-					meta: 0,
-					count: 44
-				},
-				{
-					item: 7359,
-					meta: 0,
-					count: 6
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 105
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5246,
-					meta: 4,
-					count: 14
-				},
-				{
-					item: 4746,
-					meta: 0,
-					count: 2
-				},
-				{
-					item: 5246,
-					meta: 9,
-					count: 12
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5483,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 33
-				},
-				{
-					item: 5270,
-					meta: 0,
-					count: 8
-				},
-				{
-					item: 5454,
-					meta: 7,
-					count: 136
-				},
-				{
-					item: 5454,
-					meta: 6,
-					count: 12
-				},
-				{
-					item: 5281,
-					meta: 8,
-					count: 116
-				},
-				{
-					item: 5454,
-					meta: 9,
-					count: 32
-				}],
-				endPos: {
-					X: 267,
-					Y: 27,
-					Z: -121
-				}
-			}
+				label: "Stone Library"
+			},
+			Damage: 3s
 		}
 	}]
 }

@@ -1,11 +1,6 @@
 {
 	title: "&6Birch Wizard Tower",
-	icon: {
-		id: "buildinggadgets:template",
-		tag: {
-			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
-		}
-	},
+	icon: "ancientspellcraft:empty_theory_scroll",
 	x: -6.549999999999969d,
 	y: 0.43333333333333d,
 	shape: "square",
@@ -27,155 +22,22 @@
 		value: 200L
 	}],
 	rewards: [{
-		uid: "3ac2feb7",
+		uid: "3a3d349f",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Birch Wizard Tower",
-				UUID: "848efe6d-d74f-49aa-8075-b896c846d569",
-				startPos: {
-					X: 370,
-					Y: 5,
-					Z: -131
+				upgraded: 0,
+				color: 16777215,
+				size: 63,
+				sourceInventory: {},
+				structureName: "B-54-config_capsule_rewards_birch_wizard_tower",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 5,
-					meta: 0,
-					count: 24
-				},
-				{
-					item: 4497,
-					meta: 0,
-					count: 8
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 256
-				},
-				{
-					item: 5341,
-					meta: 11,
-					count: 15
-				},
-				{
-					item: 7356,
-					meta: 7,
-					count: 1
-				},
-				{
-					item: 53,
-					meta: 0,
-					count: 96
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 260
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 50
-				},
-				{
-					item: 1,
-					meta: 0,
-					count: 6
-				},
-				{
-					item: 6254,
-					meta: 0,
-					count: 847
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5454,
-					meta: 9,
-					count: 204
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5430,
-					meta: 0,
-					count: 911
-				},
-				{
-					item: 5452,
-					meta: 11,
-					count: 136
-				},
-				{
-					item: 6212,
-					meta: 0,
-					count: 147
-				},
-				{
-					item: 135,
-					meta: 0,
-					count: 248
-				},
-				{
-					item: 96,
-					meta: 0,
-					count: 24
-				},
-				{
-					item: 126,
-					meta: 2,
-					count: 13
-				},
-				{
-					item: 6120,
-					meta: 4,
-					count: 595
-				},
-				{
-					item: 5357,
-					meta: 3,
-					count: 51
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 433
-				},
-				{
-					item: 6224,
-					meta: 0,
-					count: 66
-				},
-				{
-					item: 6211,
-					meta: 0,
-					count: 174
-				},
-				{
-					item: 159,
-					meta: 4,
-					count: 11
-				}],
-				endPos: {
-					X: 388,
-					Y: 66,
-					Z: -103
-				}
-			}
+				label: "Birch Wizard Tower"
+			},
+			Damage: 3s
 		}
 	}]
 }

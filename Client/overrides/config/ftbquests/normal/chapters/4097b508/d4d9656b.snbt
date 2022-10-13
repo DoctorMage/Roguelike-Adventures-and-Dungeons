@@ -1,11 +1,6 @@
 {
 	title: "&bSpruce Wizard Tower",
-	icon: {
-		id: "buildinggadgets:template",
-		tag: {
-			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
-		}
-	},
+	icon: "ebwizardry:blank_scroll",
 	x: -9.454761904761881d,
 	y: 0.43333333333333d,
 	shape: "square",
@@ -27,140 +22,22 @@
 		value: 200L
 	}],
 	rewards: [{
-		uid: "13187694",
+		uid: "ff407531",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Spruce Wizard Tower",
-				UUID: "90f99822-5fe7-4ed1-affa-78ee72b6ca59",
-				startPos: {
-					X: 375,
-					Y: 5,
-					Z: -117
+				upgraded: 0,
+				color: 16777215,
+				size: 45,
+				sourceInventory: {},
+				structureName: "B-58-config_capsule_rewards_spruce_wizard_tower",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 4497,
-					meta: 0,
-					count: 2
-				},
-				{
-					item: 5429,
-					meta: 0,
-					count: 874
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 218
-				},
-				{
-					item: 17,
-					meta: 1,
-					count: 356
-				},
-				{
-					item: 6208,
-					meta: 7,
-					count: 1
-				},
-				{
-					item: 5994,
-					meta: 0,
-					count: 765
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 166
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 38
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5452,
-					meta: 11,
-					count: 581
-				},
-				{
-					item: 126,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 164,
-					meta: 0,
-					count: 54
-				},
-				{
-					item: 5357,
-					meta: 3,
-					count: 191
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 548
-				},
-				{
-					item: 134,
-					meta: 0,
-					count: 62
-				},
-				{
-					item: 171,
-					meta: 8,
-					count: 12
-				},
-				{
-					item: 126,
-					meta: 5,
-					count: 4
-				},
-				{
-					item: 191,
-					meta: 0,
-					count: 16
-				},
-				{
-					item: 6075,
-					meta: 0,
-					count: 96
-				},
-				{
-					item: 5454,
-					meta: 9,
-					count: 32
-				},
-				{
-					item: 7356,
-					meta: 2,
-					count: 1
-				}],
-				endPos: {
-					X: 353,
-					Y: 48,
-					Z: -77
-				}
-			}
+				label: "Spruce Wizard Tower"
+			},
+			Damage: 3s
 		}
 	}]
 }

@@ -1,9 +1,14 @@
 {
 	title: "Crimson Spa",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:duplication_scroll",
 		tag: {
-			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: 0.2836734693877787d,
@@ -27,85 +32,22 @@
 		value: 50L
 	}],
 	rewards: [{
-		uid: "ff997843",
+		uid: "6a2139d1",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Crimson Spa",
-				UUID: "c155fea3-d4ae-482e-9548-79036b6fa3c8",
-				startPos: {
-					X: 288,
-					Y: 4,
-					Z: -109
+				upgraded: 0,
+				color: 16777215,
+				size: 13,
+				sourceInventory: {},
+				structureName: "B-135-config_capsule_rewards_crimson_spa",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 5392,
-					meta: 12,
-					count: 4
-				},
-				{
-					item: 380,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5496,
-					meta: 0,
-					count: 14
-				},
-				{
-					item: 5508,
-					meta: 0,
-					count: 9
-				},
-				{
-					item: 5505,
-					meta: 0,
-					count: 52
-				},
-				{
-					item: 35,
-					meta: 6,
-					count: 1
-				},
-				{
-					item: 215,
-					meta: 0,
-					count: 8
-				},
-				{
-					item: 35,
-					meta: 9,
-					count: 1
-				},
-				{
-					item: 5352,
-					meta: 10,
-					count: 24
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				}],
-				endPos: {
-					X: 276,
-					Y: 7,
-					Z: -121
-				}
-			}
+				label: "Crimson Spa"
+			},
+			Damage: 3s
 		}
 	}]
 }

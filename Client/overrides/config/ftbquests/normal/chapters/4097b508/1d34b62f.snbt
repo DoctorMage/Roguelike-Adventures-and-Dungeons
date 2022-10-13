@@ -1,11 +1,6 @@
 {
 	title: "House 1",
-	icon: {
-		id: "buildinggadgets:template",
-		tag: {
-			UUID: "60126a13-51b7-4ebc-a6e4-6fc44370b89f"
-		}
-	},
+	icon: "ebwizardry:blank_scroll",
 	x: 8.071428571428577d,
 	y: -0.9821428571428577d,
 	shape: "square",
@@ -27,185 +22,22 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "b1059cf8",
+		uid: "0bd6e024",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "House 1",
-				UUID: "afbdbc72-6d6d-40ee-ba4e-11d8f3367137",
-				startPos: {
-					X: 2005,
-					Y: 4,
-					Z: 276
+				upgraded: 0,
+				color: 16777215,
+				size: 25,
+				sourceInventory: {},
+				structureName: "B-84-config_capsule_rewards_house_1",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 11
-				},
-				{
-					item: 4497,
-					meta: 0,
-					count: 2
-				},
-				{
-					item: 4749,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 7805,
-					meta: 6,
-					count: 244
-				},
-				{
-					item: 4771,
-					meta: 0,
-					count: 132
-				},
-				{
-					item: 13791,
-					meta: 0,
-					count: 79
-				},
-				{
-					item: 4791,
-					meta: 0,
-					count: 2
-				},
-				{
-					item: 13782,
-					meta: 0,
-					count: 115
-				},
-				{
-					item: 4228,
-					meta: 0,
-					count: 2
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 5357,
-					meta: 13,
-					count: 3
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5244,
-					meta: 2,
-					count: 7
-				},
-				{
-					item: 4815,
-					meta: 1,
-					count: 248
-				},
-				{
-					item: 4827,
-					meta: 0,
-					count: 58
-				},
-				{
-					item: 13800,
-					meta: 0,
-					count: 2
-				},
-				{
-					item: 7993,
-					meta: 0,
-					count: 136
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 106
-				},
-				{
-					item: 4814,
-					meta: 1,
-					count: 200
-				},
-				{
-					item: 5272,
-					meta: 0,
-					count: 12
-				},
-				{
-					item: 4770,
-					meta: 0,
-					count: 9
-				},
-				{
-					item: 7978,
-					meta: 0,
-					count: 209
-				},
-				{
-					item: 5245,
-					meta: 3,
-					count: 90
-				},
-				{
-					item: 4160,
-					meta: 6,
-					count: 65
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5245,
-					meta: 1,
-					count: 36
-				},
-				{
-					item: 4746,
-					meta: 0,
-					count: 5
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 69
-				},
-				{
-					item: 4769,
-					meta: 0,
-					count: 236
-				},
-				{
-					item: 5357,
-					meta: 3,
-					count: 68
-				},
-				{
-					item: 5243,
-					meta: 8,
-					count: 32
-				},
-				{
-					item: 4747,
-					meta: 0,
-					count: 21
-				}],
-				endPos: {
-					X: 1982,
-					Y: 27,
-					Z: 260
-				}
-			}
+				label: "House 1"
+			},
+			Damage: 3s
 		}
 	}]
 }

@@ -1,10 +1,16 @@
 {
 	title: "&aJungle Wizard Tower",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "tfspellpack:twilight_scroll",
 		tag: {
-			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
-		}
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		},
+		Damage: 207s
 	},
 	x: -3.645238095238085d,
 	y: 0.43333333333333d,
@@ -27,125 +33,22 @@
 		value: 200L
 	}],
 	rewards: [{
-		uid: "25601696",
+		uid: "a09929ba",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Jungle Wizard Tower",
-				UUID: "f58b6c0d-69f0-4872-8933-c8992a058bdf",
-				startPos: {
-					X: 385,
-					Y: 5,
-					Z: -91
+				upgraded: 0,
+				color: 16777215,
+				size: 51,
+				sourceInventory: {},
+				structureName: "B-56-config_capsule_rewards_jungle_wizard_tower",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 4497,
-					meta: 0,
-					count: 5
-				},
-				{
-					item: 7356,
-					meta: 5,
-					count: 1
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 284
-				},
-				{
-					item: 17,
-					meta: 3,
-					count: 142
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 250
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 39
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5431,
-					meta: 0,
-					count: 815
-				},
-				{
-					item: 5452,
-					meta: 11,
-					count: 397
-				},
-				{
-					item: 136,
-					meta: 0,
-					count: 34
-				},
-				{
-					item: 70,
-					meta: 0,
-					count: 2
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 126,
-					meta: 3,
-					count: 2
-				},
-				{
-					item: 6230,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 5357,
-					meta: 3,
-					count: 166
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 561
-				},
-				{
-					item: 6120,
-					meta: 5,
-					count: 528
-				},
-				{
-					item: 6075,
-					meta: 0,
-					count: 64
-				},
-				{
-					item: 5454,
-					meta: 9,
-					count: 40
-				}],
-				endPos: {
-					X: 357,
-					Y: 55,
-					Z: -119
-				}
-			}
+				label: "Jungle Wizard Tower"
+			},
+			Damage: 3s
 		}
 	}]
 }

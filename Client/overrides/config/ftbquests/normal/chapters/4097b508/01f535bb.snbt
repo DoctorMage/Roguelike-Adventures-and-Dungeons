@@ -1,9 +1,14 @@
 {
 	title: "&5Dark Oak Wizard Tower",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
-			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: -12.359523809523779d,
@@ -27,130 +32,22 @@
 		value: 200L
 	}],
 	rewards: [{
-		uid: "88e1ccc5",
+		uid: "433f696d",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Dark Oak Wizard Tower",
-				UUID: "4003645e-6108-4f1b-a4f7-8916079afa31",
-				startPos: {
-					X: 366,
-					Y: 5,
-					Z: -127
+				upgraded: 0,
+				color: 16777215,
+				size: 63,
+				sourceInventory: {},
+				structureName: "B-52-config_capsule_rewards_dark_oak_wizard_tower",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 5461,
-					meta: 2,
-					count: 11
-				},
-				{
-					item: 7356,
-					meta: 4,
-					count: 1
-				},
-				{
-					item: 4497,
-					meta: 0,
-					count: 5
-				},
-				{
-					item: 5,
-					meta: 1,
-					count: 24
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 399
-				},
-				{
-					item: 5,
-					meta: 5,
-					count: 804
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 366
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 42
-				},
-				{
-					item: 5452,
-					meta: 11,
-					count: 196
-				},
-				{
-					item: 8985,
-					meta: 0,
-					count: 608
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 164,
-					meta: 0,
-					count: 208
-				},
-				{
-					item: 5357,
-					meta: 3,
-					count: 73
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 378
-				},
-				{
-					item: 134,
-					meta: 0,
-					count: 96
-				},
-				{
-					item: 162,
-					meta: 1,
-					count: 540
-				},
-				{
-					item: 5454,
-					meta: 9,
-					count: 184
-				},
-				{
-					item: 6075,
-					meta: 0,
-					count: 66
-				},
-				{
-					item: 5915,
-					meta: 0,
-					count: 24
-				}],
-				endPos: {
-					X: 384,
-					Y: 66,
-					Z: -95
-				}
-			}
+				label: "Dark Oak Wizard Tower"
+			},
+			Damage: 3s
 		}
 	}]
 }

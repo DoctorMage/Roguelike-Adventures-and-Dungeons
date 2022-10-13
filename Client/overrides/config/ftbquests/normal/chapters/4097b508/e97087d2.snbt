@@ -1,9 +1,14 @@
 {
 	title: "Thaumic Jar Storage",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
-			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: 11.140476190476207d,
@@ -27,85 +32,22 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "5d95b319",
+		uid: "802f1f6a",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Thaumic Jar Storage",
-				UUID: "66bcd394-fb87-48e1-94cd-7a63b35bbcd5",
-				startPos: {
-					X: 298,
-					Y: 4,
-					Z: -103
+				upgraded: 0,
+				color: 16777215,
+				size: 25,
+				sourceInventory: {},
+				structureName: "B-106-config_capsule_rewards_thaumic_jar_storage",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 5392,
-					meta: 12,
-					count: 10
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 8987,
-					meta: 0,
-					count: 76
-				},
-				{
-					item: 5496,
-					meta: 0,
-					count: 278
-				},
-				{
-					item: 5508,
-					meta: 0,
-					count: 132
-				},
-				{
-					item: 5505,
-					meta: 0,
-					count: 87
-				},
-				{
-					item: 8989,
-					meta: 0,
-					count: 28
-				},
-				{
-					item: 35,
-					meta: 9,
-					count: 4
-				},
-				{
-					item: 5352,
-					meta: 10,
-					count: 64
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5352,
-					meta: 11,
-					count: 155
-				}],
-				endPos: {
-					X: 274,
-					Y: 17,
-					Z: -127
-				}
-			}
+				label: "Thaumic Jar Storage"
+			},
+			Damage: 3s
 		}
 	}]
 }

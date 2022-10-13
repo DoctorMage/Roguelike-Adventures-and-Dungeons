@@ -1,11 +1,6 @@
 {
 	title: "Spruce Library",
-	icon: {
-		id: "buildinggadgets:template",
-		tag: {
-			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
-		}
-	},
+	icon: "ebwizardry:blank_scroll",
 	x: -9.419047619047618d,
 	y: 1.9809523809523597d,
 	shape: "square",
@@ -27,105 +22,22 @@
 		value: 50L
 	}],
 	rewards: [{
-		uid: "65cfdbd9",
+		uid: "d2726ebf",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Spruce Library",
-				UUID: "5f0c4e55-ce8d-4fa8-a5f1-8b97832c70c0",
-				startPos: {
-					X: 281,
-					Y: 4,
-					Z: -107
+				upgraded: 0,
+				color: 16777215,
+				size: 15,
+				sourceInventory: {},
+				structureName: "B-42-config_capsule_rewards_spruce_library",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 6153,
-					meta: 1,
-					count: 10
-				},
-				{
-					item: 5429,
-					meta: 0,
-					count: 52
-				},
-				{
-					item: 17,
-					meta: 1,
-					count: 59
-				},
-				{
-					item: 35,
-					meta: 6,
-					count: 1
-				},
-				{
-					item: 5247,
-					meta: 6,
-					count: 12
-				},
-				{
-					item: 5247,
-					meta: 7,
-					count: 9
-				},
-				{
-					item: 35,
-					meta: 9,
-					count: 32
-				},
-				{
-					item: 7359,
-					meta: 1,
-					count: 6
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5247,
-					meta: 3,
-					count: 11
-				},
-				{
-					item: 126,
-					meta: 1,
-					count: 29
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5483,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 5270,
-					meta: 0,
-					count: 8
-				},
-				{
-					item: 134,
-					meta: 0,
-					count: 5
-				}],
-				endPos: {
-					X: 267,
-					Y: 10,
-					Z: -121
-				}
-			}
+				label: "Spruce Library"
+			},
+			Damage: 3s
 		}
 	}]
 }

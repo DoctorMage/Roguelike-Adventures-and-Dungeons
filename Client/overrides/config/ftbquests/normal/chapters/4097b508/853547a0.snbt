@@ -1,9 +1,14 @@
 {
 	title: "Thaumic Farmland + Silverwood",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
-			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: 11.140476190476207d,
@@ -27,90 +32,22 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "477f55b2",
+		uid: "b10f2481",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Thaumic Farmland + Silverwood",
-				UUID: "56670917-66a9-4480-acca-b8c672894c50",
-				startPos: {
-					X: 295,
-					Y: 4,
-					Z: -105
+				upgraded: 0,
+				color: 16777215,
+				size: 21,
+				sourceInventory: {},
+				structureName: "B-103-config_capsule_rewards_thaumic_farmland+silverwood",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 5392,
-					meta: 12,
-					count: 13
-				},
-				{
-					item: 5515,
-					meta: 0,
-					count: 47
-				},
-				{
-					item: 9038,
-					meta: 0,
-					count: 32
-				},
-				{
-					item: 5508,
-					meta: 0,
-					count: 14
-				},
-				{
-					item: 5505,
-					meta: 0,
-					count: 16
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5517,
-					meta: 0,
-					count: 283
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 8987,
-					meta: 0,
-					count: 24
-				},
-				{
-					item: 5496,
-					meta: 0,
-					count: 112
-				},
-				{
-					item: 4813,
-					meta: 0,
-					count: 222
-				},
-				{
-					item: 5352,
-					meta: 11,
-					count: 72
-				}],
-				endPos: {
-					X: 275,
-					Y: 18,
-					Z: -125
-				}
-			}
+				label: "Thaumic Farmland+silverwood"
+			},
+			Damage: 3s
 		}
 	}]
 }

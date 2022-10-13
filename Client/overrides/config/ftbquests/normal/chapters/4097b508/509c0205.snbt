@@ -14,18 +14,15 @@
 	y: 5.25d,
 	shape: "square",
 	text: [
-		"By paying coins, you will receive a Template that already has a build loaded.",
+		"By paying coins, you will receive a Capsule that already has a build loaded.",
 		"",
-		"To paste a Template, you must load the Template onto a Copy-Paste Gadget using the Template Manager",
-		"Keep in mind that the Copy-Paste Gadget will only paste from the available blocks within your inventory. To be clear, &lit will not paste the build, you must get the materials for it first.&r",
+		"It will not paste the build, unless you have linked your inventory or your storage to the blueprint. Keybinds are present on the Capsule.",
 		"",
 		"Things to Note:",
 		"",
-		"- The paste will NOT override any blocks in the way",
+		"- Pasting will not occur when other blocks or entities are in the way",
 		"",
-		"- You can paste multiple times",
-		"",
-		"- Pasting takes durability off of the Copy-Paste Gadget. It is best to enchant the Gadget with Unbreaking first."
+		"- You can paste multiple times"
 	],
 	size: 2.0d,
 	tasks: [{
@@ -34,22 +31,10 @@
 		title: "How Builds Work"
 	},
 	{
-		uid: "cc3ae01c",
+		uid: "b62ee903",
 		type: "item",
 		items: [{
-			id: "buildinggadgets:copypastetool",
-			tag: {
-				mode: "Copy"
-			}
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
-	},
-	{
-		uid: "9b16196e",
-		type: "item",
-		items: [{
-			item: "buildinggadgets:templatemanager"
+			item: "capsule:capsulemarker"
 		}]
 	}],
 	rewards: [{

@@ -1,9 +1,14 @@
 {
 	title: "Diagonal L",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
-			UUID: "97d093a5-40bd-4301-8ef1-d804ae40cd22"
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: 0.0428571428571658d,
@@ -47,234 +52,60 @@
 		value: 300L
 	}],
 	rewards: [{
-		uid: "bd5a2d61",
+		uid: "3644a7d6",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Full Stone Wall Diagonal L",
-				UUID: "b50ccec6-2873-4efb-a6c5-721c51a11f71",
-				startPos: {
-					X: 1570,
-					Y: 4,
-					Z: 641
+				upgraded: 0,
+				color: 16777215,
+				size: 29,
+				sourceInventory: {},
+				structureName: "B-182-config_capsule_rewards_Full_Stone_Wall_Diagonal_L",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 7
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 164
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5508,
-					meta: 0,
-					count: 24
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 66
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 302
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 939
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 174
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 224
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 10
-				}],
-				endPos: {
-					X: 1590,
-					Y: 18,
-					Z: 669
-				}
-			}
+				label: "Full Stone Wall Diagonal L"
+			},
+			Damage: 3s
 		}
 	},
 	{
-		uid: "21175539",
+		uid: "a979c0d6",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Stone Wall Diagonal L",
-				UUID: "01690454-69ed-43b7-896c-0d7f640bab77",
-				startPos: {
-					X: 1625,
-					Y: 4,
-					Z: 641
+				upgraded: 0,
+				color: 16777215,
+				size: 29,
+				sourceInventory: {},
+				structureName: "B-183-config_capsule_rewards_Stone_Wall_Diagonal_L",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 7
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 164
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5508,
-					meta: 0,
-					count: 24
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 62
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 302
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 937
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 115
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 226
-				}],
-				endPos: {
-					X: 1645,
-					Y: 18,
-					Z: 669
-				}
-			}
+				label: "Stone Wall Diagonal L"
+			},
+			Damage: 3s
 		}
 	},
 	{
-		uid: "e0966436",
+		uid: "1fb58602",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Stone Wall Walkthrough Diagonal L",
-				UUID: "012a1386-eb74-404a-85f9-b60708e5426c",
-				startPos: {
-					X: 1679,
-					Y: 4,
-					Z: 638
+				upgraded: 0,
+				color: 16777215,
+				size: 33,
+				sourceInventory: {},
+				structureName: "B-184-config_capsule_rewards_Stone_Wall_Walkthru_Diagonal_L",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 10
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 84
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5508,
-					meta: 0,
-					count: 177
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 84
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 132
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 872
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 250
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 199
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 128
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 24
-				}],
-				endPos: {
-					X: 1703,
-					Y: 18,
-					Z: 669
-				}
-			}
+				label: "Stone Wall Walkthru Diagonal L"
+			},
+			Damage: 3s
 		}
 	}]
 }

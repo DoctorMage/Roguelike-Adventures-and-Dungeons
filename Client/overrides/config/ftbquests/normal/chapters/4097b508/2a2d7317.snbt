@@ -1,9 +1,14 @@
 {
 	title: "Thaumic House",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
-			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: 13.283333333333346d,

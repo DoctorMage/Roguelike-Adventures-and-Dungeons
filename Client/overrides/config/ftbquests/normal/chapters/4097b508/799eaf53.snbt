@@ -1,10 +1,16 @@
 {
 	title: "Bridge T",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ebwizardry:scroll",
 		tag: {
-			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
-		}
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		},
+		Damage: 1s
 	},
 	x: 14.689795918367345d,
 	y: 1.9925170068027d,
@@ -27,85 +33,22 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "ce54bc2e",
+		uid: "19bb2790",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 2,
-				TemplateName: "Bridge T",
-				UUID: "e473ee8c-3a08-43d8-8e48-ba3d3e22e5e6",
-				startPos: {
-					X: 1927,
-					Y: 4,
-					Z: 120
+				upgraded: 0,
+				color: 16777215,
+				size: 25,
+				sourceInventory: {},
+				structureName: "B-79-config_capsule_rewards_bridge_t",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 7
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 46
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5244,
-					meta: 2,
-					count: 47
-				},
-				{
-					item: 13791,
-					meta: 0,
-					count: 80
-				},
-				{
-					item: 4815,
-					meta: 1,
-					count: 66
-				},
-				{
-					item: 13800,
-					meta: 0,
-					count: 90
-				},
-				{
-					item: 13782,
-					meta: 0,
-					count: 304
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 92
-				},
-				{
-					item: 5245,
-					meta: 3,
-					count: 136
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 2
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				}],
-				endPos: {
-					X: 1903,
-					Y: 16,
-					Z: 108
-				}
-			}
+				label: "Bridge T"
+			},
+			Damage: 3s
 		}
 	}]
 }

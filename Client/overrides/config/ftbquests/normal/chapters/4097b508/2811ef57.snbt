@@ -1,11 +1,6 @@
 {
 	title: "House 4",
-	icon: {
-		id: "buildinggadgets:template",
-		tag: {
-			UUID: "60126a13-51b7-4ebc-a6e4-6fc44370b89f"
-		}
-	},
+	icon: "ebwizardry:blank_scroll",
 	x: 8.044217687074834d,
 	y: 0.5068027210884409d,
 	shape: "square",
@@ -27,150 +22,22 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "ca81c180",
+		uid: "bee0dc1a",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "House 4",
-				UUID: "277405e7-4826-4ac0-a982-a7be4dc9cef6",
-				startPos: {
-					X: 1995,
-					Y: 4,
-					Z: 223
+				upgraded: 0,
+				color: 16777215,
+				size: 29,
+				sourceInventory: {},
+				structureName: "B-87-config_capsule_rewards_house_4",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 14
-				},
-				{
-					item: 7805,
-					meta: 6,
-					count: 231
-				},
-				{
-					item: 4771,
-					meta: 0,
-					count: 4
-				},
-				{
-					item: 13791,
-					meta: 0,
-					count: 36
-				},
-				{
-					item: 4791,
-					meta: 0,
-					count: 2
-				},
-				{
-					item: 13782,
-					meta: 0,
-					count: 177
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 9
-				},
-				{
-					item: 4228,
-					meta: 0,
-					count: 2
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 4815,
-					meta: 1,
-					count: 353
-				},
-				{
-					item: 7993,
-					meta: 0,
-					count: 402
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 147
-				},
-				{
-					item: 4814,
-					meta: 1,
-					count: 115
-				},
-				{
-					item: 5272,
-					meta: 0,
-					count: 27
-				},
-				{
-					item: 4770,
-					meta: 0,
-					count: 16
-				},
-				{
-					item: 7978,
-					meta: 0,
-					count: 126
-				},
-				{
-					item: 5245,
-					meta: 3,
-					count: 176
-				},
-				{
-					item: 4160,
-					meta: 6,
-					count: 60
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				},
-				{
-					item: 5245,
-					meta: 1,
-					count: 136
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 122
-				},
-				{
-					item: 4769,
-					meta: 0,
-					count: 38
-				},
-				{
-					item: 5357,
-					meta: 3,
-					count: 33
-				},
-				{
-					item: 5243,
-					meta: 8,
-					count: 48
-				},
-				{
-					item: 4747,
-					meta: 0,
-					count: 17
-				}],
-				endPos: {
-					X: 1968,
-					Y: 18,
-					Z: 250
-				}
-			}
+				label: "House 4"
+			},
+			Damage: 3s
 		}
 	}]
 }

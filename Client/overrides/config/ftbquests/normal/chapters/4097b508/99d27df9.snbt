@@ -1,9 +1,14 @@
 {
 	title: "Archway",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
-			UUID: "97d093a5-40bd-4301-8ef1-d804ae40cd22"
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: 1.5d,
@@ -47,234 +52,60 @@
 		value: 300L
 	}],
 	rewards: [{
-		uid: "8b4d7e8a",
+		uid: "8297dcf4",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Full Stone Wall Archway",
-				UUID: "33a651da-4b12-4f2d-919d-560d102de725",
-				startPos: {
-					X: 1589,
-					Y: 4,
-					Z: 762
+				upgraded: 0,
+				color: 16777215,
+				size: 33,
+				sourceInventory: {},
+				structureName: "B-170-config_capsule_rewards_Full_Stone_Wall_Archway",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 11
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 124
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 9050,
-					meta: 0,
-					count: 87
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 56
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 96
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 842
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 56
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 192
-				}],
-				endPos: {
-					X: 1598,
-					Y: 27,
-					Z: 794
-				}
-			}
+				label: "Full Stone Wall Archway"
+			},
+			Damage: 3s
 		}
 	},
 	{
-		uid: "ce31a5dc",
+		uid: "6a079d43",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Stone Wall Archway",
-				UUID: "d1bee3c8-ce9f-44ca-9b39-2ecc43229c41",
-				startPos: {
-					X: 1633,
-					Y: 4,
-					Z: 762
+				upgraded: 0,
+				color: 16777215,
+				size: 33,
+				sourceInventory: {},
+				structureName: "B-171-config_capsule_rewards_Stone_Wall_Archway",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 11
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 124
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 9050,
-					meta: 0,
-					count: 87
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 40
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 96
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 842
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 32
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 192
-				}],
-				endPos: {
-					X: 1642,
-					Y: 27,
-					Z: 794
-				}
-			}
+				label: "Stone Wall Archway"
+			},
+			Damage: 3s
 		}
 	},
 	{
-		uid: "21e53d4a",
+		uid: "b04c0a66",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Stone Wall Walkthrough Archway",
-				UUID: "0b16f7bc-0c73-4ab9-b86d-479860ed53ff",
-				startPos: {
-					X: 1672,
-					Y: 4,
-					Z: 765
+				upgraded: 0,
+				color: 16777215,
+				size: 33,
+				sourceInventory: {},
+				structureName: "B-172-config_capsule_rewards_Stone_Wall_Walkthrough_Archway",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 7
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 88
-				},
-				{
-					item: 5508,
-					meta: 0,
-					count: 90
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 995
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 10
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 16
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 160
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 9050,
-					meta: 0,
-					count: 174
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 96
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 95
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 226
-				}],
-				endPos: {
-					X: 1686,
-					Y: 27,
-					Z: 797
-				}
-			}
+				label: "Stone Wall Walkthrough Archway"
+			},
+			Damage: 3s
 		}
 	}]
 }

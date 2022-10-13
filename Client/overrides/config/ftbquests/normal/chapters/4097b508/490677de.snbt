@@ -1,9 +1,14 @@
 {
 	title: "Crimson Altar",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:duplication_scroll",
 		tag: {
-			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: -1.3000000000000043d,
@@ -27,95 +32,22 @@
 		value: 200L
 	}],
 	rewards: [{
-		uid: "4bb3b91b",
+		uid: "1f3ad486",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 3,
-				TemplateName: "Crimson Altar",
-				UUID: "76274921-e90a-4186-9c45-fe4ef73fa862",
-				startPos: {
-					X: 280,
-					Y: 4,
-					Z: -125
+				upgraded: 0,
+				color: 16777215,
+				size: 21,
+				sourceInventory: {},
+				structureName: "B-130-config_capsule_rewards_crimson_altar",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 7
-				},
-				{
-					item: 5392,
-					meta: 12,
-					count: 15
-				},
-				{
-					item: 5508,
-					meta: 0,
-					count: 100
-				},
-				{
-					item: 5505,
-					meta: 0,
-					count: 119
-				},
-				{
-					item: 4497,
-					meta: 7,
-					count: 2
-				},
-				{
-					item: 35,
-					meta: 9,
-					count: 8
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 2,
-					meta: 0,
-					count: 56
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5496,
-					meta: 0,
-					count: 186
-				},
-				{
-					item: 6120,
-					meta: 4,
-					count: 100
-				},
-				{
-					item: 215,
-					meta: 0,
-					count: 281
-				},
-				{
-					item: 5352,
-					meta: 10,
-					count: 164
-				},
-				{
-					item: 5454,
-					meta: 6,
-					count: 5
-				}],
-				endPos: {
-					X: 300,
-					Y: 12,
-					Z: -105
-				}
-			}
+				label: "Crimson Altar"
+			},
+			Damage: 3s
 		}
 	}]
 }

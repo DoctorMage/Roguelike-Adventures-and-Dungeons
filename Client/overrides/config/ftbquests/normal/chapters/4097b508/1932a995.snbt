@@ -1,15 +1,14 @@
 {
 	title: "&2&lMystical Master Statue",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:bartering_scroll",
 		tag: {
 			"Quark:RuneColor": 13,
 			ench: [{
 				lvl: 1s,
-				id: 244
+				id: 34
 			}],
-			"Quark:RuneAttached": 1b,
-			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: -8.008503401360528d,
@@ -37,155 +36,22 @@
 		value: 500L
 	}],
 	rewards: [{
-		uid: "76420105",
+		uid: "5bd0cc65",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Mystical Master Statue",
-				UUID: "a690b9f4-6480-41d6-a895-7599ff488c05",
-				startPos: {
-					X: 356,
-					Y: 5,
-					Z: -116
+				upgraded: 0,
+				color: 16777215,
+				size: 67,
+				sourceInventory: {},
+				structureName: "B-34-config_capsule_rewards_mystical_master_statue",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 5364,
-					meta: 3,
-					count: 54
-				},
-				{
-					item: 9028,
-					meta: 0,
-					count: 20
-				},
-				{
-					item: 5420,
-					meta: 8,
-					count: 787
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 6191,
-					meta: 0,
-					count: 21
-				},
-				{
-					item: 5395,
-					meta: 13,
-					count: 16
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5984,
-					meta: 0,
-					count: 48
-				},
-				{
-					item: 168,
-					meta: 1,
-					count: 401
-				},
-				{
-					item: 5436,
-					meta: 1,
-					count: 72
-				},
-				{
-					item: 8988,
-					meta: 0,
-					count: 26
-				},
-				{
-					item: 5994,
-					meta: 1,
-					count: 20
-				},
-				{
-					item: 5435,
-					meta: 10,
-					count: 14
-				},
-				{
-					item: 5420,
-					meta: 7,
-					count: 40
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5419,
-					meta: 11,
-					count: 64
-				},
-				{
-					item: 216,
-					meta: 0,
-					count: 118
-				},
-				{
-					item: 9019,
-					meta: 1,
-					count: 20
-				},
-				{
-					item: 5345,
-					meta: 7,
-					count: 1
-				},
-				{
-					item: 6193,
-					meta: 0,
-					count: 20
-				},
-				{
-					item: 5422,
-					meta: 2,
-					count: 32
-				},
-				{
-					item: 5363,
-					meta: 3,
-					count: 103
-				},
-				{
-					item: 5345,
-					meta: 3,
-					count: 44
-				},
-				{
-					item: 5982,
-					meta: 0,
-					count: 673
-				},
-				{
-					item: 5345,
-					meta: 5,
-					count: 26
-				}],
-				endPos: {
-					X: 382,
-					Y: 71,
-					Z: -98
-				}
-			}
+				label: "Mystical Master Statue"
+			},
+			Damage: 3s
 		}
 	}]
 }

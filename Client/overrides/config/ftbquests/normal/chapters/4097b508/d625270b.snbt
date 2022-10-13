@@ -1,9 +1,14 @@
 {
 	title: "Crimson Jar Storage",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:duplication_scroll",
 		tag: {
-			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: 0.263265306122463d,
@@ -27,80 +32,22 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "5e27ab37",
+		uid: "d3ec3f04",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Crimson Jar Storage",
-				UUID: "e87b218d-f5e7-4c43-a533-f007a35198ce",
-				startPos: {
-					X: 293,
-					Y: 4,
-					Z: -103
+				upgraded: 0,
+				color: 16777215,
+				size: 25,
+				sourceInventory: {},
+				structureName: "B-134-config_capsule_rewards_crimson_jar_storage",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 5392,
-					meta: 12,
-					count: 10
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5496,
-					meta: 0,
-					count: 226
-				},
-				{
-					item: 5508,
-					meta: 0,
-					count: 132
-				},
-				{
-					item: 6120,
-					meta: 4,
-					count: 23
-				},
-				{
-					item: 5505,
-					meta: 0,
-					count: 87
-				},
-				{
-					item: 215,
-					meta: 0,
-					count: 207
-				},
-				{
-					item: 35,
-					meta: 9,
-					count: 4
-				},
-				{
-					item: 5352,
-					meta: 10,
-					count: 145
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				}],
-				endPos: {
-					X: 269,
-					Y: 17,
-					Z: -127
-				}
-			}
+				label: "Crimson Jar Storage"
+			},
+			Damage: 3s
 		}
 	}]
 }

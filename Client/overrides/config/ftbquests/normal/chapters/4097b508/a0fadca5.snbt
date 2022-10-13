@@ -1,9 +1,14 @@
 {
 	title: "Thaumic Observer Tower",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
-			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: 12.71190476190477d,
@@ -27,100 +32,22 @@
 		value: 50L
 	}],
 	rewards: [{
-		uid: "0a6cef3a",
+		uid: "c7b74d5d",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Thaumic Observer Tower",
-				UUID: "e9260f2b-b087-4e78-9aef-b5ac1105e964",
-				startPos: {
-					X: 288,
-					Y: 4,
-					Z: -112
+				upgraded: 0,
+				color: 16777215,
+				size: 21,
+				sourceInventory: {},
+				structureName: "B-107-config_capsule_rewards_thaumic_observer_tower",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 5392,
-					meta: 12,
-					count: 1
-				},
-				{
-					item: 5508,
-					meta: 0,
-					count: 8
-				},
-				{
-					item: 5505,
-					meta: 0,
-					count: 44
-				},
-				{
-					item: 9027,
-					meta: 0,
-					count: 8
-				},
-				{
-					item: 35,
-					meta: 6,
-					count: 2
-				},
-				{
-					item: 4497,
-					meta: 7,
-					count: 2
-				},
-				{
-					item: 35,
-					meta: 9,
-					count: 1
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 8987,
-					meta: 0,
-					count: 64
-				},
-				{
-					item: 5496,
-					meta: 0,
-					count: 54
-				},
-				{
-					item: 8989,
-					meta: 0,
-					count: 24
-				},
-				{
-					item: 5352,
-					meta: 11,
-					count: 6
-				}],
-				endPos: {
-					X: 282,
-					Y: 24,
-					Z: -118
-				}
-			}
+				label: "Thaumic Observer Tower"
+			},
+			Damage: 3s
 		}
 	}]
 }

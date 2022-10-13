@@ -1,9 +1,14 @@
 {
 	title: "Thaumic Altar",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
-			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: 9.616666666666681d,
@@ -27,140 +32,22 @@
 		value: 200L
 	}],
 	rewards: [{
-		uid: "65d01717",
+		uid: "f9f8a42e",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Thaumic Altar",
-				UUID: "0557b756-d034-4995-a3d9-a49a41efb88c",
-				startPos: {
-					X: 278,
-					Y: 4,
-					Z: -125
+				upgraded: 0,
+				color: 16777215,
+				size: 21,
+				sourceInventory: {},
+				structureName: "B-101-config_capsule_rewards_thaumic_altar",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 7
-				},
-				{
-					item: 5392,
-					meta: 12,
-					count: 14
-				},
-				{
-					item: 5508,
-					meta: 0,
-					count: 100
-				},
-				{
-					item: 5505,
-					meta: 0,
-					count: 48
-				},
-				{
-					item: 4497,
-					meta: 7,
-					count: 2
-				},
-				{
-					item: 35,
-					meta: 9,
-					count: 8
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 159,
-					meta: 13,
-					count: 1
-				},
-				{
-					item: 2,
-					meta: 0,
-					count: 56
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 8987,
-					meta: 0,
-					count: 60
-				},
-				{
-					item: 5496,
-					meta: 0,
-					count: 257
-				},
-				{
-					item: 159,
-					meta: 10,
-					count: 1
-				},
-				{
-					item: 159,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 159,
-					meta: 5,
-					count: 1
-				},
-				{
-					item: 5352,
-					meta: 5,
-					count: 4
-				},
-				{
-					item: 8989,
-					meta: 0,
-					count: 142
-				},
-				{
-					item: 5352,
-					meta: 10,
-					count: 40
-				},
-				{
-					item: 159,
-					meta: 1,
-					count: 1
-				},
-				{
-					item: 5454,
-					meta: 6,
-					count: 5
-				},
-				{
-					item: 159,
-					meta: 3,
-					count: 1
-				},
-				{
-					item: 5352,
-					meta: 11,
-					count: 293
-				},
-				{
-					item: 159,
-					meta: 4,
-					count: 1
-				}],
-				endPos: {
-					X: 298,
-					Y: 12,
-					Z: -105
-				}
-			}
+				label: "Thaumic Altar"
+			},
+			Damage: 3s
 		}
 	}]
 }

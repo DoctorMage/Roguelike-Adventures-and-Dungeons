@@ -1,9 +1,14 @@
 {
 	title: "Warped Jar Storage",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:transmutation_scroll",
 		tag: {
-			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: 5.664285714285718d,
@@ -27,85 +32,22 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "4aa498b2",
+		uid: "7fe96b7a",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Warped Jar Storage",
-				UUID: "45afcba8-cd19-451d-b6d3-81785f88f4b9",
-				startPos: {
-					X: 294,
-					Y: 4,
-					Z: -103
+				upgraded: 0,
+				color: 16777215,
+				size: 25,
+				sourceInventory: {},
+				structureName: "B-120-config_capsule_rewards_warped_jar_storage",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 9029,
-					meta: 0,
-					count: 84
-				},
-				{
-					item: 169,
-					meta: 0,
-					count: 10
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 9020,
-					meta: 1,
-					count: 132
-				},
-				{
-					item: 35,
-					meta: 6,
-					count: 4
-				},
-				{
-					item: 5352,
-					meta: 5,
-					count: 128
-				},
-				{
-					item: 8989,
-					meta: 0,
-					count: 224
-				},
-				{
-					item: 35,
-					meta: 9,
-					count: 143
-				},
-				{
-					item: 5503,
-					meta: 0,
-					count: 106
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 10251,
-					meta: 0,
-					count: 3
-				}],
-				endPos: {
-					X: 270,
-					Y: 17,
-					Z: -127
-				}
-			}
+				label: "Warped Jar Storage"
+			},
+			Damage: 3s
 		}
 	}]
 }

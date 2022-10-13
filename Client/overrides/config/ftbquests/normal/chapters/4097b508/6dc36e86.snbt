@@ -1,11 +1,6 @@
 {
 	title: "Well",
-	icon: {
-		id: "buildinggadgets:template",
-		tag: {
-			UUID: "60126a13-51b7-4ebc-a6e4-6fc44370b89f"
-		}
-	},
+	icon: "ebwizardry:blank_scroll",
 	x: 7.3214285714285765d,
 	y: 2.017857142857139d,
 	shape: "square",
@@ -27,90 +22,22 @@
 		value: 50L
 	}],
 	rewards: [{
-		uid: "d7ae2be8",
+		uid: "6ffeb7ba",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Well",
-				UUID: "7e3554b2-f262-4a49-8214-91e56bc80cf6",
-				startPos: {
-					X: 2021,
-					Y: 4,
-					Z: 207
+				upgraded: 0,
+				color: 16777215,
+				size: 15,
+				sourceInventory: {},
+				structureName: "B-92-config_capsule_rewards_well",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 7
-				},
-				{
-					item: 7805,
-					meta: 6,
-					count: 2
-				},
-				{
-					item: 4791,
-					meta: 0,
-					count: 4
-				},
-				{
-					item: 7978,
-					meta: 0,
-					count: 45
-				},
-				{
-					item: 5245,
-					meta: 3,
-					count: 37
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5245,
-					meta: 1,
-					count: 46
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 44
-				},
-				{
-					item: 4790,
-					meta: 0,
-					count: 9
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 4815,
-					meta: 1,
-					count: 25
-				},
-				{
-					item: 7993,
-					meta: 0,
-					count: 40
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 42
-				}],
-				endPos: {
-					X: 2031,
-					Y: 18,
-					Z: 197
-				}
-			}
+				label: "Well"
+			},
+			Damage: 3s
 		}
 	}]
 }

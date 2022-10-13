@@ -1,15 +1,20 @@
 {
 	title: "&lAmazing &6&lArchitects",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "capsule:capsule",
 		tag: {
-			"Quark:RuneColor": 0,
+			"Quark:RuneColor": 13,
 			ench: [{
 				lvl: 1s,
-				id: 26
+				id: 34
 			}],
+			color: 3159364,
+			size: 1,
+			display: {
+				color: 10141105
+			},
 			"Quark:RuneAttached": 1b,
-			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
+			overpowered: 1
 		}
 	},
 	always_invisible: false,
@@ -88,17 +93,6 @@
 		height: 7.5d,
 		rotation: 0.0d,
 		image: "assets:amazingarchitects/wizardry all.png",
-		hover: [],
-		click: "",
-		dev: false
-	},
-	{
-		x: -5.242857142857147d,
-		y: 6.9571428571428555d,
-		width: 2.0d,
-		height: 2.0d,
-		rotation: 0.0d,
-		image: "assets:amazingarchitects/crimsonset/crimsonaltar.png",
 		hover: [],
 		click: "",
 		dev: false

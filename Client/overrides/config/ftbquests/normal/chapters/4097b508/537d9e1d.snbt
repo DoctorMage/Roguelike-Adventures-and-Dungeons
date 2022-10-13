@@ -1,10 +1,16 @@
 {
 	title: "Diagonal Bridge L",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ebwizardry:scroll",
 		tag: {
-			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
-		}
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		},
+		Damage: 1s
 	},
 	x: 16.152380952380952d,
 	y: -0.9857142857142946d,
@@ -27,80 +33,22 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "3afe21a7",
+		uid: "d8a3c8fd",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Diagonal Bridge L",
-				UUID: "72451b25-5bcf-4cf9-b973-e222a57c41c7",
-				startPos: {
-					X: 1860,
-					Y: 4,
-					Z: 107
+				upgraded: 0,
+				color: 16777215,
+				size: 25,
+				sourceInventory: {},
+				structureName: "B-81-config_capsule_rewards_diagonal_bridge_l",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 14
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 46
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5244,
-					meta: 2,
-					count: 15
-				},
-				{
-					item: 4815,
-					meta: 1,
-					count: 42
-				},
-				{
-					item: 13791,
-					meta: 0,
-					count: 39
-				},
-				{
-					item: 13800,
-					meta: 0,
-					count: 115
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 92
-				},
-				{
-					item: 5245,
-					meta: 3,
-					count: 118
-				},
-				{
-					item: 13782,
-					meta: 0,
-					count: 214
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				}],
-				endPos: {
-					X: 1883,
-					Y: 15,
-					Z: 84
-				}
-			}
+				label: "Diagonal Bridge L"
+			},
+			Damage: 3s
 		}
 	}]
 }

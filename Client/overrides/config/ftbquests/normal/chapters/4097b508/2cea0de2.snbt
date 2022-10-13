@@ -1,11 +1,6 @@
 {
 	title: "Fountain",
-	icon: {
-		id: "buildinggadgets:template",
-		tag: {
-			UUID: "60126a13-51b7-4ebc-a6e4-6fc44370b89f"
-		}
-	},
+	icon: "ebwizardry:blank_scroll",
 	x: 9.5d,
 	y: 2.0d,
 	shape: "square",
@@ -27,85 +22,22 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "26708650",
+		uid: "e252f128",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Fountain",
-				UUID: "cf3788b9-2a72-405f-b62b-b755d39f4854",
-				startPos: {
-					X: 1974,
-					Y: 4,
-					Z: 109
+				upgraded: 0,
+				color: 16777215,
+				size: 33,
+				sourceInventory: {},
+				structureName: "B-82-config_capsule_rewards_fountain",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 7
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 220
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 7805,
-					meta: 6,
-					count: 116
-				},
-				{
-					item: 7978,
-					meta: 0,
-					count: 8
-				},
-				{
-					item: 7993,
-					meta: 0,
-					count: 56
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 272
-				},
-				{
-					item: 13782,
-					meta: 0,
-					count: 272
-				},
-				{
-					item: 5245,
-					meta: 3,
-					count: 186
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 9
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 79,
-					meta: 0,
-					count: 9
-				}],
-				endPos: {
-					X: 2006,
-					Y: 27,
-					Z: 77
-				}
-			}
+				label: "Fountain"
+			},
+			Damage: 3s
 		}
 	}]
 }

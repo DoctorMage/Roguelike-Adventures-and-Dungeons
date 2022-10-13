@@ -1,9 +1,14 @@
 {
 	title: "Crimson Farmland",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:duplication_scroll",
 		tag: {
-			UUID: "08f42de6-10f8-43f6-9294-bd3f08e68c97"
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: -1.2857142857142918d,
@@ -27,80 +32,22 @@
 		value: 100L
 	}],
 	rewards: [{
-		uid: "492fdd2f",
+		uid: "fc0c706a",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Crimson Farmland",
-				UUID: "48005099-5309-4321-9231-fd2888059bc0",
-				startPos: {
-					X: 291,
-					Y: 4,
-					Z: -105
+				upgraded: 0,
+				color: 16777215,
+				size: 21,
+				sourceInventory: {},
+				structureName: "B-131-config_capsule_rewards_crimson_farmland",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 5392,
-					meta: 12,
-					count: 13
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5496,
-					meta: 0,
-					count: 60
-				},
-				{
-					item: 5508,
-					meta: 0,
-					count: 4
-				},
-				{
-					item: 5505,
-					meta: 0,
-					count: 16
-				},
-				{
-					item: 215,
-					meta: 0,
-					count: 24
-				},
-				{
-					item: 4813,
-					meta: 0,
-					count: 225
-				},
-				{
-					item: 9034,
-					meta: 0,
-					count: 34
-				},
-				{
-					item: 5352,
-					meta: 10,
-					count: 72
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				}],
-				endPos: {
-					X: 271,
-					Y: 11,
-					Z: -125
-				}
-			}
+				label: "Crimson Farmland"
+			},
+			Damage: 3s
 		}
 	}]
 }

@@ -1,9 +1,14 @@
 {
 	title: "Straight to Diagonal",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
-			UUID: "97d093a5-40bd-4301-8ef1-d804ae40cd22"
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: 4.401360544217681d,
@@ -47,234 +52,60 @@
 		value: 300L
 	}],
 	rewards: [{
-		uid: "5d0287d4",
+		uid: "4b4ef397",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Full Stone Wall Obtuse Straight Diagonal Connector",
-				UUID: "f3d32441-1e30-4b67-a5c8-e4f18c40fd22",
-				startPos: {
-					X: 1570,
-					Y: 4,
-					Z: 687
+				upgraded: 0,
+				color: 16777215,
+				size: 57,
+				sourceInventory: {},
+				structureName: "B-191-config_capsule_rewards_Full_Stone_Wall_Obtuse_Angle",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 7
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 294
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5508,
-					meta: 0,
-					count: 18
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 160
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 408
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 1764
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 304
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 469
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 16
-				}],
-				endPos: {
-					X: 1598,
-					Y: 18,
-					Z: 743
-				}
-			}
+				label: "Full Stone Wall Obtuse Angle"
+			},
+			Damage: 3s
 		}
 	},
 	{
-		uid: "5b0e63a3",
+		uid: "96621832",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Stone Wall Obtuse Straight Diagonal Connector",
-				UUID: "5066b12a-8fe3-42ac-8e6f-7e7d5464a60d",
-				startPos: {
-					X: 1625,
-					Y: 4,
-					Z: 687
+				upgraded: 0,
+				color: 16777215,
+				size: 57,
+				sourceInventory: {},
+				structureName: "B-192-config_capsule_rewards_Stone_Wall_Obtuse_Angle",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 7
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 301
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5508,
-					meta: 0,
-					count: 18
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 144
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 400
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 1772
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 184
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 470
-				}],
-				endPos: {
-					X: 1653,
-					Y: 18,
-					Z: 743
-				}
-			}
+				label: "Stone Wall Obtuse Angle"
+			},
+			Damage: 3s
 		}
 	},
 	{
-		uid: "d11908c6",
+		uid: "e42701fb",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Stone Wall Thru Obtuse Straight Diagonal Connector",
-				UUID: "515f22b6-ae2e-474e-aef3-903c91d30ab4",
-				startPos: {
-					X: 1663,
-					Y: 4,
-					Z: 690
+				upgraded: 0,
+				color: 16777215,
+				size: 61,
+				sourceInventory: {},
+				structureName: "B-193-config_capsule_rewards_Stone_Wall_Walkthru_Obtuse_Angle",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 14
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 234
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5508,
-					meta: 0,
-					count: 327
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 176
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 268
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 1801
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 453
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 481
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 42
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 124
-				}],
-				endPos: {
-					X: 1696,
-					Y: 18,
-					Z: 749
-				}
-			}
+				label: "Stone Wall Walkthru Obtuse Angle"
+			},
+			Damage: 3s
 		}
 	}]
 }

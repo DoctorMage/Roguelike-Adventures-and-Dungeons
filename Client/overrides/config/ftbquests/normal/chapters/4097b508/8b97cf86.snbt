@@ -1,15 +1,14 @@
 {
 	title: "&4&lFiery Master Statue",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:duplication_scroll",
 		tag: {
 			"Quark:RuneColor": 14,
 			ench: [{
 				lvl: 1s,
-				id: 244
+				id: 34
 			}],
-			"Quark:RuneAttached": 1b,
-			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: -10.906462585034006d,
@@ -37,135 +36,22 @@
 		value: 500L
 	}],
 	rewards: [{
-		uid: "bfaa7c03",
+		uid: "7e64aa3d",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Fiery Master Statue",
-				UUID: "f37df625-4bdc-46ff-bccb-fcbc62a812f5",
-				startPos: {
-					X: 365,
-					Y: 5,
-					Z: -116
+				upgraded: 0,
+				color: 16777215,
+				size: 41,
+				sourceInventory: {},
+				structureName: "B-32-config_capsule_rewards_fiery_master_statue",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 6
-				},
-				{
-					item: 112,
-					meta: 0,
-					count: 11
-				},
-				{
-					item: 4765,
-					meta: 0,
-					count: 48
-				},
-				{
-					item: 5388,
-					meta: 3,
-					count: 1
-				},
-				{
-					item: 44,
-					meta: 6,
-					count: 13
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 5362,
-					meta: 3,
-					count: 2
-				},
-				{
-					item: 5949,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 5419,
-					meta: 11,
-					count: 8
-				},
-				{
-					item: 5244,
-					meta: 7,
-					count: 40
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 5990,
-					meta: 1,
-					count: 341
-				},
-				{
-					item: 5441,
-					meta: 0,
-					count: 7
-				},
-				{
-					item: 11563,
-					meta: 0,
-					count: 11
-				},
-				{
-					item: 4745,
-					meta: 0,
-					count: 32
-				},
-				{
-					item: 215,
-					meta: 0,
-					count: 31
-				},
-				{
-					item: 5376,
-					meta: 3,
-					count: 3
-				},
-				{
-					item: 4761,
-					meta: 0,
-					count: 626
-				},
-				{
-					item: 5361,
-					meta: 3,
-					count: 1
-				},
-				{
-					item: 5244,
-					meta: 8,
-					count: 664
-				},
-				{
-					item: 114,
-					meta: 0,
-					count: 6
-				}],
-				endPos: {
-					X: 394,
-					Y: 45,
-					Z: -98
-				}
-			}
+				label: "Fiery Master Statue"
+			},
+			Damage: 3s
 		}
 	}]
 }

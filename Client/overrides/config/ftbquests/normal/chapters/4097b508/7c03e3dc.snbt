@@ -1,9 +1,14 @@
 {
 	title: "Straight",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
-			UUID: "97d093a5-40bd-4301-8ef1-d804ae40cd22"
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: -1.39d,
@@ -47,219 +52,60 @@
 		value: 300L
 	}],
 	rewards: [{
-		uid: "a4cf25dd",
+		uid: "02c475c9",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Full Stone Wall Straight",
-				UUID: "345612db-d3a6-4fe9-b118-322d9bd06f97",
-				startPos: {
-					X: 1609,
-					Y: 4,
-					Z: 206
+				upgraded: 0,
+				color: 16777215,
+				size: 33,
+				sourceInventory: {},
+				structureName: "B-188-config_capsule_rewards_Full_Stone_Wall_Straight",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 11
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 136
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 96
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 144
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 888
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 134
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 250
-				}],
-				endPos: {
-					X: 1618,
-					Y: 18,
-					Z: 238
-				}
-			}
+				label: "Full Stone Wall Straight"
+			},
+			Damage: 3s
 		}
 	},
 	{
-		uid: "f4e07f04",
+		uid: "e1d61807",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Stone Wall Straight",
-				UUID: "fa071599-a6d7-4606-8bf4-928da2a2e1d8",
-				startPos: {
-					X: 1646,
-					Y: 4,
-					Z: 206
+				upgraded: 0,
+				color: 16777215,
+				size: 33,
+				sourceInventory: {},
+				structureName: "B-189-config_capsule_rewards_Stone_Wall_Straight",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 11
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 136
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 80
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 144
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 888
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 70
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 250
-				}],
-				endPos: {
-					X: 1655,
-					Y: 18,
-					Z: 238
-				}
-			}
+				label: "Stone Wall Straight"
+			},
+			Damage: 3s
 		}
 	},
 	{
-		uid: "24328350",
+		uid: "a6cae2a8",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Stone Wall Walkthrough Straight",
-				UUID: "7d58f2d4-b1f2-491c-9be7-6ec386436f06",
-				startPos: {
-					X: 1690,
-					Y: 4,
-					Z: 206
+				upgraded: 0,
+				color: 16777215,
+				size: 33,
+				sourceInventory: {},
+				structureName: "B-190-config_capsule_rewards_Stone_Wall_Walkthrough_Straight",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 7
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 136
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 96
-				},
-				{
-					item: 5508,
-					meta: 0,
-					count: 155
-				},
-				{
-					item: 5352,
-					meta: 4,
-					count: 144
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 888
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 225
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 270
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 21
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 32
-				}],
-				endPos: {
-					X: 1704,
-					Y: 18,
-					Z: 238
-				}
-			}
+				label: "Stone Wall Walkthrough Straight"
+			},
+			Damage: 3s
 		}
 	}]
 }

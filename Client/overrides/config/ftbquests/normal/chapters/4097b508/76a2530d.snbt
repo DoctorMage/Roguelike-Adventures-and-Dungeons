@@ -1,9 +1,14 @@
 {
 	title: "&3Stone Wizard Tower",
 	icon: {
-		id: "buildinggadgets:template",
+		id: "ancientspellcraft:transmutation_scroll",
 		tag: {
-			UUID: "1329803b-7d73-437b-996e-727f75706fcb"
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
 		}
 	},
 	x: -5.073809523809501d,
@@ -27,150 +32,22 @@
 		value: 200L
 	}],
 	rewards: [{
-		uid: "c3c97492",
+		uid: "87299e8d",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Stone Wizard Tower",
-				UUID: "0fb64d8d-8af0-4603-8646-ca55d70b89d0",
-				startPos: {
-					X: 366,
-					Y: 5,
-					Z: -126
+				upgraded: 0,
+				color: 16777215,
+				size: 53,
+				sourceInventory: {},
+				structureName: "B-57-config_capsule_rewards_stone_wizard_tower",
+				display: {
+					color: 3949738
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 4497,
-					meta: 0,
-					count: 5
-				},
-				{
-					item: 1,
-					meta: 4,
-					count: 458
-				},
-				{
-					item: 6213,
-					meta: 0,
-					count: 120
-				},
-				{
-					item: 7356,
-					meta: 3,
-					count: 1
-				},
-				{
-					item: 9179,
-					meta: 0,
-					count: 252
-				},
-				{
-					item: 109,
-					meta: 0,
-					count: 190
-				},
-				{
-					item: 5340,
-					meta: 11,
-					count: 636
-				},
-				{
-					item: 50,
-					meta: 0,
-					count: 58
-				},
-				{
-					item: 44,
-					meta: 5,
-					count: 4
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 44,
-					meta: 0,
-					count: 44
-				},
-				{
-					item: 5290,
-					meta: 8,
-					count: 385
-				},
-				{
-					item: 5454,
-					meta: 7,
-					count: 450
-				},
-				{
-					item: 5341,
-					meta: 0,
-					count: 188
-				},
-				{
-					item: 5454,
-					meta: 9,
-					count: 76
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 1
-				},
-				{
-					item: 9222,
-					meta: 0,
-					count: 220
-				},
-				{
-					item: 5357,
-					meta: 3,
-					count: 106
-				},
-				{
-					item: 98,
-					meta: 0,
-					count: 304
-				},
-				{
-					item: 5461,
-					meta: 13,
-					count: 60
-				},
-				{
-					item: 6207,
-					meta: 2,
-					count: 747
-				},
-				{
-					item: 5281,
-					meta: 8,
-					count: 146
-				},
-				{
-					item: 5461,
-					meta: 15,
-					count: 28
-				},
-				{
-					item: 6075,
-					meta: 0,
-					count: 56
-				}],
-				endPos: {
-					X: 386,
-					Y: 56,
-					Z: -88
-				}
-			}
+				label: "Stone Wizard Tower"
+			},
+			Damage: 3s
 		}
 	}]
 }
