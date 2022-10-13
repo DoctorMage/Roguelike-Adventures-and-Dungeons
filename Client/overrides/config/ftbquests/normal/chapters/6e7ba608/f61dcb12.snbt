@@ -4,7 +4,11 @@
 	y: -10.0d,
 	description: "If you like Pinacolada!",
 	text: [
-		"Visit the Tropicraft dimension."
+		"Visit the Tropicraft dimension.",
+		"",
+		"Warning: Drinking a Pinacolada to get back home instead of taking the portal will GENERATE A NEW PORTAL.",
+		"",
+		"This will interfere with anything in the way."
 	],
 	dependencies: [
 		"fd29d952"
