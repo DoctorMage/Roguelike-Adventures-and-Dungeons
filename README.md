@@ -1,4 +1,5 @@
 # Roguelike Adventures and Dungeons
+![rad-rev-logo-smaller](https://user-images.githubusercontent.com/7347489/196770910-e9bafe91-8480-4d11-8ac4-57dbc404528e.png)
 
 This is the repository for Dreams01's Roguelike Adventures and Dungeons (RAD). You can find the Curseforge page for RAD [here](https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons)
 ## RAD 1.52 IS OUT
