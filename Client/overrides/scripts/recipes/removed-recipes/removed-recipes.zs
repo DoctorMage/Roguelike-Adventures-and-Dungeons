@@ -45,6 +45,15 @@ recipes.remove(<dungeontactics:trap_boom>);
 recipes.remove(<dungeontactics:trap_ambush>);
 recipes.remove(<dungeontactics:caltrops_poison>);
 recipes.remove(<dungeontactics:caltrops>);
+recipes.remove(<dungeontactics:wooden_cutlass>);
+recipes.remove(<dungeontactics:bone_cutlass>);
+recipes.remove(<dungeontactics:stone_cutlass>);
+recipes.remove(<dungeontactics:iron_cutlass>);
+recipes.remove(<dungeontactics:silver_cutlass>);
+recipes.remove(<dungeontactics:golden_cutlass>);
+recipes.remove(<dungeontactics:steel_cutlass>);
+recipes.remove(<dungeontactics:diamond_cutlass>);
+recipes.remove(<dungeontactics:mithril_cutlass>);
 
 //# ExtraUtilites 2
 recipes.remove(<extrautils2:teleporter:1>);

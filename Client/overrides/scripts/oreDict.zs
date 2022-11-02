@@ -14,3 +14,16 @@ if (loadedMods has "ebwizardry") {
 	crystalAcid.add(<ebwizardry:magic_crystal:3>, <ebwizardry:magic_crystal:5>);
 }
 
+if (loadedMods has "mysticalworld") {
+	val ingotCopper = <ore:ingotCopper>;
+	ingotCopper.add(<mysticalworld:copper_ingot>);
+
+	val nuggetCopper = <ore:nuggetCopper>;
+	nuggetCopper.add(<mysticalworld:copper_nugget>);
+
+	val ingotSilver = <ore:ingotSilver>;
+	ingotSilver.add(<mysticalworld:silver_ingot>);
+
+	val nuggetSilver = <ore:nuggetSilver>;
+	nuggetSilver.add(<mysticalworld:silver_nugget>);
+}
