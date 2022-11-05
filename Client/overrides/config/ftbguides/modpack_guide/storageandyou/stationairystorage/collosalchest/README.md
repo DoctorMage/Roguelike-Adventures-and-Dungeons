@@ -1,6 +1,6 @@
 The largest storage item in the modpack crafted as a multiblock structure with a hollow core depending on the size and material of the chest it can store a whooping 864k items.
 
-![Credits to Zarchyar#3407 for this neat guide on how much each chest can store](zarchyarexcel.png)
+![Credits to Zarchyar#3407 for this neat guide on how much each chest can store](zarchyarexcel2.png)
 
 #Warning chest larger than 10x10 may cause issues with performance
 
