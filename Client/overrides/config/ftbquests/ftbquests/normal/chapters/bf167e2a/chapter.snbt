@@ -1,7 +1,0 @@
-{
-	title: "Aether Conquerer",
-	icon: "rustic:cloudsbluff",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

@@ -1,7 +1,0 @@
-{
-	title: "Corail Tombstone",
-	icon: "tombstone:decorative_grave_cross",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: "pentagon"
-}

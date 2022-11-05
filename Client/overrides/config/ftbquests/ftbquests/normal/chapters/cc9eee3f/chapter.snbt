@@ -1,7 +1,0 @@
-{
-	title: "Mystical Agriculture",
-	icon: "mysticalagriculture:nature_crop",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}
