@@ -1,0 +1,17 @@
+[
+ {
+  "id": "backpacks",
+  "title": "Backpack",
+  "icon": "item:improvedbackpacks:backpack"
+ },
+ {
+  "id": "dankstorage",
+  "title": "Dank Nulls",
+  "icon": "item:minecraft:iron_sword"
+ },
+ {
+  "id": "thecoolerbackpack",
+  "title": "Bag Of Holding",
+  "icon": "item:extrautils2:bagofholding"
+ }
+]
