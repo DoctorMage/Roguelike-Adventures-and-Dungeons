@@ -5,7 +5,7 @@
     "source": "minecraft:stone",
     "srcmeta": 0,
     "veins": 32,
-    "size": 16,
+    "size": 32,
     "miny": 10,
     "maxy": 246
   },
@@ -15,7 +15,7 @@
     "source": "minecraft:stone",
     "srcmeta": 0,
     "veins": 24,
-    "size": 16,
+    "size": 32,
     "miny": 10,
     "maxy": 246
   },
@@ -25,7 +25,7 @@
     "source": "minecraft:stone",
     "srcmeta": 0,
     "veins": 12,
-    "size": 8,
+    "size": 16,
     "miny": 10,
     "maxy": 246
   },
@@ -35,7 +35,7 @@
     "source": "minecraft:stone",
     "srcmeta": 0,
     "veins": 12,
-    "size": 12,
+    "size": 24,
     "miny": 10,
     "maxy": 246
   },
@@ -45,7 +45,7 @@
     "source": "minecraft:stone",
     "srcmeta": 0,
     "veins": 8,
-    "size": 8,
+    "size": 16,
     "miny": 10,
     "maxy": 246
   },
@@ -55,7 +55,7 @@
     "source": "minecraft:stone",
     "srcmeta": 0,
     "veins": 4,
-    "size": 8,
+    "size": 16,
     "miny": 10,
     "maxy": 246
   },
@@ -65,7 +65,7 @@
     "source": "minecraft:stone",
     "srcmeta": 0,
     "veins": 2,
-    "size": 4,
+    "size": 8,
     "miny": 10,
     "maxy": 246
   },
@@ -85,7 +85,7 @@
     "source": "minecraft:stone",
     "srcmeta": 0,
     "veins": 10,
-    "size": 6,
+    "size": 16,
     "miny": 10,
     "maxy": 246
   },
@@ -95,7 +95,7 @@
     "source": "minecraft:stone",
     "srcmeta": 0,
     "veins": 26,
-    "size": 16,
+    "size": 32,
     "miny": 10,
     "maxy": 246
   },
@@ -105,7 +105,7 @@
     "source": "minecraft:stone",
     "srcmeta": 0,
     "veins": 20,
-    "size": 12,
+    "size": 24,
     "miny": 10,
     "maxy": 246
   },
@@ -115,7 +115,7 @@
     "source": "minecraft:stone",
     "srcmeta": 0,
     "veins": 18,
-    "size": 14,
+    "size": 28,
     "miny": 10,
     "maxy": 246
   },
@@ -125,7 +125,7 @@
     "source": "minecraft:stone",
     "srcmeta": 0,
     "veins": 16,
-    "size": 16,
+    "size": 32,
     "miny": 10,
     "maxy": 246
   },
@@ -135,7 +135,287 @@
     "source": "minecraft:stone",
     "srcmeta": 0,
     "veins": 16,
-    "size": 10,
+    "size": 24,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "biomesoplenty:gem_ore",
+    "oremeta": 1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 4,
+    "size": 16,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "biomesoplenty:gem_ore",
+    "oremeta": 2,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 4,
+    "size": 16,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "biomesoplenty:gem_ore",
+    "oremeta": 3,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 4,
+    "size": 16,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "biomesoplenty:gem_ore",
+    "oremeta": 4,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 4,
+    "size": 16,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "biomesoplenty:gem_ore",
+    "oremeta": 5,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 4,
+    "size": 16,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "biomesoplenty:gem_ore",
+    "oremeta": 6,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 4,
+    "size": 16,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "ancientspellcraft:crystal_ore_fire",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 8,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "ancientspellcraft:crystal_ore_earth",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 8,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "ancientspellcraft:crystal_ore_healing",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 8,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "ancientspellcraft:crystal_ore_ice",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 8,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "ancientspellcraft:crystal_ore_lightning",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 8,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "ancientspellcraft:crystal_ore_necromancy",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 8,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "ancientspellcraft:crystal_ore_sorcery",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 8,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "ancientspellcraft:devoritium_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 8,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "subterraneanswitcheroo:coalronore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 24,
+    "size": 32,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "subterraneanswitcheroo:redironore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 24,
+    "size": 32,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "subterraneanswitcheroo:redgold",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 8,
+    "size": 16,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "subterraneanswitcheroo:obsidianore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 8,
+    "size": 16,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "subterraneanswitcheroo:goldiamondore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 8,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "dungeontactics:mithril_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 8,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "subterraneanswitcheroo:clayore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 32,
+    "size": 32,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "mysticalworld:amethyst_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 4,
+    "size": 16,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "mysticalworld:quartz_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 12,
+    "size": 16,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "thaumcraft:ore_cinnabar",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 32,
+    "size": 4,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "thaumcraft:ore_amber",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 48,
+    "size": 4,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "mysticalagriculture:inferium_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 8,
+    "size": 16,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "mysticalagriculture:prosperity_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 8,
+    "size": 16,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "futuremc:ancient_debris",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 8,
     "miny": 10,
     "maxy": 246
   }
