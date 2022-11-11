@@ -7,3 +7,4 @@
 <inventorypets:slime_pet>.addShiftTooltip("Only one that has a chance of being reenabled", "This pet is disabled due to allowing players to be immortal for a cheap cost");
 <inventorypets:flying_saddle_pet>.addShiftTooltip("Easter Egg", "This Pet is disabled due to breaking mob ai do not re-enable");
 <inventorypets:saddle_pet>.addShiftTooltip("Easter Egg", "This Pet is disabled due to breaking mob ai do not re-enable");
+<inventorypets:wither_pet>.addShiftTooltip("This can kill you", "Be warned when using this pet with a weapon that has life steal enchantment you will receieve damage in some instances");
