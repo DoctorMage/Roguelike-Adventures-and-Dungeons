@@ -1,0 +1,18 @@
+{
+  "COMMON": [
+    "inventorypets/root",
+    "inventorypets/1",
+	"inventorypets/5",
+	"inventorypets/10",
+	"inventorypets/20",
+    "inventorypets/30"
+  ],
+  "UNCOMMON": [
+    "inventorypets/40",
+    "inventorypets/50"
+  ],
+  "RARE": [
+    "inventorypets/illuminati",
+    "inventorypets/blackhole"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "COMMON": [
+    "root",
+    "kill_barako",
+	"kill_foliaath",
+	"kill_grottol"
+  ],
+  "UNCOMMON": [
+    "sneak_village", 
+    "kill_naga"	
+  ],
+  "RARE": [
+    "steal_ice_crystal",
+    "kill_frostmaw",
+	"kill_barakoana",
+	"kill_ferrous_wroughtnaut"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "COMMON": [
+    "core/root",
+	"core/assassinassin",
+	"core/pyramidscheme"
+  ],
+  "UNCOMMON": [
+  	"core/atumed",
+    "core/kingslayer",
+    "core/lawbringer",
+	"core/ajourney"
+  ],
+  "RARE": [
+    "core/radyforaction",
+	"core/thefullmuseum"
+  ]
+}

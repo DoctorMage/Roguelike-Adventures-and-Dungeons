@@ -1,0 +1,15 @@
+{
+  "COMMON": [
+    "root",
+	"wildwood"
+  ],
+  "UNCOMMON": [
+	"staff",
+	"pacifist",
+    "renewable_renaissance"
+  ],
+  "RARE": [
+	"wildwood_armor",
+	"sylvan_armor"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "COMMON": [
+    "midnight/root",
+    "midnight/snapped_by_snapper"
+  ],
+  "UNCOMMON": [
+  ],
+  "RARE": [
+	"midnight/surface_biomes",
+	"midnight/your_highness"
+  ]
+}

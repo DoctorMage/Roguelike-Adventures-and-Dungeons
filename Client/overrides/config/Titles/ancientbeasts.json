@@ -1,0 +1,16 @@
+{
+  "COMMON": [
+    "root",
+    "kill_frostwalker",
+    "kill_ghost",
+	"owlstack_interact"
+  ],
+  "UNCOMMON": [
+    "kill_giant",
+    "tame_lilv"
+  ],
+  "RARE": [
+    "kill_rifted_enderman",
+    "kill_vessel"
+  ]
+}

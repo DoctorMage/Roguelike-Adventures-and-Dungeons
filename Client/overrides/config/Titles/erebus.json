@@ -1,0 +1,19 @@
+{
+  "COMMON": [
+    "portal/root",
+	"exploration/spray_can"
+  ],
+  "UNCOMMON": [
+	"exploration/ant_amulet",
+    "exploration/entomology"
+  ],
+  "RARE": [
+	"exploration/water_striders",
+	"exploration/rhino_beetle",
+	"exploration/rhino_exo_set",
+	"exploration/titan_beetle",
+	"exploration/traveller",
+	"exploration/kill_all",
+	"exploration/exo_set"
+  ]
+}
