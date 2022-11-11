@@ -1,0 +1,14 @@
+game.setLocalization("title.cavern.root", "§fThe Miner");
+game.setLocalization("title.cavern.iron_miner", "§fThe Bulldozer");
+game.setLocalization("title.cavern.enter_the_cavenia", "§8Uncanny Miner");
+game.setLocalization("title.cavern.gold_miner", "§6The Prospector");
+game.setLocalization("title.cavern.enter_the_huge_cavern", "§7Far Flung Digger");
+game.setLocalization("title.cavern.good_mine", "§bThe Excavator");
+game.setLocalization("title.cavern.enter_the_aqua_cavern", "§9§lThe Oceanographic Miner");
+game.setLocalization("title.cavern.enter_the_crown_cliffs", "§7Alpine Miner");
+game.setLocalization("title.cavern.enter_the_dark_forest", "§2Mystical Forest Prospector");
+game.setLocalization("title.cavern.enter_the_frost_mountains", "§bAntarctic Mole");
+game.setLocalization("title.cavern.enter_the_caveland", "§fReborn Miner");
+game.setLocalization("title.cavern.enter_the_skyland", "§3Avian Mole");
+game.setLocalization("title.cavern.enter_the_void", "§8Nothingness Prospector");
+game.setLocalization("title.cavern.enter_the_wide_desert", "§6Badland Excavator");

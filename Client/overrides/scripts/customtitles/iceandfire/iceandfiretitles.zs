@@ -1,0 +1,16 @@
+game.setLocalization("title.iceandfire.iceandfire.root", "§fThe Fairytale Princess");
+game.setLocalization("title.iceandfire.iceandfire.bestiary", "§fThe Bookworm");
+game.setLocalization("title.iceandfire.iceandfire.rotten_egg", "§eBad Batch");
+game.setLocalization("title.iceandfire.iceandfire.gorgon_head", "§8The Stonecold");
+game.setLocalization("title.iceandfire.iceandfire.kill_if_dragon", "§cBlades Initiate");
+game.setLocalization("title.iceandfire.iceandfire.dragonsteel", "§4§lThe Blood Forger");
+game.setLocalization("title.iceandfire.iceandfire.dragon_egg", "§6§lThe Dragon Master");
+game.setLocalization("title.iceandfire.iceandfire.dragon_flute", "§7The Serpent Charmer");
+game.setLocalization("title.iceandfire.iceandfire.kill_stymphalian_bird", "§cThe Pincushion");
+game.setLocalization("title.iceandfire.iceandfire.kill_siren", "§d§lThe Bewitched");
+game.setLocalization("title.iceandfire.iceandfire.kill_troll", "§9Troll Hunter");
+game.setLocalization("title.iceandfire.iceandfire.tame_amphithere", "§aThe Jungle Navigator");
+game.setLocalization("title.iceandfire.iceandfire.kill_myrmex", "§aBug Smasher");
+game.setLocalization("title.iceandfire.iceandfire.kill_cyclops", "§c§lGoliath Tormentor");
+game.setLocalization("title.iceandfire.iceandfire.kill_sea_serpent", "§b§lLeviathan Pursuer");
+game.setLocalization("title.iceandfire.iceandfire.use_tide_trident", "§bThe Seafaring §lProtector");

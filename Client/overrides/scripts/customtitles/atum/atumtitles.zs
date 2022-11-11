@@ -1,0 +1,10 @@
+game.setLocalization("title.atum.core.root", "§fThe Deserted");
+game.setLocalization("title.atum.core.assassinassin", "§4The Assasin");
+game.setLocalization("title.atum.core.pyramidscheme", "§eThe Tomb Raider");
+game.setLocalization("title.atum.core.atumed", "§6§lOzymandias");
+game.setLocalization("title.atum.core.kingslayer", "§4§lThe Usurper");
+game.setLocalization("title.atum.core.lawbringer", "§eDesert §4Peacekeeper");
+game.setLocalization("title.atum.core.ajourney", "§8The Vagabound");
+game.setLocalization("title.atum.core.pyramidscheme", "§eThe Tomb Raider");
+game.setLocalization("title.atum.core.radyforaction", "§6§kProgidy §r§6§lOf The Sun");
+game.setLocalization("title.atum.core.thefullmuseum", "§6D§lesert Curator");

@@ -1,0 +1,10 @@
+game.setLocalization("title.mowziesmobs.root", "§fThe Mob Hunter");
+game.setLocalization("title.mowziesmobs.kill_barako", "§fThe Outsider");
+game.setLocalization("title.mowziesmobs.kill_foliaath", "§aThe Groundskeeper");
+game.setLocalization("title.mowziesmobs.kill_grottol", "§cThe Heartless");
+game.setLocalization("title.mowziesmobs.sneak_village", "§7The Infiltrator");
+game.setLocalization("title.mowziesmobs.kill_naga", "§aNaga Fiend");
+game.setLocalization("title.mowziesmobs.steal_ice_crystal", "§9The §bSnatcher");
+game.setLocalization("title.mowziesmobs.kill_frostmaw", "§9§lFrigid Fighter");
+game.setLocalization("title.mowziesmobs.kill_barakoana", "§6§lThe King Slayer");
+game.setLocalization("title.mowziesmobs.kill_ferrous_wroughtnaut", "§8§lTitan Buster");
