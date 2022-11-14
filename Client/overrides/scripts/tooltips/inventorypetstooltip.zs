@@ -7,4 +7,4 @@
 <inventorypets:slime_pet>.addTooltip("This pet is disabled due to allowing players to be immortal for a cheap cost");
 <inventorypets:flying_saddle_pet>.addTooltip("This Pet is disabled due to breaking mob ai do not re-enable");
 <inventorypets:saddle_pet>.addTooltip("This Pet is disabled due to breaking mob ai do not re-enable");
-<inventorypets:wither_pet>.addTooltip("Be warned when using this pet with a weapon that has life steal enchantment you will receieve damage in some instances");
+<inventorypets:wither_pet>.addTooltip(format.darkAqua("Be warned when using this pet with a weapon that has life steal enchantment you will receieve damage in some instances. This can kill you!"));
