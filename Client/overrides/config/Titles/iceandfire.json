@@ -1,0 +1,24 @@
+{
+  "COMMON": [
+    "iceandfire/root",
+    "iceandfire/bestiary",
+    "iceandfire/rotten_egg",
+	"iceandfire/dragon_flute",
+	"iceandfire/kill_stymphalian_bird"
+  ],
+  "UNCOMMON": [
+    "iceandfire/kill_if_dragon",
+    "iceandfire/gorgon_head",
+	"iceandfire/kill_siren",
+	"iceandfire/kill_troll",
+	"iceandfire/tame_amphithere",
+	"iceandfire/kill_myrmex",
+	"iceandfire/kill_cyclops"
+  ],
+  "RARE": [
+    "iceandfire/dragonsteel",
+    "iceandfire/dragon_egg",
+	"iceandfire/kill_sea_serpent",
+	"iceandfire/use_tide_trident"
+  ]
+}

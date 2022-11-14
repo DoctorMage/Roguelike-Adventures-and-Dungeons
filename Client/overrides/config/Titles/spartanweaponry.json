@@ -1,0 +1,31 @@
+{
+  "COMMON": [
+    "archery",
+	"battleaxe",
+	"boomerang",
+	"caestus",
+	"club",
+	"crossbow",
+	"dagger",
+	"glaive",
+	"greatsword",
+	"halberd",
+	"hammer",
+	"katana",
+	"lance",
+	"longbow",
+	"longsword",
+	"mace",
+	"melee",
+	"pike",
+	"quarterstaff",
+	"rapier",
+	"saber",
+	"spear",
+	"warhammer"
+  ],
+  "UNCOMMON": [
+  ],
+  "RARE": [
+  ]
+}

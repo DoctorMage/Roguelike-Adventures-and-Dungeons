@@ -20,6 +20,11 @@
   "icon": "item:qualitytools:reforging_station"
  },
  {
+  "id": "storageandyou",
+  "title": "Storage & You",
+  "icon": "item:minecraft:chest"
+ },
+ {
   "id": "tipsandtricks",
   "title": "Modpack Tips & Tricks",
   "icon": "item:minecraft:redstone_torch"

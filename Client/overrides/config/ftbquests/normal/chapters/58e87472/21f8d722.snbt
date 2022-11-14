@@ -1,0 +1,22 @@
+{
+	title: "The Domain Of Half Life",
+	icon: "dimdoors:record_creepy",
+	x: -6.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	description: "When you gaze into the abyss, the abyss also gazes into you",
+	text: [
+		"Welcome to limbo enjoy your stay"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "a5f86e8e",
+		type: "dimension",
+		dim: 684
+	}],
+	rewards: [{
+		uid: "fa85ae6f",
+		type: "item",
+		item: "dimdoors:world_thread"
+	}]
+}

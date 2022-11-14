@@ -1,0 +1,17 @@
+{
+  "COMMON": [
+    "root",
+    "discover_spell",
+	"advanced"
+  ],
+  "UNCOMMON": [
+  	"max_out_wand",
+	"warlock",
+	"battlemage"
+  ],
+  "RARE": [
+    "discover_master_spell",
+    "all_artefacts",
+    "all_spells"
+  ]
+}

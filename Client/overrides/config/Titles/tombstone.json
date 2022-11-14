@@ -1,0 +1,26 @@
+{
+  "COMMON": [
+    "tutorial/root",
+	"tutorialcrime_in_town",
+	"tutorialcancel_ghostly_shape",
+	"tutorialchain_death",
+	"tutorialcreate_voodoo_poppet",
+	"tutorialdiscreet_search"
+  ],
+  "UNCOMMON": [
+	"tutorial/consume_soul",
+    "tutorial/choose_knowledge",
+	"tutorial/master_of_exorcism",
+	"tutorial/free_soul",
+	"tutorial/capture_soul"
+  ],
+  "RARE": [
+	"tutorial/ashes_and_bones",
+	"tutorial/bone_crusher",
+	"tutorial/genocide",
+	"tutorial/soul_eater",
+	"tutorial/almost_unkillable",
+	"tutorial/revive_familiar",
+	"tutorial/village_defender"
+  ]
+}

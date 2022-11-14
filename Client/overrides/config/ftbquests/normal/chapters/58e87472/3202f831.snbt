@@ -1,0 +1,25 @@
+{
+	title: "Limbo's Poem",
+	x: -6.0d,
+	y: 1.5d,
+	description: "A ode to the realm between",
+	text: [
+		"The realm of evergazing eyes and endless black land",
+		"Be wise of the ever gazing setinels",
+		"Venture down and be reborn in the eternal sea of red"
+	],
+	dependencies: [
+		"21f8d722"
+	],
+	tasks: [{
+		uid: "6d78cef5",
+		type: "checkmark",
+		title: "Limbo's Poem",
+		icon: "dimdoors:eternal_fabric"
+	}],
+	rewards: [{
+		uid: "b93fd6a6",
+		type: "item",
+		item: "dimdoors:record_creepy"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+  "COMMON": [
+    "root",
+	"relics"
+  ],
+  "UNCOMMON": [
+	"novice_spellblade",
+    "scribing_desk"
+  ],
+  "RARE": [
+	"grand_stone_tablet",
+	"sphere_of_cognizance"
+  ]
+}

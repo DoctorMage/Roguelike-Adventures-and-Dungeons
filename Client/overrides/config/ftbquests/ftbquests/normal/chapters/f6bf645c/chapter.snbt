@@ -1,7 +1,0 @@
-{
-	title: "The Twilight Forest",
-	icon: "twilightforest:miniature_structure",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

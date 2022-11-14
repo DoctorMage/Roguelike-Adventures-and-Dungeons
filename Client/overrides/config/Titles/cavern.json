@@ -1,0 +1,22 @@
+{
+  "COMMON": [
+    "root",
+	"iron_miner",
+	"enter_the_cavenia"
+  ],
+  "UNCOMMON": [
+	"gold_miner",
+	"enter_the_huge_cavern",
+    "good_mine"
+  ],
+  "RARE": [
+	"enter_the_aqua_cavern",
+	"enter_the_crown_cliffs",
+	"enter_the_dark_forest",
+	"enter_the_frost_mountains",
+	"enter_the_caveland",
+	"enter_the_skyland",
+	"enter_the_void",
+	"enter_the_wide_desert"
+  ]
+}

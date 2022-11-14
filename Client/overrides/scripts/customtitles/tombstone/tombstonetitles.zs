@@ -1,0 +1,18 @@
+game.setLocalization("title.tombstone.tutorial.root", "§bThe Dead");
+game.setLocalization("title.tombstone.tutorial.crime_in_town", "§7The Antihero");
+game.setLocalization("title.tombstone.tutorial.cancel_ghostly_shape", "§f§lThe Spectre");
+game.setLocalization("title.tombstone.tutorial.chain_death", "§fThe Entombed");
+game.setLocalization("title.tombstone.tutorial.create_voodoo_poppet", "§aThe Witch Doctor");
+game.setLocalization("title.tombstone.tutorial.discreet_search", "§6The Grave Robber");
+game.setLocalization("title.tombstone.tutorial.consume_soul", "§bSoul Sucker");
+game.setLocalization("title.tombstone.tutorial.choose_knowledge", "§7Of Taboo Knowledge");
+game.setLocalization("title.tombstone.tutorial.master_of_exorcism", "§dThe Exorcist");
+game.setLocalization("title.tombstone.tutorial.free_soul", "§bSoul Soother");
+game.setLocalization("title.tombstone.tutorial.capture_soul", "§cSoul Snatcher");
+game.setLocalization("title.tombstone.tutorial.ashes_and_bones", "§cUndead Hunter");
+game.setLocalization("title.tombstone.tutorial.bone_crusher", "§4§lNightmare Of The Undead");
+game.setLocalization("title.tombstone.tutorial.genocide", "§4§lVillager Slaughterer");
+game.setLocalization("title.tombstone.tutorial.soul_eater", "§8§lSoul §9§kDevourer");
+game.setLocalization("title.tombstone.tutorial.almost_unkillable", "§8§lThe Revenant");
+game.setLocalization("title.tombstone.tutorial.revive_familiar", "§c§lThe Necromancer");
+game.setLocalization("title.tombstone.tutorial.village_defender", "§a§lVillage Saviour");

@@ -1,0 +1,22 @@
+[
+ {
+  "id": "luggage",
+  "title": "Me & My Luggage",
+  "icon": "item:openblocks:luggage"
+ },
+ {
+  "id": "mobilestorage",
+  "title": "Storage On The Go",
+  "icon": "item:improvedbackpacks:backpack"
+ },
+ {
+  "id": "stationairystorage",
+  "title": "Storage That Stays At Your Base",
+  "icon": "item:storagedrawers:framingtable"
+ },
+ {
+  "id": "simplestoragenetwork",
+  "title": "Me, My base and its chunk sized storage network",
+  "icon": "item:storagenetwork:master"
+ }
+]

@@ -68,11 +68,8 @@ rh(<inventorypets:anvil_pet>);
 rh(<inventorypets:loot_pet>);
 rh(<inventorypets:grave_pet>);
 rh(<inventorypets:flying_saddle_pet>);
+rh(<inventorypets:saddle_pet>);
 rh(<inventorypets:slime_pet>);
-rh(<inventorypets:cloud_pet>);
-
-//#Viescraft
-rh(<vc:airship_workbench>);
 
 //#extrautils
 rh(<extrautils2:snowglobe>);

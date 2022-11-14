@@ -1,0 +1,21 @@
+{
+  "COMMON": [
+  	"root",
+	"progress_naga",
+	"progress_lich",
+	"progress_labyrinth"
+
+  ],
+  "UNCOMMON": [
+    "progress_hydra",
+    "progress_knights",
+    "progress_trophy_pedestal",
+    "progress_ur_ghast",
+	"progress_yeti"
+	
+  ],
+  "RARE": [
+    "progress_glacier",
+	"quest_ram"
+  ]
+}

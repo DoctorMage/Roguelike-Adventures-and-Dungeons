@@ -1,0 +1,12 @@
+[
+ {
+  "id": "collosalchest",
+  "title": "The Biggest Storage",
+  "icon": "item:colossalchests:colossal_chest"
+ },
+ {
+  "id": "storagedrawers",
+  "title": "STORAGE DRAWERS",
+  "icon": "item:storagedrawers:controller"
+ }
+]
