@@ -1,0 +1,1 @@
+mods.jei.JEI.addDescription(<randomthings:ingredient:11>,"The chicken from this egg will triple or double any gold ore fed to it.");
