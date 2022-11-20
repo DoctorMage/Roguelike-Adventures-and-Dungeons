@@ -1,0 +1,37 @@
+{
+	title: "Archeron's Libary",
+	x: 19.5d,
+	y: -1.0d,
+	description: "Their's a reason its called forbidden knowledge",
+	text: [
+		"Hellshelfs are like bookshelfs but give more enchanting power allowing you to apply higher level enchantments to your items.",
+		"",
+		"The max level for an enchanting table with hellshelfs is capped higher than wooden bookshelfs"
+	],
+	dependencies: [
+		"aaac6e3c"
+	],
+	tasks: [{
+		uid: "80995579",
+		type: "item",
+		items: [{
+			item: "apotheosis:hellshelf"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "c941f1d2",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "fdfc98e8",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "cf9a6534",
+		type: "item",
+		item: "minecraft:anvil 1 1"
+	}]
+}

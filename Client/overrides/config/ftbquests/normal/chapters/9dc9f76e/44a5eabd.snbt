@@ -1,0 +1,37 @@
+{
+	title: "Fine I'll Do It Myself",
+	x: 6.0d,
+	y: -16.0d,
+	description: "World gen go brrrr",
+	text: [
+		"On some occassions world generation can end up destroying strongholds/end portals. There are alternatives in that case one being the ender gateway",
+		"prefab which has a fully built end portal inside it just needs eyes to activate it."
+	],
+	dependencies: [
+		"a962f849"
+	],
+	optional: true,
+	tasks: [{
+		uid: "3c4be33a",
+		type: "item",
+		items: [{
+			item: "prefab:item_ender_gateway"
+		}]
+	}],
+	rewards: [{
+		uid: "84d7f916",
+		type: "item",
+		item: "minecraft:ender_eye",
+		count: 3
+	},
+	{
+		uid: "00539bb3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7462d2c1",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

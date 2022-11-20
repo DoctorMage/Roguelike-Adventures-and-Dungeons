@@ -1,0 +1,33 @@
+{
+	title: "Shhhh!!!!",
+	x: 17.5d,
+	y: -1.0d,
+	description: "Be quiet this is a libary",
+	text: [
+		"For an enchanting table to work it needs 1 or more bookshelfs for it to gain enchanting power. Further more there needs to be a 1 block space between ",
+		"the shelf and the enchanting table with nothing between them.",
+		"",
+		"The max level for an enchanting table with wooden bookshelfs are capped"
+	],
+	dependencies: [
+		"a05c73b5"
+	],
+	tasks: [{
+		uid: "05e62a22",
+		type: "item",
+		items: [{
+			item: "minecraft:bookshelf"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "632bd04a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "994cf59f",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}
