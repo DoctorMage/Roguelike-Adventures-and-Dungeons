@@ -1,0 +1,29 @@
+{
+	title: "A Token Of Appreciation",
+	x: 5.5d,
+	y: -9.5d,
+	description: "10% Off your next reroll",
+	text: [
+		"This item can be used to reroll the trait of any equipment"
+	],
+	dependencies: [
+		"932fa85e"
+	],
+	tasks: [{
+		uid: "448768e4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:reforge_cat"
+		}]
+	}],
+	rewards: [{
+		uid: "f1cf41a3",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "f5d40544",
+		type: "xp_levels",
+		xp_levels: 15
+	}]
+}

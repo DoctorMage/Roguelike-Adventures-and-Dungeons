@@ -1,0 +1,1 @@
+<roots:fire_starter>.addTooltip(format.darkAqua("Using this will cause your game to crash. Instead use a flint and steel!"));
