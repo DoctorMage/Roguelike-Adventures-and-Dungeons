@@ -6,7 +6,7 @@
 	text: [
 		"Hellshelfs are like bookshelfs but give more enchanting power allowing you to apply higher level enchantments to your items.",
 		"",
-		"The max level for an enchanting table with hellshelfs is capped higher than wooden bookshelfs"
+		"The max level for an enchanting table with hellshelfs is capped higher than wooden bookshelfs."
 	],
 	dependencies: [
 		"aaac6e3c"
