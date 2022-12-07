@@ -88,5 +88,13 @@
 				type: "wizard"
 			}
 		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "valkyrie"
+			}
+		}
 	}]
 }
