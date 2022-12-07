@@ -2,6 +2,9 @@
 
 //#Removed recipes - Please see each mod tab
 
+//# Extra Utilities 2
+recipes.remove(<extrautils2:bagofholding>);
+
 //# Apotheosis
 recipes.remove(<apotheosis:null_book>);
 recipes.remove(<apotheosis:armor_head_book>);
@@ -14,7 +17,7 @@ recipes.remove(<apotheosis:fishing_rod_book>);
 recipes.remove(<apotheosis:bow_book>);
 recipes.remove(<apotheosis:scrap_tome>);
 
-//Aroma
+//# Aroma
 recipes.remove(<aroma1997sdimension:dimensionchanger>);
 recipes.remove(<aroma1997sdimension:miningmultitool>);
 recipes.remove(<aroma1997sdimension:portalframe>);
