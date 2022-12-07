@@ -1,0 +1,23 @@
+{
+	title: "Return Title",
+	x: 1.5d,
+	y: 6.0d,
+	description: "Return title",
+	text: [
+		"Returns title if you end up losing it."
+	],
+	can_repeat: true,
+	dependencies: [
+		"e85da347"
+	],
+	hide: true,
+	tasks: [{
+		uid: "815a0b5c",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "a53bb83e",
+		type: "command",
+		command: "/titles add @p titles:the_colonel"
+	}]
+}

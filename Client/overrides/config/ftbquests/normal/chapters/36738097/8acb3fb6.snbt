@@ -1,0 +1,23 @@
+{
+	title: "Return Title",
+	x: -2.5d,
+	y: 4.0d,
+	description: "Return title",
+	text: [
+		"Returns title if you end up losing it."
+	],
+	can_repeat: true,
+	dependencies: [
+		"f98266da"
+	],
+	hide: true,
+	tasks: [{
+		uid: "40d3d912",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "47c8a624",
+		type: "command",
+		command: "/titles add @p titles:the_rainbow"
+	}]
+}

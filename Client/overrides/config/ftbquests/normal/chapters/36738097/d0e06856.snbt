@@ -1,0 +1,27 @@
+{
+	title: "I Go By Many Names",
+	x: -5.5d,
+	y: 1.0d,
+	text: [
+		"Ever wanted to show off to your friends what cool achievements you got every time you talked? Titles is here to save the day open the gui apply a titles and",
+		"boom next to your name you get a cool little title. Most titles are locked behind advancements see if you can get them all while others are rewarded from",
+		"quest. To open the gui press T (default keybind)."
+	],
+	tasks: [{
+		uid: "2d4beda5",
+		type: "checkmark",
+		title: "I Go By Many Names",
+		icon: "titles:titlearchive"
+	}],
+	rewards: [{
+		uid: "6455c241",
+		type: "item",
+		item: "titles:titlearchive"
+	},
+	{
+		uid: "9d66bf89",
+		type: "item",
+		item: "titles:archivefragment",
+		count: 3
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "The Obisidian hoarder",
+	x: -1.5d,
+	y: 0.0d,
+	description: "Wanna Tip",
+	text: [
+		"Tip don't do this unless you really hate obsidian."
+	],
+	tasks: [{
+		uid: "0125e666",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 1000000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a3936569",
+		type: "command",
+		team_reward: false,
+		auto: "disabled",
+		command: "/titles add @p titles:the_obsidian"
+	},
+	{
+		uid: "a4817a6a",
+		type: "xp_levels",
+		xp_levels: 500
+	},
+	{
+		uid: "63e50ff5",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Return Title",
+	x: -6.5d,
+	y: 4.0d,
+	description: "Return title",
+	text: [
+		"Returns title if you end up losing it."
+	],
+	can_repeat: true,
+	dependencies: [
+		"e4d0cf12"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a24c3c0f",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "a59ea4f3",
+		type: "command",
+		command: "/titles add @p titles:the_rock"
+	}]
+}

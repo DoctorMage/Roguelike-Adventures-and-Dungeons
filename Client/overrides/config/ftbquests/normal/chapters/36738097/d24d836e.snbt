@@ -1,0 +1,33 @@
+{
+	title: "Weezer Superfan",
+	x: -1.5d,
+	y: 2.0d,
+	description: "Idk its weezing time",
+	text: [
+		"I was joking about submitting 10 of these enjoy your title."
+	],
+	tasks: [{
+		uid: "9a2e99bb",
+		type: "item",
+		items: [{
+			item: "iceandfire:weezer_blue_album"
+		}],
+		count: 10L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "5cf00a80",
+		type: "command",
+		command: "/titles add @p titles:the_weezersuperfan"
+	},
+	{
+		uid: "145633ff",
+		type: "xp_levels",
+		xp_levels: 750
+	},
+	{
+		uid: "e049dceb",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

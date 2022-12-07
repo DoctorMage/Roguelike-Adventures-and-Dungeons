@@ -1,0 +1,32 @@
+{
+	title: "Weezer Fan",
+	x: -3.5d,
+	y: 2.0d,
+	description: "Insert funny subtitle",
+	text: [
+		"If you were a real fan you would get the title that requires 10 of these"
+	],
+	tasks: [{
+		uid: "9e590860",
+		type: "item",
+		items: [{
+			item: "iceandfire:weezer_blue_album"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "223ce905",
+		type: "command",
+		command: "/titles add @p titles:the_weezerfan"
+	},
+	{
+		uid: "1d6fd8f6",
+		type: "xp_levels",
+		xp_levels: 75
+	},
+	{
+		uid: "befb6a79",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	}]
+}

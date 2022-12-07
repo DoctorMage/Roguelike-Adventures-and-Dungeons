@@ -1,0 +1,23 @@
+{
+	title: "Return Title",
+	x: -6.5d,
+	y: 2.0d,
+	description: "Return title",
+	text: [
+		"Returns title if you end up losing it."
+	],
+	can_repeat: true,
+	dependencies: [
+		"15fe5cae"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9e1b8c68",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "430bba25",
+		type: "command",
+		command: "/titles add @p titles:the_aeronaught"
+	}]
+}
