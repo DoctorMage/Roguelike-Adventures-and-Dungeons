@@ -6,5 +6,3 @@ game.setLocalization("title.inventorypets.inventorypets.20", "§7The Pet Collect
 game.setLocalization("title.inventorypets.inventorypets.30", "§dThe Pet Scientist");
 game.setLocalization("title.inventorypets.inventorypets.40", "§dThe Pet Adept");
 game.setLocalization("title.inventorypets.inventorypets.50", "§6§lLicensed Petologist");
-game.setLocalization("title.inventorypets.inventorypets.illuminati", "§cThe Cheater");
-game.setLocalization("title.inventorypets.inventorypets.blackhole", "§dThe Time Lord");
