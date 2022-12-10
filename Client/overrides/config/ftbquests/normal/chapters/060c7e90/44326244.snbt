@@ -30,15 +30,5 @@
 		uid: "85b375f6",
 		type: "xp_levels",
 		xp_levels: 5
-	},
-	{
-		uid: "1fb5b783",
-		type: "item",
-		item: {
-			id: "ftbquests:lootcrate",
-			tag: {
-				type: "crate_of_lesser_disciplines"
-			}
-		}
 	}]
 }
