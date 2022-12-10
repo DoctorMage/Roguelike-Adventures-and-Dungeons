@@ -1,5 +1,5 @@
 {
-	title: "Starting Equipment Selection!",
+	title: "Starting Gear Selection!",
 	icon: {
 		id: "ftbquests:lootcrate",
 		tag: {
@@ -10,13 +10,11 @@
 	y: -3.0d,
 	description: "Start your adventure TODAY!",
 	text: [
-		"Click the checkmark to complete this quest.",
+		"Don't want to waste time mining just to get some basic gear click the checkmark to complete this quest.",
 		"",
-		"Collect your reward by selecting a crate of starting equipment.",
+		"Collect your reward by selecting a crate of starting gear which contain armour, weapon(s) and food.",
 		"",
-		"You can select from Ranger, Wizard, and Warrior.",
-		"",
-		"You will also be permitted to select one early gadget to aid you on your adventures! Choose wisely!"
+		"You can select from a variety of gears."
 	],
 	dependencies: [
 		"35def456"
@@ -29,6 +27,6 @@
 	rewards: [{
 		uid: "ea40f0d8",
 		type: "choice",
-		table: 47
+		table: 42
 	}]
 }
