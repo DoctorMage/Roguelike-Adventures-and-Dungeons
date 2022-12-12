@@ -30,6 +30,11 @@
   "icon": "item:minecraft:redstone_torch"
  },
   {
+  "id": "bringoutyourdead",
+  "title": "Bring Out Your Dead",
+  "icon": "item:tombstone:ankh_of_pray"
+ },
+  {
   "id": "notesandcredits",
   "title": "Notes & Credits",
   "icon": "item:minecraft:experience_bottle"
