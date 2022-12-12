@@ -7,11 +7,6 @@
  {
   "id": "dankstorage",
   "title": "Dank Nulls",
-  "icon": "item:minecraft:iron_sword"
- },
- {
-  "id": "thecoolerbackpack",
-  "title": "Bag Of Holding",
-  "icon": "item:extrautils2:bagofholding"
+  "icon": "item:danknull:dank_null_6"
  }
 ]
