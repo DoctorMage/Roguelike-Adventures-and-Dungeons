@@ -155,7 +155,7 @@
 				"Quark:RuneColor": 8,
 				ench: [{
 					lvl: 1s,
-					id: 142
+					id: 150
 				}],
 				"Quark:ItemNameDye": 7,
 				Quality: {

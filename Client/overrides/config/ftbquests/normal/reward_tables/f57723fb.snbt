@@ -1,0 +1,170 @@
+{
+	title: "Valkyrie Gear",
+	loot_size: 50,
+	rewards: [{
+		item: {
+			id: "minecraft:iron_helmet",
+			tag: {
+				"Quark:ItemNameDye": 14,
+				Quality: {},
+				display: {
+					Name: "Valkyrie Helmet"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_chestplate",
+			tag: {
+				"Quark:ItemNameDye": 14,
+				Quality: {},
+				display: {
+					Name: "Valkyrie Chestplate"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_leggings",
+			tag: {
+				"Quark:ItemNameDye": 14,
+				Quality: {},
+				display: {
+					Name: "Valkyrie Leggings"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:iron_boots",
+			tag: {
+				"Quark:RuneColor": 1,
+				cloud: 180,
+				ench: [{
+					lvl: 1s,
+					id: 137
+				}],
+				"Quark:ItemNameDye": 14,
+				Quality: {
+					Slots: [
+						"feet"
+					],
+					Color: "dark_blue",
+					AttributeModifiers: [{
+						UUIDMost: 2689577447918420696L,
+						UUIDLeast: -6193255425137483468L,
+						Amount: -0.05d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -7319558648837158308L,
+						UUIDLeast: -9086077865644524313L,
+						Amount: -0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "Cursed"
+				},
+				display: {
+					Lore: [
+						"Cursed with the vengeance of the chicken's feathers that forged them"
+					],
+					Name: "Valykrie's Feathered Boots"
+				},
+				"Quark:RuneAttached": 1b
+			}
+		},
+		only_one: true
+	},
+	{
+		item: "harvestcraft:apricotglazedporkitem",
+		count: 28,
+		only_one: true
+	},
+	{
+		item: {
+			id: "spartanshields:shield_basic_copper",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "spartanweaponry:spear_bronze",
+			tag: {
+				"Quark:RuneColor": 1,
+				ench: [{
+					lvl: 1s,
+					id: 127
+				}],
+				"Quark:ItemNameDye": 14,
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_purple",
+					AttributeModifiers: [{
+						UUIDMost: 1179292872419853336L,
+						UUIDLeast: -7240347859533164083L,
+						Amount: -0.15d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -378895681811364277L,
+						UUIDLeast: -7718009220317230019L,
+						Amount: 0.05d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "Heavy"
+				},
+				display: {
+					Name: "Vortex Vanquisher"
+				},
+				"Quark:RuneAttached": 1b
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "spartanweaponry:javelin_bronze",
+			tag: {
+				AmmoUsed: 1,
+				"Quark:ItemNameDye": 14,
+				UUIDMost: -7438496064174340754L,
+				UUIDLeast: -7911660595295927001L,
+				display: {
+					Name: "Valkyrie's Javelin Bundle"
+				},
+				enchChecked: 1b,
+				Original: 1b
+			}
+		},
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "valkyrie",
+		item_name: "Crate Of Valkyrie Gear",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

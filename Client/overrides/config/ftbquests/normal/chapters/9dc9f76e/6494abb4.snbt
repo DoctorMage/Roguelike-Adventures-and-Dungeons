@@ -1,0 +1,28 @@
+{
+	title: "Levelup Reloaded",
+	x: -10.0d,
+	y: 0.0d,
+	description: "Simply a difference in skill",
+	text: [
+		"Upon opening up the book or pressing the keybind for the first time you will be taken to a menu with a set of specilizations.",
+		"",
+		"Choosing one invest free skill points into certain skills.",
+		"",
+		"If you don't like the were the points were invested from these specilizations you can use the book on your left ",
+		"to switch."
+	],
+	tasks: [{
+		uid: "6ae71927",
+		type: "item",
+		items: [{
+			item: "levelup2:skillbook"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3ed573ad",
+		type: "item",
+		item: "levelup2:respecbook"
+	}]
+}

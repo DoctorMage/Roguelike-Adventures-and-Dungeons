@@ -4,8 +4,9 @@
 	y: -16.0d,
 	description: "World gen go brrrr",
 	text: [
-		"On some occassions world generation can end up destroying strongholds/end portals. There are alternatives in that case one being the ender gateway",
-		"prefab which has a fully built end portal inside it just needs eyes to activate it."
+		"On some occassions world generation can end up destroying strongholds/end portals. ",
+		"There are alternatives in that case one being the ender gateway prefab ",
+		"which has a fully built unlit end portal."
 	],
 	dependencies: [
 		"a962f849"

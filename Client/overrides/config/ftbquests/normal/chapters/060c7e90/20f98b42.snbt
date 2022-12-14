@@ -31,9 +31,8 @@
 		xp_levels: 15
 	},
 	{
-		uid: "ceb8b21b",
+		uid: "2c6ad25c",
 		type: "random",
-		title: "Random Universal Wizard Artefact",
-		table: 43
+		table: 51
 	}]
 }

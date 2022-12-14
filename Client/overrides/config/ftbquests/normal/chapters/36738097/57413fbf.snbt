@@ -1,0 +1,23 @@
+{
+	title: "Return Title",
+	x: -2.5d,
+	y: 3.0d,
+	description: "Return title",
+	text: [
+		"Returns title if you end up losing it."
+	],
+	can_repeat: true,
+	dependencies: [
+		"d9b858f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6b209a83",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "4e4ac2e3",
+		type: "command",
+		command: "/titles add @p titles:the_armsmaster"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Skill Issue",
+	icon: "levelup2:skillbook",
+	x: -8.0d,
+	y: 0.0d,
+	description: "Everyone gets a freebie",
+	text: [
+		"Levelup reloaded allows for you turn to 5 levels  into skill points (These levels cannot be refuned!!).",
+		"",
+		"You can then invest those points into skills."
+	],
+	dependencies: [
+		"6494abb4"
+	],
+	tasks: [{
+		uid: "ee70a21a",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "b4e31e18",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

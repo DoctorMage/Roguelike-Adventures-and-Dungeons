@@ -4,7 +4,7 @@
 	y: -9.5d,
 	description: "10% Off your next reroll",
 	text: [
-		"This item can be used to reroll the trait of any equipment"
+		"This item can be used to reroll the trait of any equipment."
 	],
 	dependencies: [
 		"932fa85e"

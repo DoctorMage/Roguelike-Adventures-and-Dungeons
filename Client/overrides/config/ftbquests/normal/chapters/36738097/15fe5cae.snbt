@@ -1,0 +1,23 @@
+{
+	title: "The Aeronaught",
+	x: -5.5d,
+	y: 2.0d,
+	description: "Come fly with me, let's fly, let's fly away",
+	text: [
+		""
+	],
+	dependencies: [
+		"39a4ef73"
+	],
+	tasks: [{
+		uid: "9616d9cb",
+		type: "checkmark",
+		icon: "vc:airships/item_airship 1 5"
+	}],
+	rewards: [{
+		uid: "414f0c51",
+		type: "command",
+		team_reward: false,
+		command: "/titles add @p titles:the_aeronaught"
+	}]
+}

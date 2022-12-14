@@ -1,0 +1,222 @@
+{
+	title: "Arm's Master",
+	x: -3.5d,
+	y: 3.0d,
+	description: "I hope you have weapon insurance",
+	text: [
+		"Now collect everyone weapon in game and earn the super secret hidden title that you can show off to your friends!!"
+	],
+	tasks: [{
+		uid: "866745c9",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:dagger_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "68dec7c2",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:rapier_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bdad0de4",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:longsword_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0d37250a",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:saber_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1cf65ae0",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:katana_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "29c6c81e",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:rapier_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ccdba4db",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:greatsword_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e95f1163",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:warhammer_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "06d20389",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:halberd_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "62c1808e",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:hammer_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1fbf6a5d",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:lance_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2886de70",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:longbow_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6eace640",
+		type: "item",
+		items: [{
+			id: "spartanweaponry:crossbow_diamond",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3b2dbdde",
+		type: "item",
+		items: [{
+			id: "spartanweaponry:throwing_knife_diamond",
+			tag: {
+				AmmoUsed: 0,
+				enchChecked: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "60b70016",
+		type: "item",
+		items: [{
+			id: "spartanweaponry:javelin_diamond",
+			tag: {
+				AmmoUsed: 0,
+				enchChecked: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "be12093a",
+		type: "item",
+		items: [{
+			id: "spartanweaponry:throwing_axe_diamond",
+			tag: {
+				AmmoUsed: 0,
+				enchChecked: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1ccb8cad",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:battleaxe_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "eed9aea0",
+		type: "item",
+		items: [{
+			id: "spartanweaponry:boomerang_diamond",
+			tag: {
+				AmmoUsed: 0,
+				enchChecked: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8fcef9c2",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:mace_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ff7cd2ca",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:staff_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "15a3e74b",
+		type: "command",
+		team_reward: false,
+		command: "/titles add @p titles:the_armsmaster"
+	},
+	{
+		uid: "c1045ab6",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "c9c0c028",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}
