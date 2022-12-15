@@ -4,9 +4,9 @@
 	y: -1.0d,
 	description: "Their's a reason its called forbidden knowledge",
 	text: [
-		"Hellshelfs are like bookshelfs but give more enchanting power allowing you to apply higher level enchantments to your items.",
+		"Hellshelves are like bookshelves but give more enchanting power, thus allowing you to apply higher level enchantments to your items.",
 		"",
-		"The max level for an enchanting table with hellshelfs is capped higher than wooden bookshelfs."
+		"The max level for an enchanting table with hellshelves is capped higher than wooden bookshelves."
 	],
 	dependencies: [
 		"aaac6e3c"

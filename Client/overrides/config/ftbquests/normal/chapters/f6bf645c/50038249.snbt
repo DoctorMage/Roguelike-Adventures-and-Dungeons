@@ -1,6 +1,8 @@
 {
+	title: "Rare Tree Collector",
 	x: 1.5d,
 	y: 11.0d,
+	description: "The leaves... are entrancing",
 	text: [
 		"Collect all unique tree saplings of Twilight"
 	],
