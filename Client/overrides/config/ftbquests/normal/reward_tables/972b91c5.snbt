@@ -1,6 +1,6 @@
 {
 	title: "Thief Gear",
-	loot_size: 50,
+	loot_size: 8,
 	rewards: [{
 		item: {
 			id: "cyclicmagic:glove_climb",

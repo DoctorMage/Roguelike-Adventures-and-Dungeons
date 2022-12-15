@@ -1,6 +1,6 @@
 {
 	title: "Warlord Gear",
-	loot_size: 50,
+	loot_size: 7,
 	rewards: [{
 		item: {
 			id: "spartanweaponry:greatsword_bronze",

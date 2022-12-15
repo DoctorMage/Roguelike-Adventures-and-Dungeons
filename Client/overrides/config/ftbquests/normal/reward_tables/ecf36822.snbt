@@ -1,6 +1,6 @@
 {
 	title: "Wizard Gear",
-	loot_size: 50,
+	loot_size: 9,
 	rewards: [{
 		item: {
 			id: "ebwizardry:wizard_hat",

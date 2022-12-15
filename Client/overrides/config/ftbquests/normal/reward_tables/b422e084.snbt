@@ -1,6 +1,6 @@
 {
 	title: "Bishop Gear",
-	loot_size: 50,
+	loot_size: 9,
 	rewards: [{
 		item: "minecraft:cooked_fish 1 1",
 		count: 24,

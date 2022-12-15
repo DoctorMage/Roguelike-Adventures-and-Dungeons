@@ -1,6 +1,6 @@
 {
 	title: "Dwarf Gear",
-	loot_size: 50,
+	loot_size: 10,
 	rewards: [{
 		item: {
 			id: "spartanshields:shield_basic_tin",

@@ -1,6 +1,6 @@
 {
 	title: "Jousting Gear",
-	loot_size: 50,
+	loot_size: 11,
 	rewards: [{
 		item: {
 			id: "minecraft:lead",
