@@ -113,5 +113,10 @@ recipes.removeByRecipeName("thaumcraft:amberblocktobrick");
 //# Twilight Forest
 recipes.remove(<twilightforest:uncrafting_table>);
 
+//# Vampires Need Umbrellas
+recipes.remove(<vampiresneedumbrellas:iron_umbrella_rod>);
+recipes.remove(<vampiresneedumbrellas:gold_umbrella_rod>);
+recipes.remove(<vampiresneedumbrellas:diamond_umbrella_rod>);
+
 //# Waystones
 recipes.remove(<waystones:waystone>);
