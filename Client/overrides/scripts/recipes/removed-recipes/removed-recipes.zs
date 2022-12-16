@@ -2,9 +2,6 @@
 
 //#Removed recipes - Please see each mod tab
 
-//# Extra Utilities 2
-recipes.remove(<extrautils2:bagofholding>);
-
 //# Apotheosis
 recipes.remove(<apotheosis:null_book>);
 recipes.remove(<apotheosis:armor_head_book>);
@@ -17,7 +14,7 @@ recipes.remove(<apotheosis:fishing_rod_book>);
 recipes.remove(<apotheosis:bow_book>);
 recipes.remove(<apotheosis:scrap_tome>);
 
-//# Aroma
+//Aroma
 recipes.remove(<aroma1997sdimension:dimensionchanger>);
 recipes.remove(<aroma1997sdimension:miningmultitool>);
 recipes.remove(<aroma1997sdimension:portalframe>);
@@ -48,15 +45,6 @@ recipes.remove(<dungeontactics:trap_boom>);
 recipes.remove(<dungeontactics:trap_ambush>);
 recipes.remove(<dungeontactics:caltrops_poison>);
 recipes.remove(<dungeontactics:caltrops>);
-recipes.remove(<dungeontactics:wooden_cutlass>);
-recipes.remove(<dungeontactics:bone_cutlass>);
-recipes.remove(<dungeontactics:stone_cutlass>);
-recipes.remove(<dungeontactics:iron_cutlass>);
-recipes.remove(<dungeontactics:silver_cutlass>);
-recipes.remove(<dungeontactics:golden_cutlass>);
-recipes.remove(<dungeontactics:steel_cutlass>);
-recipes.remove(<dungeontactics:diamond_cutlass>);
-recipes.remove(<dungeontactics:mithril_cutlass>);
 
 //# ExtraUtilites 2
 recipes.remove(<extrautils2:teleporter:1>);
@@ -112,6 +100,11 @@ recipes.removeByRecipeName("thaumcraft:amberblocktobrick");
 
 //# Twilight Forest
 recipes.remove(<twilightforest:uncrafting_table>);
+
+//# Vampires Need Umbrellas
+recipes.remove(<vampiresneedumbrellas:iron_umbrella_rod>);
+recipes.remove(<vampiresneedumbrellas:gold_umbrella_rod>);
+recipes.remove(<vampiresneedumbrellas:diamond_umbrella_rod>);
 
 //# Waystones
 recipes.remove(<waystones:waystone>);
