@@ -1,0 +1,22 @@
+{
+  "COMMON": [
+    "main/root"
+  ],
+  "UNCOMMON": [
+	"vampire/bat",
+	"vampire/first_blood",
+    "vampire/become_vampire",
+	"hunter/become_hunter",
+	"hunter/betrayal",
+	"hunter/stake"
+  ],
+  "RARE": [
+	"vampire/blood_cult",
+	"vampire/extra_storage",
+	"vampire/max_level",
+	"hunter/technology",
+	"hunter/max_level",
+	"main/ancient_knowledge",
+	"main/regicide"
+  ]
+}
