@@ -1,6 +1,6 @@
 {
 	title: "Warden Gear",
-	loot_size: 7,
+	loot_size: 50,
 	rewards: [{
 		item: {
 			id: "spartanweaponry:warhammer_bronze",
