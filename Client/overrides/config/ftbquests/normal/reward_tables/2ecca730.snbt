@@ -1,7 +1,7 @@
 {
 	title: "Pirate Gear",
 	icon: "quark:pirate_hat",
-	loot_size: 12,
+	loot_size: 30,
 	rewards: [{
 		item: {
 			id: "minecraft:dark_oak_boat",

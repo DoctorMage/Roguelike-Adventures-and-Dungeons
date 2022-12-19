@@ -1,6 +1,6 @@
 {
 	title: "Artillery Gear",
-	loot_size: 12,
+	loot_size: 50,
 	rewards: [{
 		item: {
 			ForgeCaps: {

@@ -1,6 +1,6 @@
 {
 	title: "Samurai Gear",
-	loot_size: 8,
+	loot_size: 50,
 	rewards: [{
 		item: "minecraft:arrow",
 		count: 32,
