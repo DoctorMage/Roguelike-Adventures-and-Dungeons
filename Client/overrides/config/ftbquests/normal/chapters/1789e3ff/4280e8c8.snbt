@@ -1,0 +1,115 @@
+{
+	title: "The Moody Tools",
+	x: -5.5d,
+	y: 0.5d,
+	description: "their blue da be da da",
+	text: [
+		"Why don't you use all that aquamarine you got to make some tools.",
+		"",
+		"Maybe it will help you out."
+	],
+	dependencies: [
+		"4b4ab3c6"
+	],
+	tasks: [{
+		uid: "1342b1b7",
+		type: "item",
+		items: [{
+			id: "cavern:aquamarine_shovel",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -963867608644956922L,
+						UUIDLeast: -5117588748697878639L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.long.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "544b7b64",
+		type: "item",
+		items: [{
+			id: "cavern:aquamarine_axe",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: 3640414993146138270L,
+						UUIDLeast: -5844430196249478942L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 1487675369868709817L,
+						UUIDLeast: -7066543652988769152L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.graceful.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "79a4a2d4",
+		type: "item",
+		items: [{
+			id: "cavern:aquamarine_shovel",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -963867608644956922L,
+						UUIDLeast: -5117588748697878639L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.long.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0aea734c",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "459f8f3d",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "f6f32cf8",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

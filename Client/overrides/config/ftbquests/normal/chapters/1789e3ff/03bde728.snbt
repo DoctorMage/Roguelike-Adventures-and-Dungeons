@@ -1,0 +1,59 @@
+{
+	title: "Monsters In The Dark",
+	x: -7.5d,
+	y: 0.5d,
+	description: "Scary monsters and super creeps",
+	text: [
+		"Just because your in the overworld does not mean your safe from monsters.",
+		"",
+		"The natural darnkess of the caverns have allowed new monsters to adapt to them."
+	],
+	dependencies: [
+		"0351335f"
+	],
+	tasks: [{
+		uid: "694cb38f",
+		type: "kill",
+		entity: "cavern:cavenic_skeleton",
+		value: 25L
+	},
+	{
+		uid: "63d2bbff",
+		type: "kill",
+		entity: "cavern:cavenic_zombie",
+		value: 25L
+	},
+	{
+		uid: "25d7d1c4",
+		type: "kill",
+		entity: "cavern:cavenic_spider",
+		value: 25L
+	},
+	{
+		uid: "14c8a7f6",
+		type: "kill",
+		entity: "cavern:cavenic_witch",
+		value: 10L
+	},
+	{
+		uid: "4708d371",
+		type: "kill",
+		entity: "cavern:cavenic_creeper",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "250c3d35",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "f4b64009",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "a2cc34a1",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

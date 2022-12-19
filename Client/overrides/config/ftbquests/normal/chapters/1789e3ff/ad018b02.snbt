@@ -1,0 +1,33 @@
+{
+	title: "The Great Forest",
+	x: 1.5d,
+	y: -2.0d,
+	description: "not as dark as it sounds",
+	text: [
+		""
+	],
+	dependencies: [
+		"0ff8c885"
+	],
+	tasks: [{
+		uid: "1094e1e3",
+		type: "dimension",
+		icon: "minecraft:sapling 1 5",
+		dim: -58
+	}],
+	rewards: [{
+		uid: "74b58be8",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "a3db97c2",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "310060b1",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

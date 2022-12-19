@@ -1,0 +1,24 @@
+{
+	x: -0.5d,
+	y: 2.0d,
+	text: [
+		"To gain acess to a mirage dimension interact with an unlit caverns portal while the book is in your main hand.",
+		"",
+		"This will transform it into a mirage portal."
+	],
+	dependencies: [
+		"c5b56456"
+	],
+	tasks: [{
+		uid: "ab68940d",
+		type: "item",
+		items: [{
+			id: "cavern:mirage_book",
+			tag: {
+				Ticket: 10
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

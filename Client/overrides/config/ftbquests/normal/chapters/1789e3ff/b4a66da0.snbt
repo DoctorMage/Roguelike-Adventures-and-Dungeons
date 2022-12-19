@@ -1,0 +1,121 @@
+{
+	title: "Puny Magnite",
+	x: -8.5d,
+	y: -1.5d,
+	description: "hope you have pickaxe insurance",
+	text: [
+		"Equipment made from magnite has terrible durabillity.",
+		"",
+		"I wonder if it makes up for that downside in some way?"
+	],
+	dependencies: [
+		"95ebb0fe"
+	],
+	tasks: [{
+		uid: "c55afc98",
+		type: "item",
+		items: [{
+			id: "cavern:magnite_sword",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e9584a10",
+		type: "item",
+		items: [{
+			id: "cavern:magnite_shovel",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: 6303054593165705582L,
+						UUIDLeast: -6309277909785556848L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -8108749123177724843L,
+						UUIDLeast: -5198899768045682396L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.chipped.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "78ca25b8",
+		type: "item",
+		items: [{
+			id: "cavern:magnite_axe",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f3525234",
+		type: "item",
+		items: [{
+			id: "cavern:magnite_pickaxe",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -8783282899110770337L,
+						UUIDLeast: -7450840778465846807L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 868768363584113451L,
+						UUIDLeast: -7196348419798742941L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.graceful.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8a7d5ceb",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "21be23d3",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "9c71aa5e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

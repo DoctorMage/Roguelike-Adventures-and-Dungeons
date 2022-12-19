@@ -1,0 +1,145 @@
+{
+	title: "Hecixting Arsenal",
+	x: -2.0d,
+	y: -2.0d,
+	description: "the most pristine gizmos",
+	text: [
+		""
+	],
+	dependencies: [
+		"a16bb0cb"
+	],
+	tasks: [{
+		uid: "d1951c40",
+		type: "item",
+		items: [{
+			id: "cavern:hexcite_hoe",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a0c7cd46",
+		type: "item",
+		items: [{
+			id: "cavern:hexcite_shovel",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -4749714605757020225L,
+						UUIDLeast: -7573862946808423859L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.long.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2500961e",
+		type: "item",
+		items: [{
+			id: "cavern:hexcite_sword",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: 8202919373894862050L,
+						UUIDLeast: -9151899199989645319L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -4221366722045522794L,
+						UUIDLeast: -7566811439618565349L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.graceful.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8ea8baed",
+		type: "item",
+		items: [{
+			id: "cavern:hexcite_pickaxe",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: -4506036234205052398L,
+						UUIDLeast: -8674383787804823843L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 6212487995838644540L,
+						UUIDLeast: -7088832968284613578L,
+						Amount: -0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.vicious.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "736dec73",
+		type: "item",
+		items: [{
+			id: "cavern:hexcite_axe",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "694511de",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "66bcbecb",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "352bd38f",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

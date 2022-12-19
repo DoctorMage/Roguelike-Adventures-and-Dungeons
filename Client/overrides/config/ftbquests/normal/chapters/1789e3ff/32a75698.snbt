@@ -1,0 +1,36 @@
+{
+	title: "That Was Random",
+	x: -10.5d,
+	y: -1.5d,
+	description: "01110010 01100001 01101110 01100100 01101111 01101101",
+	text: [
+		"Randomite ore is a unique type of ore found only in caverns.",
+		"",
+		"It drops a random item when mined."
+	],
+	dependencies: [
+		"9cc8a946"
+	],
+	tasks: [{
+		uid: "a65f466c",
+		type: "advancement",
+		icon: "cavern:cave_block 1 4",
+		advancement: "cavern:mine_randomite ",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "b98ba0f2",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "c19ccaf9",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "3f37edbe",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

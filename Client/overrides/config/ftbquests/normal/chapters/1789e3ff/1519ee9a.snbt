@@ -1,0 +1,34 @@
+{
+	title: "Buried Eden",
+	x: -1.5d,
+	y: 3.0d,
+	text: [
+		"A mirage in which life found a way to exist even without the light of the sun.",
+		"",
+		"The trees and lands are beaming with life better than any living plant could receieve from the sun."
+	],
+	dependencies: [
+		"d1cd8e54"
+	],
+	tasks: [{
+		uid: "6a8f91fc",
+		type: "dimension",
+		icon: "chisel:cobblestone",
+		dim: -53
+	}],
+	rewards: [{
+		uid: "45263b39",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "50b040ce",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "005b9164",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

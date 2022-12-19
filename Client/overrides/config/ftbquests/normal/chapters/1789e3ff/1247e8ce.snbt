@@ -1,0 +1,56 @@
+{
+	title: "Someone's watching me",
+	icon: {
+		id: "openblocks:trophy",
+		tag: {
+			entity_id: "minecraft:guardian"
+		},
+		Damage: 26s
+	},
+	x: -3.5d,
+	y: -0.5d,
+	description: "I'm just an average dwaf with an average pickaxe",
+	text: [
+		"They see you when your mining.",
+		"",
+		"Becareful of the shimmering mines one eyed guardians."
+	],
+	dependencies: [
+		"5ca0cd0e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f01415ad",
+		type: "kill",
+		entity: "minecraft:guardian",
+		value: 10L
+	},
+	{
+		uid: "12e97895",
+		type: "observation",
+		icon: {
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:guardian"
+			}
+		},
+		match_type: "entity_id",
+		match: "minecraft:guardian",
+		timer: 60L
+	}],
+	rewards: [{
+		uid: "4856b77a",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "6cce8a2f",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "ae245583",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	}]
+}

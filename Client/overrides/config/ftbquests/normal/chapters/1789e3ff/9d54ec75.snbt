@@ -1,0 +1,89 @@
+{
+	title: "Hexciting Armoury",
+	x: -2.0d,
+	y: 1.0d,
+	description: "the most pristine armour",
+	text: [
+		""
+	],
+	dependencies: [
+		"a16bb0cb"
+	],
+	tasks: [{
+		uid: "85b42afa",
+		type: "item",
+		items: [{
+			id: "cavern:hexcite_helmet",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fbf14297",
+		type: "item",
+		items: [{
+			id: "cavern:hexcite_chestplate",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1442b58d",
+		type: "item",
+		items: [{
+			id: "cavern:hexcite_leggings",
+			tag: {
+				Quality: {
+					Slots: [
+						"legs"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -318171544561236112L,
+						UUIDLeast: -6912797712219481332L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.heavy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b1e79bee",
+		type: "item",
+		items: [{
+			id: "cavern:hexcite_boots",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "833f57b1",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "b23c9ca3",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "ce4a6f16",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

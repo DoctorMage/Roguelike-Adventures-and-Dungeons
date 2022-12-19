@@ -1,0 +1,174 @@
+{
+	title: "Buried Magic",
+	x: -6.5d,
+	y: 0.5d,
+	description: "even cavemen can do magic",
+	text: [
+		"Rarely caverns mobs will drop magic books each with there own use and utility."
+	],
+	dependencies: [
+		"03bde728"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "cdf8ec2b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"cavern:magic_book": {}
+			},
+			id: "cavern:magic_book",
+			tag: {
+				Mana: 50
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d3106f91",
+		type: "item",
+		items: [{
+			id: "cavern:magic_book",
+			tag: {
+				Mana: 30
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cabf4bc9",
+		type: "item",
+		items: [{
+			id: "cavern:magic_book",
+			tag: {
+				Mana: 10
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "61cee1f3",
+		type: "item",
+		items: [{
+			id: "cavern:magic_book",
+			tag: {
+				Mana: 50
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2c2ac89f",
+		type: "item",
+		items: [{
+			id: "cavern:magic_book",
+			tag: {
+				Mana: 10
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "eb2e1dca",
+		type: "item",
+		items: [{
+			id: "cavern:magic_book",
+			tag: {
+				Mana: 10
+			},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c6868710",
+		type: "item",
+		items: [{
+			id: "cavern:magic_book",
+			tag: {
+				Mana: 3
+			},
+			Damage: 10s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0b764b4c",
+		type: "item",
+		items: [{
+			id: "cavern:magic_book",
+			tag: {
+				Mana: 20
+			},
+			Damage: 7s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d3008796",
+		type: "item",
+		items: [{
+			id: "cavern:magic_book",
+			tag: {
+				Mana: 30
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1d368481",
+		type: "item",
+		items: [{
+			id: "cavern:magic_book",
+			tag: {
+				Mana: 3
+			},
+			Damage: 11s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7bdf7d6f",
+		type: "item",
+		items: [{
+			id: "cavern:magic_book",
+			tag: {
+				Mana: 20
+			},
+			Damage: 8s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "78b6ae03",
+		type: "item",
+		items: [{
+			id: "cavern:magic_book",
+			tag: {
+				Mana: 3
+			},
+			Damage: 9s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e6f844ed",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "dd129b47",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "2134b5b6",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

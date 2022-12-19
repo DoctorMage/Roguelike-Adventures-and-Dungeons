@@ -1,0 +1,34 @@
+{
+	title: "Expert Miner",
+	x: -6.5d,
+	y: -0.5d,
+	description: "all that glitter",
+	text: [
+		"To gain acess to the final type of basic caverns you need to reach a rank of Gold Miner."
+	],
+	dependencies: [
+		"0351335f"
+	],
+	tasks: [{
+		uid: "b98c03c1",
+		type: "advancement",
+		icon: "minecraft:golden_pickaxe",
+		advancement: "cavern:gold_miner",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "488654a3",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "ed760d3b",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "a8ca5e7f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

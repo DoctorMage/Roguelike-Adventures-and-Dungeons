@@ -1,0 +1,35 @@
+{
+	title: "Destitute Domain",
+	x: 1.5d,
+	y: -1.0d,
+	description: "but no one came",
+	text: [
+		"A mirage which nothing has existed in until you came along.",
+		"",
+		"Will you leave it as or find a way to create  something from abouslte nothingness?"
+	],
+	dependencies: [
+		"ed31451d"
+	],
+	tasks: [{
+		uid: "231db121",
+		type: "dimension",
+		icon: "chisel:energizedvoidstone 1 2",
+		dim: -57
+	}],
+	rewards: [{
+		uid: "a3812ce4",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "fd8db6b7",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "8b96a191",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

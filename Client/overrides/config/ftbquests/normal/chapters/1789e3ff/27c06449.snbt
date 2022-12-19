@@ -1,0 +1,41 @@
+{
+	title: "Ore Hunting 101",
+	x: -5.5d,
+	y: -1.5d,
+	description: "it's like xray but less cheating",
+	text: [
+		"The rarest cave treasure are miner's orbs if you get enough you can make an ore compass."
+	],
+	tasks: [{
+		uid: "1dd4bf54",
+		type: "item",
+		items: [{
+			item: "cavern:ore_compass"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "79fef364",
+		type: "item",
+		items: [{
+			item: "cavern:cave_item 1 4"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "fa461250",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "0e7532ba",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "7d58ff8a",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

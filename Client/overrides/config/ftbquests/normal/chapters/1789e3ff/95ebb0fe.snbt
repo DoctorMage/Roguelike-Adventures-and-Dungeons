@@ -1,0 +1,45 @@
+{
+	title: "Cave Shinies",
+	x: -9.5d,
+	y: -1.5d,
+	text: [
+		"The other materials unique to caverns aquamarine and magnite.",
+		"",
+		"Why don't you collect a bunch and see what you can use them for."
+	],
+	dependencies: [
+		"32a75698"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "d939c96e",
+		type: "item",
+		items: [{
+			item: "cavern:cave_item"
+		}],
+		count: 64L
+	},
+	{
+		uid: "fa2fdbc0",
+		type: "item",
+		items: [{
+			item: "cavern:cave_item 1 1"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "ebb84f0e",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "57fa7dd5",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "0e6ea7ab",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

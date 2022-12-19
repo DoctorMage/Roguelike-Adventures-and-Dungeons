@@ -1,0 +1,34 @@
+{
+	title: "Master Miner",
+	x: -6.5d,
+	y: -1.5d,
+	description: "now your a real dwarf",
+	text: [
+		"The highest of high you can now consider yourself overlord of the caverns you showed those ores whose boss."
+	],
+	dependencies: [
+		"30651e46"
+	],
+	tasks: [{
+		uid: "dcb28c58",
+		type: "advancement",
+		icon: "minecraft:diamond_pickaxe",
+		advancement: "cavern:diamond_miner",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "4e8258fd",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "72c101db",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "154a2eb7",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "The Biggest Cave",
+	x: -7.5d,
+	y: -0.5d,
+	description: "echo echo echo echo echo",
+	text: [
+		"If you like metals then huge caverns are the place for you.",
+		"",
+		"Like the name implies this dimension is a massive cave with ores scattered all acroos its depths."
+	],
+	dependencies: [
+		"a0e157ef"
+	],
+	tasks: [{
+		uid: "46992149",
+		type: "dimension",
+		icon: "cavern:huge_cavern_portal",
+		dim: -51
+	}],
+	rewards: [{
+		uid: "b98ab741",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "97c6c2c7",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "f1475eb4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

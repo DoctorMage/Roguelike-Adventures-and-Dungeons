@@ -1,0 +1,29 @@
+{
+	title: "Mountain Mole",
+	x: -0.5d,
+	y: -4.0d,
+	dependencies: [
+		"68b4656b"
+	],
+	tasks: [{
+		uid: "e7dd60e4",
+		type: "dimension",
+		icon: "rustic:stone_pillar",
+		dim: -59
+	}],
+	rewards: [{
+		uid: "cd9078dc",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "5a66885c",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "0b5f9072",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}
