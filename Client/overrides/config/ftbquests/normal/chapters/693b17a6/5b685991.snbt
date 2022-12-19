@@ -1,0 +1,32 @@
+{
+	title: "Osha Won't Save Them",
+	icon: "harvestcraft:bananaitem",
+	x: 4.5d,
+	y: 8.5d,
+	description: "hope they have life insurance",
+	text: [
+		"Show 500 minions that they should have checked the worker compensation forms."
+	],
+	tasks: [{
+		uid: "42d86522",
+		type: "kill",
+		icon: "harvestcraft:bananaitem",
+		entity: "vampirism:vampire_minion_s",
+		value: 500L
+	}],
+	rewards: [{
+		uid: "2630ab62",
+		type: "xp_levels",
+		xp_levels: 750
+	},
+	{
+		uid: "b49a9b48",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "e2a2fc25",
+		type: "choice",
+		table: 57
+	}]
+}

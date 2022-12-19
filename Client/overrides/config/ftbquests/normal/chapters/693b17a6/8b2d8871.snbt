@@ -1,0 +1,31 @@
+{
+	title: "Schools Out",
+	icon: "xreliquary:mercy_cross",
+	x: 4.5d,
+	y: 7.5d,
+	description: "strike them down and they won't come back twice as strong",
+	text: [
+		"Force 100 vampire hunter trainers to retire FROM LIFE!!!!"
+	],
+	tasks: [{
+		uid: "eb7a4bae",
+		type: "kill",
+		entity: "vampirism:hunter_trainer",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "60ab775b",
+		type: "xp_levels",
+		xp_levels: 750
+	},
+	{
+		uid: "82c5bd65",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "e8e2a4ac",
+		type: "choice",
+		table: 57
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Wrong Line Of Work",
+	icon: "vampirism:human_heart",
+	x: 3.5d,
+	y: 5.5d,
+	description: "it was for the greater good",
+	text: [
+		"Murder 1000 Vampire hunters just trying to make the world a safer place."
+	],
+	tasks: [{
+		uid: "184f9d30",
+		type: "kill",
+		entity: "vampirism:vampire_hunter",
+		value: 1000L
+	}],
+	rewards: [{
+		uid: "1167ce11",
+		type: "xp_levels",
+		xp_levels: 100
+	},
+	{
+		uid: "ca8bf77a",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "a842235d",
+		type: "choice",
+		table: 57
+	}]
+}

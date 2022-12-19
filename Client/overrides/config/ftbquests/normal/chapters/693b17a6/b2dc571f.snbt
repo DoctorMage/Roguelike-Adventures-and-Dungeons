@@ -1,0 +1,31 @@
+{
+	title: "Baron Butcher",
+	icon: "vampirism:pure_blood 1 4",
+	x: 4.5d,
+	y: 5.5d,
+	description: "take that dracula",
+	text: [
+		"Show 50 Vampire Barons that there reign is over."
+	],
+	tasks: [{
+		uid: "fe7f28f1",
+		type: "kill",
+		entity: "vampirism:vampire_baron",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "8bb2124b",
+		type: "xp_levels",
+		xp_levels: 500
+	},
+	{
+		uid: "4190df23",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "e39ab093",
+		type: "choice",
+		table: 57
+	}]
+}

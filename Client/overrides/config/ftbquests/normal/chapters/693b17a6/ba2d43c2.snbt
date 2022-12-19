@@ -1,0 +1,31 @@
+{
+	title: "What's 1000 More Years?",
+	icon: "vampirism:vampire_cloak",
+	x: 4.5d,
+	y: 6.5d,
+	description: "they lived long enough anyway",
+	text: [
+		"Show 500 advanced vampires that they should not have left their coffin this night."
+	],
+	tasks: [{
+		uid: "50972f5f",
+		type: "kill",
+		entity: "vampirism:advanced_vampire",
+		value: 500L
+	}],
+	rewards: [{
+		uid: "66d75f0f",
+		type: "xp_levels",
+		xp_levels: 250
+	},
+	{
+		uid: "a94e2a61",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "c10167be",
+		type: "choice",
+		table: 57
+	}]
+}

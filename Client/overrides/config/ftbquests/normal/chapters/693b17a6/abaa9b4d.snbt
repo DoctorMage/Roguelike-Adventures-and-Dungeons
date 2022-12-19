@@ -1,0 +1,31 @@
+{
+	title: "Hunter Hunted",
+	icon: "vampirism:hunter_hat0_head",
+	x: 4.5d,
+	y: 4.5d,
+	description: "they don't like a taste of their own medicine",
+	text: [
+		"Show 500 advanced hunters that the real monsters were humans all along."
+	],
+	tasks: [{
+		uid: "2dc6450b",
+		type: "kill",
+		entity: "vampirism:advanced_hunter",
+		value: 500L
+	}],
+	rewards: [{
+		uid: "7a384323",
+		type: "xp_levels",
+		xp_levels: 250
+	},
+	{
+		uid: "ffdb63bf",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "4ef6b745",
+		type: "choice",
+		table: 57
+	}]
+}

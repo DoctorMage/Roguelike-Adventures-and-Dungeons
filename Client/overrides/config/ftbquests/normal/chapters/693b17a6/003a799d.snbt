@@ -22,5 +22,10 @@
 		uid: "e41b2684",
 		type: "xp_levels",
 		xp_levels: 350
+	},
+	{
+		uid: "7ba91cc0",
+		type: "choice",
+		table: 57
 	}]
 }

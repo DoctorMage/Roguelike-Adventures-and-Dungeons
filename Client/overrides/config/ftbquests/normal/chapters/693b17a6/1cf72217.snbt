@@ -1,0 +1,30 @@
+{
+	title: "Fiend Feller",
+	icon: "vampirism:vampire_fang",
+	x: 5.5d,
+	y: 5.5d,
+	text: [
+		"Slay 1000 vampires and show them they should've worn neck protectors."
+	],
+	tasks: [{
+		uid: "3987f560",
+		type: "kill",
+		entity: "vampirism:vampire",
+		value: 1000L
+	}],
+	rewards: [{
+		uid: "b1be8ef6",
+		type: "xp_levels",
+		xp_levels: 100
+	},
+	{
+		uid: "4b36e224",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "b47ac889",
+		type: "choice",
+		table: 57
+	}]
+}
