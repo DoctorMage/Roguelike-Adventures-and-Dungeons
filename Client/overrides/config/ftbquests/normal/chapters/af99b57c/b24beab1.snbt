@@ -1,0 +1,39 @@
+{
+	title: "Legendary Vampire Hunter",
+	x: 0.0d,
+	y: 2.0d,
+	description: "Hunter Intel 14",
+	text: [
+		""
+	],
+	dependencies: [
+		"9c854b7e"
+	],
+	tasks: [{
+		uid: "5e9ab061",
+		type: "item",
+		items: [{
+			item: "vampirism:hunter_intel 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "8ac19a80",
+		type: "choice",
+		table: 58
+	},
+	{
+		uid: "cdd08137",
+		type: "loot",
+		table: 57
+	},
+	{
+		uid: "efa49212",
+		type: "xp_levels",
+		xp_levels: 75
+	},
+	{
+		uid: "70725571",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

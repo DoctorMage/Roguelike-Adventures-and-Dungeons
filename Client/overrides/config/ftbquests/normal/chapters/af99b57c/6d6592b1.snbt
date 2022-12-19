@@ -1,0 +1,21 @@
+{
+	title: "Ancient Blood Feud",
+	icon: "guideapi:vampirism-guide",
+	x: -11.0d,
+	y: 2.0d,
+	description: "Vampires Vs Hunters",
+	text: [
+		"A tale as old as time Hunters vs blood sucking fiends",
+		"",
+		"Which side will you choose to join"
+	],
+	tasks: [{
+		uid: "88eb6283",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "329e1342",
+		type: "item",
+		item: "guideapi:vampirism-guide"
+	}]
+}

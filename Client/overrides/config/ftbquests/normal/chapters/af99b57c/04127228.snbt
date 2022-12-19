@@ -1,0 +1,46 @@
+{
+	title: "The Cooler Hunter Axe",
+	x: -4.0d,
+	y: 8.5d,
+	description: "David Letterman!",
+	text: [
+		"Depending on what skill you choose you can craft an even stronger hunter's axe.",
+		"",
+		"(Depending on what skills you choose you may not be able to craft an enchanced hunter's axe)."
+	],
+	dependencies: [
+		"58fbee33"
+	],
+	optional: true,
+	tasks: [{
+		uid: "358e5ff6",
+		type: "item",
+		items: [{
+			id: "vampirism:hunter_axe",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 19
+				}],
+				tier: "ENHANCED"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e20192bc",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "a8e8de5e",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "051a8e8e",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

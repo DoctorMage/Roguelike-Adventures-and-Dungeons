@@ -1,0 +1,57 @@
+{
+	title: "Vampire Diaries",
+	x: -6.0d,
+	y: -4.5d,
+	description: "Dear diary today I drained a cow",
+	text: [
+		"Vampires leave there diaries in the weirdest places try finding one and see what knowledge you can gain from it."
+	],
+	dependencies: [
+		"824b664e"
+	],
+	tasks: [{
+		uid: "031f6e40",
+		type: "item",
+		items: [{
+			id: "vampirism:vampire_book",
+			tag: {
+				generation: 3,
+				pages: [
+					"[\"\",{\"text\":\"Priamides\",\"bold\":true},{\"text\":\"\\nHanc tibi Priamides mitto, Ledaea, salutem,\\nquae tribui sola te mihi dante potest.\\neloquar, an flammae non est opus indice notae, et plus quam vellem, iam meus extat amor? ille quidem lateat malim, dum tempora dentur laetitiae mixtos non habitura metus.\",\"color\":\"reset\"}]",
+					"{\"text\":\"sed male dissimulo; quis enim celaverit ignem,\\nlumine qui semper proditur ipse suo?\\nsi tamen expectas, vocem quoque rebus ut addam: uror\\u2014habes animi nuntia verba mei.\\nparce, precor, fasso, nec vultu cetera duro\\n perlege, sed formae conveniente tuae.\"}",
+					"{\"text\":\"iamdudum gratum est, quod epistula nostra recepta spem facit, hoc recipi me quoque posse modo. quae rata sit; nec te frustra promiserit, opto, hoc mihi quae suasit, mater Amoris, iter. namque ego divino monitu\\u2014ne nescia pecces\\u2014 advehor et coepto non leve numen adest.\"}"
+				],
+				author: "Unknown",
+				display: {
+					Lore: [
+						"Ancient writing"
+					],
+					Name: "Vampire Book"
+				},
+				title: "Priamides"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eb246111",
+		type: "random",
+		table: 54
+	},
+	{
+		uid: "019e092d",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "abc97fbc",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "a5915d18",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

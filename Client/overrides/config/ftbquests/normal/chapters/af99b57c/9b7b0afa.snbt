@@ -1,0 +1,39 @@
+{
+	title: "Blood Magic",
+	x: -7.0d,
+	y: 2.0d,
+	description: "I told you not to drink it",
+	text: [
+		"To get the full usage outside of vampire blood you need to make a blood sieve.",
+		"",
+		"By combining vampire blood and garlic in a blood sieve you can create blood potions.",
+		"",
+		"These potions give random effects."
+	],
+	dependencies: [
+		"cb915573"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c60fa8c9",
+		type: "item",
+		items: [{
+			item: "vampirism:blood_potion_table"
+		}]
+	}],
+	rewards: [{
+		uid: "77564ed1",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "286ae3da",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "b6fa0be0",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

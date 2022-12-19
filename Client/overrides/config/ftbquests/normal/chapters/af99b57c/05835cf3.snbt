@@ -1,0 +1,30 @@
+{
+	title: "Faction Villages",
+	x: -9.0d,
+	y: 2.0d,
+	text: [
+		"Villagers can either be controlled by hunters or vampires.",
+		"",
+		"By looking at the totem near the villages center it will show which side controls the village."
+	],
+	dependencies: [
+		"6d6592b1"
+	],
+	tasks: [{
+		uid: "e72f89a0",
+		type: "interaction",
+		icon: "vampirism:totem_top",
+		match_type: "block_id",
+		match: "vampirism:totem_top"
+	}],
+	rewards: [{
+		uid: "70f2c092",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "abb63bfc",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

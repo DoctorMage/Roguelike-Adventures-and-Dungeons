@@ -1,0 +1,40 @@
+{
+	title: "Younglin",
+	x: -5.0d,
+	y: 2.0d,
+	description: "teach me your ways master",
+	text: [
+		"To level up as a hunter you need to find another vampire hunter and have them train you."
+	],
+	dependencies: [
+		"679444c3"
+	],
+	tasks: [{
+		uid: "5094d5fb",
+		type: "interaction",
+		icon: "vampirism:hunter_hat1_head",
+		match_type: "entity_id",
+		match: "vampirism:vampire_hunter"
+	}],
+	rewards: [{
+		uid: "9c62236b",
+		type: "item",
+		item: "vampirism:soul_orb_vampire",
+		count: 8
+	},
+	{
+		uid: "4593d4f1",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "48e7f11f",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "f3c4568a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

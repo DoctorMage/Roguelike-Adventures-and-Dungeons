@@ -1,0 +1,68 @@
+{
+	title: "The Dark Tower",
+	x: -5.0d,
+	y: -5.5d,
+	description: "because i'm batman",
+	text: [
+		"Real vampires have castles",
+		"",
+		"GO BUILD ONE NOW!!!"
+	],
+	dependencies: [
+		"824b664e"
+	],
+	tasks: [{
+		uid: "a1a0c5ef",
+		type: "item",
+		items: [{
+			item: "vampirism:castle_block 1 4"
+		}],
+		count: 64L
+	},
+	{
+		uid: "a82f9019",
+		type: "item",
+		items: [{
+			item: "vampirism:castle_block"
+		}],
+		count: 64L
+	},
+	{
+		uid: "45705a47",
+		type: "item",
+		items: [{
+			item: "vampirism:castle_block 1 1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "e8f90c80",
+		type: "item",
+		items: [{
+			item: "vampirism:castle_block 1 3"
+		}],
+		count: 64L
+	},
+	{
+		uid: "78118937",
+		type: "item",
+		items: [{
+			item: "vampirism:vampirism_flower"
+		}]
+	}],
+	rewards: [{
+		uid: "05cd5643",
+		type: "loot",
+		table: 60
+	},
+	{
+		uid: "43dc4214",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "1edaf51e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,57 @@
+{
+	title: "A Great Day For Rain",
+	x: -3.0d,
+	y: -4.5d,
+	description: "under my umbrella",
+	text: [
+		"As you become a stronger vampire you will be punished more harshly by the sun",
+		"",
+		"To counteract this craft an umbrella and have it in your offhand or main hand to protect you."
+	],
+	dependencies: [
+		"824b664e"
+	],
+	tasks: [{
+		uid: "c7064081",
+		type: "item",
+		items: [{
+			item: "vampiresneedumbrellas:white_iron_umbrella"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a2622484",
+		type: "item",
+		items: [{
+			item: "vampiresneedumbrellas:iron_umbrella_rod"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "7ffdaa00",
+		type: "item",
+		item: "vampirism:blood_bottle 1 9",
+		count: 4
+	},
+	{
+		uid: "60a24781",
+		type: "item",
+		item: "megaloot:weaponcase_common"
+	},
+	{
+		uid: "b8abcdb6",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "6f7af711",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "92bcb98a",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

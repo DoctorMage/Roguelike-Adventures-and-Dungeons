@@ -1,0 +1,19 @@
+{
+	title: "Skill Tree",
+	x: -6.0d,
+	y: 1.0d,
+	text: [
+		"After levelling up past level 4 you can choose to invest skill points into skill trees.",
+		"",
+		"Choose wisely as resetting it is expensive.",
+		"",
+		"To use certain skills a key is needed to activate them make sure that key is bound to nothing else."
+	],
+	dependencies: [
+		"fd81a1b8"
+	],
+	tasks: [{
+		uid: "360e4eb1",
+		type: "checkmark"
+	}]
+}

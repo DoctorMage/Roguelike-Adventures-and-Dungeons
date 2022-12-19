@@ -1,0 +1,36 @@
+{
+	x: -5.0d,
+	y: 8.0d,
+	text: [
+		"Depending on what hunter skills you choose you can craft an improved garlic diffusor this has a larger radius of effect than a regular core.",
+		"",
+		"",
+		"(Depending on what skills you choose you may not be able to craft an Improved Garlic Diffusor Core)"
+	],
+	dependencies: [
+		"39a1224b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "08149967",
+		type: "item",
+		items: [{
+			item: "vampirism:garlic_beacon_core_improved"
+		}]
+	}],
+	rewards: [{
+		uid: "f23dd7eb",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "ef4fc321",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "dd9dfada",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

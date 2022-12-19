@@ -1,0 +1,36 @@
+{
+	title: "You Got A Little Blood In My Iron",
+	x: -6.0d,
+	y: -1.5d,
+	text: [
+		"Combining pure blood with iron will craft Blood Infused ingots.",
+		"",
+		"This can be used to make basic vampire weapons."
+	],
+	dependencies: [
+		"90a84a0f"
+	],
+	tasks: [{
+		uid: "6b62862e",
+		type: "item",
+		items: [{
+			item: "vampirism:blood_infused_iron_ingot"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "5e551bc8",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "c15d04c4",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "e27ed8f8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

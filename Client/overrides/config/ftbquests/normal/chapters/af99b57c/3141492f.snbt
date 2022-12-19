@@ -1,0 +1,37 @@
+{
+	title: "Hunter's Assistant",
+	x: -7.5d,
+	y: 5.0d,
+	description: "you need a mint",
+	text: [
+		"In hunter controlled villagers you can find a hunter's house look inside the chest and you can find garlic.",
+		"",
+		"Combine that garlic with a syringe to make a garlic injection."
+	],
+	dependencies: [
+		"630f2e0a"
+	],
+	tasks: [{
+		uid: "9f09551b",
+		type: "item",
+		items: [{
+			item: "vampirism:item_garlic"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "837499ae",
+		type: "item",
+		item: "vampirism:injection"
+	},
+	{
+		uid: "5fcded27",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "a7659cec",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

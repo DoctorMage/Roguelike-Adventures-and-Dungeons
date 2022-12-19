@@ -1,0 +1,39 @@
+{
+	title: "Be Purged In Holy Fire",
+	x: -8.0d,
+	y: 9.0d,
+	description: "Like fire Hellfire This fire in my skin",
+	text: [
+		"Combine holywater and gunpowder to create alchemical fire",
+		"",
+		"All vampires fear the flame and are weak to it."
+	],
+	dependencies: [
+		"59b8760a"
+	],
+	optional: true,
+	tasks: [{
+		uid: "e1e946aa",
+		type: "item",
+		icon: "vampirism:item_alchemical_fire",
+		items: [{
+			item: "vampirism:item_alchemical_fire"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "01f84da5",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "f710d4ef",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "feda74bd",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

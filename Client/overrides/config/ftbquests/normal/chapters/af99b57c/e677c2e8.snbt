@@ -1,0 +1,37 @@
+{
+	title: "Ammunition",
+	x: -2.0d,
+	y: 8.5d,
+	text: [
+		"Arrow Clips are used as ammo for semi automatic crossbows."
+	],
+	dependencies: [
+		"7499918d",
+		"26cdb2b2"
+	],
+	dependency_requirement: "one_completed",
+	optional: true,
+	tasks: [{
+		uid: "a71cafd1",
+		type: "item",
+		items: [{
+			item: "vampirism:tech_crossbow_ammo_package"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "775e5900",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "e2e2b996",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "1c93d81e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

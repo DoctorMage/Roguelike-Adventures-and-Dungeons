@@ -1,0 +1,33 @@
+{
+	title: "Pointiest Stick",
+	x: -6.0d,
+	y: 3.0d,
+	description: "point taken",
+	text: [
+		"To begin your hunter's journey craft a stake.",
+		"",
+		"Find a vampire and use it on them if they are low enough hp it will instantly kill them."
+	],
+	dependencies: [
+		"90371785"
+	],
+	tasks: [{
+		uid: "6d25cc56",
+		type: "item",
+		items: [{
+			item: "vampirism:stake"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "85060d81",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "6e199688",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

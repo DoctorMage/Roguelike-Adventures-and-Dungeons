@@ -1,0 +1,63 @@
+{
+	title: "Vampire's blade",
+	x: -6.0d,
+	y: -0.5d,
+	description: "STAB AND IMPALE UNTIL IT IS DONE",
+	text: [
+		"As a vampire the most efficient weapons you can use are either a heatseeker or heartstriker.",
+		"",
+		"To use them to their full potential they must be charged with blood. ",
+		"",
+		"The more you kill with it the stronger it becomes."
+	],
+	dependencies: [
+		"5139bbc5",
+		"7e696825"
+	],
+	dependency_requirement: "one_completed",
+	or_tasks: true,
+	tasks: [{
+		uid: "e5dedba5",
+		type: "item",
+		items: [{
+			id: "vampirism:heart_striker",
+			tag: {
+				tier: "ULTIMATE"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1e9eeae9",
+		type: "item",
+		items: [{
+			id: "vampirism:heart_seeker",
+			tag: {
+				tier: "NORMAL"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0fcd1afe",
+		type: "item",
+		item: "megaloot:weaponcase_rare"
+	},
+	{
+		uid: "66e7c637",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "e43e5499",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "d2e4f911",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

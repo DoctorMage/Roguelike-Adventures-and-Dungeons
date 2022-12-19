@@ -1,0 +1,28 @@
+{
+	title: "Hunter's Apprentice",
+	x: -9.0d,
+	y: 5.0d,
+	text: [
+		"To begin the quest chapters for the hunter path either find and interact with a hunter research table or craft one and interact with it."
+	],
+	dependencies: [
+		"05835cf3"
+	],
+	tasks: [{
+		uid: "9ef24124",
+		type: "interaction",
+		icon: "vampirism:hunter_table",
+		match_type: "block_id",
+		match: "vampirism:hunter_table"
+	}],
+	rewards: [{
+		uid: "18cb3f22",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "b27c73e5",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

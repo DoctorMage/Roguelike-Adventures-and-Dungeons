@@ -1,0 +1,75 @@
+{
+	title: "Bad Teacher",
+	x: -9.0d,
+	y: -5.5d,
+	description: "I will not drain my teacher of all there blood",
+	text: [
+		"To stop the advancement of the hunter menace you can kill hunter trainers.",
+		"",
+		"They can be found inside hunter controlled villages."
+	],
+	dependencies: [
+		"2c291282"
+	],
+	tasks: [{
+		uid: "aebba7b5",
+		type: "kill",
+		entity: "vampirism:hunter_trainer",
+		value: 3L
+	}],
+	rewards: [{
+		uid: "ec335872",
+		type: "item",
+		item: "vampirism:pure_blood 1 4"
+	},
+	{
+		uid: "1c75fc1c",
+		type: "item",
+		item: {
+			id: "vampirism:blood_container",
+			tag: {
+				fluid: {
+					FluidName: "vampirismblood",
+					Amount: 12600
+				}
+			}
+		},
+		count: 3
+	},
+	{
+		uid: "330de2b0",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "9964fad3",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "aa6bcf33",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "4c9a5ea0",
+		type: "item",
+		item: {
+			id: "vampirism:vampire_book",
+			tag: {
+				generation: 3,
+				pages: [
+					"[\"\",{\"text\":\"Animals\",\"bold\":true,\"italic\":true},{\"text\":\"\\n\",\"color\":\"reset\",\"bold\":true},{\"text\":\"adsfadsf\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"fdswaf\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"alle asdfasdf\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"uww\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"asdf\",\"bold\":true,\"obfuscated\":true},{\"text\":\" warm\\n\",\"color\":\"reset\",\"bold\":true},{\"text\":\"dssdf\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"werwer\",\"bold\":true,\"obfuscated\":true},{\"text\":\" fo\\n\",\"color\":\"reset\",\"bold\":true},{\"text\":\"asdf\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"oiif\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"sasff\",\"bold\":true,\"obfuscated\":true},{\"text\":\"\\n\",\"color\":\"reset\",\"bold\":true},{\"text\":\"ssfsd\",\"bold\":true,\"obfuscated\":true},{\"text\":\"d. \\u258a\\u25e5\\n\",\"color\":\"reset\",\"bold\":true},{\"text\":\"Come\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"hier\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"is\",\"bold\":true,\"obfuscated\":true},{\"text\":\"t w\",\"color\":\"reset\",\"bold\":true},{\"text\":\"as\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"craty\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"halt\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"waal\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"same\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"ass\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"komm\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"halt\",\"bold\":true,\"obfuscated\":true},{\"text\":\" hei \",\"color\":\"reset\",\"bold\":true},{\"text\":\"asdf\",\"bold\":true,\"obfuscated\":true},{\"text\":\".\",\"color\":\"reset\",\"bold\":true}]"
+				],
+				author: "Unknown",
+				display: {
+					Lore: [
+						"Cryptic document"
+					],
+					Name: "Vampire Book"
+				},
+				title: "Animals"
+			}
+		}
+	}]
+}

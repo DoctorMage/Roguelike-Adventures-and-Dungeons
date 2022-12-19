@@ -1,0 +1,38 @@
+{
+	title: "Pass The Salt",
+	x: -6.0d,
+	y: 7.0d,
+	description: "not for undead consumption",
+	text: [
+		"Salt is used for making blessed salt which is required for holy water.",
+		"",
+		"(Depending on what skills you choose you may not be able to craft holy water)"
+	],
+	dependencies: [
+		"1ea3c7a2"
+	],
+	optional: true,
+	tasks: [{
+		uid: "7a69ee55",
+		type: "item",
+		items: [{
+			item: "vampirism:pure_salt"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "2bac6bc5",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "7f2b8d2e",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "44d70ce0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

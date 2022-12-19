@@ -1,0 +1,45 @@
+{
+	title: "Vampire Hunter",
+	x: -6.0d,
+	y: 5.0d,
+	description: "Vampire huntings a good job mate",
+	text: [
+		"So you've picked the path of the hunter!",
+		"",
+		"To begin you find an injection chair and interact with it while holding a garlic injection.",
+		"",
+		"Warning Injecting yourself with garlic prevents you from becoming a vampire."
+	],
+	dependencies: [
+		"3141492f"
+	],
+	tasks: [{
+		uid: "6362e9e2",
+		type: "item",
+		items: [{
+			item: "vampirism:item_med_chair"
+		}]
+	},
+	{
+		uid: "6d70832a",
+		type: "item",
+		items: [{
+			item: "vampirism:injection 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "e7a3c105",
+		type: "item",
+		item: "vampirism:hunter_hat0_head"
+	},
+	{
+		uid: "a3865e1f",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "2603a1b0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

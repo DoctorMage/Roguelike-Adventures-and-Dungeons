@@ -1,0 +1,48 @@
+{
+	title: "Fresh Blood",
+	icon: "vampirism:vampire_blood_bottle",
+	x: -6.0d,
+	y: 2.0d,
+	description: "don't drink this",
+	text: [
+		"Vampires can sometimes drop blood when killed with a stake.",
+		"",
+		"Depending on which skill tree you choose you can use it for certain potions."
+	],
+	dependencies: [
+		"679444c3"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c4a9d61e",
+		type: "item",
+		icon: "vampirism:vampire_blood_bottle",
+		items: [{
+			item: "vampirism:vampire_blood_bottle"
+		}],
+		count: 5L
+	},
+	{
+		uid: "ef3294b7",
+		type: "item",
+		items: [{
+			item: "vampirism:item_garlic"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "23222f2e",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "c5ac9c29",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "239e3910",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

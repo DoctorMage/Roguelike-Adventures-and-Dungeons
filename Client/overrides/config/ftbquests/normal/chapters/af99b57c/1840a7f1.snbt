@@ -1,0 +1,53 @@
+{
+	title: "Flesh & Blood",
+	x: -7.0d,
+	y: -3.5d,
+	text: [
+		"To lazy to go out and drain mobs of their blood?",
+		"",
+		"Craft a blood sieve and grinder to make your own!",
+		"",
+		"Place the grinder ontop of the sieve and then place either raw meat or a human heart inside ",
+		"and it will grind them down into blood.",
+		"",
+		"A tank or container must be below the sieve for blood to be properly stored."
+	],
+	dependencies: [
+		"79ece8a4"
+	],
+	tasks: [{
+		uid: "f7df65ee",
+		type: "item",
+		items: [{
+			item: "vampirism:blood_sieve"
+		}]
+	},
+	{
+		uid: "c10ff21f",
+		type: "item",
+		items: [{
+			item: "vampirism:blood_grinder"
+		}]
+	}],
+	rewards: [{
+		uid: "60e64e92",
+		type: "item",
+		item: "minecraft:porkchop",
+		count: 8
+	},
+	{
+		uid: "9f985850",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "32f04a42",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "19c94a6d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

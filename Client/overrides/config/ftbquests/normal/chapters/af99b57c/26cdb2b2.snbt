@@ -1,0 +1,49 @@
+{
+	title: "Enhanced Semi-Auto Crossbow",
+	x: -3.0d,
+	y: 8.5d,
+	text: [
+		"The imroved version of the semi automatic crossbow",
+		"",
+		"Depending on what skill you choose you can craft an even stronger crossbow.",
+		"",
+		"(Depending on what skills you choose you may not be able to craft a semi automatic crossbow)."
+	],
+	dependencies: [
+		"cd5826cc"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d812389a",
+		type: "item",
+		items: [{
+			id: "vampirism:enhanced_tech_crossbow",
+			tag: {
+				arrows: 12
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d719e271",
+		type: "item",
+		item: "vampirism:tech_crossbow_ammo_package",
+		count: 8
+	},
+	{
+		uid: "e50cd329",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "53cae565",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "3594fc8c",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

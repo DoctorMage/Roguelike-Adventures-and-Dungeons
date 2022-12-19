@@ -1,0 +1,36 @@
+{
+	title: "New Vampire Overlord",
+	x: -6.0d,
+	y: -5.5d,
+	description: "the sun is next on your list",
+	text: [
+		""
+	],
+	dependencies: [
+		"824b664e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fefa6883",
+		type: "advancement",
+		title: "New Vampire Overlord",
+		icon: "vampirism:vampire_fang",
+		advancement: "vampirism:vampire/max_level",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "be85b113",
+		type: "loot",
+		table: 57
+	},
+	{
+		uid: "71047ed4",
+		type: "xp_levels",
+		xp_levels: 75
+	},
+	{
+		uid: "fc3077d7",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

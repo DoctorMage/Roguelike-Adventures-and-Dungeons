@@ -1,0 +1,44 @@
+{
+	title: "The New Blood",
+	x: -5.0d,
+	y: -3.5d,
+	description: "it's not a phase mom!!",
+	text: [
+		"As a new blood vampire to become stronger you need to some inpsiration.",
+		"",
+		"Place down an inspiration altar and start getting inspiried.",
+		"",
+		"Does look a bit empty should fill it with something."
+	],
+	dependencies: [
+		"1840a7f1"
+	],
+	tasks: [{
+		uid: "b6ae7ccd",
+		type: "item",
+		items: [{
+			item: "vampirism:altar_inspiration"
+		}]
+	}],
+	rewards: [{
+		uid: "a39ee70a",
+		type: "item",
+		item: "vampirism:blood_bottle 1 9",
+		count: 3
+	},
+	{
+		uid: "b44adb48",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "487cecc2",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "6d0e8626",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

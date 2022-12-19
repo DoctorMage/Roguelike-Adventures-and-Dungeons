@@ -1,0 +1,47 @@
+{
+	title: "Hunter Villager",
+	x: -5.0d,
+	y: 1.0d,
+	description: "Villager has wares if you have souls",
+	text: [
+		"In hunter controlled villages you can come across Hunter experts .",
+		"",
+		"They will trade vampire souls for equipment and items."
+	],
+	dependencies: [
+		"fd81a1b8"
+	],
+	tasks: [{
+		uid: "d0b03929",
+		type: "interaction",
+		icon: {
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:villager"
+			}
+		},
+		match_type: "entity_id",
+		match: "vampirism:villager_hunter_faction"
+	}],
+	rewards: [{
+		uid: "3ed229a7",
+		type: "item",
+		item: "vampirism:soul_orb_vampire",
+		count: 10
+	},
+	{
+		uid: "c9cb8a9b",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "295672a6",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "d60cfc58",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

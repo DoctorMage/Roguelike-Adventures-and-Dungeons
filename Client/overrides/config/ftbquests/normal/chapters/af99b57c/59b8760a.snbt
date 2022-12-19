@@ -1,0 +1,55 @@
+{
+	title: "Halleujah",
+	x: -7.0d,
+	y: 9.0d,
+	description: "I'm melting I'm melting",
+	text: [
+		"Hitting a vampire with holy water weakens them massively.",
+		"",
+		"To create holy water you need blessed salt which can be brought from hunter villagers."
+	],
+	dependencies: [
+		"ce78bfd3"
+	],
+	optional: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "e431665a",
+		type: "item",
+		items: [{
+			id: "vampirism:holy_water_bottle",
+			tag: {
+				tier: "NORMAL"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ba0b1bdd",
+		type: "item",
+		items: [{
+			id: "vampirism:holy_water_splash_bottle",
+			tag: {
+				tier: "NORMAL"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "81bccaad",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "db6c5f38",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "d7fc2e7d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

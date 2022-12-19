@@ -1,0 +1,7 @@
+{
+	title: "Vampire Diaries",
+	icon: "vampirism:soul_orb_vampire",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

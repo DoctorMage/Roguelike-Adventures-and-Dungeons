@@ -1,0 +1,55 @@
+{
+	title: "Diamonds Are For Umbrellas",
+	x: -3.0d,
+	y: -2.5d,
+	description: "shine on you crazy umbrella",
+	text: [
+		"The best possible umbrella has the highest durabillity compared to all other vampire umbrellas."
+	],
+	dependencies: [
+		"4e9af33c"
+	],
+	tasks: [{
+		uid: "9092d0ba",
+		type: "item",
+		items: [{
+			item: "vampiresneedumbrellas:white_diamond_umbrella"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "27a87580",
+		type: "item",
+		items: [{
+			item: "vampiresneedumbrellas:diamond_umbrella_rod"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "0e0b6cfe",
+		type: "random",
+		table: 59
+	},
+	{
+		uid: "1d3b9e79",
+		type: "item",
+		item: "megaloot:weaponcase_epic"
+	},
+	{
+		uid: "253a4470",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "935dcae2",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "153931e6",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

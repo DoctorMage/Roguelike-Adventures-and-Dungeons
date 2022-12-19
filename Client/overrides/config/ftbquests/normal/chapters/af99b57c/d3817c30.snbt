@@ -1,0 +1,53 @@
+{
+	title: "Spitfire",
+	x: -9.0d,
+	y: 9.0d,
+	description: "playing with fire",
+	text: [
+		"Spitfire Arrows are made with alchemical fire and crossbow arrows.",
+		"",
+		"When fired were ever they land alchemical fire will be set."
+	],
+	dependencies: [
+		"f7514f66"
+	],
+	optional: true,
+	tasks: [{
+		uid: "179bea77",
+		type: "item",
+		items: [{
+			id: "vampirism:crossbow_arrow",
+			tag: {
+				type: "spitfire"
+			}
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "eaa11bd7",
+		type: "item",
+		item: "vampirism:item_alchemical_fire",
+		count: 3
+	},
+	{
+		uid: "8412e1f3",
+		type: "item",
+		item: {
+			id: "vampirism:crossbow_arrow",
+			tag: {
+				type: "normal"
+			}
+		},
+		count: 12
+	},
+	{
+		uid: "8c880307",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "0410cc52",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

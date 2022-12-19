@@ -1,0 +1,44 @@
+{
+	title: "Don't Save This For A Rainy day",
+	x: -3.0d,
+	y: -3.5d,
+	description: "Is that glitter gold?",
+	text: [
+		"An upgraded version of the iron umbrella has increased durabillity."
+	],
+	dependencies: [
+		"72804cbc"
+	],
+	tasks: [{
+		uid: "327074db",
+		type: "item",
+		items: [{
+			item: "vampiresneedumbrellas:white_gold_umbrella"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ef48b735",
+		type: "item",
+		items: [{
+			item: "vampiresneedumbrellas:gold_umbrella_rod"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "9c883248",
+		type: "item",
+		item: "megaloot:weaponcase_rare"
+	},
+	{
+		uid: "26f41ee5",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "d7488e5a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

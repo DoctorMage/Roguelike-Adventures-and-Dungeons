@@ -1,0 +1,101 @@
+{
+	title: "Hunter's Drip",
+	x: -5.0d,
+	y: 4.0d,
+	description: "you should model for vogue",
+	text: [
+		"As a hunter depending on what skills you choose you will gain acess to hunter armour.",
+		"",
+		"Each armour set has it's own bonuses and negatives."
+	],
+	dependencies: [
+		"7b483180"
+	],
+	tasks: [{
+		uid: "a6626a8f",
+		type: "item",
+		items: [{
+			id: "vampirism:armor_of_swiftness_head",
+			tag: {
+				tier: "NORMAL",
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8fc0a7d3",
+		type: "item",
+		items: [{
+			id: "vampirism:armor_of_swiftness_chest",
+			tag: {
+				tier: "NORMAL",
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5e4adc40",
+		type: "item",
+		items: [{
+			id: "vampirism:armor_of_swiftness_legs",
+			tag: {
+				tier: "NORMAL",
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "44cf024c",
+		type: "item",
+		items: [{
+			id: "vampirism:armor_of_swiftness_feet",
+			tag: {
+				tier: "NORMAL",
+				Quality: {
+					Slots: [
+						"feet"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -5664162846251072208L,
+						UUIDLeast: -5659201376515739592L,
+						Amount: 0.5d,
+						AttributeName: "potioncore.stepHeight",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.tall.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d5b22eb9",
+		type: "item",
+		item: "vampirism:item_garlic",
+		count: 10
+	},
+	{
+		uid: "77565820",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "963d2c97",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "b7d0f16d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}
