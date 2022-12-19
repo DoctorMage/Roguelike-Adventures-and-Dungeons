@@ -1,0 +1,25 @@
+{
+	title: "Blood Donation",
+	icon: {
+		id: "vampirism:blood_container",
+		tag: {
+			fluid: {
+				FluidName: "vampirismblood",
+				Amount: 12600
+			}
+		}
+	},
+	loot_size: 1,
+	rewards: [{
+		item: "vampirism:pure_blood"
+	},
+	{
+		item: "vampirism:pure_blood 1 1"
+	},
+	{
+		item: "vampirism:pure_blood 1 2"
+	},
+	{
+		item: "vampirism:pure_blood 1 3"
+	}]
+}

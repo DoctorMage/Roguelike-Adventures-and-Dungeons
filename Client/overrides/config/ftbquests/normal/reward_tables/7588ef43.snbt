@@ -1,0 +1,69 @@
+{
+	title: "Legendary Tier Rewards",
+	loot_size: 3,
+	rewards: [{
+		item: "contenttweaker:reforge_cat",
+		count: 15,
+		weight: 15
+	},
+	{
+		item: {
+			id: "extrautils2:drum",
+			tag: {
+				Fluid: {
+					FluidName: "xpjuice",
+					Amount: 255348
+				}
+			},
+			Damage: 3s
+		},
+		weight: 4
+	},
+	{
+		item: "iceandfire:dragonsteel_fire_block",
+		weight: 5
+	},
+	{
+		item: "iceandfire:dragonsteel_ice_block",
+		weight: 5
+	},
+	{
+		item: "megaloot:upgradecharm_epic",
+		count: 16,
+		weight: 25
+	},
+	{
+		item: "ebwizardry:grand_crystal",
+		count: 4,
+		weight: 10
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_wizard_artifacts"
+			}
+		},
+		weight: 20
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_dragon_egg_duos"
+			}
+		},
+		weight: 5
+	}],
+	loot_crate: {
+		string_id: "legendary_tier_rewards",
+		item_name: "Crate Of Legendary Tier Rewards",
+		color: 16766720,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}
