@@ -1,0 +1,48 @@
+{
+	title: "Thalassophobia",
+	icon: "cavern:cave_item",
+	x: -5.5d,
+	y: -0.5d,
+	description: "hope you can swim",
+	text: [
+		"The aqua caverns are the final tier of basic caverns.",
+		"",
+		"The twist of this caverns is that it's completely flooded from top to bottom.",
+		"",
+		"To enter just make the same portal as you did before and ignite it with aquamarine."
+	],
+	dependencies: [
+		"30651e46"
+	],
+	tasks: [{
+		uid: "7c7cca81",
+		type: "item",
+		items: [{
+			item: "cavern:cave_item"
+		}]
+	},
+	{
+		uid: "18c0fc9f",
+		type: "item",
+		icon: "minecraft:mossy_cobblestone",
+		items: [{
+			item: "minecraft:mossy_cobblestone"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "bffb12d3",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "0a46b01c",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "a7f3dda9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

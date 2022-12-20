@@ -1,0 +1,53 @@
+{
+	title: "Expert Vampire Hunter",
+	x: -1.0d,
+	y: 2.0d,
+	description: "Hunter Intel 11 - 13",
+	text: [
+		""
+	],
+	dependencies: [
+		"fcd20988"
+	],
+	tasks: [{
+		uid: "e9133d19",
+		type: "item",
+		items: [{
+			item: "vampirism:hunter_intel 1 6"
+		}]
+	},
+	{
+		uid: "f37bd8d1",
+		type: "item",
+		items: [{
+			item: "vampirism:hunter_intel 1 7"
+		}]
+	},
+	{
+		uid: "a107858c",
+		type: "item",
+		items: [{
+			item: "vampirism:hunter_intel 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "57a0de9b",
+		type: "choice",
+		table: 58
+	},
+	{
+		uid: "77e65b9c",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "3e6d700d",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "ccfab023",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

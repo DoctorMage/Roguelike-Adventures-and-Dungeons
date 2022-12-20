@@ -1,0 +1,54 @@
+{
+	title: "Apprentice Vampire Hunter",
+	icon: "vampirism:hunter_intel 1 5",
+	x: -2.0d,
+	y: 2.0d,
+	description: "Hunter Intel 8 - 10",
+	text: [
+		""
+	],
+	dependencies: [
+		"469d1cb1"
+	],
+	tasks: [{
+		uid: "63c2052f",
+		type: "item",
+		items: [{
+			item: "vampirism:hunter_intel 1 3"
+		}]
+	},
+	{
+		uid: "6f1cb1e6",
+		type: "item",
+		items: [{
+			item: "vampirism:hunter_intel 1 4"
+		}]
+	},
+	{
+		uid: "07421457",
+		type: "item",
+		items: [{
+			item: "vampirism:hunter_intel 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "ea144ec8",
+		type: "choice",
+		table: 58
+	},
+	{
+		uid: "9f9fbcce",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "88bcdbec",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "a40edcb5",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

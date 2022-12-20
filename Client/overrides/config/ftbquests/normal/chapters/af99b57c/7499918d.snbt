@@ -1,0 +1,50 @@
+{
+	title: "Spray & Pray",
+	x: -2.0d,
+	y: 7.0d,
+	description: "Faster than manually reloading",
+	text: [
+		"The semi automatic crossbow uses ammo from crossbow clips.",
+		"",
+		"It has the advantage over a regular crossbow being that you dont have to reload every shoot.",
+		"",
+		"(Depending on what skills you choose you may not be able to craft a semi automatic crossbow)."
+	],
+	dependencies: [
+		"69651f58"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c72ad4a1",
+		type: "item",
+		items: [{
+			id: "vampirism:basic_tech_crossbow",
+			tag: {
+				arrows: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6fecc18b",
+		type: "item",
+		item: "vampirism:tech_crossbow_ammo_package",
+		count: 4
+	},
+	{
+		uid: "f6cafa26",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "84f38df7",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "3794410d",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

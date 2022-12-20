@@ -1,0 +1,60 @@
+{
+	title: "Path Of The Vampire",
+	x: -8.0d,
+	y: -2.5d,
+	description: "Haha Jonathan you stole my fangs",
+	text: [
+		"Complete this quest and activate the rewards to be effected by the vampirism virus.",
+		"",
+		"After a day has passed you will be reborn.",
+		"",
+		"(If at any point you change your mind drink milk to remove the effect)",
+		"(In case you do something stupid you get 2 chances of vampirism)",
+		"",
+		"Warning Injecting yourself with garlic prevents you from becoming a vampire."
+	],
+	dependencies: [
+		"185694e7"
+	],
+	tasks: [{
+		uid: "4776a954",
+		type: "item",
+		items: [{
+			item: "vampirism:vampire_fang"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "3f167e8c",
+		type: "item",
+		items: [{
+			item: "vampirism:human_heart"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "1a639a50",
+		type: "command",
+		icon: "vampirism:injection 1 2",
+		team_reward: false,
+		command: "/effect @p vampirism:sanguinare 600"
+	},
+	{
+		uid: "3ec5fd83",
+		type: "command",
+		icon: "vampirism:injection 1 2",
+		team_reward: false,
+		command: "/effect @p vampirism:sanguinare 600"
+	},
+	{
+		uid: "f50c4809",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "1c50d8f1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

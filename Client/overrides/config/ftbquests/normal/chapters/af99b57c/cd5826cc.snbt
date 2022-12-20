@@ -1,0 +1,49 @@
+{
+	title: "The Cooler Crossbow",
+	x: -3.0d,
+	y: 7.0d,
+	text: [
+		"Depending on what skill you choose you can craft an even stronger crossbow.",
+		"",
+		"(Depending on what skills you choose you may not be able to craft an crossbow)."
+	],
+	dependencies: [
+		"69651f58"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b2e83aca",
+		type: "item",
+		items: [{
+			item: "vampirism:enhanced_crossbow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9f13442b",
+		type: "item",
+		item: {
+			id: "vampirism:crossbow_arrow",
+			tag: {
+				type: "normal"
+			}
+		},
+		count: 32
+	},
+	{
+		uid: "d0c3b83d",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "d7d39952",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "0dbd9092",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	}]
+}

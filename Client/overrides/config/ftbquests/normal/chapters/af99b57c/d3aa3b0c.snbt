@@ -1,0 +1,33 @@
+{
+	title: "Crossbow Arrow",
+	x: -1.0d,
+	y: 5.0d,
+	text: [
+		"Used specifically for vampirism crossbow as ammunition"
+	],
+	dependencies: [
+		"69651f58"
+	],
+	optional: true,
+	tasks: [{
+		uid: "defd33c9",
+		type: "item",
+		items: [{
+			id: "vampirism:crossbow_arrow",
+			tag: {
+				type: "normal"
+			}
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "06762e9c",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "8c18f7dc",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,64 @@
+{
+	title: "Vampiric Drip",
+	x: -6.0d,
+	y: -2.5d,
+	description: "let me brood in peace",
+	text: [
+		"The final part of becoming a real vampire is having a cloak so you can ",
+		"always look mysterious."
+	],
+	dependencies: [
+		"90a84a0f"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "d147a232",
+		type: "item",
+		items: [{
+			item: "vampirism:vampire_cloak"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "983d871f",
+		type: "item",
+		items: [{
+			item: "vampirism:vampire_cloak 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "90aad3b7",
+		type: "item",
+		items: [{
+			item: "vampirism:vampire_cloak 1 2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6087a752",
+		type: "item",
+		items: [{
+			item: "vampirism:vampire_cloak 1 3"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "18fe9a07",
+		type: "item",
+		items: [{
+			item: "vampirism:vampire_cloak 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9dc14631",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "aca1bcf9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

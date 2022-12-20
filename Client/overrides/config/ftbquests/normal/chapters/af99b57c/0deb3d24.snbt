@@ -1,0 +1,66 @@
+{
+	title: "Count Dracula",
+	x: -0.5d,
+	y: -0.5d,
+	description: "he should never have been given the mic",
+	text: [
+		"The strongest vampire with multiple abillties killing one brings great rewards",
+		"",
+		"",
+		"WARNING : This mob is insanely strong do not fight it unprepared!"
+	],
+	dependencies: [
+		"90a84a0f",
+		"46fe7899"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "9fe6b330",
+		type: "kill",
+		entity: "vampirism:vampire_baron",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "96ccd682",
+		type: "item",
+		item: "vampirism:pure_blood 1 4"
+	},
+	{
+		uid: "105ef759",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "0e711b8b",
+		type: "item",
+		item: {
+			id: "vampirism:vampire_book",
+			tag: {
+				generation: 3,
+				pages: [
+					"[\"\",{\"text\":\"Venatio\",\"bold\":true},{\"text\":\"\\nstabunt quadrupedes et flexis laetus habenis teque tuumque canam terris venerabile numen. Aurea pacati regeres cum saecula mundi,\\nIustitia inviolata malis, placidissima virgo,\\nsive illa Astraei genus es, quem fama parentem\",\"color\":\"reset\"}]",
+					"{\"text\":\"tradidit astrorum, seu vera intercidit aevo\\nortus fama tui, mediis te laeta ferebas\\nsublimis populis nec dedignata subire\\ntecta hominum et puros sine crimine, diva, penatis iura dabas cultuque novo rude vulgus in omnem \"}",
+					"{\"text\":\"formabas vitae sinceris artibus usum.\\nnondum vesanos rabies nudaverat ensis\\nnec consanguineis fuerat discordia nota,\\nignotique maris cursus privataque tellus\"}"
+				],
+				author: "Unknown",
+				display: {
+					Lore: [
+						"Ancient writing"
+					],
+					Name: "Vampire Book"
+				},
+				title: "Venatio"
+			}
+		}
+	},
+	{
+		uid: "03b8dbd9",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "be6065e5",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

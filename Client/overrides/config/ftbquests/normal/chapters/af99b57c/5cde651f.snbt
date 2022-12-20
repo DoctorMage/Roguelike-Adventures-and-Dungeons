@@ -1,0 +1,115 @@
+{
+	title: "The Heaviest Drip",
+	x: -3.0d,
+	y: 4.0d,
+	description: "vampires tried to patent black clothing but hunters beat em to it",
+	text: [
+		"As a hunter depending on what skills you choose you will gain acess to hunter armour.",
+		"",
+		"Each armour set has it's own bonuses and negatives."
+	],
+	dependencies: [
+		"7b483180"
+	],
+	tasks: [{
+		uid: "f16cbcac",
+		type: "item",
+		items: [{
+			id: "vampirism:obsidian_armor_head",
+			tag: {
+				tier: "NORMAL",
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 7806565410706769249L,
+						UUIDLeast: -5543676842991928885L,
+						Amount: -1.0d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.dented.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4c2e7da9",
+		type: "item",
+		items: [{
+			id: "vampirism:obsidian_armor_chest",
+			tag: {
+				tier: "NORMAL",
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cbc5b19f",
+		type: "item",
+		items: [{
+			id: "vampirism:obsidian_armor_legs",
+			tag: {
+				tier: "NORMAL",
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dd24e2b6",
+		type: "item",
+		items: [{
+			id: "vampirism:obsidian_armor_feet",
+			tag: {
+				tier: "NORMAL",
+				Quality: {
+					Slots: [
+						"feet"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 4058505488978822328L,
+						UUIDLeast: -6754111632065248177L,
+						Amount: -1.0d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.dented.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d56e4e6b",
+		type: "item",
+		item: "vampirism:item_garlic",
+		count: 10
+	},
+	{
+		uid: "853ab185",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "22421cc3",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "e7b9ef7f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

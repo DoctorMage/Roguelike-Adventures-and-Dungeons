@@ -1,0 +1,38 @@
+{
+	title: "Adept Miner",
+	x: -9.5d,
+	y: -0.5d,
+	description: "dwarf training 101",
+	text: [
+		"As you mine ore's in caverns you will gain miner rank.",
+		"",
+		"Certain ores will award more mining exp than others.",
+		"",
+		"To gain acess to the second type of basic caverns you need to reach a rank of Iron Miner."
+	],
+	dependencies: [
+		"9cc8a946"
+	],
+	tasks: [{
+		uid: "e16ca07f",
+		type: "advancement",
+		icon: "minecraft:iron_pickaxe",
+		advancement: "cavern:iron_miner",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "2cf4fdb6",
+		type: "choice",
+		table: 57
+	},
+	{
+		uid: "455d6b30",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "e40fe13d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

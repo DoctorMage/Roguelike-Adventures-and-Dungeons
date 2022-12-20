@@ -1,0 +1,54 @@
+{
+	title: "Hunter Trainer",
+	x: -4.0d,
+	y: 1.0d,
+	description: "he's a professional",
+	text: [
+		"Vampire Hunter Trainers can be found in hunter controlled villages.",
+		"",
+		"Trade them hunter intel to level up past level 4 as a hunter."
+	],
+	dependencies: [
+		"46fe7899"
+	],
+	tasks: [{
+		uid: "bbe9e10a",
+		type: "interaction",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "vampirism:hunter_trainer"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "vampirism:hunter_trainer"
+	}],
+	rewards: [{
+		uid: "8e9bbd7e",
+		type: "item",
+		item: {
+			id: "vampirism:holy_water_splash_bottle",
+			tag: {
+				tier: "NORMAL"
+			}
+		},
+		count: 3
+	},
+	{
+		uid: "7b438f2f",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "7f55fc82",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "39a90131",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

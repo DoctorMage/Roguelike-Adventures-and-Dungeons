@@ -1,0 +1,46 @@
+{
+	title: "Bigger Is Better",
+	x: -8.5d,
+	y: -0.5d,
+	text: [
+		"To gain access to the second tier of basic caverns click on the same type of portal frame but instead of emerald use a diamond."
+	],
+	dependencies: [
+		"3f373494"
+	],
+	tasks: [{
+		uid: "7ab6e8b1",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	},
+	{
+		uid: "f57c107b",
+		type: "item",
+		items: [{
+			item: "minecraft:mossy_cobblestone"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "d3f4e607",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "6bb5523b",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "715809ae",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "5731b5bd",
+		type: "choice",
+		table: 56
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "Can I Axe You A Question!?",
+	x: -4.0d,
+	y: 7.0d,
+	description: "here's johnny!",
+	text: [
+		"A stake will not be enough to deal with stronger vampires for those that prefer  melee you can craft a hunter's axe."
+	],
+	dependencies: [
+		"7b483180"
+	],
+	optional: true,
+	tasks: [{
+		uid: "8384131a",
+		type: "item",
+		items: [{
+			id: "vampirism:hunter_axe",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 19
+				}],
+				tier: "NORMAL"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "24b2bca4",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "dbcbc73a",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "fe21b3df",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

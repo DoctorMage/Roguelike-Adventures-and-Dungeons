@@ -1,0 +1,73 @@
+{
+	title: "Vampire's Ichor",
+	x: -5.0d,
+	y: -1.5d,
+	description: "sweeter than wine",
+	text: [
+		"Pure blood is used for crafting certain materials and weapons.",
+		"",
+		"It can either be aquired from villagers at  medium levels of purity.",
+		"",
+		"Or for the real deal find a Vampire Baron in vampire forest and slay them for the highest",
+		"purity blood"
+	],
+	dependencies: [
+		"944fae96"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "ec742ae0",
+		type: "item",
+		items: [{
+			item: "vampirism:pure_blood"
+		}]
+	},
+	{
+		uid: "7cbc1b9e",
+		type: "item",
+		items: [{
+			item: "vampirism:pure_blood 1 1"
+		}]
+	},
+	{
+		uid: "991b2321",
+		type: "item",
+		items: [{
+			item: "vampirism:pure_blood 1 2"
+		}]
+	},
+	{
+		uid: "e403a186",
+		type: "item",
+		items: [{
+			item: "vampirism:pure_blood 1 3"
+		}]
+	},
+	{
+		uid: "896e0f3f",
+		type: "item",
+		items: [{
+			item: "vampirism:pure_blood 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "066983d3",
+		type: "item",
+		item: "megaloot:weaponcase_epic"
+	},
+	{
+		uid: "52cf6003",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "6c5542a1",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "6750ff43",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

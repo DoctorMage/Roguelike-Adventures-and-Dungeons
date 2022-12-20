@@ -1,0 +1,49 @@
+{
+	title: "Basic Caverns",
+	icon: "cavern:cavern_portal",
+	x: -10.5d,
+	y: -0.5d,
+	description: "mining away",
+	text: [
+		"The most basic type of caverns it contains all the vanilla ores that normal caves do but has its own set of ores unique to it."
+	],
+	dependencies: [
+		"0b0992c3"
+	],
+	tasks: [{
+		uid: "bd7a9863",
+		type: "dimension",
+		icon: "cavern:cavern_portal",
+		dim: -50
+	},
+	{
+		uid: "cee5790f",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_pickaxe"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "87e050a8",
+		type: "loot",
+		table: 8
+	},
+	{
+		uid: "0915855b",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "2c5cc513",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "cda71b71",
+		type: "choice",
+		table: 56
+	}]
+}

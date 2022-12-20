@@ -1,0 +1,137 @@
+{
+	title: "Bloodborne Cosplay",
+	x: -4.0d,
+	y: 4.0d,
+	description: "as close as you will get to bloodborne on pc",
+	text: [
+		"As a hunter depending on what skills you choose you will gain acess to hunter armour.",
+		"",
+		"Each armour set has it's own bonuses and negatives."
+	],
+	dependencies: [
+		"7b483180"
+	],
+	tasks: [{
+		uid: "3f79360f",
+		type: "item",
+		items: [{
+			id: "vampirism:hunter_coat_head",
+			tag: {
+				tier: "NORMAL",
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 7082840592716678364L,
+						UUIDLeast: -8710268151780674293L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.protective.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "81ec762d",
+		type: "item",
+		items: [{
+			id: "vampirism:hunter_coat_chest",
+			tag: {
+				tier: "NORMAL",
+				Quality: {
+					Slots: [
+						"chest"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: -8329919292775579202L,
+						UUIDLeast: -5244212782115262030L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 6687173087482498827L,
+						UUIDLeast: -5724833552053584028L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.thick.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ae6cc895",
+		type: "item",
+		items: [{
+			id: "vampirism:hunter_coat_legs",
+			tag: {
+				tier: "NORMAL",
+				Quality: {
+					Slots: [
+						"legs"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 7994757463113089322L,
+						UUIDLeast: -5933931046814300889L,
+						Amount: -1.0d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.dented.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "541a271d",
+		type: "item",
+		items: [{
+			id: "vampirism:hunter_coat_feet",
+			tag: {
+				tier: "NORMAL",
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "996b6c91",
+		type: "item",
+		item: "vampirism:item_garlic",
+		count: 10
+	},
+	{
+		uid: "d721879c",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "cbfa4a83",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "db2fdb08",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

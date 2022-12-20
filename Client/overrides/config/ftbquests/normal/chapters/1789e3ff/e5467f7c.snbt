@@ -1,0 +1,40 @@
+{
+	title: "Cave Dwellers",
+	x: -9.5d,
+	y: 0.5d,
+	description: "grug don't like you in his cave!",
+	text: [
+		"Caveman are the native creature of caverns and will fight any human they see.",
+		"",
+		"Show them who's the new tribe leader."
+	],
+	tasks: [{
+		uid: "1965e704",
+		type: "kill",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "cavern:caveman"
+				}
+			}
+		},
+		entity: "cavern:caveman",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "a00074e1",
+		type: "random",
+		table: 12
+	},
+	{
+		uid: "2bea6cf0",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "316ee5f4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

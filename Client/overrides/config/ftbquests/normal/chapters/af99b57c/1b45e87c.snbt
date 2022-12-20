@@ -1,0 +1,42 @@
+{
+	title: "Blood Bank",
+	x: -8.0d,
+	y: -4.5d,
+	description: "don't try chugging this",
+	text: [
+		"Instead of carrying 50 bottles of blood on you dump that sweet red nectar into a tank."
+	],
+	dependencies: [
+		"79ece8a4"
+	],
+	tasks: [{
+		uid: "2237fb75",
+		type: "item",
+		items: [{
+			item: "vampirism:blood_container"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2b5e5630",
+		type: "item",
+		item: "vampirism:blood_bottle 1 9",
+		count: 3
+	},
+	{
+		uid: "672b08be",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "578c896c",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "96298e8c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

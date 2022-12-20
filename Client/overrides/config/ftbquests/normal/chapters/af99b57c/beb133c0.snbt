@@ -1,0 +1,40 @@
+{
+	title: "Small Game",
+	x: -7.0d,
+	y: -5.5d,
+	text: [
+		"The best way of getting human hearts as a vampire is killing hunters",
+		"",
+		"You can find there camps randomly around the world kill some to get hearts."
+	],
+	dependencies: [
+		"1840a7f1"
+	],
+	tasks: [{
+		uid: "67404732",
+		type: "kill",
+		entity: "vampirism:vampire_hunter",
+		value: 30L
+	}],
+	rewards: [{
+		uid: "9d4f54e1",
+		type: "item",
+		item: "vampirism:blood_bottle 1 9",
+		count: 4
+	},
+	{
+		uid: "9654b887",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "e5da1e76",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "53057899",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,66 @@
+{
+	title: "Big Game",
+	x: -8.0d,
+	y: -5.5d,
+	text: [
+		"Advanced vampire hunters are much stronger than regular hunters."
+	],
+	dependencies: [
+		"beb133c0"
+	],
+	tasks: [{
+		uid: "079ac575",
+		type: "kill",
+		entity: "vampirism:advanced_hunter",
+		value: 15L
+	}],
+	rewards: [{
+		uid: "fd69fc48",
+		type: "item",
+		item: {
+			id: "vampirism:blood_container",
+			tag: {
+				fluid: {
+					FluidName: "vampirismblood",
+					Amount: 12600
+				}
+			}
+		}
+	},
+	{
+		uid: "98b9759e",
+		type: "item",
+		item: {
+			id: "vampirism:vampire_book",
+			tag: {
+				generation: 3,
+				pages: [
+					"[\"\",{\"text\":\"Animals\",\"bold\":true,\"italic\":true},{\"text\":\"\\n\",\"color\":\"reset\",\"bold\":true},{\"text\":\"adsfadsf\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"fdswaf\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"alle asdfasdf\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"uww\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"asdf\",\"bold\":true,\"obfuscated\":true},{\"text\":\" warm\\n\",\"color\":\"reset\",\"bold\":true},{\"text\":\"dssdf\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"werwer\",\"bold\":true,\"obfuscated\":true},{\"text\":\" fo\\n\",\"color\":\"reset\",\"bold\":true},{\"text\":\"asdf\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"oiif\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"sasff\",\"bold\":true,\"obfuscated\":true},{\"text\":\"\\n\",\"color\":\"reset\",\"bold\":true},{\"text\":\"ssfsd\",\"bold\":true,\"obfuscated\":true},{\"text\":\"d. \\u258a\\u25e5\\n\",\"color\":\"reset\",\"bold\":true},{\"text\":\"Come\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"hier\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"is\",\"bold\":true,\"obfuscated\":true},{\"text\":\"t w\",\"color\":\"reset\",\"bold\":true},{\"text\":\"as\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"craty\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"halt\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"waal\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"same\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"ass\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"komm\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"color\":\"reset\",\"bold\":true},{\"text\":\"halt\",\"bold\":true,\"obfuscated\":true},{\"text\":\" hei \",\"color\":\"reset\",\"bold\":true},{\"text\":\"asdf\",\"bold\":true,\"obfuscated\":true},{\"text\":\".\",\"color\":\"reset\",\"bold\":true}]"
+				],
+				author: "Unknown",
+				display: {
+					Lore: [
+						"Cryptic document"
+					],
+					Name: "Vampire Book"
+				},
+				title: "Animals"
+			}
+		}
+	},
+	{
+		uid: "6ec578c7",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "9229ad6f",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "58b704a2",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

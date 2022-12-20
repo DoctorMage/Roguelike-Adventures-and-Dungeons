@@ -1,0 +1,35 @@
+{
+	title: "Love Is In The Air",
+	x: -5.0d,
+	y: 7.0d,
+	description: "wait nope thats garlic",
+	text: [
+		"A basic garlic diffuser activates an effect that weakens any vampires that enter it's range."
+	],
+	dependencies: [
+		"75fa588b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f1673323",
+		type: "item",
+		items: [{
+			item: "vampirism:garlic_beacon"
+		}]
+	}],
+	rewards: [{
+		uid: "9ca73c25",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "b8ac2463",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "c1c71c6d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

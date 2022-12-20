@@ -1,0 +1,54 @@
+{
+	title: "Adept Vamprie Hunter",
+	icon: "vampirism:hunter_intel 1 2",
+	x: -3.0d,
+	y: 2.0d,
+	description: "Hunter Intel 5 - 7",
+	text: [
+		""
+	],
+	dependencies: [
+		"46fe7899"
+	],
+	tasks: [{
+		uid: "2c05f746",
+		type: "item",
+		items: [{
+			item: "vampirism:hunter_intel"
+		}]
+	},
+	{
+		uid: "ef53fea8",
+		type: "item",
+		items: [{
+			item: "vampirism:hunter_intel 1 1"
+		}]
+	},
+	{
+		uid: "1505ef60",
+		type: "item",
+		items: [{
+			item: "vampirism:hunter_intel 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "caf20348",
+		type: "choice",
+		table: 58
+	},
+	{
+		uid: "1560d994",
+		type: "random",
+		table: 12
+	},
+	{
+		uid: "4ef9e31d",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "44ff8d2e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

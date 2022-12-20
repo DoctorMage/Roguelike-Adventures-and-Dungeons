@@ -1,0 +1,31 @@
+{
+	title: "How Hexciting",
+	x: -2.0d,
+	y: -0.5d,
+	description: "the most hexciting ore you'll find",
+	text: [
+		"Hexcite is a rare and powerful ore found exclusively in caverns."
+	],
+	tasks: [{
+		uid: "52a3ed41",
+		type: "item",
+		items: [{
+			item: "cavern:cave_item 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "7e7ca9f0",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "86cd3301",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "b72b1520",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

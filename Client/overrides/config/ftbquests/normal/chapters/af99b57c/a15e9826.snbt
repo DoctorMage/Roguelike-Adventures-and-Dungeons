@@ -1,0 +1,33 @@
+{
+	title: "MINIONS!",
+	x: 0.5d,
+	y: -0.5d,
+	description: "not the yellow ones",
+	text: [
+		"Sometimes a vampire baron will summon minions to assit it.",
+		"",
+		"Show those minions they picked the wrong line of work."
+	],
+	tasks: [{
+		uid: "c8aa9fa8",
+		type: "kill",
+		icon: "harvestcraft:bananaitem",
+		entity: "vampirism:vampire_minion_s",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "def2f1f2",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "dc54a1c8",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "8d6178d4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

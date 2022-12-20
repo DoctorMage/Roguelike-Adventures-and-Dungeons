@@ -1,0 +1,37 @@
+{
+	title: "Apothecary 101",
+	x: -6.0d,
+	y: 6.0d,
+	description: "Garlic, Salt and everything holy",
+	text: [
+		"To assist you in your vampire hunting it's reccomeded to make an Alchemical Cauldron.",
+		"",
+		"This cauldron can be used to make items that weaken vampires."
+	],
+	dependencies: [
+		"90371785"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b856d2c8",
+		type: "item",
+		items: [{
+			item: "vampirism:alchemical_cauldron"
+		}]
+	}],
+	rewards: [{
+		uid: "6e126960",
+		type: "item",
+		item: "minecraft:water_bucket"
+	},
+	{
+		uid: "69410535",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "ff522a43",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

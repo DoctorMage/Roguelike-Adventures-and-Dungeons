@@ -1,0 +1,44 @@
+{
+	title: "I Baptise This Salt",
+	x: -6.0d,
+	y: 8.0d,
+	description: "extra salty with a tint of holiness",
+	text: [
+		"To obtain blessed salt either find an altar of cleansing in a church and use salt on it ",
+		"",
+		"Or find a hunter villager and trade vampire souls for some."
+	],
+	dependencies: [
+		"d2c62ec0"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a6169377",
+		type: "item",
+		items: [{
+			item: "vampirism:holy_salt"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "3c2f7098",
+		type: "item",
+		item: {
+			id: "vampirism:holy_water_bottle",
+			tag: {
+				tier: "NORMAL"
+			}
+		},
+		count: 3
+	},
+	{
+		uid: "f1f43005",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "5d9a39df",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

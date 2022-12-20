@@ -1,0 +1,38 @@
+{
+	title: "Hunter's Air Freshner",
+	x: -5.0d,
+	y: 6.0d,
+	description: "smells like febreeze",
+	text: [
+		"A good way of protecting your turf from vampires is with a garlic diffusor.",
+		"",
+		"The diffusor needs a Garlic diffusor core for it to work."
+	],
+	dependencies: [
+		"1ea3c7a2"
+	],
+	optional: true,
+	tasks: [{
+		uid: "3427ba7f",
+		type: "item",
+		items: [{
+			item: "vampirism:garlic_beacon_core"
+		}]
+	}],
+	rewards: [{
+		uid: "9a544ab8",
+		type: "item",
+		item: "vampirism:item_garlic",
+		count: 10
+	},
+	{
+		uid: "2fc991eb",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "22e60746",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

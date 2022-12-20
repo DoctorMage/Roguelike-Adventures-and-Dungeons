@@ -1,0 +1,39 @@
+{
+	title: "Mirage Tourist",
+	x: 6.0d,
+	y: -0.5d,
+	description: "did you really explore those dimensions?",
+	text: [
+		""
+	],
+	dependencies: [
+		"07873965",
+		"1519ee9a",
+		"ad018b02",
+		"8e1fafaa",
+		"a255bcdc",
+		"6766bacf",
+		"1e8ae7c1",
+		"b3ce6385"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c0910e6c",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "d7ec8113",
+		type: "choice",
+		table: 57
+	},
+	{
+		uid: "ece65003",
+		type: "xp_levels",
+		xp_levels: 100
+	},
+	{
+		uid: "aafc61a1",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

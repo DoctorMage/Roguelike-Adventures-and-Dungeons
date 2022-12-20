@@ -1,0 +1,43 @@
+{
+	title: "Hunter's Workshop",
+	x: -4.0d,
+	y: 5.0d,
+	description: "I'm an engineer",
+	text: [
+		"Crafting hunter's weapons requires a hunters workshop",
+		"",
+		"Hunter weapons deal increased damage to all types vampires"
+	],
+	dependencies: [
+		"90371785"
+	],
+	optional: true,
+	tasks: [{
+		uid: "48cd6301",
+		type: "item",
+		items: [{
+			item: "vampirism:weapon_table"
+		}]
+	}],
+	rewards: [{
+		uid: "9d12f199",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 8
+	},
+	{
+		uid: "e4d3f1c1",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "3ba91adb",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "cc8ba0a6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

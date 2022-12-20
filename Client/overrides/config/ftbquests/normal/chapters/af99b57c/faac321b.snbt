@@ -1,0 +1,48 @@
+{
+	title: "Crossbow x2",
+	x: -1.0d,
+	y: 7.0d,
+	description: "always double tap",
+	text: [
+		"Fires two crossbow shots at once."
+	],
+	dependencies: [
+		"69651f58"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f5f08d4b",
+		type: "item",
+		items: [{
+			item: "vampirism:enhanced_double_crossbow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d126223e",
+		type: "item",
+		item: {
+			id: "vampirism:crossbow_arrow",
+			tag: {
+				type: "normal"
+			}
+		},
+		count: 32
+	},
+	{
+		uid: "5e85829d",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "b54cefd0",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "8c516644",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

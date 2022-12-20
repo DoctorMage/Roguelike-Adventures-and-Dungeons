@@ -1,0 +1,79 @@
+{
+	title: "Cave Treasure",
+	x: -10.5d,
+	y: 0.5d,
+	text: [
+		"If your looking for any of the specific ore listed here.",
+		"",
+		"Normal caverns are your best bet."
+	],
+	dependencies: [
+		"9cc8a946"
+	],
+	tasks: [{
+		uid: "cf5e88e6",
+		type: "item",
+		items: [{
+			item: "subterraneanswitcheroo:coalron"
+		}],
+		count: 64L
+	},
+	{
+		uid: "3ff0a271",
+		type: "item",
+		items: [{
+			item: "subterraneanswitcheroo:redironclump"
+		}],
+		count: 64L
+	},
+	{
+		uid: "d947d704",
+		type: "item",
+		items: [{
+			item: "subterraneanswitcheroo:redgoldingot"
+		}],
+		count: 64L
+	},
+	{
+		uid: "d7e79096",
+		type: "item",
+		items: [{
+			item: "subterraneanswitcheroo:goldendiamond"
+		}],
+		count: 64L
+	},
+	{
+		uid: "b5eabcbc",
+		type: "item",
+		items: [{
+			item: "subterraneanswitcheroo:obsidianstone"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "701413bf",
+		type: "item",
+		item: "minecraft:coal_block",
+		count: 64
+	},
+	{
+		uid: "b4eb286f",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "82ef5a97",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "5b3de3b7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "6ef38fc5",
+		type: "choice",
+		table: 56
+	}]
+}

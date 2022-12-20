@@ -1,0 +1,33 @@
+{
+	title: "Cave 2",
+	x: -0.5d,
+	y: 3.0d,
+	description: "The Cavening",
+	text: [
+		""
+	],
+	dependencies: [
+		"925e4545"
+	],
+	tasks: [{
+		uid: "051df7d7",
+		type: "dimension",
+		icon: "extrautils2:decorativesolid 1 1",
+		dim: -54
+	}],
+	rewards: [{
+		uid: "14ad786a",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "c023d204",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "429971a2",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

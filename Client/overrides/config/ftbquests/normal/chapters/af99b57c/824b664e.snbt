@@ -1,0 +1,77 @@
+{
+	title: "Sacrament Of Blood",
+	x: -5.0d,
+	y: -4.5d,
+	description: "told you it wasn't a phase",
+	text: [
+		"To become an even stronger vampire you must make a Blood Ritual Altar.",
+		"",
+		"In a 5x5 area place the altar at the center and at each corner place an altar pillar 3 high ",
+		"at the pillars peakplace an altar tip.",
+		"",
+		"The pillars also require an interior support block all interior support blocks must be of the same material",
+		"",
+		"",
+		"Wait for the night then interact with the Altar and you will see the requirements to empower yourself."
+	],
+	dependencies: [
+		"d53d6c2d"
+	],
+	tasks: [{
+		uid: "1354494e",
+		type: "item",
+		items: [{
+			item: "vampirism:altar_tip"
+		}],
+		count: 4L
+	},
+	{
+		uid: "453be23c",
+		type: "item",
+		items: [{
+			item: "vampirism:altar_pillar"
+		}],
+		count: 12L
+	},
+	{
+		uid: "e2b3553a",
+		type: "item",
+		items: [{
+			item: "vampirism:altar_infusion"
+		}]
+	},
+	{
+		uid: "be0503fd",
+		type: "item",
+		items: [{
+			item: "minecraft:stonebrick"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "fc067a62",
+		type: "item",
+		item: "vampirism:human_heart",
+		count: 4
+	},
+	{
+		uid: "69f9a937",
+		type: "random",
+		table: 59
+	},
+	{
+		uid: "c2b675ca",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "386023a6",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "358b1fd0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

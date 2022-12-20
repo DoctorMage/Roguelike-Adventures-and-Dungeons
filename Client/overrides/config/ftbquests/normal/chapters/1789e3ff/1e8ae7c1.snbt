@@ -1,0 +1,33 @@
+{
+	title: "Frigid Wastelands",
+	x: 1.5d,
+	y: 1.0d,
+	description: "achooo!",
+	text: [
+		"A mirage that has felt the fury of winter from the epoch of creation."
+	],
+	dependencies: [
+		"3753293d"
+	],
+	tasks: [{
+		uid: "e6960cdd",
+		type: "dimension",
+		icon: "chisel:ice 1 11",
+		dim: -55
+	}],
+	rewards: [{
+		uid: "0fce320d",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "256dab09",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "dd7c43a5",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

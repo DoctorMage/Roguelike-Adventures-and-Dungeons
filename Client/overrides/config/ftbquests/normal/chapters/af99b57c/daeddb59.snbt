@@ -1,0 +1,25 @@
+{
+	title: "Blood Transfusion",
+	icon: "vampirism:church_altar",
+	x: -9.0d,
+	y: -1.5d,
+	description: "blood for the blood god",
+	text: [
+		"Tired of being a vampire either find an altar of cleansing in a village or craft one then activate it to become human again."
+	],
+	dependencies: [
+		"74e13f71"
+	],
+	optional: true,
+	tasks: [{
+		uid: "566aab0f",
+		type: "item",
+		items: [{
+			item: "vampirism:church_altar"
+		}]
+	},
+	{
+		uid: "0b877459",
+		type: "checkmark"
+	}]
+}

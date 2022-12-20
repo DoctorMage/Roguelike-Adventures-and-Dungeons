@@ -1,0 +1,46 @@
+{
+	title: "Crate Of Random Dragon Eggs",
+	loot_size: 1,
+	rewards: [{
+		item: "iceandfire:dragonegg_red",
+		count: 2
+	},
+	{
+		item: "iceandfire:dragonegg_green",
+		count: 2
+	},
+	{
+		item: "iceandfire:dragonegg_bronze"
+	},
+	{
+		item: "iceandfire:dragonegg_gray",
+		count: 2
+	},
+	{
+		item: "iceandfire:dragonegg_blue",
+		count: 2
+	},
+	{
+		item: "iceandfire:dragonegg_white",
+		count: 2
+	},
+	{
+		item: "iceandfire:dragonegg_sapphire",
+		count: 2
+	},
+	{
+		item: "iceandfire:dragonegg_silver",
+		count: 2
+	}],
+	loot_crate: {
+		string_id: "random_dragon_egg_duos",
+		item_name: "Random Dragon Eggs",
+		color: 7488245,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

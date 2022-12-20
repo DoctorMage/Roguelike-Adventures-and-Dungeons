@@ -1,0 +1,40 @@
+{
+	title: "Organ Harvest",
+	x: -8.0d,
+	y: -0.5d,
+	description: "skulls for the skull throne",
+	text: [
+		"You may have noticed that mobs don't infect you with vampirism.",
+		"",
+		"So that players don't get unfairly effected in the early game the effect can only be given via a quest.",
+		"",
+		"Back to text!",
+		"",
+		"Kill some vampires and hunters to harvest there drops then trade them in to activate this effect."
+	],
+	dependencies: [
+		"05835cf3"
+	],
+	tasks: [{
+		uid: "f4d15cfa",
+		type: "kill",
+		entity: "vampirism:vampire",
+		value: 6L
+	},
+	{
+		uid: "6208041a",
+		type: "kill",
+		entity: "midnight:hunter",
+		value: 3L
+	}],
+	rewards: [{
+		uid: "03cf6b91",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "64eab705",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

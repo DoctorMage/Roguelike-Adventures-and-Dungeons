@@ -1,0 +1,85 @@
+{
+	title: "Self Taught",
+	icon: "vampirism:hunter_table",
+	x: -4.0d,
+	y: 2.0d,
+	description: "I've taught you all I can",
+	text: [
+		"After reaching a certain hunterlevel basic hunters will no longer be able to train you.",
+		"",
+		"To progress further you need hunter intel which is made inside of  a Hunter Research Table.",
+		"",
+		"Hunter intel is made with vampire fangs, books, pure blood and vampire books.",
+		"",
+		"That intel can then be given to a vampire hunter trainer to further progress as a hunter."
+	],
+	dependencies: [
+		"fd81a1b8"
+	],
+	tasks: [{
+		uid: "1fda8b35",
+		type: "item",
+		items: [{
+			item: "vampirism:hunter_table"
+		}]
+	},
+	{
+		uid: "5caf5843",
+		type: "item",
+		items: [{
+			item: "vampirism:vampire_fang"
+		}],
+		count: 10L
+	},
+	{
+		uid: "0110a4be",
+		type: "item",
+		items: [{
+			item: "minecraft:book"
+		}]
+	},
+	{
+		uid: "5eee7835",
+		type: "item",
+		items: [{
+			id: "vampirism:vampire_book",
+			tag: {
+				generation: 3,
+				pages: [
+					"[\"\",{\"text\":\"Engelland\",\"bold\":true,\"italic\":true},{\"text\":\"\\nDe aldig sprekning aff de land folk aff de sud vest aff Engelland, seenens til har komen neder, met en diversning kama sneler dan da aff de ven av tragenig aff sprekning vorms, van de sprak va vor\",\"color\":\"reset\",\"italic\":true}]",
+					"{\"text\":\"forealdigrear, de folgenear aff de Seneks op letear CÃ¨rdik ent Kynrik, Stuf ent WyddgÃ¡r, brovt van de sud aff Danmark, der iland sitplats, va Kong Enylfrot kals \\\"Eenlyd Zeeksen\\\" oder Aldig Seksen, i va is nun Holstei, ent van de tri eelands Niderdstrent, Busen ent Heligoenland\",\"italic\":true}"
+				],
+				author: "Unknown",
+				display: {
+					Lore: [
+						"Old document"
+					],
+					Name: "Vampire Book"
+				},
+				title: "Engelland"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1b73bf98",
+		type: "choice",
+		table: 56
+	},
+	{
+		uid: "c8275c0c",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "892a9818",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "330ffa70",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

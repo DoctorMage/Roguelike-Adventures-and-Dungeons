@@ -22,5 +22,10 @@
 		uid: "fada1903",
 		type: "xp_levels",
 		xp_levels: 50
+	},
+	{
+		uid: "a1d2bd49",
+		type: "choice",
+		table: 57
 	}]
 }

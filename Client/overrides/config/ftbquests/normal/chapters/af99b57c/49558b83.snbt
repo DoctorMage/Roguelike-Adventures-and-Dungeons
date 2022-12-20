@@ -1,0 +1,49 @@
+{
+	title: "Blood Infusion",
+	x: -7.0d,
+	y: -2.5d,
+	description: "infusion transfursion what's the differecne",
+	text: [
+		"Before you run off and start making blood weapons it's reccomended to make a blood infuser.",
+		"",
+		"Placing the blood infuser on top of a tank containing blood will allow it to drain blood from that tank to fuel certain items."
+	],
+	dependencies: [
+		"79ece8a4"
+	],
+	tasks: [{
+		uid: "01cd3bc9",
+		type: "item",
+		items: [{
+			item: "vampirism:blood_pedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "4fe6e9f1",
+		type: "item",
+		item: {
+			id: "vampirism:blood_container",
+			tag: {
+				fluid: {
+					FluidName: "vampirismblood",
+					Amount: 12600
+				}
+			}
+		}
+	},
+	{
+		uid: "191edc5a",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "1c01dd26",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "82b05e08",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

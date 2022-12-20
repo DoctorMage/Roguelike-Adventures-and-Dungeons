@@ -1,0 +1,28 @@
+{
+	title: "Repeatable Blood Drive",
+	x: -11.5d,
+	y: -4.0d,
+	text: [
+		"If you lost it a 3rd time you get this quest and this one is repeatable ",
+		"",
+		"",
+		"",
+		"§cWARNING FOR PLAYERS ON SERVERS",
+		"",
+		"Be warned for players on a server and in a team claiming this quest will activate the vampire transformation effect on all players on the team that are currently online!"
+	],
+	can_repeat: true,
+	dependencies: [
+		"77952c7c"
+	],
+	tasks: [{
+		uid: "b216ba8c",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "929406cb",
+		type: "command",
+		command: "/effect @p vampirism:sanguinare 600"
+	}]
+}

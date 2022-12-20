@@ -2,9 +2,6 @@
 
 //#Removed recipes - Please see each mod tab
 
-//# Extra Utilities 2
-recipes.remove(<extrautils2:bagofholding>);
-
 //# Apotheosis
 recipes.remove(<apotheosis:null_book>);
 recipes.remove(<apotheosis:armor_head_book>);
@@ -17,7 +14,7 @@ recipes.remove(<apotheosis:fishing_rod_book>);
 recipes.remove(<apotheosis:bow_book>);
 recipes.remove(<apotheosis:scrap_tome>);
 
-//# Aroma
+//Aroma
 recipes.remove(<aroma1997sdimension:dimensionchanger>);
 recipes.remove(<aroma1997sdimension:miningmultitool>);
 recipes.remove(<aroma1997sdimension:portalframe>);
@@ -61,6 +58,7 @@ recipes.remove(<dungeontactics:mithril_cutlass>);
 //# ExtraUtilites 2
 recipes.remove(<extrautils2:teleporter:1>);
 recipes.remove(<extrautils2:snowglobe>);
+recipes.remove(<extrautils2:bagofholding>);
 
 //# Ice & Fire
 recipes.remove(<iceandfire:dragon_horn>);
@@ -112,6 +110,11 @@ recipes.removeByRecipeName("thaumcraft:amberblocktobrick");
 
 //# Twilight Forest
 recipes.remove(<twilightforest:uncrafting_table>);
+
+//# Vampires Need Umbrellas
+recipes.remove(<vampiresneedumbrellas:iron_umbrella_rod>);
+recipes.remove(<vampiresneedumbrellas:gold_umbrella_rod>);
+recipes.remove(<vampiresneedumbrellas:diamond_umbrella_rod>);
 
 //# Waystones
 recipes.remove(<waystones:waystone>);

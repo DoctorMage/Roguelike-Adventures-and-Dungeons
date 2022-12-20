@@ -1,0 +1,41 @@
+{
+	title: "Castle Decor",
+	loot_size: 5,
+	rewards: [{
+		item: "rustic:chandelier_gold",
+		count: 8
+	},
+	{
+		item: "rustic:candle_gold",
+		count: 16
+	},
+	{
+		item: "rustic:chair_oak",
+		count: 4
+	},
+	{
+		item: "rustic:table_oak",
+		count: 16
+	},
+	{
+		item: {
+			id: "vampirism:blood_container",
+			tag: {
+				fluid: {
+					FluidName: "vampirismblood",
+					Amount: 12600
+				}
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "castle_decor",
+		item_name: "Castle Decor",
+		color: 16711680,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

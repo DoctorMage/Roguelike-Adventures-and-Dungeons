@@ -1,0 +1,18 @@
+{
+	title: "The 10th Dentist",
+	x: -9.0d,
+	y: -3.5d,
+	description: "there's a reason no one respects his opinions",
+	text: [
+		"After becoming a vampire your appearance will partially change if you dont like how you face looks you can change it's apperance with",
+		"",
+		"/vampirism fang"
+	],
+	dependencies: [
+		"79ece8a4"
+	],
+	tasks: [{
+		uid: "e0b5c879",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Dead Tired",
+	x: -9.0d,
+	y: -4.5d,
+	description: "don't let the coffin bugs bite",
+	text: [
+		"As a vampire your much weaker in the sun to avoid the red overlord you can skip to night by sleeping inside a coffin."
+	],
+	dependencies: [
+		"79ece8a4"
+	],
+	tasks: [{
+		uid: "f03fcc2a",
+		type: "item",
+		items: [{
+			item: "vampirism:item_coffin"
+		}]
+	}],
+	rewards: [{
+		uid: "2e91489d",
+		type: "item",
+		item: "vampirism:blood_bottle 1 9",
+		count: 3
+	},
+	{
+		uid: "0f6d1aee",
+		type: "loot",
+		table: 8
+	},
+	{
+		uid: "24103075",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "b2608e00",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

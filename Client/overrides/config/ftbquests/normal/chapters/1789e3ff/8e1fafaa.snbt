@@ -1,0 +1,35 @@
+{
+	title: "The Endless Sahara",
+	x: 1.5d,
+	y: 0.0d,
+	description: "it's coarse it's rough",
+	text: [
+		"If you the one person in the world that likes living in deserts or exploring them.",
+		"",
+		"This mirage is just for you named the wide desert this mirage is nothing but deserts as far as the eye can see."
+	],
+	dependencies: [
+		"fd80d1c4"
+	],
+	tasks: [{
+		uid: "8b94ec5c",
+		type: "dimension",
+		icon: "chisel:sandstone-scribbles 1 11",
+		dim: -56
+	}],
+	rewards: [{
+		uid: "0beaeb6d",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "130f01c6",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "9bcb0dd3",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

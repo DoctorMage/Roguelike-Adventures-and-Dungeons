@@ -1,0 +1,40 @@
+{
+	title: "Strike 3",
+	icon: "vampirism:injection 1 2",
+	x: -11.5d,
+	y: -2.5d,
+	text: [
+		"In case you ended up dying twice while undergoing vampiric transformation.",
+		"",
+		"Here's your third chance don't mess it up."
+	],
+	dependencies: [
+		"74e13f71"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "2001d633",
+		type: "item",
+		items: [{
+			item: "vampirism:vampire_fang"
+		}],
+		count: 4L,
+		consume_items: true
+	},
+	{
+		uid: "dbbc25bb",
+		type: "item",
+		items: [{
+			item: "vampirism:human_heart"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a6bcc994",
+		type: "command",
+		icon: "vampirism:injection 1 2",
+		team_reward: true,
+		command: "/effect @p vampirism:sanguinare 600"
+	}]
+}

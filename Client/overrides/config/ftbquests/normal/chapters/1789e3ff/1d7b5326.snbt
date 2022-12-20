@@ -1,0 +1,69 @@
+{
+	title: "Dwarf Likey",
+	x: -7.5d,
+	y: -1.5d,
+	description: "metals what more could a dwarf need",
+	text: [
+		"Copper, Tin, Lead, Silver , Nickle in nearly every wall and floor is this dwarf heaven?",
+		"",
+		"Yes Yes it is!"
+	],
+	dependencies: [
+		"0351335f"
+	],
+	tasks: [{
+		uid: "dba606dc",
+		type: "item",
+		items: [{
+			item: "embers:ingot_copper"
+		}],
+		count: 64L
+	},
+	{
+		uid: "6e0edfc8",
+		type: "item",
+		items: [{
+			item: "embers:ingot_tin"
+		}],
+		count: 64L
+	},
+	{
+		uid: "f2d8e8e9",
+		type: "item",
+		items: [{
+			item: "embers:ingot_lead"
+		}],
+		count: 64L
+	},
+	{
+		uid: "0511615c",
+		type: "item",
+		items: [{
+			item: "embers:ingot_nickel"
+		}],
+		count: 64L
+	},
+	{
+		uid: "effba0b4",
+		type: "item",
+		items: [{
+			item: "embers:ingot_silver"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "fb9481d2",
+		type: "random",
+		table: 12
+	},
+	{
+		uid: "6c31fe55",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "ac4e9f7f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

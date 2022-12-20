@@ -1,0 +1,35 @@
+{
+	title: "Blood Sucking Fiend",
+	x: -4.5d,
+	y: 3.0d,
+	description: "hope your matching blood types",
+	text: [
+		"Creatures of the night vampires tend to avoid the sun their native land typically being black forest.",
+		"",
+		"Find some and kill them try landing a killing blow with a stake to get their blood."
+	],
+	dependencies: [
+		"679444c3"
+	],
+	tasks: [{
+		uid: "448dd326",
+		type: "kill",
+		entity: "vampirism:vampire",
+		value: 30L
+	}],
+	rewards: [{
+		uid: "853e0a16",
+		type: "choice",
+		table: 58
+	},
+	{
+		uid: "c8fac92d",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "048a7eb0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

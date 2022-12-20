@@ -1,0 +1,48 @@
+{
+	title: "The Land Of Rock And Stone",
+	x: -11.5d,
+	y: -0.5d,
+	description: "Can I get a ROCK AND STONE",
+	text: [
+		"Tired of going caving in the overworld and strip mining for hours just to get 2 diamonds?",
+		"",
+		"Introducing a dwarf's best friend in the form of a dimension the caverns.",
+		"",
+		"By making a portal in the same shape as a nether portal and igniting it with an emerald you can access the most basic form of caverns."
+	],
+	tasks: [{
+		uid: "020ab970",
+		type: "item",
+		items: [{
+			item: "minecraft:emerald"
+		}]
+	},
+	{
+		uid: "c0b07bf5",
+		type: "item",
+		items: [{
+			item: "minecraft:mossy_cobblestone"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "11a2b2c2",
+		type: "item",
+		item: "minecraft:diamond_pickaxe"
+	},
+	{
+		uid: "f62a1850",
+		type: "loot",
+		table: 8
+	},
+	{
+		uid: "2010d1ce",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "ae5c4283",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

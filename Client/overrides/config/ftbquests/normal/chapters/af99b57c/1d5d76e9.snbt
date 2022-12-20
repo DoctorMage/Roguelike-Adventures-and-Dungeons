@@ -1,0 +1,33 @@
+{
+	title: "Vampire Killer Arrow",
+	x: 0.5d,
+	y: 5.0d,
+	description: "this one requires a closed casket",
+	text: [
+		"Instantly kills low level vampire npcs."
+	],
+	dependencies: [
+		"d3aa3b0c"
+	],
+	optional: true,
+	tasks: [{
+		uid: "cefaa940",
+		type: "item",
+		items: [{
+			id: "vampirism:crossbow_arrow",
+			tag: {
+				type: "vampire_killer"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c49c1908",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "f2e9a26f",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	}]
+}

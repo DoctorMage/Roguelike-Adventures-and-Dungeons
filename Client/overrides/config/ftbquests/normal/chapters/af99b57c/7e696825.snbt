@@ -1,0 +1,44 @@
+{
+	title: "Scarlet Forged Metal",
+	x: -5.0d,
+	y: -0.5d,
+	description: "A healthy amount of iron  in your blood",
+	text: [
+		"To craft the highest level of vampiric weapons you need max level pure blood.",
+		"",
+		"This blood is dropped by level 5 vampire barons."
+	],
+	dependencies: [
+		"90a84a0f",
+		"0deb3d24"
+	],
+	tasks: [{
+		uid: "e330ba26",
+		type: "item",
+		items: [{
+			item: "vampirism:blood_infused_enhanced_iron_ingot"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "256caa8e",
+		type: "item",
+		item: "vampirism:human_heart",
+		count: 16
+	},
+	{
+		uid: "beed4dc4",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "b1d4503d",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "ab30fb2f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}
