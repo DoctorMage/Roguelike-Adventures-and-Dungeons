@@ -4,7 +4,7 @@
 	y: 4.0d,
 	description: "the vampire's forest??",
 	text: [
-		"The native biome of vampires it can be identified by it's pitch black trees, dense fog and vampires obviously"
+		"The native biome of vampires it can be identified by it's pitch black trees, dense fog and vampires obviously."
 	],
 	dependencies: [
 		"6d6592b1"
