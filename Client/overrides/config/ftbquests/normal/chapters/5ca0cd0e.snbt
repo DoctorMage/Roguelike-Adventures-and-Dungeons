@@ -1,0 +1,49 @@
+{
+	title: "The Shimmering Depths",
+	x: -4.5d,
+	y: -0.5d,
+	description: "leave my shinies alone",
+	text: [
+		"The aqua caverns are the final level of basic caverns unlocked by reacing gold miner rank.",
+		"",
+		"Filled to the brim with squids and gems this dimension is perfect for any wizards looking to improve there arsenal."
+	],
+	dependencies: [
+		"4b4ab3c6"
+	],
+	tasks: [{
+		uid: "8155bf25",
+		type: "dimension",
+		icon: "cavern:aqua_cavern_portal",
+		dim: -52
+	}],
+	rewards: [{
+		uid: "9247debd",
+		type: "item",
+		item: {
+			id: "minecraft:diamond_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 35
+				}],
+				Quality: {}
+			}
+		}
+	},
+	{
+		uid: "c0756d89",
+		type: "random",
+		table: 19
+	},
+	{
+		uid: "a1e6dddf",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "df273361",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}
