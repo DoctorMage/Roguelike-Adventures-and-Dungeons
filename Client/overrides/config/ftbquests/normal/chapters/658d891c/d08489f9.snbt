@@ -1,0 +1,26 @@
+{
+	title: "Forged In Blood & Steel",
+	x: 14.0d,
+	y: -1.0d,
+	description: "I craved the strength and certainty of steel",
+	text: [
+		"A dragonforge is a 3x3 multiblock structure used in the creation of dragonsteel.",
+		"",
+		"It consist of 3 layers and 4 different blocks dragonbone blocks, dragonforge bricks,d ragon aperture and a dragonforge core.",
+		"",
+		"The top and bottom layers should be a plus shape of dragonforge bricks with bone blocks in each corner.",
+		"",
+		"The middle layer has a U shape of dragonforge bricks and with the center being a dragon forge core and infront of it an aperture."
+	],
+	dependencies: [
+		"55077529",
+		"4225ed86"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "225febf9",
+		type: "checkmark",
+		icon: "iceandfire:dragonforge_ice_core"
+	}]
+}
