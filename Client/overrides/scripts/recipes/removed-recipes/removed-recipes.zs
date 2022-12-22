@@ -108,6 +108,11 @@ recipes.remove(<xreliquary:infernal_tear>);
 recipes.removeByRecipeName("thaumcraft:amberblocktoamber");
 recipes.removeByRecipeName("thaumcraft:amberblocktobrick");
 
+//# Thaumic Wonders
+recipes.remove(<thaumicwonders:void_fortress_helm>);
+recipes.remove(<thaumicwonders:void_fortress_chest>);
+recipes.remove(<thaumicwonders:void_fortress_legs>);
+
 //# Twilight Forest
 recipes.remove(<twilightforest:uncrafting_table>);
 
