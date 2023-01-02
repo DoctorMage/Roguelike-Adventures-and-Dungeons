@@ -4,7 +4,7 @@
 	y: -10.0d,
 	description: "Kinda like Lucifer.",
 	text: [
-		"Obtain an Angelic Feather from the Shop."
+		"Obtain an Angelic Feather via crafting."
 	],
 	tasks: [{
 		uid: "56066b0d",
