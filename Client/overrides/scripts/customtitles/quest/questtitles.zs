@@ -4,7 +4,7 @@ game.setLocalization("title.titles.the_zeroonepercent", "§6§lThe 0.1 Percent")
 game.setLocalization("title.titles.the_aeronaught", "§3The Aeronaught");
 game.setLocalization("title.titles.the_thaumaddict", "§l§5The Master Of Eldritch Knowledge");
 game.setLocalization("title.titles.the_armsmaster", "§4Spartan Arms Accumulator");
-game.setLocalization("title.titles.the_rainbow", "§c§lT§6§lH§e§lE §2§lR§a§lA§9§lI§3§lN§b§lB§5§lO§d§lW");
+game.setLocalization("title.titles.the_rainbow", "§c§lT§6§lH§e§lE §a§lR§2§lA§3§lI§b§lN§9§lB§5§lO§d§lW");
 game.setLocalization("title.titles.the_scribe", "§4§lThe §4§lHell §4§lScribe");
 game.setLocalization("title.titles.the_edgelord", "§0§lThe §4§lEdge§0§l§mlord");
 game.setLocalization("title.titles.the_colonel", "§fT§ch§fe §cCo§flo§cnel");
@@ -19,6 +19,6 @@ game.setLocalization("title.titles.the_exptank", "§a§lThe §2§lOne §a§lWho 
 game.setLocalization("title.titles.the_carnivore", "§4The Carnivore");
 game.setLocalization("title.titles.the_insane", "§8§lThe Utterly §8§k§lInsane §8§l§nCobblestone Hoarder");
 game.setLocalization("title.titles.the_lorax", "§2§l§nThe Greatest Tree Feller To Desecrate The Land");
-game.setLocalization("title.titles.the_oceanman", "§9§lThe §3§l§kGenocidal  §3§lMarine Biologist");
+game.setLocalization("title.titles.the_oceanman", "§9§lThe §3§l§kGenocidal §3§lMarine Biologist");
 game.setLocalization("title.titles.the_limbo", "§8§lReborn From The Nothingness");
 game.setLocalization("title.titles.the_headcase", "§4§lThe Indiscriminate Head Collector");
