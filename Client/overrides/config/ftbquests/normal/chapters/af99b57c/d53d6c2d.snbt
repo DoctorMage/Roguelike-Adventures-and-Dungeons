@@ -2,9 +2,9 @@
 	title: "The New Blood",
 	x: -5.0d,
 	y: -3.5d,
-	description: "it's not a phase mom!!",
+	description: "It's not a phase Mom!!",
 	text: [
-		"As a new blood vampire to become stronger you need to some inpsiration.",
+		"For a new blood vampire to become stronger you'll need some inspiration.",
 		"",
 		"Place down an inspiration altar and start getting inspiried.",
 		"",

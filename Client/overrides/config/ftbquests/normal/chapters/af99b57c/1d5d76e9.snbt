@@ -2,7 +2,7 @@
 	title: "Vampire Killer Arrow",
 	x: 0.5d,
 	y: 5.0d,
-	description: "this one requires a closed casket",
+	description: "This one requires a closed casket",
 	text: [
 		"Instantly kills low level vampire npcs."
 	],

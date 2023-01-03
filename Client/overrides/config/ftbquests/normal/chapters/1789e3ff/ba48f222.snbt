@@ -2,9 +2,9 @@
 	title: "Buried Magic",
 	x: -6.5d,
 	y: 0.5d,
-	description: "even cavemen can do magic",
+	description: "Even cavemen can do magic",
 	text: [
-		"Rarely caverns mobs will drop magic books each with there own use and utility."
+		"Rarely caverns mobs will drop magic books each with their own use and utility."
 	],
 	dependencies: [
 		"03bde728"

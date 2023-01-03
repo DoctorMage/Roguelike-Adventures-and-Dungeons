@@ -1,12 +1,12 @@
 {
-	title: "Your A Dwarf Harry",
+	title: "Your a Dwarf Harry",
 	x: -4.5d,
 	y: -1.5d,
-	description: "the ocean is a magical place",
+	description: "The ocean is a magical place",
 	text: [
 		"Aqua caverns contain an abudance of wizardy ores.",
 		"",
-		"Making it the ideal caverns for any wizard novice or master."
+		"Thus making it the ideal caverns for any wizard; novice or master."
 	],
 	dependencies: [
 		"5ca0cd0e"

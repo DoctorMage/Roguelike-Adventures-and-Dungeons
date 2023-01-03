@@ -2,11 +2,11 @@
 	title: "Dwarf Likey",
 	x: -7.5d,
 	y: -1.5d,
-	description: "metals what more could a dwarf need",
+	description: "Metals. What more could a dwarf need?",
 	text: [
-		"Copper, Tin, Lead, Silver , Nickle in nearly every wall and floor is this dwarf heaven?",
+		"Copper, Tin, Lead, Silver, and Nickle in nearly every wall and floor is this dwarf heaven?",
 		"",
-		"Yes Yes it is!"
+		"Yes, yes it is!"
 	],
 	dependencies: [
 		"0351335f"

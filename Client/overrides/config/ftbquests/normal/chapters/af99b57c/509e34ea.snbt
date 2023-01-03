@@ -2,7 +2,7 @@
 	title: "Cross Your Heart",
 	x: -3.5d,
 	y: 3.0d,
-	description: "these guys dont fear crosses",
+	description: "These guys don't fear crosses",
 	text: [
 		"Advanced vampires are stronger than regular vampires."
 	],

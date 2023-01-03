@@ -2,9 +2,9 @@
 	title: "Can I Axe You A Question!?",
 	x: -4.0d,
 	y: 7.0d,
-	description: "here's johnny!",
+	description: "Here's johnny!",
 	text: [
-		"A stake will not be enough to deal with stronger vampires for those that prefer  melee you can craft a hunter's axe."
+		"A stake will not be enough to deal with stronger vampires. For those that prefer melee, you can craft a hunter's axe."
 	],
 	dependencies: [
 		"7b483180"

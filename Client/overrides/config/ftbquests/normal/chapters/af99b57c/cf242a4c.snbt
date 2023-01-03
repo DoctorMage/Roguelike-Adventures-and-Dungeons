@@ -1,10 +1,10 @@
 {
-	title: "Vampire's blade",
+	title: "Vampire's Blade",
 	x: -6.0d,
 	y: -0.5d,
 	description: "STAB AND IMPALE UNTIL IT IS DONE",
 	text: [
-		"As a vampire the most efficient weapons you can use are either a heatseeker or heartstriker.",
+		"As a vampire, the most efficient weapons you can use are either a heatseeker or heartstriker.",
 		"",
 		"To use them to their full potential they must be charged with blood. ",
 		"",

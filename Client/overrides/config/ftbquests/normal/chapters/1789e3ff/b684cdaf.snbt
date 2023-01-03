@@ -2,9 +2,9 @@
 	title: "A Ladies Better Friends",
 	x: -4.5d,
 	y: 0.5d,
-	description: "diamonds are overrated",
+	description: "Diamonds are overrated",
 	text: [
-		"If you ever feel useless remeber these gems all exist but don't worry.",
+		"If you ever feel useless remember these gems all exist but don't worry.",
 		"",
 		"Complete this quest by getting a bunch of them so they have some use."
 	],

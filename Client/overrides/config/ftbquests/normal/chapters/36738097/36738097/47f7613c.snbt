@@ -1,0 +1,23 @@
+{
+	title: "The Master Of Eldritch Knowledge",
+	x: -5.5d,
+	y: 3.0d,
+	description: "I hope you've been checking your warp",
+	text: [
+		"I got corrupted and all I have to show is a stupid title!"
+	],
+	dependencies: [
+		"aa162004"
+	],
+	tasks: [{
+		uid: "5bd3a6de",
+		type: "checkmark",
+		icon: "thaumcraft:curio 1 6"
+	}],
+	rewards: [{
+		uid: "b817ac83",
+		type: "command",
+		team_reward: false,
+		command: "/titles add @p titles:the_thaumaddict"
+	}]
+}

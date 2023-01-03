@@ -1,0 +1,45 @@
+{
+	title: "Title name redacted",
+	x: -3.5d,
+	y: 0.0d,
+	description: "Honestly don't even attempt at this quest please",
+	text: [
+		"I have one question for the sun god WHY!! would you do this to yourself it's not even worth the title."
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "0457fd13",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 1 7"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "1b61d222",
+		type: "item",
+		team_reward: false,
+		item: {
+			id: "minecraft:written_book",
+			tag: {
+				generation: 3,
+				pages: [
+					"{\"text\":\"Enjoy your title\"}"
+				],
+				author: "Redacted",
+				title: "...."
+			}
+		}
+	},
+	{
+		uid: "3a3378c7",
+		type: "xp_levels",
+		xp_levels: 1000
+	},
+	{
+		uid: "90af4792",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	}]
+}

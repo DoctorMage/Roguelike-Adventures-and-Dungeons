@@ -1,8 +1,8 @@
 {
-	title: "Pass The Salt",
+	title: "Pass the Salt",
 	x: -6.0d,
 	y: 7.0d,
-	description: "not for undead consumption",
+	description: "Not for undead consumption",
 	text: [
 		"Salt is used for making blessed salt which is required for holy water.",
 		"",

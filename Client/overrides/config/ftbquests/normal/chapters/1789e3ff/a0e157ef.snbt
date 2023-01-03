@@ -3,7 +3,7 @@
 	x: -8.5d,
 	y: -0.5d,
 	text: [
-		"To gain access to the second tier of basic caverns click on the same type of portal frame but instead of emerald use a diamond."
+		"To gain access to the second tier of basic caverns, click on the same type of portal frame with a diamond instead of an emerald."
 	],
 	dependencies: [
 		"3f373494"

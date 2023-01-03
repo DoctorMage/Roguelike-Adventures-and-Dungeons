@@ -2,9 +2,9 @@
 	title: "Ore Hunting 101",
 	x: -5.5d,
 	y: -1.5d,
-	description: "it's like xray but less cheating",
+	description: "Its like x-ray but less cheating",
 	text: [
-		"The rarest cave treasure are miner's orbs if you get enough you can make an ore compass."
+		"The rarest cave treasure are miner's orbs. If you get enough, then you can make an ore compass."
 	],
 	tasks: [{
 		uid: "1dd4bf54",

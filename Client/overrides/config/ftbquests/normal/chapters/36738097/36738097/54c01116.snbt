@@ -1,0 +1,353 @@
+{
+	title: "Oceanman",
+	x: 0.5d,
+	y: -1.0d,
+	description: "Take me by the hand",
+	text: [
+		"Lead me to the land that you understand!",
+		"",
+		"(Complete this quest to find out why its optional)."
+	],
+	optional: true,
+	tasks: [{
+		uid: "230cc64b",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 30"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "3af4fa3d",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 31"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "1c1a4557",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 33"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "fcb5225d",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 34"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "e26b5771",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 35"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "8ac3bd83",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 36"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "0902cd29",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 37"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "c4de3b12",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 38"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "2a738b81",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 3"
+		}],
+		count: 64L,
+		consume_items: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "19dd19ba",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 4"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "c164bcd4",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 5"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "16ff061f",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 6"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "2c33b5bf",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 7"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "4ef8286f",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 8"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "5bb26f73",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 9"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "89de42f7",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 10"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "7d5f0994",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 11"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "2624eb10",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 12"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "b250b2f8",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 13"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "066bb593",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 14"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "fa3e4c57",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 15"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "6b02d793",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 16"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "060c3d15",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 17"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "68a63773",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 18"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "f4661fb8",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 19"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "19bcc4e7",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 20"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "9c32c113",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 21"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "7e9ca3c6",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 22"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "1af587b3",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 23"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "759889e7",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 24"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "b9ceb6ff",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 25"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "d2d7c256",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 26"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "fa86f8ac",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 27"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "dc5bdf96",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 28"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "16971595",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 29"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "62f38b85",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 32"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "5520851f",
+		type: "command",
+		team_reward: false,
+		command: "/titles add @p titles:the_oceanman"
+	},
+	{
+		uid: "a16e45ce",
+		type: "xp_levels",
+		xp_levels: 7500
+	},
+	{
+		uid: "302b39f6",
+		type: "ftbmoney:money",
+		ftb_money: 7500L
+	}]
+}

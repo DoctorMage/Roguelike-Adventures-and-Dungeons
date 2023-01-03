@@ -2,9 +2,9 @@
 	title: "Master Miner",
 	x: -6.5d,
 	y: -1.5d,
-	description: "now your a real dwarf",
+	description: "Now you're a real dwarf",
 	text: [
-		"The highest of high you can now consider yourself overlord of the caverns you showed those ores whose boss."
+		"The highest of high you can now consider yourself. Overlord of the caverns, you showed those ores whose boss."
 	],
 	dependencies: [
 		"30651e46"

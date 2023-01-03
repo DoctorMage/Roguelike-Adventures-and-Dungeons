@@ -2,9 +2,9 @@
 	title: "Expert Miner",
 	x: -6.5d,
 	y: -0.5d,
-	description: "all that glitter",
+	description: "All that glitter",
 	text: [
-		"To gain acess to the final type of basic caverns you need to reach a rank of Gold Miner."
+		"To gain acess to the final type of basic caverns, you need to reach a rank of Gold Miner."
 	],
 	dependencies: [
 		"0351335f"

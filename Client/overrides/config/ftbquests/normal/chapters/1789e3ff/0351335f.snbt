@@ -2,11 +2,11 @@
 	title: "The Biggest Cave",
 	x: -7.5d,
 	y: -0.5d,
-	description: "echo echo echo echo echo",
+	description: "Echo echo echo echo echo",
 	text: [
-		"If you like metals then huge caverns are the place for you.",
+		"If you like metals, then huge caverns are the place for you.",
 		"",
-		"Like the name implies this dimension is a massive cave with ores scattered all acroos its depths."
+		"Like the name implies, this dimension is a massive cave with ores scattered all across it's depths."
 	],
 	dependencies: [
 		"a0e157ef"

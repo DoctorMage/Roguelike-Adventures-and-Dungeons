@@ -2,7 +2,7 @@
 	title: "Mirage Tourist",
 	x: 6.0d,
 	y: -0.5d,
-	description: "did you really explore those dimensions?",
+	description: "Did you really explore those dimensions?",
 	text: [
 		""
 	],

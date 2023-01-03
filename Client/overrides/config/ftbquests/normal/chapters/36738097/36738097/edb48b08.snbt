@@ -1,0 +1,69 @@
+{
+	title: "The Carnivore",
+	x: -1.5d,
+	y: 6.0d,
+	description: "Looks like meat's back on the menu boys",
+	text: [
+		"I hope your able to live with the guilt of all those innocent animals your murdered weighing on your conscious."
+	],
+	tasks: [{
+		uid: "4c1cea85",
+		type: "item",
+		items: [{
+			item: "skewers:skewer_beef_cooked"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "31ec12b2",
+		type: "item",
+		items: [{
+			item: "skewers:skewer_mutton_cooked"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "66778b79",
+		type: "item",
+		items: [{
+			item: "skewers:skewer_porkchop_cooked"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "e14fd1a9",
+		type: "item",
+		items: [{
+			item: "skewers:skewer_chicken_cooked"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "e9dda32a",
+		type: "item",
+		items: [{
+			item: "skewers:skewer_rabbit_cooked"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "84d0fde9",
+		type: "command",
+		command: "/titles add @p titles:the_carnivore"
+	},
+	{
+		uid: "4f0a6c73",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "5face7e4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -5,7 +5,7 @@
 	text: [
 		"The best way of getting human hearts as a vampire is killing hunters",
 		"",
-		"You can find there camps randomly around the world kill some to get hearts."
+		"You can find their camps randomly around the world. Kill some humans to get hearts."
 	],
 	dependencies: [
 		"1840a7f1"

@@ -3,9 +3,9 @@
 	x: -10.5d,
 	y: 0.5d,
 	text: [
-		"If your looking for any of the specific ore listed here.",
+		"If you're looking for any of the specific ore listed here,",
 		"",
-		"Normal caverns are your best bet."
+		"then the normal caverns are your best bet."
 	],
 	dependencies: [
 		"9cc8a946"

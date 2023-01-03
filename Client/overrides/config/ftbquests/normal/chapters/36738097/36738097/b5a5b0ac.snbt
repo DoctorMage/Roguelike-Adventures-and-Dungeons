@@ -1,0 +1,23 @@
+{
+	title: "Return Title",
+	x: -0.5d,
+	y: 2.0d,
+	description: "Return title",
+	text: [
+		"Returns title if you end up losing it."
+	],
+	can_repeat: true,
+	dependencies: [
+		"d24d836e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b2682ec8",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "e10a8acf",
+		type: "command",
+		command: "/titles add @p titles:the_weezersuperfan"
+	}]
+}

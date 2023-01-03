@@ -1,9 +1,9 @@
 {
-	title: "Wayfinder Of The Void",
+	title: "Wayfinder of the Void",
 	x: -7.5d,
 	y: 4.0d,
 	text: [
-		"Enter the void and live to tell the tale"
+		"Enter the Void and live to tell the tale."
 	],
 	tasks: [{
 		uid: "b73da9e6",

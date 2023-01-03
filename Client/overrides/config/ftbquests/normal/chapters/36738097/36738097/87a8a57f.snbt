@@ -1,0 +1,25 @@
+{
+	title: "Something's Fishy",
+	x: 1.5d,
+	y: -1.0d,
+	description: "Wow",
+	text: [
+		"Wow you actually did it and if your seeing this quest you know why its optional :).",
+		"",
+		"No title is worth the torture of this quest same with the rewards."
+	],
+	can_repeat: true,
+	dependencies: [
+		"54c01116"
+	],
+	hide: true,
+	tasks: [{
+		uid: "844dab88",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "b87bfac8",
+		type: "command",
+		command: "/titles add @p titles:the_oceanman"
+	}]
+}

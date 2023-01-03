@@ -3,7 +3,7 @@
 	icon: "vampirism:church_altar",
 	x: -9.0d,
 	y: -1.5d,
-	description: "blood for the blood god",
+	description: "Blood for the blood god",
 	text: [
 		"Tired of being a vampire either find an altar of cleansing in a village or craft one then activate it to become human again."
 	],

@@ -1,0 +1,23 @@
+{
+	title: "Return Title",
+	x: -6.5d,
+	y: 3.0d,
+	description: "Return title",
+	text: [
+		"Returns title if you end up losing it."
+	],
+	can_repeat: true,
+	dependencies: [
+		"47f7613c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b691417a",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "a665cd0c",
+		type: "command",
+		command: "/titles add @p titles:the_thaumaddict"
+	}]
+}

@@ -2,9 +2,9 @@
 	title: "Dead Tired",
 	x: -9.0d,
 	y: -4.5d,
-	description: "don't let the coffin bugs bite",
+	description: "Don't let the coffin bugs bite",
 	text: [
-		"As a vampire your much weaker in the sun to avoid the red overlord you can skip to night by sleeping inside a coffin."
+		"As a vampire, you're much weaker in the sun. To avoid the red overlord, you can skip to night by sleeping inside a coffin."
 	],
 	dependencies: [
 		"79ece8a4"

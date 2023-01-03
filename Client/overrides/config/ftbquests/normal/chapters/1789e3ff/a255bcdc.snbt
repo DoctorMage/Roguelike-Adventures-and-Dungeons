@@ -4,7 +4,9 @@
 	y: 3.0d,
 	description: "The Cavening",
 	text: [
-		""
+		"Looks like an average cave.",
+		"",
+		"Perhaps there is something this cave is hiding."
 	],
 	dependencies: [
 		"925e4545"

@@ -2,10 +2,9 @@
 	title: "Vampiric Drip",
 	x: -6.0d,
 	y: -2.5d,
-	description: "let me brood in peace",
+	description: "Let me brood in peace",
 	text: [
-		"The final part of becoming a real vampire is having a cloak so you can ",
-		"always look mysterious."
+		"The final part of becoming a real vampire is having a cloak so you can always look mysterious."
 	],
 	dependencies: [
 		"90a84a0f"

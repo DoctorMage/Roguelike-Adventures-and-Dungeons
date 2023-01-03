@@ -2,9 +2,9 @@
 	title: "Scarlet Forged Metal",
 	x: -5.0d,
 	y: -0.5d,
-	description: "A healthy amount of iron  in your blood",
+	description: "A healthy amount of iron in your blood",
 	text: [
-		"To craft the highest level of vampiric weapons you need max level pure blood.",
+		"To craft the highest level of vampiric weapons, you need max level pure blood.",
 		"",
 		"This blood is dropped by level 5 vampire barons."
 	],

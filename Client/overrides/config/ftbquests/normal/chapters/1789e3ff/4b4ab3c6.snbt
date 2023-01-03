@@ -3,13 +3,13 @@
 	icon: "cavern:cave_item",
 	x: -5.5d,
 	y: -0.5d,
-	description: "hope you can swim",
+	description: "Hope you can swim",
 	text: [
 		"The aqua caverns are the final tier of basic caverns.",
 		"",
-		"The twist of this caverns is that it's completely flooded from top to bottom.",
+		"The twist of this cavern is that its completely flooded from top to bottom.",
 		"",
-		"To enter just make the same portal as you did before and ignite it with aquamarine."
+		"To enter, just make the same portal as you did before and ignite it with aquamarine."
 	],
 	dependencies: [
 		"30651e46"

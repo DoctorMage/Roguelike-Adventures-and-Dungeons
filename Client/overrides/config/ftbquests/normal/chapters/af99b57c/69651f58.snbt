@@ -2,9 +2,9 @@
 	title: "Hey Daryl",
 	x: -2.5d,
 	y: 5.0d,
-	description: "shot through the heart you give love a bad name",
+	description: "Shot through the heart you give love a bad name",
 	text: [
-		"A stake will not be enough to deal with stronger vampires for those that prefer range you can craft a crossbow .",
+		"A stake will not be enough to deal with stronger vampires. For those that prefer range, you can craft a crossbow .",
 		"",
 		"(Crossbows do not use bolts or regular arrows as ammo)"
 	],

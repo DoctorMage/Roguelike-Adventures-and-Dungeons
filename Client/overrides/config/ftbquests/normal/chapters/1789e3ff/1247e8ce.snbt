@@ -1,5 +1,5 @@
 {
-	title: "Someone's watching me",
+	title: "Someone's Watching Me",
 	icon: {
 		id: "openblocks:trophy",
 		tag: {
@@ -11,9 +11,9 @@
 	y: -0.5d,
 	description: "I'm just an average dwaf with an average pickaxe",
 	text: [
-		"They see you when your mining.",
+		"They see you when you're mining.",
 		"",
-		"Becareful of the shimmering mines one eyed guardians."
+		"Be careful of the shimmering mines one eyed guardians."
 	],
 	dependencies: [
 		"5ca0cd0e"

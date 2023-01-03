@@ -1,5 +1,5 @@
 {
-	title: "Return Title",
+	title: "§3§lThe Weezer Super Fan",
 	x: -0.5d,
 	y: 2.0d,
 	description: "Return title",
@@ -18,6 +18,7 @@
 	rewards: [{
 		uid: "e10a8acf",
 		type: "command",
+		title: "&3&lThe Weezer Super Fan",
 		command: "/titles add @p titles:the_weezersuperfan"
 	}]
 }

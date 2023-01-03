@@ -4,7 +4,8 @@
 	x: -7.0d,
 	y: 3.0d,
 	text: [
-		"Tired of being a hunter craft a sanguine injection and inject yourself with it to become normal again."
+		"Tired of being a hunter?",
+		"Craft a sanguine injection and inject yourself with it to become normal again."
 	],
 	dependencies: [
 		"90371785"

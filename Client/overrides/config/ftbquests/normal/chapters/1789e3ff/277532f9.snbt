@@ -2,9 +2,9 @@
 	title: "Hecixting Arsenal",
 	x: -2.0d,
 	y: -2.0d,
-	description: "the most pristine gizmos",
+	description: "The most pristine gizmos",
 	text: [
-		""
+		"Obtain all Hexite tools."
 	],
 	dependencies: [
 		"a16bb0cb"

@@ -1,8 +1,8 @@
 {
-	title: "Love Is In The Air",
+	title: "Love Is in the Air",
 	x: -5.0d,
 	y: 7.0d,
-	description: "wait nope thats garlic",
+	description: "Wait nope thats garlic",
 	text: [
 		"A basic garlic diffuser activates an effect that weakens any vampires that enter it's range."
 	],

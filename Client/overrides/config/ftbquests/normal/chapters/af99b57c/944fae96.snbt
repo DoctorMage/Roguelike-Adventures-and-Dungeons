@@ -2,9 +2,9 @@
 	title: "Vampire Villager",
 	x: -5.0d,
 	y: -2.5d,
-	description: "the butler did do it",
+	description: "The butler did do it",
 	text: [
-		"In vampire controlled villages you can come across vampire experts .",
+		"In vampire controlled villages, you can come across vampire experts .",
 		"",
 		"They will trade human hearts for pure blood."
 	],

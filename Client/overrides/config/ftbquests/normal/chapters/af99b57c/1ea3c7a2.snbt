@@ -2,9 +2,9 @@
 	title: "Apothecary 101",
 	x: -6.0d,
 	y: 6.0d,
-	description: "Garlic, Salt and everything holy",
+	description: "Garlic, aalt and everything holy",
 	text: [
-		"To assist you in your vampire hunting it's reccomeded to make an Alchemical Cauldron.",
+		"To assist you in your vampire hunting, it's reccomeded to make an Alchemical Cauldron.",
 		"",
 		"This cauldron can be used to make items that weaken vampires."
 	],

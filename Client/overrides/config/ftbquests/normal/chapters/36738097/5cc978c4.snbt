@@ -4,7 +4,7 @@
 	y: 0.0d,
 	description: "Wanna Tip",
 	text: [
-		"Tip don't do this unless you really hate obsidian."
+		"Tip: Don't do this unless you really hate obsidian."
 	],
 	tasks: [{
 		uid: "0125e666",

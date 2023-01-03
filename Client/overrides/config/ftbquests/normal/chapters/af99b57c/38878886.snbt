@@ -2,9 +2,9 @@
 	title: "The 10th Dentist",
 	x: -9.0d,
 	y: -3.5d,
-	description: "there's a reason no one respects his opinions",
+	description: "There's a reason no one respects his opinions",
 	text: [
-		"After becoming a vampire your appearance will partially change if you dont like how you face looks you can change it's apperance with",
+		"After becoming a vampire, your appearance will partially change. If you dont like how you face looks you can change it's apperance with",
 		"",
 		"/vampirism fang"
 	],

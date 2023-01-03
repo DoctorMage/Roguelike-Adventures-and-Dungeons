@@ -2,9 +2,9 @@
 	title: "Hexciting Armoury",
 	x: -2.0d,
 	y: 1.0d,
-	description: "the most pristine armour",
+	description: "The most pristine armour",
 	text: [
-		""
+		"Obtain all Hexite armour."
 	],
 	dependencies: [
 		"a16bb0cb"

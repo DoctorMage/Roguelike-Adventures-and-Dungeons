@@ -2,7 +2,7 @@
 	title: "Organ Harvest",
 	x: -8.0d,
 	y: -0.5d,
-	description: "skulls for the skull throne",
+	description: "Skulls for the skull throne",
 	text: [
 		"You may have noticed that mobs don't infect you with vampirism.",
 		"",
@@ -10,7 +10,7 @@
 		"",
 		"Back to text!",
 		"",
-		"Kill some vampires and hunters to harvest there drops then trade them in to activate this effect."
+		"Kill some vampires and hunters to harvest their drops then trade them in to activate this effect."
 	],
 	dependencies: [
 		"05835cf3"

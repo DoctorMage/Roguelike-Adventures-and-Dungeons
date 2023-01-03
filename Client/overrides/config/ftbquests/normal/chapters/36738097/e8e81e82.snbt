@@ -1,5 +1,5 @@
 {
-	title: "Return Title",
+	title: "§6The 1 Percent",
 	x: -2.5d,
 	y: -1.0d,
 	description: "Return title",
@@ -19,6 +19,7 @@
 	rewards: [{
 		uid: "9fb41fa6",
 		type: "command",
+		title: "&6The 1 Percent",
 		command: "/titles add @p titles:the_onepercent"
 	}]
 }

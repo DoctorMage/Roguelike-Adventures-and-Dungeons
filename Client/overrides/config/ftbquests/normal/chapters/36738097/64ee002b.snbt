@@ -1,5 +1,5 @@
 {
-	title: "Return Title",
+	title: "§2§lDank Master Supreme",
 	x: -2.5d,
 	y: 6.0d,
 	description: "Return title",
@@ -18,6 +18,7 @@
 	rewards: [{
 		uid: "2cd9b327",
 		type: "command",
+		title: "&2&lDank Master Supreme",
 		command: "/titles add @p titles:the_dank"
 	}]
 }

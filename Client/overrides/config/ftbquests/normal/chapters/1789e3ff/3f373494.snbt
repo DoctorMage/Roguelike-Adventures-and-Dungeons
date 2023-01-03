@@ -2,13 +2,13 @@
 	title: "Adept Miner",
 	x: -9.5d,
 	y: -0.5d,
-	description: "dwarf training 101",
+	description: "Dwarf training 101",
 	text: [
 		"As you mine ore's in caverns you will gain miner rank.",
 		"",
 		"Certain ores will award more mining exp than others.",
 		"",
-		"To gain acess to the second type of basic caverns you need to reach a rank of Iron Miner."
+		"To gain acess to the second type of basic caverns, you need to reach a rank of Iron Miner."
 	],
 	dependencies: [
 		"9cc8a946"

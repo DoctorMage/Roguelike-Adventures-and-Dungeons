@@ -18,6 +18,8 @@
 	rewards: [{
 		uid: "5cf00a80",
 		type: "command",
+		title: "&3&lThe Weezer Super Fan",
+		auto: "enabled",
 		command: "/titles add @p titles:the_weezersuperfan"
 	},
 	{

@@ -1,12 +1,12 @@
 {
-	title: "Monsters In The Dark",
+	title: "Monsters in the Dark",
 	x: -7.5d,
 	y: 0.5d,
 	description: "Scary monsters and super creeps",
 	text: [
-		"Just because your in the overworld does not mean your safe from monsters.",
+		"Just because you're in the overworld does not mean your safe from monsters.",
 		"",
-		"The natural darnkess of the caverns have allowed new monsters to adapt to them."
+		"The natural darnkess of the caverns have allowed new monsters to adapt."
 	],
 	dependencies: [
 		"0351335f"

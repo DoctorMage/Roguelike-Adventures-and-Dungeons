@@ -2,12 +2,12 @@
 	title: "Count Dracula",
 	x: -0.5d,
 	y: -0.5d,
-	description: "he should never have been given the mic",
+	description: "He should never have been given the mic",
 	text: [
-		"The strongest vampire with multiple abillties killing one brings great rewards",
+		"The strongest vampire with multiple abillties; killing one brings great rewards.",
 		"",
 		"",
-		"WARNING : This mob is insanely strong do not fight it unprepared!"
+		"WARNING : This mob is insanely strong. Do not fight it unprepared!"
 	],
 	dependencies: [
 		"90a84a0f",

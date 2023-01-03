@@ -1,11 +1,11 @@
 {
-	title: "Built In Titles",
+	title: "Built in Titles",
 	x: -3.5d,
 	y: 1.0d,
-	description: "Their cool I guess",
+	description: "They're cool I guess",
 	text: [
 		"The book you recieved as a quest reward has some titles that can be brought with the mods own currency. ",
-		"To add currency to the book have title fragments on right side of the book",
+		"To add currency to the book have title fragments on right side of the book.",
 		"Then sneak click while holding the book to add them."
 	],
 	dependencies: [

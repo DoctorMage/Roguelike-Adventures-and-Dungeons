@@ -2,7 +2,7 @@
 	title: "Blood Sucking Fiend",
 	x: -4.5d,
 	y: 3.0d,
-	description: "hope your matching blood types",
+	description: "Hope you're matching blood types",
 	text: [
 		"Creatures of the night vampires tend to avoid the sun their native land typically being black forest.",
 		"",

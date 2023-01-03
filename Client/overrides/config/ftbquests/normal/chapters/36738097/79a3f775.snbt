@@ -2,7 +2,7 @@
 	title: "The Herbivore",
 	x: -1.5d,
 	y: 7.0d,
-	description: "Vegetables have feelings to",
+	description: "Vegetables have feelings too",
 	text: [
 		"I hope you were using a harvester to farm all the crops for this."
 	],

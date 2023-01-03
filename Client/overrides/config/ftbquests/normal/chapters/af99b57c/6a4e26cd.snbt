@@ -1,8 +1,8 @@
 {
-	title: "Diamonds Are For Umbrellas",
+	title: "Diamonds are for Umbrellas",
 	x: -3.0d,
 	y: -2.5d,
-	description: "shine on you crazy umbrella",
+	description: "Shine on you crazy umbrella",
 	text: [
 		"The best possible umbrella has the highest durabillity compared to all other vampire umbrellas."
 	],

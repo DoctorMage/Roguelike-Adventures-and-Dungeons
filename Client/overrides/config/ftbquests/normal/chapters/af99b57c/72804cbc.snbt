@@ -1,12 +1,12 @@
 {
-	title: "A Great Day For Rain",
+	title: "A Great Day for Rain",
 	x: -3.0d,
 	y: -4.5d,
-	description: "under my umbrella",
+	description: "Under my umbrella",
 	text: [
-		"As you become a stronger vampire you will be punished more harshly by the sun",
+		"As you become a stronger vampire, you will be punished more harshly by the sun.",
 		"",
-		"To counteract this craft an umbrella and have it in your offhand or main hand to protect you."
+		"To counteract this, craft an umbrella and have it in your offhand or main hand to protect you."
 	],
 	dependencies: [
 		"824b664e"

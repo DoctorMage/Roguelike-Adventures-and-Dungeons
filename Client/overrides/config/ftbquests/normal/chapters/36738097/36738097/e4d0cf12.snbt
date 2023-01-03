@@ -1,0 +1,23 @@
+{
+	title: "Of Rock And Stone",
+	icon: "embers:winding_gears",
+	x: -5.5d,
+	y: 4.0d,
+	description: "Can I get a rock and stone",
+	text: [
+		"Karl will always be in are hearts and grog!!"
+	],
+	dependencies: [
+		"fe8f99b6"
+	],
+	tasks: [{
+		uid: "8ea06baa",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "89dcf459",
+		type: "command",
+		team_reward: false,
+		command: "/titles add @p titles:the_rock"
+	}]
+}

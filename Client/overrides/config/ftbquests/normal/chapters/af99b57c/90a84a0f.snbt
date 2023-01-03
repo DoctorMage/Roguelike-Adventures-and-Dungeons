@@ -2,14 +2,14 @@
 	title: "Vampire's Ichor",
 	x: -5.0d,
 	y: -1.5d,
-	description: "sweeter than wine",
+	description: "Sweeter than wine",
 	text: [
 		"Pure blood is used for crafting certain materials and weapons.",
 		"",
-		"It can either be aquired from villagers at  medium levels of purity.",
+		"It can either be aquired from villagers at medium levels of purity.",
 		"",
 		"Or for the real deal find a Vampire Baron in vampire forest and slay them for the highest",
-		"purity blood"
+		"purity blood."
 	],
 	dependencies: [
 		"944fae96"

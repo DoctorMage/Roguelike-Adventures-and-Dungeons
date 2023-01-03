@@ -1,5 +1,5 @@
 {
-	title: "Path Of The Vampire",
+	title: "Path of the Vampire",
 	x: -8.0d,
 	y: -2.5d,
 	description: "Haha Jonathan you stole my fangs",
@@ -11,7 +11,7 @@
 		"(If at any point you change your mind drink milk to remove the effect)",
 		"(In case you do something stupid you get 2 chances of vampirism)",
 		"",
-		"Warning Injecting yourself with garlic prevents you from becoming a vampire."
+		"Warning: Injecting yourself with garlic prevents you from becoming a vampire."
 	],
 	dependencies: [
 		"185694e7"

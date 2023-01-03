@@ -1,0 +1,40 @@
+{
+	title: "The Hell Scribe",
+	x: -3.5d,
+	y: 5.0d,
+	description: "You feel your past due books crawling on your back",
+	text: [
+		"Hope you have a good excuse for not returning those books I dont think for title will cut it."
+	],
+	tasks: [{
+		uid: "3b844b8a",
+		type: "item",
+		items: [{
+			id: "apotheosis:hellshelf",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 229
+				}]
+			}
+		}],
+		count: 9L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "758b494a",
+		type: "command",
+		team_reward: false,
+		command: "/titles add @p titles:the_scribe"
+	},
+	{
+		uid: "3437fafe",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "ee9b6549",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

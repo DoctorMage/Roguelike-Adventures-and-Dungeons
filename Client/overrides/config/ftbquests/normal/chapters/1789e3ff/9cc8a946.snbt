@@ -3,7 +3,7 @@
 	icon: "cavern:cavern_portal",
 	x: -10.5d,
 	y: -0.5d,
-	description: "mining away",
+	description: "Mining away...",
 	text: [
 		"The most basic type of caverns it contains all the vanilla ores that normal caves do but has its own set of ores unique to it."
 	],

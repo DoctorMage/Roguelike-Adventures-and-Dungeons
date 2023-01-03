@@ -2,9 +2,9 @@
 	title: "MINIONS!",
 	x: 0.5d,
 	y: -0.5d,
-	description: "not the yellow ones",
+	description: "Not the yellow ones",
 	text: [
-		"Sometimes a vampire baron will summon minions to assit it.",
+		"Sometimes a vampire baron will summon minions to assist it.",
 		"",
 		"Show those minions they picked the wrong line of work."
 	],

@@ -1,0 +1,23 @@
+{
+	title: "Return Title",
+	x: -8.5d,
+	y: 3.0d,
+	description: "Return title",
+	text: [
+		"Returns title if you end up losing it."
+	],
+	can_repeat: true,
+	dependencies: [
+		"17698d00"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d8eaca49",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "77a3f173",
+		type: "command",
+		command: "/titles add @p titles:the_limbo"
+	}]
+}

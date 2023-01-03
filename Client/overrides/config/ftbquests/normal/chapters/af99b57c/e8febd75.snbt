@@ -2,7 +2,7 @@
 	title: "Vampire Forest",
 	x: -11.0d,
 	y: 4.0d,
-	description: "the vampire's forest??",
+	description: "The vampire's forest??",
 	text: [
 		"The native biome of vampires it can be identified by it's pitch black trees, dense fog and vampires obviously."
 	],

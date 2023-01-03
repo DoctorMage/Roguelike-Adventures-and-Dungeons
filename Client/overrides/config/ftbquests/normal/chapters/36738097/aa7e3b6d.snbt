@@ -1,5 +1,5 @@
 {
-	title: "Return Title",
+	title: "§8§lReborn from the Nothingness",
 	x: -8.5d,
 	y: 3.0d,
 	description: "Return title",
@@ -18,6 +18,7 @@
 	rewards: [{
 		uid: "77a3f173",
 		type: "command",
+		title: "&8lReborn from the Nothingness",
 		command: "/titles add @p titles:the_limbo"
 	}]
 }

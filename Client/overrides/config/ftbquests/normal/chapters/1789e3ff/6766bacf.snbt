@@ -2,11 +2,11 @@
 	title: "Destitute Domain",
 	x: 1.5d,
 	y: -1.0d,
-	description: "but no one came",
+	description: "But no one came",
 	text: [
 		"A mirage which nothing has existed in until you came along.",
 		"",
-		"Will you leave it as or find a way to create  something from abouslte nothingness?"
+		"Will you leave it as or find a way to create something from absolute nothingness?"
 	],
 	dependencies: [
 		"ed31451d"

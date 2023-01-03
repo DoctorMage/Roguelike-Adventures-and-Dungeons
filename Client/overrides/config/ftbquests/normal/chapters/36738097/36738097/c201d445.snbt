@@ -1,0 +1,23 @@
+{
+	title: "Return Title",
+	x: -0.5d,
+	y: 0.0d,
+	description: "Return title",
+	text: [
+		"Returns title if you end up losing it."
+	],
+	can_repeat: true,
+	dependencies: [
+		"5cc978c4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fbe89710",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "1722fc33",
+		type: "command",
+		command: "/titles add @p titles:the_obsidian"
+	}]
+}

@@ -2,7 +2,7 @@
 	title: "Spitfire",
 	x: -9.0d,
 	y: 9.0d,
-	description: "playing with fire",
+	description: "Playing with fire",
 	text: [
 		"Spitfire Arrows are made with alchemical fire and crossbow arrows.",
 		"",

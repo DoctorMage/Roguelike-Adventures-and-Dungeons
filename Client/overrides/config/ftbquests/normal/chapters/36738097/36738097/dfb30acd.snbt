@@ -1,0 +1,72 @@
+{
+	title: "The Clown",
+	x: 0.5d,
+	y: 7.0d,
+	description: "All your missing is the boots",
+	text: [
+		"Are you being called a clown for getting this title or using it? The many mysteries of the minecraftverse."
+	],
+	tasks: [{
+		uid: "e4460fe0",
+		type: "item",
+		items: [{
+			item: "harvestcraft:friesitem"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "883b2fe3",
+		type: "item",
+		items: [{
+			item: "harvestcraft:orangesodaitem"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "90fd939f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cheeseburgeritem"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "1ae8591b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "foodKetchup",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any foodKetchup"
+				}
+			}
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f153ad7e",
+		type: "command",
+		team_reward: false,
+		command: "/titles add @p titles:the_clown"
+	},
+	{
+		uid: "f54c7416",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "748fff43",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

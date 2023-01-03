@@ -3,7 +3,7 @@
 	icon: "guideapi:vampirism-guide",
 	x: -11.0d,
 	y: 2.0d,
-	description: "Vampires Vs Hunters",
+	description: "Vampires vs Hunters",
 	text: [
 		"A tale as old as time Hunters vs blood sucking fiends",
 		"",

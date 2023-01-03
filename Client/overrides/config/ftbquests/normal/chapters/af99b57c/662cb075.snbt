@@ -2,7 +2,7 @@
 	title: "Hunter Trainer",
 	x: -4.0d,
 	y: 1.0d,
-	description: "he's a professional",
+	description: "He's a professional",
 	text: [
 		"Vampire Hunter Trainers can be found in hunter controlled villages.",
 		"",

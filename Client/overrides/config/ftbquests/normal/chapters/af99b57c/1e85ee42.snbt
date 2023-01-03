@@ -2,9 +2,9 @@
 	title: "Bad Teacher",
 	x: -9.0d,
 	y: -5.5d,
-	description: "I will not drain my teacher of all there blood",
+	description: "I will not drain my teacher of all their blood",
 	text: [
-		"To stop the advancement of the hunter menace you can kill hunter trainers.",
+		"To stop the advancement of the hunter menace, you can kill hunter trainers.",
 		"",
 		"They can be found inside hunter controlled villages."
 	],

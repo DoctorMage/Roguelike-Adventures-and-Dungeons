@@ -2,11 +2,11 @@
 	title: "The Endless Sahara",
 	x: 1.5d,
 	y: 0.0d,
-	description: "it's coarse it's rough",
+	description: "It's coarse it's rough",
 	text: [
-		"If you the one person in the world that likes living in deserts or exploring them.",
+		"If you're the one person in the world that likes living in deserts or exploring them,",
 		"",
-		"This mirage is just for you named the wide desert this mirage is nothing but deserts as far as the eye can see."
+		"Then this mirage is just for you. Named the wide desert, this mirage is nothing but deserts as far as the eye can see."
 	],
 	dependencies: [
 		"fd80d1c4"

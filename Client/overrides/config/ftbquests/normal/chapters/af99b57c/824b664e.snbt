@@ -1,10 +1,10 @@
 {
-	title: "Sacrament Of Blood",
+	title: "Sacrament of Blood",
 	x: -5.0d,
 	y: -4.5d,
-	description: "told you it wasn't a phase",
+	description: "Told you it wasn't a phase",
 	text: [
-		"To become an even stronger vampire you must make a Blood Ritual Altar.",
+		"To become an even stronger vampire, you must make a Blood Ritual Altar.",
 		"",
 		"In a 5x5 area place the altar at the center and at each corner place an altar pillar 3 high ",
 		"at the pillars peakplace an altar tip.",

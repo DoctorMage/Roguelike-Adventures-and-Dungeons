@@ -2,7 +2,7 @@
 	title: "Crossbow x2",
 	x: -1.0d,
 	y: 7.0d,
-	description: "always double tap",
+	description: "Always double tap",
 	text: [
 		"Fires two crossbow shots at once."
 	],

@@ -1,6 +1,11 @@
 {
+	title: "§4§lThe Indiscriminate Head Collector",
 	x: -0.5d,
 	y: 3.0d,
+	description: "Return title",
+	text: [
+		"Returns the title if you end up losing it."
+	],
 	can_repeat: true,
 	dependencies: [
 		"987e5b0a"
@@ -13,6 +18,7 @@
 	rewards: [{
 		uid: "e8db3994",
 		type: "command",
+		title: "&4&lThe Indiscriminate Head Collector",
 		command: "/titles add @p titles:the_headcase"
 	}]
 }

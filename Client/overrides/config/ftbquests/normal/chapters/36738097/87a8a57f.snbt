@@ -4,7 +4,7 @@
 	y: -1.0d,
 	description: "Wow",
 	text: [
-		"Wow you actually did it and if your seeing this quest you know why its optional :).",
+		"Wow you actually did it and if you're seeing this quest you know why its optional :).",
 		"",
 		"No title is worth the torture of this quest same with the rewards."
 	],
@@ -20,6 +20,7 @@
 	rewards: [{
 		uid: "b87bfac8",
 		type: "command",
+		title: "&9&lThe &3&l&kGenocidal &3&lMarine Biologist",
 		command: "/titles add @p titles:the_oceanman"
 	}]
 }

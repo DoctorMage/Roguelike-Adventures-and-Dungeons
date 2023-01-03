@@ -1,0 +1,19 @@
+{
+	title: "Reborn From The Nothingness",
+	x: -7.5d,
+	y: 3.0d,
+	text: [
+		"Enter the realm between life and death"
+	],
+	tasks: [{
+		uid: "8f0f1668",
+		type: "dimension",
+		dim: 684
+	}],
+	rewards: [{
+		uid: "4378f78e",
+		type: "command",
+		team_reward: false,
+		command: "/titles add @p titles:the_limbo"
+	}]
+}

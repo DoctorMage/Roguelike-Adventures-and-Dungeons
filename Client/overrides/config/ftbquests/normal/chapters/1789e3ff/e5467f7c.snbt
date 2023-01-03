@@ -2,7 +2,7 @@
 	title: "Cave Dwellers",
 	x: -9.5d,
 	y: 0.5d,
-	description: "grug don't like you in his cave!",
+	description: "Grug don't like you in his cave!",
 	text: [
 		"Caveman are the native creature of caverns and will fight any human they see.",
 		"",

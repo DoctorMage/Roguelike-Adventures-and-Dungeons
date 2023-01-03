@@ -2,9 +2,9 @@
 	title: "Blood Infusion",
 	x: -7.0d,
 	y: -2.5d,
-	description: "infusion transfursion what's the differecne",
+	description: "Infusion transfusion what's the differecne",
 	text: [
-		"Before you run off and start making blood weapons it's reccomended to make a blood infuser.",
+		"Before you run off and start making blood weapons, it's reccomended to make a blood infuser.",
 		"",
 		"Placing the blood infuser on top of a tank containing blood will allow it to drain blood from that tank to fuel certain items."
 	],

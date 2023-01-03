@@ -2,11 +2,11 @@
 	title: "The Shimmering Depths",
 	x: -4.5d,
 	y: -0.5d,
-	description: "leave my shinies alone",
+	description: "Leave my shinies alone",
 	text: [
 		"The aqua caverns are the final level of basic caverns unlocked by miner rank.",
 		"",
-		"Filled to the brim with squids and gems this dimension is perfect for any wizards looking to improve there arsenal."
+		"Filled to the brim with squids and gems. This dimension is perfect for any wizards looking to improve their arsenal."
 	],
 	dependencies: [
 		"4b4ab3c6"

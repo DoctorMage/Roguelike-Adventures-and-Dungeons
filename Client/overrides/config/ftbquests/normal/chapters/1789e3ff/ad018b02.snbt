@@ -2,9 +2,12 @@
 	title: "The Great Forest",
 	x: 1.5d,
 	y: -2.0d,
-	description: "not as dark as it sounds",
+	description: "Not as dark as it sounds",
 	text: [
-		""
+		"This mirage world is forested as far as the eye can see.",
+		"",
+		"There are many huts spread around and it appears that everyone is a book worm.",
+		"Don't mind to take a peak inside their shelves."
 	],
 	dependencies: [
 		"0ff8c885"

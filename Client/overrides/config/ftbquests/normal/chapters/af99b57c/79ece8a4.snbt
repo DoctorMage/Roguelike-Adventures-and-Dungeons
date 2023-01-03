@@ -3,11 +3,11 @@
 	x: -8.0d,
 	y: -3.5d,
 	text: [
-		"As a vampire you no longer need to eat food instead you drain blood from living life forms",
+		"As a vampire, you no longer need to eat food. Instead, you drain blood from living life forms.",
 		"",
-		"Any excess blood drained will be stored in bottles in your invetory",
+		"Any excess blood drained will be stored in bottles in your inventory.",
 		"",
-		"(Make sure the keybound to draining blood has no other keys bound to it)"
+		"(Make sure the keybound to draining blood has no other keys bound to it)."
 	],
 	dependencies: [
 		"74e13f71"

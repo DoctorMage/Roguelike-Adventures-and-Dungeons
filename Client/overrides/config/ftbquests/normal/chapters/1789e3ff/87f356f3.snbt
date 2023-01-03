@@ -1,10 +1,10 @@
 {
-	title: "Caveman's gizmos",
+	title: "Caveman's Gizmos",
 	x: -8.5d,
 	y: 0.5d,
-	description: "it's not a just rock it's an orb",
+	description: "It's not a just rock, it's an orb",
 	text: [
-		"Hey some of those mobs dropped treasure see what you can make with it."
+		"Hey some of those mobs dropped treasure. See what you can make with it."
 	],
 	tasks: [{
 		uid: "0e9aac41",

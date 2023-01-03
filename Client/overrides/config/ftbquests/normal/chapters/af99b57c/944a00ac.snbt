@@ -2,9 +2,9 @@
 	title: "Vampire Diaries",
 	x: -6.0d,
 	y: -4.5d,
-	description: "Dear diary today I drained a cow",
+	description: "Dear diary, today I drained a cow",
 	text: [
-		"Vampires leave there diaries in the weirdest places try finding one and see what knowledge you can gain from it."
+		"Vampires leave their diaries in the weirdest places. Try finding one and see what knowledge you can gain from it."
 	],
 	dependencies: [
 		"824b664e"

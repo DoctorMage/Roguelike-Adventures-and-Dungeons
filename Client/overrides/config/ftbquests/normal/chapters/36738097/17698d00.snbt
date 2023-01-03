@@ -1,9 +1,9 @@
 {
-	title: "Reborn From The Nothingness",
+	title: "Reborn from the Nothingness",
 	x: -7.5d,
 	y: 3.0d,
 	text: [
-		"Enter the realm between life and death"
+		"Enter the realm between life and death."
 	],
 	tasks: [{
 		uid: "8f0f1668",

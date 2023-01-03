@@ -1,0 +1,23 @@
+{
+	title: "Return Title",
+	x: -2.5d,
+	y: 5.0d,
+	description: "Return title",
+	text: [
+		"Returns title if you end up losing it."
+	],
+	can_repeat: true,
+	dependencies: [
+		"648dee1d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c3f2786d",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "71be5724",
+		type: "command",
+		command: "/titles add @p titles:the_scribe"
+	}]
+}

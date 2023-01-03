@@ -2,11 +2,11 @@
 	title: "Pointiest Stick",
 	x: -6.0d,
 	y: 3.0d,
-	description: "point taken",
+	description: "Point taken",
 	text: [
 		"To begin your hunter's journey craft a stake.",
 		"",
-		"Find a vampire and use it on them if they are low enough hp it will instantly kill them."
+		"Find a vampire and use it on them. If they are low enough hp, then it will instantly kill them."
 	],
 	dependencies: [
 		"90371785"

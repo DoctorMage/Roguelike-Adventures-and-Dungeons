@@ -2,9 +2,9 @@
 	title: "Younglin",
 	x: -5.0d,
 	y: 2.0d,
-	description: "teach me your ways master",
+	description: "Teach me your ways master",
 	text: [
-		"To level up as a hunter you need to find another vampire hunter and have them train you."
+		"To level up as a hunter, you need to find another vampire hunter and have them train you."
 	],
 	dependencies: [
 		"679444c3"

@@ -1,5 +1,5 @@
 {
-	title: "Return Title",
+	title: "§c§lT§6§lH§e§lE §a§lR§2§lA§3§lI§b§lN§9§lB§5§lO§d§lW",
 	x: -2.5d,
 	y: 4.0d,
 	description: "Return title",
@@ -18,6 +18,7 @@
 	rewards: [{
 		uid: "47c8a624",
 		type: "command",
+		title: "&c&lT&6&lH&e&lE &a&lR&2&lA&3&lI&b&lN&9&lB&5&lO&d&lW",
 		command: "/titles add @p titles:the_rainbow"
 	}]
 }

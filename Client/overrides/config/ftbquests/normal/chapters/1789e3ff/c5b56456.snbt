@@ -2,11 +2,11 @@
 	title: "The Most Illusive Libary",
 	x: -1.0d,
 	y: -0.5d,
-	description: "you saw nothing",
+	description: "You saw nothing",
 	text: [
 		"Rarely while digging around you can come across mirage libaries breaking them can rarely drop a mirage book.",
 		"",
-		" These mirage books can be used to acess unique worlds."
+		" These mirage books can be used to access unique worlds."
 	],
 	tasks: [{
 		uid: "e5e8953a",

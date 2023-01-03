@@ -2,9 +2,9 @@
 	title: "Blood Bank",
 	x: -8.0d,
 	y: -4.5d,
-	description: "don't try chugging this",
+	description: "Don't try chugging this",
 	text: [
-		"Instead of carrying 50 bottles of blood on you dump that sweet red nectar into a tank."
+		"Instead of carrying 50 bottles of blood on you, dump that sweet red nectar into a tank."
 	],
 	dependencies: [
 		"79ece8a4"

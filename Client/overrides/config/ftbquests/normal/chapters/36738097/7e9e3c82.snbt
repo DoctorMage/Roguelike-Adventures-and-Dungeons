@@ -1,5 +1,5 @@
 {
-	title: "Return Title",
+	title: "§a§lThe §2§lOne §a§lWho §2§lForgot §a§lEnchanting §2§lExisted",
 	x: -2.5d,
 	y: -3.0d,
 	description: "Return title",
@@ -18,6 +18,7 @@
 	rewards: [{
 		uid: "7bb90f03",
 		type: "command",
+		title: "&a&lThe &2&lOne &a&lWho &2&lForgot &a&lEnchanting &2&lExisted",
 		command: "/titles add @p titles:the_exptank"
 	}]
 }

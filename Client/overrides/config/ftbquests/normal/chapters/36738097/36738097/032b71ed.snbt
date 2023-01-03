@@ -1,0 +1,26 @@
+{
+	title: "Built In Titles",
+	x: -3.5d,
+	y: 1.0d,
+	description: "Their cool I guess",
+	text: [
+		"The book you recieved as a quest reward has some titles that can be brought with the mods own currency. ",
+		"To add currency to the book have title fragments on right side of the book",
+		"Then sneak click while holding the book to add them."
+	],
+	dependencies: [
+		"d0e06856"
+	],
+	tasks: [{
+		uid: "8cfc69e7",
+		type: "item",
+		items: [{
+			item: "titles:archivefragment"
+		}]
+	}],
+	rewards: [{
+		uid: "fd4943a2",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}
