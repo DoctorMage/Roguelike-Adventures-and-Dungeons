@@ -8,7 +8,7 @@
 		https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
     "tool": "any",
     "material": {
-      "item": "minecraft:nether_star"
+      "item": "contenttweaker:reforge_cat"
     }
   },
   {
@@ -4844,6 +4844,145 @@
     "material": {
       "item": "ebwizardry:magic_crystal",
       "meta": 0
+    }
+  },
+  {
+    "tool": {
+      "item": "vampirism:hunter_coat_feet"
+    },
+    "material": {
+      "item": "vampirism:item_garlic"
+    }
+  },
+  {
+    "tool": {
+      "item": "vampirism:hunter_coat_legs"
+    },
+    "material": {
+      "item": "vampirism:item_garlic"
+    }
+  },
+  {
+    "tool": {
+      "item": "vampirism:hunter_coat_chest"
+    },
+    "material": {
+      "item": "vampirism:item_garlic"
+    }
+  },
+  {
+    "tool": {
+      "item": "vampirism:hunter_coat_head"
+    },
+    "material": {
+      "item": "vampirism:item_garlic"
+    }
+  },
+  {
+    "tool": {
+      "item": "vampirism:obsidian_armor_feet"
+    },
+    "material": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  {
+    "tool": {
+      "item": "vampirism:obsidian_armor_legs"
+    },
+    "material": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  {
+    "tool": {
+      "item": "vampirism:obsidian_armor_chest"
+    },
+    "material": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  {
+    "tool": {
+      "item": "vampirism:obsidian_armor_head"
+    },
+    "material": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  {
+    "tool": {
+      "item": "vampirism:vampire_cloak"
+    },
+    "material": {
+      "item": "minecraft:diamond"
+    }
+  },
+    {
+    "tool": {
+      "item": "thaumicwonders:primal_destroyer"
+    },
+    "material": {
+      "item": "thaumcraft:ingot",
+      "meta": 1
+    }
+  },
+    {
+    "tool": {
+      "item": "thaumicwonders:bone_bow"
+    },
+    "material": {
+      "item": "minecraft:bone_block"
+    }
+  },
+    {
+    "tool": {
+      "item": "thaumicwonders:night_vision_goggles"
+    },
+    "material": {
+      "item": "minecraft:golden_carrot"
+    }
+  },
+  {
+    "tool": {
+      "item": "thaumicperiphery:pauldron"
+    },
+    "material": {
+      "item": "thaumcraft:ingot",
+      "meta": 2
+    }
+  },
+  {
+    "tool": {
+      "item": "thaumicperiphery:pauldron_repulsion"
+    },
+    "material": {
+      "item": "thaumcraft:ingot",
+	  "meta": 2
+    }
+  },
+  {
+    "tool": {
+      "item": "thaumicperiphery:malignant_heart"
+    },
+    "material": {
+      "item": "thaumcraft:flesh_block"
+    }
+  },
+  {
+    "tool": {
+      "item": "thaumicperiphery:magic_quiver"
+    },
+    "material": {
+      "item": "thaumcraft:fabric"
+    }
+  },
+  {
+    "tool": {
+      "item": "thaumicperiphery:vis_phylactery"
+    },
+    "material": {
+      "item": "thaumcraft:quicksilver"
     }
   }
 ]
