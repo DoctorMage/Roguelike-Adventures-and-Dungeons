@@ -6,9 +6,7 @@
 	text: [
 		"Rarely while exploring you can find arcane vaults.",
 		"",
-		"These vaults contain magical treasure but are sealed by an ancient spell.",
-		"",
-		"To unlock them find the ancient spell for it and cast."
+		"To gain access to the treasure within them find the key and cast it."
 	],
 	dependencies: [
 		"aa64e1f7"
