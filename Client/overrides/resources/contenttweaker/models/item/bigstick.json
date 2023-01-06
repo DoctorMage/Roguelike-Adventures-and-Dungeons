@@ -1,0 +1,48 @@
+{
+	"credit": "Made by Zarchyar",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "contenttweaker:items/bigstick",
+		"particle": "contenttweaker:items/bigstick"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [22, -90, 3],
+			"translation": [0, 6.75, 5],
+			"scale": [-4, 4, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [22, 90, 3],
+			"translation": [0, 6.75, 5],
+			"scale": [-4, 4, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [-14, -76, 4],
+			"translation": [0, 8.25, 1.5],
+			"scale": [-1.25, 1.25, 0.1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-14, 96, 0],
+			"translation": [2.25, 8.75, -0.5],
+			"scale": [-1.25, 1.25, 0.1]
+		},
+		"ground": {
+			"rotation": [0, 0, -53],
+			"translation": [0, 6.75, 0],
+			"scale": [3, 3, 2]
+		},
+		"gui": {
+			"rotation": [0, -180, -39],
+			"scale": [2.25, 2.25, 1]
+		},
+		"head": {
+			"rotation": [0, 90, 156],
+			"translation": [0, 21.75, -11.25],
+			"scale": [-4, -4, 1]
+		},
+		"fixed": {
+			"rotation": [0, 0, -39],
+			"scale": [2, 2, 0.9]
+		}
+	}
+}
