@@ -1,0 +1,27 @@
+{
+	title: "The Sealed Vault",
+	x: -5.5d,
+	y: 9.5d,
+	description: "Let me in let me in let me innnn!",
+	text: [
+		"Rarely while exploring you can find arcane vaults.",
+		"",
+		"To gain access to the treasure within them find the key and cast it."
+	],
+	dependencies: [
+		"aa64e1f7"
+	],
+	tasks: [{
+		uid: "c7f7496f",
+		type: "observation",
+		icon: "ancientspellcraft:sealed_stone",
+		match_type: "block_id",
+		match: "ancientspellcraft:sealed_stone",
+		timer: 60L
+	}],
+	rewards: [{
+		uid: "b4221322",
+		type: "item",
+		item: "ancientspellcraft:unsealing_scroll"
+	}]
+}
