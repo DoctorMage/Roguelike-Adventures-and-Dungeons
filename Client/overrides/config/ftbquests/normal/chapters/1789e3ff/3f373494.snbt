@@ -6,7 +6,7 @@
 	text: [
 		"As you mine ore's in caverns you will gain miner rank.",
 		"",
-		"Certain ores will award more mining exp than others.",
+		"Certain ore's will award more mining exp than others.",
 		"",
 		"To gain acess to the second type of basic caverns, you need to reach a rank of Iron Miner."
 	],
@@ -21,17 +21,17 @@
 		criterion: ""
 	}],
 	rewards: [{
-		uid: "2cf4fdb6",
-		type: "choice",
-		table: 57
+		uid: "4534f69e",
+		type: "loot",
+		table: 9
 	},
 	{
-		uid: "455d6b30",
+		uid: "edca2673",
 		type: "xp_levels",
 		xp_levels: 15
 	},
 	{
-		uid: "e40fe13d",
+		uid: "6e0141f6",
 		type: "ftbmoney:money",
 		ftb_money: 50L
 	}]
