@@ -14,13 +14,13 @@
     8
   ],
   "prerequisites": [
-    "levelup:furnacespeed"
+
   ],
   "stack": {
     "item": "minecraft:furnace"
   },
   "column": 1,
-  "row": 1,
+  "row": 0,
   "enabled": true,
   "active": true
 }
