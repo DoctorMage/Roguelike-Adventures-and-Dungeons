@@ -1,0 +1,182 @@
+{
+	title: "Quarternary Vis Crystals",
+	loot_size: 3,
+	rewards: [{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "alkimia"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "alienis"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "auram"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aversio"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "cognitio"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "desiderium"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "fabrico"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "humanus"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "machina"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "praemunio"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "sensus"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "vitium"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "draco"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "mythus"
+				}]
+			}
+		},
+		random_bonus: 3
+	}],
+	loot_crate: {
+		string_id: "quarternary_vis_crystals",
+		item_name: "Crate of Quarternary Vis Crystals",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}
