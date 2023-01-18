@@ -1,0 +1,25 @@
+{
+	title: "Hunter's Gift",
+	loot_size: 1,
+	rewards: [{
+		item: "vampirism:soul_orb_vampire",
+		count: 12
+	},
+	{
+		item: "vampirism:item_alchemical_fire",
+		count: 8
+	},
+	{
+		item: {
+			id: "vampirism:holy_water_splash_bottle",
+			tag: {
+				tier: "NORMAL"
+			}
+		},
+		count: 8
+	},
+	{
+		item: "vampirism:vampire_blood_bottle",
+		count: 8
+	}]
+}
