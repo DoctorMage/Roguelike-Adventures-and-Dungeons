@@ -5,7 +5,7 @@
 	y: 0.0d,
 	description: "Everyone gets a freebie",
 	text: [
-		"Levelup reloaded allows for you turn to 5 levels  into skill points (These levels cannot be refuned!!).",
+		"Levelup reloaded allows for you turn to 5 levels into skill points (These levels cannot be refuned!!).",
 		"",
 		"You can then invest those points into skills."
 	],

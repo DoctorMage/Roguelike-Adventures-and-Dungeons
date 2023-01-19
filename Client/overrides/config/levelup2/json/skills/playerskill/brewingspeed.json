@@ -16,6 +16,6 @@
   },
   "column": 0,
   "row": 1,
-  "enabled": true,
-  "active": true
+  "enabled": false,
+  "active": false
 }
