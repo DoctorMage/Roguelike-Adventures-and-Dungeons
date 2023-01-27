@@ -1,0 +1,36 @@
+{
+	title: "Dragon Growth For The Lazy",
+	x: 10.0d,
+	y: -2.5d,
+	description: "They grow up so fast",
+	text: [
+		"Dragon meals can be used to advantage a dragons age by 1 day.",
+		"",
+		"Sickly dragon meals will stop dragons from aging in anyway.",
+		"",
+		"On every 25th day it will advance a tier",
+		"",
+		"Tier 1| 1 - 24",
+		"Tier 2| 25 - 49",
+		"Tier 3| 50 - 74",
+		"Tier 4| 75 - 99",
+		"Tier 5| 100 - Infinite",
+		"",
+		"§cDragons at stage 1, 2 and 5 are known to be somewhat buggy use them at those stages with cauction"
+	],
+	dependencies: [
+		"768743f4"
+	],
+	tasks: [{
+		uid: "31b41175",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_meal"
+		}]
+	}],
+	rewards: [{
+		uid: "bb27e459",
+		type: "item",
+		item: "iceandfire:sickly_dragon_meal"
+	}]
+}
