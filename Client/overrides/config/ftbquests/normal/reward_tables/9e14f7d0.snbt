@@ -1,5 +1,122 @@
 {
 	title: "Secondary Vis Crystals",
-	loot_size: 1,
-	rewards: []
+	loot_size: 3,
+	rewards: [{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "vacuos"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "lux"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "motus"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "gelum"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "vitreus"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "metallum"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "victus"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "mortuus"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "potentia"
+				}]
+			}
+		},
+		random_bonus: 3
+	}],
+	loot_crate: {
+		string_id: "secondary_vis_crystals",
+		item_name: "Crate Of Secondary Vis Crystals",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
 }
