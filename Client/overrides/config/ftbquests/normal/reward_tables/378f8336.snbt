@@ -1,5 +1,158 @@
 {
 	title: "Tertiary Vis Crystals",
-	loot_size: 1,
-	rewards: []
+	loot_size: 3,
+	rewards: [{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "humanus"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "sensus"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "mythus"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "vinculum"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "spiritus"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "cognitio"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aversio"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "tenebrae"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "praemunio"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "bestia"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "volatus"
+				}]
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "desiderium"
+				}]
+			}
+		},
+		random_bonus: 3
+	}],
+	loot_crate: {
+		string_id: "tertiary_vis_crystals",
+		item_name: "Crate Of Tertiary Vis Crystals",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
 }

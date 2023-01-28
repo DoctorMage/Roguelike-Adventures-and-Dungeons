@@ -1,0 +1,33 @@
+{
+	title: "Book",
+	icon: {
+		id: "guideapi:cyclicmagic-guide",
+		tag: {
+			G-API_Category_Page: 0
+		}
+	},
+	x: 7.0d,
+	y: -10.5d,
+	description: "A book about cyclic",
+	text: [
+		"Quest are much better because they give rewards",
+		"",
+		"Unlike books only nerds read books."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "4294abb5",
+		type: "checkmark",
+		title: "Book"
+	}],
+	rewards: [{
+		uid: "a991fe58",
+		type: "item",
+		item: {
+			id: "guideapi:cyclicmagic-guide",
+			tag: {
+				G-API_Category_Page: 0
+			}
+		}
+	}]
+}
