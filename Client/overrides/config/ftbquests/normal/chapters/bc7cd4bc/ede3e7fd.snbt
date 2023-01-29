@@ -1,0 +1,17 @@
+{
+	title: "Hotbar pets?",
+	x: 0.0d,
+	y: 2.0d,
+	shape: "rsquare",
+	description: "Yes hotbar pets",
+	text: [
+		"For inventory pets to activate they have to be in your hotbar.",
+		"",
+		"Don't ask me why it's called inventory pets."
+	],
+	tasks: [{
+		uid: "9a097380",
+		type: "checkmark",
+		icon: "inventorypets:meta_pet"
+	}]
+}
