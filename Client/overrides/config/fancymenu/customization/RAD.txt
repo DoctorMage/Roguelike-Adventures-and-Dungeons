@@ -180,28 +180,6 @@ customization {
 }
 
 customization {
-  path = config/fancymenu/logo.png
-  orientation = top-left
-  x = -56
-  width = 454
-  actionid = c2985c24-cbd6-4b67-98b9-5ddacd985f291640347565758
-  action = addtexture
-  y = -20
-  height = 195
-}
-
-customization {
-  path = config/fancymenu/changes.png
-  orientation = mid-right
-  x = -208
-  width = 203
-  actionid = e5cbcebc-f61e-4bdd-9cc1-dc4776d0f7461640422176058
-  action = addtexture
-  y = -143
-  height = 299
-}
-
-customization {
   orientation = mid-left
   restartbackgroundanimations = true
   buttonaction = openlink
