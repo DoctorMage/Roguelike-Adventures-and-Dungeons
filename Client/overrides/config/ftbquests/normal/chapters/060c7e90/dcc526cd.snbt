@@ -4,6 +4,7 @@
 	dependencies: [
 		"012072e4"
 	],
+	or_tasks: true,
 	tasks: [{
 		uid: "18abcd52",
 		type: "item",
@@ -62,5 +63,20 @@
 		uid: "e6d62ad8",
 		type: "xp_levels",
 		xp_levels: 40
+	},
+	{
+		uid: "7a736fcf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "78a87e24",
+		type: "random",
+		table: 35
 	}]
 }
