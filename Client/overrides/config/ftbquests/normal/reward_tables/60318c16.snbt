@@ -124,7 +124,8 @@
 				},
 				"Quark:RuneAttached": 1b
 			}
-		}
+		},
+		only_one: true
 	}],
 	loot_crate: {
 		string_id: "dancer",

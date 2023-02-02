@@ -4,6 +4,7 @@
 	dependencies: [
 		"dcc526cd"
 	],
+	or_tasks: true,
 	tasks: [{
 		uid: "b20c6416",
 		type: "item",
@@ -62,5 +63,20 @@
 		uid: "1b6ea6fe",
 		type: "xp_levels",
 		xp_levels: 50
+	},
+	{
+		uid: "cec47532",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "5386bf8b",
+		type: "choice",
+		table: 36
 	}]
 }

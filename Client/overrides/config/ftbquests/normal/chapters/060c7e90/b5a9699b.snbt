@@ -103,5 +103,10 @@
 				type: "rare_tier_rewards"
 			}
 		}
+	},
+	{
+		uid: "6add91aa",
+		type: "random",
+		table: 35
 	}]
 }

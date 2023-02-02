@@ -96,13 +96,13 @@
 		xp_levels: 30
 	},
 	{
-		uid: "c12825e2",
-		type: "item",
-		item: {
-			id: "ftbquests:lootcrate",
-			tag: {
-				type: "epic_tier_rewards"
-			}
-		}
+		uid: "079bfaea",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "77e9d347",
+		type: "choice",
+		table: 36
 	}]
 }
