@@ -11,6 +11,8 @@
 	dependencies: [
 		"aaac6e3c"
 	],
+	hide: true,
+	hide_text_until_complete: true,
 	tasks: [{
 		uid: "80995579",
 		type: "item",
