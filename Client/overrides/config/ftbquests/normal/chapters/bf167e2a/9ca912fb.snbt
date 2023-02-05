@@ -1,15 +1,37 @@
 {
 	title: "Cloud Chaser",
+	icon: "aether_legacy:aercloud",
 	x: 5.0d,
 	y: -17.5d,
 	description: "Yes, the kind of clouds you're thinking",
 	text: [
-		"Enter the Aether."
+		"Enter the Aether.",
+		"",
+		"To create an aether portal make a nether portal structure out of glowstone ",
+		"",
+		"Then activate it with water."
 	],
 	tasks: [{
 		uid: "062144d0",
 		type: "dimension",
 		title: "Visit The Aether",
 		dim: 4
+	},
+	{
+		uid: "fec4e247",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone"
+		}],
+		count: 12L
+	},
+	{
+		uid: "f16d3542",
+		type: "item",
+		items: [{
+			item: "minecraft:water_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }
