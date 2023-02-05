@@ -1,0 +1,54 @@
+{
+	title: "Hole To The Eventide",
+	icon: "twilightforest:thorn_rose",
+	x: 2.5d,
+	y: 5.0d,
+	description: "Your like alice but the wonderland wants to kill you",
+	text: [
+		"To enter the twilight forest make an 2x2 water source surronded by flowers.",
+		"",
+		"Then drop a diamond inside."
+	],
+	tasks: [{
+		uid: "d451cbc3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "allFlowers",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any allFlowers"
+				}
+			}
+		}],
+		count: 8L
+	},
+	{
+		uid: "15c1d87e",
+		type: "item",
+		items: [{
+			item: "minecraft:water_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "daf419ba",
+		type: "item",
+		items: [{
+			item: "minecraft:grass"
+		}]
+	},
+	{
+		uid: "d4b4a5be",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}]
+}
