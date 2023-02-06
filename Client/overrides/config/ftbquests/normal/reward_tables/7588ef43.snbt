@@ -3,7 +3,7 @@
 	loot_size: 3,
 	rewards: [{
 		item: "contenttweaker:reforge_cat",
-		count: 15,
+		count: 20,
 		weight: 15
 	},
 	{
@@ -29,13 +29,8 @@
 	},
 	{
 		item: "megaloot:upgradecharm_epic",
-		count: 16,
+		count: 28,
 		weight: 25
-	},
-	{
-		item: "ebwizardry:grand_crystal",
-		count: 4,
-		weight: 10
 	},
 	{
 		item: {
