@@ -48,7 +48,20 @@
 				type: "random_dragon_egg_duos"
 			}
 		},
-		weight: 5
+		weight: 4
+	},
+	{
+		item: "chancecubes:chance_icosahedron",
+		count: 2,
+		weight: 4
+	},
+	{
+		item: "chancecubes:compact_giant_chance_cube"
+	},
+	{
+		item: "chancecubes:chance_cube",
+		count: 5,
+		weight: 10
 	}],
 	loot_crate: {
 		string_id: "legendary_tier_rewards",
