@@ -1,0 +1,19 @@
+{
+	title: "Lands of Icaria",
+	icon: "landsoficaria:icaria_portal",
+	x: 3.5d,
+	y: 0.0d,
+	description: "Bring your airship and beware of dragons!",
+	text: [
+		"To activate the icaria portal throw a greek fire grenade at its center."
+	],
+	dependencies: [
+		"7f66815a"
+	],
+	tasks: [{
+		uid: "e0039e39",
+		type: "dimension",
+		icon: "landsoficaria:icaria_portal",
+		dim: -9
+	}]
+}
