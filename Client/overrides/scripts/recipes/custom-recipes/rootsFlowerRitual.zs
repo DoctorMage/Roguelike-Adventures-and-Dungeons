@@ -90,16 +90,3 @@ FlowerGrowth.addRecipeItemOnSoils("customFlowerRitualRecipie_bop3", <biomesoplen
 FlowerGrowth.addRecipeItemOnSoils("customFlowerRitualRecipie_bop10", <biomesoplenty:flower_0:10>, [<biomesoplenty:grass:0>]);
 FlowerGrowth.addRecipeItemOnSoils("customFlowerRitualRecipie_bop11", <biomesoplenty:flower_0:11>, [<ore:sand>]);
 FlowerGrowth.addRecipeItemOnSoils("customFlowerRitualRecipie_frost_lily", <iceandfire:frost_lily>, [<minecraft:ice>, <minecraft:packed_ice>, <cavern:slippery_ice>, <chisel:ice>]);
-
-FlowerGrowth.addRecipeBlock("customFlowerRitualRecipie_rustic_1", <block:rustic:cloudsbluff>.block, 3);
-FlowerGrowth.addRecipeBlock("customFlowerRitualRecipie_rustic_2", <block:rustic:wind_thistle>.block, 3);
-FlowerGrowth.addRecipeBlock("customFlowerRitualRecipie_rustic_3", <block:rustic:mooncap_mushroom>.block, 3);
-FlowerGrowth.addRecipeBlock("customFlowerRitualRecipie_rustic_4", <block:rustic:horsetail>.block, 3);
-FlowerGrowth.addRecipeBlock("customFlowerRitualRecipie_rustic_5", <block:rustic:deathstalk_mushroom>.block, 3);
-FlowerGrowth.addRecipeBlock("customFlowerRitualRecipie_rustic_6", <block:rustic:cohosh>.block, 3);
-FlowerGrowth.addRecipeBlock("customFlowerRitualRecipie_rustic_7", <block:rustic:chamomile>.block, 3);
-FlowerGrowth.addRecipeBlock("customFlowerRitualRecipie_rustic_8", <block:rustic:blood_orchid>.block, 3);
-FlowerGrowth.addRecipeBlock("customFlowerRitualRecipie_rustic_9", <block:rustic:aloe_vera>.block, 3);
-FlowerGrowth.addRecipeBlock("customFlowerRitualRecipie_rustic_10", <block:rustic:core_root>.block, 3);
-FlowerGrowth.addRecipeBlock("customFlowerRitualRecipie_rustic_11", <block:rustic:ginseng>.block, 3);
-FlowerGrowth.addRecipeBlock("customFlowerRitualRecipie_rustic_12", <block:rustic:marsh_mallow>.block, 3);
