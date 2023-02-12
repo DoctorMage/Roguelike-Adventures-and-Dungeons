@@ -4,7 +4,12 @@
 	y: 10.0d,
 	description: "Glimmers in the light",
 	text: [
-		"Craft a golden Scarab."
+		"Craft a golden Scarab.",
+		"",
+		"Baptise it within the water of the atum structure you've placed."
+	],
+	dependencies: [
+		"09cad9b8"
 	],
 	size: 2.0d,
 	tasks: [{
@@ -15,6 +20,12 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "91205ff1",
+		type: "dimension",
+		icon: "atum:sand",
+		dim: 17
 	}],
 	rewards: [{
 		uid: "e1778317",

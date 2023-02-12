@@ -1,29 +1,24 @@
 {
-	title: "Lands of Icaria",
+	title: "Gateway To Hellenes",
+	icon: "landsoficaria:greek_fire_grenade",
 	x: 1.5d,
 	y: 0.0d,
-	description: "Bring your airship and beware of dragons!",
 	text: [
-		"To enter Icaria, one must first make their way into the nether. There, a considerable quantity of Quartz must be obtained in order to construct a portal. Then the player needs to go find red pyromancer revenants in the nether and kill them to obtain ",
-		"obtain greek fire grenades.",
+		"Collect the requested materials and trade them in for a pre built icaria portal.",
 		"",
-		"Once constructed, the portal can be activated with a greek fire grenade."
+		"Any future portals are built in the same way as the one in the capsule."
 	],
 	dependencies: [
 		"9373438b"
 	],
 	tasks: [{
-		uid: "2690237b",
-		type: "dimension",
-		dim: -9
-	},
-	{
 		uid: "e3875183",
 		type: "item",
 		items: [{
 			item: "minecraft:quartz_block 1 2"
 		}],
-		count: 6L
+		count: 6L,
+		consume_items: true
 	},
 	{
 		uid: "c600d067",
@@ -31,7 +26,8 @@
 		items: [{
 			item: "landsoficaria:quartz_pillar_head"
 		}],
-		count: 2L
+		count: 2L,
+		consume_items: true
 	},
 	{
 		uid: "0239dff4",
@@ -39,7 +35,27 @@
 		items: [{
 			item: "minecraft:stone_slab 1 7"
 		}],
-		count: 6L
+		count: 6L,
+		consume_items: true
+	},
+	{
+		uid: "6fc80897",
+		type: "kill",
+		entity: "landsoficaria:revenant_pyromancer_nether",
+		value: 5L
+	},
+	{
+		uid: "da46eb44",
+		type: "dimension",
+		icon: "minecraft:netherrack",
+		dim: -1
+	},
+	{
+		uid: "b4571901",
+		type: "item",
+		items: [{
+			item: "landsoficaria:greek_fire_grenade"
+		}]
 	}],
 	rewards: [{
 		uid: "20a883d5",
@@ -49,6 +65,27 @@
 			tag: {
 				type: "rare_tier_rewards"
 			}
+		}
+	},
+	{
+		uid: "b2e9e6f9",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				color: 16777215,
+				size: 7,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/icaria_portal",
+				display: {
+					color: 16777215,
+					Name: "Icaria Portal"
+				},
+				label: "Icaria_Portal",
+				canRotate: 1b
+			},
+			Damage: 5s
 		}
 	}]
 }

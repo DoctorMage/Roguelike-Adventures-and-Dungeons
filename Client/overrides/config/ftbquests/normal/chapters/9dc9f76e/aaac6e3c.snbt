@@ -4,8 +4,9 @@
 	y: -1.0d,
 	description: "Be quiet this is a libary",
 	text: [
-		"For an enchanting table to work it needs 1 or more bookshelfs for it to gain enchanting power. Further more there needs to be a 1 block space between ",
-		"the shelf and the enchanting table with nothing between them.",
+		"For an enchanting table to work it needs 1 or more bookshelfs for it to gain enchanting power. ",
+		"",
+		"Further more there needs to be a 1 block space between the shelf and the enchanting table with nothing between them.",
 		"",
 		"The max level for an enchanting table with wooden bookshelfs is capped!"
 	],

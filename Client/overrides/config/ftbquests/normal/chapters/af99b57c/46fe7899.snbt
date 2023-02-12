@@ -63,22 +63,22 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "1b73bf98",
-		type: "choice",
-		table: 56
+		uid: "4f7df0b1",
+		type: "random",
+		table: 58
 	},
 	{
-		uid: "c8275c0c",
+		uid: "ac038870",
 		type: "loot",
 		table: 12
 	},
 	{
-		uid: "892a9818",
+		uid: "743c24b1",
 		type: "xp_levels",
 		xp_levels: 25
 	},
 	{
-		uid: "330ffa70",
+		uid: "4fddacb3",
 		type: "ftbmoney:money",
 		ftb_money: 100L
 	}]

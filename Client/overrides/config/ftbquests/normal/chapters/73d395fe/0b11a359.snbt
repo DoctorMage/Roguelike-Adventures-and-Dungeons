@@ -1,0 +1,32 @@
+{
+	title: "Budget Stargate",
+	x: -8.5d,
+	y: -2.5d,
+	description: "Just be happy it doesn't use gregs recipe",
+	text: [
+		"Tired of waiting for it to be night or getting stuck in the midnight.",
+		"",
+		"Place down a rifting machine and activate it to create your own midnight portal."
+	],
+	dependencies: [
+		"b91d4d0e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "09b1d53a",
+		type: "item",
+		items: [{
+			item: "rifting:riftingmachine"
+		}]
+	}],
+	rewards: [{
+		uid: "6ac060d0",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "b44ba84e",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}
