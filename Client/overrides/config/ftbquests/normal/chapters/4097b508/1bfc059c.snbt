@@ -1,6 +1,11 @@
 {
 	title: "Hedge Maze",
-	icon: "ebwizardry:blank_scroll",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
 	x: 11.67857142857143d,
 	y: 2.017857142857146d,
 	shape: "square",
@@ -25,19 +30,24 @@
 		uid: "2cecd752",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 7566195,
 				size: 41,
-				sourceInventory: {},
-				structureName: "B-83-config_capsule_rewards_hedge_maze",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/hedge_maze",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 12881152
 				},
-				label: "Hedge Maze"
+				label: "Hedge Maze",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

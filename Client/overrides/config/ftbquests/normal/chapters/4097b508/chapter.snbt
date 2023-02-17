@@ -1,6 +1,9 @@
 {
 	title: "&lAmazing &6&lArchitects",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "capsule:capsule",
 		tag: {
 			"Quark:RuneColor": 13,

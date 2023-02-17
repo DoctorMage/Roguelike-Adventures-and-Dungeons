@@ -1,6 +1,9 @@
 {
 	title: "Bridge Extender",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ebwizardry:scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -36,19 +39,24 @@
 		uid: "6c2ff245",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 7566195,
 				size: 13,
-				sourceInventory: {},
-				structureName: "B-77-config_capsule_rewards_bridge_extender",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/bridge_extender",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 12881152
 				},
-				label: "Bridge Extender"
+				label: "Bridge Extender",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

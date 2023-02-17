@@ -1,6 +1,9 @@
 {
 	title: "Crimson Farmland",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:duplication_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -35,19 +38,24 @@
 		uid: "fc0c706a",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 9717760,
 				size: 21,
-				sourceInventory: {},
-				structureName: "B-131-config_capsule_rewards_crimson_farmland",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/crimson_farmland",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 9699328
 				},
-				label: "Crimson Farmland"
+				label: "Crimson Farmland",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

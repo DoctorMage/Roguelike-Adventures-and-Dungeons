@@ -1,6 +1,9 @@
 {
 	title: "Crimson Spa",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:duplication_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -35,19 +38,24 @@
 		uid: "6a2139d1",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 9717760,
 				size: 13,
-				sourceInventory: {},
-				structureName: "B-135-config_capsule_rewards_crimson_spa",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/crimson_spa",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 9699328
 				},
-				label: "Crimson Spa"
+				label: "Crimson Spa",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

@@ -1,6 +1,11 @@
 {
 	title: "Straight of Houses",
-	icon: "ebwizardry:blank_scroll",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
 	x: 10.94897959183674d,
 	y: 0.5034013605442169d,
 	shape: "square",
@@ -25,19 +30,24 @@
 		uid: "679f9a90",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 7566195,
 				size: 49,
-				sourceInventory: {},
-				structureName: "B-90-config_capsule_rewards_duplex",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/duplex",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 12881152
 				},
-				label: "Duplex"
+				label: "Duplex",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

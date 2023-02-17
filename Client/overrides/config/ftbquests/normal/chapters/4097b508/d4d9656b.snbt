@@ -1,6 +1,11 @@
 {
 	title: "&bSpruce Wizard Tower",
-	icon: "ebwizardry:blank_scroll",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
 	x: -9.454761904761881d,
 	y: 0.43333333333333d,
 	shape: "square",
@@ -25,19 +30,24 @@
 		uid: "ff407531",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 48368,
 				size: 45,
-				sourceInventory: {},
-				structureName: "B-58-config_capsule_rewards_spruce_wizard_tower",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/spruce_wizard_tower",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 48368
 				},
-				label: "Spruce Wizard Tower"
+				label: "Spruce Wizard Tower",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

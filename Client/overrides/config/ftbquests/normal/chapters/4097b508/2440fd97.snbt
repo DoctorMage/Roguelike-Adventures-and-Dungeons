@@ -1,5 +1,8 @@
 {
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:bartering_scroll",
 		tag: {
 			"Quark:RuneColor": 13,

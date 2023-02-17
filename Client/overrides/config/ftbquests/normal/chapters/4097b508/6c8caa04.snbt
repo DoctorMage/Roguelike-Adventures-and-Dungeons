@@ -6,7 +6,10 @@
 		uid: "ecd23566",
 		type: "item",
 		items: [{
-			item: "ebwizardry:master_ice_wand"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:master_ice_wand"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -1,6 +1,9 @@
 {
 	title: "Diagonal Bridge L",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ebwizardry:scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -36,19 +39,24 @@
 		uid: "d8a3c8fd",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 7566195,
 				size: 25,
-				sourceInventory: {},
-				structureName: "B-81-config_capsule_rewards_diagonal_bridge_l",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/diagonal_bridge_l",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 12881152
 				},
-				label: "Diagonal Bridge L"
+				label: "Diagonal Bridge L",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

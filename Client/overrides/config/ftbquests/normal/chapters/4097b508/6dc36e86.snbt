@@ -1,6 +1,11 @@
 {
 	title: "Well",
-	icon: "ebwizardry:blank_scroll",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
 	x: 7.3214285714285765d,
 	y: 2.017857142857139d,
 	shape: "square",
@@ -25,19 +30,24 @@
 		uid: "6ffeb7ba",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 7566195,
 				size: 15,
-				sourceInventory: {},
-				structureName: "B-92-config_capsule_rewards_well",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/well",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 12881152
 				},
-				label: "Well"
+				label: "Well",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

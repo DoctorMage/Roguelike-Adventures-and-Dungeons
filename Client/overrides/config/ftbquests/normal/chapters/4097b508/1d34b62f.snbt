@@ -1,6 +1,11 @@
 {
 	title: "House 1",
-	icon: "ebwizardry:blank_scroll",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
 	x: 8.071428571428577d,
 	y: -0.9821428571428577d,
 	shape: "square",
@@ -25,19 +30,24 @@
 		uid: "0bd6e024",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 7566195,
 				size: 25,
-				sourceInventory: {},
-				structureName: "B-84-config_capsule_rewards_house_1",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/house_1",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 12881152
 				},
-				label: "House 1"
+				label: "House 1",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

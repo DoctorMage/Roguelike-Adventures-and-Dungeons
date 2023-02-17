@@ -1,6 +1,9 @@
 {
 	title: "Thaumic Observer Tower",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -35,19 +38,24 @@
 		uid: "c7b74d5d",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 4013373,
 				size: 21,
-				sourceInventory: {},
-				structureName: "B-107-config_capsule_rewards_thaumic_observer_tower",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/thaumic_observer_tower",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 4013373
 				},
-				label: "Thaumic Observer Tower"
+				label: "Thaumic Observer Tower",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

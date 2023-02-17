@@ -6,7 +6,10 @@
 		uid: "84a1b2f5",
 		type: "item",
 		items: [{
-			item: "ebwizardry:master_necromancy_wand"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:master_necromancy_wand"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

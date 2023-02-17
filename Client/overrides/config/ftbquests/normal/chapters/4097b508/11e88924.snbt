@@ -1,6 +1,11 @@
 {
 	title: "Archway House",
-	icon: "ebwizardry:blank_scroll",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
 	x: 12.392857142857139d,
 	y: -0.9821428571428577d,
 	shape: "square",
@@ -25,19 +30,24 @@
 		uid: "89e15fab",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 7566195,
 				size: 39,
-				sourceInventory: {},
-				structureName: "B-89-config_capsule_rewards_archway_house",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/archway_house",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 12881152
 				},
-				label: "Archway House"
+				label: "Archway House",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

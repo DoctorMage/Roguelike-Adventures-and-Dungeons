@@ -1,6 +1,9 @@
 {
 	title: "Thaumic House",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -36,172 +39,24 @@
 		uid: "bf3c1828",
 		type: "item",
 		item: {
-			id: "buildinggadgets:template",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
 			tag: {
-				copycounter: 1,
-				TemplateName: "Thaumic House",
-				UUID: "f56dd473-8236-41e6-b825-5a7c082367fe",
-				startPos: {
-					X: 296,
-					Y: 4,
-					Z: -104
+				color: 4013373,
+				size: 23,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/thaumic_house",
+				author: "Samara__",
+				display: {
+					color: 4013373
 				},
-				itemcountmap: [{
-					item: 35,
-					meta: 14,
-					count: 4
-				},
-				{
-					item: 5392,
-					meta: 12,
-					count: 6
-				},
-				{
-					item: 5524,
-					meta: 0,
-					count: 18
-				},
-				{
-					item: 35,
-					meta: 6,
-					count: 1
-				},
-				{
-					item: 5497,
-					meta: 0,
-					count: 138
-				},
-				{
-					item: 9040,
-					meta: 0,
-					count: 49
-				},
-				{
-					item: 5526,
-					meta: 0,
-					count: 161
-				},
-				{
-					item: 35,
-					meta: 12,
-					count: 1
-				},
-				{
-					item: 4497,
-					meta: 15,
-					count: 4
-				},
-				{
-					item: 35,
-					meta: 1,
-					count: 3
-				},
-				{
-					item: 5525,
-					meta: 0,
-					count: 3
-				},
-				{
-					item: 5265,
-					meta: 0,
-					count: 2
-				},
-				{
-					item: 5357,
-					meta: 6,
-					count: 50
-				},
-				{
-					item: 5523,
-					meta: 0,
-					count: 26
-				},
-				{
-					item: 4841,
-					meta: 0,
-					count: 4
-				},
-				{
-					item: 5506,
-					meta: 0,
-					count: 33
-				},
-				{
-					item: 5352,
-					meta: 11,
-					count: 22
-				},
-				{
-					item: 35,
-					meta: 15,
-					count: 1
-				},
-				{
-					item: 5521,
-					meta: 0,
-					count: 291
-				},
-				{
-					item: 5522,
-					meta: 0,
-					count: 236
-				},
-				{
-					item: 9048,
-					meta: 0,
-					count: 2
-				},
-				{
-					item: 35,
-					meta: 9,
-					count: 1
-				},
-				{
-					item: 5514,
-					meta: 0,
-					count: 153
-				},
-				{
-					item: 35,
-					meta: 11,
-					count: 2
-				},
-				{
-					item: 35,
-					meta: 13,
-					count: 1
-				},
-				{
-					item: 5509,
-					meta: 0,
-					count: 139
-				},
-				{
-					item: 35,
-					meta: 0,
-					count: 1
-				},
-				{
-					item: 8987,
-					meta: 0,
-					count: 51
-				},
-				{
-					item: 5240,
-					meta: 5,
-					count: 32
-				},
-				{
-					item: 5352,
-					meta: 10,
-					count: 10
-				}],
-				endPos: {
-					X: 277,
-					Y: 16,
-					Z: -126
-				}
-			}
+				label: "Thaumic House",
+				canRotate: 1b
+			},
+			Damage: 5s
 		}
 	}]
 }

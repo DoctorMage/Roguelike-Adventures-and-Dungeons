@@ -1,6 +1,9 @@
 {
 	title: "&6&lRadiant Master Statue",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:empty_theory_scroll",
 		tag: {
 			"Quark:RuneColor": 4,
@@ -39,19 +42,24 @@
 		uid: "e478c13d",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
 				color: 16777215,
 				size: 71,
-				sourceInventory: {},
-				structureName: "B-35-config_capsule_rewards_radiant_master_statue",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/radiant_master_statue",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 16777215
 				},
-				label: "Radiant Master Statue"
+				label: "Radiant Master Statue",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

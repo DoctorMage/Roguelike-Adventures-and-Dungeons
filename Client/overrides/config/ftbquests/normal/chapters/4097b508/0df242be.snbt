@@ -1,6 +1,11 @@
 {
 	title: "&6Birch Wizard Tower",
-	icon: "ancientspellcraft:empty_theory_scroll",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:empty_theory_scroll"
+	},
 	x: -6.549999999999969d,
 	y: 0.43333333333333d,
 	shape: "square",
@@ -25,19 +30,24 @@
 		uid: "3a3d349f",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
 				color: 16777215,
 				size: 63,
-				sourceInventory: {},
-				structureName: "B-54-config_capsule_rewards_birch_wizard_tower",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/birch_wizard_tower",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 16777215
 				},
-				label: "Birch Wizard Tower"
+				label: "Birch Wizard Tower",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

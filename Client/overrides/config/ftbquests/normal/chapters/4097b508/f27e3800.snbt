@@ -1,6 +1,11 @@
 {
 	title: "Clock Tower",
-	icon: "ebwizardry:blank_scroll",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
 	x: 6.607142857142854d,
 	y: 0.5178571428571459d,
 	shape: "square",
@@ -25,19 +30,24 @@
 		uid: "e4995f9a",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 7566195,
 				size: 53,
-				sourceInventory: {},
-				structureName: "B-80-config_capsule_rewards_clock_tower",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/clock_tower",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 12881152
 				},
-				label: "Clock Tower"
+				label: "Clock Tower",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

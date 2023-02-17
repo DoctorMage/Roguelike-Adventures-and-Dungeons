@@ -1,6 +1,11 @@
 {
 	title: "Bakery",
-	icon: "ebwizardry:blank_scroll",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
 	x: 12.392857142857139d,
 	y: 0.5178571428571388d,
 	shape: "square",
@@ -25,19 +30,24 @@
 		uid: "97a3dd44",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 7566195,
 				size: 23,
-				sourceInventory: {},
-				structureName: "B-76-config_capsule_rewards_bakery",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/bakery",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 12881152
 				},
-				label: "Bakery"
+				label: "Bakery",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

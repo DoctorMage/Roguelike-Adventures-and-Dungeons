@@ -6,7 +6,10 @@
 		uid: "3affb38e",
 		type: "item",
 		items: [{
-			item: "ebwizardry:master_healing_wand"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:master_healing_wand"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

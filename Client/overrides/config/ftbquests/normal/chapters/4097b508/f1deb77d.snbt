@@ -1,6 +1,9 @@
 {
 	title: "Warped Jar Storage",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:transmutation_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -35,19 +38,24 @@
 		uid: "7fe96b7a",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 4013373,
 				size: 25,
-				sourceInventory: {},
-				structureName: "B-120-config_capsule_rewards_warped_jar_storage",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/warped_jar_storage",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 0
 				},
-				label: "Warped Jar Storage"
+				label: "Warped Jar Storage",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

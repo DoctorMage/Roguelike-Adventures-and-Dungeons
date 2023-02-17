@@ -1,6 +1,9 @@
 {
 	title: "&b&lIcy Master Statue",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ebwizardry:blank_scroll",
 		tag: {
 			"Quark:RuneColor": 3,
@@ -39,19 +42,24 @@
 		uid: "cfaf2713",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 48368,
 				size: 57,
-				sourceInventory: {},
-				structureName: "B-33-config_capsule_rewards_icy_master_statue",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/icy_master_statue",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 48368
 				},
-				label: "Icy Master Statue"
+				label: "Icy Master Statue",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

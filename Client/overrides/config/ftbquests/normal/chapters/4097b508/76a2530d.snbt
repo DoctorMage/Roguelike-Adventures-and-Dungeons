@@ -1,6 +1,9 @@
 {
 	title: "&3Stone Wizard Tower",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:transmutation_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -35,19 +38,24 @@
 		uid: "87299e8d",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 143546,
 				size: 53,
-				sourceInventory: {},
-				structureName: "B-57-config_capsule_rewards_stone_wizard_tower",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/stone_wizard_tower",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 143546
 				},
-				label: "Stone Wizard Tower"
+				label: "Stone Wizard Tower",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

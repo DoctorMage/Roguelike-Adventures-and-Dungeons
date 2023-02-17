@@ -1,6 +1,9 @@
 {
 	title: "Thaumic Jar Storage",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -35,19 +38,24 @@
 		uid: "802f1f6a",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 2293908,
 				size: 25,
-				sourceInventory: {},
-				structureName: "B-106-config_capsule_rewards_thaumic_jar_storage",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/thaumic_jar_storage",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 4013373
 				},
-				label: "Thaumic Jar Storage"
+				label: "Thaumic Jar Storage",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

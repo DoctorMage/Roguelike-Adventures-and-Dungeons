@@ -10,7 +10,10 @@
 		uid: "0125e666",
 		type: "item",
 		items: [{
-			item: "minecraft:obsidian"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:obsidian"
 		}],
 		count: 1000000L,
 		consume_items: true
@@ -25,11 +28,11 @@
 	{
 		uid: "a4817a6a",
 		type: "xp_levels",
-		xp_levels: 500
+		xp_levels: 5000
 	},
 	{
 		uid: "63e50ff5",
 		type: "ftbmoney:money",
-		ftb_money: 2000L
+		ftb_money: 1000000L
 	}]
 }

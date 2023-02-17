@@ -6,7 +6,10 @@
 		uid: "c849958c",
 		type: "item",
 		items: [{
-			item: "ebwizardry:master_fire_wand"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:master_fire_wand"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

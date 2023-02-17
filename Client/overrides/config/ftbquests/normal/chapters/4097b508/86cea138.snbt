@@ -1,6 +1,9 @@
 {
 	title: "Stone Library",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:transmutation_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -35,19 +38,24 @@
 		uid: "c8d4d9de",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 143546,
 				size: 25,
-				sourceInventory: {},
-				structureName: "B-39-config_capsule_rewards_stone_library",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/stone_library",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 143546
 				},
-				label: "Stone Library"
+				label: "Stone Library",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

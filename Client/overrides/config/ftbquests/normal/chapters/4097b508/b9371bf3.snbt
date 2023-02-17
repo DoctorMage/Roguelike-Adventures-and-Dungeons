@@ -1,6 +1,11 @@
 {
 	title: "Spruce Library",
-	icon: "ebwizardry:blank_scroll",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
 	x: -9.419047619047618d,
 	y: 1.9809523809523597d,
 	shape: "square",
@@ -25,19 +30,24 @@
 		uid: "d2726ebf",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 48368,
 				size: 15,
-				sourceInventory: {},
-				structureName: "B-42-config_capsule_rewards_spruce_library",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/spruce_library",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 48368
 				},
-				label: "Spruce Library"
+				label: "Spruce Library",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

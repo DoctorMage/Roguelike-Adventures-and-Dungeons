@@ -1,6 +1,11 @@
 {
 	title: "Birch Library",
-	icon: "ancientspellcraft:empty_theory_scroll",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:empty_theory_scroll"
+	},
 	x: -6.538095238095224d,
 	y: 1.974999999999973d,
 	shape: "square",
@@ -25,19 +30,24 @@
 		uid: "b6a9d9ce",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
 				color: 16777215,
 				size: 15,
-				sourceInventory: {},
-				structureName: "B-40-config_capsule_rewards_birch_library",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/birch_library",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 16777215
 				},
-				label: "Birch Library"
+				label: "Birch Library",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

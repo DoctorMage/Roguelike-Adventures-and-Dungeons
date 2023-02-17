@@ -1,7 +1,0 @@
-{
-	title: "Cut To Title (W.I.P)",
-	icon: "titles:titlearchive",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}
