@@ -1,6 +1,11 @@
 {
 	title: "House 5",
-	icon: "ebwizardry:blank_scroll",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
 	x: 6.607142857142854d,
 	y: -0.9821428571428577d,
 	shape: "square",
@@ -25,19 +30,24 @@
 		uid: "40dacf6b",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 7566195,
 				size: 35,
-				sourceInventory: {},
-				structureName: "B-88-config_capsule_rewards_house_5",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/house_5",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 12881152
 				},
-				label: "House 5"
+				label: "House 5",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

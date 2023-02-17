@@ -1,6 +1,9 @@
 {
 	title: "Diagonal T",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -55,57 +58,72 @@
 		uid: "4b659019",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 6052956,
 				size: 29,
-				sourceInventory: {},
-				structureName: "B-185-config_capsule_rewards_Full_Stone_Wall_Diagonal_T",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/full_stone_wall_diagonal_t",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 6052956
 				},
-				label: "Full Stone Wall Diagonal T"
+				label: "Full Stone Wall Diagonal T",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	},
 	{
 		uid: "8b4c4391",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 6052956,
 				size: 29,
-				sourceInventory: {},
-				structureName: "B-186-config_capsule_rewards_Stone_Wall_Diagonal_T",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/stone_wall_diagonal_t",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 6052956
 				},
-				label: "Stone Wall Diagonal T"
+				label: "Stone Wall Diagonal T",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	},
 	{
 		uid: "e551aeec",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 6052956,
 				size: 33,
-				sourceInventory: {},
-				structureName: "B-187-config_capsule_rewards_Stone_Wall_Walkthru_Diagonal_T",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/stone_wall_walkthru_diagonal_t",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 6052956
 				},
-				label: "Stone Wall Walkthru Diagonal T"
+				label: "Stone Wall Walkthru Diagonal T",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

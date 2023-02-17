@@ -1,6 +1,9 @@
 {
 	title: "&3&lStormy Master Statue",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:transmutation_scroll",
 		tag: {
 			"Quark:RuneColor": 11,
@@ -37,19 +40,24 @@
 		uid: "91d2d877",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 143546,
 				size: 53,
-				sourceInventory: {},
-				structureName: "B-36-config_capsule_rewards_stormy_master_statue",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/stormy_master_statue",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 143546
 				},
-				label: "Stormy Master Statue"
+				label: "Stormy Master Statue",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

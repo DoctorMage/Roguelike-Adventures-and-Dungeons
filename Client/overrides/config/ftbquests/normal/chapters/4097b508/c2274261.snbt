@@ -1,6 +1,9 @@
 {
 	title: "Warped Observer Tower",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:transmutation_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -35,19 +38,24 @@
 		uid: "66fd41cd",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 4013373,
 				size: 21,
-				sourceInventory: {},
-				structureName: "B-121-config_capsule_rewards_warped_observer_tower",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/warped_observer_tower",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 0
 				},
-				label: "Warped Observer Tower"
+				label: "Warped Observer Tower",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

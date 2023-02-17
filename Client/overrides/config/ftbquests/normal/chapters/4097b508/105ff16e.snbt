@@ -1,6 +1,9 @@
 {
 	title: "Diagonal L",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -55,57 +58,72 @@
 		uid: "3644a7d6",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 6052956,
 				size: 29,
-				sourceInventory: {},
-				structureName: "B-182-config_capsule_rewards_Full_Stone_Wall_Diagonal_L",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/full_stone_wall_diagonal",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 6052956
 				},
-				label: "Full Stone Wall Diagonal L"
+				label: "Full Stone Wall Diagonal",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	},
 	{
 		uid: "a979c0d6",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
-				size: 29,
-				sourceInventory: {},
-				structureName: "B-183-config_capsule_rewards_Stone_Wall_Diagonal_L",
+				color: 6052956,
+				size: 23,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/full_stone_wall_straight_l",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 6052956
 				},
-				label: "Stone Wall Diagonal L"
+				label: "Full Stone Wall Straight L",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	},
 	{
 		uid: "1fb58602",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 6052956,
 				size: 33,
-				sourceInventory: {},
-				structureName: "B-184-config_capsule_rewards_Stone_Wall_Walkthru_Diagonal_L",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/stone_wall_walkthru_diagonal_l",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 6052956
 				},
-				label: "Stone Wall Walkthru Diagonal L"
+				label: "Stone Wall Walkthru Diagonal L",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

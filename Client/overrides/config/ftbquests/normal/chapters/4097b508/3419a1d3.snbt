@@ -1,6 +1,9 @@
 {
 	title: "Oak Library",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:bartering_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -35,19 +38,24 @@
 		uid: "326cfafd",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 29497,
 				size: 15,
-				sourceInventory: {},
-				structureName: "B-41-config_capsule_rewards_oak_library",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/oak_library",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 29497
 				},
-				label: "Oak Library"
+				label: "Oak Library",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

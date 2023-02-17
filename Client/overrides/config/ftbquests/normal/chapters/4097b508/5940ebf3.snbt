@@ -1,6 +1,9 @@
 {
 	title: "Warped Spa",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:transmutation_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -35,19 +38,24 @@
 		uid: "7f7cc669",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 4013373,
 				size: 13,
-				sourceInventory: {},
-				structureName: "B-122-config_capsule_rewards_warped_spa",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/warped_spa",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 0
 				},
-				label: "Warped Spa"
+				label: "Warped Spa",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

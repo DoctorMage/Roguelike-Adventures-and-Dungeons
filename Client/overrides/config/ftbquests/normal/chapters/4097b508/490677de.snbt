@@ -1,6 +1,9 @@
 {
 	title: "Crimson Altar",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:duplication_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -35,19 +38,24 @@
 		uid: "1f3ad486",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 9717760,
 				size: 21,
-				sourceInventory: {},
-				structureName: "B-130-config_capsule_rewards_crimson_altar",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/crimson_altar",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 9699328
 				},
-				label: "Crimson Altar"
+				label: "Crimson Altar",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

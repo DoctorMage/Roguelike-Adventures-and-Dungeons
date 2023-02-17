@@ -1,6 +1,9 @@
 {
 	title: "Jungle Library",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "tfspellpack:twilight_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -36,19 +39,24 @@
 		uid: "05ff8892",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 2225418,
 				size: 15,
-				sourceInventory: {},
-				structureName: "B-38-config_capsule_rewards_jungle_library",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/jungle_library",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 2225418
 				},
-				label: "Jungle Library"
+				label: "Jungle Library",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

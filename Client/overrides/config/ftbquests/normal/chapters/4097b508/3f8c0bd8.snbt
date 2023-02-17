@@ -1,6 +1,9 @@
 {
 	title: "Extender",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -55,57 +58,72 @@
 		uid: "46f044e1",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 6052956,
 				size: 15,
-				sourceInventory: {},
-				structureName: "B-194-config_capsule_rewards_Full_Stone_Wall_Extender",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/full_stone_wall_extender",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 6052956
 				},
-				label: "Full Stone Wall Extender"
+				label: "Full Stone Wall Extender",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	},
 	{
 		uid: "781abb31",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 6052956,
 				size: 15,
-				sourceInventory: {},
-				structureName: "B-195-config_capsule_rewards_Stone_Wall_Extender",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/stone_wall_extender",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 6052956
 				},
-				label: "Stone Wall Extender"
+				label: "Stone Wall Extender",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	},
 	{
 		uid: "554c91f8",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 6052956,
 				size: 15,
-				sourceInventory: {},
-				structureName: "B-196-config_capsule_rewards_Stone_Wall_Walkthrough_Extender",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/stone_wall_walkthrough_extender",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 6052956
 				},
-				label: "Stone Wall Walkthrough Extender"
+				label: "Stone Wall Walkthrough Extender",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

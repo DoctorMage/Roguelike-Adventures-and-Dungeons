@@ -1,6 +1,9 @@
 {
 	title: "Archway",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -55,57 +58,73 @@
 		uid: "8297dcf4",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 6052956,
 				size: 33,
-				sourceInventory: {},
-				structureName: "B-170-config_capsule_rewards_Full_Stone_Wall_Archway",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/full_stone_wall_archway",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 6052956
 				},
-				label: "Full Stone Wall Archway"
+				label: "Full Stone Wall Archway",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	},
 	{
 		uid: "6a079d43",
 		type: "item",
+		auto: "invisible",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 6052956,
 				size: 33,
-				sourceInventory: {},
-				structureName: "B-171-config_capsule_rewards_Stone_Wall_Archway",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/stone_wall_archway",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 6052956
 				},
-				label: "Stone Wall Archway"
+				label: "Stone Wall Archway",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	},
 	{
 		uid: "b04c0a66",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 6052956,
 				size: 33,
-				sourceInventory: {},
-				structureName: "B-172-config_capsule_rewards_Stone_Wall_Walkthrough_Archway",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/stone_wall_walkthrough_archway",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 6052956
 				},
-				label: "Stone Wall Walkthrough Archway"
+				label: "Stone Wall Walkthrough Archway",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

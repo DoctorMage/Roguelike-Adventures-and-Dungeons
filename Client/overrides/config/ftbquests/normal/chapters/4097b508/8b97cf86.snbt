@@ -1,6 +1,9 @@
 {
 	title: "&4&lFiery Master Statue",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:duplication_scroll",
 		tag: {
 			"Quark:RuneColor": 14,
@@ -39,19 +42,24 @@
 		uid: "7e64aa3d",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 10886144,
 				size: 41,
-				sourceInventory: {},
-				structureName: "B-32-config_capsule_rewards_fiery_master_statue",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/fiery_master_statue",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 10886144
 				},
-				label: "Fiery Master Statue"
+				label: "Fiery Master Statue",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

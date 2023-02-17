@@ -6,7 +6,10 @@
 		uid: "f68fc76b",
 		type: "item",
 		items: [{
-			item: "ebwizardry:master_sorcery_wand"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:master_sorcery_wand"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

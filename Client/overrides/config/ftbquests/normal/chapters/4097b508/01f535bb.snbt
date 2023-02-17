@@ -1,6 +1,9 @@
 {
 	title: "&5Dark Oak Wizard Tower",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -35,19 +38,24 @@
 		uid: "433f696d",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 3604646,
 				size: 63,
-				sourceInventory: {},
-				structureName: "B-52-config_capsule_rewards_dark_oak_wizard_tower",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/dark_oak_wizard_tower",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 3604646
 				},
-				label: "Dark Oak Wizard Tower"
+				label: "Dark Oak Wizard Tower",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

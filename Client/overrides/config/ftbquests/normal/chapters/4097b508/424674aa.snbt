@@ -1,6 +1,9 @@
 {
 	title: "Crimson Observer Tower",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:duplication_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -35,19 +38,24 @@
 		uid: "2ba77c5e",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 9717760,
 				size: 21,
-				sourceInventory: {},
-				structureName: "B-136-config_capsule_rewards_crimson_observer_tower",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/crimson_observer_tower",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 9699328
 				},
-				label: "Crimson Observer Tower"
+				label: "Crimson Observer Tower",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

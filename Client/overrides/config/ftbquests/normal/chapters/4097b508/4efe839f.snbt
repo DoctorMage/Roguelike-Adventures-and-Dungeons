@@ -1,6 +1,9 @@
 {
 	title: "Warped Farmland",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:transmutation_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -35,19 +38,24 @@
 		uid: "6a233e62",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 4013373,
 				size: 21,
-				sourceInventory: {},
-				structureName: "B-119-config_capsule_rewards_warped_farmland",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/warped_farmland",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 0
 				},
-				label: "Warped Farmland"
+				label: "Warped Farmland",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

@@ -1,6 +1,9 @@
 {
 	title: "&aJungle Wizard Tower",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "tfspellpack:twilight_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -36,19 +39,24 @@
 		uid: "a09929ba",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 2225418,
 				size: 51,
-				sourceInventory: {},
-				structureName: "B-56-config_capsule_rewards_jungle_wizard_tower",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/jungle_wizard_tower",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 2225418
 				},
-				label: "Jungle Wizard Tower"
+				label: "Jungle Wizard Tower",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

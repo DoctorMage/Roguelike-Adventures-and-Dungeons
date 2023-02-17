@@ -1,6 +1,9 @@
 {
 	title: "Thaumic Altar",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -35,19 +38,24 @@
 		uid: "f9f8a42e",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 2293908,
 				size: 21,
-				sourceInventory: {},
-				structureName: "B-101-config_capsule_rewards_thaumic_altar",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/thaumic_altar",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 4013373
 				},
-				label: "Thaumic Altar"
+				label: "Thaumic Altar",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

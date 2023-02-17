@@ -1,6 +1,9 @@
 {
 	title: "&2Oak Wizard Tower",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:bartering_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -35,19 +38,24 @@
 		uid: "40ebfe45",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 29497,
 				size: 63,
-				sourceInventory: {},
-				structureName: "B-53-config_capsule_rewards_oak_wizard_tower",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/oak_wizard_tower",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 29497
 				},
-				label: "Oak Wizard Tower"
+				label: "Oak Wizard Tower",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

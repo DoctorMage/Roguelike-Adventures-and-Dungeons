@@ -6,7 +6,10 @@
 		uid: "a195b4df",
 		type: "item",
 		items: [{
-			item: "ebwizardry:master_earth_wand"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:master_earth_wand"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -6,7 +6,10 @@
 		uid: "cc7b54e9",
 		type: "item",
 		items: [{
-			item: "ebwizardry:master_lightning_wand"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:master_lightning_wand"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

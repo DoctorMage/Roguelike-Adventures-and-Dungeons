@@ -1,6 +1,9 @@
 {
 	title: "Dark Oak Library",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -35,19 +38,24 @@
 		uid: "3d913df9",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 3604646,
 				size: 15,
-				sourceInventory: {},
-				structureName: "B-44-config_capsule_rewards_dark_oak_library",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/dark_oak_library",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 3604646
 				},
-				label: "Dark Oak Library"
+				label: "Dark Oak Library",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

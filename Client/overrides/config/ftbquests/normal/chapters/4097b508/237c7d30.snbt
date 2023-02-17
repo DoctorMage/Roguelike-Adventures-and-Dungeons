@@ -1,6 +1,9 @@
 {
 	title: "Acacia Library",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:duplication_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -35,19 +38,24 @@
 		uid: "9adf75ce",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 10886144,
 				size: 15,
-				sourceInventory: {},
-				structureName: "B-43-config_capsule_rewards_acacia_library",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/acacia_library",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 10886144
 				},
-				label: "Acacia Library"
+				label: "Acacia Library",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

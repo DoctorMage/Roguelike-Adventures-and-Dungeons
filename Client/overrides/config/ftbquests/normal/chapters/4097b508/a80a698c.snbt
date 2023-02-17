@@ -1,6 +1,9 @@
 {
 	title: "&5&lDark Master Statue",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
 			"Quark:RuneColor": 10,
@@ -39,25 +42,24 @@
 		uid: "8dbd3f4f",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				spawnPosition: {
-					x: -1327,
-					y: 56,
-					dim: 0,
-					z: 1213
-				},
-				upgraded: 0,
-				color: 16777215,
+				color: 3604646,
 				size: 47,
-				sourceInventory: {},
-				structureName: "B-31-config_capsule_rewards_dark_master_statue",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/dark_master_statue",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 3604646
 				},
-				label: "Dark Master Statue"
+				label: "Dark Master Statue",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

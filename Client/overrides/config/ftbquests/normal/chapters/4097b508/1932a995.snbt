@@ -1,6 +1,9 @@
 {
 	title: "&2&lMystical Master Statue",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:bartering_scroll",
 		tag: {
 			"Quark:RuneColor": 13,
@@ -39,19 +42,24 @@
 		uid: "5bd0cc65",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 29497,
 				size: 67,
-				sourceInventory: {},
-				structureName: "B-34-config_capsule_rewards_mystical_master_statue",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/mystical_master_statue",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 29497
 				},
-				label: "Mystical Master Statue"
+				label: "Mystical Master Statue",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

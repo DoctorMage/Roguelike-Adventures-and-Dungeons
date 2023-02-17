@@ -1,6 +1,9 @@
 {
 	title: "Thaumic Farmland",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:amnesia_scroll",
 		tag: {
 			"Quark:RuneColor": 15,
@@ -35,19 +38,24 @@
 		uid: "9fdd884c",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 2293908,
 				size: 21,
-				sourceInventory: {},
-				structureName: "B-104-config_capsule_rewards_thaumic_farmland",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/thaumic_farmland",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 4013373
 				},
-				label: "Thaumic Farmland"
+				label: "Thaumic Farmland",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }

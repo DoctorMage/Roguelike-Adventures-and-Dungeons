@@ -1,6 +1,9 @@
 {
 	title: "&a&lVerdant Master Statue",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "tfspellpack:twilight_scroll",
 		tag: {
 			"Quark:RuneColor": 5,
@@ -40,19 +43,24 @@
 		uid: "290eea00",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "capsule:capsule",
 			tag: {
-				upgraded: 0,
-				color: 16777215,
+				color: 2225418,
 				size: 49,
-				sourceInventory: {},
-				structureName: "B-37-config_capsule_rewards_verdant_master_statue",
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/verdant_master_statue",
+				author: "Samara__",
 				display: {
-					color: 3949738
+					color: 2225418
 				},
-				label: "Verdant Master Statue"
+				label: "Verdant Master Statue",
+				canRotate: 1b
 			},
-			Damage: 3s
+			Damage: 5s
 		}
 	}]
 }
