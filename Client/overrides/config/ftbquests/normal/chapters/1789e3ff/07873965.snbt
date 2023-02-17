@@ -2,13 +2,22 @@
 	title: "Mountain Mole",
 	x: -0.5d,
 	y: -4.0d,
+	description: "Bring your climbing gloves",
+	text: [
+		"A realm impaled with mountains that reach the clouds and beyond."
+	],
 	dependencies: [
 		"68b4656b"
 	],
 	tasks: [{
 		uid: "e7dd60e4",
 		type: "dimension",
-		icon: "rustic:stone_pillar",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rustic:stone_pillar"
+		},
 		dim: -59
 	}],
 	rewards: [{
