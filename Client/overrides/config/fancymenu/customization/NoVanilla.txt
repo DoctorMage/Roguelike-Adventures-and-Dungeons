@@ -9,6 +9,11 @@ customization-meta {
 }
 
 customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
   keepaspectratio = false
   action = backgroundoptions
 }
@@ -20,30 +25,60 @@ customization {
 
 customization {
   identifier = %id=322946%
-  orientation = mid-centered
-  x = -178
+  orientation = bottom-centered
+  x = -90
   action = movebutton
-  y = 116
+  y = -54
 }
 
 customization {
   identifier = %id=322946%
-  width = 176
+  width = 110
   action = resizebutton
   height = 20
 }
 
 customization {
   identifier = %id=562946%
-  orientation = mid-centered
-  x = 2
+  orientation = bottom-left
+  x = 0
   action = movebutton
-  y = 116
+  y = -54
 }
 
 customization {
   identifier = %id=562946%
-  width = 177
+  width = 110
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502970%
+  orientation = bottom-centered
+  x = 22
+  action = movebutton
+  y = -54
+}
+
+customization {
+  identifier = %id=502970%
+  width = 110
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=322970%
+  orientation = bottom-right
+  x = -71
+  action = movebutton
+  y = -54
+}
+
+customization {
+  identifier = %id=322970%
+  width = 70
   action = resizebutton
   height = 20
 }

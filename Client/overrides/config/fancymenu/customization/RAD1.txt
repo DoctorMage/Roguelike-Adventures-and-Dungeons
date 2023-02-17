@@ -245,11 +245,11 @@ customization {
 customization {
   path = config/fancymenu/rad1.53highlights2.png
   orientation = top-left
-  x = 730
+  x = 677
   width = 226
   actionid = dc0000f1-c262-4b6c-a198-2e82770058891672698883882
   action = addtexture
-  y = 67
+  y = 83
   height = 370
 }
 

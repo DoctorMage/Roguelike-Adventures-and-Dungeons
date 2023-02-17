@@ -6,3 +6,6 @@ net.minecraft.client.gui.GuiIngameMenu {
 net.minecraft.client.gui.GuiMainMenu {
 }
 
+com.pg85.otg.forge.gui.mainmenu.OTGGuiWorldSelection {
+}
+
