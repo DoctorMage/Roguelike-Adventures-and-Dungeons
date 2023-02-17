@@ -48,3 +48,20 @@ customization {
   height = 20
 }
 
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\radadv.png
+  label = 
+  loopbackgroundanimations = true
+  x = -107
+  width = 89
+  actionid = ee7c0c38-cc3f-4402-9791-ed7aef783bdb1676636690014
+  action = addbutton
+  y = -41
+  backgroundnormal = config\fancymenu\radadv.png
+  value = https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons-2
+  height = 115
+}
+
