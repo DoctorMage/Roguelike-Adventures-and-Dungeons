@@ -1,0 +1,923 @@
+Rad 1.53 Changes
+
+# Enchants
+
+- Recapped some enchants due to levels being set to max when found as loot or applied as enchant
+- Added more rewards to ifrits judgement
+- Disabled perpetual strike and grimoire
+- Added armour that could not be broken to ares grace blacklist
+- Made war’s odium and tombstone soulbound treasure enchantments
+- Added more gems to be used as rewards in thick pick
+
+# Guidebook
+
+- Added to guidebook section related to item storage
+- Added to guidebook section informing player of knowledge of death menu and compendium
+
+#Starting Gear
+- New Starting Gear Valkyrie
+- Fixed wrong enchants being on Thief and Dancer boots
+
+# Quest Book
+
+- New quest added with hints on how to escape dimensional doors limbo
+- New quest added for reforging token
+- New quest added for enchanting
+- New quest section with custom titles
+- New quest added explaining LevelUp reloaded
+- Cavers quest added, Vampirism quest added
+- Added quest explaining how to make certain dimension portals
+- Added quest rewarding players with pre built icaria and atum portal
+- Legendary reward crate added to reward for certain high value quest
+- Fixed Amazing Architects again for real this time 
+
+# Capsule
+- Replacement to templates that were used in Amazing Architects quest
+
+# Ice And Fire
+
+Dragon changes
+
+- Increased damage for normal attacks to
+20 > 30
+- Dragon breath for both types damage increased to
+4.5 > 5.5
+- Block break cooldown increased from
+5 > 10
+- Health increased from
+850 > 1700
+- Blocks added to breakable blacklist
+
+Dragonsteel Changes
+
+- Dragonsteel Armour decreased from
+12 > 10
+- Dragonsteel Durability decreased from
+8000 > 1999 (2000 in game)
+- Dragonsteel Sword
+25 > 15
+This was done as a change to nerf spartan dragonsteel weapons
+
+# Dimension changes
+- Disable dragons appearing in midnight as well as other ice and fire structures
+
+# Inventory Pets
+
+- Disabled saddle pet due to breaking mob ai
+- Re enabled cloud pet with it’s own custom recipe
+- Added tooltip warnings to all disabled pets stating why they’re disabled
+- Added warning regarding wither pet and lifesteal bug
+
+# Titles 
+
+- Added a bunch of titles related to getting advancements in certain mod
+- Added a bunch of titles related to certain quest
+- 2 variants stylish and unstylish (its own folder that users can choose from)
+- Preview of advancements titles
+
+Stylish Titles (Default) https://imgur.com/a/rlzO7qL
+
+Less Stylish Titles https://imgur.com/a/GKc3f6y
+
+# Custom Recipes/ Recipe Changes
+
+- Added recipe for nether stars to be turned into nether star shards and vice versa
+- Added recipe for universal reforge token
+- Firework with 128 flight duration
+- Cloud Pet has a recipe for obtaining cannot be gotten as chest loot
+- Stick
+- Angelic feather recipe added
+- Chance cubes are back with a custom recipe
+- Dragonbone blood weapons now can be crafted at any durability
+
+# Custom Items
+
+- Added brand new item Universal Reforge Token allows you to reforge any equipments replacement to nether star 
+
+# Ancient Spellcraft
+
+- Increased rarity of all structures to compensate for them being added to more dimensions
+
+# Electroblob’s Wizardry
+
+- Halved exp requirements for Novice, Apprentice and Advanced wands
+
+# Vanilla
+
+- Removed create vanilla world button as vanilla worlds had to many issues
+
+# Extra Utils 2
+
+- Removed recipe to Bag of Holding
+- Added warning tooltip to Bag of Holding
+- Made Bag of Holding quest optional
+
+
+# Twilight Forest
+
+- Changed name of uncrafting table to overly fancy crafting table
+
+# Caverns
+- Increased ore vein size of scaling health ore
+
+# Miscellaneous
+
+- fixed stack size issues for random loot cases and electroblobs items
+- Remove thaumic wonders void shell armour and added warning regarding memory leak
+- Added memory leak warning to agility boots, both helmets from end reborn
+- Added warning to backpacks and summoning pendulum regarding overflow crash when stored in colossal chest
+- Reduced how much soot generates
+- Disabled scroll wheel moving stuff from chest
+- Disabled pc candles due to them not working
+- Chance cubes are obtainable again
+
+# Vampirism
+
+- Vampirism has returned to rad with some changes to make it less unfair.
+
+# Major Changes
+
+- Vampire skills have longer cooldowns
+- Vampire enemies are much stronger
+- Hunter enemies are much stronger
+- The only way to receive vampirism is by completing a quest
+- Vampire forest now Spawn in otg worlds 
+- Less required players in coffins for it to skip to night
+
+# Vampires need umbrellas
+To give vampires a fighting chance during the day they can craft umbrellas which must be held in off hand or main hand or else they will be punished by the sun.
+
+
+____________________________________________________________________________________________________________________________________________
+
+
+# **New Mods**
+## RadOtgPresets
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/rad-otg-presets)
+
+## Vampirism - Become a vampire!
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/vampirism-become-a-vampire)
+
+## Vampires Need Umbrellas
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/vampires-need-umbrellas)
+
+## Guide-API
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/guide-api)
+
+## Capsule
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/capsule)
+
+## WizardryUtils
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/wizardryutils)
+
+## Legendary Tooltips [Forge]
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/legendary-tooltips)
+
+
+_________________
+# **Changed Mods**
+## Beast Slayer
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/beast-slayer)
+
+### ancientbeasts-1.9.99999.jar
+3rd time's the charm I suppose,
+
+this is a small patch with tweaks that might go unnoticed, kunai and ice spikes aiming has been improved, that's it :P.
+
+### ancientbeasts-1.9.9999.jar
+Halloween update!, luckily for us this time it is still October, and not only in our hearts.
+
+Meet our 2 new spooky mobs for this time around
+
+*   Nekros: a scary necromancer ghost
+*   Bonepile: a two headed skeleton that is rarely seen lurking in the overworld
+
+With them we have new items:
+
+*   Dark essence: A potion ingredient, and for the (hopefully not so far) future a very important item
+*   A very unique weapon: You might want to take down a bonepile to see what it is...
+
+There is also a load of tweaks and changes with this update:
+
+*   Netherhounds now can sometimes ram at their target instead of only chasing them.
+*   Sandmonster has been rebalanced and now can dodge attacks sometimes, apart from a sort of Hit and run attack AI.
+*   Zealot has been reworked on some aspects to cause less lag / fps drops..
+*   Fixed a bunch of issues related with ghosts.
+*   Giant had a few improvements to how it works, making it more challeging
+*   Reworked Vessel, not only visually but the fight has changed a bit and now it should be more fun.
+*   Rifted enderman beam can now be correctly blocked with shields.
+*   New sounds for the shielded potion effect.
+*   Owlstacks now only affect undead (can be changed in config) and there is a mob blacklist for the mobs they should scare away.
+*   A handful amount of retextures.
+
+There is also a few things from next update (aka 2.0)
+
+*   Thatch & Block of sticks: two building blocks.
+
+## Ancient Spellcraft
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/ancient-spellcraft)
+
+### AncientSpellcraft-1.12.2-1.5.9.jar
+Version v1.5.9 - 2/2/2023
+-------------------------
+
+### What's Changed
+
+#### **Bug Fixes**
+
+- Fixed server side particle crash with Turn Undead spell. Fixes #128
+
+- Added Runeword - Fury missing a spell icon. Fixes #126
+
+- Fix server side crash with Starve spell. Fixes #130
+
+- Fixed the bug with Runic Plates appearing as [Empty], also fixes existing empty plates if you right click them.
+
+- Fixed bug with sages not being able to pass through their own Arcane Wall blocks. Fixes #129
+
+As always, the easiest way to get help or feedback is through the Discord server! Find the link on the CurseForge page.
+
+ Need a server? With BisectHosting's automated modpack install, setting up a server can be done in just a few clicks:
+
+[![](https://www.bisecthosting.com/partners/custom-banners/a2f8bf1e-2d39-48c4-a80d-02ef73cdd36c.png)](https://www.curseforge.com/linkout?remoteUrl=https://bisecthosting.com/WinDanesz)
+
+### AncientSpellcraft-1.12.2-1.5.8.jar
+Version v1.5.8 - 1/1/2023
+-------------------------
+
+### What's Changed
+
+#### **Bug Fixes**
+
+- Fixed occasional crash with the Experiment spell on dedicated servers. Fixes #125
+
+As always, the easiest way to get help or feedback is through the Discord server! Find the link on the CurseForge page.
+
+ Need a server? With BisectHosting's automated modpack install, setting up a server can be done in just a few clicks:
+
+[![](https://www.bisecthosting.com/partners/custom-banners/a2f8bf1e-2d39-48c4-a80d-02ef73cdd36c.png)](https://www.curseforge.com/linkout?remoteUrl=https://bisecthosting.com/WinDanesz)
+
+### AncientSpellcraft-1.12.2-1.5.7.jar
+Version v1.5.7 - 12/30/2022
+---------------------------
+
+### What's Changed
+
+#### **Bug Fixes**
+
+- Fixed book description of the Experiment spell
+
+- Fixed the epic_artefacts loottable
+
+- Fixed Scroll of Amnesia not being consumed on use
+
+- Fixed Scrolls of Duplication instantly using up/activating the duplicated items when conditions are met
+
+#### **Features**
+
+- Added the Scroll of Imbuement, a new rare scroll type
+
+- Added the Seal of the Scrollmaster
+
+As always, the easiest way to get help or feedback is through the Discord server! Find the link on the CurseForge page.
+
+ Need a server? With BisectHosting's automated modpack install, setting up a server can be done in just a few clicks:
+
+[![](https://www.bisecthosting.com/partners/custom-banners/a2f8bf1e-2d39-48c4-a80d-02ef73cdd36c.png)](https://www.curseforge.com/linkout?remoteUrl=https://bisecthosting.com/WinDanesz)
+
+### AncientSpellcraft-1.12.2-1.5.6.jar
+Version v1.5.6 - 12/28/2022
+---------------------------
+
+### What's Changed
+
+#### **Features**
+
+- Update duplication scroll description
+
+- Changed Skull Sentinel spell element: ancient->necromancy
+
+- More tooltips for the Runic Plates
+
+- Skull Sentinel emits a redstone signal when it detects a hostile creature
+
+- Added some new artefacts and runewords
+
+- Added a config property to the ritual json files to allow disabling individual rituals. Fixes #123
+
+- More runewords and artefacts
+
+- Skeleton Mages are now spawning naturally, also added a rare, more powerful variant
+
+#### **Bug Fixes**
+
+- Death Mark spell is no longer continuous. Fixes #114
+
+- Added missing icon for Death Mark spell. Death Mark now also prints the death coordinates of the marked entity. Fixes #112
+
+- Fixed Skull Sentinel's book item, fixing its assignment to Necromancy.
+
+- Some small bugfixes
+
+- Fix typo
+
+- Sage tomes are no longer enchantable and won't have the enchantment glint after every 4th cast. Fixes #111
+
+- Fixed the 'Extension' sage spell not going on cooldown after a successful cast. Fixes #117
+
+- Fixed the sage tome upgrading with the mystic lectern
+
+- Fixed biome tag's recipe
+
+#### **Refactoring**
+
+- Optimized Dimension Anchor's code (thanks for the tip, 19)
+
+As always, the easiest way to get help or feedback is through the Discord server! Find the link on the CurseForge page.
+
+ Need a server? With BisectHosting's automated modpack install, setting up a server can be done in just a few clicks:
+
+[![](https://www.bisecthosting.com/partners/custom-banners/a2f8bf1e-2d39-48c4-a80d-02ef73cdd36c.png)](https://www.curseforge.com/linkout?remoteUrl=https://bisecthosting.com/WinDanesz)
+
+### AncientSpellcraft-1.12.2-1.5.5.jar
+Version v1.5.5 - 10/31/2022
+---------------------------
+
+### What's Changed
+
+#### **Bug Fixes**
+
+- Fix crash with Death Mark spell
+
+As always, the easiest way to get help or feedback is through the Discord server! Find the link on the CurseForge page.
+
+ Need a server? With BisectHosting's automated modpack install, setting up a server can be done in just a few clicks:
+
+[![](https://www.bisecthosting.com/partners/custom-banners/a2f8bf1e-2d39-48c4-a80d-02ef73cdd36c.png)](https://www.curseforge.com/linkout?remoteUrl=https://bisecthosting.com/WinDanesz)
+
+### AncientSpellcraft-1.12.2-v1.5.4.jar
+Version v1.5.4 - 10/22/2022
+---------------------------
+
+### What's Changed
+
+#### **Features**
+
+- Added a dynamic spell book recipe crafting function
+
+- Spell Book bookshelves now accept Ritual Books. Fixes #106
+
+- Added some helper tooltip to ritual books
+
+- Spectral army summons 8->5 minions
+
+- New texture for the Wizard's Tankard
+
+#### **Bug Fixes**
+
+- Added crafting recipe for Scribe and Experiment spells. Fixes #110
+
+- Changed Experiment spell type attack -> alteration
+
+- Fix crash with dispenser casts on server with the Force Strike spell. Fixes #107
+
+- Fixed ritual book identification. Fixes #105
+
+- Added a dozen missing artefacts to loot tables. Fixes #102
+
+- Fixed crash with Neat/Xaero minimap. Fixes #81
+
+- Fix crash with /listbiomes command, updated Will o' Wisp spell. Fixes #31, Fixes #3, Fixes #47
+
+- Fixed the elder futhark encrypted text overflowing in undiscovered Ritual Books. Fixes #41, Fixes #44
+
+As always, the easiest way to get help or feedback is through the Discord server! Find the link on the CurseForge page.
+
+ Need a server? With BisectHosting's automated modpack install, setting up a server can be done in just a few clicks:
+
+[![](https://www.bisecthosting.com/partners/custom-banners/a2f8bf1e-2d39-48c4-a80d-02ef73cdd36c.png)](https://www.curseforge.com/linkout?remoteUrl=https://bisecthosting.com/WinDanesz)
+
+## Better Displays
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/better-displays)
+
+### BetterDisplays-1.12.2-1.1.1.jar
+Version v1.1.1 - 12/31/2022
+---------------------------
+
+### What's Changed
+
+#### **Bug Fixes**
+
+- Fixed Spruce Book Holder appearing empty even when it has books
+
+- Fixed the book holders' positioning, making them attached to walls instead of floating
+
+#### **Features**
+
+- Added crafting recipes for the book holders
+
+As always, the easiest way to get help or feedback is through the Discord server! Find the link on the CurseForge page.
+
+ Need a server? With BisectHosting's automated modpack install, setting up a server can be done in just a few clicks:
+
+[![](https://www.bisecthosting.com/partners/custom-banners/a2f8bf1e-2d39-48c4-a80d-02ef73cdd36c.png)](https://www.curseforge.com/linkout?remoteUrl=https://bisecthosting.com/WinDanesz)
+
+### BetterDisplays-1.12.2-1.1.0.jar
+Version v1.1.0 - 12/30/2022
+---------------------------
+
+### What's Changed
+
+#### **Bug Fixes**
+
+- Fixed display case material dupe bug
+
+As always, the easiest way to get help or feedback is through the Discord server! Find the link on the CurseForge page.
+
+ Need a server? With BisectHosting's automated modpack install, setting up a server can be done in just a few clicks:
+
+[![](https://www.bisecthosting.com/partners/custom-banners/a2f8bf1e-2d39-48c4-a80d-02ef73cdd36c.png)](https://www.curseforge.com/linkout?remoteUrl=https://bisecthosting.com/WinDanesz)
+
+## Better Spartan Archery
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/better-spartan-archery)
+
+### BetterSpartanArchery 1.12.2 v1.4.1 v1.2a
+*   Fixes custom config
+
+### BetterSpartanArchery 1.12.2 v1.4.1 v1.2
+v1.2
+
+*   Detects bow used by attaching data on arrow creation (EntityJoinWorldEvent) instead of on damage calculations (LivingHurtEvent)
+*   Tooltips shows 1x damage multipliers now
+*   bonusIsFlat defaults to 'false' instead, because who the even uses flat
+
+## Doomlike Dungeons
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/project-74246)
+
+### DoomlikeDungeons-1.14.12-MC1.12.2.jar
+Hopefully fixed a bug where certain locale / language settings would cause NBT config files to sometimes be read incorrectly due to unexpected capitalization of text written in lower case.
+
+## Electroblob's Wizardry
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/electroblobs-wizardry)
+
+### Electroblob's Wizardry - 4.3.9 - MC 1.12.2
+### Version 4.3.9 changelog
+
+### Features
+
+  
+# Conjured bows will now shoot conjured arrows  
+# Wand cooldown only decrements if the player holds the wand (by ZettaSword).
+
+### Fixes
+
+# Fixed Fire Skin potion effect's retaliatory burn duration (was 20x shorter than intended)  
+# Fixed Curse of Undeath breaking wizard headgear. It no longer breaks hats, and the curse sets the player on fire if the hat has no mana. Fixes #820  
+# Fixed onImbuementRemoval() not being called for imbuements expired in the inventory. Currently this bug was only affecting addons (Spell Bundle). Fixes #833  
+# No more console spam from Muffle spell  
+# Fixed the adaptive brightness of Oak/Iron/Diamondflesh (by ZettaSword)  
+# Fixed wizards not using addon book spells  
+# Fixed wizards selling addon book spells with the default book
+
+## AtomicStryker's Infernal Mobs
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/atomicstrykers-infernal-mobs)
+
+### AtomicStryker's Infernal Mobs
+
+
+## Just Enough Items (JEI)
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/jei)
+
+### jei_1.12.2-4.16.1.1001.jar
+
+## Mo' Spells (Electroblob's Wizardry)
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/mo-spells)
+
+### MoSpells-1.12.2-1.0.4.jar
+Version v1.0.4 - 12/22/2022
+---------------------------
+
+### What's Changed
+
+#### **Bug Fixes**
+
+- Fixed crash with Supernova spell on dedicated servers. Fixes #6
+
+- Solar Beam now works with the /cast command
+
+- Fixed Mo'Spells spell book drops from Mowzie mobs
+
+#### **Features**
+
+- Increased cooldown of Summon Naga spell 10->40 seconds, mana cost 40->80
+
+- Lowered Solar Beam spell tier advanced->apprentice
+
+- Added the Monster Tome artefact
+
+As always, the easiest way to get help or feedback is through the Discord server! Find the link on the CurseForge page.
+
+ Need a server? With BisectHosting's automated modpack install, setting up a server can be done in just a few clicks:
+
+[![](https://www.bisecthosting.com/partners/custom-banners/a2f8bf1e-2d39-48c4-a80d-02ef73cdd36c.png)](https://www.curseforge.com/linkout?remoteUrl=https://bisecthosting.com/WinDanesz)
+
+## Rad Enchants
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/rad-enchants)
+
+### RadEnchants-1.12.2-1.0.1a-BETA.jar
+*   removed log spam, whoops
+
+### RadEnchants-1.12.2-1.0.1-BETA.jar
+fixed rabbits feet & moon bots durability cost & refresh rate fixed shadow meld/glide light detection changed some configs from 'x at level' to 'x per level' change localizations keys potioncore dependency, removed custom Vulnerable enchant descriptions, grammar/typos, and minor changes  
+pocket protector & welding apron work on Elytra now glare weak/slow duration  
+fall immunity for rabbitsfeet/moon boots  
+ NEW ENCHANTS: One With The Blade Snitch Gallop Haven Glare Socketed Lucky Strike Sacrifice Earplugs Boosted Climbing Gear Self Preservation
+
+## ReAuth
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/reauth)
+
+### ReAuth-4.0.6 Forge 1.12
+Fix Issues with IPv6
+
+## Recurrent Complex
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/recurrent-complex)
+
+### RecurrentComplex-1.4.8.4.jar
+**1.4.8.4**
+
+* Multi Inventory generation tags now work when max=min!
+
+### RecurrentComplex-1.4.8.3.jar
+**1.4.8.3**
+
+* Pillar transformers now work again!
+
+* Child structures spawned from script blocks rotate properly again! (thanks @ Fire-Ball-20001 and @ digby)
+
+* Pillar transformers now support upwards pillars (for hanging structures)!
+
+* /#structures tweak UI searches are now case insensitive (thanks @ CREEATION)
+
+* Armor stands in UndergroundCultChamber generate correctly again (thanks @ naqaden)
+
+Special thanks goes out to @ Witixin and some others in the MC Modding Server for helping me set up my ancient dev environment!
+
+## Roguelike Dungeons -- Fnar's Edition
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/fnars-roguelike-dungeons)
+
+### v2.4.3 Mob Spawner Fix Patch
+🐛 Fix issues with mob spawners:  
+- Entity gear was not enchanted (and was actually wrong) as it was being overwritten by the originally-spawned mob's gear  
+- The above lead to shield designs and enchantments not manifesting on gear (or any other NBT)
+
+🐛 Fix issue where mobs were sometimes wearing random armour on their heads  
+- This was due to the Mob equipper logic in Mob.java not taking an armour type. Sometimes, when rolling for a helmet, it would generate a special chestpiece, leggings, or boots that the mob would wear on their head. Pretty funny, honestly.
+
+**Full Changelog**: [https://github.com/fnar/minecraft-roguelike/compare/v2.4.2...v2.4.3](https://github.com/fnar/minecraft-roguelike/compare/v2.4.2...v2.4.3)
+
+### v.2.4.2 overrideMobEquipmentEnchantmentLevels Config Patch
+✨ Introduce new chest types, `GARDEN`, `JUNK`, and `MAGIC`  
+✨Introduce new configuration: "overrideMobEquipmentEnchantmentLevels"  
+- Optional List of integers in the range -1:MAX_INT that represents the level of which equipment should be enchanted when spawning a mob that has enchanted gear on that dungeon level. Each subsequent integer maps to a dungeon layer level (e.g. first layer, second layer, ... currently only 5 layers exist with indices 0-4). E.g., with the value "-1,10,15,20,30", the first level (index 0) would use the mod's internal leveling for enchanting gear, then would enchant dungeon level 2 at enchantment level 10, then dungeon level 3 at enchantment level 15, etc.
+
+This feature was specifically requested by @shivaxi ([https://twitter.com/shivaxi](https://twitter.com/shivaxi)) to help solve a problem with RLCraft ([https://www.curseforge.com/minecraft/modpacks/rlcraft](https://www.curseforge.com/minecraft/modpacks/rlcraft)) and So Many Enchantments ([https://www.curseforge.com/minecraft/mc-mods/so-many-enchantments](https://www.curseforge.com/minecraft/mc-mods/so-many-enchantments)) where mobs enchanted by Roguelike Dungeons disproportionately have armour enchanted with Thorns, Advanced Thorns, and Fiery Thorns. The root cause is due to the prevalence of damage-reflect enchantments, the lack of competing enchantments for armour, and the high level that Roguelike Dungeons prefers to enchant gear at. Despite suggestions to reduce the number of damage-reflection enchantments, or to further reduce their occurrence, this seemed to be the path of least resistance. Crush it, Shiv.
+
+**Full Changelog**: [https://github.com/fnar/minecraft-roguelike/compare/v2.4.1...v2.4.2](https://github.com/fnar/minecraft-roguelike/compare/v2.4.1...v2.4.2)
+
+## Spartan Weaponry
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/spartan-weaponry)
+
+### SpartanWeaponry-1.12.2-1.5.1.jar
+##### **IMPORTANT NOTE:**
+
+Better Combat Rebirth compatibility has been replaced with RLCombat compatibility, which is an updated fork of that mod. Make sure to update to RLCombat if you have Better Combat Rebirth installed. Find it here: [https://www.curseforge.com/minecraft/mc-mods/rlcombat](https://www.curseforge.com/minecraft/mc-mods/rlcombat)
+
+##### **Bugfixes:**
+
+- Fixed the boomerang doing damage to the player throwing it when catching it... again!
+
+##### **Changes in version 1.5.0:**
+
+##### **Additions:**
+
+- Replaced Better Combat Rebirth with RLCombat; an updated fork of that mod  
+- Removed compatibility patches for Better Combat Rebirth, due to changes in the updated RLCombat's code that uses events instead  
+- The mod now enforces version 2.0.5 of RLCombat or higher to be used if BetterCombat Rebirth or RLCombat is installed  
+- Added Sweep 1 as normal sweep damage and the old Sweep 1 and 2 is now Sweep 2 and 3, like Spartan Weaponry 2.x and above  
+- Added Sweep 1 to the following weapons: Katana, Longsword and Saber  
+- Added a level getter method for Weapon Properties  
+- Added a tooltip for Crossbows for Bolt Speed multiplier  
+- Added variation of loading time and aim time for the crossbow which is affected by the material's harvest level  
+- Added variation of draw time and arrow speed for the longbow which is also affected by the material's harvest level  
+- Added compatibility for So Many Enchantments versions of Sharpness (Lesser, Advanced and Supreme) with throwing weapons  
+- Re-added the longbow multiplier config value (I forgot I removed it)  
+- The default longbow multiplier is now 1.1 instead of 1.25 since the multiplier increases with the item  
+- Added config option to let Longbows and Crossbow material modifiers per harvest level to be adjusted. e.g. Draw ticks and arrow speed for Longbows; Load ticks, Aim ticks and bolt speed for Crossbows
+
+##### **Bugfixes:**
+
+- Uncommented a null check that resulted in the recreation of the Quiver model every frame! That was a massive oversight which was only intended for real-time editing of the Quiver model. You can have your FPS back now.  
+- Removed an redundant check in the throwing weapon update tick that caused throwing weapon ammo to be duplicated when using the Return enchantment. This should hopefully fix the throwing weapons orbitting players as well.  
+- Fixed a duping bug where picking up the Expanse-enchanted original stack of a throwing weapon on the ground while having a non-original stack of the same weapon in the player's inventory resulted in a miscalculation of the ammo count due to different maximum capacities  
+- Fixed Armor Piercing projectile damage not being affected by qualities from Quality Tools  
+- Fixed damage modifier bugs for throwing weapons where only the most recent damage modifying Weapon Property was being applied and overriding previous ones  
+- Fixed not being able to catch Boomerangs in mid-air on a server  
+- Fixed the Sweeping Edge enchantment compatibility due to changes in the Sweep Weapon Property  
+- Removed Better Combat compatibility using rather 'hacky' methods in favor of better integrated Events from RLCombat, hence why Better Combat Rebirth won't work with this mod anymore  
+- Reimplemented speed-based Riding Damage Bonus weapon property for Lances. RLCombat now adds compatibility for sending speed to the server so it should work properly now
+
+##### **Tweaks:**
+
+- Heavily reduced the FOV effect when using the bow and crossbow to be closer to the vanilla bow  
+- Added a check to prevent this mods attack packets being sent when RLCombat is loaded because RLCombat handles that when available  
+- Lots of code cleanup which is why this version is roughtly the same size as the previous one- Added a check to prevent this mods attack packets being sent when RLCombat is loaded because RLCombat handles that when available
+
+### SpartanWeaponry-1.12.2-1.5.0.jar
+##### **IMPORTANT NOTE:**
+
+Better Combat Rebirth compatibility has been replaced with RLCombat compatibility, which is an updated fork of that mod. Make sure to update to RLCombat if you have Better Combat Rebirth installed. Find it here: [https://www.curseforge.com/minecraft/mc-mods/rlcombat](https://www.curseforge.com/minecraft/mc-mods/rlcombat)
+
+##### **Additions:**
+
+- Replaced Better Combat Rebirth with RLCombat; an updated fork of that mod  
+- Removed compatibility patches for Better Combat Rebirth, due to changes in the updated RLCombat's code that uses events instead  
+- The mod now enforces version 2.0.5 of RLCombat or higher to be used if BetterCombat Rebirth or RLCombat is installed  
+- Added Sweep 1 as normal sweep damage and the old Sweep 1 and 2 is now Sweep 2 and 3, like Spartan Weaponry 2.x and above  
+- Added Sweep 1 to the following weapons: Katana, Longsword and Saber  
+- Added a level getter method for Weapon Properties  
+- Added a tooltip for Crossbows for Bolt Speed multiplier  
+- Added variation of loading time and aim time for the crossbow which is affected by the material's harvest level  
+- Added variation of draw time and arrow speed for the longbow which is also affected by the material's harvest level  
+- Added compatibility for So Many Enchantments versions of Sharpness (Lesser, Advanced and Supreme) with throwing weapons  
+- Re-added the longbow multiplier config value (I forgot I removed it)  
+- The default longbow multiplier is now 1.1 instead of 1.25 since the multiplier increases with the item  
+- Added config option to let Longbows and Crossbow material modifiers per harvest level to be adjusted. e.g. Draw ticks and arrow speed for Longbows; Load ticks, Aim ticks and bolt speed for Crossbows
+
+##### **Bugfixes:**
+
+- Uncommented a null check that resulted in the recreation of the Quiver model every frame! That was a massive oversight which was only intended for real-time editing of the Quiver model. You can have your FPS back now.  
+- Removed an redundant check in the throwing weapon update tick that caused throwing weapon ammo to be duplicated when using the Return enchantment. This should hopefully fix the throwing weapons orbitting players as well.  
+- Fixed a duping bug where picking up the Expanse-enchanted original stack of a throwing weapon on the ground while having a non-original stack of the same weapon in the player's inventory resulted in a miscalculation of the ammo count due to different maximum capacities  
+- Fixed Armor Piercing projectile damage not being affected by qualities from Quality Tools  
+- Fixed damage modifier bugs for throwing weapons where only the most recent damage modifying Weapon Property was being applied and overriding previous ones  
+- Fixed not being able to catch Boomerangs in mid-air on a server  
+- Fixed the Sweeping Edge enchantment compatibility due to changes in the Sweep Weapon Property  
+- Removed Better Combat compatibility using rather 'hacky' methods in favor of better integrated Events from RLCombat, hence why Better Combat Rebirth won't work with this mod anymore  
+- Reimplemented speed-based Riding Damage Bonus weapon property for Lances. RLCombat now adds compatibility for sending speed to the server so it should work properly now
+
+##### **Tweaks:**
+
+- Heavily reduced the FOV effect when using the bow and crossbow to be closer to the vanilla bow  
+- Added a check to prevent this mods attack packets being sent when RLCombat is loaded because RLCombat handles that when available  
+- Lots of code cleanup which is why this version is roughtly the same size as the previous one- Added a check to prevent this mods attack packets being sent when RLCombat is loaded because RLCombat handles that when available
+
+## Thaumic Augmentation
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/thaumic-augmentation)
+
+### ThaumicAugmentation-1.12.2-2.1.9.jar
+*   Fixed the thaumium robes crashing dedicated servers
+*   Made all commands added by TA accept using tilde (~) for the dimension argument
+
+### ThaumicAugmentation-1.12.2-2.1.8.jar
+*   Fixed some issues with the arcane terraformer not working in certain modded biomes (like Mystcraft)
+*   Fixed a crash relating to foci with a split modifier
+*   Fixed the morphic tool not working properly when using items with nonzero metadata
+*   Removed the ore dictionary entry for the celestial notes to prevent issues with research
+*   Hopefully fixed impetus connections disconnecting on world load
+*   Added a client config option for the render distance cutoff for tiles like starfield glass, and made the default distance slightly further
+
+## [ANGRY PIXEL] The Betweenlands
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/angry-pixel-the-betweenlands-mod)
+
+### The Betweenlands v3.9.5
+Added API for music addon
+
+### The Betweenlands v3.9.4
+Bug fix (v3.9.2 now archived)
+
+- Fixed Pheromone Thorax Clutch eating any block it was used on
+
+- Fixed the purifier stack size on output (really this time)
+
+- Removed Shadow and Mist blocks from silk touch
+
+v3.9.2 Changelog (now archived)
+
+Additions
+
+- Added Silky Pebble item
+
+- Added Pheromone Thorax Cluster item
+
+- Changed Moss generation to be more friendly to the world
+
+- Made Pheromone Thorax stackable
+
+- Plants can now be planted on purified swamp dirt
+
+- Changed Fishing rod line colour to match new silk colour
+
+Fixes
+
+- Fixed Moth house Drops
+
+- Fixed Purifier honouring stack size on output
+
+- Fixed typo in lang for treated rubber fences
+
+- Fixed Drinkable brews effects that were missing
+
+- Fixed Silk Bundle GUI and Container to close when dropped
+
+- Removed pointless blocks from creative and JEI
+
+### The Betweenlands v3.9.1
+Fixed server crash when making dyes in the steeping pot
+
+### The Betweenlands v3.9.0
+**Moth 'n Broth 2: Dye Another Day Update**  
+  
+New features:  
+- New brewing mechanics.  
+- New farming mechanic (silk).  
+- Added Steeping Pot, for making new drinks and dyes.  
+- Added Water Filter.  
+- Added Filtered Silt Glass Jars.  
+- Added clean water.  
+- Added fish oil.  
+- Added 11 new drinkables, some of which have unique effects.  
+- Added 16 dyes + liquids.  
+- Added dyed variants of Shingles, Filtered Silt Glass, and Reed Mats.  
+- Lurker Skin Pouches can now be dyed.  
+- Added a new textile block called Samite + dyed variants.  
+- Added Samite panels + dyed variants.  
+- Added Item Frames + dyed variants + glowing variants + invisible variant.  
+- Gave Infestations a new drop: Pheromone Thorax.  
+- Weedwood bushes can now be infested by silk worms.  
+- Added Silk Cocoons and Silk String.  
+- Added Silk Bundle for Steeping Pot drinks and dyes.  
+- Added Silk Mask, a new 'armour' that keeps you safe from spores.  
+- Added Grub Hub, a new block that helps your silk farm.  
+- Added Moth House, a more efficient way of silk harvesting.  
+- Added 6 Treated Wood variants and corresponding blocks.  
+- Added 6 Treated Door and Trapdoor variants.  
+- Added Rotten Plank Door and Trapdoor.  
+- Added Lattice and Fine Lattice.  
+- Added Ancient Remnant block.  
+- Added 14 new Advancements.  
+  
+Changes:  
+- Fishing Rods now use Silk String instead of Reed Rope.  
+- Lurker Skin Pouches now use Silk String instead of Reed Rope.  
+- Made urchin spikes a damage source.  
+- Removed all armour benefits from Spirit Tree Face masks and made them just decorative.  
+- Made Small Spirit Tree Faces ignore players wearing the Spirit Tree mask.  
+- Anadia Remains can now be crafted.  
+- Changed nettle soup (updating an existing world will show item is missing, but this is no problem).
+
+- Betweenlands arrows now work in dispensers (thanks JoshieGemFinder).
+
+- Hollow logs now have a hollow collision box (thanks JoshieGemFinder).  
+- Updated Russian translations (big thanks to Avale and Mirazhic).  
+- Updated French translations (big thanks to TheSilverplier).
+
+- Updated Italian translations (big thanks to maicol07).  
+  
+Bugfixes:  
+- Fixed Harlequin Toad & Chiromaw naming.  
+- Removed enchanting from various items.  
+- Added defensive code to stop other mods crashing urchins by messing with their attack code.  
+- Fixed spike trap derp.  
+  
+Special thanks to Aethyus for some additional help <3
+
+## Corail Tombstone
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/corail-tombstone)
+
+### Corail Tombstone 4.6.1 for 1.12.2
+**This mod supports mc version from 1.8.9 to 1.19.3  
+****Minecraft Version = [1.12.2] - Forge Version [14.23.5.2838+]  
+**_**Latest : 4.6.1 - **__**Recommended : 4.6.1**_
+
+_**Changes 4.6.1  
+**_- fixes to enchant scrolls (since 4.5.8)_**  
+Changes 4.6.0  
+**_- compatibility with newer versions of Fluidlogged API (issue 123)  
+- fixes a scroll description translation (issue 125)  
+- increases slightly particle size to 'show the grave from a distance'_**  
+Changes 4.5.13  
+**- _fixes Enchanted Tablet of Assistance (#106, reverse teleportation)_**  
+Changes 4.5.12  
+**_- compat Potion Descriptions (#104, provides effect descriptions)  
+- displays effect descriptions in magic scrolls if they're available  
+- improves display of 'knowledge of death' level up  
+- reduces lollipop duration  
+- reduces the chance to get a buff or a familiar when praying on graves  
+- fix command tbRequestTeleport permission (#105)_**  
+Changes 4.5.11  
+**_- knowledge of death level up are displayed on screen  
+- tweaks enchantments (more scalable with others mods changing level limit)  
+- removes configs for enchantment max level (default is 10, except soulbound)  
+- if soulbound max level is defined (by another mod) above 1, soulbound items lose one level of enchantment on each death  
+- additional advancements  
+- familiar receptacle ticks to recover life every 30 sec  
+- fix event phantom spawn timer (event wasn't "post")
+
+### Corail Tombstone 4.6.0 for 1.12.2
+**This mod supports mc version from 1.8.9 to 1.19.3  
+****Minecraft Version = [1.12.2] - Forge Version [14.23.5.2838+]  
+**_**Latest : 4.6.0 - **__**Recommended : 4.6.0**_
+
+_**Changes 4.6.0  
+**_- compatibility with newer versions of Fluidlogged API (issue 123)  
+- fixes a scroll description translation (issue 125)  
+- increases slightly particle size to 'show the grave from a distance'_**  
+
+### Corail Tombstone 4.5.13 for 1.12.2
+**This mod supports mc version from 1.8.9 to 1.19.2  
+****Minecraft Version = [1.12.2] - Forge Version [14.23.5.2838+]  
+**_**Latest : 4.5.13 - **__**Recommended : 4.5.13**_
+
+_**Changes 4.5.13  
+**-_ fixes Enchanted Tablet of Assistance (#106, reverse teleportation)_**  
+Changes 4.5.12  
+**_- compat Potion Descriptions (#104, provides effect descriptions)  
+- displays effect descriptions in magic scrolls if they're available  
+- improves display of 'knowledge of death' level up  
+- reduces lollipop duration  
+- reduces the chance to get a buff or a familiar when praying on graves  
+- fix command tbRequestTeleport permission (#105)_**  
+
+### Corail Tombstone 4.5.12 for 1.12.2
+**This mod supports mc version from 1.8.9 to 1.19.2  
+****Minecraft Version = [1.12.2] - Forge Version [14.23.5.2838+]  
+**_**Latest : 4.5.12 - **__**Recommended : 4.5.7**_
+
+_**Changes 4.5.12  
+**_- compat Potion Descriptions (#104, provides effect descriptions)  
+- displays effect descriptions in magic scrolls if they're available  
+- improves display of 'knowledge of death' level up  
+- reduces lollipop duration  
+- reduces the chance to get a buff or a familiar when praying on graves  
+- fix command tbRequestTeleport permission (#105)_**  
+
+### Corail Tombstone 4.5.11 for 1.12.2
+**This mod supports mc version from 1.8.9 to 1.19.2  
+****Minecraft Version = [1.12.2] - Forge Version [14.23.5.2838+]  
+**_**Latest : 4.5.11 - **__**Recommended : 4.5.7**_
+
+_**Changes 4.5.11  
+**_- knowledge of death level up are displayed on screen  
+- tweaks enchantments (more scalable with others mods changing level limit)  
+- removes configs for enchantment max level (default is 10, except soulbound)  
+- if soulbound max level is defined (by another mod) above 1, soulbound items lose one level of enchantment on each death  
+- additional advancements  
+- familiar receptacle ticks to recover life every 30 sec  
+- fix event phantom spawn timer (event wasn't "post")_**  
+
+### Corail Tombstone 4.5.10 for 1.12.2
+**This mod supports mc version from 1.8.9 to 1.19.2  
+****Minecraft Version = [1.12.2] - Forge Version [14.23.5.2838+]  
+**_**Latest : 4.5.10 - **__**Recommended : 4.5.7**_
+
+_**Changes 4.5.10  
+**_- adapts translations for magic books  
+- message when using a magic book with the wrong hand  
+- fix decorative graves not breaking (#93, since 4.5.8)_**  
+
+## Wizardry Golems
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/wizardry-golems)
+
+### WizardryGolems-1.12.2-1.2.0.jar
+Version v1.2.0 - 1/28/2023
+--------------------------
+
+### What's Changed
+
+#### **Bug Fixes**
+
+- Fixed bug with Fire Golemancy golems always exploding on death, even when Steaming Netherrack Ring was not worn by the caster
+
+- Fixed the particles of Fire Golemancy
+
+#### **Features**
+
+- Increased max health of Strawthorns Golems
+
+- Buffed Amulet of Brambles, making it summon 1 -> 1-5 snares on golem death
+
+- Added Ice Golemancy
+
+#### **Refactoring**
+
+- Now uses WizardryUtils to inject artefacts to loot. the "Artefact Inject locations" setting was removed.
+
+_________________
+# **Removed Mods**
+
+## None
+
+
+_________________
+
+Changelog generated by [CF-Changelog-Generator](https://github.com/Charismara/CF-Changelog-Generator)
