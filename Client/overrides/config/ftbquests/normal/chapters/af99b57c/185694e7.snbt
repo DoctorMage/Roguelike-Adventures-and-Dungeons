@@ -24,7 +24,7 @@
 	{
 		uid: "6208041a",
 		type: "kill",
-		entity: "midnight:hunter",
+		entity: "vampirism:vampire_hunter",
 		value: 3L
 	}],
 	rewards: [{
