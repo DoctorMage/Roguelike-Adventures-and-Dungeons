@@ -16,6 +16,7 @@ fluidFireCrystal.fillSound = <soundevent:block.glass.break>;
 fluidFireCrystal.emptySound = <soundevent:block.glass.break>;
 fluidFireCrystal.luminosity = 15;
 fluidFireCrystal.viscosity = 50;
+fluidFireCrystal.material = <blockmaterial:Lava>;
 fluidFireCrystal.register();
 
 var fluidIceCrystal = VanillaFactory.createFluid("fluidIceCrystal", Color.fromHex("9bddff"));
