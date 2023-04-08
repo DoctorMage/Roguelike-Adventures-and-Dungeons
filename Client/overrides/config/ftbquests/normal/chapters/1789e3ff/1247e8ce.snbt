@@ -1,6 +1,9 @@
 {
 	title: "Someone's Watching Me",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "openblocks:trophy",
 		tag: {
 			entity_id: "minecraft:guardian"
@@ -29,6 +32,9 @@
 		uid: "12e97895",
 		type: "observation",
 		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "openblocks:trophy",
 			tag: {
 				entity_id: "minecraft:guardian"

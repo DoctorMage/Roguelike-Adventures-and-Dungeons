@@ -14,8 +14,14 @@
 	tasks: [{
 		uid: "a65f466c",
 		type: "advancement",
-		icon: "cavern:cave_block 1 4",
-		advancement: "cavern:mine_randomite ",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "cavern:cave_block",
+			Damage: 4s
+		},
+		advancement: "cavern:mine_randomite",
 		criterion: ""
 	}],
 	rewards: [{

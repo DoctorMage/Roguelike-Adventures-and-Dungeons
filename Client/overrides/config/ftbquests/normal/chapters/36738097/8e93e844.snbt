@@ -7,7 +7,7 @@
 		"Just be happy the modded ones don't require 100k submitted."
 	],
 	tasks: [{
-		uid: "58ba1d2b",
+		uid: "61a70165",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -15,11 +15,10 @@
 			},
 			id: "minecraft:log"
 		}],
-		count: 100000L,
-		consume_items: true
+		count: 100000L
 	},
 	{
-		uid: "27a35529",
+		uid: "b012a5c3",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -28,11 +27,10 @@
 			id: "minecraft:log",
 			Damage: 1s
 		}],
-		count: 100000L,
-		consume_items: true
+		count: 100000L
 	},
 	{
-		uid: "74475d6d",
+		uid: "fe1b77f8",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -41,11 +39,10 @@
 			id: "minecraft:log",
 			Damage: 2s
 		}],
-		count: 100000L,
-		consume_items: true
+		count: 100000L
 	},
 	{
-		uid: "dbd4be8b",
+		uid: "70458e36",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -54,11 +51,10 @@
 			id: "minecraft:log",
 			Damage: 3s
 		}],
-		count: 100000L,
-		consume_items: true
+		count: 100000L
 	},
 	{
-		uid: "41553551",
+		uid: "e1db3872",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -66,11 +62,10 @@
 			},
 			id: "minecraft:log2"
 		}],
-		count: 100000L,
-		consume_items: true
+		count: 100000L
 	},
 	{
-		uid: "596b254e",
+		uid: "a687abca",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -79,11 +74,10 @@
 			id: "minecraft:log2",
 			Damage: 1s
 		}],
-		count: 100000L,
-		consume_items: true
+		count: 100000L
 	},
 	{
-		uid: "d327fae1",
+		uid: "ae21c307",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -91,11 +85,10 @@
 			},
 			id: "thaumcraft:log_greatwood"
 		}],
-		count: 10000L,
-		consume_items: true
+		count: 10000L
 	},
 	{
-		uid: "b6d4fc99",
+		uid: "e6048601",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -103,11 +96,10 @@
 			},
 			id: "thaumcraft:log_silverwood"
 		}],
-		count: 10000L,
-		consume_items: true
+		count: 10000L
 	},
 	{
-		uid: "5b310114",
+		uid: "31ab4afe",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -116,11 +108,10 @@
 			id: "aether_legacy:aether_log",
 			Damage: 1s
 		}],
-		count: 10000L,
-		consume_items: true
+		count: 10000L
 	},
 	{
-		uid: "42dc554a",
+		uid: "857c5803",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -128,11 +119,10 @@
 			},
 			id: "aether_legacy:aether_log"
 		}],
-		count: 10000L,
-		consume_items: true
+		count: 10000L
 	},
 	{
-		uid: "6fe13921",
+		uid: "ea375ddf",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -140,11 +130,10 @@
 			},
 			id: "twilightforest:twilight_log"
 		}],
-		count: 10000L,
-		consume_items: true
+		count: 10000L
 	},
 	{
-		uid: "cd87cab5",
+		uid: "bef77b9d",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -153,11 +142,10 @@
 			id: "twilightforest:twilight_log",
 			Damage: 1s
 		}],
-		count: 10000L,
-		consume_items: true
+		count: 10000L
 	},
 	{
-		uid: "75ca0009",
+		uid: "c5d2a0e3",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -166,11 +154,10 @@
 			id: "twilightforest:twilight_log",
 			Damage: 2s
 		}],
-		count: 10000L,
-		consume_items: true
+		count: 10000L
 	},
 	{
-		uid: "2a3cc4b7",
+		uid: "44429ea3",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -179,11 +166,10 @@
 			id: "twilightforest:twilight_log",
 			Damage: 3s
 		}],
-		count: 10000L,
-		consume_items: true
+		count: 10000L
 	},
 	{
-		uid: "e2fd6ad5",
+		uid: "246a4d73",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -191,11 +177,10 @@
 			},
 			id: "tropicraft:log"
 		}],
-		count: 10000L,
-		consume_items: true
+		count: 10000L
 	},
 	{
-		uid: "a62fa5e6",
+		uid: "d4bf68a4",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -204,8 +189,18 @@
 			id: "tropicraft:log",
 			Damage: 1s
 		}],
-		count: 10000L,
-		consume_items: true
+		count: 10000L
+	},
+	{
+		uid: "7d466026",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "randomthings:spectrelog"
+		}],
+		count: 10000L
 	}],
 	rewards: [{
 		uid: "d4254e29",

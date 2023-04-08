@@ -1,0 +1,112 @@
+{
+	title: "Hey, Bighead!",
+	x: -21.0d,
+	y: 16.0d,
+	description: "I think she likes you",
+	text: [
+		"No, no. She's only giving you attention because of all the Spells you know.",
+		"",
+		"She's really just trying to get you to do her Wizard-work!",
+		"",
+		"Sage Tomes can hold more Spells than normal. However, they receive a lower Potency bonus to their respective elements."
+	],
+	dependencies: [
+		"a68a3bfa"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "055dee2c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sage_tome_novice_fire",
+			tag: {}
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "20439cff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sage_tome_novice_ice"
+		}]
+	},
+	{
+		uid: "2351b6a2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sage_tome_novice_lightning"
+		}]
+	},
+	{
+		uid: "bdae0583",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sage_tome_novice_necromancy"
+		}]
+	},
+	{
+		uid: "1e722819",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sage_tome_novice_earth"
+		}]
+	},
+	{
+		uid: "fe2da0cf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sage_tome_novice_sorcery"
+		}]
+	},
+	{
+		uid: "1da77004",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sage_tome_novice_healing"
+		}]
+	}],
+	rewards: [{
+		uid: "ee1edb62",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "8636692e",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "f7b76cf8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	}]
+}
