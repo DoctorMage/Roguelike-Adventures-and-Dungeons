@@ -1,0 +1,50 @@
+{
+	title: "Sage",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:empty_mystic_spell_book"
+	},
+	x: -17.0d,
+	y: 12.5d,
+	text: [
+		"To begin learning sage spells you need to aquire a scribe and  experiment tome.",
+		"",
+		"They can be crafted by surronding an empty mystic tome with magic crystals"
+	],
+	dependencies: [
+		"f3967f6c"
+	],
+	tasks: [{
+		uid: "d0d2fe3e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:empty_mystic_spell_book"
+		}]
+	},
+	{
+		uid: "2f159888",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:magic_crystal"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "db251d8b",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "986a9a83",
+		type: "xp_levels",
+		xp_levels: 25
+	}]
+}

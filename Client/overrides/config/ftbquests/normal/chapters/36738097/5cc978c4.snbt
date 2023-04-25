@@ -7,7 +7,7 @@
 		"Tip: Don't do this unless you really hate obsidian."
 	],
 	tasks: [{
-		uid: "0125e666",
+		uid: "205b5f2a",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -15,8 +15,7 @@
 			},
 			id: "minecraft:obsidian"
 		}],
-		count: 1000000L,
-		consume_items: true
+		count: 1000000L
 	}],
 	rewards: [{
 		uid: "a3936569",
