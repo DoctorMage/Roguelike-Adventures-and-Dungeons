@@ -11,10 +11,15 @@
 	tasks: [{
 		uid: "e5e8953a",
 		type: "observation",
-		icon: "cavern:mirage_bookshelf",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "cavern:mirage_bookshelf"
+		},
 		match_type: "block_id",
-		match: "",
-		timer: 0L
+		match: "cavern:mirage_bookshelf",
+		timer: 40L
 	}],
 	rewards: [{
 		uid: "c0ce021b",
