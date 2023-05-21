@@ -6,10 +6,14 @@
 	text: [
 		"Destroy 10 Firebats."
 	],
+	can_repeat: true,
 	tasks: [{
 		uid: "cb08ed3e",
 		type: "kill",
 		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:custom_icon",
 			tag: {
 				icon: "assets:customicons\\firebatmob.png"

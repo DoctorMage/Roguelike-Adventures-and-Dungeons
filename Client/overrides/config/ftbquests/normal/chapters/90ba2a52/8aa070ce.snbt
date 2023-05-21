@@ -1,11 +1,15 @@
 {
 	x: 21.0d,
 	y: 2.0d,
+	can_repeat: true,
 	tasks: [{
 		uid: "97d51df0",
 		type: "item",
 		items: [{
-			item: "thebetweenlands:octine_block"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thebetweenlands:octine_block"
 		}],
 		count: 32L
 	}],
@@ -23,6 +27,9 @@
 		uid: "567f26c4",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "rare_tier_rewards"
