@@ -6,10 +6,17 @@
 	text: [
 		"Kill 50 Anglers."
 	],
+	can_repeat: true,
 	tasks: [{
 		uid: "8be31885",
 		type: "kill",
-		icon: "thebetweenlands:items_misc 1 21",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thebetweenlands:items_misc",
+			Damage: 21s
+		},
 		entity: "thebetweenlands:angler",
 		value: 50L
 	}],
