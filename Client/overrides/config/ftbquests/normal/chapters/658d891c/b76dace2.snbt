@@ -25,12 +25,20 @@
 		uid: "31b41175",
 		type: "item",
 		items: [{
-			item: "iceandfire:dragon_meal"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:dragon_meal"
 		}]
 	}],
 	rewards: [{
 		uid: "bb27e459",
 		type: "item",
-		item: "iceandfire:sickly_dragon_meal"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:sickly_dragon_meal"
+		}
 	}]
 }

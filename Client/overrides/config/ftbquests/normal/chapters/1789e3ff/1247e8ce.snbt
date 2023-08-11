@@ -12,11 +12,11 @@
 	},
 	x: -3.5d,
 	y: -0.5d,
-	description: "I'm just an average dwaf with an average pickaxe",
+	description: "I'm just an average dwarf with an average pickaxe",
 	text: [
 		"They see you when you're mining.",
 		"",
-		"Be careful of the shimmering mines one eyed guardians."
+		"Be careful of the shimmering mines' one eyed guardians."
 	],
 	dependencies: [
 		"5ca0cd0e"

@@ -21,6 +21,11 @@
 	tasks: [{
 		uid: "225febf9",
 		type: "checkmark",
-		icon: "iceandfire:dragonforge_ice_core"
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:dragonforge_ice_core"
+		}
 	}]
 }
