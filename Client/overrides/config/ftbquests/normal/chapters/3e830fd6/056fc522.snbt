@@ -1,0 +1,23 @@
+{
+	title: "Now In 3D",
+	x: -9.0d,
+	y: 9.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1fc92f0d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:3dglasses",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

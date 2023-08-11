@@ -1,0 +1,38 @@
+{
+	x: -9.5d,
+	y: 2.0d,
+	description: "Love & Peace",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "4bedf316",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:emblem.pacifism",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -5329549920832503795L,
+						UUIDLeast: -6797160617017089047L,
+						Amount: 0.20000000298023224d,
+						AttributeName: "generic.luck",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.lucky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

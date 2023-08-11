@@ -1,0 +1,15 @@
+{
+	x: -0.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: "63bb61d0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:seedenderlily"
+		}],
+		count: 16L
+	}]
+}

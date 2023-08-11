@@ -1,0 +1,54 @@
+{
+	title: "The Anti Pincushion",
+	x: -11.0d,
+	y: 3.0d,
+	text: [
+		"Avoid being sniped by skeletons as long as you have the Cobalt Shield Emblem and a Shield equipped"
+	],
+	tasks: [{
+		uid: "ef39d7f6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:emblem.defense",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: -2401869516177850066L,
+						UUIDLeast: -8521467210084493808L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 74867146684121882L,
+						UUIDLeast: -5684729394456915602L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -8029022979867982517L,
+						UUIDLeast: -7013087920867178433L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.clunky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

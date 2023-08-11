@@ -1,0 +1,54 @@
+{
+	title: "Baba Black Sheep... Wait Red Sheep",
+	x: -11.0d,
+	y: 1.0d,
+	text: [
+		"It's like gambling but instead of slot machines it's sheep wool colours"
+	],
+	tasks: [{
+		uid: "59eaa54c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:emblem.rainbow",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 4235657881007702432L,
+						UUIDLeast: -7193512024824697066L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.projectileDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -8800827134068437113L,
+						UUIDLeast: -7725395461378016939L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 3903064979049564499L,
+						UUIDLeast: -4716255552693277331L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.magicDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.horrible.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

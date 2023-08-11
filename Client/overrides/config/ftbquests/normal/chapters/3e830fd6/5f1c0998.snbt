@@ -1,0 +1,25 @@
+{
+	title: "Diamonds Are A Girls Best Snack",
+	x: -10.0d,
+	y: 0.5d,
+	text: [
+		"When you have far to many gems instead of turning them into blocks or armour",
+		"",
+		"Turn them into an even tastier meal"
+	],
+	tasks: [{
+		uid: "749f998f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:emblem.ironstomach",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

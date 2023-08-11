@@ -1,0 +1,23 @@
+{
+	title: "The Wall",
+	x: -11.5d,
+	y: 2.0d,
+	text: [
+		"The better armour you have the better the Leaf Badge will buff you"
+	],
+	tasks: [{
+		uid: "61b767dc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:emblem.leaf",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

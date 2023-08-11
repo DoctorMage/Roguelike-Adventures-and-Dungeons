@@ -1,0 +1,41 @@
+{
+	title: "Ring Of Potassium",
+	x: -16.5d,
+	y: 3.0d,
+	description: "Potatoes boil em mash em turn em into a ring",
+	text: [
+		"As long as you have the Funyun ring equipped never worry about starving again.",
+		"",
+		"It will use it's durabillity to fill your hunger."
+	],
+	tasks: [{
+		uid: "87ae00dc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:emblem.food",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 3895517772079186870L,
+						UUIDLeast: -6826223058949130002L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.prospecting.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

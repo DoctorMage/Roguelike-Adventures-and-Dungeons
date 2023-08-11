@@ -1,0 +1,19 @@
+{
+	x: -11.5d,
+	y: 8.0d,
+	tasks: [{
+		uid: "3a0dbdcf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:cactushelm",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

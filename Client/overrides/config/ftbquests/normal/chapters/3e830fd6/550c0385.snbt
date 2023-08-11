@@ -1,0 +1,19 @@
+{
+	title: "I'm Rubber",
+	x: -14.5d,
+	y: 2.0d,
+	description: "You're glue",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "069f6321",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:vampiric_ointment"
+		}]
+	}]
+}
