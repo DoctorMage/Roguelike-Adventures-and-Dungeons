@@ -1,0 +1,19 @@
+{
+	x: -8.5d,
+	y: 8.0d,
+	tasks: [{
+		uid: "14a433e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:cactusboots",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

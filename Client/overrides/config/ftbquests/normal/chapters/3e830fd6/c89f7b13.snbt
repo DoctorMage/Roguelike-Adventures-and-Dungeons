@@ -1,0 +1,33 @@
+{
+	x: -11.5d,
+	y: 6.0d,
+	tasks: [{
+		uid: "94f24a97",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:precision.sword",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -2861639366011106311L,
+						UUIDLeast: -5586403514371828529L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.long.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

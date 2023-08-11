@@ -1,0 +1,37 @@
+{
+	title: "Captain Thunderpants",
+	x: -11.0d,
+	y: 9.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "fb0784a6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:thunderpantz",
+			tag: {
+				Quality: {
+					Slots: [
+						"legs"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -1021653718132437602L,
+						UUIDLeast: -7596475034656187473L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.protective.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

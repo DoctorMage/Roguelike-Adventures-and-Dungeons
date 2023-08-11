@@ -1,0 +1,22 @@
+{
+	x: -9.0d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "07a60486",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:emblem.transformation",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

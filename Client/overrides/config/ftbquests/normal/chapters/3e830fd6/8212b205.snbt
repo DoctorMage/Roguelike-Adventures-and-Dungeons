@@ -1,0 +1,39 @@
+{
+	title: "Random Items GO",
+	x: -16.5d,
+	y: 1.0d,
+	description: "You think throwing random items around is a class",
+	text: [
+		"Who needs weapons when you can just throw pocket sand at your enemies"
+	],
+	tasks: [{
+		uid: "e63897e0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:emblem.weight",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -1140479277628176637L,
+						UUIDLeast: -8977731923645613737L,
+						Amount: 2.0d,
+						AttributeName: "generic.maxHealth",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.healthy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,56 @@
+{
+	title: "Sixteen Tons",
+	x: -7.5d,
+	y: 2.0d,
+	text: [
+		"Aquire the Might Miner Emblem",
+		"",
+		"Increases block mining speed"
+	],
+	tasks: [{
+		uid: "5432029c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:emblem.powerfist",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 7406887851237330700L,
+						UUIDLeast: -8987497959929253034L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.projectileDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -5523697705277962755L,
+						UUIDLeast: -4704695603846294177L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 3435612829165372063L,
+						UUIDLeast: -9084573500816912145L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.magicDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.horrible.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

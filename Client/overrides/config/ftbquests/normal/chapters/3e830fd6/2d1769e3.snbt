@@ -1,0 +1,33 @@
+{
+	x: -10.0d,
+	y: 9.0d,
+	tasks: [{
+		uid: "0a775649",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:poncho",
+			tag: {
+				Quality: {
+					Slots: [
+						"chest"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -9080296190380261366L,
+						UUIDLeast: -5921172013821963493L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.heavy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

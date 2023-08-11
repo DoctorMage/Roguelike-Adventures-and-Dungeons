@@ -15,6 +15,9 @@
 		uid: "1e618e85",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ebwizardry:wizard_hat",
 			tag: {
 				Quality: {
@@ -41,6 +44,9 @@
 		uid: "1c49d742",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ebwizardry:wizard_robe",
 			tag: {
 				Quality: {
@@ -83,6 +89,9 @@
 		uid: "3beaba2e",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ebwizardry:wizard_leggings",
 			tag: {
 				Quality: {}
@@ -95,6 +104,9 @@
 		uid: "a72199ee",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ebwizardry:wizard_boots",
 			tag: {
 				Quality: {
@@ -128,46 +140,8 @@
 		xp_levels: 10
 	},
 	{
-		uid: "7fd3ff1f",
-		type: "loot",
-		title: "&bRandom Wizardry Artefact",
-		icon: {
-			id: "ancientspellcraft:ring_disenchanter",
-			tag: {
-				Quality: {
-					Slots: [
-						"baubles_trinket",
-						"offhand"
-					],
-					Color: "light_purple",
-					AttributeModifiers: [{
-						UUIDMost: -9612050074219647L,
-						UUIDLeast: -8573738024557858871L,
-						Amount: 0.029999999329447746d,
-						AttributeName: "potioncore.damageResistance",
-						Operation: 2,
-						Name: "qualitytools"
-					},
-					{
-						UUIDMost: -6260459351197663212L,
-						UUIDLeast: -9023398028467624609L,
-						Amount: 2.0d,
-						AttributeName: "generic.maxHealth",
-						Operation: 0,
-						Name: "qualitytools"
-					},
-					{
-						UUIDMost: 2640681222218663561L,
-						UUIDLeast: -8743280288180521734L,
-						Amount: 1.0d,
-						AttributeName: "potioncore.magicShielding",
-						Operation: 0,
-						Name: "qualitytools"
-					}],
-					Name: "quality.undying.name"
-				}
-			}
-		},
-		table: 52
+		uid: "b0335a55",
+		type: "random",
+		table: 47
 	}]
 }

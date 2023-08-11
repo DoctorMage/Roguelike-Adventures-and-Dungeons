@@ -1,0 +1,24 @@
+{
+	title: "Bookworm Jim",
+	x: -16.5d,
+	y: 2.0d,
+	description: "Waiter another book please",
+	text: [
+		"Allows you to eat enchanted books "
+	],
+	tasks: [{
+		uid: "0e0ff7f5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:emblem.bookworm",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,6 +1,11 @@
 {
 	title: "Either a Great Feat, or a Pity Reward",
-	icon: "ebwizardry:grand_crystal",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:grand_crystal"
+	},
 	x: 12.0d,
 	y: -14.5d,
 	description: "Take this, it will make you feel better",
@@ -21,16 +26,19 @@
 		value: 1000L
 	}],
 	rewards: [{
-		uid: "6f3c6f05",
-		type: "random",
-		title: "One Random Elemental Crystal",
-		icon: "ebwizardry:grand_crystal",
-		table: 45
-	},
-	{
 		uid: "94bfc3a0",
 		type: "item",
-		item: "ebwizardry:grand_crystal",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:grand_crystal"
+		},
 		count: 3
+	},
+	{
+		uid: "ce43750f",
+		type: "random",
+		table: 1
 	}]
 }

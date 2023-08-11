@@ -1,6 +1,12 @@
 {
 	title: "The Most Unique Crops (Unfinished)",
-	icon: "uniquecrops:generic 1 11",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "uniquecrops:generic",
+		Damage: 11s
+	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

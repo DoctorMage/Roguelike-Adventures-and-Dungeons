@@ -1,0 +1,41 @@
+{
+	x: -9.5d,
+	y: 6.0d,
+	tasks: [{
+		uid: "62f4603d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:precision.pick",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 5610318792529627893L,
+						UUIDLeast: -5836395296273992900L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -9108273501539449498L,
+						UUIDLeast: -7187037992113636056L,
+						Amount: -0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.vicious.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

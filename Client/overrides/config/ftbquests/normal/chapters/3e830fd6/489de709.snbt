@@ -1,0 +1,40 @@
+{
+	title: "Forged In Fire",
+	x: -8.0d,
+	y: 1.0d,
+	text: [
+		"Aquire the blacksmith emblem ",
+		"",
+		"While equipped anvils will not recieve any damage when used"
+	],
+	tasks: [{
+		uid: "43aea257",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:emblem.blacksmith",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 1032149999529181423L,
+						UUIDLeast: -5452001195224035069L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.projectileDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.aiming.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

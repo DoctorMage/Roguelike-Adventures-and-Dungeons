@@ -1,0 +1,40 @@
+{
+	title: "Everything Is A Nail",
+	x: -10.0d,
+	y: 7.0d,
+	description: "Hammer time",
+	text: [
+		"Why fill your hotbar with 4 differnt tools",
+		"",
+		"When a hammer can do all of that for the cost of 1 hotbar slot"
+	],
+	tasks: [{
+		uid: "f19db386",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:precision.hammer",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 2380833978692878823L,
+						UUIDLeast: -6435640222883580970L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.long.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

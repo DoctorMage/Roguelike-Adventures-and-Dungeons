@@ -1,0 +1,56 @@
+{
+	title: "Alchemist Bane",
+	x: -9.5d,
+	y: 3.5d,
+	text: [
+		"Tired of all those random potion effects ",
+		"",
+		"equip the Golden Scarab Emblem to negegate the abillity to be effected by all potions"
+	],
+	tasks: [{
+		uid: "6f38d2a3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:emblem.scarab",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 4660492640840534239L,
+						UUIDLeast: -7161396273189244483L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 2991447944279574127L,
+						UUIDLeast: -5824005484615388731L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -3916826576888575993L,
+						UUIDLeast: -9039656405944349051L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.clunky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
