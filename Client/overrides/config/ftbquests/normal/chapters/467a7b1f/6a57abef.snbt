@@ -1,0 +1,26 @@
+{
+	title: "Spider Zombie Spider Zombie!",
+	x: 1.5d,
+	y: -1.0d,
+	description: "Does whatever a spider can",
+	text: [
+		"They may look big and bulky but these zombies are as agile as spiders when it comes to climbing"
+	],
+	tasks: [{
+		uid: "d7b05b11",
+		type: "kill",
+		title: "Slay Some Bouldering Zombies",
+		entity: "ancientbeasts:boulderer",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "940d5a51",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b683e107",
+		type: "xp_levels",
+		xp_levels: 15
+	}]
+}

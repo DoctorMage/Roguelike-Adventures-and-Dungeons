@@ -1,0 +1,44 @@
+{
+	title: "Casper The Unfriendly Ghost",
+	x: -2.5d,
+	y: -1.0d,
+	description: "And friends",
+	text: [
+		"These fiends will resurrect undead to assit them while fighting.",
+		"",
+		"Upon being killed they will drop dark essence which can be used to make potions of undeath."
+	],
+	tasks: [{
+		uid: "35c6f55f",
+		type: "kill",
+		title: "Slay Some Nekros",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "ancientbeasts:nekros"
+				}
+			}
+		},
+		entity: "ancientbeasts:nekros",
+		value: 5L
+	}],
+	rewards: [{
+		uid: "a6a4fa5c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "0d497a96",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "dfb49cc7",
+		type: "random",
+		table: 12
+	}]
+}

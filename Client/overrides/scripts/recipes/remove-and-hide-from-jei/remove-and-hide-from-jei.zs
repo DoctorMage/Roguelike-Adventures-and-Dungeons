@@ -82,3 +82,12 @@ rh(<placeableitems:item_horse_armor_stand>);
 rh(<thaumicwonders:void_fortress_helm>);
 rh(<thaumicwonders:void_fortress_chest>);
 rh(<thaumicwonders:void_fortress_legs>);
+
+//#Prefab
+
+rh(<prefab:item_monster_masher>);
+
+//#Beast Slayer
+
+rh(<ancientbeasts:pokey>);
+rh(<ancientbeasts:skewer>);

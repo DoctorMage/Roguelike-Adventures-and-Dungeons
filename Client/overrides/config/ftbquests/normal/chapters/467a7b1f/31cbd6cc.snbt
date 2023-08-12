@@ -1,0 +1,33 @@
+{
+	title: "The Forgotten Evoker",
+	x: -1.5d,
+	y: -1.0d,
+	description: "The dead are easy to forget",
+	text: [
+		"A decayed evoker whose joined the undead forces.",
+		"",
+		"It uses it's dark magic to shield undead and curse any adventurer foolish enough to crass its path."
+	],
+	tasks: [{
+		uid: "aa953f54",
+		type: "kill",
+		title: "Slay Some Zealots",
+		entity: "ancientbeasts:zealot",
+		value: 5L
+	}],
+	rewards: [{
+		uid: "9cda5b63",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "abac7376",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "68ea6acf",
+		type: "random",
+		table: 12
+	}]
+}

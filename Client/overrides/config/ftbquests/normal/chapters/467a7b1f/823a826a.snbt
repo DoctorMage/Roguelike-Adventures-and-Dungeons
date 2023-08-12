@@ -1,0 +1,42 @@
+{
+	title: "Frost Foxy",
+	x: 1.0d,
+	y: 2.5d,
+	description: "Cute as a cold",
+	text: [
+		"Frozen foxes that wander the frozen lands hunting for rabbits or chickens.",
+		"",
+		"Get to close them and they will introduce you to the spikes that cover there fur.",
+		"",
+		"Give it's favourite prey and maybe you can befriend it"
+	],
+	tasks: [{
+		uid: "738638f6",
+		type: "observation",
+		title: "Observe A Frostash Fox",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "ancientbeasts:frostash_fox"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "ancientbeasts:frostash_fox",
+		timer: 40L
+	}],
+	rewards: [{
+		uid: "c286046b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "252c339f",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

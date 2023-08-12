@@ -1,0 +1,33 @@
+{
+	title: "Two Heads Are Worse Than One",
+	x: 0.5d,
+	y: -1.0d,
+	description: "I heard you like skeletons",
+	text: [
+		"What's better than one skeleton? two skeletons these fellas got together and took using there heads literally ",
+		"",
+		"They'll open up there ribcages and use there deadly kunais to pull you in trust me don't try finding out what happens next."
+	],
+	tasks: [{
+		uid: "847836ff",
+		type: "kill",
+		title: "Slay Some Bonepiles",
+		entity: "ancientbeasts:bonepile",
+		value: 5L
+	}],
+	rewards: [{
+		uid: "432069ad",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "6431a411",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "d4bd9bba",
+		type: "random",
+		table: 12
+	}]
+}

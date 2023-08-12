@@ -1,0 +1,42 @@
+{
+	title: "Mod Bug",
+	x: -6.5d,
+	y: -1.0d,
+	shape: "square",
+	text: [
+		"You should not be seeing this if you encounter this mod please report it.",
+		"",
+		"This means that beast slayer is not recognising spawn weight 0.",
+		"",
+		"This mob is disabled due to its main drop being made redudant."
+	],
+	hide_dependency_lines: true,
+	hide: true,
+	optional: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "5d1de0a1",
+		type: "observation",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:barrier"
+		},
+		match_type: "entity_id",
+		match: "ancientbeasts:damcell",
+		timer: 0L
+	},
+	{
+		uid: "b6172571",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:barrier"
+		},
+		entity: "ancientbeasts:damcell",
+		value: 1L
+	}]
+}

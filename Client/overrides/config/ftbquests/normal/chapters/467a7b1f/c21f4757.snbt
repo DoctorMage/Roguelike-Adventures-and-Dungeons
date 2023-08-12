@@ -1,0 +1,36 @@
+{
+	title: "Get Over Here",
+	x: 0.5d,
+	y: -2.0d,
+	description: "Finish him",
+	text: [
+		"Wanna be a ninja? ",
+		"",
+		"Steal one of these from a bonepile and you can start your journey as a shinobi."
+	],
+	dependencies: [
+		"8e9b9c3a"
+	],
+	tasks: [{
+		uid: "f21b9c82",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:kunai"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "50ac855c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "99da194b",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,49 @@
+{
+	title: "I'm In You Walls",
+	x: -3.5d,
+	y: -2.0d,
+	description: "You better be paying rent then",
+	text: [
+		"Ever wanted to scare you friends or move freely through all walls.",
+		"",
+		"Shug down a ghostly  form potion and you can be the first ever living ghost."
+	],
+	dependencies: [
+		"e0e1aa5c"
+	],
+	tasks: [{
+		uid: "e2998cb9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:ectoplasm"
+		}],
+		count: 5L
+	},
+	{
+		uid: "771c80d4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				Potion: "ancientbeasts:poison_ghostly"
+			}
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "cb961fcc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5b843bd2",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

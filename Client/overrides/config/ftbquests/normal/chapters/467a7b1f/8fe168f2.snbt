@@ -1,0 +1,46 @@
+{
+	title: "They Came From Somewhere",
+	x: -0.5d,
+	y: -1.0d,
+	description: "Probably space, all the weird things live there",
+	text: [
+		"An enderman that went to a place it should never have in the first place",
+		"",
+		"It's punishment is being able to fire cool lasers and getting armour all over it's body",
+		"",
+		"Don't even dream about trying to face these thing without a shield."
+	],
+	tasks: [{
+		uid: "614c1d07",
+		type: "kill",
+		title: "Slay Some Rifted Endermen",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "ancientbeasts:rifted_enderman"
+				}
+			}
+		},
+		entity: "ancientbeasts:rifted_enderman",
+		value: 3L
+	}],
+	rewards: [{
+		uid: "0558d710",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "7c04f2cc",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "51e7ad0a",
+		type: "random",
+		table: 12
+	}]
+}

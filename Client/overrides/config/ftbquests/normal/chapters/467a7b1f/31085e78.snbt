@@ -1,0 +1,26 @@
+{
+	title: "Book Of Ancient Creatures",
+	x: 0.0d,
+	y: 0.0d,
+	description: "At least it has pictures",
+	text: [
+		"Adventurers of old made this book in hope to understand some of the creatures that wander this land."
+	],
+	tasks: [{
+		uid: "cb374a2e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:bestiary"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bc975fd5",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

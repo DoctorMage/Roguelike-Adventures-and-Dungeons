@@ -1,0 +1,27 @@
+{
+	title: "Cactus Soup",
+	x: 0.0d,
+	y: 2.0d,
+	description: "Could use a bit of salt",
+	text: [
+		"Tired of boring old meat skewers or nether stars on toast?",
+		"",
+		"Why not be a real adventurer and drink cactus broth it also counts for one of your five a day."
+	],
+	tasks: [{
+		uid: "7beae697",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:cactus_broth"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "6b24104a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

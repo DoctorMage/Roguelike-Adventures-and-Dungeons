@@ -1,0 +1,24 @@
+{
+	title: "Under Construction",
+	x: -9.5d,
+	y: 5.0d,
+	description: "I Forgot",
+	text: [
+		"If your reading this that means ",
+		"",
+		"A This quest book section is unfinished",
+		"",
+		"B I forgot to remove it before rad 1.54 dropped"
+	],
+	tasks: [{
+		uid: "78ebb3e8",
+		type: "checkmark",
+		title: "Under Construction",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:barrier"
+		}
+	}]
+}
