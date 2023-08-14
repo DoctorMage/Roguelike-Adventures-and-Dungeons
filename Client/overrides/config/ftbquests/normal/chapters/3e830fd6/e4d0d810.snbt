@@ -1,6 +1,19 @@
 {
-	x: -0.5d,
-	y: -2.5d,
+	title: "Endy The Plant",
+	x: -1.5d,
+	y: 4.5d,
+	description: "Wanna see me teleport to that mountain and back?",
+	text: [
+		"Ender lillies love to teleport so give them lots of empty farmland to work with.",
+		"",
+		"Watch out though they might swap places with anything that does not resemble them.",
+		"",
+		"Toss an enderpearl at it and It will return the favour."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "63bb61d0",
 		type: "item",
@@ -10,6 +23,21 @@
 			},
 			id: "uniquecrops:seedenderlily"
 		}],
-		count: 16L
+		count: 8L
+	}],
+	rewards: [{
+		uid: "0f6f4dad",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "5b38a9f2",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "5cdccce9",
+		type: "random",
+		table: 12
 	}]
 }

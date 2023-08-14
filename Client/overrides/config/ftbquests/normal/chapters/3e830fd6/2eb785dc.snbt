@@ -1,12 +1,15 @@
 {
 	title: "Everything Is A Nail",
-	x: -10.0d,
+	x: -9.5d,
 	y: 7.0d,
 	description: "Hammer time",
 	text: [
-		"Why fill your hotbar with 4 differnt tools",
+		"Why fill your hotbar with 4 different tools.",
 		"",
-		"When a hammer can do all of that for the cost of 1 hotbar slot"
+		"When a hammer can do all of that for the cost of 1 hotbar slot!"
+	],
+	dependencies: [
+		"c89f7b13"
 	],
 	tasks: [{
 		uid: "f19db386",
@@ -36,5 +39,20 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2db9a9be",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "766190c5",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "fd1af112",
+		type: "random",
+		table: 19
 	}]
 }

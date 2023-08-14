@@ -1,0 +1,50 @@
+{
+	title: "I'm A Savage",
+	x: -15.5d,
+	y: -3.0d,
+	description: "Barely even human",
+	text: [
+		"After following the list of demands set out you can have your revenge.",
+		"",
+		"Use their own essence against them to make a sun block.",
+		"",
+		"Certain crops when placed next to it will grow like any old seed no need to follow any complicated rules or demands."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5fd839cc",
+		"c85afead"
+	],
+	tasks: [{
+		uid: "709f5366",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:generic",
+			Damage: 9s
+		}],
+		count: 8L
+	},
+	{
+		uid: "d4de63c3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:sunblock"
+		}]
+	}],
+	rewards: [{
+		uid: "925efe21",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "7c496016",
+		type: "xp_levels",
+		xp_levels: 20
+	}]
+}

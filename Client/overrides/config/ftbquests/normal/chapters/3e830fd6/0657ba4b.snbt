@@ -1,0 +1,71 @@
+{
+	title: "The Druid",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
+			Parent: {
+				"UC:cropPowerCurrent": 0,
+				"UC:ignoresCooldown": 0b,
+				"UC:cropPowerCooldown": 0,
+				"UC:cropPowerCapacity": 100
+			}
+		},
+		id: "uniquecrops:wildwood_staff",
+		tag: {}
+	},
+	x: -18.5d,
+	y: 3.0d,
+	description: "Nature is magical",
+	text: [
+		"Before you begin your journey into unique crops multiblocks you will need to craft a wildwood staff.",
+		"",
+		"Once crafted it will absorb crop energy from nearby growing crops.",
+		"",
+		"The most optimal crops to steal energy from are potatoes, wheat, beetroots or carrots.",
+		"",
+		"The orb of good harvest allows the staff to act in a larger radius"
+	],
+	tasks: [{
+		uid: "068fabae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				Parent: {
+					"UC:cropPowerCurrent": 0,
+					"UC:ignoresCooldown": 0b,
+					"UC:cropPowerCooldown": 0,
+					"UC:cropPowerCapacity": 100
+				}
+			},
+			id: "uniquecrops:wildwood_staff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b4a411a0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:emeradic_diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "a43b306d",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "1f7cc7c4",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "bac4119d",
+		type: "random",
+		table: 19
+	}]
+}

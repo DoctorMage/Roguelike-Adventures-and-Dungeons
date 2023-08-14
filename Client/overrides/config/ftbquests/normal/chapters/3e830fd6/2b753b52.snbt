@@ -1,6 +1,17 @@
 {
-	x: -2.5d,
-	y: -0.5d,
+	title: "Count Plantula",
+	x: -3.0d,
+	y: -4.5d,
+	description: "Vegans can be vampires",
+	text: [
+		"Apparently there's plant based alternatives to blood.",
+		"",
+		"The only way you seeing this blood sucking plant is by trapping it in a mirror dimension when the moon is hollow."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "90d40fc6",
 		type: "item",
@@ -10,6 +21,21 @@
 			},
 			id: "uniquecrops:seedsucco"
 		}],
-		count: 16L
+		count: 8L
+	}],
+	rewards: [{
+		uid: "dac1f49e",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "a0f0bc70",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "ca9454b2",
+		type: "random",
+		table: 12
 	}]
 }

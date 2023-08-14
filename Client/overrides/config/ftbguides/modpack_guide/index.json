@@ -5,19 +5,9 @@
   "icon": "item:minecraft:grass"
  },
  {
-  "id": "gearingup",
-  "title": "Gearing Up!",
-  "icon": "item:minecraft:iron_sword"
- },
- {
   "id": "foodandhealth",
   "title": "All You Can Eat",
   "icon": "item:harvestcraft:southernstylebreakfastitem"
- },
- {
-  "id": "mods",
-  "title": "Additional Mods In The Pack",
-  "icon": "item:qualitytools:reforging_station"
  },
  {
   "id": "storageandyou",
@@ -34,9 +24,14 @@
   "title": "Bring Out Your Dead",
   "icon": "item:tombstone:ankh_of_pray"
  },
-  {
+ {
+  "id": "decoration101",
+  "title": "Decoration 101",
+  "icon": "item:bibliocraft:furniturepaneler"
+ },
+ {
   "id": "notesandcredits",
   "title": "Notes & Credits",
-  "icon": "item:minecraft:experience_bottle"
+  "icon": "item:cyclicmagic:heart_toxic"
  }
 ]

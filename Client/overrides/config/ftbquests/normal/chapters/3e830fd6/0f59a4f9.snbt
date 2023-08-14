@@ -2,8 +2,11 @@
 	title: "The Wall",
 	x: -11.5d,
 	y: 2.0d,
+	description: "Easier to talk to than some would think",
 	text: [
-		"The better armour you have the better the Leaf Badge will buff you"
+		"The ultimate stat stick emblem don't care about all those bonus effects of armour?",
+		"",
+		"Slap one of these on if all you care about is big numbers."
 	],
 	tasks: [{
 		uid: "61b767dc",
@@ -19,5 +22,20 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "04608741",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "807b9f5a",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "c13ac8dc",
+		type: "random",
+		table: 19
 	}]
 }

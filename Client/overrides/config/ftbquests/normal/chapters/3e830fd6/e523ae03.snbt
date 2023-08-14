@@ -1,0 +1,38 @@
+{
+	title: "When I Said I Like Glazed Doughnuts",
+	x: -13.5d,
+	y: -3.0d,
+	description: "This is not what I mean't",
+	text: [
+		"Don't try eating these doughnuts trust me.",
+		"",
+		"Their hard as steel just use em as weapons instead!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"50df0aec"
+	],
+	tasks: [{
+		uid: "e0399299",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:steel_donut"
+		}],
+		count: 3L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c81f9357",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "e9a2facb",
+		type: "xp_levels",
+		xp_levels: 25
+	}]
+}

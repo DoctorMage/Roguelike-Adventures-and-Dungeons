@@ -1,6 +1,17 @@
 {
-	x: -4.5d,
-	y: -3.5d,
+	title: "Quick Maths",
+	x: -0.5d,
+	y: -1.5d,
+	description: "Even Stevens",
+	text: [
+		"Wafflonia's love being with eachother.",
+		"",
+		"Make sure each one has a friend to talk to!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "f2998d71",
 		type: "item",
@@ -11,5 +22,20 @@
 			id: "uniquecrops:seedwafflonia"
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "eef1d96f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "5e26ae00",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "b6df8362",
+		type: "random",
+		table: 12
 	}]
 }

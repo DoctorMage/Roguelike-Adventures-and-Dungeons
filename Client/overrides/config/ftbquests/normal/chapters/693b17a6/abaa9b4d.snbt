@@ -1,9 +1,14 @@
 {
 	title: "Hunter Hunted",
-	icon: "vampirism:hunter_hat0_head",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "vampirism:hunter_hat0_head"
+	},
 	x: 4.5d,
 	y: 4.5d,
-	description: "they don't like a taste of their own medicine",
+	description: "They don't like a taste of their own medicine",
 	text: [
 		"Show 500 advanced hunters that the real monsters were humans all along."
 	],

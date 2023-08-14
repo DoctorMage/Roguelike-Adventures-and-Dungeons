@@ -1,0 +1,40 @@
+{
+	title: "A Unique Experience",
+	x: -3.5d,
+	y: -3.5d,
+	text: [
+		"Hexis feeds on experience orbs to grow.",
+		"",
+		"Once it has matured milk it with a bottle to get as experienceds as it."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
+	tasks: [{
+		uid: "284dfaa9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:seedhexis"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "6d0139a5",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "fb336133",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "f37c32ba",
+		type: "random",
+		table: 12
+	}]
+}

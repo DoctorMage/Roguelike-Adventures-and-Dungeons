@@ -1,0 +1,48 @@
+{
+	title: "The Most Expensive Sandwich Ever",
+	x: -16.5d,
+	y: -4.0d,
+	description: "Saviour every bite this costed your life savings.",
+	text: [
+		"Ever dreamed of having have golden bread?",
+		"",
+		"Get some golden rods and make that dream a reality"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6433f3dc"
+	],
+	tasks: [{
+		uid: "b07db41e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:generic",
+			Damage: 6s
+		}],
+		count: 12L
+	},
+	{
+		uid: "6808c3d4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:genericfood.goldenbread"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "a85166c2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "4fa518d9",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

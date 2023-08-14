@@ -1,8 +1,10 @@
 {
+	title: "I'll Turn You Into A Frog",
 	x: -9.0d,
 	y: 0.5d,
+	description: "Don't worry it won't hurt.. I think",
 	text: [
-		""
+		"Be like a real witch and transform annoying creatures into a completely differnet lifeform."
 	],
 	tasks: [{
 		uid: "07a60486",
@@ -18,5 +20,20 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4313dc72",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "6cf86e74",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "eb5e1f47",
+		type: "random",
+		table: 19
 	}]
 }

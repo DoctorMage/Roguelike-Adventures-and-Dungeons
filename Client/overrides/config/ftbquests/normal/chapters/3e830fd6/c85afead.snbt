@@ -1,6 +1,15 @@
 {
+	title: "Now In 4k",
 	x: -3.5d,
-	y: -4.5d,
+	y: -2.5d,
+	description: "I paid for all the pixels",
+	text: [
+		"The more they mature the more high quality they will appear."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "8bf23dc1",
 		type: "item",
@@ -11,5 +20,20 @@
 			id: "uniquecrops:seedpixelsius"
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "a57bd10e",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "28485fa1",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "672fa8c1",
+		type: "random",
+		table: 12
 	}]
 }

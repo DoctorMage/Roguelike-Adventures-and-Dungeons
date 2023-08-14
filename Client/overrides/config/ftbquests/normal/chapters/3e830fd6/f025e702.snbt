@@ -1,6 +1,17 @@
 {
-	x: -0.5d,
-	y: -1.5d,
+	title: "Up Up And Away",
+	x: -3.5d,
+	y: 4.5d,
+	description: "Your voice sounds funny",
+	text: [
+		"These plump plums are filled with helium so make sure you keep your windows locked.",
+		"",
+		"Or else they might fly off into space."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "648adee6",
 		type: "item",
@@ -10,6 +21,21 @@
 			},
 			id: "uniquecrops:seeddirigible"
 		}],
-		count: 16L
+		count: 8L
+	}],
+	rewards: [{
+		uid: "84db5e25",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "9c7fb217",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "292d32fd",
+		type: "random",
+		table: 12
 	}]
 }

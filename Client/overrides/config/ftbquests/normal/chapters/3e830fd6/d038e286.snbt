@@ -1,6 +1,17 @@
 {
+	title: "The Block That Lurks In The Dark",
 	x: -2.5d,
 	y: 8.0d,
+	description: "Vantablock",
+	text: [
+		"When bedrock is near petramia it will convert said bedrock into dark blocks.",
+		"",
+		"To collect these dark blocks sneak click on them with an ender snooker."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e77216c5"
+	],
 	tasks: [{
 		uid: "fcafb7b1",
 		type: "item",
@@ -11,5 +22,20 @@
 			id: "uniquecrops:darkblock"
 		}],
 		count: 8L
+	}],
+	rewards: [{
+		uid: "9dfb2f74",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5433be45",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "fc608e1e",
+		type: "random",
+		table: 19
 	}]
 }

@@ -1,6 +1,25 @@
 {
+	title: "Praise The Sun",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "uniquecrops:seedindustria"
+	},
 	x: -2.5d,
-	y: -4.5d,
+	y: -3.5d,
+	description: "The power of the sun in the palm of my hand",
+	text: [
+		"Harness solar energy with the power plant.",
+		"",
+		"While exposed to sunlight they will grow and storage its energy.",
+		"",
+		"When fully grown and harvested it has a chance of dropping a battery bean."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "4c803d01",
 		type: "item",
@@ -10,6 +29,21 @@
 			},
 			id: "uniquecrops:seedindustria"
 		}],
-		count: 16L
+		count: 8L
+	}],
+	rewards: [{
+		uid: "a0a3b207",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "8a121c13",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "a88d0b1d",
+		type: "random",
+		table: 12
 	}]
 }

@@ -1,0 +1,51 @@
+{
+	title: "Sticks & Stones",
+	x: -18.5d,
+	y: -3.5d,
+	description: "May break my bones but legal documents will hurt me",
+	text: [
+		"Have a nosey neighbour that won't stop bothering you.",
+		"",
+		"Hit em with a cease and desist from the eula book! ",
+		"",
+		"It's buried in there somewere I think?"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c47e1fc1"
+	],
+	tasks: [{
+		uid: "93de8842",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:generic",
+			Damage: 23s
+		}],
+		count: 4L
+	},
+	{
+		uid: "8b38a1c7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:generic",
+			Damage: 24s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dc3caa40",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "e1993c02",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

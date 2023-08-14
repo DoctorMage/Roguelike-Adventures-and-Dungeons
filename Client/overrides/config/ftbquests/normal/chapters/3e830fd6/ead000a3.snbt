@@ -1,7 +1,7 @@
 {
 	title: "Ring Of Potassium",
 	x: -16.5d,
-	y: 3.0d,
+	y: 4.0d,
 	description: "Potatoes boil em mash em turn em into a ring",
 	text: [
 		"As long as you have the Funyun ring equipped never worry about starving again.",
@@ -37,5 +37,15 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3ee3a208",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "073c90e0",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

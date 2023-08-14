@@ -1,9 +1,12 @@
 {
 	title: "Captain Thunderpants",
-	x: -11.0d,
+	x: -10.0d,
 	y: 9.0d,
+	description: "Hey there fancy pants",
 	text: [
-		""
+		"Remeber being a kid an getting a static shock now you get to give others that experience.",
+		"",
+		"Slap down some carpet dance around a bit and give your enemies the shock of their life."
 	],
 	tasks: [{
 		uid: "fb0784a6",
@@ -33,5 +36,20 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45d4256c",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "2d42c4ff",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "ad86d132",
+		type: "random",
+		table: 9
 	}]
 }

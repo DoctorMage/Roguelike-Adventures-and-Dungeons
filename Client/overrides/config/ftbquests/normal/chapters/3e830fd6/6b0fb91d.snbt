@@ -1,0 +1,41 @@
+{
+	title: "Plant Construction 101",
+	x: -9.5d,
+	y: -6.0d,
+	text: [
+		"Congratulations if your seeing this that means you've encountered all multi blocks.",
+		"",
+		"Enjoy your reward."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1562be20",
+		"a169671d",
+		"308b4a0e",
+		"f2d15fc8",
+		"f44b7630",
+		"8dbd1241",
+		"15c52548",
+		"ba42045c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a4fafaf4",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "93e5f835",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "dcb78152",
+		type: "xp_levels",
+		xp_levels: 100
+	},
+	{
+		uid: "0ee05ced",
+		type: "random",
+		table: 57
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	title: "Cry For The Weeper",
+	x: -15.5d,
+	y: -4.0d,
+	description: "Machine what is this crop",
+	text: [
+		"The weeping eye cries for it can see all the horrors of this world."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"432c431e"
+	],
+	tasks: [{
+		uid: "220b59fd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:generic",
+			Damage: 15s
+		}],
+		count: 16L
+	},
+	{
+		uid: "9994f3c5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:generic",
+			Damage: 16s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "ae2c8c23",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c3c10f7f",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

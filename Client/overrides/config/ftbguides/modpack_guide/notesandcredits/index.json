@@ -1,0 +1,12 @@
+[
+ {
+  "id": "rad1team",
+  "title": "The Rad 1 Team",
+  "icon": "item:scalinghealth:difficultychanger"
+ },
+ {
+  "id": "chinesetranslation",
+  "title": "VM Translation Group",
+  "icon": "item:dungeontactics:heart_drop"
+ }
+ ]

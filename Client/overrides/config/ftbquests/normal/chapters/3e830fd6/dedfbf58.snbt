@@ -1,6 +1,11 @@
 {
+	title: "Can You Swing Sword?",
 	x: -8.0d,
 	y: 3.0d,
+	description: "Return to 1.8",
+	text: [
+		"Who needs bows when you can swing your sword faster than any arrow flies!"
+	],
 	tasks: [{
 		uid: "d4444daf",
 		type: "item",
@@ -30,5 +35,20 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d43e08fa",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "ae63bc32",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "4aec7022",
+		type: "random",
+		table: 19
 	}]
 }

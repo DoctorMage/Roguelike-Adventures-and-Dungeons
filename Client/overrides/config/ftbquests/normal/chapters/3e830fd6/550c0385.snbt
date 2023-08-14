@@ -1,10 +1,18 @@
 {
 	title: "I'm Rubber",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "uniquecrops:vampiric_ointment"
+	},
 	x: -14.5d,
-	y: 2.0d,
+	y: 3.0d,
 	description: "You're glue",
 	text: [
-		""
+		"Ever wanted to make your fights someone elses problem?",
+		"",
+		"Give this to your favourite pig pour the results in a goblet and let it deal with your problems."
 	],
 	tasks: [{
 		uid: "069f6321",
@@ -15,5 +23,30 @@
 			},
 			id: "uniquecrops:vampiric_ointment"
 		}]
+	},
+	{
+		uid: "754ee80b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:goblet"
+		}]
+	}],
+	rewards: [{
+		uid: "ed377dbd",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "35024fdc",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "1f821c63",
+		type: "random",
+		table: 12
 	}]
 }

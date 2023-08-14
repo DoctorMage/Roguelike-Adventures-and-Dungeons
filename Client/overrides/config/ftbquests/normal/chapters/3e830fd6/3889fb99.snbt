@@ -1,9 +1,21 @@
 {
+	title: "Make Love Not War",
 	x: -9.5d,
 	y: 2.0d,
 	description: "Love & Peace",
 	text: [
-		""
+		"Become a monk and show those around you the ways of pacifism."
+	],
+	dependencies: [
+		"0f59a4f9",
+		"d7831f71",
+		"be2ec92d",
+		"489de709",
+		"5f1c0998",
+		"237a2e9e",
+		"dedfbf58",
+		"6a56080d",
+		"204574a9"
 	],
 	tasks: [{
 		uid: "4bedf316",
@@ -34,5 +46,20 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8c449e81",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "39af10c0",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "aa13ae8a",
+		type: "random",
+		table: 57
 	}]
 }

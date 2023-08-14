@@ -1,0 +1,33 @@
+{
+	title: "Run Away Run Away!",
+	x: -16.5d,
+	y: -5.0d,
+	description: "One to many zubats",
+	text: [
+		"In a pickle and need a quick way out?",
+		"",
+		"Carry an escape rope and never worry about getting overwhelmed by bats again."
+	],
+	tasks: [{
+		uid: "0b3578d3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:generic",
+			Damage: 28s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "82a12840",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1b1fa593",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	title: "Let Me Be Precise",
+	x: -15.5d,
+	y: -2.0d,
+	description: "And stop calling me shirley",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c7145bbb"
+	],
+	tasks: [{
+		uid: "0ccd6407",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:generic",
+			Damage: 7s
+		}],
+		count: 16L
+	},
+	{
+		uid: "3aafdf39",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:generic",
+			Damage: 8s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "04fd7d32",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "6388135b",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

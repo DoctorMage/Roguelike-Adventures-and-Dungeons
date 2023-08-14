@@ -1,6 +1,15 @@
 {
-	x: -4.5d,
-	y: -2.5d,
+	title: "Plant Plant Revolution",
+	x: -2.5d,
+	y: -0.5d,
+	description: "It was a showplant",
+	text: [
+		"These plants love to vibe so much that they'll only grow when hearing songs from note blocks."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "b8e2c59c",
 		type: "item",
@@ -10,6 +19,21 @@
 			},
 			id: "uniquecrops:seedmusica"
 		}],
-		count: 16L
+		count: 8L
+	}],
+	rewards: [{
+		uid: "50621080",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "67da2b86",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "b44db4d7",
+		type: "random",
+		table: 12
 	}]
 }

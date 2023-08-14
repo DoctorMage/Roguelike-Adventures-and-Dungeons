@@ -1,9 +1,14 @@
 {
 	title: "What's 1000 More Years?",
-	icon: "vampirism:vampire_cloak",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "vampirism:vampire_cloak"
+	},
 	x: 4.5d,
 	y: 6.5d,
-	description: "they lived long enough anyway",
+	description: "They lived long enough anyway",
 	text: [
 		"Show 500 advanced vampires that they should not have left their coffin this night."
 	],

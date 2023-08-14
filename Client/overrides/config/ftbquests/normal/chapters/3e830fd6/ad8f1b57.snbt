@@ -1,6 +1,13 @@
 {
+	title: "Kaboom Laddy!",
 	x: -15.5d,
-	y: 1.5d,
+	y: 2.5d,
+	description: "Is it safe to carry a bomb as a shield?",
+	text: [
+		"Like a regular shield the impact shield blocks attack but with added bous of storing them for later.",
+		"",
+		"When its about to break it will unleash all the damage taken to the unfortunate foe who happens to break it."
+	],
 	tasks: [{
 		uid: "7dbb68dd",
 		type: "item",
@@ -12,5 +19,20 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a6213680",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "467fd793",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "b2f7bb1e",
+		type: "random",
+		table: 19
 	}]
 }

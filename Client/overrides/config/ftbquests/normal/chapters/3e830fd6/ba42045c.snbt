@@ -1,0 +1,58 @@
+{
+	title: "Biome Identifying For The Lazy",
+	x: -7.0d,
+	y: -2.0d,
+	description: "Using the f3 menu is cheating",
+	text: [
+		"Weatherflesia are able to gather information about the land there in.",
+		"",
+		"If a pixel brush is given to them they will tell it everything they know.",
+		"",
+		"This process takes some time so be patient"
+	],
+	dependencies: [
+		"8dbd1241"
+	],
+	tasks: [{
+		uid: "f15befef",
+		type: "observation",
+		title: "Gaze Upon A Weatherflesia",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "biomesoplenty:terrarium",
+			Damage: 1s
+		},
+		match_type: "block_id",
+		match: "uniquecrops:weatherflesia",
+		timer: 20L
+	},
+	{
+		uid: "88b11e4a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:pixelbrush"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "85a1e22f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "e34be2be",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "2ca24189",
+		type: "random",
+		table: 19
+	}]
+}

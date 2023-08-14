@@ -1,6 +1,19 @@
 {
-	x: -1.5d,
+	title: "The Family Plant",
+	x: -4.0d,
 	y: -4.5d,
+	description: "Never turn your back on family",
+	text: [
+		"Instabilis only grow as a family with eachother.",
+		"",
+		"Once matured be careful when harvesting.",
+		"",
+		"The only way your seperating it from its family is with a pair of shears."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "78d40539",
 		type: "item",
@@ -10,6 +23,21 @@
 			},
 			id: "uniquecrops:seedinstabilis"
 		}],
-		count: 16L
+		count: 8L
+	}],
+	rewards: [{
+		uid: "2ba6595f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "3ebf47b5",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "89c3950f",
+		type: "random",
+		table: 12
 	}]
 }

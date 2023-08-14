@@ -1,7 +1,7 @@
 {
 	title: "Faction Villages",
-	x: -9.0d,
-	y: 2.0d,
+	x: -11.0d,
+	y: 0.5d,
 	text: [
 		"Villagers can either be controlled by hunters or vampires.",
 		"",
@@ -13,7 +13,13 @@
 	tasks: [{
 		uid: "e72f89a0",
 		type: "interaction",
-		icon: "vampirism:totem_top",
+		title: "Interact With A Village Totem Top",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:totem_top"
+		},
 		match_type: "block_id",
 		match: "vampirism:totem_top"
 	}],

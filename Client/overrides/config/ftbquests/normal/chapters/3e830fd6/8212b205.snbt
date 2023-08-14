@@ -1,10 +1,10 @@
 {
 	title: "Random Items GO",
 	x: -16.5d,
-	y: 1.0d,
+	y: 2.0d,
 	description: "You think throwing random items around is a class",
 	text: [
-		"Who needs weapons when you can just throw pocket sand at your enemies"
+		"Who needs weapons when you can just throw pocket sand at your enemies."
 	],
 	tasks: [{
 		uid: "e63897e0",
@@ -35,5 +35,20 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5779142e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "9b31e7f1",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "c24d907e",
+		type: "random",
+		table: 12
 	}]
 }

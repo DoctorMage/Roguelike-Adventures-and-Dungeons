@@ -3,15 +3,17 @@
 	x: -6.5d,
 	y: -1.0d,
 	shape: "square",
+	description: "Ignore this quest unless you encounter the bug",
 	text: [
-		"You should not be seeing this if you encounter this mod please report it.",
+		"You should not be seeing this if you encounter this mob please report it.",
 		"",
 		"This means that beast slayer is not recognising spawn weight 0.",
 		"",
-		"This mob is disabled due to its main drop being made redudant."
+		"This mob is disabled due to it's main drop being made redudant."
 	],
 	hide_dependency_lines: true,
 	hide: true,
+	hide_text_until_complete: true,
 	optional: true,
 	or_tasks: true,
 	tasks: [{
@@ -26,17 +28,5 @@
 		match_type: "entity_id",
 		match: "ancientbeasts:damcell",
 		timer: 0L
-	},
-	{
-		uid: "b6172571",
-		type: "kill",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:barrier"
-		},
-		entity: "ancientbeasts:damcell",
-		value: 1L
 	}]
 }

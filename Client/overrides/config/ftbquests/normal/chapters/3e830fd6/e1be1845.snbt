@@ -1,0 +1,50 @@
+{
+	title: "16 Bit Reality",
+	x: -14.5d,
+	y: -2.5d,
+	description: "I heard you like pixels",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c85afead"
+	],
+	tasks: [{
+		uid: "f9c25f73",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:generic",
+			Damage: 26s
+		}],
+		count: 16L
+	},
+	{
+		uid: "c1f86407",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:pixelglasses",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1aa4e42d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "c1f9dd38",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

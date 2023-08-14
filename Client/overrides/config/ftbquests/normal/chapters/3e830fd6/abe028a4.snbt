@@ -1,0 +1,74 @@
+{
+	title: "The Most Huggable Armour",
+	x: -9.5d,
+	y: 8.0d,
+	description: "If your wearing armour that is",
+	text: [
+		"Tired of mobs hugging you?",
+		"",
+		" Slap some cactus on your armour and teach them why hugging strangers is dangerous."
+	],
+	tasks: [{
+		uid: "45db4005",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:cactushelm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cf2c7c04",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:cactusplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "22c8ca31",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:cactuslegs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fa8ca467",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:cactusboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e5850bea",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "b5f3f9e1",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "4b61ddb6",
+		type: "random",
+		table: 9
+	}]
+}

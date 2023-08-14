@@ -4,9 +4,9 @@
 	y: -21.0d,
 	description: "It's so fluffy",
 	text: [
-		"Aerbunnies are native to the aether",
+		"Aerbunnies are native to the aether.",
 		"",
-		"If you see one put it on your head just do it  trust me."
+		"If you see one put it on your head just do it trust me!"
 	],
 	dependencies: [
 		"979d8bdd"
@@ -14,6 +14,7 @@
 	tasks: [{
 		uid: "b39bb8d6",
 		type: "observation",
+		title: "Lay Eyes Upon An Aerbunny",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
@@ -27,7 +28,7 @@
 		},
 		match_type: "entity_id",
 		match: "aether_legacy:aerbunny",
-		timer: 40L
+		timer: 20L
 	}],
 	rewards: [{
 		uid: "7fefe3cd",

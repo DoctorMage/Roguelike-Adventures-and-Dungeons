@@ -1,6 +1,17 @@
 {
+	title: "You can't see me",
 	x: -2.5d,
-	y: 0.5d,
+	y: 2.5d,
+	description: "But you can see my messages",
+	text: [
+		"Invisibilia are some sneaky crops or maybe you just need glasses?",
+		"",
+		"Probably the latter."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "970216d6",
 		type: "item",
@@ -10,6 +21,21 @@
 			},
 			id: "uniquecrops:seedinvisibilia"
 		}],
-		count: 16L
+		count: 8L
+	}],
+	rewards: [{
+		uid: "0d47ebe7",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "2f67bd4a",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "85db08bd",
+		type: "random",
+		table: 12
 	}]
 }

@@ -1,0 +1,46 @@
+{
+	title: "Running Shoes",
+	x: -11.0d,
+	y: 9.0d,
+	description: "Run steve run",
+	text: [
+		"Like running from your problems?",
+		"",
+		"Get some running shoes then you can run from them even faster."
+	],
+	tasks: [{
+		uid: "6769c76e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:bootsleague",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5a96e1ff",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "661d8211",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "6ed132ab",
+		type: "random",
+		table: 12
+	},
+	{
+		uid: "c1919afc",
+		type: "random",
+		table: 12
+	}]
+}

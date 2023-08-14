@@ -1,6 +1,19 @@
 {
-	x: -5.0d,
-	y: -0.5d,
+	title: "Get Off My Lawn",
+	x: -0.5d,
+	y: -2.5d,
+	description: "You damn mobs",
+	text: [
+		"Imperia have a weird obsession with violence. ",
+		"",
+		"They'll only grow if you do some murdering near them.",
+		"",
+		"When fully grown they negate mob spawns."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "d490c1ff",
 		type: "item",
@@ -10,6 +23,21 @@
 			},
 			id: "uniquecrops:seedimperia"
 		}],
-		count: 16L
+		count: 8L
+	}],
+	rewards: [{
+		uid: "dcdca99e",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "95c1c383",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "7e3fb5ae",
+		type: "random",
+		table: 12
 	}]
 }

@@ -1,6 +1,19 @@
 {
-	x: -2.5d,
-	y: 2.5d,
+	title: "Fairest Of Them All",
+	x: -5.0d,
+	y: -0.5d,
+	description: "A fairytale as old as time",
+	text: [
+		"Cinderbella are right out of a childrens fairy tale book. ",
+		"",
+		"Much like those fairy tale princess this plant can only achieve its dream of maturing by being planted after midnight.",
+		"",
+		"They also require some pumpkin friends to protect them."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "30af804b",
 		type: "item",
@@ -11,5 +24,20 @@
 			id: "uniquecrops:seedcinderbella"
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "66affc67",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "b8acc157",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "264993e5",
+		type: "random",
+		table: 12
 	}]
 }

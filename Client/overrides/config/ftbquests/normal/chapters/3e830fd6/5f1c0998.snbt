@@ -2,10 +2,11 @@
 	title: "Diamonds Are A Girls Best Snack",
 	x: -10.0d,
 	y: 0.5d,
+	description: "Abigail is that you?",
 	text: [
-		"When you have far to many gems instead of turning them into blocks or armour",
+		"Everyone knows diamonds make up all food groups to bad a regular stomache can't handle it.",
 		"",
-		"Turn them into an even tastier meal"
+		"But on the other end an Iron one definetly can!"
 	],
 	tasks: [{
 		uid: "749f998f",
@@ -21,5 +22,20 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0b5095aa",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "e3b432b5",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "17b7792f",
+		type: "random",
+		table: 19
 	}]
 }

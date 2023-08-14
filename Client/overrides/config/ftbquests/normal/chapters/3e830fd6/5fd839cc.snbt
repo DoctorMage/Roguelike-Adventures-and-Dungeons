@@ -1,6 +1,17 @@
 {
-	x: -2.5d,
-	y: -2.5d,
+	title: "I Have A List",
+	x: -1.0d,
+	y: -4.5d,
+	description: "Hostage negotation with a side of brocolli",
+	text: [
+		"Feroxia is very demanding each one will have it's on unique list of requirments for it to be able to grow.",
+		"",
+		"To see the requirements check the final page of the unique crops guide book."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "49793f3f",
 		type: "item",
@@ -10,6 +21,21 @@
 			},
 			id: "uniquecrops:seedferoxia"
 		}],
-		count: 16L
+		count: 8L
+	}],
+	rewards: [{
+		uid: "3b4de409",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "1e69a31f",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "a1c49965",
+		type: "random",
+		table: 12
 	}]
 }

@@ -13,7 +13,7 @@
 		"Kill some vampires and hunters to harvest their drops then trade them in to activate this effect."
 	],
 	dependencies: [
-		"05835cf3"
+		"6d6592b1"
 	],
 	tasks: [{
 		uid: "f4d15cfa",

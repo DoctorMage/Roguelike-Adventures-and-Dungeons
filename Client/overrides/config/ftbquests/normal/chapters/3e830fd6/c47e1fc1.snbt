@@ -1,6 +1,17 @@
 {
-	x: -1.5d,
-	y: -3.5d,
+	title: "Objection!",
+	x: -4.5d,
+	y: -1.5d,
+	description: "Order in the court of plants",
+	text: [
+		"Remeber to read the fine print before planting this crop.",
+		"",
+		"every... single......TIME!!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "7c181363",
 		type: "item",
@@ -11,5 +22,20 @@
 			id: "uniquecrops:seedeula"
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "d1490174",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "8ecabb60",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "1b67b408",
+		type: "random",
+		table: 12
 	}]
 }

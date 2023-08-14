@@ -1,6 +1,19 @@
 {
-	x: -3.5d,
-	y: 4.5d,
+	title: "Eco Friendly Engineering",
+	x: -4.5d,
+	y: -3.5d,
+	description: "It's green so its good",
+	text: [
+		"Lacuisa acts like a hopper for a single item.",
+		"",
+		"When lacuisa is next to a chest and powered by redstone it will transport items along a straight from inside the chest to other lacuisa in the same diagonal path as it.",
+		"",
+		"It will stop upon reaching another chest in which it will store said item."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "40608381",
 		type: "item",
@@ -11,5 +24,20 @@
 			id: "uniquecrops:seedlacusia"
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "8e56bb09",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "508288b4",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "8857f5b8",
+		type: "random",
+		table: 12
 	}]
 }

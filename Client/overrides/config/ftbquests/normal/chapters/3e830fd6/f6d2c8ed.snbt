@@ -1,0 +1,38 @@
+{
+	title: "Going Green",
+	x: -14.5d,
+	y: -3.5d,
+	description: "Do they come in triple a sizes?",
+	text: [
+		"Battery beans can be used as a source of power for a certain crop."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c2dd0c5e"
+	],
+	tasks: [{
+		uid: "045e6604",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:beanpower",
+			tag: {
+				Energy: 500
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "caf06b79",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "27d916ad",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}
