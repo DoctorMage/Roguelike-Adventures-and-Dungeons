@@ -1,0 +1,44 @@
+{
+	title: "Mother I Demand Sustenance",
+	x: -11.0d,
+	y: -4.0d,
+	description: "Get in my belly",
+	text: [
+		"Exedo are carnivorous anything that stays near them for to long will be gobbled up whole.",
+		"",
+		"Fortunately they don't have a taste for players... yet!"
+	],
+	dependencies: [
+		"8dbd1241"
+	],
+	tasks: [{
+		uid: "7b42741b",
+		type: "observation",
+		title: "Observe An Exedo",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thebetweenlands:items_plant_drop",
+			Damage: 35s
+		},
+		match_type: "block_id",
+		match: "uniquecrops:exedo",
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "2471ed92",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "3b3410ef",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "a2919705",
+		type: "random",
+		table: 19
+	}]
+}

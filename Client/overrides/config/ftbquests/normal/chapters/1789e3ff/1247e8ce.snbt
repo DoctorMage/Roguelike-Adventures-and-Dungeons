@@ -31,6 +31,7 @@
 	{
 		uid: "12e97895",
 		type: "observation",
+		title: "Lock Eyes With A Guardian",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
@@ -38,11 +39,12 @@
 			id: "openblocks:trophy",
 			tag: {
 				entity_id: "minecraft:guardian"
-			}
+			},
+			Damage: 26s
 		},
 		match_type: "entity_id",
 		match: "minecraft:guardian",
-		timer: 60L
+		timer: 40L
 	}],
 	rewards: [{
 		uid: "4856b77a",

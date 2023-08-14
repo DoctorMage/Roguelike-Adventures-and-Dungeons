@@ -4,11 +4,9 @@
 	y: -1.0d,
 	description: "Getting your hands dirty",
 	text: [
-		"To harvest the remains of a dead dragon right click it with an empty hand",
+		"To harvest the remains of a dead dragon right click it with an empty hand.",
 		"",
-		"If you wish to gain blood use a bottle",
-		"",
-		"This will reduce the chance of scales and other materials dropping"
+		"If you wish to gain blood use a bottle, this will reduce the chance of scales and other materials dropping."
 	],
 	dependencies: [
 		"834eaa9f"
@@ -42,7 +40,7 @@
 	rewards: [{
 		uid: "ef54a2bd",
 		type: "ftbmoney:money",
-		ftb_money: 300L
+		ftb_money: 150L
 	},
 	{
 		uid: "a028561d",

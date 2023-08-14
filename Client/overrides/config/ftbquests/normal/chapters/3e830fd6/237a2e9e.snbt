@@ -2,10 +2,11 @@
 	title: "Alchemist Bane",
 	x: -9.5d,
 	y: 3.5d,
+	description: "Miracle cure",
 	text: [
-		"Tired of all those random potion effects ",
+		"Tired of all those random potion effects.",
 		"",
-		"equip the Golden Scarab Emblem to negegate the abillity to be effected by all potions"
+		"equip the Golden Scarab Emblem to negegate the abillity to be effected by all potions."
 	],
 	tasks: [{
 		uid: "6f38d2a3",
@@ -52,5 +53,20 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "91716809",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "3a947073",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "6c0bdc27",
+		type: "random",
+		table: 19
 	}]
 }

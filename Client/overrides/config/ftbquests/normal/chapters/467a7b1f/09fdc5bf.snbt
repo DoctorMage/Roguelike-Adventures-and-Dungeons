@@ -1,0 +1,35 @@
+{
+	title: "The Forgotten Circus",
+	x: -2.0d,
+	y: 2.5d,
+	description: "It pulls it's own strings",
+	text: [
+		"When the sunset's venture into the abandoned carnival",
+		"",
+		"Observe the final cast members show ",
+		"",
+		"Be wary for it may invite you to join in."
+	],
+	tasks: [{
+		uid: "c4850857",
+		type: "kill",
+		title: "Defeat A Vessel",
+		entity: "ancientbeasts:vessel",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "cdcb3bbf",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "37e8b991",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "f1a3d735",
+		type: "random",
+		table: 19
+	}]
+}

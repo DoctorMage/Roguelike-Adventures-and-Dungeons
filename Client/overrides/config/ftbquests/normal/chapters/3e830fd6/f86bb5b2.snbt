@@ -1,6 +1,17 @@
 {
-	x: -3.5d,
-	y: -3.5d,
+	title: "It's Time You Dye",
+	x: -2.5d,
+	y: -1.5d,
+	description: "I was dying to meet you",
+	text: [
+		"Quirky is the only way to describe the dyeius.",
+		"",
+		"Depending on when you harvest it you'll get a different type of dye."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "d977ca6e",
 		type: "item",
@@ -11,5 +22,20 @@
 			id: "uniquecrops:seeddyeius"
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "55f91dd9",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "893685bd",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "c395ea90",
+		type: "random",
+		table: 12
 	}]
 }

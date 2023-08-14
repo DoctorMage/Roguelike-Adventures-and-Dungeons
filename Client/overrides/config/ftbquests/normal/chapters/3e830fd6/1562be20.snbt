@@ -1,0 +1,44 @@
+{
+	title: "Even Plants Can Be Lumberjacks",
+	x: -7.5d,
+	y: -3.0d,
+	description: "A bit counterproductive though",
+	text: [
+		"When planted lignator will cut down any nearby trees.",
+		"",
+		"They are trees themselves though so try not to have them to close to eachother."
+	],
+	dependencies: [
+		"8dbd1241"
+	],
+	tasks: [{
+		uid: "c2940da3",
+		type: "observation",
+		title: "Stare At A Lignator",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "engineersworkshop:upgrade",
+			Damage: 9s
+		},
+		match_type: "block_id",
+		match: "uniquecrops:treecutter",
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "4ba56bc5",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "ea65ecd2",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "8d7459aa",
+		type: "random",
+		table: 19
+	}]
+}

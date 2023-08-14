@@ -1,0 +1,45 @@
+{
+	title: "I'm Watching You",
+	x: -17.5d,
+	y: -4.0d,
+	description: "Always watching",
+	text: [
+		"The eye of millenium sees all and hides all that it deems unworthy."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e8643291"
+	],
+	tasks: [{
+		uid: "ff609f02",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:generic",
+			Damage: 17s
+		}],
+		count: 4L
+	},
+	{
+		uid: "b6bfdcea",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:totemhead"
+		}]
+	}],
+	rewards: [{
+		uid: "6358de94",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "709cde8f",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

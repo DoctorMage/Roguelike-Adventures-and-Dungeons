@@ -6,12 +6,17 @@
 		"To begin the quest chapters for the hunter path either find and interact with a hunter research table or craft one and interact with it."
 	],
 	dependencies: [
-		"05835cf3"
+		"6d6592b1"
 	],
 	tasks: [{
 		uid: "9ef24124",
 		type: "interaction",
-		icon: "vampirism:hunter_table",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:hunter_table"
+		},
 		match_type: "block_id",
 		match: "vampirism:hunter_table"
 	}],

@@ -1,6 +1,13 @@
 {
-	x: -2.5d,
-	y: 4.5d,
+	title: "REEEEEEEE",
+	x: -4.5d,
+	y: 5.5d,
+	description: "This plant is anything but normal",
+	text: [
+		"The backbone of all unique crops seeds.",
+		"",
+		"You can find them randomly when breaking grass."
+	],
 	tasks: [{
 		uid: "545b80d2",
 		type: "item",
@@ -11,5 +18,20 @@
 			id: "uniquecrops:seednormal"
 		}],
 		count: 64L
+	}],
+	rewards: [{
+		uid: "a894e62a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "8d2aa5d5",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "63b26f7f",
+		type: "random",
+		table: 8
 	}]
 }

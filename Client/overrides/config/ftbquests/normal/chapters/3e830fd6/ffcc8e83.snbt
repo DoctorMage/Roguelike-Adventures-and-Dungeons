@@ -1,6 +1,19 @@
 {
-	x: -1.5d,
-	y: -1.5d,
+	title: "Devil's Snare Devil's Snare",
+	x: -4.5d,
+	y: -2.5d,
+	description: "There deadly fun unless there in the sun",
+	text: [
+		"Devil's snare are the emo daughter of the unique crops family.",
+		"",
+		"Just like vampire's this crops develops best in darkness.",
+		"",
+		"Remeber to  watch out they can get big!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "41e44676",
 		type: "item",
@@ -11,5 +24,20 @@
 			id: "uniquecrops:seeddevilsnare"
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "b0009470",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "eaf1268a",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "4a2d9aaf",
+		type: "random",
+		table: 12
 	}]
 }

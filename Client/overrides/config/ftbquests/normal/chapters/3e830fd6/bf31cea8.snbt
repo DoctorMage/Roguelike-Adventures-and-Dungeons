@@ -1,6 +1,11 @@
 {
-	x: -11.0d,
+	title: "Flash Sale",
+	x: -10.5d,
 	y: 7.0d,
+	description: "50% of your next repair",
+	text: [
+		"Only the smartest plants can guide you to saving."
+	],
 	tasks: [{
 		uid: "e560b1a8",
 		type: "item",
@@ -12,5 +17,20 @@
 			Damage: 1s
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1d049830",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "79f860d4",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "cc24350c",
+		type: "random",
+		table: 9
 	}]
 }

@@ -1,0 +1,55 @@
+{
+	title: "Hot Headed",
+	x: 1.5d,
+	y: -2.0d,
+	description: "A bright idea",
+	text: [
+		"Forgot your torches at home or tired of wasting your coal?",
+		"",
+		"Beat up enough bouldering zombies and maybe you can steal its neat hat.",
+		"",
+		"No need for torches when your light headed enough to reveal your surrondings."
+	],
+	dependencies: [
+		"6a57abef"
+	],
+	tasks: [{
+		uid: "0e443acf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:miner_helmet",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 8112571301042277769L,
+						UUIDLeast: -6218189306899709794L,
+						Amount: 1.0d,
+						AttributeName: "generic.armorToughness",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.tough.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b71365f4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ab0f352c",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

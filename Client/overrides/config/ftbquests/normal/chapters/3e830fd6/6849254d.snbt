@@ -1,6 +1,11 @@
 {
+	title: "Easy Mode Enabled",
 	x: -17.5d,
-	y: 2.5d,
+	y: 3.5d,
+	description: "It's not cheating",
+	text: [
+		"Make life a little bit easier by having one of these in your pocket."
+	],
 	tasks: [{
 		uid: "59fc3c60",
 		type: "item",
@@ -11,5 +16,20 @@
 			id: "uniquecrops:generic",
 			Damage: 20s
 		}]
+	}],
+	rewards: [{
+		uid: "73215b05",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f1a5d83a",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "b4e2e14f",
+		type: "random",
+		table: 12
 	}]
 }

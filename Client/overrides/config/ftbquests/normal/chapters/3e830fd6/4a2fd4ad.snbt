@@ -1,6 +1,11 @@
 {
+	title: "Opposites Attract",
 	x: -15.5d,
-	y: 2.5d,
+	y: 3.5d,
+	description: "I thought magnets only worked on metal?",
+	text: [
+		"Put a magnet in your pocket and it will suck up nearby items."
+	],
 	tasks: [{
 		uid: "b7d196bd",
 		type: "item",
@@ -13,5 +18,20 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a909f721",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "990a9285",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "84631537",
+		type: "random",
+		table: 12
 	}]
 }

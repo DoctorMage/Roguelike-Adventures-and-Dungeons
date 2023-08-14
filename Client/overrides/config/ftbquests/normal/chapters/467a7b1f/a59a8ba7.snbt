@@ -1,0 +1,30 @@
+{
+	title: "Stick A Block In It",
+	x: 3.0d,
+	y: 1.5d,
+	description: "Highly flammable",
+	text: [
+		"Tired of sticks filling up your chest why not just combined them into a pile."
+	],
+	tasks: [{
+		uid: "a6f77190",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:stick_wall"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "0601dc98",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "99c416e8",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

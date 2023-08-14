@@ -1,0 +1,38 @@
+{
+	title: "It's Rewind Time",
+	x: -16.5d,
+	y: 1.0d,
+	description: "Ahhhh that's crop",
+	text: [
+		"Liked your crops when there were just mere weeds?",
+		"",
+		"By using a time meal on a crop it will reverse it's growing process."
+	],
+	tasks: [{
+		uid: "50610b7e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:generic",
+			Damage: 10s
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "868a80f5",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "dde9e633",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "d29fcb8e",
+		type: "random",
+		table: 8
+	}]
+}

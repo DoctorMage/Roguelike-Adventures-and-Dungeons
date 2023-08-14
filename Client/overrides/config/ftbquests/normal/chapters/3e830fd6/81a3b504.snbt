@@ -1,6 +1,19 @@
 {
-	x: -3.5d,
-	y: 5.5d,
+	title: "Meet The Botanist",
+	x: -1.5d,
+	y: -2.5d,
+	description: "Need a anvil here",
+	text: [
+		"Becareful leaving items lying around near malleatoris.",
+		"",
+		"They'll eat up durabillity of nearby items so they can mature.",
+		"",
+		"Once matured you can right click on it to repair an item."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "01c467ff",
 		type: "item",
@@ -10,6 +23,21 @@
 			},
 			id: "uniquecrops:seedmalleatoris"
 		}],
-		count: 16L
+		count: 8L
+	}],
+	rewards: [{
+		uid: "7c62fc00",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "149ea22b",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "2294878f",
+		type: "random",
+		table: 12
 	}]
 }

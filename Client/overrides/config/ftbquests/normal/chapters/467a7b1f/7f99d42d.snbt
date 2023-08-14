@@ -1,0 +1,31 @@
+{
+	title: "David",
+	x: -1.0d,
+	y: 2.5d,
+	description: "The bigger they are",
+	text: [
+		"Giants as the name implies are giant undead zombies"
+	],
+	tasks: [{
+		uid: "faa5bf3c",
+		type: "kill",
+		title: "Defeat A Giant",
+		entity: "ancientbeasts:giant_zombie",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "6ac98fc8",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "7ab657c3",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "8b04f692",
+		type: "random",
+		table: 19
+	}]
+}

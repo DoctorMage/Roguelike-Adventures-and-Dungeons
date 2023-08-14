@@ -1,6 +1,19 @@
 {
-	x: -1.5d,
-	y: 5.5d,
+	title: "To me To You",
+	x: -2.0d,
+	y: -4.5d,
+	description: "Something always attracts me to magnets",
+	text: [
+		"I hope you remeber your cardinal direction because magnes does.",
+		"",
+		"When planted far enough from each other they will slam together.",
+		"",
+		"Don't forget when it comes to magnets only opposites attract!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "f218d799",
 		type: "item",
@@ -10,6 +23,21 @@
 			},
 			id: "uniquecrops:seedmagnes"
 		}],
-		count: 16L
+		count: 8L
+	}],
+	rewards: [{
+		uid: "3d990122",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "da9163c3",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "dba404b9",
+		type: "random",
+		table: 12
 	}]
 }

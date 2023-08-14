@@ -1,6 +1,13 @@
 {
-	x: -11.5d,
+	title: "Be Precise",
+	x: -9.5d,
 	y: 6.0d,
+	description: "Be efficient",
+	text: [
+		"When max upgraded these tools gain powerful new traits. ",
+		"",
+		"These traits make them so precise at there job even a surgeon would blush."
+	],
 	tasks: [{
 		uid: "94f24a97",
 		type: "item",
@@ -29,5 +36,56 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "52874ff7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:precision.pick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5bd9ec49",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:precision.axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "32a5654b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:precision.shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5867b50c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e110a1c3",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "e25325b9",
+		type: "random",
+		table: 19
 	}]
 }

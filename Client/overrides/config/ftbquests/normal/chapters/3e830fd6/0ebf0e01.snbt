@@ -1,0 +1,44 @@
+{
+	x: -17.5d,
+	y: -3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"fcca58a1"
+	],
+	tasks: [{
+		uid: "e99da44f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:generic",
+			Damage: 14s
+		}]
+	},
+	{
+		uid: "98e3ff6c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:slippers",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "17c2c380",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "869e2db3",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

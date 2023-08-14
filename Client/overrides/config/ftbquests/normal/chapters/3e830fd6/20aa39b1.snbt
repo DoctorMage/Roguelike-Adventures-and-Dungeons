@@ -1,6 +1,15 @@
 {
-	x: -1.5d,
-	y: -2.5d,
+	title: "Cobblestone Generator At Home",
+	x: -3.5d,
+	y: -1.5d,
+	description: "This plant rocks",
+	text: [
+		"A hardy crop once fully grown if you place lava and water on its sides it will spit out cobblestone every once in a while."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "8046ae70",
 		type: "item",
@@ -11,5 +20,20 @@
 			id: "uniquecrops:seedcobblonia"
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "d01f9889",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "a3c6c30b",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "279b6fba",
+		type: "random",
+		table: 12
 	}]
 }

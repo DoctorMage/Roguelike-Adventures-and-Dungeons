@@ -1,0 +1,36 @@
+{
+	title: "Serpent Slayer",
+	x: -3.0d,
+	y: 2.5d,
+	description: "Be ware of danger noddles",
+	text: [
+		"The desert is guarded by many fearsome beast",
+		"",
+		"The most formidabble is the sandmonster"
+	],
+	dependencies: [
+		"d22874ed"
+	],
+	tasks: [{
+		uid: "5053197c",
+		type: "kill",
+		title: "Defeat A Sandmonster",
+		entity: "ancientbeasts:sandy",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "bb37cf5c",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "4da5341f",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "3823d7bd",
+		type: "random",
+		table: 19
+	}]
+}

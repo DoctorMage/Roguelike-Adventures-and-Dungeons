@@ -1,0 +1,56 @@
+{
+	title: "Here, There, Everywere",
+	x: -0.5d,
+	y: -2.0d,
+	description: "Your like a kirby boss now",
+	text: [
+		"Tired of getting ambushed by mobs and pinned in a corner then dying",
+		"due to not being able to escape.",
+		"",
+		"Worry no more carry some rifted pearls or drink a rifted potion",
+		"and that will be a worry of the past",
+		"",
+		"Side effects may include",
+		"Being warped randomly",
+		"Teleport living creatures randomly",
+		"Teleporting dropped items randomly"
+	],
+	dependencies: [
+		"8fe168f2"
+	],
+	tasks: [{
+		uid: "6a4fe9b7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:rifted_pearl"
+		}],
+		count: 8L
+	},
+	{
+		uid: "e32be24c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				Potion: "ancientbeasts:poison_rifted"
+			}
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "e343e7a5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "06c4e5b1",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

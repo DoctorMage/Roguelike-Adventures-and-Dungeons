@@ -1,6 +1,17 @@
 {
-	x: -4.5d,
-	y: -1.5d,
+	title: "A Plant Called Mary",
+	x: -2.5d,
+	y: 1.5d,
+	description: "Like that's my favourite name",
+	text: [
+		"Mary Jane came from hell and wants to go back.",
+		"",
+		"Unless your burning hot they wont even let you harvest them."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "ad4ee4e1",
 		type: "item",
@@ -10,6 +21,21 @@
 			},
 			id: "uniquecrops:seedmaryjane"
 		}],
-		count: 16L
+		count: 8L
+	}],
+	rewards: [{
+		uid: "4b7ffbe1",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "4d6a0d79",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "ce63ad74",
+		type: "random",
+		table: 12
 	}]
 }

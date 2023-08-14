@@ -1,0 +1,62 @@
+{
+	title: "Time Out!",
+	x: -16.5d,
+	y: -2.0d,
+	description: "Time travel is a dangerous game",
+	text: [
+		"Time dust is dropped by the plant that ages backwards.",
+		"",
+		"Once aquired it can be used to make either a potion of reversing effects or hourglass of nostalgia.",
+		"",
+		"Time to find out what both of them do don't you think?"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0fa1c3b0"
+	],
+	tasks: [{
+		uid: "2d10e08a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:generic",
+			Damage: 4s
+		}],
+		count: 16L
+	},
+	{
+		uid: "86d24643",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:hourglass"
+		}]
+	},
+	{
+		uid: "5407ee8a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:genericfood.reversepotion"
+		}],
+		count: 3L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6443cda1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "e1c4c7c0",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

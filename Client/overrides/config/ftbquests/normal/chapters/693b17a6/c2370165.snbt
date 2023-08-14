@@ -1,9 +1,14 @@
 {
 	title: "Wrong Line Of Work",
-	icon: "vampirism:human_heart",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "vampirism:human_heart"
+	},
 	x: 3.5d,
 	y: 5.5d,
-	description: "it was for the greater good",
+	description: "It was for the greater good",
 	text: [
 		"Murder 1000 Vampire hunters just trying to make the world a safer place."
 	],

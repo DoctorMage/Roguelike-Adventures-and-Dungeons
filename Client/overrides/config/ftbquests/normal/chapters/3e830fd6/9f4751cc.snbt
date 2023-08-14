@@ -1,6 +1,23 @@
 {
-	x: -2.5d,
-	y: 3.5d,
+	title: "Craftology 101",
+	x: -3.5d,
+	y: 5.5d,
+	description: "Plants vs items",
+	text: [
+		"The second most important plant in unique crops",
+		"",
+		"Artisa is used to craft all seeds in unique crops.",
+		"",
+		"When placed in a 3x3 grid with the center plant being the last to fully bloom items dropped in will be stored.",
+		"",
+		"Once filled if the recipe matches a seed it will be crafted at the center plant.",
+		"",
+		"To get the seed just break the center crop."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "537c2fd3",
 		type: "item",
@@ -11,5 +28,20 @@
 			id: "uniquecrops:seedartisia"
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "5c82f877",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "b4a2302b",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "5ad47b62",
+		type: "random",
+		table: 8
 	}]
 }

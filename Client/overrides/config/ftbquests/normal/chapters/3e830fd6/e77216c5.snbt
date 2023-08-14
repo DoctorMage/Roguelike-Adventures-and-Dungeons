@@ -1,6 +1,17 @@
 {
-	x: -4.5d,
-	y: -4.5d,
+	title: "6 Blocks Under",
+	x: -2.5d,
+	y: -2.5d,
+	description: "Going down like super down",
+	text: [
+		"Petramia will only grow below certain y levels.",
+		"",
+		"Once they've matured they'll begin the process of transforming nearby bedrock into dark blocks."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "cde9daf8",
 		type: "item",
@@ -11,5 +22,20 @@
 			id: "uniquecrops:seedpetramia"
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "2e03a68b",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "1972be3b",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "a700c39e",
+		type: "random",
+		table: 12
 	}]
 }

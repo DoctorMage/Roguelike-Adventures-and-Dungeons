@@ -1,0 +1,46 @@
+{
+	title: "Crafty Plants",
+	x: -12.0d,
+	y: -2.0d,
+	description: "Plants and crafts",
+	text: [
+		"Tired of throwing your seeds at artisia?",
+		"",
+		"Combined them together to make a crafty plant.",
+		"",
+		"Now you can go back to manually crafting seeds.",
+		"",
+		"If a wildwood staff is inserted inside it will use crop power so that you can save on resources when crafting."
+	],
+	dependencies: [
+		"8dbd1241"
+	],
+	tasks: [{
+		uid: "0d2688dd",
+		type: "interaction",
+		title: "Interact With A Craft Plant",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:crafting_table"
+		},
+		match_type: "block_entity_id",
+		match: "uniquecrops:craftyplant"
+	}],
+	rewards: [{
+		uid: "fcb2be35",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "baf88eaa",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "99332033",
+		type: "random",
+		table: 19
+	}]
+}

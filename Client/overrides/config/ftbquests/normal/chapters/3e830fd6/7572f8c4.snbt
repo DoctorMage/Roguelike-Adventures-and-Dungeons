@@ -1,0 +1,38 @@
+{
+	title: "Phoenix Down",
+	x: -16.5d,
+	y: 0.0d,
+	description: "Revival not guranteed",
+	text: [
+		"Gotten from the hottest of crops.",
+		"",
+		"Cinder leaves act as a neat alternative to coal for those that don't want to pollute there world."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b8a12206"
+	],
+	tasks: [{
+		uid: "08a6b555",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:generic",
+			Damage: 3s
+		}],
+		count: 16L
+	},
+	{
+		uid: "ad8fb827",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:cindertorch"
+		}],
+		count: 32L
+	}]
+}

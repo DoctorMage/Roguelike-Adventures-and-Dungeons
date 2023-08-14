@@ -2,8 +2,9 @@
 	title: "Baba Black Sheep... Wait Red Sheep",
 	x: -11.0d,
 	y: 1.0d,
+	description: "A gift from the questing ram",
 	text: [
-		"It's like gambling but instead of slot machines it's sheep wool colours"
+		"It's like gambling but instead of slot machines it's sheep wool colours."
 	],
 	tasks: [{
 		uid: "59eaa54c",
@@ -50,5 +51,20 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4e0f253e",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "05a3c9fa",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "02605336",
+		type: "random",
+		table: 19
 	}]
 }

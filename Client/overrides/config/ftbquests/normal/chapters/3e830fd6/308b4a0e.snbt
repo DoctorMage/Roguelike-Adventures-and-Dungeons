@@ -1,0 +1,60 @@
+{
+	title: "Planty Says",
+	x: -8.0d,
+	y: -4.0d,
+	description: "Jump",
+	text: [
+		"Itero love playing simon says.",
+		"",
+		"Once planted and activated right click it and the pressure plates around it will light up in a sequence.",
+		"",
+		"Follow that sequence to make it advance a growth stage.",
+		"",
+		"Don't mess up or you'll have to redo the previous stage!"
+	],
+	dependencies: [
+		"8dbd1241"
+	],
+	tasks: [{
+		uid: "8443318d",
+		type: "observation",
+		title: "Observe An Itero",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:generic",
+			Damage: 30s
+		},
+		match_type: "block_entity_id",
+		match: "uniquecrops:tileitero",
+		timer: 20L
+	},
+	{
+		uid: "01bcaaec",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:generic",
+			Damage: 30s
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "cb6951a2",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "7bc41d10",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "472d3886",
+		type: "random",
+		table: 19
+	}]
+}

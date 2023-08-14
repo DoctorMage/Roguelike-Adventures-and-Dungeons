@@ -1,0 +1,44 @@
+{
+	title: "Kiss Of Death",
+	x: -2.5d,
+	y: -2.0d,
+	description: "You smell like a corpse",
+	text: [
+		"Ever wanted to experience life as a zombie or other undead fiends.",
+		"",
+		"Just have a chug of potion of undeath and you'll get all the luxuries of being dead without having to die maybe you can even make a zombie best friend."
+	],
+	dependencies: [
+		"edeedd00"
+	],
+	tasks: [{
+		uid: "d0a956a2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:dark_goop"
+		}],
+		count: 5L
+	},
+	{
+		uid: "228f857d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				Potion: "ancientbeasts:potion_undead"
+			}
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "29479ef5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

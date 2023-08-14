@@ -1,6 +1,19 @@
 {
+	title: "Mmmmm Doughtnuts",
 	x: -0.5d,
-	y: -4.5d,
+	y: -3.5d,
+	description: "D'oh",
+	text: [
+		"A living little guy under the protection of eula corp.",
+		"",
+		"Killing them would land you in way to much legal trouble even if you could harm it.",
+		"",
+		"Maybe there's a way to make it seem like it killed itself?"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "ff48248b",
 		type: "item",
@@ -11,5 +24,20 @@
 			id: "uniquecrops:seeddonutsteel"
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "458eeebc",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "8c49dc9f",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "c150338a",
+		type: "random",
+		table: 12
 	}]
 }

@@ -1,6 +1,17 @@
 {
+	title: "The High Ground",
 	x: -2.5d,
-	y: 1.5d,
+	y: 3.5d,
+	description: "It's over anakin",
+	text: [
+		"Collis love having the high ground.",
+		"",
+		"The higher up they are the faster they grow."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "4884ac43",
 		type: "item",
@@ -10,6 +21,21 @@
 			},
 			id: "uniquecrops:seedcollis"
 		}],
-		count: 16L
+		count: 8L
+	}],
+	rewards: [{
+		uid: "194d9254",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "1317d4b9",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "fb532a35",
+		type: "random",
+		table: 12
 	}]
 }

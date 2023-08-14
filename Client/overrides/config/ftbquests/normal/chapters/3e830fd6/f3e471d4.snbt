@@ -1,0 +1,53 @@
+{
+	title: "Solar Powered Cow",
+	x: -19.5d,
+	y: -3.0d,
+	description: "All that grass got to old besty",
+	text: [
+		"Kill two birds with one two reduce polution but putting coal and leather together.",
+		"",
+		"When impregnated leather is shown to growing crops they'll teach it a thing or two."
+	],
+	tasks: [{
+		uid: "bae25f8e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				Parent: {
+					"UC:cropPowerCurrent": 0,
+					"UC:ignoresCooldown": 1b,
+					"UC:cropPowerCooldown": 0,
+					"UC:cropPowerCapacity": 10
+				}
+			},
+			id: "uniquecrops:impregnated_leather"
+		}],
+		count: 3L,
+		consume_items: false,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1e88de09",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:impregnated_leather",
+			Damage: 1s
+		}],
+		count: 3L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0b2a3afb",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "28a1d30f",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

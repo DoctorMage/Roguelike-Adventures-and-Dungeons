@@ -1,0 +1,32 @@
+{
+	title: "Puppeteer",
+	x: -2.0d,
+	y: 1.5d,
+	description: "You got a mini me now",
+	text: [
+		"Upon killing a vessel they will drop a vessel that can be placed in world",
+		"",
+		"These vessel can equip weapons, armour and carry a single item",
+		"Upon death they will return to there vessel state losing durabillity"
+	],
+	dependencies: [
+		"09fdc5bf"
+	],
+	tasks: [{
+		uid: "8e99f48b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:vessel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "abbda380",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

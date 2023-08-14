@@ -1,0 +1,43 @@
+{
+	title: "Steve And The Beanstalk",
+	x: -9.5d,
+	y: -2.0d,
+	description: "Fee fi fo fum",
+	text: [
+		"Bigger is better.",
+		"",
+		"After crafting the wild wood staff you can use it to make certain multi blocks.",
+		"",
+		"Each multi block has its own unique features and mechanics."
+	],
+	tasks: [{
+		uid: "fa40c835",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:bookmultiblock",
+			tag: {
+				savedIndex: 5
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "622f8778",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "cfe3cb24",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "cfd8da2d",
+		type: "random",
+		table: 12
+	}]
+}

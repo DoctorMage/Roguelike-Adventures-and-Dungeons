@@ -1,9 +1,10 @@
 {
 	title: "Now In 3D",
-	x: -9.0d,
+	x: -8.0d,
 	y: 9.0d,
+	description: "RAD 2 the musical out now watch it in 3d",
 	text: [
-		""
+		"Not even the most sneakiest of crops can hide from these shades."
 	],
 	tasks: [{
 		uid: "1fc92f0d",
@@ -19,5 +20,20 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "af1ad4d3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "554160da",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "87413b1d",
+		type: "random",
+		table: 8
 	}]
 }

@@ -1,6 +1,19 @@
 {
-	x: -3.5d,
-	y: -1.5d,
+	title: "All Eyes On Me",
+	x: -2.5d,
+	y: 0.5d,
+	description: "Look at me i'm the plant now",
+	text: [
+		"Weeping bells love to be watched so much so that unless you have all your attention on them they wont grow an inch.",
+		"",
+		"Once fully matured they want your undived attention!",
+		"",
+		"Try not to find out what they do if you don't give it to them."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "f244a713",
 		type: "item",
@@ -10,6 +23,21 @@
 			},
 			id: "uniquecrops:seedweepingbells"
 		}],
-		count: 16L
+		count: 8L
+	}],
+	rewards: [{
+		uid: "92779887",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "c28748cd",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "dd57c670",
+		type: "random",
+		table: 12
 	}]
 }

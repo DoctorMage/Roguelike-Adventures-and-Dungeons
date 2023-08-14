@@ -1,0 +1,41 @@
+{
+	title: "Give A Hoot",
+	x: 3.0d,
+	y: 2.5d,
+	text: [
+		"These little fellas make forest there residence protecting",
+		"animals and adventurers that live in them from the monsters that roam around.",
+		"",
+		"",
+		"Give it a stick and maybe you'll be able to carry it home."
+	],
+	tasks: [{
+		uid: "4b601cd6",
+		type: "observation",
+		title: "Observe An Owlstack",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "ancientbeasts:owlstack"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "ancientbeasts:owlstack",
+		timer: 40L
+	}],
+	rewards: [{
+		uid: "e37b29ed",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "7ba75cb7",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

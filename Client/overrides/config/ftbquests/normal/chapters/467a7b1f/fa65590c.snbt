@@ -1,0 +1,62 @@
+{
+	title: "Snake Skin Garments",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientbeasts:sandmonster_scale"
+	},
+	x: -3.0d,
+	y: 1.5d,
+	description: "Smells like sand",
+	text: [
+		"Harvest the scales of fallen sandmonsters to make a new set of armour.",
+		"",
+		"Now you look the part when wandering the desert.",
+		"",
+		"(pants and shoes not included)"
+	],
+	dependencies: [
+		"48c13f33"
+	],
+	tasks: [{
+		uid: "5d7800eb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:scale_hood",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "60b8b42c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:scale_armor",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8d77f2b9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "979909f8",
+		type: "xp_levels",
+		xp_levels: 20
+	}]
+}

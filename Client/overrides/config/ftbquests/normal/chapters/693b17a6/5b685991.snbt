@@ -1,16 +1,26 @@
 {
 	title: "Osha Won't Save Them",
-	icon: "harvestcraft:bananaitem",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "harvestcraft:bananaitem"
+	},
 	x: 4.5d,
 	y: 8.5d,
-	description: "hope they have life insurance",
+	description: "Hope they have life insurance",
 	text: [
 		"Show 500 minions that they should have checked the worker compensation forms."
 	],
 	tasks: [{
 		uid: "42d86522",
 		type: "kill",
-		icon: "harvestcraft:bananaitem",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:bananaitem"
+		},
 		entity: "vampirism:vampire_minion_s",
 		value: 500L
 	}],

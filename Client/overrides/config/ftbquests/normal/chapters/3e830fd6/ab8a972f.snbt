@@ -1,0 +1,32 @@
+{
+	title: "Chaos Cube",
+	x: -9.5d,
+	y: 5.0d,
+	text: [
+		"It's easier to understand teleportation than it is to solve a rubik cube.",
+		"",
+		"Prove me wrong!"
+	],
+	tasks: [{
+		uid: "4968e99c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:rubikscube"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b3fa9bf0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "bd6c10b4",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

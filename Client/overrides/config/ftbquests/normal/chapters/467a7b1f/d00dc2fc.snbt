@@ -1,0 +1,28 @@
+{
+	title: "Zombie, It's Cold Outside",
+	x: 2.5d,
+	y: -1.0d,
+	description: "Then you should of brought a coat",
+	text: [
+		"These zombies got turned into half popsicles and now use it to have deadly snowball fights.",
+		"",
+		"If snowballs were deadly spikes that is."
+	],
+	tasks: [{
+		uid: "2b5e0294",
+		type: "kill",
+		title: "Slay Some Frostwalkers",
+		entity: "ancientbeasts:frost_walker",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "1e35a578",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ac813821",
+		type: "xp_levels",
+		xp_levels: 15
+	}]
+}

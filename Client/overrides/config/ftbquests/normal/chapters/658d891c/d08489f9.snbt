@@ -12,6 +12,7 @@
 		"",
 		"The middle layer has a U shape of dragonforge bricks and with the center being a dragon forge core and infront of it an aperture."
 	],
+	hide_dependency_lines: true,
 	dependencies: [
 		"55077529",
 		"4225ed86"

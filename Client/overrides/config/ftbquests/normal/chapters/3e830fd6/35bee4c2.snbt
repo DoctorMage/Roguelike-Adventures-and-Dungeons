@@ -1,0 +1,48 @@
+{
+	title: "Hunger Strike",
+	x: -18.5d,
+	y: -2.5d,
+	description: "Burning some calories",
+	text: [
+		"Abstract residue does it exist does it not?",
+		"",
+		"No one knows but if it does maybe you can use it in your new diet plan."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1c29b2f5"
+	],
+	tasks: [{
+		uid: "4102fe69",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:generic",
+			Damage: 22s
+		}],
+		count: 8L
+	},
+	{
+		uid: "3fce21d7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:genericfood.dietpills"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "be458b39",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "29c8f846",
+		type: "xp_levels",
+		xp_levels: 15
+	}]
+}

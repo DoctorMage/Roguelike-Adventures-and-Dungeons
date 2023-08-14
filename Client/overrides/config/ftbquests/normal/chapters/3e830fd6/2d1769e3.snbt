@@ -1,6 +1,11 @@
 {
-	x: -10.0d,
+	title: "A Present From Mima",
+	x: -9.0d,
 	y: 9.0d,
+	description: "It may not be stylish but it was made with love",
+	text: [
+		"A comfy sweater to keep you warm on those cold winter nights."
+	],
 	tasks: [{
 		uid: "0a775649",
 		type: "item",
@@ -29,5 +34,20 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "824a2c52",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "6eb76f47",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "eda8f9ea",
+		type: "random",
+		table: 12
 	}]
 }

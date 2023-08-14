@@ -1,0 +1,38 @@
+{
+	title: "Bottomless Barrel?",
+	x: -16.5d,
+	y: -1.0d,
+	text: [
+		"Tired of how small regular chest are?",
+		"",
+		"Make an abstract barrel and it will show a chest how to really store things.",
+		"",
+		"It may look small when opened up but these babies can store up to a 100 items.",
+		"",
+		"With a cost of course!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1c29b2f5"
+	],
+	tasks: [{
+		uid: "d36b7372",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:abstractbarrel"
+		}]
+	}],
+	rewards: [{
+		uid: "60188133",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "16e55076",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

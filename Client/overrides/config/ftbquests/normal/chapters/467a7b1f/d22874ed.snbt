@@ -1,0 +1,32 @@
+{
+	title: "Desert Skulers",
+	x: -3.0d,
+	y: 3.5d,
+	description: "Snakes why did it have to be snakes",
+	text: [
+		"Be wary of entering deserts when the forest are under siege by thunder and rain.",
+		"",
+		"Unless you wish to encounter its ancient guardian.",
+		"",
+		"Carry a sacrifice of flesh or it will show no mercy."
+	],
+	tasks: [{
+		uid: "ba2fed51",
+		type: "observation",
+		title: "Observe A Sandmonster",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:sandy_love"
+		},
+		match_type: "entity_id",
+		match: "ancientbeasts:sandy",
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "3abd9c2b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

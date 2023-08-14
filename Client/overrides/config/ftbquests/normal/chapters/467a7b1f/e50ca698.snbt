@@ -1,0 +1,59 @@
+{
+	title: "Bad Doggy",
+	x: 2.0d,
+	y: 1.5d,
+	description: "What did the dog do?",
+	text: [
+		"You showed them whose top dog now go send them a message by turning  there dead kin into a cloak"
+	],
+	dependencies: [
+		"955cf90b"
+	],
+	tasks: [{
+		uid: "5f349c82",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:charred_cloak",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: -3965626619303999217L,
+						UUIDLeast: -7164265267628875582L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 6665658186811654846L,
+						UUIDLeast: -9092002135372491459L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.thick.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2253fb10",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "d7d66f3f",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

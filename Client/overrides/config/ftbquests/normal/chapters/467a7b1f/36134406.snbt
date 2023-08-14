@@ -1,0 +1,32 @@
+{
+	title: "Mod Bug",
+	x: -6.5d,
+	y: -1.0d,
+	shape: "square",
+	description: "Ignore this quest unless you encounter the bug",
+	text: [
+		"You should not be seeing this if you encounter this mob please report it.",
+		"",
+		"This means that beast slayer is not recognising spawn weight 0.",
+		"",
+		"This mob is disabled due to it's main drop being made redudant."
+	],
+	hide_dependency_lines: true,
+	hide: true,
+	hide_text_until_complete: true,
+	optional: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "5d1de0a1",
+		type: "observation",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:barrier"
+		},
+		match_type: "entity_id",
+		match: "ancientbeasts:damcell",
+		timer: 0L
+	}]
+}

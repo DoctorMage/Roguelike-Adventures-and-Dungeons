@@ -1,6 +1,21 @@
 {
-	x: -2.5d,
-	y: -3.5d,
+	title: "Hungry Hungry Plants",
+	x: -0.5d,
+	y: 5.5d,
+	description: "The plant ate my homework",
+	text: [
+		"Scientia's thirst for knowledge has no bounds.",
+		"",
+		"When near bookshelves if there happens to be a chest on that bookshelf",
+		"",
+		"Pray for any written book inside as these bad plants will gobble up some knowledge from em.",
+		"",
+		"Don't worry about them eating your entire book also don't try feeding them the same book twice."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "295fc1fa",
 		type: "item",
@@ -10,6 +25,21 @@
 			},
 			id: "uniquecrops:seedknowledge"
 		}],
-		count: 16L
+		count: 8L
+	}],
+	rewards: [{
+		uid: "d87453c9",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "8306c212",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "450bbee3",
+		type: "random",
+		table: 12
 	}]
 }

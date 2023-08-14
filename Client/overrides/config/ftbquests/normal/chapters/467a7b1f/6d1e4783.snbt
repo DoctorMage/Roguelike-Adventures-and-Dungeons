@@ -1,0 +1,36 @@
+{
+	title: "Knowledge Is Impregnable",
+	x: -1.5d,
+	y: -2.0d,
+	description: "Safeguarding undead since 2016",
+	text: [
+		"A book of dark spells sadly your reading comprehension only allows you to use one.",
+		"",
+		"Cast this book on yourself or allies to make them impervious to any damage for a limited time."
+	],
+	dependencies: [
+		"31cbd6cc"
+	],
+	tasks: [{
+		uid: "e5a33c34",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:shield_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f8316c0c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1422c160",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "Dwarven Horticulture",
+	x: -1.5d,
+	y: -3.5d,
+	description: "As longs as it drinks and has a beard it can be a dwarf",
+	text: [
+		"Fossura were orignally raised by dwarves.",
+		"",
+		"To prove your a real dwarf to it mine it a few times.",
+		"",
+		"When matured it will mine nearby blocks and place them into any chest ontop of it.",
+		"",
+		"It also needs a method of making beer so give it some wheat friends so it can make some."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
+	tasks: [{
+		uid: "b8913ab4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:seedquarry"
+		}],
+		count: 4L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "d1a6bfed",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "72b393ca",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "8d10e3f3",
+		type: "random",
+		table: 12
+	}]
+}

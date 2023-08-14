@@ -1,6 +1,11 @@
 {
+	title: "The Cake Might Be A Lie",
 	x: -17.5d,
-	y: 1.5d,
+	y: 2.5d,
+	description: "Making the mother of all omelettes",
+	text: [
+		"To make an omelette you have to break a few eggs to bad chickens take forever to make them."
+	],
 	tasks: [{
 		uid: "32b5f285",
 		type: "item",
@@ -11,5 +16,20 @@
 			id: "uniquecrops:generic",
 			Damage: 19s
 		}]
+	}],
+	rewards: [{
+		uid: "5bc4a75d",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "bf23ba52",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "2f3d3538",
+		type: "random",
+		table: 9
 	}]
 }

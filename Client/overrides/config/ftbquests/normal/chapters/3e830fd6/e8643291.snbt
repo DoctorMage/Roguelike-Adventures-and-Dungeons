@@ -1,6 +1,17 @@
 {
-	x: 0.5d,
-	y: -1.0d,
+	title: "I'm Not Getting Any Older Over Here",
+	x: -2.5d,
+	y: 4.5d,
+	description: "Maiden in unique",
+	text: [
+		"Millennium have all the time in the world unfortunately you don't!",
+		"",
+		"Unless you want to turn into a fossil you better find a way to speed up there growth."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "5d06ac27",
 		type: "item",
@@ -10,6 +21,21 @@
 			},
 			id: "uniquecrops:seedmillennium"
 		}],
-		count: 16L
+		count: 8L
+	}],
+	rewards: [{
+		uid: "3565bf12",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "97299951",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "ef1d6216",
+		type: "random",
+		table: 12
 	}]
 }

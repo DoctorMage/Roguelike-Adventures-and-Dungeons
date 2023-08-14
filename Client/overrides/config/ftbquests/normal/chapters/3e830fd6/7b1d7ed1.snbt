@@ -1,6 +1,11 @@
 {
-	x: -9.0d,
+	title: "A Dummies Guide To Upgrading",
+	x: -8.5d,
 	y: 7.0d,
+	description: "Upgrades people upgrades",
+	text: [
+		"Combined this book with certain equipment enough times and they'll get a special bonus."
+	],
 	tasks: [{
 		uid: "f08b3cec",
 		type: "item",
@@ -12,5 +17,20 @@
 			Damage: 18s
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ae20ef73",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "91e45faa",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "eeb149d7",
+		type: "random",
+		table: 12
 	}]
 }

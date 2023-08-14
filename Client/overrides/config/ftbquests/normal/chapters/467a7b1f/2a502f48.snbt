@@ -1,0 +1,43 @@
+{
+	title: "RGB Ice",
+	x: 1.0d,
+	y: 1.5d,
+	description: "Green is somewere trust me...",
+	text: [
+		"You may find your new pet frostash fox shedding ice spikes everywhere.",
+		"",
+		"This is a perfectly natural habit and no cause for concern."
+	],
+	dependencies: [
+		"823a826a"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "0f5a224a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:ice_dart"
+		}],
+		count: 8L
+	},
+	{
+		uid: "9cc22437",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:ice_dart",
+			Damage: 1s
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "c629484e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

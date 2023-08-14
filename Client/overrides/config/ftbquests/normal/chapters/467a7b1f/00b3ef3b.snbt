@@ -1,0 +1,29 @@
+{
+	title: "Knuckle Sandwhich",
+	x: -1.0d,
+	y: 1.5d,
+	description: "Punching is the easiest way to solve lifes problems",
+	text: [
+		"Even though that giant was like 10 times the size of you its glive fits you perfectly."
+	],
+	dependencies: [
+		"7f99d42d"
+	],
+	tasks: [{
+		uid: "d4b4ae1d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:tough_glove"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2d988763",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

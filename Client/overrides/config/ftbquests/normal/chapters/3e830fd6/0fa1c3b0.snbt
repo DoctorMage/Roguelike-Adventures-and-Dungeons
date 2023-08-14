@@ -1,6 +1,17 @@
 {
-	x: -3.5d,
-	y: -2.5d,
+	title: "Benjamin Plant",
+	x: 0.5d,
+	y: -0.5d,
+	description: "Back to the past",
+	text: [
+		"Merlinia start fully grown.",
+		"",
+		"Supposedly they age backwards."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "eca2c64c",
 		type: "item",
@@ -10,6 +21,21 @@
 			},
 			id: "uniquecrops:seedmerlinia"
 		}],
-		count: 16L
+		count: 8L
+	}],
+	rewards: [{
+		uid: "79737213",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "7378622e",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "47953576",
+		type: "random",
+		table: 12
 	}]
 }

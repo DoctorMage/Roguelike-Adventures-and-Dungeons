@@ -1,9 +1,15 @@
 {
 	title: "Baron Butcher",
-	icon: "vampirism:pure_blood 1 4",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "vampirism:pure_blood",
+		Damage: 4s
+	},
 	x: 4.5d,
 	y: 5.5d,
-	description: "take that dracula",
+	description: "Take that dracula",
 	text: [
 		"Show 50 Vampire Barons that there reign is over."
 	],

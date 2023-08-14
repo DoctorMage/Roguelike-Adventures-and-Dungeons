@@ -2,10 +2,9 @@
 	title: "Forged In Fire",
 	x: -8.0d,
 	y: 1.0d,
+	description: "Anvil insurance",
 	text: [
-		"Aquire the blacksmith emblem ",
-		"",
-		"While equipped anvils will not recieve any damage when used"
+		"Never worry about anvils being broken again as long as you have this emblem slapped on."
 	],
 	tasks: [{
 		uid: "43aea257",
@@ -36,5 +35,20 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7993eb60",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "c41e2959",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "545f8574",
+		type: "random",
+		table: 19
 	}]
 }

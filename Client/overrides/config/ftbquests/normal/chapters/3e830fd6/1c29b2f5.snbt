@@ -1,6 +1,19 @@
 {
-	x: -0.5d,
-	y: 5.5d,
+	title: "Schrodinger's Crop",
+	x: -1.5d,
+	y: -1.5d,
+	description: "I will not know if there is a plant in this chest until I open it",
+	text: [
+		"Abstract seeds puts the unique in this mod",
+		"",
+		"You may notice it disappearing after being planted but don't worry it still exist.",
+		"",
+		"They'll come back to you just adventure and wait."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c015e7b7"
+	],
 	tasks: [{
 		uid: "3e102698",
 		type: "item",
@@ -11,5 +24,20 @@
 			id: "uniquecrops:seedabstract"
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "66a11ce2",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "14ab1642",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "09786c29",
+		type: "random",
+		table: 12
 	}]
 }

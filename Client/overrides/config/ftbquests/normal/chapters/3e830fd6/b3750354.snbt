@@ -1,0 +1,71 @@
+{
+	title: "Bird Brain",
+	x: -17.5d,
+	y: -2.0d,
+	description: "It's vision is based on movement",
+	text: [
+		"Invisiblia twine is gotten from the sneakiest of crops.",
+		"",
+		"It can then be crafted into feathers or glass."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a9b281ca"
+	],
+	tasks: [{
+		uid: "2283b7d9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:generic",
+			Damage: 11s
+		}],
+		count: 16L
+	},
+	{
+		uid: "df84e9b0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:generic",
+			Damage: 12s
+		}],
+		count: 4L
+	},
+	{
+		uid: "ec3d4163",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:invisiglass"
+		}],
+		count: 4L
+	},
+	{
+		uid: "2c907264",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:genericfood.ignorancepotion"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "306f7e5a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a694734b",
+		type: "xp_levels",
+		xp_levels: 25
+	}]
+}

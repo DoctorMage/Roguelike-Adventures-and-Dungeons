@@ -1,0 +1,41 @@
+{
+	title: "Let Em Cook",
+	x: -11.5d,
+	y: -3.0d,
+	description: "Cooking a five star meal",
+	text: [
+		"Cocito are burning hot not to hot though.",
+		"",
+		"Any item dropped near it will begin to cook.",
+		"",
+		"Try not to leave them near it to long or else they might burn up"
+	],
+	dependencies: [
+		"8dbd1241"
+	],
+	tasks: [{
+		uid: "41e29ff2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:cocito"
+		}]
+	}],
+	rewards: [{
+		uid: "d2734ac0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "31291217",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "ab8e4225",
+		type: "random",
+		table: 19
+	}]
+}

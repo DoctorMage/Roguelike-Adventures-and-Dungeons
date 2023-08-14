@@ -1,0 +1,54 @@
+{
+	title: "Enchanting At Home",
+	x: -9.5d,
+	y: -5.0d,
+	description: "The book gets the pancake",
+	text: [
+		"Tired of the rng behind enchanting tables make a Fascino.",
+		"",
+		"When placed the fascino can accept up to 5 items.",
+		"",
+		"Depending on what is put in clicking it with a wildwood staff in your main hand and an enchantable item in your off hand.",
+		"",
+		"Will reveal a pattern of hexis to surrond it with.",
+		"",
+		"This way you can choose what enchants you receive.",
+		"",
+		"For a full list right click the wildwood staff in jei. ",
+		"",
+		"",
+		"§4Optifine will hide the particles that show were hexis is supposed to be placed!"
+	],
+	dependencies: [
+		"8dbd1241"
+	],
+	tasks: [{
+		uid: "ad90a4d7",
+		type: "observation",
+		title: "Look At A Fascino",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:book"
+		},
+		match_type: "block_entity_id",
+		match: "uniquecrops:tilefascino",
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "d48144c9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "1cdfd692",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "15cdb0b6",
+		type: "random",
+		table: 19
+	}]
+}

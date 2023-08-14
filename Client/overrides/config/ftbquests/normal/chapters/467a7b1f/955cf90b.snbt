@@ -1,0 +1,36 @@
+{
+	title: "Hotdogs",
+	x: 2.0d,
+	y: 2.5d,
+	description: "There bite is worse than there bark",
+	text: [
+		"These hounds wander the nether attacking anything that dares to exist in there",
+		"terroirty.",
+		"",
+		"They can be bargained with if you offer them undead flesh but dont assume you and it are friends."
+	],
+	tasks: [{
+		uid: "601eb148",
+		type: "observation",
+		title: "Observe A Netherhound",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "ancientbeasts:netherhound"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "ancientbeasts:netherhound",
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "fd780428",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

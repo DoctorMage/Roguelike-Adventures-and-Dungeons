@@ -1,0 +1,76 @@
+{
+	title: "Leapfrog",
+	x: -16.5d,
+	y: 5.0d,
+	description: "The cooler lillipads",
+	text: [
+		"Tired of regular boring lillies? Why not make them unique!",
+		"",
+		"Ender lillies can be used as elevators as long as another is above or below it.",
+		"",
+		"Ice lillies will freeze items on top of them, this will stop said item despawning",
+		"",
+		"Lava lillies burn anything that touches them! They also prefer lava over water.",
+		"",
+		"Jungle lillies act the same as slime blocks without the bounce."
+	],
+	tasks: [{
+		uid: "5fa0df35",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:junglelily"
+		}],
+		count: 8L
+	},
+	{
+		uid: "851b0b75",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:icelily"
+		}],
+		count: 8L
+	},
+	{
+		uid: "31302397",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:lavalily"
+		}],
+		count: 8L
+	},
+	{
+		uid: "5434678a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:enderlily"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "da426277",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0968c4fa",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "759cf5ef",
+		type: "random",
+		table: 12
+	}]
+}
