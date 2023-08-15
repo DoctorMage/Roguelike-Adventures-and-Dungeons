@@ -8,5 +8,15 @@
   "id": "chinesetranslation",
   "title": "VM Translation Group",
   "icon": "item:dungeontactics:heart_drop"
+ },
+  {
+  "id": "patreon",
+  "title": "Patreon",
+  "icon": "item:dungeontactics:heart_golden"
+ },
+ {
+  "id": "players",
+  "title": "You The Player",
+  "icon": "item:minecraft:skull"
  }
  ]
