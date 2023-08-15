@@ -14,7 +14,13 @@
 	tasks: [{
 		uid: "c7f7496f",
 		type: "observation",
-		icon: "ancientspellcraft:sealed_stone",
+		title: "Analyze A Sealed Vault",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sealed_stone"
+		},
 		match_type: "block_id",
 		match: "ancientspellcraft:sealed_stone",
 		timer: 60L
@@ -22,6 +28,11 @@
 	rewards: [{
 		uid: "b4221322",
 		type: "item",
-		item: "ancientspellcraft:unsealing_scroll"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:unsealing_scroll"
+		}
 	}]
 }
