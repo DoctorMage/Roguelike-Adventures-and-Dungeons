@@ -4,7 +4,7 @@
 	y: 5.5d,
 	description: "I'm a firin mah lazer",
 	text: [
-		"Send 50 Rifted enderman back to were they came from."
+		"Send 150 Rifted enderman back to were they came from."
 	],
 	tasks: [{
 		uid: "c9f419b7",
@@ -16,7 +16,7 @@
 			id: "ancientbeasts:rifted_pearl"
 		},
 		entity: "ancientbeasts:rifted_enderman",
-		value: 50L
+		value: 150L
 	}],
 	rewards: [{
 		uid: "2994565f",
@@ -29,8 +29,8 @@
 		xp_levels: 250
 	},
 	{
-		uid: "64764ce0",
-		type: "random",
+		uid: "a97016dd",
+		type: "choice",
 		table: 57
 	}]
 }

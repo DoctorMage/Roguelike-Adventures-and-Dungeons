@@ -4,7 +4,7 @@
 	y: 5.5d,
 	description: "Just like punch & judy",
 	text: [
-		"Show 10 Vessels who's really pulling the strings."
+		"Show 15 Vessels who's really pulling the strings."
 	],
 	tasks: [{
 		uid: "b3e47bbb",
@@ -16,7 +16,7 @@
 			id: "ancientbeasts:vessel"
 		},
 		entity: "ancientbeasts:vessel",
-		value: 10L
+		value: 15L
 	}],
 	rewards: [{
 		uid: "e8d37437",
@@ -29,8 +29,8 @@
 		xp_levels: 250
 	},
 	{
-		uid: "38880f0b",
-		type: "random",
+		uid: "d41c1901",
+		type: "choice",
 		table: 57
 	}]
 }

@@ -2,6 +2,7 @@
 	title: "Bottomless Barrel?",
 	x: -16.5d,
 	y: -1.0d,
+	description: "I don't know if the item in barrel until I check",
 	text: [
 		"Tired of how small regular chest are?",
 		"",

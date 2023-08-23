@@ -4,7 +4,7 @@
 	y: 7.5d,
 	description: "I want pictures of spider zombies!",
 	text: [
-		"Show 250 Bouldering zombies how dangerous climbing is."
+		"Show 500 Bouldering zombies how dangerous climbing is."
 	],
 	tasks: [{
 		uid: "8bbafed5",
@@ -19,7 +19,7 @@
 			}
 		},
 		entity: "ancientbeasts:boulderer",
-		value: 250L
+		value: 500L
 	}],
 	rewards: [{
 		uid: "a1f9e05f",
@@ -32,8 +32,8 @@
 		xp_levels: 150
 	},
 	{
-		uid: "41091eae",
-		type: "random",
+		uid: "bab71f58",
+		type: "choice",
 		table: 57
 	}]
 }

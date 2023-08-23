@@ -4,7 +4,7 @@
 	y: 6.5d,
 	description: "This time hope they stay dead",
 	text: [
-		"Show 75 Nekros that even though they can save others from death.",
+		"Show 200 Nekros that even though they can save others from death.",
 		"",
 		"They can't save themselves."
 	],
@@ -18,7 +18,7 @@
 			id: "ancientbeasts:dark_goop"
 		},
 		entity: "ancientbeasts:nekros",
-		value: 75L
+		value: 200L
 	}],
 	rewards: [{
 		uid: "c4da55e9",
@@ -31,8 +31,8 @@
 		xp_levels: 200
 	},
 	{
-		uid: "f3377ae6",
-		type: "random",
+		uid: "2194d0a7",
+		type: "choice",
 		table: 57
 	}]
 }

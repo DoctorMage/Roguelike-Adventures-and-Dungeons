@@ -17,7 +17,7 @@
 			Damage: 2s
 		},
 		entity: "ancientbeasts:giant_zombie",
-		value: 10L
+		value: 15L
 	}],
 	rewards: [{
 		uid: "51647bfb",
@@ -30,8 +30,8 @@
 		xp_levels: 500
 	},
 	{
-		uid: "a7e5b946",
-		type: "random",
+		uid: "30f62454",
+		type: "choice",
 		table: 57
 	}]
 }

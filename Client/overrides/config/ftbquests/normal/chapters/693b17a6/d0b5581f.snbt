@@ -4,7 +4,7 @@
 	y: 6.5d,
 	description: "Fanatic finisher",
 	text: [
-		"Make 75 zealots wish they never picked the school of dark magic."
+		"Make 200 zealots wish they never picked the school of dark magic."
 	],
 	tasks: [{
 		uid: "3c57ac7b",
@@ -16,7 +16,7 @@
 			id: "ancientbeasts:mysterious_dust"
 		},
 		entity: "ancientbeasts:zealot",
-		value: 75L
+		value: 200L
 	}],
 	rewards: [{
 		uid: "a593f9f9",
@@ -29,8 +29,8 @@
 		xp_levels: 200
 	},
 	{
-		uid: "14b2fcf8",
-		type: "random",
+		uid: "256efaaf",
+		type: "choice",
 		table: 57
 	}]
 }

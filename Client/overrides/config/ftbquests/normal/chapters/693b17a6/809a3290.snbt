@@ -6,7 +6,7 @@
 	text: [
 		"Prove the theroy of two heads being worse than one.",
 		"",
-		"Cut down 100 bonepiles."
+		"Cut down 200 bonepiles."
 	],
 	tasks: [{
 		uid: "d0d76d69",
@@ -18,7 +18,7 @@
 			id: "ancientbeasts:kunai"
 		},
 		entity: "ancientbeasts:bonepile",
-		value: 100L
+		value: 200L
 	}],
 	rewards: [{
 		uid: "e13405f2",
@@ -31,8 +31,8 @@
 		xp_levels: 250
 	},
 	{
-		uid: "a646c709",
-		type: "random",
+		uid: "f68b14d6",
+		type: "choice",
 		table: 57
 	}]
 }

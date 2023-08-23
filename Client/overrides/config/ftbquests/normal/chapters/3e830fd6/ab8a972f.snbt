@@ -2,6 +2,7 @@
 	title: "Chaos Cube",
 	x: -9.5d,
 	y: 5.0d,
+	description: "Spatial logic block",
 	text: [
 		"It's easier to understand teleportation than it is to solve a rubik cube.",
 		"",

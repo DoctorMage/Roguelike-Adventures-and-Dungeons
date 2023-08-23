@@ -4,7 +4,9 @@
 	y: -2.5d,
 	description: "I heard you like pixels",
 	text: [
-		""
+		"Ever wanted to play minecraft if it was made in the 90s?",
+		"",
+		"Put on these shades and then you'll be blasted to the past!"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

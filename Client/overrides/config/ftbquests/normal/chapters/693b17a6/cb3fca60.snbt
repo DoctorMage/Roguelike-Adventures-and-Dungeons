@@ -4,7 +4,7 @@
 	y: 6.5d,
 	description: "Who you gonna call",
 	text: [
-		"Show 100 ghost you ain't afraid of any of them."
+		"Show 200 ghost you ain't afraid of any of them."
 	],
 	tasks: [{
 		uid: "254e7fd4",
@@ -16,7 +16,7 @@
 			id: "ancientbeasts:ectoplasm"
 		},
 		entity: "ancientbeasts:ghost",
-		value: 100L
+		value: 200L
 	}],
 	rewards: [{
 		uid: "4813fab9",
@@ -29,8 +29,8 @@
 		xp_levels: 200
 	},
 	{
-		uid: "cfed47cf",
-		type: "random",
+		uid: "43e560db",
+		type: "choice",
 		table: 57
 	}]
 }

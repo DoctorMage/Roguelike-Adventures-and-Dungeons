@@ -16,7 +16,7 @@
 			id: "ancientbeasts:sandmonster_scale"
 		},
 		entity: "ancientbeasts:sandy",
-		value: 10L
+		value: 15L
 	}],
 	rewards: [{
 		uid: "42699271",
@@ -29,8 +29,8 @@
 		xp_levels: 250
 	},
 	{
-		uid: "a4855b59",
-		type: "random",
+		uid: "8a0d26d0",
+		type: "choice",
 		table: 57
 	}]
 }
