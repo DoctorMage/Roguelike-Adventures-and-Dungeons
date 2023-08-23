@@ -8,7 +8,7 @@ The official team behind Roguelike Adventures and Dungeons 1
 
 #Lead Pack Developer
 
-![Dreams01](Dreams01.png)
+![Dreams01](dreams01.png)
 
 The lead developer of RAD and multiple modpacks; without Dreams01, this modpack would not exist.
 
@@ -16,7 +16,7 @@ Development Team: “A special thanks from all members behind RAD 1 for allowing
 
 #Lead Revamp Developer
 
-![Mastarin](Mastarin.png)
+![Mastarin](mastarin.png)
 
 The main developer and kickstarter of the RAD Revamp; revamped the quest system, 
 
@@ -38,13 +38,13 @@ Please be sure to thank them in Discord!”
 
 #Script Maintainers
 
-![Zarchyar](Zarchyar.png)
+![Zarchyar](zarchyar.png)
 
 Major contributions through scripting, config changes and extensive gameplay and bug testing during development.
 
 Without him, we would have had a much harder time figuring out what works and what doesn’t.
 
-![Bizzoula](Bizzoula.png)
+![Bizzoula](bizzoula.png)
 
 Developer of multiple new scripts used in the modpack, not limited to brand new mods and additions for use exclusively in RAD.
 
@@ -55,7 +55,7 @@ Give him a special thanks in the Discord!
 
 #Modpack Optimization
 
-![Hawk.eye](Hawk.eye.png)
+![Hawk.eye](hawk.eye.png)
 
 A major contributor in helping with the modpacks performance and optimization. 
 
@@ -67,7 +67,7 @@ Without him, many players may have struggled to play this modpack due to the lim
 
 #Builder & Github Maintainer
 
-![Samsara](Samara__.png)
+![Samsara](samara__.png)
 
 The lead maintainer of Rad 1 GitHub. A special thanks to them for keeping track of multiple reports and fixing issues related to the modpack. 
 Also provided occasional configuration changes when necessary.
@@ -76,7 +76,7 @@ Sole contributor of all current builds used in the Amazing Architects Chapter. W
 Check out their builds in the Questbook and be sure to submit your own!
 
 #Config Overhauling & Quest Contributor
-![Doctor Mage](Doctor_mage.png)
+![Doctor Mage](doctor_mage.png)
 
 Extensive changes and overhauls to the configuration and balancing of the modpack to produce a more organically challenging experience. 
 Without them, we’d probably still be fighting Zombies with 2,000Hp. 
@@ -87,9 +87,9 @@ A message from Doctor Mage “If you get all the references I’ve made in quest
 
 #Modpack Balance
 
-![Samiel Flame](Samielflame.png)
+![Samiel Flame](samielflame.png)
 
-![Recycling Tiger](Recyclingtiger.png)
+![Recycling Tiger](recyclingtiger.png)
 
 Provided an agenda for the development team by consistently reporting priority bugs and issues.
 
