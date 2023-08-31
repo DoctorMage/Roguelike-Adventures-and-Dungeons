@@ -10,6 +10,10 @@
 		"",
 		"Each multi block has its own unique features and mechanics."
 	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0657ba4b"
+	],
 	tasks: [{
 		uid: "fa40c835",
 		type: "item",

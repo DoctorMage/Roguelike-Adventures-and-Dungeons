@@ -6,10 +6,14 @@ For your simple storage network to always be active even when your in other dime
 
 But there are solutions to this that being chunk loading blocks or methods the easiest and simple method is the block literally called a chunk loader ( their are also spot loaders or ender anchors)
 
+Another method is by placing an ender anchor in the chunk
+
 ![Chunk example](chunkborder.png)
 
 The chunk loader will keep the chunk loaded as long as you are in game
 
 ![Chunk loader recipe](chunkloader.png)
+
+![Ender Anchor recipe](enderanchor.png)
 
 #Warning:NEVER HAVE YOUR SIMPLE STORAGE NETWORK IN MULTIPLE CHUNKS ESPECIALLY IF THEY ARE NOT BEING CHUNK LOADED.

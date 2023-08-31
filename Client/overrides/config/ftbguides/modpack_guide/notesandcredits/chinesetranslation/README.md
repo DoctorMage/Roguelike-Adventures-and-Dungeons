@@ -12,6 +12,4 @@ Thank you to all the members of the VM translation group who contributed to this
 
 ![A Full List Of The Groups Members](vmtranslationgroup.png)
 
-![fengming3093](fengming3093.png)
-
 #Find Out More Here - https://www.bilibili.com/read/cv25214830
