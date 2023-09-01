@@ -1,0 +1,255 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = background
+  action = setbackgroundslideshow
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-left
+  x = 3
+  action = movebutton
+  y = 60
+}
+
+customization {
+  identifier = %id=400322%
+  width = 93
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\btn_hover.png
+  backgroundnormal = config\fancymenu\btn.png
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-left
+  x = 3
+  action = movebutton
+  y = 92
+}
+
+customization {
+  identifier = %id=400382%
+  width = 30
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\btn_optio_hov.png
+  backgroundnormal = config\fancymenu\btn_optio.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-left
+  x = 121
+  action = movebutton
+  y = 92
+}
+
+customization {
+  identifier = %id=502382%
+  width = 67
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\btn_exit_hov.png
+  backgroundnormal = config\fancymenu\btn_exit.png
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = bottom-right
+  x = -24
+  action = movebutton
+  y = -35
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-left
+  x = 3
+  action = movebutton
+  y = 28
+}
+
+customization {
+  identifier = %id=400298%
+  width = 186
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\btn_hover.png
+  backgroundnormal = config\fancymenu\btn.png
+}
+
+customization {
+  identifier = %id=400298%
+  action = sethoverlabel
+  label = Let the adventures begin!
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-left
+  x = 101
+  action = movebutton
+  y = 13
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\btn_disc_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 37
+  width = 30
+  actionid = 73d5ddf7-db1f-4430-8fbc-b6b576d56b6e1640347304359
+  action = addbutton
+  y = 92
+  backgroundnormal = config\fancymenu\btn_disc.png
+  value = https://discord.gg/r8CP8wrYsH
+  height = 30
+}
+
+customization {
+  path = config/fancymenu/logo.png
+  orientation = top-left
+  x = -56
+  width = 454
+  actionid = c2985c24-cbd6-4b67-98b9-5ddacd985f291640347565758
+  action = addtexture
+  y = -20
+  height = 195
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\rad2icon.png
+  label = 
+  loopbackgroundanimations = true
+  x = 71
+  width = 30
+  actionid = f1afd3df-f066-48d8-8f4d-42f8e9f166d71640347318319
+  action = addbutton
+  y = 92
+  backgroundnormal = config\fancymenu\rad2icon.png
+  value = https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons-2
+  height = 30
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\btn_hover.png
+  label = Rent a server!
+  loopbackgroundanimations = true
+  hoverlabel = By Bisecthosting
+  x = 98
+  width = 91
+  actionid = 864874fe-f8e0-4aac-8068-22f2ea43e6711640347814500
+  action = addbutton
+  y = 60
+  backgroundnormal = config\fancymenu\btn.png
+  value = https://bisecthosting.com/xdreamz
+  height = 30
+}
+
+customization {
+  orientation = bottom-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\btn_hover.png
+  label = Support the Author!
+  loopbackgroundanimations = true
+  x = -137
+  width = 110
+  actionid = 11e24b78-e060-4748-a4d4-d2086a801a9e1640422351763
+  action = addbutton
+  y = -35
+  backgroundnormal = config\fancymenu\btn.png
+  value = https://www.patreon.com/Dreams01
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/rad1.54updatehighlights2.png
+  orientation = top-left
+  x = 637
+  width = 325
+  actionid = 4de2d64c-5718-4922-9dd2-b8bffcf015f71693510692260
+  action = addtexture
+  y = 39
+  height = 358
+}
+
