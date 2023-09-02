@@ -99,11 +99,11 @@ This upgrade allows you to power your Cooking Oven using FE energy, saving Coal.
 
 ![Upgrades](upgrade2.png)
 
-This upgrade will allow your Fridge to produce Snow and Ice for whatever recipes require it.
+This upgrade will preserve ingredients down to 1 item in whatever slot is being extracted from.
 
 ![Upgrades](upgrade3.png)
 
-This upgrade will preserve ingredients down to 1 item in whatever slot is being extracted from.
+This upgrade will allow your Fridge to produce Snow and Ice for whatever recipes require it.
 
 E.g - If there is 1 stack of Heavy Cream and 1 stack of Salt, and you make Butter, this upgrade will prevent you from using all 64, and only permit you to make 63 Butter from your Cooking Station.
 
