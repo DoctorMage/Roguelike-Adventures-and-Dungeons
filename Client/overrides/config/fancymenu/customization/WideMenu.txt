@@ -26,9 +26,9 @@ customization {
 customization {
   identifier = %id=322946%
   orientation = bottom-centered
-  x = -90
+  x = -128
   action = movebutton
-  y = -56
+  y = -58
 }
 
 customization {
@@ -40,10 +40,10 @@ customization {
 
 customization {
   identifier = %id=562946%
-  orientation = bottom-left
-  x = 503
+  orientation = bottom-centered
+  x = -13
   action = movebutton
-  y = -56
+  y = -58
 }
 
 customization {
@@ -56,7 +56,7 @@ customization {
 customization {
   identifier = %id=502970%
   orientation = bottom-centered
-  x = 23
+  x = -13
   action = movebutton
   y = -33
 }
@@ -70,8 +70,8 @@ customization {
 
 customization {
   identifier = %id=322970%
-  orientation = bottom-right
-  x = -570
+  orientation = bottom-centered
+  x = -128
   action = movebutton
   y = -33
 }
