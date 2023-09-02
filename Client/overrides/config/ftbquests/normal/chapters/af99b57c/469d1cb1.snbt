@@ -1,11 +1,19 @@
 {
 	title: "Adept Vamprie Hunter",
-	icon: "vampirism:hunter_intel 1 2",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "vampirism:hunter_intel",
+		Damage: 2s
+	},
 	x: -3.0d,
 	y: 2.0d,
 	description: "Hunter Intel 5 - 7",
 	text: [
-		""
+		"Pull up your big hunter pants no more playing around.",
+		"",
+		"Your new job now is slaying blood sucking fiends."
 	],
 	dependencies: [
 		"46fe7899"
@@ -13,22 +21,36 @@
 	tasks: [{
 		uid: "2c05f746",
 		type: "item",
+		title: "Hunter Intel 5",
 		items: [{
-			item: "vampirism:hunter_intel"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:hunter_intel"
 		}]
 	},
 	{
 		uid: "ef53fea8",
 		type: "item",
+		title: "Hunter Intel 6",
 		items: [{
-			item: "vampirism:hunter_intel 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:hunter_intel",
+			Damage: 1s
 		}]
 	},
 	{
 		uid: "1505ef60",
 		type: "item",
+		title: "Hunter Intel 7",
 		items: [{
-			item: "vampirism:hunter_intel 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:hunter_intel",
+			Damage: 2s
 		}]
 	}],
 	rewards: [{

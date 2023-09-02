@@ -1,11 +1,16 @@
 {
 	title: "Self Taught",
-	icon: "vampirism:hunter_table",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "vampirism:hunter_table"
+	},
 	x: -4.0d,
 	y: 2.0d,
 	description: "I've taught you all I can",
 	text: [
-		"After reaching a certain hunterlevel basic hunters will no longer be able to train you.",
+		"After reaching a certain hunter level basic hunters will no longer be able to train you.",
 		"",
 		"To progress further you need hunter intel which is made inside of a Hunter Research Table.",
 		"",
@@ -20,14 +25,20 @@
 		uid: "1fda8b35",
 		type: "item",
 		items: [{
-			item: "vampirism:hunter_table"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:hunter_table"
 		}]
 	},
 	{
 		uid: "5caf5843",
 		type: "item",
 		items: [{
-			item: "vampirism:vampire_fang"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:vampire_fang"
 		}],
 		count: 10L
 	},
@@ -35,13 +46,19 @@
 		uid: "0110a4be",
 		type: "item",
 		items: [{
-			item: "minecraft:book"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:book"
 		}]
 	},
 	{
 		uid: "5eee7835",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "vampirism:vampire_book",
 			tag: {
 				generation: 3,

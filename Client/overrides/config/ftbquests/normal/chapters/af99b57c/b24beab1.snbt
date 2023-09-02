@@ -4,7 +4,9 @@
 	y: 2.0d,
 	description: "Hunter Intel 14",
 	text: [
-		""
+		"Your at your journey's end the apex of vampire hunters just the mere mention of your name makes them run in fear.",
+		"",
+		"You would make Van Helsing blush with how powerful you've become."
 	],
 	dependencies: [
 		"9c854b7e"
@@ -13,8 +15,13 @@
 	tasks: [{
 		uid: "5e9ab061",
 		type: "item",
+		title: "Hunter Intel 14",
 		items: [{
-			item: "vampirism:hunter_intel 1 9"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:hunter_intel",
+			Damage: 9s
 		}]
 	}],
 	rewards: [{
