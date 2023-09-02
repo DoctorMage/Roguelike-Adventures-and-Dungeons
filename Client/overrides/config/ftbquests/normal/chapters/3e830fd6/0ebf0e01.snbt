@@ -1,6 +1,13 @@
 {
+	title: "A Fairytail Princess",
 	x: -17.5d,
 	y: -3.0d,
+	description: "The fairest of them all",
+	text: [
+		"To find your Cinderella match your half of the glass slipper to creatures of land.",
+		"",
+		"Fair maidens wear shoes so remeber that before trying to find your soulmate."
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"fcca58a1"

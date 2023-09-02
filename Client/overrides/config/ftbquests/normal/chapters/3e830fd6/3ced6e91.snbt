@@ -2,6 +2,7 @@
 	title: "A Unique Experience",
 	x: -3.5d,
 	y: -3.5d,
+	description: "It's like growing my own exp",
 	text: [
 		"Hexis feeds on experience orbs to grow.",
 		"",

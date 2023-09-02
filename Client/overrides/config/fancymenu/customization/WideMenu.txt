@@ -1,0 +1,85 @@
+type = menu
+
+customization-meta {
+  identifier = com.pg85.otg.forge.gui.mainmenu.OTGGuiWorldSelection
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=442946%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=322946%
+  orientation = bottom-centered
+  x = -128
+  action = movebutton
+  y = -58
+}
+
+customization {
+  identifier = %id=322946%
+  width = 110
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=562946%
+  orientation = bottom-centered
+  x = -13
+  action = movebutton
+  y = -58
+}
+
+customization {
+  identifier = %id=562946%
+  width = 110
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502970%
+  orientation = bottom-centered
+  x = -13
+  action = movebutton
+  y = -33
+}
+
+customization {
+  identifier = %id=502970%
+  width = 110
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=322970%
+  orientation = bottom-centered
+  x = -128
+  action = movebutton
+  y = -33
+}
+
+customization {
+  identifier = %id=322970%
+  width = 110
+  action = resizebutton
+  height = 20
+}
+

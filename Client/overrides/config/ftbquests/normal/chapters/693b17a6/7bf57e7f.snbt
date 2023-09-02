@@ -1,0 +1,36 @@
+{
+	title: "A Rift Apart",
+	x: 8.5d,
+	y: 5.5d,
+	description: "I'm a firin mah lazer",
+	text: [
+		"Send 150 Rifted enderman back to were they came from."
+	],
+	tasks: [{
+		uid: "c9f419b7",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:rifted_pearl"
+		},
+		entity: "ancientbeasts:rifted_enderman",
+		value: 150L
+	}],
+	rewards: [{
+		uid: "2994565f",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "af3a3d41",
+		type: "xp_levels",
+		xp_levels: 250
+	},
+	{
+		uid: "a97016dd",
+		type: "choice",
+		table: 57
+	}]
+}

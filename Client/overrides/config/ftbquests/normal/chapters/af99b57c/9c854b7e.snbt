@@ -4,7 +4,9 @@
 	y: 2.0d,
 	description: "Hunter Intel 11 - 13",
 	text: [
-		""
+		"You sense it don't you? ",
+		"",
+		"Your reaching your peak no baron can stop now!"
 	],
 	dependencies: [
 		"fcd20988"
@@ -12,22 +14,37 @@
 	tasks: [{
 		uid: "e9133d19",
 		type: "item",
+		title: "Hunter Intel 11",
 		items: [{
-			item: "vampirism:hunter_intel 1 6"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:hunter_intel",
+			Damage: 6s
 		}]
 	},
 	{
 		uid: "f37bd8d1",
 		type: "item",
+		title: "Hunter Intel 12",
 		items: [{
-			item: "vampirism:hunter_intel 1 7"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:hunter_intel",
+			Damage: 7s
 		}]
 	},
 	{
 		uid: "a107858c",
 		type: "item",
+		title: "Hunter Intel 13",
 		items: [{
-			item: "vampirism:hunter_intel 1 8"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:hunter_intel",
+			Damage: 8s
 		}]
 	}],
 	rewards: [{

@@ -1,0 +1,39 @@
+{
+	title: "A Real Kingpin",
+	x: 7.5d,
+	y: 7.5d,
+	description: "I want pictures of spider zombies!",
+	text: [
+		"Show 500 Bouldering zombies how dangerous climbing is."
+	],
+	tasks: [{
+		uid: "8bbafed5",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "cyclicmagic:glove_climb",
+			tag: {
+				Quality: {}
+			}
+		},
+		entity: "ancientbeasts:boulderer",
+		value: 500L
+	}],
+	rewards: [{
+		uid: "a1f9e05f",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "d8d146c5",
+		type: "xp_levels",
+		xp_levels: 150
+	},
+	{
+		uid: "bab71f58",
+		type: "choice",
+		table: 57
+	}]
+}

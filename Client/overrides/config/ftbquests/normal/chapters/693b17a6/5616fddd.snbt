@@ -1,0 +1,36 @@
+{
+	title: "The Puppet Master",
+	x: 7.5d,
+	y: 5.5d,
+	description: "Just like punch & judy",
+	text: [
+		"Show 15 Vessels who's really pulling the strings."
+	],
+	tasks: [{
+		uid: "b3e47bbb",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:vessel"
+		},
+		entity: "ancientbeasts:vessel",
+		value: 15L
+	}],
+	rewards: [{
+		uid: "e8d37437",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "52ba9dc5",
+		type: "xp_levels",
+		xp_levels: 250
+	},
+	{
+		uid: "d41c1901",
+		type: "choice",
+		table: 57
+	}]
+}

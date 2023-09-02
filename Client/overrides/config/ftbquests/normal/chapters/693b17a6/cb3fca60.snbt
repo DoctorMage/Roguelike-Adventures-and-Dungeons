@@ -1,0 +1,36 @@
+{
+	title: "Ghostbuster",
+	x: 9.5d,
+	y: 6.5d,
+	description: "Who you gonna call",
+	text: [
+		"Show 200 ghost you ain't afraid of any of them."
+	],
+	tasks: [{
+		uid: "254e7fd4",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:ectoplasm"
+		},
+		entity: "ancientbeasts:ghost",
+		value: 200L
+	}],
+	rewards: [{
+		uid: "4813fab9",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "961a6e48",
+		type: "xp_levels",
+		xp_levels: 200
+	},
+	{
+		uid: "43e560db",
+		type: "choice",
+		table: 57
+	}]
+}

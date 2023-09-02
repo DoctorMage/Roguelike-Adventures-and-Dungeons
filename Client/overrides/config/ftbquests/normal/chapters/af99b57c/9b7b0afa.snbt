@@ -4,11 +4,11 @@
 	y: 2.0d,
 	description: "I told you not to drink it",
 	text: [
-		"To get the full usage outside of vampire blood you need to make a blood sieve.",
+		"To get the full usage of vampire blood you need to make a blood potion table.",
 		"",
 		"By combining vampire blood and garlic in a blood sieve you can create blood potions.",
 		"",
-		"These potions give random effects."
+		"You can also add an optional item for bonus effects."
 	],
 	dependencies: [
 		"cb915573"
@@ -18,7 +18,10 @@
 		uid: "c60fa8c9",
 		type: "item",
 		items: [{
-			item: "vampirism:blood_potion_table"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:blood_potion_table"
 		}]
 	}],
 	rewards: [{

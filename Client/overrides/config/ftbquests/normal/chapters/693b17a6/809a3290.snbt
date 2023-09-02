@@ -1,0 +1,38 @@
+{
+	title: "Why Was The Skeleton Lonely",
+	x: 8.5d,
+	y: 7.5d,
+	description: "Because he ain't got no body",
+	text: [
+		"Prove the theroy of two heads being worse than one.",
+		"",
+		"Cut down 200 bonepiles."
+	],
+	tasks: [{
+		uid: "d0d76d69",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:kunai"
+		},
+		entity: "ancientbeasts:bonepile",
+		value: 200L
+	}],
+	rewards: [{
+		uid: "e13405f2",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "5c1c6a09",
+		type: "xp_levels",
+		xp_levels: 250
+	},
+	{
+		uid: "f68b14d6",
+		type: "choice",
+		table: 57
+	}]
+}

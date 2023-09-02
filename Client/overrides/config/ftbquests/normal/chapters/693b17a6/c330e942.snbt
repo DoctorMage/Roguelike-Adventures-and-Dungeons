@@ -1,0 +1,37 @@
+{
+	title: "Attack On Titans",
+	x: 8.5d,
+	y: 4.5d,
+	description: "You would make david proud",
+	text: [
+		"Cut down 10 giants and show them size is not everything."
+	],
+	tasks: [{
+		uid: "a1544f31",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:skull",
+			Damage: 2s
+		},
+		entity: "ancientbeasts:giant_zombie",
+		value: 15L
+	}],
+	rewards: [{
+		uid: "51647bfb",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "3dd25c72",
+		type: "xp_levels",
+		xp_levels: 500
+	},
+	{
+		uid: "30f62454",
+		type: "choice",
+		table: 57
+	}]
+}

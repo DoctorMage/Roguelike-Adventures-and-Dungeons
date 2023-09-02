@@ -1,0 +1,36 @@
+{
+	title: "Snake Charmer",
+	x: 9.5d,
+	y: 5.5d,
+	description: "This better not awaken anything in me",
+	text: [
+		"Show those snake ladies who's really in charge of the desert."
+	],
+	tasks: [{
+		uid: "5ccabeec",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:sandmonster_scale"
+		},
+		entity: "ancientbeasts:sandy",
+		value: 15L
+	}],
+	rewards: [{
+		uid: "42699271",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "a638f005",
+		type: "xp_levels",
+		xp_levels: 250
+	},
+	{
+		uid: "8a0d26d0",
+		type: "choice",
+		table: 57
+	}]
+}

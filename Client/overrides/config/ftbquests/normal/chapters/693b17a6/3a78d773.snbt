@@ -1,0 +1,38 @@
+{
+	title: "The Dead Return",
+	x: 7.5d,
+	y: 6.5d,
+	description: "This time hope they stay dead",
+	text: [
+		"Show 200 Nekros that even though they can save others from death.",
+		"",
+		"They can't save themselves."
+	],
+	tasks: [{
+		uid: "c2b743ba",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:dark_goop"
+		},
+		entity: "ancientbeasts:nekros",
+		value: 200L
+	}],
+	rewards: [{
+		uid: "c4da55e9",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "ec0886dc",
+		type: "xp_levels",
+		xp_levels: 200
+	},
+	{
+		uid: "2194d0a7",
+		type: "choice",
+		table: 57
+	}]
+}

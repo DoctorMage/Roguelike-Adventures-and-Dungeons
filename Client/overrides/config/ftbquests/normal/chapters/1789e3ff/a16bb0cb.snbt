@@ -2,7 +2,7 @@
 	title: "How Hexciting",
 	x: -2.0d,
 	y: -0.5d,
-	description: "the most hexciting ore you'll find",
+	description: "The most hexciting ore you'll find",
 	text: [
 		"Hexcite is a rare and powerful ore found exclusively in caverns."
 	],
@@ -10,7 +10,11 @@
 		uid: "52a3ed41",
 		type: "item",
 		items: [{
-			item: "cavern:cave_item 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "cavern:cave_item",
+			Damage: 2s
 		}]
 	}],
 	rewards: [{

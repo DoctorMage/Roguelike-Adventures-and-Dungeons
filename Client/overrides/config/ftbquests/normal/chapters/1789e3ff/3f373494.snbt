@@ -16,7 +16,13 @@
 	tasks: [{
 		uid: "e16ca07f",
 		type: "advancement",
-		icon: "minecraft:iron_pickaxe",
+		title: "Reach Iron Miner Rank",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:iron_pickaxe"
+		},
 		advancement: "cavern:iron_miner",
 		criterion: ""
 	}],

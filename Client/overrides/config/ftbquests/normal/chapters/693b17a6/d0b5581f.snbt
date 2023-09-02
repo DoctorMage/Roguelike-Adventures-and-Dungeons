@@ -1,0 +1,36 @@
+{
+	title: "Heresy",
+	x: 8.5d,
+	y: 6.5d,
+	description: "Fanatic finisher",
+	text: [
+		"Make 200 zealots wish they never picked the school of dark magic."
+	],
+	tasks: [{
+		uid: "3c57ac7b",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:mysterious_dust"
+		},
+		entity: "ancientbeasts:zealot",
+		value: 200L
+	}],
+	rewards: [{
+		uid: "a593f9f9",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "a1e10283",
+		type: "xp_levels",
+		xp_levels: 200
+	},
+	{
+		uid: "256efaaf",
+		type: "choice",
+		table: 57
+	}]
+}

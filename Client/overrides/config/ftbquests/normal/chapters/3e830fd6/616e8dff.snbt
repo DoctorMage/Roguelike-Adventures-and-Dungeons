@@ -1,6 +1,13 @@
 {
+	title: "Billards",
 	x: -16.5d,
 	y: -3.0d,
+	description: "Good luck trying to play it in a world of cubes",
+	text: [
+		"The ender snooker was originally made for playing pool to bad the entire world is made out of cubes.",
+		"",
+		"But nothing is stopping you from trying."
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"e4d0d810"

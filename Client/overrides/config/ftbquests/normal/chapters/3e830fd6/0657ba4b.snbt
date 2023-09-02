@@ -38,10 +38,12 @@
 					"UC:cropPowerCapacity": 100
 				}
 			},
-			id: "uniquecrops:wildwood_staff"
+			id: "uniquecrops:wildwood_staff",
+			tag: {}
 		}],
 		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_nbt: 1b,
+		only_from_crafting: true
 	},
 	{
 		uid: "b4a411a0",

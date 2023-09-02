@@ -1,0 +1,36 @@
+{
+	title: "Ice Ice Baby",
+	x: 9.5d,
+	y: 7.5d,
+	description: "Ice em",
+	text: [
+		"Put 400 Frostwalkers on ice."
+	],
+	tasks: [{
+		uid: "c3a9a0ab",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientbeasts:ice_wand_red"
+		},
+		entity: "ancientbeasts:frost_walker",
+		value: 400L
+	}],
+	rewards: [{
+		uid: "cf305754",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "ff853389",
+		type: "xp_levels",
+		xp_levels: 150
+	},
+	{
+		uid: "20361925",
+		type: "choice",
+		table: 57
+	}]
+}

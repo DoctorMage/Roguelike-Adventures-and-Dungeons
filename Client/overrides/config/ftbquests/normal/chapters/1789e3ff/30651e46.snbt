@@ -12,7 +12,13 @@
 	tasks: [{
 		uid: "b98c03c1",
 		type: "advancement",
-		icon: "minecraft:golden_pickaxe",
+		title: "Reach Gold Miner Rank",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:golden_pickaxe"
+		},
 		advancement: "cavern:gold_miner",
 		criterion: ""
 	}],

@@ -14,6 +14,7 @@
 	tasks: [{
 		uid: "a65f466c",
 		type: "advancement",
+		title: "Mine Some Randomite",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

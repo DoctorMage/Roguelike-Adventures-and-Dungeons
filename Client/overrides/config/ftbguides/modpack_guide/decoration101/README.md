@@ -22,5 +22,6 @@ with this block you can add different wooden and log textures to framed blocks.
 
 ![A Room Decorated With Framed Blocks](decoratedroom.png)
 
+#Optifine can cause issues with this mod use with caution
 
-If you wish to find out more check the mods wiki - https://www.bibliocraftmod.com/
+#If you wish to find out more check the mods wiki - https://www.bibliocraftmod.com/

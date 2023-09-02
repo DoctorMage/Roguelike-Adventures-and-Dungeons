@@ -2,7 +2,7 @@
 	title: "The Headcase",
 	x: -1.5d,
 	y: 3.0d,
-	description: "off with their heads",
+	description: "Off with their heads",
 	text: [
 		"Instead of displaying those heads on your wall why not swap them out for a title."
 	],
@@ -10,7 +10,10 @@
 		uid: "787a3a87",
 		type: "item",
 		items: [{
-			item: "iceandfire:stymphalian_skull"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:stymphalian_skull"
 		}],
 		consume_items: true,
 		ignore_damage: true,
@@ -20,7 +23,10 @@
 		uid: "dfda4387",
 		type: "item",
 		items: [{
-			item: "iceandfire:cockatrice_skull"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:cockatrice_skull"
 		}],
 		consume_items: true,
 		ignore_damage: true,
@@ -30,7 +36,10 @@
 		uid: "64efc67a",
 		type: "item",
 		items: [{
-			item: "iceandfire:hippogryph_skull"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:hippogryph_skull"
 		}],
 		consume_items: true,
 		ignore_damage: true,
@@ -40,7 +49,10 @@
 		uid: "cbaea7e5",
 		type: "item",
 		items: [{
-			item: "iceandfire:amphithere_skull"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:amphithere_skull"
 		}],
 		consume_items: true,
 		ignore_damage: true,
@@ -50,7 +62,10 @@
 		uid: "0f58fd8a",
 		type: "item",
 		items: [{
-			item: "iceandfire:cyclops_skull"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:cyclops_skull"
 		}],
 		consume_items: true,
 		ignore_damage: true,
@@ -60,7 +75,10 @@
 		uid: "a9005031",
 		type: "item",
 		items: [{
-			item: "iceandfire:troll_skull"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:troll_skull"
 		}],
 		consume_items: true,
 		ignore_damage: true,
@@ -70,6 +88,9 @@
 		uid: "83eea1c3",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "iceandfire:dragon_skull",
 			tag: {
 				Stage: 4,
@@ -84,6 +105,9 @@
 		uid: "75508638",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "iceandfire:dragon_skull",
 			tag: {
 				Stage: 4,
@@ -97,7 +121,10 @@
 		uid: "716db1d5",
 		type: "item",
 		items: [{
-			item: "iceandfire:hydra_skull"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:hydra_skull"
 		}],
 		consume_items: true,
 		ignore_damage: true,
@@ -107,7 +134,10 @@
 		uid: "5b8d8a48",
 		type: "item",
 		items: [{
-			item: "iceandfire:seaserpent_skull"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:seaserpent_skull"
 		}],
 		consume_items: true,
 		ignore_damage: true,
@@ -117,7 +147,10 @@
 		uid: "0b5b8ca2",
 		type: "item",
 		items: [{
-			item: "minecraft:skull"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:skull"
 		}],
 		consume_items: true
 	},
@@ -125,7 +158,11 @@
 		uid: "25bcfd99",
 		type: "item",
 		items: [{
-			item: "minecraft:skull 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:skull",
+			Damage: 1s
 		}],
 		consume_items: true
 	},
@@ -133,7 +170,11 @@
 		uid: "d957490b",
 		type: "item",
 		items: [{
-			item: "minecraft:skull 1 4"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:skull",
+			Damage: 4s
 		}],
 		consume_items: true
 	},
@@ -141,7 +182,11 @@
 		uid: "9847dd12",
 		type: "item",
 		items: [{
-			item: "minecraft:skull 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:skull",
+			Damage: 2s
 		}],
 		consume_items: true
 	},
@@ -149,7 +194,11 @@
 		uid: "993a16a7",
 		type: "item",
 		items: [{
-			item: "minecraft:skull 1 5"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:skull",
+			Damage: 5s
 		}],
 		consume_items: true
 	}],

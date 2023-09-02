@@ -12,7 +12,13 @@
 	tasks: [{
 		uid: "dcb28c58",
 		type: "advancement",
-		icon: "minecraft:diamond_pickaxe",
+		title: "Reach Diamond Miner Rank",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:diamond_pickaxe"
+		},
 		advancement: "cavern:diamond_miner",
 		criterion: ""
 	}],
