@@ -74,9 +74,6 @@ rh(<inventorypets:slime_pet>);
 //#extrautils
 rh(<extrautils2:snowglobe>);
 
-//#placable items
-rh(<placeableitems:item_horse_armor_stand>);
-
 //#Thaumic Wonders
 
 rh(<thaumicwonders:void_fortress_helm>);

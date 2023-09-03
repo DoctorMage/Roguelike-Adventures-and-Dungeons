@@ -1,37 +1,22 @@
 [
  {
-  "id": "gettingstarted",
-  "title": "Getting Started!",
-  "icon": "item:minecraft:grass"
+  "id": "rad1team",
+  "title": "The Rad 1 Team",
+  "icon": "item:scalinghealth:difficultychanger"
  },
  {
-  "id": "foodandhealth",
-  "title": "All You Can Eat",
-  "icon": "item:harvestcraft:southernstylebreakfastitem"
- },
- {
-  "id": "storageandyou",
-  "title": "Storage & You",
-  "icon": "item:minecraft:chest"
- },
- {
-  "id": "tipsandtricks",
-  "title": "Modpack Tips & Tricks",
-  "icon": "item:minecraft:redstone_torch"
+  "id": "chinesetranslation",
+  "title": "VM Translation Group",
+  "icon": "item:dungeontactics:heart_drop"
  },
   {
-  "id": "bringoutyourdead",
-  "title": "Bring Out Your Dead",
-  "icon": "item:tombstone:ankh_of_pray"
+  "id": "patreon",
+  "title": "Patreon",
+  "icon": "item:dungeontactics:heart_golden"
  },
  {
-  "id": "decoration101",
-  "title": "Decoration 101",
-  "icon": "item:bibliocraft:furniturepaneler"
- },
- {
-  "id": "notesandcredits",
-  "title": "Notes & Credits",
-  "icon": "item:cyclicmagic:heart_toxic"
+  "id": "players",
+  "title": "You The Player",
+  "icon": "item:dungeontactics:heart_jar"
  }
-]
+ ]

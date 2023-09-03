@@ -1,4 +1,4 @@
-#Credits & Thanks
+#To My Patreons
 
 This section is dedicated to all my Patreon supporters!
 
