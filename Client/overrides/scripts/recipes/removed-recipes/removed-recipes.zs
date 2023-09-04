@@ -79,9 +79,6 @@ recipes.removeByRecipeName("mysticalagriculture:gemamber");
 //# Open Blocks
 recipes.remove(<openblocks:scaffolding>);
 
-//# Placeable Items
-recipes.remove(<placeableitems:item_horse_armor_stand>);
-
 //# Quark
 recipes.remove(<quark:slime_bucket>);
 
