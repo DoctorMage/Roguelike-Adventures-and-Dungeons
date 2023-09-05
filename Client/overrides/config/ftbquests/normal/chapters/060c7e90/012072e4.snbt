@@ -9,49 +9,70 @@
 		uid: "34f2df53",
 		type: "item",
 		items: [{
-			item: "ancientspellcraft:sage_tome_apprentice_fire"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sage_tome_apprentice_fire"
 		}]
 	},
 	{
 		uid: "79dcb96e",
 		type: "item",
 		items: [{
-			item: "ancientspellcraft:sage_tome_apprentice_ice"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sage_tome_apprentice_ice"
 		}]
 	},
 	{
 		uid: "eb0963bc",
 		type: "item",
 		items: [{
-			item: "ancientspellcraft:sage_tome_apprentice_lightning"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sage_tome_apprentice_lightning"
 		}]
 	},
 	{
 		uid: "13f516cf",
 		type: "item",
 		items: [{
-			item: "ancientspellcraft:sage_tome_apprentice_necromancy"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sage_tome_apprentice_necromancy"
 		}]
 	},
 	{
 		uid: "0dcb4b49",
 		type: "item",
 		items: [{
-			item: "ancientspellcraft:sage_tome_apprentice_earth"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sage_tome_apprentice_earth"
 		}]
 	},
 	{
 		uid: "26617acb",
 		type: "item",
 		items: [{
-			item: "ancientspellcraft:sage_tome_apprentice_sorcery"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sage_tome_apprentice_sorcery"
 		}]
 	},
 	{
 		uid: "b01c11e7",
 		type: "item",
 		items: [{
-			item: "ancientspellcraft:sage_tome_apprentice_healing"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sage_tome_apprentice_healing"
 		}]
 	}],
 	rewards: [{
@@ -68,6 +89,9 @@
 		uid: "01bdd42a",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "uncommon_tier_rewards"
