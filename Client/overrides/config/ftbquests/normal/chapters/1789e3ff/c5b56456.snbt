@@ -11,6 +11,7 @@
 	tasks: [{
 		uid: "e5e8953a",
 		type: "observation",
+		title: "Glance At A Mirage Bookshelf",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
