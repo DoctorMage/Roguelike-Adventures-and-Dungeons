@@ -1,7 +1,7 @@
 {
 	title: "Silver Is Better Than Gold",
 	x: -4.0d,
-	y: -1.5d,
+	y: -3.0d,
 	description: "Prove me wrong",
 	text: [
 		"I hope the stock market crashes because all my money is in the metals."
@@ -11,7 +11,10 @@
 		uid: "dfa528a6",
 		type: "item",
 		items: [{
-			item: "iceandfire:silver_ingot"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:silver_ingot"
 		}]
 	}],
 	rewards: [{
@@ -27,6 +30,11 @@
 	{
 		uid: "2f6de8c7",
 		type: "item",
-		item: "iceandfire:manuscript"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:manuscript"
+		}
 	}]
 }

@@ -18,50 +18,72 @@
 		uid: "055dee2c",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ancientspellcraft:sage_tome_novice_fire",
 			tag: {}
-		}]
+		}],
+		ignore_damage: true
 	},
 	{
 		uid: "20439cff",
 		type: "item",
 		items: [{
-			item: "ancientspellcraft:sage_tome_novice_ice"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sage_tome_novice_ice"
 		}]
 	},
 	{
 		uid: "2351b6a2",
 		type: "item",
 		items: [{
-			item: "ancientspellcraft:sage_tome_novice_lightning"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sage_tome_novice_lightning"
 		}]
 	},
 	{
 		uid: "bdae0583",
 		type: "item",
 		items: [{
-			item: "ancientspellcraft:sage_tome_novice_necromancy"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sage_tome_novice_necromancy"
 		}]
 	},
 	{
 		uid: "1e722819",
 		type: "item",
 		items: [{
-			item: "ancientspellcraft:sage_tome_novice_earth"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sage_tome_novice_earth"
 		}]
 	},
 	{
 		uid: "fe2da0cf",
 		type: "item",
 		items: [{
-			item: "ancientspellcraft:sage_tome_novice_sorcery"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sage_tome_novice_sorcery"
 		}]
 	},
 	{
 		uid: "1da77004",
 		type: "item",
 		items: [{
-			item: "ancientspellcraft:sage_tome_novice_healing"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:sage_tome_novice_healing"
 		}]
 	}],
 	rewards: [{
@@ -78,6 +100,9 @@
 		uid: "f7b76cf8",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "common_tier_rewards"

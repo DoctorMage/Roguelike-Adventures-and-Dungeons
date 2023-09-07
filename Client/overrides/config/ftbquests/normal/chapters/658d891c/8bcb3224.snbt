@@ -1,7 +1,7 @@
 {
 	title: "Lycans Are Real Scared Now",
 	x: -6.0d,
-	y: -1.5d,
+	y: -3.0d,
 	description: "Good thing they don't exist in this modpack",
 	text: [
 		"Provides an advantage against the Undead."
@@ -13,7 +13,10 @@
 		uid: "4b44be6b",
 		type: "item",
 		items: [{
-			item: "iceandfire:silver_sword"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:silver_sword"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

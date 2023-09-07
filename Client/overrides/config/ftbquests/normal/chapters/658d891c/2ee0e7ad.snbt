@@ -1,8 +1,13 @@
 {
 	title: "Silver-Spoon Fed",
-	icon: "iceandfire:silver_pickaxe",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "iceandfire:silver_pickaxe"
+	},
 	x: -5.5d,
-	y: -0.5d,
+	y: -2.0d,
 	description: "Silver shovels? Show-off",
 	text: [
 		"You are only required to make one tool to complete this quest."
@@ -14,7 +19,10 @@
 		uid: "9516e9db",
 		type: "item",
 		items: [{
-			item: "iceandfire:silver_pickaxe"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:silver_pickaxe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -23,7 +31,10 @@
 		uid: "4b8eb72e",
 		type: "item",
 		items: [{
-			item: "iceandfire:silver_axe"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:silver_axe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -32,7 +43,10 @@
 		uid: "28135c89",
 		type: "item",
 		items: [{
-			item: "iceandfire:silver_shovel"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:silver_shovel"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -41,7 +55,10 @@
 		uid: "d77e4981",
 		type: "item",
 		items: [{
-			item: "iceandfire:silver_hoe"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:silver_hoe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
