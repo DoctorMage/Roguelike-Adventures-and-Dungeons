@@ -1,0 +1,173 @@
+ — 17.06.2022
+ 
+Rad 1.50 Part 2 of Revamp Changes
+
+This revamp project was completely created by the following wonderful community members so all credits and energy goes to them:
+
+• I Mayk Kwuests#6697 – Pack Dev; Questbook Editing; Texture Artist
+• Doctor Mage#5234 – Pack Dev; Configuration/Scripting; Chatty Helper
+• Zarchyar#3407  – Pack Dev; Configuration; Chatty Helper
+• Samara#0323 – Pack Dev; Github Management; Texture Artist; Chatty Helper
+• Bizzoula#4739 – Contributor; Mod Dev; Coder
+• recyclingTiger#0854 – Contributor; Configuration/Scripting
+• Hawk.Eye#2569 – Contributor; Configuration/Scripting; WorldGen; Chatty Helper
+===============================================================================================================================
+DISCLAIMER: Some changes may have been done during non-public or private testing phases. Not all changes are or will be experienced by the public until final release.
+
+READ ME: You will likely need to remake your world if you wish to experience all portions of this update to their fullest extent.
+	 We hope that 6 months has been ample time to play in a world you feel satisfied with the amount of work you have put in between the updates. 
+	 If you wish to keep those worlds, I personally recommend you rename your instance to something memorable. Then, for the new update, make a brand new instance. 
+	 This will keep your old world playable (albeit only at 1.49, and NOT 1.49a) and totally separate from your old instances. 
+
+
+**MOD ADDITIONS AND REMOVAL**
+
+ADDITIONS
+
+• Lands of Icaria (A vast dimension inspired by ancient greek & egyptian mythology.)
+• Thaumonomicon Research Patcher (Allows new Thaumcraft entries to be made for the future; players may also experiment and learn how to utilize the functions so they can contribute to pack development, if they wish)
+• Added MTLib ModTweaker Dependecy (ModTweaker Library for future configurations to recipes, Vis amounts on certain items, and much, much more)
+• Added HarvestCraftTweaker (CraftTweaker support addon for Pam's HarvestCraft; recipe changes and additions in the future)
+• Added ModTweaker (CraftTweaker support addon for additional mods)
+• Added Future MC (Backported Vanilla Content; not everything is perfect but this is the most reliable backport)
+• Added End Reborn (New End Content)
+• Added The Midnight (New early game horror-themed Dimension)
+• Added The Midnight Rifting Machine Mod (Midnight Dimension Teleporting; because finding a Red Rift all the time can be a hassle to some)
+• Added Pam's Pigskin (Immersive QoL; leather from pigs)
+• Added Pam's Squid Milking (Immersive QoL; milking squid for Ink Sacs; curves how rare they can be)
+• Added Pam's Llama Milking (Immersive QoL; milk from llamas; what, never had llama milk?)
+• Added Pam's Sheep Milking (Immersive QoL; milk from sheep; what, never had sheep milk?)
+• Added ROOTS (Druidic Magic Mod with some niche utility; well-made and it fits well)
+• Added Roost (Not a typo; this is that chicken resource mod, but with only one nesting item and none of the extra crap)
+• Added Twilight Forest Spell Pack by Electroblob (Twilight Forest Spell & Artifact Additions; have fun)
+• Added Mo' Spells Mowzies Mob Spell Pack by Dan (Mowzies Mob Spell & Artifact Additions; have fun)
+• Added Fancy Lamps (Small TC6 Addon; adds thematically appropriate and VERY aesthetically pleasing lamps; have fun with these, everyone!)
+• Added Thaumic Periphery (Small TC6 Addon; moderate TC6 addon)
+• Added Thaumic Wonders (Moderate TC6 addon; large TC6 addon)
+• Added Wizardry Fates by Dan (Spell Discipline Mod; with the way I've configured the mod (hopefully), this will the ability to gain permanent buffs to your Spell Potency for each element; they are small, but permanent)
+• Added Thaumic Restoration (Small TC6 Addon; moderate TC6 addon)
+• Added Lizard Dogo Mod (Single Mob; is lizard; is good lizard)
+• Added Ancient Beasts Mod (High Quality Monster Mod; have fun; most seem to be intended to be boss enemies; PLEASE report on spawn rarity criticisms)
+• Added Bone Torch Mod (Single Block; you know you've always needed this at some point for some build somewhere; have fun)
+• Added Bigger Crafting Tables Mod (5x5, 7x7 and 9x9 Crafting Grids; this means 25 item, 49 item and 81 item Crafting Grids; intended for some new included recipes as well as future additions)
+• Added Better Displays
+• Save My Stronghold
+
+REMOVAL
+
+• Removed Heroic Armory (We know you all loved the mod, but we have better things planned for the item space it gives us; our changed version of the mod was also not able to be used without grey-areas due to reusing assets from the original mod)
+• Removed Better Diving (Issues with materials not spawning; something about the config doesn't work?; mod is incomplete anyways)
+• Removed Pyramid Plunder (Could not edit loot tables for satisfying loot. Emeralds, Diamonds and Gold all the times is not fun)
+• Potentially Removing Better Mineshafts (Testing conflicts with OTG 9.4; currently reverted back to OTG 9.3 for first phase testing)
+• Removed Essentia Brazier (Privately Tested; not a good fit)
+• Removed Blue Skies (Privately Tested; not a good fit)
+• Removed Bewitchment (Privately Tested; good fit; needs more testing)
+• Removed The Maelstrom (Privately Tested; not a good fit)
+• Removed Dark Medieval Roleplay & Dependencies (Privately Tested; removed for 3rd party download issues)
+• Removed Callable Horses (Exploit with infinite horses... and item duping or something)
+
+**MODS UPDATED**
+
+• Updated Electroblobs Wizardry
+• Updated Ancient Spellcraft
+• Reverted OTG 9.4 to 9.3; we'll be keeping Better Mineshafts, for now; we will test conflicts between OTG and Better Mineshafts and come to a conclussion later on what will be changed in the end)
+• Unique Enchants
+
+
+**CHANGES**
+
+CAVERNS
+• All Cavern dimensions have their difficulties increased by the following amounts, in addition to your world's base difficulty:
+	- Normal Caverns = +30
+	- Huge Caverns = +40
+	- Mirage Caverns = +50
+	- Aqua Caverns = +60
+
+• All Cavern dimensions have had the following ores added to them:
+	- Heart Crystal Ore
+
+• Normal Caverns have had the following ores added to them:
+	Subterrannean Switcheroo
+	- Coal Iron
+	- Red Iron
+	- Crystalized Obsidian
+	- Gold Diamonds
+	- Clay
+
+• Huge Caverns have had the following ores added to them:
+	Ember's Ores:
+	- Copper
+	- Lead
+	- Silver 
+ 	- Quartz 
+	- Aluminum
+	- Nickel
+	- Tin
+	
+	DungeonTactic's Ores:
+	- Silver
+	- Mithril
+	- Nether Gold
+	- Stone Quartz (Nether Quartz)
+	- End Diamond Ore
+	- End Lapis Ore
+
+• Aqua Caverns have had the following ores added to them:
+	Electroblob's Wizardry
+	- Elemental Crystal Ores
+	
+	Ancient SpellCraft
+	- Devoritium Ore
+
+	Biome's O' Plenty
+	- BoP Gems (Ruby, Peridot, Topaz, Tanzanite, Malachite, Sapphire, Amber)
+
+CYCLIC
+• Disabled Enhanced Shears; crashing games on shearing plants in The Betweenlands.
+
+DIM DOORS
+• Removed the rifts (black swirly clusters); players are always worried about them anyways; they're not particularly useful either.
+
+Enchanting has received a large rework
+
+ENCHANTING CHANGES
+• Books no longer stack
+• Unrestricted enchanting is gone
+• You can now combine books to as high levels as you want instead of it being on weapons or tools compared to before to level up enchants
+
+
+INVENTORY PETS
+• Pets that are disabled have had their recipe and existence removed from jei (they can still be aquired for now due to chest loot and meta pet which will be fixed in future update). 
+• Changes to enabled and disabled pets; need to get what changed from Mage...
+
+QUALITY REFORGE
+• Added reforging materials for:
+	Clockwork Pickaxe = Dawnstone Ingot
+	Clockwork Battleaxe = Dawnstone Ingot
+	Grandhammer = Dawnstone Ingot
+	Dawnstone Mail = Dawnstone Ingot
+	Amulet of the Heretic = Archaic Brick or Archaic Circuit
+	Ashen Amulet = Archaic Brick
+	Mantle Bulb = Dawnstone Ingot
+	Ember Ring = Dawnstone Ingot
+	Ember Belt = Dawnstone Ingot
+	Ember Amulet - Dawnstone Ingot
+	Crimson Cult Chestplate = Crimson Cloth
+	Crimson Cult Greaves = Crimson Cloth
+	Crimson Cult Boots = Crimson Cloth
+	Crimson Cult Hood = Crimson Cloth
+	Crimson Cult Robe = Crimson Cloth
+	Crimson Cult Leggings = Crimson Cloth
+	Crimson Praetor Helm = Crimson Cloth
+	Crimson Praetor Chestplate = Crimson Cloth
+	Crimson Praetor Greaves = Crimson Cloth
+
+	Bizzoula also added reforge materials for all Wizardry Artifacts, I believe. Some addons may be excluded, since they are new additions and will need to have their reforge materials added in the future. We'll pin that.
+
+QUARK
+• Re-enabled Pipes
+
+UNIQUE ENCHANTS
+• Config was reloaded; if you are keeping your world, you will need to reload this config; we don't recommend you keep your world for this update anyways; we will let you know when it is okay to keep worlds, but usually we'll suggest you remake them)
+
+================================================================================================================================

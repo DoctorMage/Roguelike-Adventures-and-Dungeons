@@ -1,0 +1,238 @@
+ — 25.12.2021
+
+Rad 1.49 Part 1 of Revamp Changes
+
+RAD Revamped is here! 
+
+Shop revamps! New reward tables! Loot crates! CHAPTERS! UNLOCKABLES! CUSTOM ITEMS! GUIDES TO EACH MOD! AND MORE!
+Get a refreshing feeling as you re-discover new items, or remember those you always forgot existed!
+Be relieved from the stress of gaming with a bit of humor as you read the titles and subtitles of quests, as well as their snazzy new descriptions, which will boast an extra smile or give some helpful insight!
+
+This revamp project was completely created by our community member @I Mayk Kwuests#6697 so all credits and energy goes to him.
+Special thanks to @Samara#0323 for active template creation!
+
+Features of the new update will include:
+
+• A brand new FTB Questbook remade from scratch with massive attention to detail ranging from humorous quest names and titles to new informative descriptions. Random jokes, references to pop culture, and homages to old series can be found in many different texts now.
+
+Progression should now be streamlined in a fashion where you should progress through the Questbook just by playing the game.  You should never feel lost or overwhelmed with this new Questbook.
+
+• Quests with multiple variants of items have had their variants added to the quest. These quests have been made OR quests, and only require you to acquire one type of variant, such as crafting your first Chest.
+
+• TONS more repeatable quests in “The Grind Don’t Stop” Chapter, and longer quest trees should give most mods higher play time, and replay ability. Most hostile mobs as well as bosses from each mod now have a repeatable quest, as well as new repeatable quest turn-ins for different materials like Electrum, Ironwood, and Valonite Blocks.
+
+• The Building Gadgets mod has allowed me to organize a new feature which will help players share their builds through the use of the Building Gadgets mod! Please see the pinned messages for context on this feature.
+
+• Items which eventually become useless, like Manuscripts, unlock items for the Titles mod, and more, will now have a use in the Questbook. You’ll find these new quests in the appropriate Chapters for the mod the item belongs to.
+
+• A new Chapter with “achievement” like quests will also be added. This new Chapter will have ridiculously challenging quests which are not intended to be completed in one sitting. These quests will take many, many hours to complete, ranging from things like fishing up 50,000 fish, to enchanting 10,000 items. Completing one is sure to net you a great reward! 
+ 
+• The Shop is receiving a huge revamp. All tabs will be remade for more appropriate organization of items. Tons of items have been added; these range from misc. tools like Grapple Hooks and Torch Throwers to things like Diamonds, and Valonite, after you’ve discovered enough of the appropriate mineral.
+
+The Shop will only feature very basic items, and will require players to complete quests to unlock more items in the Shop. These items range from powerful things like rare Enchanted Books, to cheap Potions of Suicide and expensive Potions of Luck. 
+
+Completing certain challenging quests may allow you to purchase certain common, uncommon, and even rare commodities from the Shop.
+
+• New changes to the config (some have already been released) will be done, like increased magic damage, Trolls being re-enabled, as well as pixies, and changing certain loot tables for dungeons, and spawn rates for certain rare creatures.
+
+•Building Gadgets now has a dedicated channel for build submissions in the RAD Discord server. Come read how to submit your builds to the RAD pack for everyone to see!
+
+•New difficulty balancing for certain mobs should provide a new feeling when playing. Most mobs from Ice and Fire have increased health, as they are fearsome mythical creatures. Dragons are not a joke at any difficulty now, but they shouldn't be killing you outright every time.
+
+Items Disabled In Jei:
+⦁ Dragon Horn (been disabled, removed from JEI)
+⦁ Sack of Holding (been disabled, removed from JEI)
+⦁ Uncrafting Table (been disabled, removed from JEI)
+⦁ OpenBlocks Scaffolding (redundant & unreliable)
+⦁ Biome Radar (redundant & unreliable,  Biome Crystals cannot be found reliably, Nature's Compass exists)
+⦁ Blood Stone (highly undocumented, no desc anywhere, White Stone is not available)
+⦁ Slime in a Bucket (there are other items accomplishing the same function without requiring you find a Slime in the first place)
+⦁ Quark Item Pipes (redundant; there are no special inventories which are only accessible by Quark pipes, and the pipes are not highly advanced. It's all intangible knowledge you have to memorize to make a half•way decent pipe system. Not worth the hassle of being in JEI)
+
+
+Ancient Spellcraft
+•Spellblade base damage increaseed from 2 to 15
+•Spellblade damage per upgrade increased from 1 to 5.
+•Elemental Orb Artefact damage increased from 30% to 50%.
+
+Apotheosis
+•Gear based enchant tomes are disabled. Duplication issues.
+
+AquaCulture
+•Fish weight has been enabled, making some fishing enchants useful again.
+
+The Beneath
+•Damage of mobs spawned in the Beneath is increased from 2.0 to 2.5. This makes The Beneath a much more hazardous area to exist in.
+•Number of hearts you take from the Darkness when in the Beneath increased from 1 to 5. This makes the Darkness scary, and something you don't want to be stuck in.
+•Amount of seconds before Darkness in the Beneath damages players decreased from 5 to 3. Because you're not supposed to be there in the first place. Have a light source on you at all times, to place down.
+•The following Fluids were added to lakeGen for the Beneath. 
+	IRON
+	GOLD
+	SILVER
+	COPPER
+	TIN
+	ALUMINUM
+	NICKEL
+	LEAD
+	DWARVEN OIL
+•The following Ores were added to oreGen for the Beneath
+	SILVER
+	COPPER
+	TIN
+	ALUMINUM	
+	NICKEL
+	LEAD
+
+Bountiful
+•The Bounty Board can now be broken. This means players can take them from Villages and create their own Bounty Board area!
+•Increased minimum number of tasks on Bounties. 
+•Increased maximum possible number of tasks on Bounties.
+•Increased time alotted for players to complete a Bounty, based on its worth.
+•Increased the amount of experience received for completing bounties. It should now be worth it to complete them. Higher level bounties will give more XP.
+•Added new tasks for Bounties, meaning you'll be required to obtain different items or slay different mobs. To be added on.
+•Added new rewards for Bounties, meaning you'll receive new items for completing them! To be added on.
+
+Bloodmoon
+•Chance for Bloodmoon reduced from 5% to 4% per night.
+
+Building Gadgets
+•Increased max build distance from 32 to 48.
+•Increased the amount of Construction Paste each container can hold, by... a lot.
+
+Charm
+•Increased the viewing range which entities glow when Bat in a Bucket is released from 24 to 64.
+•Increased the amount of Emeralds you can charge per lightning strike from 2 to 5.
+•Increased the durability on the Totem of Shielding from 100 to 256.
+
+Cooking for Blockheads
+•Increased Oven cook speed by 50%.
+•Increased Oven fuel consumption by 50% (still consumes 50% less fuel than a Furnace)
+•Set Kitchen Counters to have twice as much inventory space, allowing kitchens to be more compact.
+
+Cyclic
+•Magic Beans now drop the following
+	STICKS
+	DEADBUSH
+	APPLES
+	WHAT SEEDS
+	POTATOS
+	CARROTS
+	BEETROOT SEEDS
+	MELON SEEDS
+	PUMPKIN SEEDS
+	RED MUSHROOM
+	BROWN MUSHROOM
+	GOLDEN APPLE (NUGGET)
+	NETHER WART
+
+Electroblob's Wizardry
+•XP Requirements are increased by about 70%.
+•Magic damage increased from 2.0 to 2.2; an increase of about 20%.
+•Ice Dragons are immune to ice magic.
+•Fire Dragons are immune to fire magic.
+•Hydras are immune to poison and wither effects
+•Curse of Soulbind is disabled; effect is not removed from receivers upon death.
+•Ring of Soulbind is disabled; it applies the Soulbind effect, which causes issues.
+•Curse of Death is disabled; players do not drop graves when dying with this effect.
+
+Embers
+•Increased the Y level which the Ember Bore will mine Ember from Y 7 to Y 15
+•Blazing Ray DMG increased from 3.5 hearts to to 20 hearts. It is now a formidable weapon into mid•game. Basic armor protects against this item in testing, accounting for what some may think is a drastic increase.
+•Blazing Ray charge time increased from 1s to 3s. Charging will increase your output damage.
+•Blazing Ray has been given a cooldown between each shot, from 1s to 5s, to account for the damage increase.
+•Cinder Staff AoE range has been increased from 2.15 blocks to 3.0 blocks.
+•Cinder Staff has been given a cooldown, from 0.5s to 2s, to account for the damage increase.
+•Cinder Staff DMG has been increased from 8.5 hearts to 25 hearts. It is now a very formidable weapon into mid•game. Basic armor protects against this item in testing, accounting for what some may think is a drastic increase.
+•Cinder Staff projectile size has been increased from 17 to 20, so the AoE increase does not seem unrealistic. What a nice config option.
+
+Erebus
+•Scorpions now grab you! 
+
+Heroic Armory
+•All weapons should deal double DMG. This makes them not useless, since they don't have Spartan Weapons extra effects, or any effects at all for that matter.
+
+Ice & Fire
+•Increased Cyclops sheep search range slightly. This should help Wandering Cyclops with losing sheep sometimes.
+•Cyclops base HP is doubled from 150 to 300. They are now fearsome enemies, like they should've always been.
+•Wandering Cyclops should spawn more a bit more often. Increased from 1 in 900 chunk chance to 1 in 700 chunk chance. They're seldom seen, and usually only spawn in Plains, or Forest.
+•Dragon melee DMG is increased slightly, from 17 to 20. Dragons bites should actually hurt, no matter the size. No armor? Prepare to die.
+•Dragon breath DMG is increased massively, from 2.0 to 4.5. Having proper protections will now be worth it.
+•Slightly increased gold pile generation in Dragon Lairs from 4 to 7. Big dragons need big money.
+•Base max dragon health increased from 500 to 850. They are now more fearsome enemies. One•shotting dragons should be hard, unless preparations are made.
+•Increased dragon wander distance from 40 to 64. Seems to help with dragons flying in circles when the sky is clear of blocks or debris. This is experimental and can be reduced, as it is a known source of server lag. Config: "Dragon Wander From Home Distance"
+•Snow Villages increased from 1 in 100 chunks chance to 1 in 300 chunks chance. Snow Villagers can be broken sometimes.
+•Pixie Villages can now spawn; 1 in 400 chunk chance. Don't like your items being stolen? Stay away from the thieving buggers.
+•Stymphalian Birds spawn rate decreased from 1 in 100 chunk chance to 1 in 200 chunk chance. They're annoying, and make Swamps seem unlivable.
+•Increased Stymphalian Bird Flock Length Search radius from 40 to 64. Should help group up birds so there are not multiple small flocks within an area. Provides chances for a mega flock to occur.
+•Troll base HP is increased from 70 to 150. They are now fearsome enemies, like they should be.
+•Troll base DMG is reduced from 15 to 10. They hit a little hard with Scaling Difficulty in the pack.
+•Troll spawnrates reduced from 100 to 20. They spawn ridiculously often in large open caves, since they are larger creatures. Players without BetterCaves may not see them super often, though BetterCaves is a resource hog.
+•Increased base world gen distance between structures from 150 blocks to 300 blocks. You should no longer see 2 Gorgon Temples on the same beach.
+
+Mowzies Mobs
+•Ferrous Wroughtnaut base DMG is increased by 50%. This makes him a more fearsome enemy, like he should be.
+•Ferrous Wroughtnaut base HP is increased by 20%. This should make him a even more fearsome.
+•Axe of a Thousand Metals dmg increased from 14 to 35. This makes it a weapon worth obtaining.
+•Foliaath base HP is reduced by 50%. They're plants; they scale horrendously with Scaling Difficulty, making them real monsters late•game.
+•FrostMaw generation freqency reduced from 1 in 12 chunk chance to 1 in 24 chunk chance.
+•FrostMaw base HP is increased by 50% This makes them more fearsome.
+•FrostMaw base DMG is increased by 20%.
+•The Ice Crystal now does 150% more damage, making it a worthwhile weapon.
+•The Ice Crystal durability has been increased from 600 to 900.
+•Naga spawnrate doubled. They're rare, and sometimes don't even spawn when you find a Stone Beach.
+•Naga minimum group size increased from 1 to 4.
+•Naga maximum group size increased from 4 to 8
+•Naga base HP increased by 50%.
+•Naga base DMG increased by 20%.
+•Barakoa Spear DMG is increased from 5 to 15.
+•Barakoa Spear ATK Speed is increased from 1.6 to 1.3.
+•Naga Fang Dagger DMG increased from 3 damage to 18 damage. The weapon was never viable with 3 damage. Naga are rare, making going out of your way to find this weapon worthwhile. And it looks cool!
+•Naga Fang Dagger bonus DMG when attacking from behind increased from 3 to 12. You won't sneak hit mobs unless you have invisibility. The increase to bonus damage is intended for multiplayer.
+•Naga Fang Dagger poison effect duration increased from 2s to 5s. This makes the poison effect a scary thing, especially in multiplayer.
+•Blow Gun poison duration increased from 2s to 15s. Poison from a Blow Dart should be potent. You can also only obtain Darts from Barakoa. They are not craftable, making this ammo rather valuable.
+
+
+Pam's HarvestCraft
+•Top Tier Food buff time increased from 3 minutes to 10 minutes. Foods now have incentive to be cooked!
+
+Thaumic Augmentations
+•Impetus Cannon dmg increased all around, by about 250%. It's an end•game weapon from Thaumcraft with one of the highest time•investment requirements. It should hit hard. We might even make it higher. Who knows. Experimental.
+
+RandomLoot
+•Soul Searching effect disabled. Causes issues; doesn't go away when you unequip the piece with the effect.
+•Made drop rates for everything inside crates more even. You'll get more of everything, instead of mostly swords/weapons.
+
+Reliquary
+•Changed the max durability of the Tome of Alkahestry.
+•Angelheart Vial now ressurects players with 50% of their max HP, up from 15%.
+•Glacial Staff damage has been increased.
+•The number of Snowballs the Glacial Staff can hold has been increased. Now 2048, up from 250.
+•Increased the max level the Hero Medallion can make you. Now 999 up from 200. You must still have 999 or more levels of XP within the Hero Medallion to achieve level 999 with this item.
+•The amount of XP dropped when Right•Clicking the Hero Medallion is increased from 9 to 100.
+•Ice Magus Rod damage has been increased.
+•The number of Snowballs the Ice Magus Rod can hold has been increased. Now 2048, up from 250.
+•Increased how much Blaze Powder and Fire Charges the Pyromancer Staff can hold. Increased to 2048, up from 250.
+•Increases the charge added to the Pyromancer Staff when absorbing Blaze fireballs and Ghast firecharges.
+•Rending Gale consumes more charges per use. 3, up from 1.
+•The amount of charge added to Rending Gale per Feather consumed from your inventory is decreased to 25, down from 250.
+•Rending Gale can push and pull entities from twice as far away.
+•Ice and Fire Dragons are now immune to Rending Gales push.
+•Decreased the level cap for the maximum chance to steal an item when using the Rod of Lyssa to 75, down from 100.
+•The Altar Of Light should now create Glowstone every 30 seconds instead of every 15 • 25 minutes.
+•Apothecary cook time has been reduced to 5 seconds, down from 8.
+•Increased the amount of Glowstone you can use in the Apothecary Caludron to make potions made inside more potent.
+•The max radius for the Lilypad of Fertility is increased to 5, up from 4.
+•The max potency radius for the Lilypad of Fertility is increased to 5, up from 1. This previously meant the closest plants grew faster, but all plants now grow equally.
+
+___
+
+How You Can Help
+
+• Provide constructive criticism on the current state of the game and how you would like to see it changed to the major benefit of the community.
+
+• Suggest brand new features and quests for players to complete and partake in. These are subjectively accepted; please do not feel bad if suggestions in this regard are rejected. The Questbook is handcrafted a specific way, but is still open to unique ideas.
+
+• Submitting Templates to the Amazing Architects Chapter. I NEED GOOD BUILDERS. If you are an adept builder in Minecraft, or have some awesome builds you want to share with the world, please feel free to review the Building Gadgets Submission here:
+https://pastebin.com/raw/fdG06nCb on how to submit builds.
+
+The Chapter is intended to be filled with tons of different items sets for players to use in the same way that the Prefab Mod does its thing; the only difference is that these Prefabs are player made! That’s right… player made Prefabs.

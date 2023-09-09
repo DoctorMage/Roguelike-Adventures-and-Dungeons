@@ -1,0 +1,136 @@
+ — 09.10.2022
+
+Rad 1.52 Part 4 of Revamp Changes
+
+- Quest Fixes
+* “A Certain Game I Know Has Nothing On Us” Now quest now correctly accepts any grappling hook to finish instead of needing all.
+* Added Warning to colossal chest quest regarding keeping it in one chunk
+* Added warning to bag of holding quest related to how buggy the item is
+* Removed empty loot crates from shop
+* Fixed loot crates that were not giving correct rewards
+* Redone Amazing Architects chapter
+* Adjusted a few quest descriptions to warn or inform the player better
+* Finished Thaumcraft and Midnight chapter descriptions and titles
+* Removed witherpet from creepy crawlies quest
+
+- Added mining points to all ores that were added to caverns in 1.5
+
+- Re enabled viescraft workbench
+
+- Added a ton of items to reforge materials
+
+- Recipe for difficulty hearts
+
+- Tweaked Warlord Starting gear
+
+- Removed empty shops added scaling health section with difficulty hearts
+
+- Increased cooldown of juggernaut pet invulenrabillity and weakness
+- Remove recipe for juggernaut and mickerson pet
+
+- Removed empty shops added scaling health section
+
+- Disabled doom potion due to a bug
+
+- Updated Last Stand Formula added 4 new script files
+
+- resolves #369
+
+- Starting gear additions/ changes
+- Enchantment uncapping
+- And unique enchantments fixes
+
+- Electroblob’s wizardry
+* Added obelisk to the following dimensions (the structures that spawn those little wisp things)
+lands of icaria, huge caverns , wide desert , midnight, twilight forest
+* Added hostile ebob mobs to normal caverns , huge caverns , frozen caverns , wide desert,
+* Added shrines to midnight , twilight forest
+* Added battle mages camps and bases to frost mountains, wide desert , dark forest, lands of icaria, twilight forest
+* Added wizard towers to crown cliffs, frost mountains , wide deserts , twilight forest, lands of icaria
+* Disabled possession due to a dupe
+* Added fluid state  for all crystals
+
+
+- Scaling health
+* Made all mirage dimensions +45 difficulty
+* Made twilight and aether + 10 difficulty
+
+- Fancymenu
+2 New images for slideshow on main menu related to icaria
+
+- Enchanting
+* Uncapped all enchants except certain ones to level 100
+* If an enchant breaks past a certain level please dm Doctor Mage#5234 about it so it can be adjusted
+* Last stand formula was changed so that at higher levels the cost of saving from death is more expensive than having exp at lower levels
+
+- Added all aether mobs to war's odiums black list
+
+- Made living incompatible with grimoire due to a bug
+- Added aether mobs to blacklist for wars odium
+
+- Starting Gear changes
+- Changed the name of some weapons and armour
+- Gave each armour its own colour and name of gear it belongs to
+- Rebalanced some distribution
+- All weapons changed from invar to bronze
+- Gave gears that have their own potions colours
+
+4 new starting gear added
+
+- Blade dancer
+Includes
+Full Chain Armour
+Unique chain boots
++1 step height, +5% speed , -1 Armour
+Double jump 1 enchant
+Bronze Throwing knives 10
+Bronze Glaive
+
+- Warden
+Includes
+Full Iron Armour
+Unique Chestplate
+Golem Soul 2 Enchant
+Unique Boots
+Protection 1 Enchant
+Bronze Warhammer
+Unique Potion
+Resistance 1, 90 Seconds
+Slowness 1, 30 Seconds
+Absorption 1, 30 Seconds
+
+- Wizard
+Includes
+Full Basic Wizard Armour
+Basic wand with magic missile
+4 small mana flask
+Wizard Handbook
+3 Scroll of identification
+
+- Warlord
+Includes
+Bronze Greatsword
++5% Attack Speed -0.25 Reach -5% Attack Damage
+Full Iron Armour
+Unique Boots
+Projectile Protection 1
+Unique Potion
+Slowness 1, 10 Seconds
+Strength 1, 90 Seconds
+Blindness 7 Seconds
+Hunger 2, 30 Seconds
+
+- Disable default emerald armour recipe in place for a custom one
+- Custom recipe for emerald armour making it harder to get early on
+
+- added boss mobs to endest reap and reset config so it works correctly
+
+- added battle mages camps and bases to frost mountains, wide desert , dark forest, lands of icaria, twilight forest
+
+- added boss mobs to endest reap and reset config so it works correctly
+
+- Amazing Architects Revamp + quest clarifications
+
+- Added in new reward tables and changed quest
+
+- Cleaning up the script files deleting old ones and small changes to help cleanup various small issues
