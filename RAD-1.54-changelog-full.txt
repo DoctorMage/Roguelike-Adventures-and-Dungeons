@@ -1,0 +1,355 @@
+ — 11.09.2023
+
+===================================
+RAD-1.12.2 v1.53 --> RAD-1.12.2 v1.54
+===================================
+# **Internal changes**
+
+# Enchantments
+- Capped gunners level due to it causing crashes past certain levels
+- Capped a bunch of enchants levels due to them appearing at level 100 when on loot
+
+# Quest Book
+- Fixed vampirism quest so that it has correct mob
+- Fixed mirage library quest
+- Fixed gold miner quest
+- Added mini guide for sages due to rework it received
+- New quest section covering the unique crops
+- New quest section covering the mod beast slayer (ancient beast)
+- Removed slaying quest for advanced vampire hunter
+
+# Vampirism
+- Added tooltip, jei description and replaced item usage warning for fangs stating players need to do quest *(apologies for any confusion caused)
+- Instant kill skills had hp requirements increased before they execute enemy
+- 0.20 > 0.12 (20% > 12%)
+
+# Thaumcraft
+- Tweaked various values for Thaumcraft things
+- Hopefully spell casting now scales better when using the Thaumic Augmentation gauntlets *(nothing i can do for the other casting methods)
+- Buffed Primal cutter 10 > 26 damage
+- Added most dims to the various Thaumic Augmentation configs Tweaked Imputus cannon
+- Buffed Imputus generator
+- Slight buff to mechanical power
+
+# Beast Slayer (ancient beast)
+- Giant miniboss health multiplier 0 > 13.0
+- Global armor 0 > 3.5
+- Global damage multiplier 1.0  > 3.0
+- Global health multiplier 1.0 > 4.5
+- Sandmonster health bonus when tamed 0 > 4.0
+- Sandmonster miniboss health bonus 0 > 7.0
+- Sandmonster spawn 3 > 5
+- Vessel miniboss health bonus 0 > 6.5
+- Disabled damcell due to its drop being redundant
+- Removed pokey and skewer
+
+# Unique Crops
+- Added more crops to normie seed drops
+
+# Miscellaneous 
+- Liquid wizardry crystals now cause different effects when standing in them
+- Liquid Mana - Have fun
+- Liquid Fire - Sets you on fire, gives combustion
+- Liquid Cold - Slowness
+- Liquid Lightning - Strikes you with lightning
+- Liquid Undeath - Wither
+- Liquid Nature - Poison
+- Liquid Magic - Levitation
+- Liquid Healing - Regeneration
+- Added a bunch of spawners to capsule blacklist
+- Stick block from ancient beast can be crafted back into sticks
+- Fixed spelling errors in warnings for backpack and summoning pendulum
+- Easy harvesting disabled due to have issues with unique crops
+- Reforge Token Changed from 1 > 3 output
+
+# Guidebook
+- Removed empty sections
+- Added guide to BiblioCraft basics
+- Added credits
+- Corrected minor errors with misplaced descriptions
+
+
+_________________
+# **New Mods**
+
+## SerializationIsBad
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/serializationisbad)
+
+_________________
+# **Changed Mods**
+## Ancient Spellcraft
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/ancient-spellcraft)
+
+### AncientSpellcraft-1.12.2-1.5.10.jar
+Version v1.5.10 - 4/22/2023
+---------------------------
+
+### What's Changed
+
+#### **Bug Fixes**
+
+- Condensing Updates now recharge Sage Tomes in the inventory as well. Fixes#148
+
+- Golden Scroll Holder no longer voids the current scroll when trying to swap scrolls. Fixes #146
+
+- Fixed Omnicron applying wrong mana from shards/grand crystals. Fixes #136
+
+- Unknown crafted ancient books become discovered upon crafting at the Scribing Desk. Fixes #134
+
+- Fix some compile errors
+
+- Fixed Glyph of Illumination not providing light
+
+#### **Features**
+
+- Words of Unbinding supports sage tomes and battlemage swords
+
+- Bookshelf support for the rare scrolls
+
+- Mana flask now works with sage tomes
+
+
+## Just Enough Items (JEI)
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/jei)
+
+### jei_1.12.2-4.16.1.1003.jar
+### Current release 4.16.1.1003
+
+## Legendary Tooltips [Forge]
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/legendary-tooltips)
+
+### LegendaryTooltips-1.12.2-1.1.10.jar
+*   Fixed a bug that was preventing some items name colors from being picked up by automatic border colors.
+
+## Placebo
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/placebo)
+
+### Placebo-1.12.2-1.6.1.jar
+Fixes error spam caused by the rename of the master branch.
+
+## Prefab
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/prefab)
+
+### prefab-1.3.1.7.jar
+**Note:**
+
+Forge version 1.12.2 - 14.23.5.2860 is recommended for this mod.
+
+#### Release - 1.3.1.7
+
+1. Added glass color option to machinery tower.
+
+2. Villager houses were updated to include beds and have nice flowers out front.
+
+3. Added: Sandstone, Red Sandstone, and Glass options for Instant Bridge and Structure Part
+
+4. Added configuration option to determine if a new player can get the starting item. This is to make it clearer to modpack developers of how to manage this setting.
+
+## RadOtgPresets
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/rad-otg-presets)
+
+### RADOTG-1.12.2-v1.2.jar
+**RADOTG-1.12.2-v1.2  
+
+Made it so that hunter trainers spawn in new biomes naturally
+
+**Full list**
+
+*   Magical Forest
+*   Autumnal Woods (Seasonal Forest)
+*   Forest Pinyon (Coniferous Forest)
+*   Forest Conifer (Boreal Forest )
+*   Roofed Forest
+
+As of update 1.1B a new world is recommended so that everything works correctly
+
+### RADOTG-1.12.2-v1.1B.jar
+**RADOTG-1.12.2-v1.1B**
+
+**Vampire Forest  
+  
+**
+
+*   Fixed vampire spawns
+*   Increased Biome Size 6 > 5
+*   Reduced Rarity 50 > 80
+
+**Isle Variant**
+
+*   Increased Biome Size 8 > 6
+
+**Magical Forest**
+
+*   Increased Biome Size 6 > 5
+*   Reduced Rarity 45 > 80
+
+**Isle Variant**
+
+*   Increased Biome Size 8 > 7
+
+## ReAuth
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/reauth)
+
+### ReAuth-4.0.7 Forge 1.12
+Improved Error Messages
+
+## Roguelike Dungeons -- Fnar's Edition
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/fnars-roguelike-dungeons)
+
+### v2.4.4
+
+## Roots
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/roots)
+
+### Roots-1.12.2-3.1.7.jar
+- Fixes issues with Light Drifter use with dimensional travel.
+
+- Fixes issues where inventories desync while or after the spell library is used.
+
+## Storage Drawers
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/storage-drawers)
+
+### StorageDrawers-1.12.2-5.5.0
+Changes since sd-5.4.2:
+
+*   Fix [https://github.com/jaquadro/StorageDrawers/issues/1088](https://github.com/jaquadro/StorageDrawers/issues/1088) for 1.12 - **IntegerLimit** (17 Jul 2023)
+*   Small port to newer java syntax - **IntegerLimit** (17 Jul 2023)
+*   Fix duplication glitch with drawer upgrades - **IntegerLimit** (12 Jul 2023)
+*   Make IFrameable.decorate always call with copies, and with stack size 1 - **IntegerLimit** (04 Jul 2023)
+*   Merge remote-tracking branch 'origin/1.12' into gt-buildscript - **IntegerLimit** (19 Jun 2023)
+*   Fix Crash - **IntegerLimit** (18 Jun 2023)
+*   Migrate final Packages Over - **IntegerLimit** (17 Jun 2023)
+*   Migrate Item, Inventory & Integration Packages Over - **IntegerLimit** (17 Jun 2023)
+*   Migrate Core Package Over - **IntegerLimit** (17 Jun 2023)
+*   Move Config Package over to new mapping - **IntegerLimit** (16 Jun 2023)
+*   Move Client Package over to new mapping - **IntegerLimit** (16 Jun 2023)
+*   Migrate Capabilities Package to new mapping - **IntegerLimit** (16 Jun 2023)
+*   Migrate Block and API Classes over - **IntegerLimit** (15 Jun 2023)
+*   Update README, begin transition to newer mapping - **IntegerLimit** (15 Jun 2023)
+*   Pretty much finish buildscript - **IntegerLimit** (15 Jun 2023)
+*   Work on new buildscript - **IntegerLimit** (14 Jun 2023)
+*   Fix Framing Table Render - **IntegerLimit** (13 Jun 2023)
+*   Revert some changes, due to bad testing - **IntegerLimit** (13 Jun 2023)
+*   Fix TE not registering + nbt not copying - **IntegerLimit** (13 Jun 2023)
+*   Merge pull request #1078 from IntegerLimit/rfg-edition-framing-table-fix - **Justin Aquadro** (10 Jun 2023)
+*   Merge pull request #1080 from IntegerLimit/fix-name - **Justin Aquadro** (10 Jun 2023)
+*   Fix version appearing wrong + cleanup - **IntegerLimit** (11 Jun 2023)
+*   Fix Lang - **IntegerLimit** (10 Jun 2023)
+*   Revamp Framed Blocks Config - **IntegerLimit** (08 Jun 2023)
+*   Small lang and comment changes - **IntegerLimit** (07 Jun 2023)
+*   Merge remote-tracking branch 'upstream/1.12' into rfg-edition-framing-table-fix - **IntegerLimit** (07 Jun 2023)
+*   Whoops, forgot a return statement - **IntegerLimit** (07 Jun 2023)
+*   Refactor into IFrameable - **IntegerLimit** (07 Jun 2023)
+*   Fix consumeDecorateBlocks config - **IntegerLimit** (27 May 2023)
+*   Fix non-changed decorate blocks not being reset - **IntegerLimit** (27 May 2023)
+*   Make Framed Drawers not opaque cubes - **IntegerLimit** (27 May 2023)
+*   Fix voiding items contained in drawers - **IntegerLimit** (27 May 2023)
+*   Move TOP integration to correct folder - **IntegerLimit** (26 May 2023)
+*   Fix All Wood Trims being displayed as Oak Trims - **IntegerLimit** (15 May 2023)
+*   Clear up config descriptions - **IntegerLimit** (15 May 2023)
+*   Make TOP Provider Class private - **IntegerLimit** (15 May 2023)
+*   Add TOP Integration - **IntegerLimit** (15 May 2023)
+*   Fix two errors with framed trims + cleanup - **IntegerLimit** (15 May 2023)
+*   Fix Waila Integration & Drawer Pick Block - **IntegerLimit** (02 May 2023)
+*   Add config option for framing table decorate blocks - **IntegerLimit** (15 May 2023)
+*   Fix thaumcraft related stuff - **IntegerLimit** (14 May 2023)
+*   ControllerSearch was moved for some reason - **IntegerLimit** (03 May 2023)
+*   Fixes - **IntegerLimit** (03 May 2023)
+*   Move stuff - **IntegerLimit** (03 May 2023)
+
+## Thaumic Augmentation
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/thaumic-augmentation)
+
+### ThaumicAugmentation-1.12.2-2.1.11.jar
+*   Fixed an issue where placing a slab on another slab of a different type may crash the game
+
+### ThaumicAugmentation-1.12.2-2.1.10.jar
+*   Made autocasters ignore friendly spellbats
+*   Fixed celestial observers having issues accessing containers under them
+*   Fixed impetus mirrors having many issues and generally not working
+*   Hopefully prevented structure wards not disappearing when the boss is defeated
+*   Fixed an issue where projectile reflection shields may sometimes hang the server
+
+## [ANGRY PIXEL] The Betweenlands
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/angry-pixel-the-betweenlands-mod)
+
+### The Betweenlands v3.9.6
+Fixed several location titles not working anymore since v3.4.0
+
+## Corail Tombstone
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/corail-tombstone)
+
+### Corail Tombstone 4.6.2 for 1.12.2
+**This mod supports mc version from 1.8.9 to 1.19.4  
+****Minecraft Version = [1.12.2] - Forge Version [14.23.5.2838+]  
+**_**Latest : 4.6.2 - **__**Recommended : 4.6.2**_
+
+
+## WanionLib
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/wanionlib)
+
+### WanionLib-1.12.2-2.91.jar
+
+
+## Rad Enchants
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/rad-enchants)
+
+### RadEnchants-1.12.2-1.0.0-BETA.jar
+Initial Release
+
+Enchants: [https://pastebin.com/vd26VqSY](/linkout?remoteUrl=https%253a%252f%252fpastebin.com%252fvd26VqSY)
+
+## BisectHosting Server Integration Menu [FORGE]
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/bisecthosting-server-integration-menu-forge)
+
+### BH Menu 1.12.2 V2.4.0 HF
+
+Resolved button translation issues reported on [GitHub Issue Tracker](https://github.com/BisectStudios/BisectHostingServerIntegrationMenu/issues/10)
+
+
+## Electroblob's Wizardry
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/electroblobs-wizardry)
+
+### Electroblob's Wizardry - 4.3.11 - MC 1.12.2
+Version 4.3.11 changelog
+------------------------
+
+### Feature
+
+Added preventBindingSameSpellTwiceToWands setting (disabled by default). Controls whether to prevent binding the same spell to a wand multiple times (WinDanesz)  
+Added singleUseSpellBooks setting (disabled by default). Controls whether spell books are consumed when they are bound to a wand (WinDanesz)  
+Added damageTypePerElement setting (disabled by default). Pack makers now can implement support for .e.g Distinct Damage Definitions or other mods (WinDanesz)  
+Added a Clear button to the Arcane Workbench. Clicking it removes all spell bindings of the item in the center slot (WinDanesz)  
+
+### Fix
+
+- Allied spell casters of a player (owned by the player as an IEntityOwnable creature) now have their spells affect the player too where applicable. Previously spells like Group Heal casted by the NPC was not affecting the owner. (WinDanesz)
+
+### Electroblob's Wizardry - 4.3.10 - MC 1.12.2
+Version 4.3.10 changelog
+------------------------
+
+#### Notable change: wands now decrement cooldowns outside of hands too **by default**. You can change this via the new config options
+
+### Feature
+
+  
+- A new **ArtefactCheckEvent** for addons, allowing devs to consider an artefact active (in slot) conditionally, or even prevent its usage based on custom conditions _(WinDanesz)_  
+- A more Wizardry-native support for BELT, BODY, HEAD and TRINKET artefact types (expanded ItemArtefact.Type) intended for addons _(WinDanesz)_  
+- Configuration options for the values of: POTENCY_INCREASE_PER_TIER, COOLDOWN_REDUCTION_PER_LEVEL, DURATION_INCREASE_PER_LEVEL, RANGE_INCREASE_PER_LEVEL, BLAST_RADIUS_INCREASE_PER_LEVEL, RANGE_INCREASE_PER_LEVEL _(WinDanesz)_  
+- Config option to toggle wands not decrementing cooldowns outside of hands _(WinDanesz)_
+
+### Fix
+
+  
+- Fixed bug with wands not decrementing cooldowns in the offhand _(WinDanesz)_  
+- Fixed a bug that prevented NPCs (wizards) from casting certain buff spells _(WinDanesz)_  
+- Fixed Fixed Mark Sacrifice reducing damage at amplifier level 0 _(WinDanesz)_  
+- Added missing sound for the Mirage spell (#835) _(ZettaSword)_
+
+
+_________________
+# **Removed Mods**
+
+## Placeable Items
+[CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/placeable-items)
