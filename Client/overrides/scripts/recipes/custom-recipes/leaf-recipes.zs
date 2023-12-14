@@ -5,6 +5,12 @@ import crafttweaker.item.IItemStack;
 
 var leafCarpet = [
     //[input,output]
+[<minecraft:leaves:0>, <pvj:fallenleaves_oak>],
+[<minecraft:leaves:1>, <pvj:fallenleaves_spruce>],
+[<minecraft:leaves:2>, <pvj:fallenleaves_birch>],
+[<minecraft:leaves:3>, <pvj:fallenleaves_jungle>],
+[<minecraft:leaves2:0>, <pvj:fallenleaves_acacia>],
+[<minecraft:leaves2:1>, <pvj:fallenleaves_darkoak>],
 [<pvj:leaves_willow>, <pvj:fallenleaves_willow>],
 [<pvj:leaves_mangrove>, <pvj:fallenleaves_mangrove>],
 [<pvj:leaves_palm>, <pvj:fallenleaves_palm>],
