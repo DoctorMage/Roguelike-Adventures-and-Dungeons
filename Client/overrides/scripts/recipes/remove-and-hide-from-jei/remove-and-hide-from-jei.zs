@@ -13,6 +13,10 @@ rh(<apotheosis:fishing_rod_book>);
 rh(<apotheosis:bow_book>);
 rh(<apotheosis:scrap_tome>);
 
+//#Beast Slayer
+rh(<ancientbeasts:pokey>);
+rh(<ancientbeasts:skewer>);
+
 //# BiggerCraftingTables changes 
 rh(<biggercraftingtables:biggercreatingtable:0>);
 rh(<biggercraftingtables:biggercreatingtable:1>);
@@ -24,6 +28,15 @@ rh(<biggercraftingtables:autobiggercraftingtable:2>);
 //# Cyclic changes
 rh(<cyclicmagic:chest_sack_empty>);
 
+//# Erebus changes
+rh(<erebus:glider_chestplate>);
+rh(<erebus:glider_chestplate_powered>);
+rh(<erebus:rhino_exoskeleton_helmet>);
+rh(<erebus:mushroom_helmet>);
+
+//#extrautils
+rh(<extrautils2:snowglobe>);
+
 //Ice and Fire changes
 rh(<iceandfire:dragon_horn>);
 rh(<iceandfire:dragon_horn_fire>);
@@ -31,6 +44,9 @@ rh(<iceandfire:dragon_horn_ice>);
 
 //# OpenBlocks changes
 rh(<openblocks:scaffolding>);
+
+//#Prefab
+rh(<prefab:item_monster_masher>);
 
 //# Quark changes
 rh(<quark:slime_bucket>);
@@ -70,19 +86,3 @@ rh(<inventorypets:grave_pet>);
 rh(<inventorypets:flying_saddle_pet>);
 rh(<inventorypets:saddle_pet>);
 rh(<inventorypets:slime_pet>);
-
-//#extrautils
-rh(<extrautils2:snowglobe>);
-
-//#Thaumic Wonders
-//Re enabled due to memory leak being fixed to lazy to delete file
-
-
-//#Prefab
-
-rh(<prefab:item_monster_masher>);
-
-//#Beast Slayer
-
-rh(<ancientbeasts:pokey>);
-rh(<ancientbeasts:skewer>);
