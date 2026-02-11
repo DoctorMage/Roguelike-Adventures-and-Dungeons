@@ -11,14 +11,14 @@ game.setLocalization("title.titles.the_colonel", "§fT§ch§fe §cCo§flo§cnel"
 game.setLocalization("title.titles.the_herbivore", "§aThe Herbivore");
 game.setLocalization("title.titles.the_clown", "§fThe §bClo§cwn");
 game.setLocalization("title.titles.the_rock", "§6§lOf Rock And Stone");
-game.setLocalization("title.titles.the_voidwalker", "§5§l§nWayfinder Of The Void");
+game.setLocalization("title.titles.the_voidwalker", "§5§l§nThe Wayfinder Of The Void");
 game.setLocalization("title.titles.the_weezerfan", "§bThe Weezer Fan");
 game.setLocalization("title.titles.the_weezersuperfan", "§3§lThe Weezer Super Fan");
 game.setLocalization("title.titles.the_obsidian", "§0§lThe §8§lGreatest §0§lObsidian §8§lHater");
 game.setLocalization("title.titles.the_exptank", "§a§lThe §2§lOne §a§lWho §2§lForgot §a§lEnchanting §2§lExisted");
 game.setLocalization("title.titles.the_carnivore", "§4The Carnivore");
-game.setLocalization("title.titles.the_insane", "§8§lThe Utterly §8§k§lInsane §8§l§nCobblestone Hoarder");
+game.setLocalization("title.titles.the_insane", "§8§lThe Utterly Insane Cobblestone Hoarder");
 game.setLocalization("title.titles.the_lorax", "§2§l§nThe Greatest Tree Feller To Desecrate The Land");
-game.setLocalization("title.titles.the_oceanman", "§9§lThe §3§l§kGenocidal §3§lMarine Biologist");
+game.setLocalization("title.titles.the_oceanman", "§9§lThe Genocidal Marine Biologist");
 game.setLocalization("title.titles.the_limbo", "§8§lReborn From The Nothingness");
 game.setLocalization("title.titles.the_headcase", "§4§lThe Indiscriminate Head Collector");

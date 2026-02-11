@@ -1,8 +1,10 @@
 game.setLocalization("title.inventorypets.inventorypets.root", "§fThe Petologist");
-game.setLocalization("title.inventorypets.inventorypets.1", "§fThe Pet Lover");
-game.setLocalization("title.inventorypets.inventorypets.5", "§fThe Pet Investigator");
-game.setLocalization("title.inventorypets.inventorypets.10", "§7The Pet Researcher");
+game.setLocalization("title.inventorypets.inventorypets.1", "§fThe Pet Finder");
+game.setLocalization("title.inventorypets.inventorypets.5", "§fThe Pet Compiler");
+game.setLocalization("title.inventorypets.inventorypets.10", "§7The Pet Gatherer");
 game.setLocalization("title.inventorypets.inventorypets.20", "§7The Pet Collector");
-game.setLocalization("title.inventorypets.inventorypets.30", "§dThe Pet Scientist");
-game.setLocalization("title.inventorypets.inventorypets.40", "§dThe Pet Adept");
-game.setLocalization("title.inventorypets.inventorypets.50", "§6§lLicensed Petologist");
+game.setLocalization("title.inventorypets.inventorypets.30", "§dThe Pet Accumulator");
+game.setLocalization("title.inventorypets.inventorypets.40", "§dThe Pet Hoarder");
+game.setLocalization("title.inventorypets.inventorypets.50", "§6§lThe Licensed Petologist");
+game.setLocalization("title.inventorypets.inventorypets.blackhole", "§0§lThe Void Conductor");
+game.setLocalization("title.inventorypets.inventorypets.illuminati", "§2§mThe Conspiracy Theorist");

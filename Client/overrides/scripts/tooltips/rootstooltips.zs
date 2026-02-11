@@ -1,1 +1,0 @@
-<roots:fire_starter>.addTooltip(format.darkAqua("This item was known to cause a crash in previous versions use with caution!"));

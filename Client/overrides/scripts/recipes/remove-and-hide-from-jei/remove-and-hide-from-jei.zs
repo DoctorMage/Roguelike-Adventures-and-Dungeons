@@ -13,10 +13,6 @@ rh(<apotheosis:fishing_rod_book>);
 rh(<apotheosis:bow_book>);
 rh(<apotheosis:scrap_tome>);
 
-//#Beast Slayer
-rh(<ancientbeasts:pokey>);
-rh(<ancientbeasts:skewer>);
-
 //# BiggerCraftingTables changes 
 rh(<biggercraftingtables:biggercreatingtable:0>);
 rh(<biggercraftingtables:biggercreatingtable:1>);
@@ -28,15 +24,6 @@ rh(<biggercraftingtables:autobiggercraftingtable:2>);
 //# Cyclic changes
 rh(<cyclicmagic:chest_sack_empty>);
 
-//# Erebus changes
-rh(<erebus:glider_chestplate>);
-rh(<erebus:glider_chestplate_powered>);
-rh(<erebus:rhino_exoskeleton_helmet>);
-rh(<erebus:mushroom_helmet>);
-
-//#extrautils
-rh(<extrautils2:snowglobe>);
-
 //Ice and Fire changes
 rh(<iceandfire:dragon_horn>);
 rh(<iceandfire:dragon_horn_fire>);
@@ -44,9 +31,6 @@ rh(<iceandfire:dragon_horn_ice>);
 
 //# OpenBlocks changes
 rh(<openblocks:scaffolding>);
-
-//#Prefab
-rh(<prefab:item_monster_masher>);
 
 //# Quark changes
 rh(<quark:slime_bucket>);
@@ -86,3 +70,26 @@ rh(<inventorypets:grave_pet>);
 rh(<inventorypets:flying_saddle_pet>);
 rh(<inventorypets:saddle_pet>);
 rh(<inventorypets:slime_pet>);
+
+//#extrautils
+rh(<extrautils2:snowglobe>);
+
+//#Prefab
+rh(<prefab:item_monster_masher>);
+
+//#Beast Slayer
+
+rh(<ancientbeasts:pokey>);
+rh(<ancientbeasts:skewer>);
+
+//#End Reborn
+rh(<endreborn:armour_helmet_dragon>);
+rh(<endreborn:armour_helmet_helmet>);
+
+//#Erebus
+rh(<erebus:rhino_exoskeleton_helmet>);
+rh(<erebus:glider_chestplate>);
+rh(<erebus:mushroom_helmet>);
+rh(<erebus:glider_chestplate_powered>);
+rh(<erebus:materials:16>);
+rh(<erebus:materials:27>);

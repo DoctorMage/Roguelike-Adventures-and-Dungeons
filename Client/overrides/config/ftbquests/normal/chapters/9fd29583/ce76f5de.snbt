@@ -10,18 +10,6 @@
 		"d01b8d01"
 	],
 	tasks: [{
-		uid: "b040c9eb",
-		type: "item",
-		items: [{
-			id: "erebus:rhino_exoskeleton_helmet",
-			tag: {
-				Quality: {}
-			}
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
-	},
-	{
 		uid: "eed92763",
 		type: "item",
 		items: [{
