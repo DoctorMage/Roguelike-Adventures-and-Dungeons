@@ -12,9 +12,6 @@
 		uid: "94f24a97",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "uniquecrops:precision.sword",
 			tag: {
 				Quality: {
@@ -41,10 +38,7 @@
 		uid: "52874ff7",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:precision.pick"
+			item: "uniquecrops:precision.pick"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -53,10 +47,7 @@
 		uid: "5bd9ec49",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:precision.axe"
+			item: "uniquecrops:precision.axe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -65,10 +56,7 @@
 		uid: "32a5654b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:precision.shovel"
+			item: "uniquecrops:precision.shovel"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

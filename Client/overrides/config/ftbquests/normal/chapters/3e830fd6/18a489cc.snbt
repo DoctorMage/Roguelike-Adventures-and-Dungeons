@@ -12,9 +12,6 @@
 		uid: "6769c76e",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "uniquecrops:bootsleague",
 			tag: {
 				Quality: {}

@@ -1,0 +1,277 @@
+{
+	title: "Music Exchange",
+	x: -28.0d,
+	y: 3.0d,
+	description: "No need for gambling",
+	text: [
+		"If you ever get duplicates of a music disc you can trade it in here for a different one."
+	],
+	can_repeat: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "c3af456d",
+		type: "item",
+		title: "C418 - Minecraft",
+		items: [{
+			item: "charm:record_calm1"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "59404c01",
+		type: "item",
+		title: "C418 - Clark",
+		items: [{
+			item: "charm:record_calm2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "334b4a35",
+		type: "item",
+		title: "C418 - Sweden",
+		items: [{
+			item: "charm:record_calm3"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ab9e57a5",
+		type: "item",
+		title: "C418 - Subwoofer Lullaby",
+		items: [{
+			item: "charm:record_hal1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a377c563",
+		type: "item",
+		title: "C418 - Living Mice",
+		items: [{
+			item: "charm:record_hal2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f55492c0",
+		type: "item",
+		title: "C418 - Haggstorm",
+		items: [{
+			item: "charm:record_hal3"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "514fe0fc",
+		type: "item",
+		title: "C418 - Danny",
+		items: [{
+			item: "charm:record_hal4"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e9c2704f",
+		type: "item",
+		title: "C418 - Key",
+		items: [{
+			item: "charm:record_nuance1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ca979654",
+		type: "item",
+		title: "C418 - Oxygene",
+		items: [{
+			item: "charm:record_nuance2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "54931c2a",
+		type: "item",
+		title: "C418 - Dry Hands",
+		items: [{
+			item: "charm:record_piano1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a79cee7a",
+		type: "item",
+		title: "C418 - Wet Hands",
+		items: [{
+			item: "charm:record_piano2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d084c0bc",
+		type: "item",
+		title: "C418 - Mice On Venus",
+		items: [{
+			item: "charm:record_piano3"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9d911e3a",
+		type: "item",
+		title: "C418 - Biome Fest",
+		items: [{
+			item: "charm:record_creative1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9d891cb9",
+		type: "item",
+		title: "C418 - Blind Spots",
+		items: [{
+			item: "charm:record_creative2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "42693242",
+		type: "item",
+		title: "C418 - Haunt Muskie",
+		items: [{
+			item: "charm:record_creative3"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "55881ce2",
+		type: "item",
+		title: "C418 - Aria Math",
+		items: [{
+			item: "charm:record_creative4"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2d5a22d4",
+		type: "item",
+		title: "C418 - Dreiton",
+		items: [{
+			item: "charm:record_creative5"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ee9ea123",
+		type: "item",
+		title: "C418 - Taswell",
+		items: [{
+			item: "charm:record_creative6"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4c7db8a0",
+		type: "item",
+		title: "C418 - Concrete Halls",
+		items: [{
+			item: "charm:record_nether1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "62dc5986",
+		type: "item",
+		title: "C418 - Dead Voxel",
+		items: [{
+			item: "charm:record_nether2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "86c128c4",
+		type: "item",
+		title: "C418 - Warmth",
+		items: [{
+			item: "charm:record_nether3"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "86f10ecf",
+		type: "item",
+		title: "C418 - Ballads of the Cats",
+		items: [{
+			item: "charm:record_nether4"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c696c3ff",
+		type: "item",
+		title: "C418 - Mutation",
+		items: [{
+			item: "charm:record_menu1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dd2183ca",
+		type: "item",
+		title: "C418 - Moog City 2",
+		items: [{
+			item: "charm:record_menu2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "87cb1596",
+		type: "item",
+		title: "C418 - Beginning 2",
+		items: [{
+			item: "charm:record_menu3"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9270b784",
+		type: "item",
+		title: "C418 - Floating Trees",
+		items: [{
+			item: "charm:record_menu4"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d4e9429a",
+		type: "choice",
+		table: 65
+	}]
+}

@@ -12,9 +12,6 @@
 		uid: "6f38d2a3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "uniquecrops:emblem.scarab",
 			tag: {
 				Quality: {

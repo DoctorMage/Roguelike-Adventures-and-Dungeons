@@ -1,9 +1,10 @@
 {
-	title: "[Place Holder Title]",
+	title: "I'm Gonna Tan Your Hide!",
 	x: -3.0d,
 	y: -3.0d,
+	description: "Better start behaving",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"Who knew cows were magicial, now you don't have to trade it for beans."
 	],
 	dependencies: [
 		"9b0d518f"

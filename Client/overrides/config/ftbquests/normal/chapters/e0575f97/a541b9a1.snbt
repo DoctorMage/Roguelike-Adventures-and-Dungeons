@@ -1,9 +1,12 @@
 {
-	title: "[Place Holder Title]",
+	title: "Rocking Ritual",
 	x: 5.0d,
 	y: -2.0d,
+	description: "Make like a rock and roll!!!",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"Some rituals may require stone to trigger them.",
+		"",
+		"Surely you'll have a bunch to spare lying around?"
 	],
 	dependencies: [
 		"f2f124cb"
@@ -14,15 +17,15 @@
 		items: [{
 			item: "roots:runestone"
 		}],
-		count: 8L
+		count: 4L
 	},
 	{
-		uid: "c8588fd6",
+		uid: "2b7d8584",
 		type: "item",
 		items: [{
 			item: "roots:chiseled_runestone"
 		}],
-		count: 8L
+		count: 4L
 	}],
 	rewards: [{
 		uid: "d38e0bdc",

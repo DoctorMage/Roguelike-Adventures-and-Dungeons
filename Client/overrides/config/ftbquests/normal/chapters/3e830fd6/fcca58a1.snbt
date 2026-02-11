@@ -6,22 +6,18 @@
 	text: [
 		"Cinderbella are right out of a childrens fairy tale book. ",
 		"",
-		"Much like those fairy tale princess this plant can only achieve its dream of maturing by being planted after midnight.",
-		"",
-		"They also require some pumpkin friends to protect them."
+		"After the sun sets but before the moon rises place this seed down in the center of pumpkins."
 	],
 	hide_dependency_lines: true,
 	dependencies: [
-		"c015e7b7"
+		"c015e7b7",
+		"9f4751cc"
 	],
 	tasks: [{
 		uid: "30af804b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:seedcinderbella"
+			item: "uniquecrops:seedcinderbella"
 		}],
 		count: 16L
 	}],

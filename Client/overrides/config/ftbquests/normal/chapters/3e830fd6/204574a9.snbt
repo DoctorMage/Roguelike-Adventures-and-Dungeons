@@ -10,9 +10,6 @@
 		uid: "5432029c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "uniquecrops:emblem.powerfist",
 			tag: {
 				Quality: {

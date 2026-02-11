@@ -12,11 +12,7 @@
 		uid: "50610b7e",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:generic",
-			Damage: 10s
+			item: "uniquecrops:generic 1 10"
 		}],
 		count: 8L
 	}],

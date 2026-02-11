@@ -2,7 +2,6 @@
 	title: "The Druid",
 	icon: {
 		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {},
 			Parent: {
 				"UC:cropPowerCurrent": 0,
 				"UC:ignoresCooldown": 0b,
@@ -30,7 +29,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					"UC:cropPowerCurrent": 0,
 					"UC:ignoresCooldown": 0b,
@@ -49,10 +47,7 @@
 		uid: "b4a411a0",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:emeradic_diamond"
+			item: "uniquecrops:emeradic_diamond"
 		}]
 	}],
 	rewards: [{

@@ -12,7 +12,7 @@
 		"",
 		"Once filled if the recipe matches a seed it will be crafted at the center plant.",
 		"",
-		"To get the seed just break the center crop."
+		"To get the seed just right click the center crops"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -22,10 +22,7 @@
 		uid: "537c2fd3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:seedartisia"
+			item: "uniquecrops:seedartisia"
 		}],
 		count: 16L
 	}],

@@ -8,16 +8,14 @@
 	],
 	hide_dependency_lines: true,
 	dependencies: [
-		"c015e7b7"
+		"c015e7b7",
+		"9f4751cc"
 	],
 	tasks: [{
 		uid: "b8e2c59c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:seedmusica"
+			item: "uniquecrops:seedmusica"
 		}],
 		count: 8L
 	}],

@@ -16,11 +16,7 @@
 		uid: "08a6b555",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:generic",
-			Damage: 3s
+			item: "uniquecrops:generic 1 3"
 		}],
 		count: 16L
 	},
@@ -28,10 +24,7 @@
 		uid: "ad8fb827",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:cindertorch"
+			item: "uniquecrops:cindertorch"
 		}],
 		count: 32L
 	}]

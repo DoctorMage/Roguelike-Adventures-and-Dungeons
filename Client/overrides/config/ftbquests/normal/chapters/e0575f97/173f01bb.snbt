@@ -1,9 +1,10 @@
 {
-	title: "[Place Holder Title]",
+	title: "A Fanny Pack?",
 	x: 2.5d,
 	y: 1.0d,
+	description: "I've heard they're very stylish",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"An upgraded version to the herb bag it can store regular items as well as herbs."
 	],
 	dependencies: [
 		"0784f352"

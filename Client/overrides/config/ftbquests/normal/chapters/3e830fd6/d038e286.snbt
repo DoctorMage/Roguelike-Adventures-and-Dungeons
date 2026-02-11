@@ -16,10 +16,7 @@
 		uid: "fcafb7b1",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:darkblock"
+			item: "uniquecrops:darkblock"
 		}],
 		count: 8L
 	}],

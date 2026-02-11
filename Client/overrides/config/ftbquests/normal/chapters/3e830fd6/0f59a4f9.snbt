@@ -12,9 +12,6 @@
 		uid: "61b767dc",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "uniquecrops:emblem.leaf",
 			tag: {
 				Quality: {}

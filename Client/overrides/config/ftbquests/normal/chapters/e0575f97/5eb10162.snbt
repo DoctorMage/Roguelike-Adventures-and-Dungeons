@@ -1,7 +1,8 @@
 {
-	title: "[Place Holder Title]",
+	title: "Blue With Envy",
 	x: -4.0d,
 	y: -3.0d,
+	description: "What's it jealous of?",
 	text: [
 		"[This quest will have a proper description and title in a future version]"
 	],

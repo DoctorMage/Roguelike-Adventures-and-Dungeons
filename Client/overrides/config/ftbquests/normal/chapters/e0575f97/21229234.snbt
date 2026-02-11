@@ -1,9 +1,10 @@
 {
-	title: "[Place Holder Title]",
+	title: "A WOODEN KNIFE",
 	x: 6.0d,
 	y: 0.0d,
+	description: "A 100% counter to magneto",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"Knives can be used to carve bark from trees or making blood pacts but you didnt hear that from me."
 	],
 	dependencies: [
 		"8b36541a"

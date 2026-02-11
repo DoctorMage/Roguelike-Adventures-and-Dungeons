@@ -1,9 +1,10 @@
 {
-	title: "[Place Holder Title]",
-	x: 5.0d,
-	y: 1.0d,
+	title: "Moss I Tell You This Again",
+	x: 6.0d,
+	y: 1.5d,
+	description: "Never ask moss for directions!!",
 	text: [
-		""
+		"A key ingrident in certain spells and rituals moss can be harvested off most mossy blocks."
 	],
 	dependencies: [
 		"21229234"
@@ -14,6 +15,16 @@
 		items: [{
 			item: "roots:terra_moss"
 		}],
-		count: 16L
+		count: 8L
+	}],
+	rewards: [{
+		uid: "e7f30963",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "de52579c",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

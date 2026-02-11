@@ -10,13 +10,13 @@
 	},
 	x: 1.0d,
 	y: 5.5d,
-	description: "Sadly cutbacks had to be mdae",
+	description: "Sadly cutbacks had to be made",
 	text: [
-		"Become almost like a real witch and fly into the sky on your broom.",
+		"Experience almost being like a real witch flying in the sky on a broom.",
 		"",
 		"Well in this case your broom is a staff and the flying can be considered as a glorified dash.",
 		"",
-		"But look on the upside it involves magic!"
+		"But look on the bright side it involves magic!"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

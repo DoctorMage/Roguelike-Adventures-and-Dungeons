@@ -1,9 +1,12 @@
 {
 	title: "Imbuing 101",
 	x: 1.0d,
-	y: 3.5d,
+	y: 2.5d,
+	description: "Your a druid Steve!",
 	text: [
-		"So you wanna learn? "
+		"Before you go making a wand your gonna need something to add spells to it",
+		"",
+		"The answer? An imbuer place it down then add a gramary above and you're druid journey begins!"
 	],
 	dependencies: [
 		"90edb6b4"

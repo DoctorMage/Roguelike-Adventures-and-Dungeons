@@ -1,9 +1,12 @@
 {
-	title: "[Place Holder Title]",
+	title: "The Shear Audacity",
 	x: -3.0d,
 	y: -1.5d,
+	description: "Shearly you'll be fine",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"Sadly their's no way to go directly to the land of the feys but renaments of their magic still remain in the overworld.",
+		"",
+		"The runic shears allow you to harvest certain magical materials used in many rituals and spells."
 	],
 	dependencies: [
 		"53a2c6a0"

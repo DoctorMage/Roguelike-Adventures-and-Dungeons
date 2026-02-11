@@ -12,10 +12,7 @@
 		uid: "45db4005",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:cactushelm"
+			item: "uniquecrops:cactushelm"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -24,10 +21,7 @@
 		uid: "cf2c7c04",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:cactusplate"
+			item: "uniquecrops:cactusplate"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -36,10 +30,7 @@
 		uid: "22c8ca31",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:cactuslegs"
+			item: "uniquecrops:cactuslegs"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -48,10 +39,7 @@
 		uid: "fa8ca467",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:cactusboots"
+			item: "uniquecrops:cactusboots"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

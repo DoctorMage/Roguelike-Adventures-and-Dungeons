@@ -1,9 +1,10 @@
 {
-	title: "[Place Holder Title]",
+	title: "Your Gonna Need Harder Blocks",
 	x: 5.0d,
 	y: -3.0d,
+	description: "Or just claim the chunk",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"An alternative to stone in case you want something more durable/resistant."
 	],
 	dependencies: [
 		"a541b9a1"
@@ -14,15 +15,15 @@
 		items: [{
 			item: "roots:runed_obsidian"
 		}],
-		count: 8L
+		count: 4L
 	},
 	{
-		uid: "11125c1e",
+		uid: "036dca78",
 		type: "item",
 		items: [{
 			item: "roots:chiseled_runed_obsidian"
 		}],
-		count: 8L
+		count: 4L
 	}],
 	rewards: [{
 		uid: "ba663fbc",

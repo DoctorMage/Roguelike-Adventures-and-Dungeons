@@ -1,9 +1,10 @@
 {
-	title: "[Place Holder Title]",
+	title: "Purple Eggs & Ham",
 	x: 3.0d,
 	y: -1.0d,
+	description: "Rad funfact 100: eggplants are berries",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"Multiple rituals require the use or crops or plants the most common one being eggplants."
 	],
 	dependencies: [
 		"90edb6b4"

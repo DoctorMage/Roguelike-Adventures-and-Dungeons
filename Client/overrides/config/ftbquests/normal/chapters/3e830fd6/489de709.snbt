@@ -10,9 +10,6 @@
 		uid: "43aea257",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "uniquecrops:emblem.blacksmith",
 			tag: {
 				Quality: {

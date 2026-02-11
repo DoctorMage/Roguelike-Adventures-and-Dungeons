@@ -12,7 +12,7 @@
 	y: 7.5d,
 	description: "Overprotective gardening",
 	text: [
-		"Summon flower petals around yourself, as long as these flower petals exist they will abosrb a single attack before being destroyted. "
+		"Summon flower petals around yourself to protect you from harm."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

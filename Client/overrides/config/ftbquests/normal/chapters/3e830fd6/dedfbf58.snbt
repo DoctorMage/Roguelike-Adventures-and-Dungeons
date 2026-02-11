@@ -10,9 +10,6 @@
 		uid: "d4444daf",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "uniquecrops:emblem.melee",
 			tag: {
 				Quality: {

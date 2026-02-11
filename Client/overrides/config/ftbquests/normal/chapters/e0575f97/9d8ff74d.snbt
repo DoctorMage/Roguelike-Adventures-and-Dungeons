@@ -1,9 +1,14 @@
 {
-	title: "[Place Holder Title]",
+	title: "What's A Modpack Wthout 50 Differnet Types Of Wood",
 	x: 7.0d,
 	y: 1.0d,
+	description: "A boring one thats what!!",
 	text: [
-		""
+		"Unlike 99% of wood wildroot has a utility in certain rituals and spells.",
+		"",
+		"Good luck finding it out in the wild though their nearly exctint!",
+		"",
+		"But there are other ways to obtain it."
 	],
 	dependencies: [
 		"21229234"
@@ -14,7 +19,7 @@
 		items: [{
 			item: "roots:bark_wildwood"
 		}],
-		count: 24L
+		count: 8L
 	}],
 	rewards: [{
 		uid: "9d2766c9",

@@ -1,9 +1,16 @@
 {
-	title: "[Place Holder Title]",
+	title: "Woodverine",
 	x: 7.0d,
 	y: 2.0d,
+	description: "Be wary of his rival Saberjack",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"Ever wanted to be a tree?",
+		"",
+		"Wildwood armour is just up your street then.",
+		"",
+		"Combined the strenght of diamond with the regenrating capabillties of a tree!",
+		"",
+		"You'll make all the other trees green with envy!!!"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

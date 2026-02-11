@@ -21,9 +21,6 @@
 		uid: "4bedf316",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "uniquecrops:emblem.pacifism",
 			tag: {
 				Quality: {

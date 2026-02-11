@@ -11,11 +11,7 @@
 		uid: "0457fd13",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "extrautils2:compressedcobblestone",
-			Damage: 7s
+			item: "extrautils2:compressedcobblestone 1 7"
 		}],
 		count: 64L,
 		consume_items: true
@@ -25,9 +21,6 @@
 		type: "item",
 		team_reward: false,
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "minecraft:written_book",
 			tag: {
 				generation: 3,
@@ -42,7 +35,7 @@
 	{
 		uid: "3a3378c7",
 		type: "xp_levels",
-		xp_levels: 10000
+		xp_levels: 5000
 	},
 	{
 		uid: "90af4792",

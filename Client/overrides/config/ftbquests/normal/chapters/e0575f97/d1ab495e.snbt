@@ -1,9 +1,10 @@
 {
-	title: "[Place Holder Title]",
+	title: "A Gucci Bag For Druids",
 	x: 3.5d,
 	y: 1.0d,
+	description: "Even druids gotta have style",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"The final version of the herb bag and the most stylish."
 	],
 	dependencies: [
 		"173f01bb"

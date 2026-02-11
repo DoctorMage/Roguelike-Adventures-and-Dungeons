@@ -16,11 +16,7 @@
 		uid: "d58e746e",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:generic",
-			Damage: 5s
+			item: "uniquecrops:generic 1 5"
 		}],
 		count: 16L
 	},
@@ -28,10 +24,7 @@
 		uid: "2088eb97",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:endersnooker"
+			item: "uniquecrops:endersnooker"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

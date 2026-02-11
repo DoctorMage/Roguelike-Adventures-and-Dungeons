@@ -19,13 +19,7 @@
 		uid: "8443318d",
 		type: "observation",
 		title: "Observe An Itero",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:generic",
-			Damage: 30s
-		},
+		icon: "uniquecrops:generic 1 30",
 		match_type: "block_entity_id",
 		match: "uniquecrops:tileitero",
 		timer: 20L
@@ -34,11 +28,7 @@
 		uid: "01bcaaec",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:generic",
-			Damage: 30s
+			item: "uniquecrops:generic 1 30"
 		}],
 		count: 9L
 	}],

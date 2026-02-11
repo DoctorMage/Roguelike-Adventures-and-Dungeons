@@ -15,13 +15,7 @@
 		uid: "7b42741b",
 		type: "observation",
 		title: "Observe An Exedo",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "thebetweenlands:items_plant_drop",
-			Damage: 35s
-		},
+		icon: "thebetweenlands:items_plant_drop 1 35",
 		match_type: "block_id",
 		match: "uniquecrops:exedo",
 		timer: 20L

@@ -1,9 +1,10 @@
 {
-	title: "[Place Holder Title]",
+	title: "Herb Baggie",
 	x: 1.5d,
 	y: 1.0d,
+	description: "I promise officer I'm holding it for a friend",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"The most cheapest way to store herbs for spell crafting."
 	],
 	dependencies: [
 		"90edb6b4"

@@ -1,0 +1,109 @@
+{
+	title: "Music Box",
+	icon: "inventorypets:jukebox_pet",
+	loot_size: 1,
+	rewards: [{
+		title: "C418 - Minecraft",
+		item: "charm:record_calm1"
+	},
+	{
+		title: "C418 - Clark",
+		item: "charm:record_calm2"
+	},
+	{
+		title: "C418 - Sweden",
+		item: "charm:record_calm3"
+	},
+	{
+		title: "C418 - Subwoofer Lullaby",
+		item: "charm:record_hal1"
+	},
+	{
+		title: "C418 - Living Mice",
+		item: "charm:record_hal2"
+	},
+	{
+		title: "C418 - Haggstorm",
+		item: "charm:record_hal3"
+	},
+	{
+		title: "C418 - Danny",
+		item: "charm:record_hal4"
+	},
+	{
+		title: "C418 - Key",
+		item: "charm:record_nuance1"
+	},
+	{
+		title: "C418 - Oxygene",
+		item: "charm:record_nuance2"
+	},
+	{
+		title: "C418 - Dry Hands",
+		item: "charm:record_piano1"
+	},
+	{
+		title: "C418 - Wet Hands",
+		item: "charm:record_piano2"
+	},
+	{
+		title: "C418 - Mice On Venus",
+		item: "charm:record_piano3"
+	},
+	{
+		title: "C418 - Biome Fest",
+		item: "charm:record_creative1"
+	},
+	{
+		title: "C418 - Blind Spots",
+		item: "charm:record_creative2"
+	},
+	{
+		title: "C418 - Haunt Muskie",
+		item: "charm:record_creative3"
+	},
+	{
+		title: "C418 - Aria Math",
+		item: "charm:record_creative4"
+	},
+	{
+		title: "C418 - Dreiton",
+		item: "charm:record_creative5"
+	},
+	{
+		title: "C418 - Taswell",
+		item: "charm:record_creative6"
+	},
+	{
+		title: "C418 - Concrete Halls",
+		item: "charm:record_nether1"
+	},
+	{
+		title: "C418 - Dead Voxel",
+		item: "charm:record_nether2"
+	},
+	{
+		title: "C418 - Warmth",
+		item: "charm:record_nether3"
+	},
+	{
+		title: "C418 - Ballads of the Cats",
+		item: "charm:record_nether4"
+	},
+	{
+		title: "C418 - Mutation",
+		item: "charm:record_menu1"
+	},
+	{
+		title: "C418 - Moog City 2",
+		item: "charm:record_menu2"
+	},
+	{
+		title: "C418 - Beginning 2",
+		item: "charm:record_menu3"
+	},
+	{
+		title: "C418 - Floating Trees",
+		item: "charm:record_menu4"
+	}]
+}

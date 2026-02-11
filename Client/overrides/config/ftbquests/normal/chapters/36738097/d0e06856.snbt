@@ -15,32 +15,17 @@
 		uid: "2d4beda5",
 		type: "checkmark",
 		title: "I Go By Many Names",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "titles:titlearchive"
-		}
+		icon: "titles:titlearchive"
 	}],
 	rewards: [{
 		uid: "6455c241",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "titles:titlearchive"
-		}
+		item: "titles:titlearchive"
 	},
 	{
 		uid: "9d66bf89",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "titles:archivefragment"
-		},
+		item: "titles:archivefragment",
 		count: 3
 	}]
 }

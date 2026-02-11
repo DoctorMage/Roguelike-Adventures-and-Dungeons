@@ -16,11 +16,7 @@
 		uid: "2283b7d9",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:generic",
-			Damage: 11s
+			item: "uniquecrops:generic 1 11"
 		}],
 		count: 16L
 	},
@@ -28,11 +24,7 @@
 		uid: "df84e9b0",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:generic",
-			Damage: 12s
+			item: "uniquecrops:generic 1 12"
 		}],
 		count: 4L
 	},
@@ -40,10 +32,7 @@
 		uid: "ec3d4163",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:invisiglass"
+			item: "uniquecrops:invisiglass"
 		}],
 		count: 4L
 	},
@@ -51,10 +40,7 @@
 		uid: "2c907264",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:genericfood.ignorancepotion"
+			item: "uniquecrops:genericfood.ignorancepotion"
 		}],
 		count: 3L
 	}],

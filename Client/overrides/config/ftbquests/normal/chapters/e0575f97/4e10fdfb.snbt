@@ -1,8 +1,15 @@
 {
+	title: "A Change Of Staff",
 	x: 0.0d,
 	y: 3.5d,
+	description: "Not to be confused with a wand",
+	text: [
+		"If you want to be a real druid your gonna need a staff."
+	],
 	dependencies: [
-		"90edb6b4"
+		"90edb6b4",
+		"f342cc17",
+		"e84d2bdf"
 	],
 	tasks: [{
 		uid: "d2a05170",

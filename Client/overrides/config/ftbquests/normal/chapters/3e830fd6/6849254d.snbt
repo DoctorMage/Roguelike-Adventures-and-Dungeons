@@ -10,11 +10,7 @@
 		uid: "59fc3c60",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:generic",
-			Damage: 20s
+			item: "uniquecrops:generic 1 20"
 		}]
 	}],
 	rewards: [{

@@ -18,11 +18,7 @@
 		uid: "2d10e08a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:generic",
-			Damage: 4s
+			item: "uniquecrops:generic 1 4"
 		}],
 		count: 16L
 	},
@@ -30,20 +26,14 @@
 		uid: "86d24643",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:hourglass"
+			item: "uniquecrops:hourglass"
 		}]
 	},
 	{
 		uid: "5407ee8a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:genericfood.reversepotion"
+			item: "uniquecrops:genericfood.reversepotion"
 		}],
 		count: 3L,
 		ignore_damage: true,

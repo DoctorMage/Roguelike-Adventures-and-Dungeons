@@ -4,9 +4,7 @@
 	y: -1.0d,
 	description: "There's a reason its called forbidden knowledge",
 	text: [
-		"Hellshelves are like bookshelves but give more enchanting power, thus allowing you to apply higher level enchantments to your items.",
-		"",
-		"The max level for an enchanting table with hellshelves is capped higher than wooden bookshelves."
+		"Hellshelves are direct upgrades to regulars bookshelves allowing for higher enchanting levels to be reached"
 	],
 	dependencies: [
 		"aaac6e3c"
@@ -32,8 +30,19 @@
 		ftb_money: 100L
 	},
 	{
-		uid: "cf9a6534",
+		uid: "e8d84dab",
 		type: "item",
-		item: "minecraft:anvil 1 1"
+		item: {
+			id: "minecraft:anvil",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34
+				}],
+				display: {
+					Name: "Reinforced Anvil"
+				}
+			}
+		}
 	}]
 }

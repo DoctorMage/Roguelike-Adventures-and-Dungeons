@@ -16,11 +16,7 @@
 		uid: "b07db41e",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:generic",
-			Damage: 6s
+			item: "uniquecrops:generic 1 6"
 		}],
 		count: 12L
 	},
@@ -28,10 +24,7 @@
 		uid: "6808c3d4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:genericfood.goldenbread"
+			item: "uniquecrops:genericfood.goldenbread"
 		}],
 		count: 4L
 	}],

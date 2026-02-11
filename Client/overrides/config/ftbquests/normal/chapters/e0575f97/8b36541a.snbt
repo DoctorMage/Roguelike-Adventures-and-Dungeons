@@ -1,9 +1,12 @@
 {
-	title: "[Place Holder Title]",
+	title: "Lets Get Wild",
 	x: 4.0d,
 	y: 0.0d,
+	description: "No grass block will be safe",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"Wildroot is one of the core herbs used in multiple aspects of Roots.",
+		"",
+		"The easiest way of aquiring it is just breaking grass."
 	],
 	dependencies: [
 		"90edb6b4"

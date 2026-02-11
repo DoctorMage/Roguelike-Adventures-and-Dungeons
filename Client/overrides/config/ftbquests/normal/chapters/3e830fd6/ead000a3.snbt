@@ -12,9 +12,6 @@
 		uid: "87ae00dc",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "uniquecrops:emblem.food",
 			tag: {
 				Quality: {

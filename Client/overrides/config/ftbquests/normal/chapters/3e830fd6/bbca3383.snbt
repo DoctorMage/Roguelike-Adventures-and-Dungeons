@@ -12,9 +12,6 @@
 		uid: "fb0784a6",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "uniquecrops:thunderpantz",
 			tag: {
 				Quality: {

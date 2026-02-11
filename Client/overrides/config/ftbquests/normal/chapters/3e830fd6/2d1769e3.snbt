@@ -10,9 +10,6 @@
 		uid: "0a775649",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "uniquecrops:poncho",
 			tag: {
 				Quality: {

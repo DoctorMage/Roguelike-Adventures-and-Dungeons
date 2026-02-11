@@ -1,10 +1,12 @@
 {
 	title: "Separate Because They're Fun!",
 	x: -1.0d,
-	y: 3.5d,
+	y: 2.5d,
 	description: "Get to mushin!",
 	text: [
-		"The Mortar and Pestle is used to craft certain recipes from ROOTS; it can also be used to craft some new recipes for the Wizardry mods."
+		"The Mortar and Pestle is a core compent in making the spells.",
+		"",
+		"It has other uses like making dust but who cares about that."
 	],
 	dependencies: [
 		"90edb6b4"

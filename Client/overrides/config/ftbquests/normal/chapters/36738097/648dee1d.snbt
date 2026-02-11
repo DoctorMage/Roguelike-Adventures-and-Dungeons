@@ -12,9 +12,6 @@
 		uid: "3b844b8a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "apotheosis:hellshelf",
 			tag: {
 				ench: [{

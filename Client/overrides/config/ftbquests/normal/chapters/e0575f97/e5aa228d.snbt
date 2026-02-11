@@ -1,9 +1,10 @@
 {
-	title: "[Place Holder Title]",
+	title: "What's Black & Sticky",
 	x: -2.0d,
 	y: -2.5d,
+	description: "A black stick",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"Certain creatures have this substance attached to their body that only a specialized tool can harvest"
 	],
 	dependencies: [
 		"9b0d518f"

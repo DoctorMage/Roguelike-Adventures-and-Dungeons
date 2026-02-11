@@ -16,10 +16,7 @@
 		uid: "e0399299",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:steel_donut"
+			item: "uniquecrops:steel_donut"
 		}],
 		count: 3L,
 		ignore_damage: true,

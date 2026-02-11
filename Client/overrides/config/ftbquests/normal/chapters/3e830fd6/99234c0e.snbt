@@ -12,10 +12,7 @@
 		uid: "545b80d2",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:seednormal"
+			item: "uniquecrops:seednormal"
 		}],
 		count: 64L
 	}],

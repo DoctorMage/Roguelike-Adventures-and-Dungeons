@@ -1,9 +1,14 @@
 {
-	title: "[Place Holder Title]",
+	title: "Baby First Ritual",
 	x: 5.0d,
 	y: -1.0d,
+	description: "Try not to summon herobrine!!!",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"So your ready to start your first ritual?",
+		"",
+		"Welp get chopping and gather the wood for it!!",
+		"",
+		"Depending on the ritual certain types of wood will be required."
 	],
 	dependencies: [
 		"8b36541a",
@@ -16,7 +21,7 @@
 		items: [{
 			item: "roots:runed_oak"
 		}],
-		count: 16L
+		count: 4L
 	},
 	{
 		uid: "1c8033c4",
@@ -24,7 +29,7 @@
 		items: [{
 			item: "roots:runed_birch"
 		}],
-		count: 16L
+		count: 4L
 	},
 	{
 		uid: "5ed6ea3f",
@@ -32,7 +37,7 @@
 		items: [{
 			item: "roots:runed_spruce"
 		}],
-		count: 16L
+		count: 4L
 	},
 	{
 		uid: "5d2c118e",
@@ -40,7 +45,7 @@
 		items: [{
 			item: "roots:runed_jungle"
 		}],
-		count: 16L
+		count: 4L
 	},
 	{
 		uid: "90a8acd2",
@@ -48,7 +53,7 @@
 		items: [{
 			item: "roots:runed_dark_oak"
 		}],
-		count: 16L
+		count: 4L
 	},
 	{
 		uid: "55772479",
@@ -56,7 +61,7 @@
 		items: [{
 			item: "roots:runed_acacia"
 		}],
-		count: 16L
+		count: 4L
 	}],
 	rewards: [{
 		uid: "445ded1d",

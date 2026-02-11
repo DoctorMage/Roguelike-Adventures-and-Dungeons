@@ -23,6 +23,7 @@
 	rewards: [{
 		uid: "929406cb",
 		type: "command",
+		icon: "vampirism:injection 1 2",
 		command: "/effect @p vampirism:sanguinare 600"
 	}]
 }

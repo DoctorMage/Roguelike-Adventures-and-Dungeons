@@ -1,9 +1,12 @@
 {
-	title: "[Place Holder Title]",
+	title: "Genji what's that you have",
 	x: 7.5d,
 	y: 0.0d,
+	description: "I HAVE A KNIFE!!!!",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"How many knives is to many? ",
+		"",
+		"Depends on how many your able to hold in two hands."
 	],
 	dependencies: [
 		"21229234"

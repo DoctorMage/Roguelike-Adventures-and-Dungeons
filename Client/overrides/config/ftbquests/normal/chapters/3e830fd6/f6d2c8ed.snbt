@@ -14,9 +14,6 @@
 		uid: "045e6604",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "uniquecrops:beanpower",
 			tag: {
 				Energy: 500

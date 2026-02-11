@@ -16,8 +16,20 @@
 	tasks: [{
 		uid: "f5bcef93",
 		type: "item",
+		title: "Red Coal",
 		items: [{
-			item: "extrautils2:ingredients 1 4"
+			ForgeCaps: {
+				Parent: {
+					data: "coalPowered",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any coalPowered"
+				}
+			}
 		}]
 	}],
 	rewards: [{

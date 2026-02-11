@@ -1,12 +1,6 @@
 {
 	title: "The Most Unique Crops",
-	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
-		id: "uniquecrops:generic",
-		Damage: 11s
-	},
+	icon: "uniquecrops:generic 1 11",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

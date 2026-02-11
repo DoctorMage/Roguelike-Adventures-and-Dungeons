@@ -18,9 +18,6 @@
 		uid: "fa40c835",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "uniquecrops:bookmultiblock",
 			tag: {
 				savedIndex: 5

@@ -12,7 +12,9 @@
 	y: 4.5d,
 	description: "MY ARMS!!!!!",
 	text: [
-		"Sadly this spell won't remove arms, Instead it does is disarm whoever it lands on."
+		"Sadly this spell won't remove anyones arms.",
+		"",
+		"Disarm will make whatevers hit by it drop whats in their hand."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

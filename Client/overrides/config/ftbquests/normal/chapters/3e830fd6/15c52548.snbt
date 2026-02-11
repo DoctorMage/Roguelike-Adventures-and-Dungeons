@@ -19,12 +19,7 @@
 		uid: "0d2688dd",
 		type: "interaction",
 		title: "Interact With A Craft Plant",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:crafting_table"
-		},
+		icon: "minecraft:crafting_table",
 		match_type: "block_entity_id",
 		match: "uniquecrops:craftyplant"
 	}],

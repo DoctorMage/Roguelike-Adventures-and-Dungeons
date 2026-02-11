@@ -16,11 +16,7 @@
 		uid: "4102fe69",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:generic",
-			Damage: 22s
+			item: "uniquecrops:generic 1 22"
 		}],
 		count: 8L
 	},
@@ -28,10 +24,7 @@
 		uid: "3fce21d7",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:genericfood.dietpills"
+			item: "uniquecrops:genericfood.dietpills"
 		}],
 		count: 4L
 	}],

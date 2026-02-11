@@ -1,9 +1,10 @@
 {
-	title: "[Place Holder Title]",
+	title: "Water. Earth. Fire. Air.",
 	x: -6.5d,
 	y: -3.5d,
+	description: "Long ago, the four blocks lived in harmony",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"Infused elemental soil provide a unique effects to whichever crop is grown on it."
 	],
 	dependencies: [
 		"0d077eb6"
@@ -14,7 +15,7 @@
 		items: [{
 			item: "roots:elemental_soil_air"
 		}],
-		count: 16L
+		count: 8L
 	},
 	{
 		uid: "9d4cf682",
@@ -22,7 +23,7 @@
 		items: [{
 			item: "roots:elemental_soil_fire"
 		}],
-		count: 16L
+		count: 8L
 	},
 	{
 		uid: "9f970466",
@@ -30,7 +31,7 @@
 		items: [{
 			item: "roots:elemental_soil_earth"
 		}],
-		count: 16L
+		count: 8L
 	},
 	{
 		uid: "b2733b10",
@@ -38,6 +39,21 @@
 		items: [{
 			item: "roots:elemental_soil_water"
 		}],
-		count: 16L
+		count: 8L
+	}],
+	rewards: [{
+		uid: "913b73a7",
+		type: "random",
+		table: 63
+	},
+	{
+		uid: "2f3e29d6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c4c10454",
+		type: "xp_levels",
+		xp_levels: 10
 	}]
 }

@@ -1,9 +1,10 @@
 {
-	title: "[Place Holder Title]",
+	title: "Guess What?",
 	x: -1.5d,
 	y: -1.5d,
+	description: "Chicken butt!",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"The birds of the overworld were one of the few creatures touched by the fey realms magic, harvest their feathers to further understand it."
 	],
 	dependencies: [
 		"9b0d518f"

@@ -8,16 +8,14 @@
 	],
 	hide_dependency_lines: true,
 	dependencies: [
-		"c015e7b7"
+		"c015e7b7",
+		"9f4751cc"
 	],
 	tasks: [{
 		uid: "8046ae70",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:seedcobblonia"
+			item: "uniquecrops:seedcobblonia"
 		}],
 		count: 16L
 	}],

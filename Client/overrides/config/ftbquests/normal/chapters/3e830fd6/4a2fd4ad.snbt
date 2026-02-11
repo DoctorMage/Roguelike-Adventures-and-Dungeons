@@ -10,9 +10,6 @@
 		uid: "b7d196bd",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "uniquecrops:item_magnet",
 			tag: {}
 		}],

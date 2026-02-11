@@ -6,12 +6,12 @@
 	text: [
 		"Complete this quest and activate the rewards to be effected by the vampirism virus.",
 		"",
-		"After a day has passed you will be reborn.",
+		"After a day has passed you will be reborn as a vampire",
 		"",
 		"(If at any point you change your mind drink milk to remove the effect)",
-		"(In case you do something stupid you get 2 chances of vampirism)",
+		"(In case you do something stupid you get 2 more chances of vampirism)",
 		"",
-		"Warning: Injecting yourself with garlic prevents you from becoming a vampire."
+		"Warning: Becoming a hunter prevents you from becoming a vampire."
 	],
 	dependencies: [
 		"185694e7"

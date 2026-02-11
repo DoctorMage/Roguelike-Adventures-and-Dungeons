@@ -1,11 +1,6 @@
 {
 	title: "Praise The Sun",
-	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
-		id: "uniquecrops:seedindustria"
-	},
+	icon: "uniquecrops:seedindustria",
 	x: -2.5d,
 	y: -3.5d,
 	description: "The power of the sun in the palm of my hand",
@@ -18,16 +13,14 @@
 	],
 	hide_dependency_lines: true,
 	dependencies: [
-		"c015e7b7"
+		"c015e7b7",
+		"9f4751cc"
 	],
 	tasks: [{
 		uid: "4c803d01",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:seedindustria"
+			item: "uniquecrops:seedindustria"
 		}],
 		count: 8L
 	}],

@@ -5,7 +5,7 @@
 	y: -4.0d,
 	description: "Bless you",
 	text: [
-		"Unless your inner frozen princess with this ritual and lay the wrath of winter onto the surronding land."
+		"Unleash your inner frozen princess with this ritual and lay the wrath of winter onto the surronding land."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

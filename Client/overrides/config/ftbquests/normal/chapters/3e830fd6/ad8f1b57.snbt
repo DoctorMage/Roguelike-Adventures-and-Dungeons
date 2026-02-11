@@ -12,10 +12,7 @@
 		uid: "7dbb68dd",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:impactshield"
+			item: "uniquecrops:impactshield"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

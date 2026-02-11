@@ -19,11 +19,7 @@
 		uid: "709f5366",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:generic",
-			Damage: 9s
+			item: "uniquecrops:generic 1 9"
 		}],
 		count: 8L
 	},
@@ -31,10 +27,7 @@
 		uid: "d4de63c3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:sunblock"
+			item: "uniquecrops:sunblock"
 		}]
 	}],
 	rewards: [{

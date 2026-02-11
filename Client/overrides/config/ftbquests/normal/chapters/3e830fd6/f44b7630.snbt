@@ -17,10 +17,7 @@
 		uid: "41e29ff2",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:cocito"
+			item: "uniquecrops:cocito"
 		}]
 	}],
 	rewards: [{

@@ -14,11 +14,7 @@
 		uid: "ff609f02",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:generic",
-			Damage: 17s
+			item: "uniquecrops:generic 1 17"
 		}],
 		count: 4L
 	},
@@ -26,10 +22,7 @@
 		uid: "b6bfdcea",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:totemhead"
+			item: "uniquecrops:totemhead"
 		}]
 	}],
 	rewards: [{

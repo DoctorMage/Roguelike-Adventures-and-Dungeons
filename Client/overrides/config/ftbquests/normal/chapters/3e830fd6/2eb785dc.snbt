@@ -15,9 +15,6 @@
 		uid: "f19db386",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "uniquecrops:precision.hammer",
 			tag: {
 				Quality: {

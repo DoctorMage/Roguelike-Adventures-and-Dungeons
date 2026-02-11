@@ -1,9 +1,10 @@
 {
-	title: "[Place Holder Title]",
+	title: "More Bark than Bite?",
 	x: 7.0d,
 	y: -1.5d,
+	description: "I wonder what wood sounds like?",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"Bark is a key ingrident if you want to be a druid so start stabbing them trees!"
 	],
 	dependencies: [
 		"21229234"

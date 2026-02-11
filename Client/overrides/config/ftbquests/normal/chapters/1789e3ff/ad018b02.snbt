@@ -4,10 +4,11 @@
 	y: -2.0d,
 	description: "Not as dark as it sounds",
 	text: [
-		"This mirage world is forested as far as the eye can see.",
+		"A Mirage world claimed by nothing but forest as far as the eye can see.",
 		"",
-		"There are many huts spread around and it appears that everyone is a book worm.",
-		"Don't mind to take a peak inside their shelves."
+		"The huts that fill this land seem to be filled with knowledge from its previous residents.",
+		"",
+		"Maybe you can discover something from what they left behind."
 	],
 	dependencies: [
 		"0ff8c885"

@@ -5,7 +5,7 @@
 	y: -8.0d,
 	description: "Hope you packed your umbrella",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"Call upon the power of the cosmos and rain down a meteor storm to devestate the land."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

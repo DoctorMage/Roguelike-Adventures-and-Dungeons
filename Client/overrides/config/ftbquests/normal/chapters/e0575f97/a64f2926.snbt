@@ -1,9 +1,10 @@
 {
-	title: "[Place holder title]",
+	title: "The Druid's Attire",
 	x: -3.0d,
 	y: -4.0d,
+	description: "I thought they couldn't wear metal?",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"The ideal armour for spell casters sylvan armour who knew druids had style."
 	],
 	dependencies: [
 		"a80da1d6"

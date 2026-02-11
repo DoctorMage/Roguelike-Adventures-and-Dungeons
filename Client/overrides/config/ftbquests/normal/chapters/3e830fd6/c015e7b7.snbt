@@ -12,10 +12,7 @@
 		uid: "b0f93e49",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:generic"
+			item: "uniquecrops:generic"
 		}],
 		ignore_nbt: 1b
 	}]

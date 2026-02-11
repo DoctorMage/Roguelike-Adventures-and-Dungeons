@@ -18,10 +18,7 @@
 		uid: "5fa0df35",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:junglelily"
+			item: "uniquecrops:junglelily"
 		}],
 		count: 8L
 	},
@@ -29,10 +26,7 @@
 		uid: "851b0b75",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:icelily"
+			item: "uniquecrops:icelily"
 		}],
 		count: 8L
 	},
@@ -40,10 +34,7 @@
 		uid: "31302397",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:lavalily"
+			item: "uniquecrops:lavalily"
 		}],
 		count: 8L
 	},
@@ -51,10 +42,7 @@
 		uid: "5434678a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:enderlily"
+			item: "uniquecrops:enderlily"
 		}],
 		count: 8L
 	}],

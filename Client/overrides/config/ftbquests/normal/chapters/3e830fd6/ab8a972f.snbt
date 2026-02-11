@@ -12,10 +12,7 @@
 		uid: "4968e99c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:rubikscube"
+			item: "uniquecrops:rubikscube"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -15,13 +15,7 @@
 		uid: "c2940da3",
 		type: "observation",
 		title: "Stare At A Lignator",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "engineersworkshop:upgrade",
-			Damage: 9s
-		},
+		icon: "engineersworkshop:upgrade 1 9",
 		match_type: "block_id",
 		match: "uniquecrops:treecutter",
 		timer: 20L

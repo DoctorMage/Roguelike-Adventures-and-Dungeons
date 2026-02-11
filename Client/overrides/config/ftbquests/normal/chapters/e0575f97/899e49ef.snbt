@@ -1,6 +1,13 @@
 {
+	title: "NOT A SACRIFICAL DAGGER!",
 	x: 8.5d,
 	y: 0.0d,
+	description: "THIS IS NOT A SACRIFICAL DAGGER!!!",
+	text: [
+		"This knife is only intended for getting bark!",
+		"",
+		"I trust you won't use it for stabbing or sacrifces right? RIGHT!?"
+	],
 	dependencies: [
 		"249e6fda"
 	],

@@ -1,9 +1,12 @@
 {
-	title: "[Place Holder Title]",
+	title: "Homemade Fertilizier",
 	x: -5.5d,
 	y: -2.5d,
+	description: "Should be legal?",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"Elemental soil acts as the base ingriedent to create more speciliazied soils that can provide certain effects.",
+		"",
+		"Elemental soil is also required to grow any of the 4 elemental crops those being Dewgonia, Stalicripe, Infernal bulb and Cloudberry."
 	],
 	dependencies: [
 		"53a2c6a0"
@@ -15,5 +18,15 @@
 			item: "roots:elemental_soil"
 		}],
 		count: 32L
+	}],
+	rewards: [{
+		uid: "fbf1f404",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "e7ea2a16",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

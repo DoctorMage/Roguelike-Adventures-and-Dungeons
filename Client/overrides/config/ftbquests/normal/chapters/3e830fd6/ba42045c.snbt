@@ -17,13 +17,7 @@
 		uid: "f15befef",
 		type: "observation",
 		title: "Gaze Upon A Weatherflesia",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "biomesoplenty:terrarium",
-			Damage: 1s
-		},
+		icon: "biomesoplenty:terrarium 1 1",
 		match_type: "block_id",
 		match: "uniquecrops:weatherflesia",
 		timer: 20L
@@ -32,10 +26,7 @@
 		uid: "88b11e4a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:pixelbrush"
+			item: "uniquecrops:pixelbrush"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -1,9 +1,14 @@
 {
-	title: "[Place Holder Title]",
-	x: 2.0d,
-	y: 3.5d,
+	title: "The Imposter",
+	x: 3.0d,
+	y: 2.5d,
+	description: "Let it impose some knowledge",
 	text: [
-		"[This quest will have a proper description and title in a future version]"
+		"Ever wanted your spells to be better or do more?",
+		"",
+		"Well my friend the Imposer is just for you.",
+		"",
+		"Insert your staff hit it with a knife and then explore the wonderful world of spell modification."
 	],
 	dependencies: [
 		"e84d2bdf",

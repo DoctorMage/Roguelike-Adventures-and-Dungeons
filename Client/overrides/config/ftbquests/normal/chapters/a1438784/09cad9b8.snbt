@@ -15,7 +15,8 @@
 		items: [{
 			item: "minecraft:sandstone"
 		}],
-		count: 49L
+		count: 49L,
+		consume_items: true
 	},
 	{
 		uid: "00a395d1",

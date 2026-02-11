@@ -12,9 +12,6 @@
 		uid: "0e0ff7f5",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "uniquecrops:emblem.bookworm",
 			tag: {
 				Quality: {}

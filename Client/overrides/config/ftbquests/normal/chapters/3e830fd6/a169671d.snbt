@@ -26,12 +26,7 @@
 		uid: "ad90a4d7",
 		type: "observation",
 		title: "Look At A Fascino",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:book"
-		},
+		icon: "minecraft:book",
 		match_type: "block_entity_id",
 		match: "uniquecrops:tilefascino",
 		timer: 20L

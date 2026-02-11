@@ -16,20 +16,13 @@
 		uid: "e99da44f",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "uniquecrops:generic",
-			Damage: 14s
+			item: "uniquecrops:generic 1 14"
 		}]
 	},
 	{
 		uid: "98e3ff6c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "uniquecrops:slippers",
 			tag: {
 				Quality: {}
