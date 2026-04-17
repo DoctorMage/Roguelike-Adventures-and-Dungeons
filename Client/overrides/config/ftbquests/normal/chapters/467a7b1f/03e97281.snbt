@@ -1,0 +1,54 @@
+{
+	title: "It's Like Printing My Own Trinkets",
+	x: 0.0d,
+	y: -7.0d,
+	description: "Well hopefully they arent made out of paper",
+	text: [
+		"After trading enough with Marauder they should give you certain unique materials",
+		"these materials can be used to make a variety of trinkets in a witchcraft table."
+	],
+	dependencies: [
+		"8d7fc66b"
+	],
+	tasks: [{
+		uid: "778545b3",
+		type: "item",
+		items: [{
+			item: "ancientbeasts:witchcraft_table"
+		}]
+	},
+	{
+		uid: "1ccd04de",
+		type: "item",
+		items: [{
+			item: "ancientbeasts:ancient_tablet"
+		}],
+		count: 5L
+	},
+	{
+		uid: "21e187a7",
+		type: "item",
+		items: [{
+			item: "ancientbeasts:broken_talisman"
+		}],
+		count: 5L
+	},
+	{
+		uid: "b2b1f997",
+		type: "item",
+		items: [{
+			item: "ancientbeasts:cloth"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "2d8082ff",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "353663ff",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

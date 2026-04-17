@@ -9,18 +9,12 @@
 		"I don't think trading books for a title will cut it."
 	],
 	tasks: [{
-		uid: "3b844b8a",
+		uid: "93e7fe22",
 		type: "item",
 		items: [{
-			id: "apotheosis:hellshelf",
-			tag: {
-				ench: [{
-					lvl: 10s,
-					id: 229
-				}]
-			}
+			item: "apotheosis:hellshelf"
 		}],
-		count: 9L,
+		count: 32L,
 		consume_items: true
 	}],
 	rewards: [{

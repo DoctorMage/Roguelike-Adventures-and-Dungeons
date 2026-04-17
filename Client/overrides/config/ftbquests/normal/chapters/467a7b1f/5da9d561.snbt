@@ -1,0 +1,173 @@
+{
+	title: "I Wonder If You Could Be",
+	x: 1.5d,
+	y: -8.0d,
+	description: "Invinicble",
+	text: [
+		"Lacking protection or need something to help when you get whacked?",
+		"",
+		"These trinkets are right up your ally."
+	],
+	dependencies: [
+		"03e97281"
+	],
+	tasks: [{
+		uid: "fce795b1",
+		type: "item",
+		items: [{
+			id: "ancientbeasts:irongrass",
+			tag: {
+				Quality: {
+					Name: "quality.flailing.name",
+					Color: "blue",
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: 0.029999999329447746d,
+						Operation: 2,
+						UUIDMost: 2998459318407547256L,
+						UUIDLeast: -7898009479170569775L,
+						AttributeName: "generic.attackSpeed"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a9ca0273",
+		type: "item",
+		items: [{
+			id: "ancientbeasts:protection_talisman",
+			tag: {
+				Quality: {
+					Name: "quality.armored.name",
+					Color: "blue",
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: 0.029999999329447746d,
+						Operation: 2,
+						UUIDMost: 640846179436547391L,
+						UUIDLeast: -5384646606622566139L,
+						AttributeName: "potioncore.damageResistance"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d8e70b3a",
+		type: "item",
+		items: [{
+			id: "ancientbeasts:agility_talon",
+			tag: {
+				Quality: {
+					Name: "quality.speedy.name",
+					Color: "blue",
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: 0.05000000074505806d,
+						Operation: 2,
+						UUIDMost: -380153955723293976L,
+						UUIDLeast: -8107623696929570354L,
+						AttributeName: "generic.movementSpeed"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "11234d07",
+		type: "item",
+		items: [{
+			id: "ancientbeasts:water_rune",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "083a3ad3",
+		type: "item",
+		items: [{
+			id: "ancientbeasts:heart_amulet",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b7a7ecc9",
+		type: "item",
+		items: [{
+			id: "ancientbeasts:heavy_rock",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "23a88225",
+		type: "item",
+		items: [{
+			id: "ancientbeasts:blazing_spring",
+			tag: {
+				Quality: {
+					Name: "quality.shielding.name",
+					Color: "blue",
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: 1.0d,
+						Operation: 0,
+						UUIDMost: -5415154553142818491L,
+						UUIDLeast: -5825093457242735151L,
+						AttributeName: "potioncore.magicShielding"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "15426f04",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "29dcd68c",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "40303712",
+		type: "random",
+		table: 12
+	}]
+}

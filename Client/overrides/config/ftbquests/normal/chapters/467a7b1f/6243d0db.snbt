@@ -14,10 +14,10 @@
 		uid: "c82c82a9",
 		type: "item",
 		items: [{
+			id: "ancientbeasts:ice_wand",
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
-			},
-			id: "ancientbeasts:ice_wand"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -26,10 +26,10 @@
 		uid: "7d5437c5",
 		type: "item",
 		items: [{
+			id: "ancientbeasts:ice_wand_red",
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
-			},
-			id: "ancientbeasts:ice_wand_red"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

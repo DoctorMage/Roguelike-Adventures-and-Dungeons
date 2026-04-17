@@ -22,10 +22,7 @@
 		uid: "6a4fe9b7",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "ancientbeasts:rifted_pearl"
+			item: "ancientbeasts:rifted_pearl"
 		}],
 		count: 8L
 	},
@@ -33,12 +30,12 @@
 		uid: "e32be24c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "minecraft:potion",
 			tag: {
 				Potion: "ancientbeasts:poison_rifted"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
 			}
 		}],
 		count: 3L

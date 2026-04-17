@@ -15,10 +15,10 @@
 		uid: "f21b9c82",
 		type: "item",
 		items: [{
+			id: "ancientbeasts:kunai",
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
-			},
-			id: "ancientbeasts:kunai"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

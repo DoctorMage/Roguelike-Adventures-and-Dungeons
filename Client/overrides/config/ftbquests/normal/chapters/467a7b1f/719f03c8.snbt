@@ -1,0 +1,134 @@
+{
+	title: "Dress Up Game",
+	x: -3.0d,
+	y: 5.5d,
+	description: "I prefer pink or light blue",
+	text: [
+		"If you ever get bored of your pet noddles outfit can always give her a new one.",
+		"",
+		"Just slap her in the face with some carpet (don't ask how it works) and see which you like best."
+	],
+	dependencies: [
+		"3667ee3d"
+	],
+	tasks: [{
+		uid: "bd03c9f6",
+		type: "item",
+		items: [{
+			item: "minecraft:carpet 1 14"
+		}]
+	},
+	{
+		uid: "0a36ddbe",
+		type: "item",
+		items: [{
+			item: "minecraft:carpet 1 1"
+		}]
+	},
+	{
+		uid: "e15608ef",
+		type: "item",
+		items: [{
+			item: "minecraft:carpet 1 4"
+		}]
+	},
+	{
+		uid: "219f755f",
+		type: "item",
+		items: [{
+			item: "minecraft:carpet 1 13"
+		}]
+	},
+	{
+		uid: "6ae902b5",
+		type: "item",
+		items: [{
+			item: "minecraft:carpet 1 5"
+		}]
+	},
+	{
+		uid: "5c68f4d5",
+		type: "item",
+		items: [{
+			item: "minecraft:carpet 1 11"
+		}]
+	},
+	{
+		uid: "02fe247c",
+		type: "item",
+		items: [{
+			item: "minecraft:carpet 1 9"
+		}]
+	},
+	{
+		uid: "854ad473",
+		type: "item",
+		items: [{
+			item: "minecraft:carpet 1 3"
+		}]
+	},
+	{
+		uid: "4627e7aa",
+		type: "item",
+		items: [{
+			item: "minecraft:carpet 1 10"
+		}]
+	},
+	{
+		uid: "089bdd42",
+		type: "item",
+		items: [{
+			item: "minecraft:carpet 1 2"
+		}]
+	},
+	{
+		uid: "989372c0",
+		type: "item",
+		items: [{
+			item: "minecraft:carpet 1 6"
+		}]
+	},
+	{
+		uid: "3e5d98de",
+		type: "item",
+		items: [{
+			item: "minecraft:carpet 1 12"
+		}]
+	},
+	{
+		uid: "b727986c",
+		type: "item",
+		items: [{
+			item: "minecraft:carpet 1 15"
+		}]
+	},
+	{
+		uid: "3ff7c197",
+		type: "item",
+		items: [{
+			item: "minecraft:carpet 1 7"
+		}]
+	},
+	{
+		uid: "f86df1f2",
+		type: "item",
+		items: [{
+			item: "minecraft:carpet"
+		}]
+	}],
+	rewards: [{
+		uid: "04d2fe67",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "07271253",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "3cba0e78",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

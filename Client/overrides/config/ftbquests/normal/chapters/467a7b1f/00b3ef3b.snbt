@@ -13,10 +13,10 @@
 		uid: "d4b4ae1d",
 		type: "item",
 		items: [{
+			id: "ancientbeasts:tough_glove",
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
-			},
-			id: "ancientbeasts:tough_glove"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

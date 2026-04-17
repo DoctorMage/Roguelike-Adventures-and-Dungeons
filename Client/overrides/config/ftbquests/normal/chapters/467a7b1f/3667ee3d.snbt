@@ -1,0 +1,32 @@
+{
+	title: "Pet Noddle",
+	x: -3.0d,
+	y: 4.5d,
+	description: "At what size can something not be considered a pet?",
+	text: [
+		"I feel like if you have a pet that big it should be paying you rent!",
+		"",
+		"Personal opinons aside you now have a large friend on your side I doubt anything wants to mess with you."
+	],
+	dependencies: [
+		"d22874ed"
+	],
+	tasks: [{
+		uid: "f0be1385",
+		type: "advancement",
+		title: "Tame A Sandmonster",
+		icon: "ancientbeasts:sandy_love",
+		advancement: "ancientbeasts:tame_sandmonster",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "870680d9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "41ce4d35",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "We've Have Come For You EXP",
+	x: 4.0d,
+	y: 2.5d,
+	description: "GET OUT OF MY SWAMP",
+	text: [
+		"These moderate size fellas love to suck on xp.",
+		"",
+		"If you want it back you gotta splat em or maybe you can use them to your advantage?"
+	],
+	tasks: [{
+		uid: "376e063a",
+		type: "kill",
+		title: "Splat Some Needlewings",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "ancientbeasts:xp_mosquito"
+				}
+			}
+		},
+		entity: "ancientbeasts:xp_mosquito",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "02ad25b9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8285a493",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

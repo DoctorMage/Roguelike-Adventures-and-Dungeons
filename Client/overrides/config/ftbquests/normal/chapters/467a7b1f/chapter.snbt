@@ -1,11 +1,6 @@
 {
 	title: "Beast Of The Ancient",
-	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
-		id: "ancientbeasts:logo"
-	},
+	icon: "ancientbeasts:logo_beast",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

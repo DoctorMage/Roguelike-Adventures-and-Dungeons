@@ -15,14 +15,14 @@
 		type: "observation",
 		title: "Observe A Frostash Fox",
 		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "minecraft:spawn_egg",
 			tag: {
 				EntityTag: {
 					id: "ancientbeasts:frostash_fox"
 				}
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
 			}
 		},
 		match_type: "entity_id",

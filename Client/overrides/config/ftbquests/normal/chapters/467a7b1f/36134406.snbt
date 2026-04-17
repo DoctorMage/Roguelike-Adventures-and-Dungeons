@@ -20,10 +20,10 @@
 		uid: "5d1de0a1",
 		type: "observation",
 		icon: {
+			id: "minecraft:barrier",
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:barrier"
+			}
 		},
 		match_type: "entity_id",
 		match: "ancientbeasts:damcell",

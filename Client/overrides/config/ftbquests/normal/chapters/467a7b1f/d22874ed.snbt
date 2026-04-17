@@ -14,12 +14,7 @@
 		uid: "ba2fed51",
 		type: "observation",
 		title: "Observe A Sandmonster",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "ancientbeasts:sandy_love"
-		},
+		icon: "minecraft:sand",
 		match_type: "entity_id",
 		match: "ancientbeasts:sandy",
 		timer: 20L

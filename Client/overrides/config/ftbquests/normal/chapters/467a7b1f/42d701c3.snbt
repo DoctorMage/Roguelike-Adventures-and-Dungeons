@@ -12,10 +12,10 @@
 		uid: "7beae697",
 		type: "item",
 		items: [{
+			id: "ancientbeasts:cactus_broth",
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
-			},
-			id: "ancientbeasts:cactus_broth"
+			}
 		}],
 		count: 16L
 	}],

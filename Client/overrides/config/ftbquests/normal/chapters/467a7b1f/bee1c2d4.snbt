@@ -16,10 +16,10 @@
 		uid: "8e99f48b",
 		type: "item",
 		items: [{
+			id: "ancientbeasts:vessel",
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
-			},
-			id: "ancientbeasts:vessel"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

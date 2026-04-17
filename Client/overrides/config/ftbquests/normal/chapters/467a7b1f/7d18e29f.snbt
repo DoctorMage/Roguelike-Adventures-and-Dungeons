@@ -1,0 +1,30 @@
+{
+	title: "That's A Strange...... Fruit",
+	x: 0.0d,
+	y: -3.5d,
+	description: "But not the strangest you'll see",
+	text: [
+		"A strange an almost alien fruit found on trees in the jungle.",
+		"",
+		"They seem to be constantly dripping some sort of liquid maybe you can gather it in some way?"
+	],
+	tasks: [{
+		uid: "296657a3",
+		type: "observation",
+		title: "Inspect A Strange Fruit",
+		icon: "ancientbeasts:hanging_leaves",
+		match_type: "block_id",
+		match: "ancientbeasts:hanging_leaves",
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "3165c2e3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0dce3b3e",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

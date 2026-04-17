@@ -1,0 +1,34 @@
+{
+	x: 0.0d,
+	y: -9.0d,
+	dependencies: [
+		"03e97281"
+	],
+	tasks: [{
+		uid: "1d44cfba",
+		type: "item",
+		items: [{
+			id: "ancientbeasts:wolf_amulet",
+			tag: {
+				Quality: {
+					Name: "quality.strengthening.name",
+					Color: "blue",
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: 0.029999999329447746d,
+						Operation: 2,
+						UUIDMost: 4675428097329350261L,
+						UUIDLeast: -9163413134572287103L,
+						AttributeName: "generic.attackDamage"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

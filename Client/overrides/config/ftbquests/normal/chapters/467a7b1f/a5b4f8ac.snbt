@@ -17,9 +17,6 @@
 		uid: "0e443acf",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ancientbeasts:miner_helmet",
 			tag: {
 				Quality: {
@@ -28,15 +25,18 @@
 					],
 					Color: "blue",
 					AttributeModifiers: [{
-						UUIDMost: 8112571301042277769L,
-						UUIDLeast: -6218189306899709794L,
 						Amount: 1.0d,
 						AttributeName: "generic.armorToughness",
 						Operation: 0,
+						UUIDMost: 8112571301042277769L,
+						UUIDLeast: -6218189306899709794L,
 						Name: "qualitytools"
 					}],
 					Name: "quality.tough.name"
 				}
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
 			}
 		}],
 		ignore_damage: true,

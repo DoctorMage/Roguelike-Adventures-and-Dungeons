@@ -1,0 +1,4 @@
+mods.jei.JEI.addDescription(<ancientspellcraft:battlemage_sword_master>,"If you find this unable to cast spells remove the most recent enchant added with a disenchanter.");
+mods.jei.JEI.addDescription(<ancientspellcraft:battlemage_sword_advanced>,"If you find this unable to cast spells remove the most recent enchant added with a disenchanter.");
+mods.jei.JEI.addDescription(<ancientspellcraft:battlemage_sword_apprentice>,"If you find this unable to cast spells remove the most recent enchant added with a disenchanter.");
+mods.jei.JEI.addDescription(<ancientspellcraft:battlemage_sword_novice>,"If you find this unable to cast spells remove the most recent enchant added with a disenchanter.");

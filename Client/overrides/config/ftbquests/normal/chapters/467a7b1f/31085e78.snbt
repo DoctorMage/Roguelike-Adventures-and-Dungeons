@@ -10,10 +10,10 @@
 		uid: "cb374a2e",
 		type: "item",
 		items: [{
+			id: "ancientbeasts:bestiary",
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
-			},
-			id: "ancientbeasts:bestiary"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

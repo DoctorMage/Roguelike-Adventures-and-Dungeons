@@ -16,10 +16,10 @@
 		uid: "0f5a224a",
 		type: "item",
 		items: [{
+			id: "ancientbeasts:ice_dart",
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
-			},
-			id: "ancientbeasts:ice_dart"
+			}
 		}],
 		count: 8L
 	},
@@ -27,11 +27,11 @@
 		uid: "9cc22437",
 		type: "item",
 		items: [{
+			id: "ancientbeasts:ice_dart",
+			Damage: 1s,
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
-			},
-			id: "ancientbeasts:ice_dart",
-			Damage: 1s
+			}
 		}],
 		count: 8L
 	}],

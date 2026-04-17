@@ -1,0 +1,133 @@
+{
+	title: "On The Offensive",
+	x: -0.5d,
+	y: -8.0d,
+	description: "Fight me if you dare!",
+	text: [
+		"If you like fighting these trinkets are the best for you they are primed and ready for combat."
+	],
+	dependencies: [
+		"03e97281"
+	],
+	tasks: [{
+		uid: "c0daf682",
+		type: "item",
+		items: [{
+			id: "ancientbeasts:blast_skull",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "70c7f759",
+		type: "item",
+		items: [{
+			id: "ancientbeasts:warriors_lock",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8e3c68c7",
+		type: "item",
+		items: [{
+			id: "ancientbeasts:mossy_whetstone",
+			tag: {
+				Quality: {
+					Name: "quality.prospecting.name",
+					Color: "blue",
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: 0.029999999329447746d,
+						Operation: 2,
+						UUIDMost: -7963136464100176286L,
+						UUIDLeast: -7707275658116081726L,
+						AttributeName: "potioncore.digSpeed"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c525a4c7",
+		type: "item",
+		items: [{
+			id: "ancientbeasts:traitors_blade",
+			tag: {
+				Quality: {
+					Name: "quality.punishing.name",
+					Color: "light_purple",
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: 0.029999999329447746d,
+						Operation: 2,
+						UUIDMost: -6309840549204898202L,
+						UUIDLeast: -6703179163551684786L,
+						AttributeName: "potioncore.projectileDamage"
+					},
+					{
+						Name: "qualitytools",
+						Amount: 0.029999999329447746d,
+						Operation: 2,
+						UUIDMost: -7185564477478451244L,
+						UUIDLeast: -5430640207546917644L,
+						AttributeName: "generic.attackDamage"
+					},
+					{
+						Name: "qualitytools",
+						Amount: 0.029999999329447746d,
+						Operation: 2,
+						UUIDMost: -5126896454617837657L,
+						UUIDLeast: -5313802038618532939L,
+						AttributeName: "potioncore.magicDamage"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f05c8bc9",
+		type: "item",
+		items: [{
+			id: "ancientbeasts:leech",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "32169dd2",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "e50aa4ca",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "4a32d217",
+		type: "random",
+		table: 12
+	}]
+}

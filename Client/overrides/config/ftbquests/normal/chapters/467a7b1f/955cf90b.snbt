@@ -14,14 +14,14 @@
 		type: "observation",
 		title: "Observe A Netherhound",
 		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "minecraft:spawn_egg",
 			tag: {
 				EntityTag: {
 					id: "ancientbeasts:netherhound"
 				}
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
 			}
 		},
 		match_type: "entity_id",

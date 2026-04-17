@@ -1,0 +1,40 @@
+{
+	title: "How Much Wood Could A Woodchuck Chuck",
+	x: 0.0d,
+	y: -5.0d,
+	description: "WAIT WE DON'T EVEN HAVE WOODCHUCKS",
+	text: [
+		"Sadly there's no woodchucks to toss this wood so you gotta do it yourself!",
+		"",
+		"After a while cauldrons can collect the juice from strange fruit which you can combine with wood to make cursed wood."
+	],
+	dependencies: [
+		"7d18e29f"
+	],
+	tasks: [{
+		uid: "836abb5a",
+		type: "item",
+		items: [{
+			item: "minecraft:cauldron"
+		}]
+	},
+	{
+		uid: "e86c201b",
+		type: "item",
+		icon: "ancientbeasts:cursed_wood",
+		items: [{
+			item: "ancientbeasts:cursed_wood"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "a68d87d3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b610c6ab",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -15,10 +15,10 @@
 		uid: "d0a956a2",
 		type: "item",
 		items: [{
+			id: "ancientbeasts:dark_goop",
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
-			},
-			id: "ancientbeasts:dark_goop"
+			}
 		}],
 		count: 5L
 	},
@@ -26,12 +26,12 @@
 		uid: "228f857d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "minecraft:potion",
 			tag: {
 				Potion: "ancientbeasts:potion_undead"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
 			}
 		}],
 		count: 3L

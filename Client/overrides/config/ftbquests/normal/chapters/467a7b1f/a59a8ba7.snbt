@@ -10,10 +10,10 @@
 		uid: "a6f77190",
 		type: "item",
 		items: [{
+			id: "ancientbeasts:stick_wall",
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
-			},
-			id: "ancientbeasts:stick_wall"
+			}
 		}],
 		count: 64L
 	}],

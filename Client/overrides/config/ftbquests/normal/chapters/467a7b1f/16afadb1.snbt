@@ -1,0 +1,117 @@
+{
+	title: "The Support",
+	x: 0.5d,
+	y: -8.0d,
+	description: "Why would anyone willingly be a support?",
+	text: [
+		"If you don't like fighting and prefer others to do it for you theses trinkets are just for you."
+	],
+	dependencies: [
+		"03e97281"
+	],
+	tasks: [{
+		uid: "6a3e596e",
+		type: "item",
+		items: [{
+			id: "ancientbeasts:wisp_locket",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "42a07709",
+		type: "item",
+		items: [{
+			id: "ancientbeasts:tamers_charm",
+			tag: {
+				Quality: {
+					Name: "quality.lucky.name",
+					Color: "blue",
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: 0.20000000298023224d,
+						Operation: 0,
+						UUIDMost: -826694431288835631L,
+						UUIDLeast: -6511851942789829994L,
+						AttributeName: "generic.luck"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3bcf8f2c",
+		type: "item",
+		items: [{
+			id: "ancientbeasts:dream_catcher",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ff7eff12",
+		type: "item",
+		items: [{
+			id: "ancientbeasts:hunters_eye",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8027e39c",
+		type: "item",
+		items: [{
+			id: "ancientbeasts:telekinesis",
+			tag: {
+				Quality: {
+					Name: "quality.lucky.name",
+					Color: "blue",
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: 0.20000000298023224d,
+						Operation: 0,
+						UUIDMost: -3617052608816659609L,
+						UUIDLeast: -6623982126701553185L,
+						AttributeName: "generic.luck"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1fb5c189",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "7b430b0c",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "0cade140",
+		type: "random",
+		table: 12
+	}]
+}

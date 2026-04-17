@@ -1,10 +1,10 @@
 {
 	title: "Snake Skin Garments",
 	icon: {
+		id: "ancientbeasts:sandmonster_scale",
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {}
-		},
-		id: "ancientbeasts:sandmonster_scale"
+		}
 	},
 	x: -3.0d,
 	y: 1.5d,
@@ -23,12 +23,12 @@
 		uid: "5d7800eb",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ancientbeasts:scale_hood",
 			tag: {
 				Quality: {}
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
 			}
 		}],
 		ignore_damage: true,
@@ -38,12 +38,12 @@
 		uid: "60b8b42c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ancientbeasts:scale_armor",
 			tag: {
 				Quality: {}
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
 			}
 		}],
 		ignore_damage: true,

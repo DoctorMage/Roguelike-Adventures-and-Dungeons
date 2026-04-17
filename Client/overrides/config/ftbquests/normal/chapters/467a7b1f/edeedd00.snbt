@@ -2,7 +2,7 @@
 	title: "Casper The Unfriendly Ghost",
 	x: -2.5d,
 	y: -1.0d,
-	description: "And friends",
+	description: "And enemies",
 	text: [
 		"These fiends will resurrect undead to assit them while fighting.",
 		"",
@@ -13,14 +13,14 @@
 		type: "kill",
 		title: "Slay Some Nekros",
 		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "minecraft:spawn_egg",
 			tag: {
 				EntityTag: {
 					id: "ancientbeasts:nekros"
 				}
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
 			}
 		},
 		entity: "ancientbeasts:nekros",

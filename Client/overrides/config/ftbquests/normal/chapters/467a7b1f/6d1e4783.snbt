@@ -15,10 +15,10 @@
 		uid: "e5a33c34",
 		type: "item",
 		items: [{
+			id: "ancientbeasts:shield_book",
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
-			},
-			id: "ancientbeasts:shield_book"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
