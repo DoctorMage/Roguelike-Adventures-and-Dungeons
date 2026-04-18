@@ -128,5 +128,20 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ee7bc376",
+		type: "random",
+		table: 63
+	},
+	{
+		uid: "ad2250db",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "eefcdc80",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

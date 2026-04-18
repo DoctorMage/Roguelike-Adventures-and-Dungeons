@@ -82,10 +82,6 @@ rh(<prefab:item_monster_masher>);
 rh(<ancientbeasts:pokey>);
 rh(<ancientbeasts:skewer>);
 
-//#End Reborn
-rh(<endreborn:armour_helmet_dragon>);
-rh(<endreborn:armour_helmet_helmet>);
-
 //#Erebus
 rh(<erebus:rhino_exoskeleton_helmet>);
 rh(<erebus:glider_chestplate>);

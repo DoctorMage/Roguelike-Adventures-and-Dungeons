@@ -1,6 +1,15 @@
 {
+	title: "With This Sacred Amulet",
 	x: 0.0d,
 	y: -9.0d,
+	description: "The Divine Hound Barghest",
+	text: [
+		"When this amulet is triggered it summons a legendary beast.",
+		"",
+		"Wether it will assist you or not? ",
+		"",
+		"Why don't you test and see!"
+	],
 	dependencies: [
 		"03e97281"
 	],
@@ -19,16 +28,26 @@
 					],
 					AttributeModifiers: [{
 						Name: "qualitytools",
-						Amount: 0.029999999329447746d,
+						AttributeName: "generic.attackDamage",
 						Operation: 2,
 						UUIDMost: 4675428097329350261L,
 						UUIDLeast: -9163413134572287103L,
-						AttributeName: "generic.attackDamage"
+						Amount: 0.029999999329447746d
 					}]
 				}
 			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fc23a402",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0c5dfddb",
+		type: "xp_levels",
+		xp_levels: 5
 	}]
 }

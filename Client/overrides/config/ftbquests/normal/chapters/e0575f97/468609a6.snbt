@@ -94,5 +94,20 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "479b295b",
+		type: "random",
+		table: 12
+	},
+	{
+		uid: "562e112b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0e5f86f9",
+		type: "xp_levels",
+		xp_levels: 10
 	}]
 }
