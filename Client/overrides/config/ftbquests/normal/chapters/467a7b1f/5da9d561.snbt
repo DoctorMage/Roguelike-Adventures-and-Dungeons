@@ -1,6 +1,6 @@
 {
 	title: "I Wonder If You Could Be",
-	x: 1.5d,
+	x: 1.0d,
 	y: -8.0d,
 	description: "Invinicble",
 	text: [
@@ -26,11 +26,11 @@
 					],
 					AttributeModifiers: [{
 						Name: "qualitytools",
-						Amount: 0.029999999329447746d,
+						AttributeName: "generic.attackSpeed",
 						Operation: 2,
 						UUIDMost: 2998459318407547256L,
 						UUIDLeast: -7898009479170569775L,
-						AttributeName: "generic.attackSpeed"
+						Amount: 0.029999999329447746d
 					}]
 				}
 			}
@@ -53,11 +53,11 @@
 					],
 					AttributeModifiers: [{
 						Name: "qualitytools",
-						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.damageResistance",
 						Operation: 2,
 						UUIDMost: 640846179436547391L,
 						UUIDLeast: -5384646606622566139L,
-						AttributeName: "potioncore.damageResistance"
+						Amount: 0.029999999329447746d
 					}]
 				}
 			}
@@ -80,11 +80,11 @@
 					],
 					AttributeModifiers: [{
 						Name: "qualitytools",
-						Amount: 0.05000000074505806d,
+						AttributeName: "generic.movementSpeed",
 						Operation: 2,
 						UUIDMost: -380153955723293976L,
 						UUIDLeast: -8107623696929570354L,
-						AttributeName: "generic.movementSpeed"
+						Amount: 0.05000000074505806d
 					}]
 				}
 			}
@@ -143,11 +143,11 @@
 					],
 					AttributeModifiers: [{
 						Name: "qualitytools",
-						Amount: 1.0d,
+						AttributeName: "potioncore.magicShielding",
 						Operation: 0,
 						UUIDMost: -5415154553142818491L,
 						UUIDLeast: -5825093457242735151L,
-						AttributeName: "potioncore.magicShielding"
+						Amount: 1.0d
 					}]
 				}
 			}

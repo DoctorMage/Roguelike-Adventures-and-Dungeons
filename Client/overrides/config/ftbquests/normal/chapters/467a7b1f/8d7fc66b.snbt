@@ -1,7 +1,7 @@
 {
 	title: "I Think Blue Dots Are It's Eyes",
-	x: 0.0d,
-	y: -6.0d,
+	x: -0.5d,
+	y: -5.5d,
 	description: "They don't speak much so I have no idea",
 	text: [
 		"The marauders are a friendly bunch you can find them and there tribes in jungle.",

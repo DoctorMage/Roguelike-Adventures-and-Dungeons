@@ -1,7 +1,7 @@
 {
-	title: "With This Sacred Amulet",
-	x: 0.0d,
-	y: -9.0d,
+	title: "With This Sacred Amulet I Summon",
+	x: -0.5d,
+	y: -9.5d,
 	description: "The Divine Hound Barghest",
 	text: [
 		"When this amulet is triggered it summons a legendary beast.",
@@ -28,11 +28,11 @@
 					],
 					AttributeModifiers: [{
 						Name: "qualitytools",
-						AttributeName: "generic.attackDamage",
+						Amount: 0.029999999329447746d,
 						Operation: 2,
 						UUIDMost: 4675428097329350261L,
 						UUIDLeast: -9163413134572287103L,
-						Amount: 0.029999999329447746d
+						AttributeName: "generic.attackDamage"
 					}]
 				}
 			}

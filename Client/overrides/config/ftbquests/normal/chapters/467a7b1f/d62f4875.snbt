@@ -1,7 +1,7 @@
 {
 	title: "On The Offensive",
-	x: -0.5d,
-	y: -8.0d,
+	x: -1.5d,
+	y: -9.0d,
 	description: "Fight me if you dare!",
 	text: [
 		"If you like fighting these trinkets are the best for you they are primed and ready for combat."
@@ -48,11 +48,11 @@
 					],
 					AttributeModifiers: [{
 						Name: "qualitytools",
-						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.digSpeed",
 						Operation: 2,
 						UUIDMost: -7963136464100176286L,
 						UUIDLeast: -7707275658116081726L,
-						AttributeName: "potioncore.digSpeed"
+						Amount: 0.029999999329447746d
 					}]
 				}
 			}
@@ -75,27 +75,27 @@
 					],
 					AttributeModifiers: [{
 						Name: "qualitytools",
-						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.projectileDamage",
 						Operation: 2,
 						UUIDMost: -6309840549204898202L,
 						UUIDLeast: -6703179163551684786L,
-						AttributeName: "potioncore.projectileDamage"
+						Amount: 0.029999999329447746d
 					},
 					{
 						Name: "qualitytools",
-						Amount: 0.029999999329447746d,
+						AttributeName: "generic.attackDamage",
 						Operation: 2,
 						UUIDMost: -7185564477478451244L,
 						UUIDLeast: -5430640207546917644L,
-						AttributeName: "generic.attackDamage"
+						Amount: 0.029999999329447746d
 					},
 					{
 						Name: "qualitytools",
-						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.magicDamage",
 						Operation: 2,
 						UUIDMost: -5126896454617837657L,
 						UUIDLeast: -5313802038618532939L,
-						AttributeName: "potioncore.magicDamage"
+						Amount: 0.029999999329447746d
 					}]
 				}
 			}

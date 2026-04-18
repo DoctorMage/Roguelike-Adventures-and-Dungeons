@@ -1,6 +1,6 @@
 {
 	title: "Frost Foxy",
-	x: 1.0d,
+	x: 0.5d,
 	y: 2.5d,
 	description: "Cute as a cold",
 	text: [

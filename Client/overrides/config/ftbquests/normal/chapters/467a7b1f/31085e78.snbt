@@ -1,6 +1,6 @@
 {
 	title: "Book Of Ancient Creatures",
-	x: 0.0d,
+	x: -0.5d,
 	y: 0.0d,
 	description: "At least it has pictures",
 	text: [

@@ -1,7 +1,7 @@
 {
 	title: "The Support",
 	x: 0.5d,
-	y: -8.0d,
+	y: -9.0d,
 	description: "Why would anyone willingly be a support?",
 	text: [
 		"If you don't like fighting and prefer others to do it for you theses trinkets are just for you."
@@ -36,11 +36,11 @@
 					],
 					AttributeModifiers: [{
 						Name: "qualitytools",
-						Amount: 0.20000000298023224d,
+						AttributeName: "generic.luck",
 						Operation: 0,
 						UUIDMost: -826694431288835631L,
 						UUIDLeast: -6511851942789829994L,
-						AttributeName: "generic.luck"
+						Amount: 0.20000000298023224d
 					}]
 				}
 			}
@@ -87,11 +87,11 @@
 					],
 					AttributeModifiers: [{
 						Name: "qualitytools",
-						Amount: 0.20000000298023224d,
+						AttributeName: "generic.luck",
 						Operation: 0,
 						UUIDMost: -3617052608816659609L,
 						UUIDLeast: -6623982126701553185L,
-						AttributeName: "generic.luck"
+						Amount: 0.20000000298023224d
 					}]
 				}
 			}

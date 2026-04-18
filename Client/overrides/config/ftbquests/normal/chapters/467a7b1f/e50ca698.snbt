@@ -1,6 +1,6 @@
 {
 	title: "Bad Doggy",
-	x: 2.0d,
+	x: 1.5d,
 	y: 1.5d,
 	description: "What did the dog do?",
 	text: [
@@ -22,19 +22,19 @@
 					Color: "yellow",
 					AttributeModifiers: [{
 						Amount: -0.05000000074505806d,
-						AttributeName: "generic.movementSpeed",
+						Name: "qualitytools",
 						Operation: 2,
 						UUIDMost: -3965626619303999217L,
 						UUIDLeast: -7164265267628875582L,
-						Name: "qualitytools"
+						AttributeName: "generic.movementSpeed"
 					},
 					{
 						Amount: 0.5d,
-						AttributeName: "generic.armor",
+						Name: "qualitytools",
 						Operation: 0,
 						UUIDMost: 6665658186811654846L,
 						UUIDLeast: -9092002135372491459L,
-						Name: "qualitytools"
+						AttributeName: "generic.armor"
 					}],
 					Name: "quality.thick.name"
 				}

@@ -1,6 +1,6 @@
 {
 	title: "That's A Strange...... Fruit",
-	x: 0.0d,
+	x: -0.5d,
 	y: -3.5d,
 	description: "But not the strangest you'll see",
 	text: [

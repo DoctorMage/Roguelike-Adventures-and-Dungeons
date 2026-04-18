@@ -1,6 +1,6 @@
 {
 	title: "The Forgotten Circus",
-	x: -2.0d,
+	x: -2.5d,
 	y: 2.5d,
 	description: "It pulls it's own strings",
 	text: [

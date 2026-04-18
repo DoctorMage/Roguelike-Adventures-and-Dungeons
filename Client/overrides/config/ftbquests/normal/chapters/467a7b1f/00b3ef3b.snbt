@@ -1,6 +1,6 @@
 {
 	title: "Knuckle Sandwhich",
-	x: -1.0d,
+	x: -1.5d,
 	y: 1.5d,
 	description: "Punching is the easiest way to solve lifes problems",
 	text: [

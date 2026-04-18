@@ -26,11 +26,11 @@
 					Color: "blue",
 					AttributeModifiers: [{
 						Amount: 1.0d,
-						AttributeName: "generic.armorToughness",
+						Name: "qualitytools",
 						Operation: 0,
 						UUIDMost: 8112571301042277769L,
 						UUIDLeast: -6218189306899709794L,
-						Name: "qualitytools"
+						AttributeName: "generic.armorToughness"
 					}],
 					Name: "quality.tough.name"
 				}

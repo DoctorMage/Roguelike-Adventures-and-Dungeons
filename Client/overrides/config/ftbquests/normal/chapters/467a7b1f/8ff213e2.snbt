@@ -1,7 +1,7 @@
 {
 	title: "How Much Wood Could A Woodchuck Chuck",
-	x: 0.0d,
-	y: -5.0d,
+	x: -0.5d,
+	y: -4.5d,
 	description: "WAIT WE DON'T EVEN HAVE WOODCHUCKS",
 	text: [
 		"Sadly there's no woodchucks to toss this wood so you gotta do it yourself!",

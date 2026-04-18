@@ -1,6 +1,6 @@
 {
 	title: "Utility Belt",
-	x: -1.5d,
+	x: -2.0d,
 	y: -8.0d,
 	description: "Who needs it when you have these",
 	text: [
@@ -24,19 +24,19 @@
 					],
 					AttributeModifiers: [{
 						Name: "qualitytools",
-						Amount: 0.05000000074505806d,
+						AttributeName: "generic.movementSpeed",
 						Operation: 2,
 						UUIDMost: -4400068599674615802L,
 						UUIDLeast: -6984743837068545937L,
-						AttributeName: "generic.movementSpeed"
+						Amount: 0.05000000074505806d
 					},
 					{
 						Name: "qualitytools",
-						Amount: 0.5d,
+						AttributeName: "potioncore.jumpHeight",
 						Operation: 0,
 						UUIDMost: -4038878720197901392L,
 						UUIDLeast: -6804205444041339707L,
-						AttributeName: "potioncore.jumpHeight"
+						Amount: 0.5d
 					}]
 				}
 			}
@@ -71,11 +71,11 @@
 					],
 					AttributeModifiers: [{
 						Name: "qualitytools",
-						AttributeName: "generic.luck",
+						Amount: 0.20000000298023224d,
 						Operation: 0,
 						UUIDMost: 1877238762985245666L,
 						UUIDLeast: -8161428051401655624L,
-						Amount: 0.20000000298023224d
+						AttributeName: "generic.luck"
 					}]
 				}
 			}
@@ -98,19 +98,19 @@
 					],
 					AttributeModifiers: [{
 						Name: "qualitytools",
-						AttributeName: "generic.movementSpeed",
+						Amount: 0.05000000074505806d,
 						Operation: 2,
 						UUIDMost: -3578705143418238565L,
 						UUIDLeast: -7279822135276267176L,
-						Amount: 0.05000000074505806d
+						AttributeName: "generic.movementSpeed"
 					},
 					{
 						Name: "qualitytools",
-						AttributeName: "potioncore.jumpHeight",
+						Amount: 0.5d,
 						Operation: 0,
 						UUIDMost: -5701610899904052634L,
 						UUIDLeast: -7652677591219753923L,
-						Amount: 0.5d
+						AttributeName: "potioncore.jumpHeight"
 					}]
 				}
 			}
@@ -133,19 +133,19 @@
 					],
 					AttributeModifiers: [{
 						Name: "qualitytools",
-						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.digSpeed",
 						Operation: 2,
 						UUIDMost: 3999465650190370420L,
 						UUIDLeast: -5589547400204609137L,
-						AttributeName: "potioncore.digSpeed"
+						Amount: 0.029999999329447746d
 					},
 					{
 						Name: "qualitytools",
-						Amount: 0.029999999329447746d,
+						AttributeName: "generic.attackSpeed",
 						Operation: 2,
 						UUIDMost: 7235464250287081872L,
 						UUIDLeast: -4749655180678867977L,
-						AttributeName: "generic.attackSpeed"
+						Amount: 0.029999999329447746d
 					}]
 				}
 			}

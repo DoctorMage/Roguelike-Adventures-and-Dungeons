@@ -1,7 +1,7 @@
 {
 	title: "It's Like Printing My Own Trinkets",
-	x: 0.0d,
-	y: -7.0d,
+	x: -0.5d,
+	y: -6.5d,
 	description: "Well hopefully they arent made out of paper",
 	text: [
 		"After trading enough with Marauder they should give you certain unique materials",

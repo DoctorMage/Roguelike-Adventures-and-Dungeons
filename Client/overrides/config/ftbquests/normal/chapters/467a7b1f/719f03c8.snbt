@@ -1,6 +1,6 @@
 {
 	title: "Dress Up Game",
-	x: -3.0d,
+	x: -3.5d,
 	y: 5.5d,
 	description: "I prefer pink or light blue",
 	text: [

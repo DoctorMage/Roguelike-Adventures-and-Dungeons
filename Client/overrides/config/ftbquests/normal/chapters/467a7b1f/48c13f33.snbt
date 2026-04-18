@@ -1,6 +1,6 @@
 {
 	title: "Serpent Slayer",
-	x: -3.0d,
+	x: -3.5d,
 	y: 2.5d,
 	description: "Be ware of danger noddles",
 	text: [

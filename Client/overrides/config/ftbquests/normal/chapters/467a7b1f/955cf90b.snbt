@@ -1,6 +1,6 @@
 {
 	title: "Hotdogs",
-	x: 2.0d,
+	x: 1.5d,
 	y: 2.5d,
 	description: "There bite is worse than there bark",
 	text: [
