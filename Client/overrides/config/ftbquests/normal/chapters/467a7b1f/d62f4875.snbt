@@ -48,11 +48,11 @@
 					],
 					AttributeModifiers: [{
 						Name: "qualitytools",
-						AttributeName: "potioncore.digSpeed",
+						Amount: 0.029999999329447746d,
 						Operation: 2,
 						UUIDMost: -7963136464100176286L,
 						UUIDLeast: -7707275658116081726L,
-						Amount: 0.029999999329447746d
+						AttributeName: "potioncore.digSpeed"
 					}]
 				}
 			}
@@ -75,27 +75,27 @@
 					],
 					AttributeModifiers: [{
 						Name: "qualitytools",
-						AttributeName: "potioncore.projectileDamage",
+						Amount: 0.029999999329447746d,
 						Operation: 2,
 						UUIDMost: -6309840549204898202L,
 						UUIDLeast: -6703179163551684786L,
-						Amount: 0.029999999329447746d
+						AttributeName: "potioncore.projectileDamage"
 					},
 					{
 						Name: "qualitytools",
-						AttributeName: "generic.attackDamage",
+						Amount: 0.029999999329447746d,
 						Operation: 2,
 						UUIDMost: -7185564477478451244L,
 						UUIDLeast: -5430640207546917644L,
-						Amount: 0.029999999329447746d
+						AttributeName: "generic.attackDamage"
 					},
 					{
 						Name: "qualitytools",
-						AttributeName: "potioncore.magicDamage",
+						Amount: 0.029999999329447746d,
 						Operation: 2,
 						UUIDMost: -5126896454617837657L,
 						UUIDLeast: -5313802038618532939L,
-						Amount: 0.029999999329447746d
+						AttributeName: "potioncore.magicDamage"
 					}]
 				}
 			}
@@ -110,6 +110,33 @@
 			id: "ancientbeasts:leech",
 			tag: {
 				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4d47819d",
+		type: "item",
+		items: [{
+			id: "ancientbeasts:glass_shard",
+			tag: {
+				Quality: {
+					Name: "quality.aiming.name",
+					Color: "blue",
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: 0.029999999329447746d,
+						Operation: 2,
+						UUIDMost: -4611912037694290472L,
+						UUIDLeast: -6241575272911770741L,
+						AttributeName: "potioncore.projectileDamage"
+					}]
+				}
 			}
 		}],
 		ignore_damage: true,
