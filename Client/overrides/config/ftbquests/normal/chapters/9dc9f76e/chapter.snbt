@@ -3,5 +3,16 @@
 	icon: "minecraft:grass",
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: -17.5d,
+		y: -3.0d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "assets:randomstuff/guidebook.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

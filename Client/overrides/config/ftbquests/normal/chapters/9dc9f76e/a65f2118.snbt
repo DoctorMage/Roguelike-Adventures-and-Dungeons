@@ -1,0 +1,16 @@
+{
+	title: "Read Me",
+	x: -17.0d,
+	y: -2.5d,
+	description: "For when a quest is not enough",
+	text: [
+		"Certain mods or mechanics are explained more in depth inside the guidebook.",
+		"",
+		"You can locate it in the top leftside of the screen to the left of the quest book."
+	],
+	tasks: [{
+		uid: "19a174af",
+		type: "checkmark",
+		icon: "minecraft:writable_book"
+	}]
+}
