@@ -14,11 +14,6 @@ recipes.remove(<apotheosis:fishing_rod_book>);
 recipes.remove(<apotheosis:bow_book>);
 recipes.remove(<apotheosis:scrap_tome>);
 
-//Aroma
-recipes.remove(<aroma1997sdimension:dimensionchanger>);
-recipes.remove(<aroma1997sdimension:miningmultitool>);
-recipes.remove(<aroma1997sdimension:portalframe>);
-
 //# BBOP
 recipes.removeByRecipeName("biomesoplenty:amber");
 recipes.removeByRecipeName("biomesoplenty:amber_block");
