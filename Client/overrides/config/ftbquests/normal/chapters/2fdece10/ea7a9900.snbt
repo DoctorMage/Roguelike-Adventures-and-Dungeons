@@ -1,0 +1,111 @@
+{
+	x: 41.5d,
+	y: -3.0d,
+	dependencies: [
+		"cb9ece66"
+	],
+	tasks: [{
+		uid: "3e02b651",
+		type: "item",
+		items: [{
+			id: "spartannetherite:warhammer_netherite",
+			tag: {
+				Quality: {
+					Name: "quality.chipped.name",
+					Color: "red",
+					Slots: [
+						"mainhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: -0.05000000074505806d,
+						Operation: 2,
+						UUIDMost: -6197792229430702933L,
+						UUIDLeast: -8980938045938101125L,
+						AttributeName: "generic.attackSpeed"
+					},
+					{
+						Name: "qualitytools",
+						Amount: -0.05000000074505806d,
+						Operation: 2,
+						UUIDMost: 7263539516543878087L,
+						UUIDLeast: -7766215015348052033L,
+						AttributeName: "generic.attackDamage"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "86628e34",
+		type: "item",
+		items: [{
+			id: "spartannetherite:hammer_netherite",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "38bbe38e",
+		type: "item",
+		items: [{
+			id: "spartannetherite:battleaxe_netherite",
+			tag: {
+				Quality: {
+					Name: "quality.chipped.name",
+					Color: "red",
+					Slots: [
+						"mainhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: -0.05000000074505806d,
+						Operation: 2,
+						UUIDMost: 4370825416324500112L,
+						UUIDLeast: -5049340887094374398L,
+						AttributeName: "generic.attackSpeed"
+					},
+					{
+						Name: "qualitytools",
+						Amount: -0.05000000074505806d,
+						Operation: 2,
+						UUIDMost: -1449097917814191394L,
+						UUIDLeast: -4685507027987371349L,
+						AttributeName: "generic.attackDamage"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "539e8162",
+		type: "item",
+		items: [{
+			item: "spartannetherite:mace_netherite"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2da413a6",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "5e908cbe",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "54c5475f",
+		type: "loot",
+		table: 12
+	}]
+}

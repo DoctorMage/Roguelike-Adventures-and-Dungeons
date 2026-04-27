@@ -1,0 +1,212 @@
+{
+	x: 41.5d,
+	y: -6.0d,
+	dependencies: [
+		"cb9ece66"
+	],
+	tasks: [{
+		uid: "3f4a1389",
+		type: "item",
+		items: [{
+			id: "spartannetherite:spear_netherite",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "50aec9eb",
+		type: "item",
+		items: [{
+			id: "spartannetherite:pike_netherite",
+			tag: {
+				Quality: {
+					Name: "quality.broken.name",
+					Color: "dark_gray",
+					Slots: [
+						"mainhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: -0.15000000596046448d,
+						Operation: 2,
+						UUIDMost: 1567618580074217516L,
+						UUIDLeast: -8672230709560535665L,
+						AttributeName: "generic.attackDamage"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2ed479d7",
+		type: "item",
+		items: [{
+			id: "spartannetherite:lance_netherite",
+			tag: {
+				Quality: {
+					Name: "quality.pokey.name",
+					Color: "yellow",
+					Slots: [
+						"mainhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: -0.10000000149011612d,
+						Operation: 2,
+						UUIDMost: 6003085303037839085L,
+						UUIDLeast: -5934346153685054047L,
+						AttributeName: "potioncore.digSpeed"
+					},
+					{
+						Name: "qualitytools",
+						Amount: 0.05000000074505806d,
+						Operation: 2,
+						UUIDMost: -6563434800058382561L,
+						UUIDLeast: -8937749935589227667L,
+						AttributeName: "generic.attackDamage"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b605b3f5",
+		type: "item",
+		items: [{
+			id: "spartannetherite:halberd_netherite",
+			tag: {
+				Quality: {
+					Name: "quality.vicious.name",
+					Color: "yellow",
+					Slots: [
+						"mainhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: 0.15000000596046448d,
+						Operation: 2,
+						UUIDMost: 8499749519764311562L,
+						UUIDLeast: -5506237965722152797L,
+						AttributeName: "generic.attackDamage"
+					},
+					{
+						Name: "qualitytools",
+						Amount: -0.5d,
+						Operation: 0,
+						UUIDMost: -3157650003631846880L,
+						UUIDLeast: -6000898429106795532L,
+						AttributeName: "generic.reachDistance"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "053b1374",
+		type: "item",
+		items: [{
+			id: "spartannetherite:staff_netherite",
+			tag: {
+				Quality: {
+					Name: "quality.worthless.name",
+					Color: "dark_red",
+					Slots: [
+						"mainhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: -0.10000000149011612d,
+						Operation: 2,
+						UUIDMost: -4733676243263074732L,
+						UUIDLeast: -6056774801316115259L,
+						AttributeName: "potioncore.digSpeed"
+					},
+					{
+						Name: "qualitytools",
+						Amount: -0.10000000149011612d,
+						Operation: 2,
+						UUIDMost: -2666018227211579899L,
+						UUIDLeast: -5461892285277231708L,
+						AttributeName: "generic.attackSpeed"
+					},
+					{
+						Name: "qualitytools",
+						Amount: -0.10000000149011612d,
+						Operation: 2,
+						UUIDMost: 8989508309363084860L,
+						UUIDLeast: -9093489923801376980L,
+						AttributeName: "generic.attackDamage"
+					},
+					{
+						Name: "qualitytools",
+						Amount: -1.0d,
+						Operation: 0,
+						UUIDMost: -2768895159636114327L,
+						UUIDLeast: -5302671569902761811L,
+						AttributeName: "generic.reachDistance"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "874e4d07",
+		type: "item",
+		items: [{
+			id: "spartannetherite:glaive_netherite",
+			tag: {
+				Quality: {
+					Name: "quality.chipped.name",
+					Color: "red",
+					Slots: [
+						"mainhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: -0.05000000074505806d,
+						Operation: 2,
+						UUIDMost: 6630543091928551149L,
+						UUIDLeast: -4903430258675783340L,
+						AttributeName: "generic.attackSpeed"
+					},
+					{
+						Name: "qualitytools",
+						Amount: -0.05000000074505806d,
+						Operation: 2,
+						UUIDMost: 295095221218724629L,
+						UUIDLeast: -5777843129226727741L,
+						AttributeName: "generic.attackDamage"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "63310f06",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "2fa5a0fb",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "777b66fd",
+		type: "loot",
+		table: 12
+	}]
+}

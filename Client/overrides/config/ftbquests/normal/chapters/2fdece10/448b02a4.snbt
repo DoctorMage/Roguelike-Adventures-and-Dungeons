@@ -1,0 +1,178 @@
+{
+	x: 42.0d,
+	y: -5.0d,
+	dependencies: [
+		"cb9ece66"
+	],
+	tasks: [{
+		uid: "51409bba",
+		type: "item",
+		items: [{
+			id: "spartannetherite:katana_netherite",
+			tag: {
+				Quality: {
+					Name: "quality.legendary.name",
+					Color: "light_purple",
+					Slots: [
+						"mainhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: 0.10000000149011612d,
+						Operation: 2,
+						UUIDMost: 1211072897426671729L,
+						UUIDLeast: -6477735280050685202L,
+						AttributeName: "potioncore.digSpeed"
+					},
+					{
+						Name: "qualitytools",
+						Amount: 0.10000000149011612d,
+						Operation: 2,
+						UUIDMost: -8508257126384712930L,
+						UUIDLeast: -7066739126864026587L,
+						AttributeName: "generic.attackSpeed"
+					},
+					{
+						Name: "qualitytools",
+						Amount: 0.15000000596046448d,
+						Operation: 2,
+						UUIDMost: -7420032102270219906L,
+						UUIDLeast: -5587549289280848827L,
+						AttributeName: "generic.attackDamage"
+					},
+					{
+						Name: "qualitytools",
+						Amount: 0.5d,
+						Operation: 0,
+						UUIDMost: 5368105535678922926L,
+						UUIDLeast: -8783615455437736144L,
+						AttributeName: "generic.reachDistance"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5cb4ab34",
+		type: "item",
+		items: [{
+			id: "spartannetherite:greatsword_netherite",
+			tag: {
+				Quality: {
+					Name: "quality.sharp.name",
+					Color: "blue",
+					Slots: [
+						"mainhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: 0.10000000149011612d,
+						Operation: 2,
+						UUIDMost: -8264648621447821265L,
+						UUIDLeast: -6631314213941183225L,
+						AttributeName: "generic.attackDamage"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e6023f91",
+		type: "item",
+		items: [{
+			id: "spartannetherite:longsword_netherite",
+			tag: {
+				Quality: {
+					Name: "quality.thin.name",
+					Color: "yellow",
+					Slots: [
+						"mainhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: 0.10000000149011612d,
+						Operation: 2,
+						UUIDMost: 1732739894321233950L,
+						UUIDLeast: -4940746311745393540L,
+						AttributeName: "generic.attackSpeed"
+					},
+					{
+						Name: "qualitytools",
+						Amount: -0.05000000074505806d,
+						Operation: 2,
+						UUIDMost: 6476500645907941976L,
+						UUIDLeast: -8601092937966183493L,
+						AttributeName: "generic.attackDamage"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f1852287",
+		type: "item",
+		items: [{
+			id: "spartannetherite:saber_netherite",
+			tag: {
+				Quality: {
+					Name: "quality.rusted.name",
+					Color: "red",
+					Slots: [
+						"mainhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: -0.10000000149011612d,
+						Operation: 2,
+						UUIDMost: -7136623276991430170L,
+						UUIDLeast: -6981915853973259763L,
+						AttributeName: "potioncore.digSpeed"
+					},
+					{
+						Name: "qualitytools",
+						Amount: -0.10000000149011612d,
+						Operation: 2,
+						UUIDMost: -7921221366320381657L,
+						UUIDLeast: -4717812270436764224L,
+						AttributeName: "generic.attackDamage"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2da72492",
+		type: "item",
+		items: [{
+			id: "spartannetherite:rapier_netherite",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1bbaff9c",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "0bf6c8d1",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "ebb48e9f",
+		type: "loot",
+		table: 12
+	}]
+}

@@ -1,0 +1,147 @@
+{
+	x: 42.0d,
+	y: -4.0d,
+	dependencies: [
+		"cb9ece66"
+	],
+	tasks: [{
+		uid: "e19b5733",
+		type: "item",
+		items: [{
+			id: "spartannetherite:dagger_netherite",
+			tag: {
+				Quality: {
+					Name: "quality.broad.name",
+					Color: "yellow",
+					Slots: [
+						"mainhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: -0.05000000074505806d,
+						Operation: 2,
+						UUIDMost: 3020338560595216023L,
+						UUIDLeast: -8373235332227449992L,
+						AttributeName: "potioncore.digSpeed"
+					},
+					{
+						Name: "qualitytools",
+						Amount: -0.05000000074505806d,
+						Operation: 2,
+						UUIDMost: 2504652305329635833L,
+						UUIDLeast: -9000717482927403506L,
+						AttributeName: "generic.attackSpeed"
+					},
+					{
+						Name: "qualitytools",
+						Amount: 0.10000000149011612d,
+						Operation: 2,
+						UUIDMost: -2764988346874247788L,
+						UUIDLeast: -5809136654947466551L,
+						AttributeName: "generic.attackDamage"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "82942f45",
+		type: "item",
+		items: [{
+			id: "spartannetherite:throwing_axe_netherite",
+			tag: {
+				AmmoUsed: 0,
+				enchChecked: 1b,
+				UUIDMost: 6550480253301638078L,
+				UUIDLeast: -5592890032889464931L,
+				Original: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2c4df02c",
+		type: "item",
+		items: [{
+			id: "spartannetherite:throwing_knife_netherite",
+			tag: {
+				AmmoUsed: 0,
+				enchChecked: 1b,
+				UUIDMost: 8953999939150106104L,
+				UUIDLeast: -4776613678910474055L,
+				Original: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "eb7bca27",
+		type: "item",
+		items: [{
+			id: "spartannetherite:longbow_netherite",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e0de3c2c",
+		type: "item",
+		items: [{
+			id: "spartannetherite:crossbow_netherite",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e583f941",
+		type: "item",
+		items: [{
+			id: "spartannetherite:javelin_netherite",
+			tag: {
+				AmmoUsed: 0,
+				enchChecked: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2769e986",
+		type: "item",
+		items: [{
+			id: "spartannetherite:boomerang_netherite",
+			tag: {
+				AmmoUsed: 0,
+				enchChecked: 1b,
+				UUIDMost: -7071692546095494061L,
+				UUIDLeast: -6960176922547616729L,
+				Original: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6ba9bcc4",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "41ce143e",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "8882e833",
+		type: "loot",
+		table: 12
+	}]
+}

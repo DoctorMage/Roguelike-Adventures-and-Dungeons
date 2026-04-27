@@ -1,0 +1,21 @@
+{
+	x: 40.5d,
+	y: -4.5d,
+	tasks: [{
+		uid: "583aed84",
+		type: "item",
+		items: [{
+			item: "futuremc:netherite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "2a8a2654",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "d6c4fe0c",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}
