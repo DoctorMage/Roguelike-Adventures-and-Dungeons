@@ -28,10 +28,10 @@
 		ignore_nbt: 1b
 	},
 	{
-		uid: "51db4469",
+		uid: "87b4d326",
 		type: "item",
 		items: [{
-			item: "tombstone:familiar_receptacle"
+			item: "tombstone:receptacle_of_familiar"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

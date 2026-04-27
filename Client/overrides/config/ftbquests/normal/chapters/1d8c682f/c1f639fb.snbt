@@ -12,10 +12,10 @@
 		"d6d462e3"
 	],
 	tasks: [{
-		uid: "9c856aa5",
+		uid: "7beb0d60",
 		type: "item",
 		items: [{
-			item: "tombstone:soul_receptacle"
+			item: "tombstone:receptacle_of_soul"
 		}]
 	}],
 	rewards: [{

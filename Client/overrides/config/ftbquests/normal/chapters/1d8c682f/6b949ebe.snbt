@@ -15,10 +15,10 @@
 	],
 	size: 1.5d,
 	tasks: [{
-		uid: "3e4f9648",
+		uid: "231a2257",
 		type: "item",
 		items: [{
-			item: "tombstone:ankh_of_pray"
+			item: "tombstone:ankh_of_prayer"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
