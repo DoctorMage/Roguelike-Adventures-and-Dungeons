@@ -1,0 +1,71 @@
+{
+	title: "Enchanted Tool Reward",
+	icon: "minecraft:diamond_pickaxe",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "minecraft:diamond_pickaxe",
+			tag: {
+				ench: [{
+					id: 33,
+					lvl: 1s
+				},
+				{
+					id: 32,
+					lvl: 5s
+				}],
+				Quality: {},
+				"Quark:RuneColor": 9,
+				display: {
+					Name: "Dwarf's Gentle Touch Pickaxe"
+				},
+				"Quark:RuneAttached": 1b,
+				"Quark:ItemNameDye": 6
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:diamond_pickaxe",
+			tag: {
+				ench: [{
+					id: 35,
+					lvl: 3s
+				},
+				{
+					id: 32,
+					lvl: 3s
+				}],
+				Quality: {},
+				"Quark:RuneColor": 2,
+				display: {
+					Name: "Lucky Dwarf Pickaxe"
+				},
+				"Quark:RuneAttached": 1b,
+				"Quark:ItemNameDye": 13
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:diamond_pickaxe",
+			tag: {
+				"Quark:ItemNameDye": 7,
+				Quality: {},
+				"Quark:RuneColor": 8,
+				display: {
+					Name: "Reinforced Dwarf Pickaxe"
+				},
+				"Quark:RuneAttached": 1b,
+				ench: [{
+					id: 34,
+					lvl: 5
+				},
+				{
+					id: 32,
+					lvl: 5s
+				}]
+			}
+		}
+	}]
+}

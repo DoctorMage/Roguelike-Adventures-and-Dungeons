@@ -4,7 +4,7 @@
 	y: -1.0d,
 	description: "There's a reason its called forbidden knowledge",
 	text: [
-		"Hellshelves are direct upgrades to regulars bookshelves allowing for higher enchanting levels to be reached"
+		"Hellshelves are direct upgrades to regulars bookshelves allowing for higher enchanting levels to be reached."
 	],
 	dependencies: [
 		"aaac6e3c"

@@ -10,7 +10,7 @@
 		"",
 		"In order to do so, the appropriate material for the item must be placed in the bottom slot, and the item in the top slot.",
 		"",
-		"If the item does not have a corresponding repair or reforging material, you will need to use a Nether Star to reroll the Quality of the item."
+		"If the item does not have a corresponding repair or reforging material, you will need to use a Universal Reforge Token to reroll the Quality of the item."
 	],
 	dependencies: [
 		"ed20823b"
