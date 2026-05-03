@@ -37,5 +37,10 @@
 		uid: "715809ae",
 		type: "ftbmoney:money",
 		ftb_money: 75L
+	},
+	{
+		uid: "5731b5bd",
+		type: "choice",
+		table: 56
 	}]
 }

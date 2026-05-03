@@ -72,8 +72,8 @@
 		ftb_money: 50L
 	},
 	{
-		uid: "c4e2d2e0",
+		uid: "6ef38fc5",
 		type: "choice",
-		table: 66
+		table: 56
 	}]
 }

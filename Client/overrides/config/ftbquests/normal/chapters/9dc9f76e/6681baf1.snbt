@@ -10,14 +10,11 @@
 	y: -3.0d,
 	description: "Start your adventure TODAY!",
 	text: [
-		"Don't want to waste time mining just to get some basic gear click the checkmark to complete this quest!",
+		"Don't want to waste time mining just to get some basic gear click the checkmark to complete this quest.",
 		"",
-		"Collect your reward by selecting a crate of STARTING GEAR which contain armour, weapon(s) and food to help you start out.",
+		"Collect your reward by selecting a crate of starting gear which contain armour, weapon(s) and food.",
 		"",
-		"You can select from a variety of STARTING GEARS to help you start out.",
-		"",
-		"§7Psst if you wanna see whats inside of them before selecting type out the gears name in jei on the left ",
-		"§7then right click the crate."
+		"You can select from a variety of gears."
 	],
 	dependencies: [
 		"35def456"
