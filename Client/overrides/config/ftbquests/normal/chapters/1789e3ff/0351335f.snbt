@@ -31,5 +31,10 @@
 		uid: "f1475eb4",
 		type: "ftbmoney:money",
 		ftb_money: 100L
+	},
+	{
+		uid: "db6cd6be",
+		type: "choice",
+		table: 66
 	}]
 }

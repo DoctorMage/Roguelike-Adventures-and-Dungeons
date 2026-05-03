@@ -42,8 +42,8 @@
 		ftb_money: 30L
 	},
 	{
-		uid: "cda71b71",
+		uid: "b398dd52",
 		type: "choice",
-		table: 56
+		table: 66
 	}]
 }

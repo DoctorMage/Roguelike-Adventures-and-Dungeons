@@ -18,20 +18,6 @@
 		dim: -52
 	}],
 	rewards: [{
-		uid: "9247debd",
-		type: "item",
-		item: {
-			id: "minecraft:diamond_pickaxe",
-			tag: {
-				ench: [{
-					lvl: 3s,
-					id: 35
-				}],
-				Quality: {}
-			}
-		}
-	},
-	{
 		uid: "c0756d89",
 		type: "random",
 		table: 19
@@ -45,5 +31,10 @@
 		uid: "df273361",
 		type: "ftbmoney:money",
 		ftb_money: 200L
+	},
+	{
+		uid: "2b31c084",
+		type: "choice",
+		table: 65
 	}]
 }
