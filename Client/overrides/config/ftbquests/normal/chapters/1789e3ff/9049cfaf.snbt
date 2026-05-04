@@ -14,10 +14,10 @@
 		type: "advancement",
 		title: "Reach Diamond Miner Rank",
 		icon: {
+			id: "minecraft:diamond_pickaxe",
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:diamond_pickaxe"
+			}
 		},
 		advancement: "cavern:diamond_miner",
 		criterion: ""
@@ -36,5 +36,66 @@
 		uid: "154a2eb7",
 		type: "ftbmoney:money",
 		ftb_money: 250L
+	},
+	{
+		uid: "38d42962",
+		type: "item",
+		item: {
+			id: "cyclicmagic:emerald_pickaxe",
+			tag: {
+				"Quark:ItemNameDye": 13,
+				Quality: {
+					Name: "Relic",
+					Color: "gold",
+					Slots: [
+						"mainhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						UUIDMost: -6223372060624009763L,
+						UUIDLeast: -6539130594287807508L,
+						Amount: 0.20000000298023224d
+					},
+					{
+						Name: "qualitytools",
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						UUIDMost: 6366892797834446404L,
+						UUIDLeast: -5975556688415360644L,
+						Amount: 0.20000000298023224d
+					},
+					{
+						Name: "qualitytools",
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						UUIDMost: -4727339913803906204L,
+						UUIDLeast: -6622023939062589134L,
+						Amount: 3.0d
+					}]
+				},
+				"Quark:RuneColor": 16,
+				display: {
+					Name: "Karl's Trusty Pickaxe",
+					Lore: [
+						"A pickaxe that said to belong to Karl now passed down to you"
+					]
+				},
+				"Quark:RuneAttached": 1b,
+				ench: [{
+					id: 32,
+					lvl: 5s
+				},
+				{
+					id: 34,
+					lvl: 5
+				},
+				{
+					id: 35,
+					lvl: 5
+				}]
+			}
+		}
 	}]
 }

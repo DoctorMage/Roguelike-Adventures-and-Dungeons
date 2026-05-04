@@ -1,0 +1,71 @@
+{
+	title: "Epic Enchanted Tools",
+	icon: "minecraft:diamond_pickaxe",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "minecraft:diamond_pickaxe",
+			tag: {
+				"Quark:ItemNameDye": 13,
+				Quality: {},
+				"Quark:RuneColor": 2,
+				display: {
+					Name: "Dwarf's Gentle Touch Pick"
+				},
+				"Quark:RuneAttached": 1b,
+				ench: [{
+					id: 32,
+					lvl: 5s
+				},
+				{
+					id: 33,
+					lvl: 1s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:diamond_pickaxe",
+			tag: {
+				ench: [{
+					id: 32,
+					lvl: 3s
+				},
+				{
+					id: 35,
+					lvl: 3s
+				}],
+				Quality: {},
+				"Quark:RuneColor": 5,
+				display: {
+					Name: "Dwarf's Lucky Pick"
+				},
+				"Quark:RuneAttached": 1b,
+				"Quark:ItemNameDye": 10
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:diamond_pickaxe",
+			tag: {
+				ench: [{
+					id: 32,
+					lvl: 5s
+				},
+				{
+					id: 34,
+					lvl: 3s
+				}],
+				Quality: {},
+				"Quark:RuneColor": 9,
+				display: {
+					Name: "Dwarf's Reinforced Pick"
+				},
+				"Quark:RuneAttached": 1b,
+				"Quark:ItemNameDye": 6
+			}
+		}
+	}]
+}

@@ -89,5 +89,10 @@
 		uid: "0d9cf910",
 		type: "ftbmoney:money",
 		ftb_money: 200L
+	},
+	{
+		uid: "2e2b5c85",
+		type: "choice",
+		table: 67
 	}]
 }

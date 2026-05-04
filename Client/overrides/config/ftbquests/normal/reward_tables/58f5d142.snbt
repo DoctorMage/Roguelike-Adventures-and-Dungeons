@@ -1,0 +1,50 @@
+{
+	title: "Basic Enchanted Tools",
+	icon: "minecraft:diamond_pickaxe",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "minecraft:diamond_pickaxe",
+			tag: {
+				Quality: {},
+				ench: [{
+					id: 33,
+					lvl: 1s
+				}],
+				display: {
+					Name: "Delicate Toch Pickaxe"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:diamond_pickaxe",
+			tag: {
+				Quality: {},
+				display: {
+					Name: "Durable Pickaxe"
+				},
+				ench: [{
+					id: 34,
+					lvl: 3s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:diamond_pickaxe",
+			tag: {
+				Quality: {},
+				display: {
+					Name: "Pickaxe Of Prosperity"
+				},
+				ench: [{
+					id: 35,
+					lvl: 3s
+				}]
+			}
+		}
+	}]
+}
